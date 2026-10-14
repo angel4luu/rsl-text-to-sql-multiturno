@@ -1,0 +1,11 @@
+campo,codigo,estudios,pct
+historial_eval,PREDICHO,31,43.1
+historial_eval,NR,20,27.8
+historial_eval,SOLO_PREGUNTAS,19,26.4
+historial_eval,GOLD,5,6.9
+degradacion_reportada,SI,38,52.8
+degradacion_reportada,NO,34,47.2
+errores_join_reportados,NO,62,86.1
+errores_join_reportados,SI,10,13.9
+contaminacion_discutida,NO,65,90.3
+contaminacion_discutida,SI,7,9.7

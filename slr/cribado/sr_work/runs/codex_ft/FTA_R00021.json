@@ -1,0 +1,1 @@
+{"label": "FTA:R00021@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00021", "d": "include", "code": "INC", "why": "Novel schema exploration and retrieval with execution-driven SQL correction, quantitatively evaluated on Spider 2.0-Snow and BIRD.", "where": "p1 Abstract; p5 §3.3; pp6–8 §§4.1–4.2"}], "source": "codex:gpt-6.1-sol"}

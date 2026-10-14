@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00920@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00920",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn SQL-extension semantic parser with dialogue state tracking, Yelp conversation dataset, per-turn accuracy and HybridQA results.",
+   "where": "p4 Section 4 (Conversational Agent); p8 Section 6.2 and Table 5"
+  }
+ ],
+ "source": "cli:FTB_R00920.json"
+}

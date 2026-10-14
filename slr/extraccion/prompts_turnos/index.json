@@ -1,0 +1,314 @@
+[
+ {
+  "label": "TURNOS:R00019",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00019.txt",
+  "model": "codex",
+  "ids": [
+   "R00019"
+  ]
+ },
+ {
+  "label": "TURNOS:R00030",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00030.txt",
+  "model": "codex",
+  "ids": [
+   "R00030"
+  ]
+ },
+ {
+  "label": "TURNOS:R00035",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00035.txt",
+  "model": "codex",
+  "ids": [
+   "R00035"
+  ]
+ },
+ {
+  "label": "TURNOS:R00042",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00042.txt",
+  "model": "codex",
+  "ids": [
+   "R00042"
+  ]
+ },
+ {
+  "label": "TURNOS:R00074",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00074.txt",
+  "model": "codex",
+  "ids": [
+   "R00074"
+  ]
+ },
+ {
+  "label": "TURNOS:R00079",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00079.txt",
+  "model": "codex",
+  "ids": [
+   "R00079"
+  ]
+ },
+ {
+  "label": "TURNOS:R00084",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00084.txt",
+  "model": "codex",
+  "ids": [
+   "R00084"
+  ]
+ },
+ {
+  "label": "TURNOS:R00093",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00093.txt",
+  "model": "codex",
+  "ids": [
+   "R00093"
+  ]
+ },
+ {
+  "label": "TURNOS:R00096",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00096.txt",
+  "model": "codex",
+  "ids": [
+   "R00096"
+  ]
+ },
+ {
+  "label": "TURNOS:R00097",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00097.txt",
+  "model": "codex",
+  "ids": [
+   "R00097"
+  ]
+ },
+ {
+  "label": "TURNOS:R00099",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00099.txt",
+  "model": "codex",
+  "ids": [
+   "R00099"
+  ]
+ },
+ {
+  "label": "TURNOS:R00100",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00100.txt",
+  "model": "codex",
+  "ids": [
+   "R00100"
+  ]
+ },
+ {
+  "label": "TURNOS:R00107",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00107.txt",
+  "model": "codex",
+  "ids": [
+   "R00107"
+  ]
+ },
+ {
+  "label": "TURNOS:R00110",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00110.txt",
+  "model": "codex",
+  "ids": [
+   "R00110"
+  ]
+ },
+ {
+  "label": "TURNOS:R00117",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00117.txt",
+  "model": "codex",
+  "ids": [
+   "R00117"
+  ]
+ },
+ {
+  "label": "TURNOS:R00120",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00120.txt",
+  "model": "codex",
+  "ids": [
+   "R00120"
+  ]
+ },
+ {
+  "label": "TURNOS:R00126",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00126.txt",
+  "model": "codex",
+  "ids": [
+   "R00126"
+  ]
+ },
+ {
+  "label": "TURNOS:R00131",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00131.txt",
+  "model": "codex",
+  "ids": [
+   "R00131"
+  ]
+ },
+ {
+  "label": "TURNOS:R00170",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00170.txt",
+  "model": "codex",
+  "ids": [
+   "R00170"
+  ]
+ },
+ {
+  "label": "TURNOS:R00288",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00288.txt",
+  "model": "codex",
+  "ids": [
+   "R00288"
+  ]
+ },
+ {
+  "label": "TURNOS:R00309",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00309.txt",
+  "model": "codex",
+  "ids": [
+   "R00309"
+  ]
+ },
+ {
+  "label": "TURNOS:R00370",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00370.txt",
+  "model": "codex",
+  "ids": [
+   "R00370"
+  ]
+ },
+ {
+  "label": "TURNOS:R00373",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00373.txt",
+  "model": "codex",
+  "ids": [
+   "R00373"
+  ]
+ },
+ {
+  "label": "TURNOS:R00374",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00374.txt",
+  "model": "codex",
+  "ids": [
+   "R00374"
+  ]
+ },
+ {
+  "label": "TURNOS:R00435",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00435.txt",
+  "model": "codex",
+  "ids": [
+   "R00435"
+  ]
+ },
+ {
+  "label": "TURNOS:R00450",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00450.txt",
+  "model": "codex",
+  "ids": [
+   "R00450"
+  ]
+ },
+ {
+  "label": "TURNOS:R00482",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00482.txt",
+  "model": "codex",
+  "ids": [
+   "R00482"
+  ]
+ },
+ {
+  "label": "TURNOS:R00491",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00491.txt",
+  "model": "codex",
+  "ids": [
+   "R00491"
+  ]
+ },
+ {
+  "label": "TURNOS:R00499",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00499.txt",
+  "model": "codex",
+  "ids": [
+   "R00499"
+  ]
+ },
+ {
+  "label": "TURNOS:R00511",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00511.txt",
+  "model": "codex",
+  "ids": [
+   "R00511"
+  ]
+ },
+ {
+  "label": "TURNOS:R00524",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00524.txt",
+  "model": "codex",
+  "ids": [
+   "R00524"
+  ]
+ },
+ {
+  "label": "TURNOS:R00525",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00525.txt",
+  "model": "codex",
+  "ids": [
+   "R00525"
+  ]
+ },
+ {
+  "label": "TURNOS:R00868",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00868.txt",
+  "model": "codex",
+  "ids": [
+   "R00868"
+  ]
+ },
+ {
+  "label": "TURNOS:R00936",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00936.txt",
+  "model": "codex",
+  "ids": [
+   "R00936"
+  ]
+ },
+ {
+  "label": "TURNOS:R00950",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00950.txt",
+  "model": "codex",
+  "ids": [
+   "R00950"
+  ]
+ },
+ {
+  "label": "TURNOS:R00994",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R00994.txt",
+  "model": "codex",
+  "ids": [
+   "R00994"
+  ]
+ },
+ {
+  "label": "TURNOS:R01029",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R01029.txt",
+  "model": "codex",
+  "ids": [
+   "R01029"
+  ]
+ },
+ {
+  "label": "TURNOS:R01031",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R01031.txt",
+  "model": "codex",
+  "ids": [
+   "R01031"
+  ]
+ },
+ {
+  "label": "TURNOS:R01037",
+  "prompt_file": "slr/extraccion/prompts_turnos/T_R01037.txt",
+  "model": "codex",
+  "ids": [
+   "R01037"
+  ]
+ }
+]

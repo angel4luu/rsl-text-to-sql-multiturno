@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00908@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00908",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round user-feedback SQL correction over relational DBs, evaluated quantitatively on Spider and an in-house dataset; 2025 English EDBT paper.",
+   "where": "p4-6 Sections 3 (FISQL) and 4 (Evaluation, Results, Tables 2-3, Figure 8)"
+  }
+ ],
+ "source": "cli:FTA_R00908.json"
+}

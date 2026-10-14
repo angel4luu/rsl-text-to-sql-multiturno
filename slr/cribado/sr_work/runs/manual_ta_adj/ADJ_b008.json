@@ -1,0 +1,12 @@
+{
+ "label": "ADJ:b008@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00359",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-question clarification; core is selection among candidate SQL queries, possibly central"
+  }
+ ],
+ "source_transcript": "agent-a9c9ea8d1fe673f35.jsonl"
+}

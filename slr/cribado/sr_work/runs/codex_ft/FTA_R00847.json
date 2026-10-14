@@ -1,0 +1,1 @@
+{"label": "FTA:R00847@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00847", "d": "exclude", "code": "E8", "why": "Single-turn Onto-Linking evaluation uses 579 course exercises; no public benchmark is evaluated.", "where": "p9, §5.2 Experimental results, Table 3"}], "source": "codex:gpt-6.1-sol"}

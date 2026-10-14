@@ -1,0 +1,5 @@
+# pdflatex + biber, stop on first error, SyncTeX for editor jump-to-source
+$pdf_mode = 1;
+$pdflatex = 'pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -synctex=1 %O %S';
+$biber = 'biber %O %S';
+$bibtex_use = 2;

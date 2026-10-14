@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00360@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00360",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn system; evaluated only on seven custom business queries (smoke tests) against anonymised baseline agents, no public benchmark.",
+   "where": "p1 Abstract and Contributions; p4-5 Section 5 Experimental Evaluation, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00360.json"
+}

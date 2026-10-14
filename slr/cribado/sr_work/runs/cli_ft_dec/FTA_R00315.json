@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00315@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00315",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL centred on schema linking and correction, with execution accuracy reported on the public BIRD benchmark.",
+   "where": "p1 Abstract; p3-4 Experimental Setup (3.1 Datasets, 3.4 Metrics)"
+  }
+ ],
+ "source": "cli:FTA_R00315.json"
+}

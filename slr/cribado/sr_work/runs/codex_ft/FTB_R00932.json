@@ -1,0 +1,1 @@
+{"label": "FTB:R00932@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00932", "d": "include", "code": "INC", "why": "Novel Transformer-based schema linking is a central contribution, with quantitative evaluation on public Spider benchmarks.", "where": "pp1–2 Abstract; p12 §5.2 Datasets; p13 §6.1 Results"}], "source": "codex:gpt-6.1-sol"}

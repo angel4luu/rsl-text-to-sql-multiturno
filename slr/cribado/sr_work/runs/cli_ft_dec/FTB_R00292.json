@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00292@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00292",
+   "d": "include",
+   "code": "INC",
+   "why": "Zero-shot ChatGPT Text-to-SQL evaluated quantitatively on public benchmarks, including multi-turn SParC and CoSQL (arXiv 2023).",
+   "where": "p3-4 Section 3.2 Main Experiment, Table 4 (SParC/CoSQL); p1-2 Section 2 Method, Figure 1 multi-turn prompt"
+  }
+ ],
+ "source": "cli:FTB_R00292.json"
+}

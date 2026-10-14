@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00155@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00155",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; schema linking with abstention is central; evaluated quantitatively on public BIRD and Spider benchmarks (2025).",
+   "where": "p1 Abstract; p2 Introduction; p10-11 Sections 4.2-4.3, Tables 2-7"
+  }
+ ],
+ "source": "cli:FTB_R00155.json"
+}

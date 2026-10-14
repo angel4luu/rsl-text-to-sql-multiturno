@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00585@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00585",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn SQL verification by LLM juries, evaluated only on a self-built 82-query e-commerce dataset, not a public benchmark.",
+   "where": "p3-4 Sections III-B and III-C (Database Schema, Query Dataset); p1 Abstract"
+  }
+ ],
+ "source": "cli:FTB_R00585.json"
+}

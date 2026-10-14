@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00498@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00498",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn NL2SQL (schema retrieval central) evaluated only on proprietary enterprise audience data; no public benchmark used.",
+   "where": "p5-6 Section IV.A Evaluation Dataset; p6 Tables III-VI"
+  }
+ ],
+ "source": "cli:FTA_R00498.json"
+}

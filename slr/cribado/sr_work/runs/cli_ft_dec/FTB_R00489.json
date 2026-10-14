@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00489@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00489",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn, but execution-feedback repair and schema-linking rewards are central. Evaluated quantitatively on the public BIRD dev set.",
+   "where": "p1 Abstract; p2-3 Introduction; p9-10 Sections 4.1 and 5.1, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00489.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00506@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00506",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification dialogue on one standalone ambiguous question (single-turn); no schema-linking or self-correction contribution",
+   "where": "p1-2 Abstract and Sec 1.2; p4-5 Sec 2 ask-then-solve protocol; p6 Sec 3 AmbiTab"
+  }
+ ],
+ "source": "cli:FTB_R00506.json"
+}

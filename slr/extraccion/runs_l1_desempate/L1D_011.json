@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00858\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00864\",\"extraccion\":{\"requiere_entrenamiento\":\"NR\"}},{\"id_estudio\":\"R00867\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00886\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00915\",\"extraccion\":{\"pi3_inferencia_joins\":\"IMPLICITA_MODELO\"}},{\"id_estudio\":\"R00945\",\"extraccion\":{\"requiere_entrenamiento\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_011"
+}

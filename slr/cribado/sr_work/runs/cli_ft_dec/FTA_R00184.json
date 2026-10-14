@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00184@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00184",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL; execution-based self-correction is a stated contribution; quantitative evaluation on public BIRD Mini Dev (61.6% EX).",
+   "where": "p1 Abstract; p2 Contributions; p5 §6.5 and §8.1; p6 Results, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00184.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00450@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00450",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn voice Text-to-SQL with constraint-slot context retention, multi-turn stability metric, quantitative evaluation on own benchmark; arXiv preprint.",
+   "where": "p3 Sec 3.2 (context retention); p4-5 Sec 4.3-4.4 (Multi-turn Stability, Tables 1-3)"
+  }
+ ],
+ "source": "cli:FTA_R00450.json"
+}

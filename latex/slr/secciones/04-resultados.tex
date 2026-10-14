@@ -1,0 +1,94 @@
+\section{Resultados}
+\label{sec:resultados}
+
+\subsection{Selección de estudios}
+\label{sec:res-seleccion}
+% PRISMA ítems 16a (selección de estudios) y 16b (estudios excluidos)
+
+\input{figuras/tex/prisma_flujo}
+
+La \cref{fig:prisma_flujo} presenta el flujo de la selección. En el brazo de bases de datos se identificaron \nIdentificados{} registros en las \nBases{} fuentes y se eliminaron \nDuplicados{} duplicados, de modo que se cribaron \nCribados{} títulos y resúmenes. El cribado excluyó \nExcluidosCribado{} registros y se buscaron \nBuscados{} informes, de los cuales \nNoRecuperados{} no pudieron recuperarse. Se evaluaron \nEvaluados{} informes a texto completo, se excluyeron \nExcluidosTexto{} y se incluyeron \nIncluidosBases{} estudios.
+
+El brazo de otros métodos partió de \nBolaSemillas{} estudios semilla del Nivel 2 y aportó \nBolaCandOA{} registros de OpenAlex y \nBolaCandSS{} de Semantic Scholar. Tras eliminar 1 duplicado se cribaron 292 registros, de los que se excluyeron 204. Se buscaron 85 informes, 27 no se recuperaron, 58 se evaluaron a texto completo y 17 se excluyeron, con \nIncluidosBola{} estudios incluidos. El corpus final suma \nEstudios{} estudios, de los cuales \nMultiturno{} son multiturno y \nUnTurno{} son de un turno (las ejecuciones de extracción de la \cref{tab:ia} suman más por los estudios reclasificados; \cref{sec:met-extraccion}).
+% fuente: prisma_conteos.json
+
+Los motivos de exclusión se registraron por código. En el cribado de título y resumen del brazo de bases predominó E6 (212 de los \nExcluidosCribado{}; estudio de un turno sin la vinculación de esquemas o la autocorrección como contribución central), seguido de E5 (108; no es Text-to-SQL sobre bases de datos relacionales) y E1 (43; publicado antes de 2019). En texto completo predominaron E6 (42 informes) y E8 (23; estudio de un turno sin evaluación en un \en{benchmark} público), seguidos de E5 (6 informes), E7 (4; sin evaluación empírica cuantitativa) y E9 (4; informe secundario de un estudio ya incluido). En el brazo de otros métodos, E6 fue el motivo de 173 exclusiones en el cribado y de 15 en texto completo. La lista de informes excluidos a texto completo, con su motivo, se incluye en el \cref{app:excluidos}.
+% fuente: prisma_conteos.json
+
+Los informes no recuperados fueron \nNoRecuperados{} en el brazo de bases y 27 en el de otros métodos. Se describen por escenario en la \cref{sec:res-caracteristicas}.
+% fuente: prisma_conteos.json
+
+\subsection{Características de los estudios}
+\label{sec:res-caracteristicas}
+% PRISMA ítems 17 (características de los estudios) y 20a (características por síntesis)
+
+\input{figuras/tex/pi0_anio_escenario}
+
+La \cref{fig:pi0_anio_escenario} muestra los \nEstudios{} estudios por año de publicación y escenario. En 2019 se publicaron 9 estudios, 3 de ellos multiturno. En 2025 fueron 101, con 13 multiturno y 88 de un turno. En 2026, año parcial por la fecha de la búsqueda, se contabilizan 139 estudios: 18 multiturno y 121 de un turno.
+% fuente: PI0.md, pi0_anio_escenario.csv
+
+Por tipo de publicación, 146 estudios son \en{preprints}, 91 son congresos con clasificación CORE A* y 34 son artículos de revista del primer cuartil. El resto son congresos con clasificación CORE A (8), B (16) y C (1) o sin clasificación (51); artículos de revista de los cuartiles Q2 (17), Q3 (1) y Q4 (3) o sin cuartil (1); talleres (9); y 12 con foro desconocido. El foro más frecuente es arXiv (125 estudios), seguido de \en{Annual Meeting of the Association for Computational Linguistics} (19), \en{Findings of the ACL: ACL 2026} (11) y \en{Proceedings of the ACM on Management of Data} (8).
+% fuente: PI0.md, pi0_foros.csv, pi0_venues_top.csv
+
+El paradigma técnico principal por año se detalla en la \cref{fig:pi0_paradigma_anio} (\cref{app:figuras}). Hasta 2022 predominan el ajuste fino de modelos de lenguaje preentrenados y los modelos neuronales anteriores a ellos; el primer estudio con \en{prompting} de modelos de lenguaje grandes data de 2022. En 2026 el \en{prompting} reúne 54 estudios, los agentes 43 y el ajuste fino de modelos de lenguaje grandes 25. El ajuste fino de modelos preentrenados alcanza 19 estudios en 2023 y 3 en 2025.
+% fuente: PI0.md, pi0_paradigma_anio.csv
+
+Los pilares centrales difieren por escenario. Entre los estudios multiturno, 13 tienen PI1 como contribución central y 26 tienen PI2; ningún estudio de un turno cumple esos dos pilares. PI3 es central en 13 estudios multiturno y 157 de un turno, y PI4 en 22 multiturno y 140 de un turno. Entre los estudios con PI3 central, 34 de 60 en 2026 no requieren entrenamiento (15 de 43 en 2025); para PI4 son 44 de 81 en 2026 (20 de 50 en 2025).
+% fuente: PI0.md, pi0_pilares_escenario.csv, pi0_training_free.csv
+
+Los informes no recuperados, que corresponden a ambos brazos de búsqueda, se distribuyen en 148 con señal de un turno y 43 con señal multiturno; la señal se asignó por la presencia de palabras clave de multiturno en el título o el resumen (\cref{sec:met-busqueda}).
+% fuente: PI0.md, pi0_no_recuperados_escenario.csv, pi0_resultados.json
+
+\subsection{Indicador D4}
+\label{sec:res-d4}
+% PRISMA ítems 20b (resultados de las síntesis) y 20d (sensibilidad)
+
+El indicador D4 estricto es \DcuatroK{} de \DcuatroN{} estudios, es decir, \DcuatroPct~\% (IC 95~\% de Wilson, \DcuatroICinf{}--\DcuatroICsup{}~\%). El denominador son los estudios con PI3 o PI4 como contribución central, no los \nEstudios{} incluidos, porque esa es la población que define el indicador. Se trata de una proporción descriptiva dentro del marco de elegibilidad. El límite superior del intervalo es inferior al umbral pre-especificado del \umbralDcuatro{}~\%, fijado en el protocolo como referencia descriptiva, de modo que la regla registrada arroja la conclusión «\DcuatroConclusion{}». La versión laxa es de 49 de 317 estudios, 15,5~\% (IC 95~\% de 11,9 a 19,9~\%), con la misma conclusión. En el Nivel 1, el acuerdo entre revisores en el campo que define D4 (pilares PI3/PI4 centrales) fue de $\kappa$ = \kappaCentral{} (PABAK \pabakCentral{}; $n$ = \nKappaCentral{}). El intervalo de Wilson cubre solo el error muestral y no esta incertidumbre de clasificación.
+% fuente: PI0.md, pi0_resultados.json, revision_4f.json (A6_acuerdo_central_nivel1)
+
+\input{figuras/tex/d4_tendencia}
+
+La \cref{fig:d4_tendencia} muestra la proporción anual. La prueba de Cochran--Armitage para 2019--2025 no detecta tendencia (estadístico de $-0{,}6$; $p$ exacta bilateral \DcuatroTendenciaP{}, con 10\,000 réplicas). Las proporciones anuales van de 0 de 5 estudios en 2019 a 12 de 87 en 2025 (13,8~\%), y entre 2019 y 2024 el límite superior del intervalo contiene el 30~\%. El año 2026, parcial y fuera de la prueba registrada, registra 7 de 122 estudios (5,7~\%; IC 95~\% de 2,8 a 11,4~\%). Como sensibilidad, la prueba que incluye 2026 da $p$ = \tendenciaConP{} (dirección decreciente, no significativa al 0,05); la prueba registrada se mantiene como principal.
+% fuente: PI0.md, pi0_resultados.json, d4_tendencia.csv, revision_4f.json (A3_tendencia_2019_2026)
+
+\input{tablas/d4}
+
+La \cref{tab:d4} resume las sensibilidades. Las variantes sin \en{preprints}, solo con búsquedas en bases y solo con foros de primer nivel conservan la conclusión de la regla. La cota extrema que incorpora los informes no recuperados, con el supuesto de que todos cuentan en el denominador y los de señal multiturno también en el numerador, da 77 de 493 estudios (15,6~\%) y un límite superior de 19,1~\%; el 77 es el numerador de esa cota y no el total de estudios multiturno, y para esta variante no hay una conclusión registrada. La estimación probabilística, que aplica a los informes no recuperados las tasas observadas entre los recuperados, da D4 $\approx$ \DcuatroProbPct~\%. La regla de contingencia por volumen del Nivel 1 no se activó, porque el texto completo de un turno fue inferior a 400 informes.
+% fuente: PI0.md, sensibilidad.json, revision_4f.json (A7_cota_probabilistica)
+
+\input{secciones/04-bibliometria}
+
+\subsection{Calidad de los estudios}
+\label{sec:res-calidad}
+% PRISMA ítem 18 (riesgo de sesgo en los estudios)
+
+Se evaluó la calidad de los \nMultiturno{} estudios del Nivel 2. De ellos, \nUmbral{} alcanzan el umbral de validez del \umbralValidez{}~\% y \nBajoUmbral{} quedan por debajo: \cite{Kochedykov2023Conversing,Joshi2020Natural,Lehmann2022Building,Parmar2026StocksTalk,ToctoInga2026CHIMLE}. La mediana de la puntuación de validez es \validezMediana{}~\% (rango intercuartílico de 60,0 a 80,0~\%; rango de 20,0 a 100,0~\%). Los porcentajes por ítem usan como denominador los \nMultiturno{} estudios evaluados, mientras que las taxonomías y los efectos usan los \nUmbral{} que alcanzan el umbral, porque la síntesis en profundidad se restringe a ellos. El umbral se registró y excluye pocos estudios, de modo que la lectura con todos los estudios es igualmente informativa; los estudios de un turno no se evaluaron, por lo que los contrastes con ellos carecen de evaluación de calidad.
+% fuente: CALIDAD.md
+
+El perfil completo por ítem y por estudio figura en el \cref{app:calidad}. Entre los ítems de validez, CQ6 (ablación o análisis de errores) es completo en 68 estudios (88,3~\%), mientras que CQ2 (reproducibilidad de la técnica) lo es en 14 (18,2~\%) y CQ5 (métricas e historial reportados) en 19 (24,7~\%). Entre los ítems de reporte, CQ1 es completo en los 77 estudios y CQ8 (código o datos disponibles) está ausente en 24 (31,2~\%).
+% fuente: CALIDAD.md
+
+\subsection{Efectos de los componentes}
+\label{sec:res-efectos}
+% PRISMA ítems 19 (resultados individuales), 20b, 20c (heterogeneidad) y 22 (certeza de la evidencia)
+
+\input{tablas/efectos}
+
+\input{figuras/tex/pi_efectos_componentes}
+
+La evidencia principal sobre el efecto de los componentes proviene de los contrastes dentro del estudio (componente activado frente a desactivado, con el mismo modelo base y configuración). Se analizaron los \nUmbral{} estudios del Nivel 2 que alcanzan el umbral de validez, agrupados por pilar y clase de componente (\cref{fig:pi_efectos_componentes} y \cref{tab:efectos}). Cada pilar incluye una clase «otros componentes», que reúne componentes heterogéneos.
+% fuente: PI1.md, pi_efectos_componentes.csv
+
+En PI1, la reescritura de la pregunta se evaluó en 5 estudios (4 con efecto positivo y 1 negativo) y la concatenación del historial en 3 (todos positivos), con medianas de 2,0 y 0,6 pp, respectivamente. Las dos clases provienen de contrastes distintos y no de una comparación directa dentro de un mismo estudio. En PI2, los 11 estudios sobre grafo o estado estructurado reportan efecto positivo, con mediana de 2,9 pp; de los 7 estudios sobre SQL o resultados previos, 6 son positivos y 1 negativo. En PI3, los 19 estudios sobre vinculación de esquemas son positivos. En PI4, los 11 estudios sobre autocorrección o retroalimentación de ejecución son positivos, con mediana de 1,5 pp en 141 contrastes. La aclaración con el usuario tiene la mediana más alta de la \cref{tab:efectos} (8,9 pp) con solo 3 estudios y 7 contrastes, y un rango de $-19{,}05$ a 43,0 pp. La autoconsistencia se evaluó en 2 estudios y 9 contrastes. Con un umbral de nulidad de $|\Delta| <$ \umbralNulo{}~pp, \nulosUmbral{} de los \nEstClase{} resultados estudio-clase son nulos (\cref{tab:efectos}).
+% fuente: pi_efectos_componentes.csv, PI1.md, PI2.md, PI3.md, PI4.md, revision_4f.json (A4_nulos)
+
+La confianza registrada en el hallazgo es alta para las clases «otros componentes» de los cuatro pilares, la reescritura de la pregunta, el grafo o estado estructurado, el SQL o resultados previos y la vinculación de esquemas (\nConfAlta{} clases). Es moderada para la concatenación del historial (limitaciones metodológicas y suficiencia leves), la aclaración con el usuario (suficiencia leve y pertinencia importante), la autoconsistencia (limitaciones metodológicas leves y suficiencia importante) y la autocorrección por ejecución (limitaciones metodológicas y pertinencia leves). Si se rebaja un nivel por sesgo de notificación, lectura añadida que no sustituye a la regla registrada, las clases de confianza «alta» pasan a «moderada» y las de «moderada» a «baja». La \cref{tab:efectos} incluye la validez media de cada clase y ambas lecturas.
+% fuente: confianza_hallazgos.csv, PI1.md, PI4.md, revision_4f.json (A4_confianza_penalizada)
+
+En la sensibilidad, las medianas de la mayoría de las clases no cambian al reincorporar los estudios bajo el umbral ni al excluir los \en{preprints}. Las excepciones son, al excluir \en{preprints}, SQL o resultados previos (3,3 pp), vinculación de esquemas (1,3 pp) y «otros componentes» de PI4 (3,0 pp); y, al reincorporar los estudios bajo el umbral, «otros componentes» de PI4 (3,1 pp) y de PI3 (2,6 pp).
+% fuente: PI2.md, PI3.md, PI4.md, sensibilidad.json
+
+La diferencia frente a la línea base propia es evidencia secundaria. Para el conjunto de pilares se registran 229 configuraciones de 43 estudios, con mediana de $\Delta$ de 2,8 pp; los archivos no la desagregan por pilar. Los valores individuales, cada uno en su \en{benchmark}, métrica e historial, se publican en el repositorio del proyecto y no se comparan entre estudios; el \cref{app:caracteristicas} recoge el resultado principal de cada estudio.
+% fuente: PI1.md, PI2.md, PI3.md, PI4.md
+
+\input{secciones/04b-resultados}

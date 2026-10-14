@@ -1,0 +1,423 @@
+id_estudio,benchmark,version,particion,metrica,turno,n_turno,historial_eval,sistema,modelo_base,valor,ubicacion,verificacion
+R00093,SPARC,NR,DEV,QM,1,421,PREDICHO,PROPUESTO,GraPPa,72.7,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,2,421,PREDICHO,PROPUESTO,GraPPa,65.6,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,3,269,PREDICHO,PROPUESTO,GraPPa,55.6,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,4+,89,PREDICHO,PROPUESTO,GraPPa,50,"página 7, Figura 5 (izquierda)",verificado_texto
+R00093,SPARC,NR,DEV,QM,1,421,PREDICHO,EditSQL,BERT,62.2,"página 7, Figura 5 (izquierda)",verificado_texto
+R00093,SPARC,NR,DEV,QM,2,421,PREDICHO,EditSQL,BERT,45.1,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,3,269,PREDICHO,EditSQL,BERT,36.1,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,4+,89,PREDICHO,EditSQL,BERT,19.3,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,1,421,SOLO_PREGUNTAS,IGSQL,BERT,63.2,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,2,421,SOLO_PREGUNTAS,IGSQL,BERT,50.8,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,3,269,SOLO_PREGUNTAS,IGSQL,BERT,39,"página 7, Figura 5 (izquierda)",verificado_texto
+R00093,SPARC,NR,DEV,QM,4+,89,SOLO_PREGUNTAS,IGSQL,BERT,26.1,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,1,421,SOLO_PREGUNTAS,R2SQL,BERT,67.7,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,2,421,SOLO_PREGUNTAS,R2SQL,BERT,55.3,"página 7, Figura 5 (izquierda)",no_verificado
+R00093,SPARC,NR,DEV,QM,3,269,SOLO_PREGUNTAS,R2SQL,BERT,45.7,"página 7, Figura 5 (izquierda)",verificado_texto
+R00093,SPARC,NR,DEV,QM,4+,89,SOLO_PREGUNTAS,R2SQL,BERT,33,"página 7, Figura 5 (izquierda)",no_verificado
+R00097,SPARC,NR,DEV,QM,1,422,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,75.6,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,2,422,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,68.7,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,3,270,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,58.9,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,4+,89,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,53.9,"página 6, Figura 4(a), grupo impreso «Turn>4»",verificado_pagina
+R00097,SPARC,NR,DEV,QM,1,422,NR,RAT-SQL+TC,RAT-SQL + GAP,75.4,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,2,422,NR,RAT-SQL+TC,RAT-SQL + GAP,64.0,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,3,270,NR,RAT-SQL+TC,RAT-SQL + GAP,54.4,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,4+,89,NR,RAT-SQL+TC,RAT-SQL + GAP,40.9,"página 6, Figura 4(a), grupo impreso «Turn>4»",verificado_pagina
+R00097,SPARC,NR,DEV,QM,1,422,NR,R²SQL,BERT,67.7,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,2,422,NR,R²SQL,BERT,55.3,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,3,270,NR,R²SQL,BERT,45.7,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,4+,89,NR,R²SQL,BERT,33.0,"página 6, Figura 4(a), grupo impreso «Turn>4»",verificado_pagina
+R00097,SPARC,NR,DEV,QM,1,422,NR,IG-SQL,BERT,63.2,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,2,422,NR,IG-SQL,BERT,50.8,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,3,270,NR,IG-SQL,BERT,39.0,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,4+,89,NR,IG-SQL,BERT,26.1,"página 6, Figura 4(a), grupo impreso «Turn>4»",verificado_pagina
+R00097,SPARC,NR,DEV,QM,1,422,PREDICHO,EditSQL,NR,62.2,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,2,422,PREDICHO,EditSQL,NR,40.1,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,3,270,PREDICHO,EditSQL,NR,36.1,"página 6, Figura 4(a)",verificado_pagina
+R00097,SPARC,NR,DEV,QM,4+,89,PREDICHO,EditSQL,NR,19.3,"página 6, Figura 4(a), grupo impreso «Turn>4»",verificado_pagina
+R00097,COSQL,NR,DEV,QM,≥2,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,40.9,"página 8, Tabla 5, experimento [1]; entrenamiento SPARC, todos los turnos",verificado_pagina
+R00097,COSQL,NR,DEV,QM,≥2,NR,SOLO_PREGUNTAS,End-to-End,RAT-SQL + ELECTRA,36.3,"página 8, Tabla 5, experimento [1]; entrenamiento SPARC, todos los turnos",verificado_pagina
+R00097,COSQL,NR,DEV,QM,≥2,NR,SOLO_PREGUNTAS,Two-Stage,RAT-SQL + ELECTRA,37.3,"página 8, Tabla 5, experimento [1]; entrenamiento SPARC, todos los turnos",verificado_pagina
+R00097,SPARC,NR,DEV,QM,≥3,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,45.2,"página 8, Tabla 5, experimento [2]; entrenamiento SPARC, turnos ≤2",verificado_pagina
+R00097,SPARC,NR,DEV,QM,≥3,NR,SOLO_PREGUNTAS,End-to-End,RAT-SQL + ELECTRA,41.5,"página 8, Tabla 5, experimento [2]; entrenamiento SPARC, turnos ≤2",verificado_pagina
+R00097,SPARC,NR,DEV,QM,≥3,NR,SOLO_PREGUNTAS,Two-Stage,RAT-SQL + ELECTRA,42.6,"página 8, Tabla 5, experimento [2]; entrenamiento SPARC, turnos ≤2",verificado_pagina
+R00097,COSQL,NR,DEV,QM,≥3,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + ELECTRA,46.7,"página 8, Tabla 5, experimento [3]; entrenamiento COSQL, turnos ≤2",verificado_pagina
+R00097,COSQL,NR,DEV,QM,≥3,NR,SOLO_PREGUNTAS,End-to-End,RAT-SQL + ELECTRA,42.4,"página 8, Tabla 5, experimento [3]; entrenamiento COSQL, turnos ≤2",verificado_pagina
+R00097,COSQL,NR,DEV,QM,≥3,NR,SOLO_PREGUNTAS,Two-Stage,RAT-SQL + ELECTRA,43.2,"página 8, Tabla 5, experimento [3]; entrenamiento COSQL, turnos ≤2",verificado_pagina
+R00100,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,T5-Large + PICARD,77,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,T5-Large + PICARD,65.8,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,T5-Large + PICARD,56.5,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,PROPUESTO,T5-Large + PICARD,37.9,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,Before Self-Play,T5-Large + PICARD,71.7,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,Before Self-Play,T5-Large + PICARD,65.8,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,Before Self-Play,T5-Large + PICARD,54.3,"página 6, Figura 3",verificado_pagina
+R00100,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,Before Self-Play,T5-Large + PICARD,40.2,"página 6, Figura 3",verificado_pagina
+R00110,CHASE,NR,DEV,QM,1,NR,NR,IGSQL,BERT,59.1,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,NR,DEV,QM,2,NR,NR,IGSQL,BERT,42.3,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,NR,DEV,QM,3,NR,NR,IGSQL,BERT,29.4,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,NR,DEV,QM,4,NR,NR,IGSQL,BERT,24.5,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,NR,DEV,QM,>=5,NR,NR,IGSQL,BERT,20.5,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-C,DEV,QM,1,NR,NR,IGSQL,BERT,48.6,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-C,DEV,QM,2,NR,NR,IGSQL,BERT,34.2,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-C,DEV,QM,3,NR,NR,IGSQL,BERT,22.5,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-C,DEV,QM,4,NR,NR,IGSQL,BERT,19.0,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-C,DEV,QM,>=5,NR,NR,IGSQL,BERT,17.1,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-T,DEV,QM,1,NR,NR,IGSQL,BERT,58.8,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-T,DEV,QM,2,NR,NR,IGSQL,BERT,40.3,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-T,DEV,QM,3,NR,NR,IGSQL,BERT,32.6,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-T,DEV,QM,4,NR,NR,IGSQL,BERT,17.0,"página 8, Tabla 10",verificado_pagina
+R00110,CHASE,CHASE-T,DEV,QM,>=5,NR,NR,IGSQL,BERT,0.0,"página 8, Tabla 10",verificado_pagina
+R00117,SPARC,NR,DEV,EM,1,NR,PREDICHO,EditSQL,BERT base,62.2,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,2,NR,PREDICHO,EditSQL,BERT base,45.1,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,3,NR,PREDICHO,EditSQL,BERT base,36.1,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,4,NR,PREDICHO,EditSQL,BERT base,19.3,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,>4,NR,PREDICHO,EditSQL,BERT base,0,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,1,NR,PREDICHO,PROPUESTO,BERT base,63.2,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,2,NR,PREDICHO,PROPUESTO,BERT base,50.8,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,3,NR,PREDICHO,PROPUESTO,BERT base,39.0,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,4,NR,PREDICHO,PROPUESTO,BERT base,26.1,"página 7, Tabla 4",verificado_pagina
+R00117,SPARC,NR,DEV,EM,>4,NR,PREDICHO,PROPUESTO,BERT base,0,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,1,NR,PREDICHO,EditSQL,BERT base,50.0,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,2,NR,PREDICHO,EditSQL,BERT base,36.7,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,3,NR,PREDICHO,EditSQL,BERT base,34.8,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,4,NR,PREDICHO,EditSQL,BERT base,43.0,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,>4,NR,PREDICHO,EditSQL,BERT base,23.9,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,1,NR,PREDICHO,PROPUESTO,BERT base,53.1,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,2,NR,PREDICHO,PROPUESTO,BERT base,42.6,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,3,NR,PREDICHO,PROPUESTO,BERT base,39.3,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,4,NR,PREDICHO,PROPUESTO,BERT base,43.0,"página 7, Tabla 4",verificado_pagina
+R00117,COSQL,NR,DEV,EM,>4,NR,PREDICHO,PROPUESTO,BERT base,31.0,"página 7, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,1,421,NR,SyntaxSQL-con,SyntaxSQL,38.6,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,2,421,NR,SyntaxSQL-con,SyntaxSQL,11.6,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,3,269,NR,SyntaxSQL-con,SyntaxSQL,3.7,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,4+,89,NR,SyntaxSQL-con,SyntaxSQL,1.1,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,1,421,NR,CD-Seq2Seq,NR,31.4,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,2,421,NR,CD-Seq2Seq,NR,12.1,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,3,269,NR,CD-Seq2Seq,NR,7.8,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,4+,89,NR,CD-Seq2Seq,NR,2.2,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,1,421,PREDICHO,PROPUESTO,BERT,66.5,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,2,421,PREDICHO,PROPUESTO,BERT,50.6,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,3,269,PREDICHO,PROPUESTO,BERT,42.4,"página 9, Tabla 4",verificado_pagina
+R00120,SPARC,NR,DEV,QM,4+,89,PREDICHO,PROPUESTO,BERT,34.1,"página 9, Tabla 4",verificado_pagina
+R00126,SPARC,NR,DEV,QM,1,422,SOLO_PREGUNTAS,PROPUESTO,SyntaxSQLNet (SyntaxSQL-con),38.6,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,2,422,SOLO_PREGUNTAS,PROPUESTO,SyntaxSQLNet (SyntaxSQL-con),11.6,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,3,270,SOLO_PREGUNTAS,PROPUESTO,SyntaxSQLNet (SyntaxSQL-con),3.7,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,4+,89,SOLO_PREGUNTAS,PROPUESTO,SyntaxSQLNet (SyntaxSQL-con),1.1,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,1,422,SOLO_PREGUNTAS,CD-Seq2Seq,Seq2Seq,31.4,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,2,422,SOLO_PREGUNTAS,CD-Seq2Seq,Seq2Seq,12.1,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,3,270,SOLO_PREGUNTAS,CD-Seq2Seq,Seq2Seq,7.8,"página 8, tabla 7",verificado_pagina
+R00126,SPARC,NR,DEV,QM,4+,89,SOLO_PREGUNTAS,CD-Seq2Seq,Seq2Seq,2.2,"página 8, tabla 7",verificado_pagina
+R00131,SPARC,NR,DEV,QM,4+,NR,PREDICHO,PROPUESTO,BERT,20,"página 8, §5.4; Figura 4 (izquierda), página 9",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,1,NR,PREDICHO,EditSQL,NR,65.4,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,2,NR,PREDICHO,EditSQL,NR,57.3,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,3,NR,PREDICHO,EditSQL,NR,50.7,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,4,NR,PREDICHO,EditSQL,NR,45.4,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,≥5,NR,PREDICHO,EditSQL,NR,46.9,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,1,NR,PREDICHO,IGSQL,NR,68.6,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,2,NR,PREDICHO,IGSQL,NR,64.6,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,3,NR,PREDICHO,IGSQL,NR,58.1,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,4,NR,PREDICHO,IGSQL,NR,55.2,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,≥5,NR,PREDICHO,IGSQL,NR,53.9,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,1,NR,SOLO_PREGUNTAS,EX-RATSQL,RATSQL,64.8,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,2,NR,SOLO_PREGUNTAS,EX-RATSQL,RATSQL,58.0,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,3,NR,SOLO_PREGUNTAS,EX-RATSQL,RATSQL,46.6,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,4,NR,SOLO_PREGUNTAS,EX-RATSQL,RATSQL,42.4,"página 8, Tabla 7",verificado_pagina
+R00288,OTRO:SeSQL,NR,TEST,QM,≥5,NR,SOLO_PREGUNTAS,EX-RATSQL,RATSQL,44.1,"página 8, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,NR,A,Sonnet 4.5,69.7,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,NR,A,Sonnet 4.5,4.3,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,NR,A,Sonnet 4.5,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,NR,A,Sonnet 4.5,10.5,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,NR,A,Sonnet 4.5,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,NR,A,Sonnet 4.5,2.2,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,NR,A,Sonnet 4.5,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,NR,A,Sonnet 4.5,8.9,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,NR,A,Sonnet 4.5,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,NR,A,Sonnet 4.5,15.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,PREDICHO,PROPUESTO,Sonnet 4.5,70.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,PREDICHO,PROPUESTO,Sonnet 4.5,84.3,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,PREDICHO,PROPUESTO,Sonnet 4.5,92.9,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,PREDICHO,PROPUESTO,Sonnet 4.5,97.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,PREDICHO,PROPUESTO,Sonnet 4.5,68.9,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,PREDICHO,PROPUESTO,Sonnet 4.5,98.9,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,PREDICHO,PROPUESTO,Sonnet 4.5,81.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,PREDICHO,PROPUESTO,Sonnet 4.5,98.9,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,PREDICHO,PROPUESTO,Sonnet 4.5,96.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,PREDICHO,PROPUESTO,Sonnet 4.5,45.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,NR,A,Sonnet 4.6,68.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,NR,A,Sonnet 4.6,0.5,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,NR,A,Sonnet 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,NR,A,Sonnet 4.6,5.2,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,NR,A,Sonnet 4.6,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,NR,A,Sonnet 4.6,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,NR,A,Sonnet 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,NR,A,Sonnet 4.6,7.8,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,NR,A,Sonnet 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,NR,A,Sonnet 4.6,5.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,PREDICHO,PROPUESTO,Sonnet 4.6,68.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,PREDICHO,PROPUESTO,Sonnet 4.6,52.4,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,PREDICHO,PROPUESTO,Sonnet 4.6,95.2,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,PREDICHO,PROPUESTO,Sonnet 4.6,78.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,PREDICHO,PROPUESTO,Sonnet 4.6,66.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,PREDICHO,PROPUESTO,Sonnet 4.6,83.3,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,PREDICHO,PROPUESTO,Sonnet 4.6,80.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,PREDICHO,PROPUESTO,Sonnet 4.6,85.6,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,PREDICHO,PROPUESTO,Sonnet 4.6,83.3,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,PREDICHO,PROPUESTO,Sonnet 4.6,30.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,NR,A,Opus 4.6,67.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,NR,A,Opus 4.6,2.4,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,NR,A,Opus 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,NR,A,Opus 4.6,1.9,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,NR,A,Opus 4.6,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,NR,A,Opus 4.6,2.2,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,NR,A,Opus 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,NR,A,Opus 4.6,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,NR,A,Opus 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,NR,A,Opus 4.6,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,PREDICHO,PROPUESTO,Opus 4.6,67.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,PREDICHO,PROPUESTO,Opus 4.6,66.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,PREDICHO,PROPUESTO,Opus 4.6,87.6,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,PREDICHO,PROPUESTO,Opus 4.6,89.5,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,PREDICHO,PROPUESTO,Opus 4.6,62.2,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,PREDICHO,PROPUESTO,Opus 4.6,90.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,PREDICHO,PROPUESTO,Opus 4.6,76.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,PREDICHO,PROPUESTO,Opus 4.6,94.4,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,PREDICHO,PROPUESTO,Opus 4.6,81.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,PREDICHO,PROPUESTO,Opus 4.6,40.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,NR,A,GPT-5 mini,68.7,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,NR,A,GPT-5 mini,5.7,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,NR,A,GPT-5 mini,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,NR,A,GPT-5 mini,7.6,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,NR,A,GPT-5 mini,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,NR,A,GPT-5 mini,7.8,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,NR,A,GPT-5 mini,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,NR,A,GPT-5 mini,10.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,NR,A,GPT-5 mini,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,NR,A,GPT-5 mini,15.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,PREDICHO,PROPUESTO,GPT-5 mini,68.3,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,PREDICHO,PROPUESTO,GPT-5 mini,76.2,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,PREDICHO,PROPUESTO,GPT-5 mini,100.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,PREDICHO,PROPUESTO,GPT-5 mini,91.4,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,PREDICHO,PROPUESTO,GPT-5 mini,70.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,PREDICHO,PROPUESTO,GPT-5 mini,91.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,PREDICHO,PROPUESTO,GPT-5 mini,83.3,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,PREDICHO,PROPUESTO,GPT-5 mini,91.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,PREDICHO,PROPUESTO,GPT-5 mini,96.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,PREDICHO,PROPUESTO,GPT-5 mini,45.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,NR,A,GPT-5.2,73.0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,NR,A,GPT-5.2,5.2,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,NR,A,GPT-5.2,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,NR,A,GPT-5.2,7.6,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,NR,A,GPT-5.2,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,NR,A,GPT-5.2,13.3,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,NR,A,GPT-5.2,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,NR,A,GPT-5.2,6.7,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,NR,A,GPT-5.2,1.1,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,NR,A,GPT-5.2,0,"p. 11, Tabla 7",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,1,300,PREDICHO,PROPUESTO,GPT-5.2,73.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,2,NR,PREDICHO,PROPUESTO,GPT-5.2,90.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,3,NR,PREDICHO,PROPUESTO,GPT-5.2,100.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,4,NR,PREDICHO,PROPUESTO,GPT-5.2,96.2,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,5,NR,PREDICHO,PROPUESTO,GPT-5.2,70.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,6,NR,PREDICHO,PROPUESTO,GPT-5.2,96.7,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,7,NR,PREDICHO,PROPUESTO,GPT-5.2,81.1,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,8,NR,PREDICHO,PROPUESTO,GPT-5.2,100.0,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,9,NR,PREDICHO,PROPUESTO,GPT-5.2,74.4,"p. 11, Tabla 7, B",verificado_pagina
+R00435,OTRO:EnterpriseMem-Bench,NR,OTRA,EX,10,20,PREDICHO,PROPUESTO,GPT-5.2,50.0,"p. 11, Tabla 7, B",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,10,NR,PREDICHO,Native,DeepSeek-V4-Flash,73.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,15,NR,PREDICHO,Native,DeepSeek-V4-Flash,72.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,20,NR,PREDICHO,Native,DeepSeek-V4-Flash,69.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,25,NR,PREDICHO,Native,DeepSeek-V4-Flash,63.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,30,NR,PREDICHO,Native,DeepSeek-V4-Flash,62.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,10,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,71.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,15,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,71.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,20,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,67.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,25,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,61.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,30,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,59.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,10,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,82.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,15,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,83.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,20,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,81.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,25,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,79.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,30,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,78.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,10,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,92.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,15,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,90.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,20,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,87.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,25,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,85.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:GSM8K,NR,TEST,OTRA:accuracy,30,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,84.0,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,10,NR,PREDICHO,Native,DeepSeek-V4-Flash,42.92,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,15,NR,PREDICHO,Native,DeepSeek-V4-Flash,41.57,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,20,NR,PREDICHO,Native,DeepSeek-V4-Flash,37.86,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,25,NR,PREDICHO,Native,DeepSeek-V4-Flash,35.39,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,30,NR,PREDICHO,Native,DeepSeek-V4-Flash,34.53,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,10,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,41.05,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,15,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,40.08,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,20,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,39.14,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,25,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,35.88,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,30,NR,SOLO_PREGUNTAS,Restart,DeepSeek-V4-Flash,27.70,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,10,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,37.53,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,15,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,37.13,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,20,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,35.41,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,25,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,33.52,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,30,NR,PREDICHO,U-Fold,DeepSeek-V4-Flash,34.16,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,10,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,49.53,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,15,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,49.27,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,20,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,48.71,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,25,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,47.52,"p. 9, Tabla 4",verificado_pagina
+R00499,OTRO:DeepResearch Bench,NR,TEST,OTRA:RACE,30,NR,PREDICHO,PROPUESTO,DeepSeek-V4-Flash,47.32,"p. 9, Tabla 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,1,NR,NR,IGSQL,NR,63.2,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,2,NR,NR,IGSQL,NR,50.8,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,3,NR,NR,IGSQL,NR,39,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,4+,NR,NR,IGSQL,NR,26.1,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,1,NR,NR,R2SQL,NR,67.7,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,2,NR,NR,R2SQL,NR,55.3,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,3,NR,NR,R2SQL,NR,45.7,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,4+,NR,NR,R2SQL,NR,33,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,1,NR,NR,HIE-SQL,NR,72.7,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,2,NR,NR,HIE-SQL,NR,65.6,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,3,NR,NR,HIE-SQL,NR,55.6,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,4+,NR,NR,HIE-SQL,NR,50,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,1,NR,NR,PROPUESTO,RASAT (T5),73.1,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,2,NR,NR,PROPUESTO,RASAT (T5),67.4,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,3,NR,NR,PROPUESTO,RASAT (T5),57.7,"página 8, Figura 4",verificado_pagina
+R00525,SPARC,NR,OTRA,OTRA:NR,4+,NR,NR,PROPUESTO,RASAT (T5),50.5,"página 8, Figura 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,1,NR,NR,EditSQL,NR,62.2,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,2,NR,NR,EditSQL,NR,40.1,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,3,NR,NR,EditSQL,NR,36.1,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,4+,NR,NR,EditSQL,NR,19.3,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,1,NR,NR,IG-SQL,NR,63.2,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,2,NR,NR,IG-SQL,NR,50.8,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,3,NR,NR,IG-SQL,NR,39.0,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,4+,NR,NR,IG-SQL,NR,26.1,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,1,NR,NR,R2 SQL,NR,67.7,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,2,NR,NR,R2 SQL,NR,55.3,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,3,NR,NR,R2 SQL,NR,45.7,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,4+,NR,NR,R2 SQL,NR,33.0,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,1,NR,NR,RAT-SQL+TC,NR,75.4,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,2,NR,NR,RAT-SQL+TC,NR,64.0,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,3,NR,NR,RAT-SQL+TC,NR,54.4,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,4+,NR,NR,RAT-SQL+TC,NR,40.9,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,1,NR,NR,CQR-SQL,NR,75.6,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,2,NR,NR,CQR-SQL,NR,68.7,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,3,NR,NR,CQR-SQL,NR,58.9,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,4+,NR,NR,CQR-SQL,NR,53.9,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,1,NR,PREDICHO,PROPUESTO,T5-3B,74.9,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,2,NR,PREDICHO,PROPUESTO,T5-3B,68.5,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,3,NR,PREDICHO,PROPUESTO,T5-3B,58.9,"página 6, Tabla 4",verificado_pagina
+R00868,SPARC,NR,DEV,QM,4+,NR,PREDICHO,PROPUESTO,T5-3B,52.8,"página 6, Tabla 4",verificado_pagina
+R00950,SPARC,NR,DEV,QM,1,422,NR,EditSQL,NR,62.2,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,2,422,NR,EditSQL,NR,45.1,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,3,270,NR,EditSQL,NR,36.1,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,4+,89,NR,EditSQL,NR,19.3,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,1,422,NR,IGSQL,NR,63.2,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,2,422,NR,IGSQL,NR,50.8,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,3,270,NR,IGSQL,NR,39.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,4+,89,NR,IGSQL,NR,26.1,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,1,422,NR,R²SQL,NR,67.7,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,2,422,NR,R²SQL,NR,55.3,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,3,270,NR,R²SQL,NR,45.7,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,4+,89,NR,R²SQL,NR,33.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,1,422,NR,RAT-SQL+TC,NR,75.4,"página 12 del PDF, Tabla 4",verificado_texto
+R00950,SPARC,NR,DEV,QM,2,422,NR,RAT-SQL+TC,NR,64.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,3,270,NR,RAT-SQL+TC,NR,54.4,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,4+,89,NR,RAT-SQL+TC,NR,40.9,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,1,422,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,75.4,"página 12 del PDF, Tabla 4",verificado_texto
+R00950,SPARC,NR,DEV,QM,2,422,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,66.1,"página 12 del PDF, Tabla 4",verificado_texto
+R00950,SPARC,NR,DEV,QM,3,270,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,53.7,"página 12 del PDF, Tabla 4",verificado_texto
+R00950,SPARC,NR,DEV,QM,4+,89,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,44.3,"página 12 del PDF, Tabla 4",verificado_texto
+R00950,COSQL,NR,DEV,QM,1,293,NR,EditSQL,NR,50.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,2,285,NR,EditSQL,NR,36.7,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,3,244,NR,EditSQL,NR,34.8,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,4,114,NR,EditSQL,NR,43.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,>4,71,NR,EditSQL,NR,23.9,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,1,293,NR,IGSQL,NR,53.1,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,2,285,NR,IGSQL,NR,42.6,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,3,244,NR,IGSQL,NR,39.3,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,4,114,NR,IGSQL,NR,43.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,>4,71,NR,IGSQL,NR,31.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,1,293,NR,IST-SQL,NR,56.2,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,2,285,NR,IST-SQL,NR,41.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,3,244,NR,IST-SQL,NR,41.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,4,114,NR,IST-SQL,NR,41.2,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,>4,71,NR,IST-SQL,NR,26.8,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,1,293,NR,SCoRE,NR,60.8,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,2,285,NR,SCoRE,NR,53.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,3,244,NR,SCoRE,NR,47.5,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,4,114,NR,SCoRE,NR,49.1,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,>4,71,NR,SCoRE,NR,32.4,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,1,293,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,64.5,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,2,285,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,55.4,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,3,244,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,55.7,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,4,114,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,50.0,"página 12 del PDF, Tabla 4",no_verificado
+R00950,COSQL,NR,DEV,QM,>4,71,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,42.3,"página 12 del PDF, Tabla 4",no_verificado
+R00950,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,Only,ELECTRA,74.6,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,Only,ELECTRA,50.7,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,Only,ELECTRA,30.7,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,>4,NR,SOLO_PREGUNTAS,Only,ELECTRA,20.5,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,Concat,ELECTRA,74.6,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,Concat,ELECTRA,64.2,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,Concat,ELECTRA,51.1,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,>4,NR,SOLO_PREGUNTAS,Concat,ELECTRA,34.1,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,75.4,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,66.1,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,53.7,"página 7, Figura 5",verificado_pagina
+R00950,SPARC,NR,DEV,QM,>4,NR,SOLO_PREGUNTAS,PROPUESTO,ELECTRA,44.3,"página 7, Figura 5",verificado_pagina
+R00994,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL (GAP),75.4,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL (GAP),64.0,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL (GAP),54.4,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL (GAP),40.9,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,w/o. TC,RAT-SQL (GAP),72.5,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,w/o. TC,RAT-SQL (GAP),56.9,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,w/o. TC,RAT-SQL (GAP),50.4,"página 4, Tabla 3",verificado_pagina
+R00994,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,w/o. TC,RAT-SQL (GAP),39.8,"página 4, Tabla 3",verificado_pagina
+R01029,COSQL,NR,DEV,QM,1,292,PREDICHO,PROPUESTO,BERT,56.2,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,2,283,PREDICHO,PROPUESTO,BERT,41.0,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,3,244,PREDICHO,PROPUESTO,BERT,41.0,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,4,114,PREDICHO,PROPUESTO,BERT,41.2,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,>4,71,PREDICHO,PROPUESTO,BERT,26.8,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,1,292,PREDICHO,Edit-Net,BERT,52.1,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,2,283,PREDICHO,Edit-Net,BERT,39.6,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,3,244,PREDICHO,Edit-Net,BERT,37.3,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,4,114,PREDICHO,Edit-Net,BERT,36.0,"página 7, Tabla 6",verificado_pagina
+R01029,COSQL,NR,DEV,QM,>4,71,PREDICHO,Edit-Net,BERT,25.4,"página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,71.1,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,53.6,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,47.8,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,31.8,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,68.7,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,58.5,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,48.9,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,35.2,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),70.6,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),63.5,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),52.6,"Página 7, Tabla 6",verificado_pagina
+R01031,SPARC,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),45.5,"Página 7, Tabla 6",verificado_pagina
+R01031,COSQL,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,54.6,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,48.4,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,47.5,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,43.9,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,5,NR,SOLO_PREGUNTAS,RAT-SQL + BERT,RAT-SQL + BERT,31.0,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,59.7,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,50.9,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,46.3,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,46.5,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,5,NR,SOLO_PREGUNTAS,+RoBERTa,RAT-SQL + RoBERTa,32.4,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),60.8,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),53.0,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),47.5,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,4,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),49.1,"Página 7, Tabla 7",verificado_pagina
+R01031,COSQL,NR,DEV,QM,5,NR,SOLO_PREGUNTAS,PROPUESTO,RAT-SQL + SCORE (RoBERTa large),32.4,"Página 7, Tabla 7",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,1,NR,SOLO_PREGUNTAS,Wang et al. (2019),Wang et al. (2019),68.3,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,2,NR,SOLO_PREGUNTAS,Wang et al. (2019),Wang et al. (2019),48.0,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,3,NR,SOLO_PREGUNTAS,Wang et al. (2019),Wang et al. (2019),38.5,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,1,NR,SOLO_PREGUNTAS,+RoBERTa,Wang et al. (2019) + RoBERTa,77.2,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,2,NR,SOLO_PREGUNTAS,+RoBERTa,Wang et al. (2019) + RoBERTa,61.7,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,3,NR,SOLO_PREGUNTAS,+RoBERTa,Wang et al. (2019) + RoBERTa,52.1,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,Wang et al. (2019) + SCORE (RoBERTa large),78.3,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,Wang et al. (2019) + SCORE (RoBERTa large),65.3,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,Wang et al. (2019) + SCORE (RoBERTa large),54.9,"Página 7, Tabla 8",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,1,NR,SOLO_PREGUNTAS,+RoBERTa,Wang et al. (2019) + RoBERTa; 10% training data,71.0,"Página 7, Tabla 8, Few-Shot (10% training data)",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,2,NR,SOLO_PREGUNTAS,+RoBERTa,Wang et al. (2019) + RoBERTa; 10% training data,52.5,"Página 7, Tabla 8, Few-Shot (10% training data)",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,3,NR,SOLO_PREGUNTAS,+RoBERTa,Wang et al. (2019) + RoBERTa; 10% training data,36.6,"Página 7, Tabla 8, Few-Shot (10% training data)",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,1,NR,SOLO_PREGUNTAS,PROPUESTO,Wang et al. (2019) + SCORE (RoBERTa large); 10% training data,74.6,"Página 7, Tabla 8, Few-Shot (10% training data)",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,2,NR,SOLO_PREGUNTAS,PROPUESTO,Wang et al. (2019) + SCORE (RoBERTa large); 10% training data,56.7,"Página 7, Tabla 8, Few-Shot (10% training data)",verificado_pagina
+R01031,OTRO:SQA,NR,TEST,QM,3,NR,SOLO_PREGUNTAS,PROPUESTO,Wang et al. (2019) + SCORE (RoBERTa large); 10% training data,40.7,"Página 7, Tabla 8, Few-Shot (10% training data)",verificado_pagina
+R01037,SPARC,NR,DEV,QM,4,NR,PREDICHO,PROPUESTO,BERT,33,"página 7, Figura 3 (derecha), valor explícito en el texto",verificado_pagina

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00684@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00684",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; central contribution is execution-feedback preference learning; abstract reports experiments on BIRD and Spider benchmarks (results pages not in excerpt).",
+   "where": "p1 Abstract; p2 Introduction contributions; p4 Methodology III.B"
+  }
+ ],
+ "source": "cli:FTB_R00684.json"
+}

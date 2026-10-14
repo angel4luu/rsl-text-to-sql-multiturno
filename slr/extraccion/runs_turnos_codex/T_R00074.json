@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00074\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"SOLO_PREGUNTAS\",\"nota\":\"La Figura 4(b) presenta QM por turno en CoSQL DEV, pero sin valores numéricos impresos; se omiten todos los puntos graficados.\",\"ubic\":\"p. 8, Figura 4(b); p. 6, entrada del modelo\"}}]}",
+  "_label": "TURNOS:R00074"
+}

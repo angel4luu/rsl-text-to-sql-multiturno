@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00341@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00341",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with execution feedback as central contribution; evaluated quantitatively on BIRD and Spider.",
+   "where": "p1 Abstract and Introduction; p5-6 Sec. 3.4, 4.1 and Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00341.json"
+}

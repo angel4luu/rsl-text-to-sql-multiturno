@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00920@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00920",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn SQL-based conversational agent with dialogue state tracking and a Yelp conversation benchmark, evaluated quantitatively (90.3% turn accuracy).",
+   "where": "p4 Sec 4 Conversational Agent; p8 Sec 6.2 Conversational Agent on Restaurants, Tables 4-5"
+  }
+ ],
+ "source": "cli:FTA_R00920.json"
+}

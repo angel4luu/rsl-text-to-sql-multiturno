@@ -1,0 +1,24 @@
+{
+ "label": "ADJ:b018@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00848",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Title says 'conversations' but unclear whether user questions depend on earlier turns"
+  },
+  {
+   "id": "R00849",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demo of rule-based NL2SQL Alexa system; no multi-turn, linking or correction focus"
+  },
+  {
+   "id": "R00859",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Proposes schema augmentation with verification (SAVE); unclear if it is a central contribution"
+  }
+ ],
+ "source_transcript": "agent-a507e5a0990985f8f.jsonl"
+}

@@ -1,0 +1,1 @@
+{"label": "FTB:R00911@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00911", "d": "include", "code": "INC", "why": "Schema linking is a central contribution; quantitative evaluation uses public Spider benchmarks.", "where": "p1 Abstract; p2 Contributions; p5 Experimental Setup and Results; p6 Table 2"}], "source": "codex:gpt-6.1-sol"}

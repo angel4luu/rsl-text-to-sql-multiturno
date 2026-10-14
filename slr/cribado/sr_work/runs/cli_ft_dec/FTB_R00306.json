@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00306@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00306",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and join inference as central contributions; evaluated quantitatively on Spider.",
+   "where": "p1 Abstract; p2 Introduction; p6-7 Section 4 Experiments, Tables 3-7"
+  }
+ ],
+ "source": "cli:FTB_R00306.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00170@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00170",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General efficiency/Chinese-adaptation model; schema linking only one of five components; no multi-turn context technique, CHASE used only as evaluation data.",
+   "where": "p1 Abstract; p2 Introduction contributions; p6 Sec 3.1 Dataset"
+  }
+ ],
+ "source": "cli:FTB_R00170.json"
+}

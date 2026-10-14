@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00287@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00287",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL with a novel schema linking algorithm and join-path discovery, evaluated on the public BIRD benchmark.",
+   "where": "p1 Abstract; p1-2 Contributions (1.1); p5 Section 3 (schema linking); p6 Section 4.1, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00287.json"
+}

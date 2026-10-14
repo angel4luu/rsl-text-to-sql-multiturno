@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00333@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00333",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn study; evaluated only on a proprietary industrial database (100 questions), Spider and BIRD explicitly not used.",
+   "where": "p1 Introduction (contributions); p9 Section 5.1 Benchmark Dataset"
+  }
+ ],
+ "source": "cli:FTA_R00333.json"
+}

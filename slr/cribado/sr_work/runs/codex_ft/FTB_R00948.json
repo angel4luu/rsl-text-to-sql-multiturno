@@ -1,0 +1,1 @@
+{"label": "FTB:R00948@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00948", "d": "unclear", "code": "UNC", "why": "Experimental sections are missing; public benchmark evaluation cannot be verified for this single-turn study.", "where": "p3 Introduction; pp5–13 omitted from extract"}], "source": "codex:gpt-6.1-sol"}

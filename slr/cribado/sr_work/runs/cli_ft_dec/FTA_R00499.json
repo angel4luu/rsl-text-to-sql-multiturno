@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00499@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00499",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn agent framework with a text-to-SQL benchmark domain; excerpt omits experiments, so SQL evaluation and results cannot be verified.",
+   "where": "p1 Abstract; p3 Contributions; pp5-26 (experiments) not in file"
+  }
+ ],
+ "source": "cli:FTA_R00499.json"
+}

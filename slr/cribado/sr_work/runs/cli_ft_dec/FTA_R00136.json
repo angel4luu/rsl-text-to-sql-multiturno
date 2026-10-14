@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00136@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00136",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with dynamic value/schema linking as central contribution; quantitative EX/VES on BIRD and Spider.",
+   "where": "p1 Abstract and Introduction; p7-8 Section 6 Experiments, Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00136.json"
+}

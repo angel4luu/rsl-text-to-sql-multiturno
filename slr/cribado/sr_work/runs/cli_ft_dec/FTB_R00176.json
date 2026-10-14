@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00176@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00176",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL tool with schema mapping and execution-feedback refinement as stated contributions; evaluated on Spider (75.2% EX).",
+   "where": "p1 Abstract; p2 §2.5 Execution-Guided Refinement; p3 §3 Preliminary Evaluation, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00176.json"
+}

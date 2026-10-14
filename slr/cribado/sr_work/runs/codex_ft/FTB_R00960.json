@@ -1,0 +1,1 @@
+{"label": "FTB:R00960@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00960", "d": "exclude", "code": "E5", "why": "The proposed system translates natural language into Weld IR; SQL serves only as reference and comparison baseline.", "where": "p1 Abstract; p5 §4 Evaluation"}], "source": "codex:gpt-6.1-sol"}

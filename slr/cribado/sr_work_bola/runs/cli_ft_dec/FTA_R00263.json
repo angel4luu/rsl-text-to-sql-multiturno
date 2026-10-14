@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00263@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00263",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL model that adapts BERT with column-wise encoding; schema linking and execution-guided decoding are not the central contribution.",
+   "where": "p1 Abstract; p2 Introduction; p8 Sec 3.5 and Sec 4"
+  }
+ ],
+ "source": "cli:FTA_R00263.json"
+}

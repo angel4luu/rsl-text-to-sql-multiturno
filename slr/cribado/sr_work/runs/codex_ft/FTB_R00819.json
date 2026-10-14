@@ -1,0 +1,1 @@
+{"label": "FTB:R00819@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00819", "d": "unclear", "code": "UNC", "why": "Public availability of the single-turn benchmarks is unspecified in the incomplete extract.", "where": "p1 Abstract; p14 Section 4.1, Study Area and Benchmark"}], "source": "codex:gpt-6.1-sol"}

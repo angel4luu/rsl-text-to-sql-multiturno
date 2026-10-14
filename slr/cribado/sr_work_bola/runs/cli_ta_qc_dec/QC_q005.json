@@ -1,0 +1,12 @@
+{
+ "label": "QC:q005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00287",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn BIRD; metadata extraction (profiling, query logs) may support schema/join linking"
+  }
+ ],
+ "source": "cli:QC_q005.json"
+}

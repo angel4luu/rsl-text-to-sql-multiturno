@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00337@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00337",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking as central contribution; evaluated quantitatively on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Section 5 Experiments, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00337.json"
+}

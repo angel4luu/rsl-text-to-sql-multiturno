@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00506@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00506",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification dialogue about one standalone request, so single-turn. Contribution is ambiguity-asking policy and leakage, not schema linking or self-correction.",
+   "where": "p1-2 Abstract and Introduction; p4-5 Section 2 (ask-then-solve protocol); p6 Section 4.1"
+  }
+ ],
+ "source": "cli:FTA_R00506.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00344@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00344",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn RL reasoning framework; schema-linking is only one of several partial rewards, not the central contribution",
+   "where": "p1 Abstract; p2 Introduction, contributions; p6 Sec 4.1"
+  }
+ ],
+ "source": "cli:FTB_R00344.json"
+}

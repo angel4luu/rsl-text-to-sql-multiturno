@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00443@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00443",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; contradiction-aware reflection on execution results and schema-anchored memory are stated contributions; evaluated on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Section 5 Experiment, Datasets and Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00443.json"
+}

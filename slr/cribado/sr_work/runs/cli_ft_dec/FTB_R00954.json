@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00954@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00954",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn relational Text-to-SQL with dialogue state tracking, evaluated quantitatively on SParC, Spider and WikiSQL; 2026 English journal paper.",
+   "where": "p9-10 Section 3 (Proposed model); p15-18 Section 4, Tables 4-6 and 8"
+  }
+ ],
+ "source": "cli:FTB_R00954.json"
+}

@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R01037\",\"extraccion\":{\"resultados_turno\":[{\"benchmark\":\"SPARC\",\"version\":\"NR\",\"particion\":\"DEV\",\"metrica\":\"QM\",\"turno\":\"4\",\"n_turno\":\"NR\",\"historial_eval\":\"PREDICHO\",\"sistema\":\"PROPUESTO\",\"modelo_base\":\"BERT\",\"valor\":\"33\",\"ubicacion\":\"página 7, Figura 3 (derecha), valor explícito en el texto\"}],\"historial_eval_turnos\":\"PREDICHO\",\"nota\":\"El texto explicita 33% en el cuarto turno. Se omiten los demás valores de Figura 3, disponibles únicamente gráficamente sin números impresos en el texto.\",\"ubic\":\"5–7\"}}]}",
+  "_label": "TURNOS:R01037"
+}

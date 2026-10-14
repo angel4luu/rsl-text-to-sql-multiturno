@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00123\",\"extraccion\":{\"codigo_disponible\":\"NR\"}},{\"id_estudio\":\"R00124\",\"extraccion\":{\"codigo_disponible\":\"NO\"}},{\"id_estudio\":\"R00127\",\"extraccion\":{\"paradigma_principal\":\"HIBRIDO_NEUROSIMBOLICO\"}},{\"id_estudio\":\"R00135\",\"extraccion\":{\"requiere_entrenamiento\":\"SI\"}},{\"id_estudio\":\"R00151\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00155\",\"extraccion\":{\"paradigma_principal\":\"LLM_PROMPTING\",\"requiere_entrenamiento\":\"SI\"}},{\"id_estudio\":\"R00156\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00166\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_005"
+}

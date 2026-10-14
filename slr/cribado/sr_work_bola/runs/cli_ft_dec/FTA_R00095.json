@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00095@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00095",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; contribution is hint generation from query logs. Schema linking is skipped and the verifier is only a module.",
+   "where": "p1 Abstract; p2 Introduction contributions; p2-3 Methodology (III.B, III.C)"
+  }
+ ],
+ "source": "cli:FTA_R00095.json"
+}

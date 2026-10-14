@@ -1,0 +1,1 @@
+{"label": "FTA:R00960@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00960", "d": "exclude", "code": "E5", "why": "Translates natural language to Weld IR; SQL serves as reference queries and comparison baselines.", "where": "p1 Abstract; p5 Section 4 Evaluation"}], "source": "codex:gpt-6.1-sol"}

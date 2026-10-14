@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00109@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00109",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL constrained decoding, evaluated quantitatively on Spider and multi-turn CoSQL (previous questions as context, QM/IM metrics).",
+   "where": "p3 Section 3 Experiments; p4-5 Results, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00109.json"
+}

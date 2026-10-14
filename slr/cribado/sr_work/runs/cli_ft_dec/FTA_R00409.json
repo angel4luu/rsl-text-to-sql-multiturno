@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00409@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00409",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; schema linking and trajectory verification are stated contributions; EX evaluated on public LogicCat and Archer benchmarks.",
+   "where": "p1 Abstract and p2 Contributions; p6-7 Section 4.1-4.2, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00409.json"
+}

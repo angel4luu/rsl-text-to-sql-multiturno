@@ -1,0 +1,1 @@
+{"label": "FTA:R00818@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00818", "d": "unclear", "code": "UNC", "why": "The incomplete extract omits experimental results, preventing verification of quantitative evaluation.", "where": "p7 §5.3 Metrics; pp8–12 explicitly omitted"}], "source": "codex:gpt-6.1-sol"}

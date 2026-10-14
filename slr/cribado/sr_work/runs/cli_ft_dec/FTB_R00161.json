@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00161@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00161",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn system evaluated only on a custom proprietary ByteDance QA dataset; no public benchmark used.",
+   "where": "p5 Experiments, 4.2 Datasets"
+  }
+ ],
+ "source": "cli:FTB_R00161.json"
+}

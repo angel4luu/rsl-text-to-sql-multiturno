@@ -1,0 +1,51 @@
+{
+  "query": "2026-10-11_acm1",
+  "pages": [
+    "2026-10-11_acm1_p1.html",
+    "2026-10-11_acm1_p2.html",
+    "2026-10-11_acm1_p3.html"
+  ],
+  "items_in_pages": 122,
+  "metadata_source": {
+    "OpenAlex": 122
+  },
+  "without_abstract": 7,
+  "without_abstract_list": [
+    {
+      "doi": "10.1145/3770855.3818075",
+      "title": "APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL",
+      "page": "2026-10-11_acm1_p1.html"
+    },
+    {
+      "doi": "10.1145/3701551.3707416",
+      "title": "The Generalization and Error Detection in LLM-based Text-to-SQL Systems",
+      "page": "2026-10-11_acm1_p1.html"
+    },
+    {
+      "doi": "10.1145/3796563.3796577",
+      "title": "QUERYGEN: A Tool for SQL Query Generation from Natural Language using Prompt Engineering",
+      "page": "2026-10-11_acm1_p1.html"
+    },
+    {
+      "doi": "10.1145/3800227.3800276",
+      "title": "Research on NL2SQL in the logistics field based on large language models under resource\n                     constraints",
+      "page": "2026-10-11_acm1_p2.html"
+    },
+    {
+      "doi": "10.1145/3799830.3799881",
+      "title": "MongoTalk: An Agentic AI Framework for Conversational and Autonomous No-Code MongoDB\n                     Management",
+      "page": "2026-10-11_acm1_p2.html"
+    },
+    {
+      "doi": "10.1145/3698300.3698320",
+      "title": "Data Security Protection and Analysis of ERP System Based on NL2SQL with Large Language\n                     Model and Encrypted Database",
+      "page": "2026-10-11_acm1_p2.html"
+    },
+    {
+      "doi": "10.1145/3748777.3748780",
+      "title": "SNC: A Framework for Verification and Generation of Spatial NLQ Corpora",
+      "page": "2026-10-11_acm1_p2.html"
+    }
+  ],
+  "derived_ris": "derived/2026-10-11_acm1.ris"
+}

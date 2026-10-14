@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00243@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00243",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn multi-agent enterprise QA architecture; RISE self-correction is only a module, not the central contribution.",
+   "where": "p1 Abstract and Introduction (key contribution); p3 Section 3 Text2SQL Agent"
+  }
+ ],
+ "source": "cli:FTB_R00243.json"
+}

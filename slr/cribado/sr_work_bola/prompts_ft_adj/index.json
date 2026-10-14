@@ -1,0 +1,74 @@
+[
+ {
+  "label": "FTADJ:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft_adj/FTADJ_R00239.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft_adj/FTADJ_R00264.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft_adj/FTADJ_R00286.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft_adj/FTADJ_R00289.txt",
+  "model": "opus"
+ }
+]

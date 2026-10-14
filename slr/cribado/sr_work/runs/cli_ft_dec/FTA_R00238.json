@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00238@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00238",
+   "d": "include",
+   "code": "INC",
+   "why": "Veezoo NL2SQL demo with dialog FollowUp refinement in context; quantitative user study (tries to correct answer) on Spider dev questions",
+   "where": "p2 Sec 3.2 (FollowUp, dialog interface); p3-4 Sec 4 Demonstration and Evaluation"
+  }
+ ],
+ "source": "cli:FTA_R00238.json"
+}

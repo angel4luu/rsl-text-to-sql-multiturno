@@ -1,0 +1,276 @@
+{
+ "label": "B:b020@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00938",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive clarifying feedback; unclear if successive dependent questions"
+  },
+  {
+   "id": "R00939",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema pruning central; evaluated on Spider"
+  },
+  {
+   "id": "R00940",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-table benchmark with FK selection and Text-to-SQL; linking centrality unclear"
+  },
+  {
+   "id": "R00941",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LCA application; Text2SQL only a component"
+  },
+  {
+   "id": "R00942",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL correction with multi-round feedback is core; Spider"
+  },
+  {
+   "id": "R00943",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record language is Chinese"
+  },
+  {
+   "id": "R00944",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Query classification; schema linking is one of several modules"
+  },
+  {
+   "id": "R00945",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Iterative verification module among components; centrality unclear"
+  },
+  {
+   "id": "R00946",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise contract QA system; no linking or correction focus"
+  },
+  {
+   "id": "R00947",
+   "d": "include",
+   "code": "INC",
+   "why": "Bidirectional schema linking and self-correction; BIRD"
+  },
+  {
+   "id": "R00948",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-retrieval value linking and generation-execution-revision"
+  },
+  {
+   "id": "R00949",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema linking in title; competition evaluation"
+  },
+  {
+   "id": "R00950",
+   "d": "include",
+   "code": "INC",
+   "why": "Question rewriting for multi-turn SParC and CoSQL"
+  },
+  {
+   "id": "R00951",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Access control layer for Text-to-SQL chatbot"
+  },
+  {
+   "id": "R00952",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn question rewriting for Text-to-SQL"
+  },
+  {
+   "id": "R00953",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Database instance/value integration; unclear if value linking is central"
+  },
+  {
+   "id": "R00954",
+   "d": "include",
+   "code": "INC",
+   "why": "Dialogue state tracking, multi-turn NLIDB evaluated on benchmarks"
+  },
+  {
+   "id": "R00955",
+   "d": "include",
+   "code": "INC",
+   "why": "Chain-of-feedback iterative refinement on Spider"
+  },
+  {
+   "id": "R00956",
+   "d": "include",
+   "code": "INC",
+   "why": "Embedding models for schema linking evaluated experimentally"
+  },
+  {
+   "id": "R00957",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00958",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and execution feedback correction on BIRD"
+  },
+  {
+   "id": "R00959",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Workshop proceedings front matter"
+  },
+  {
+   "id": "R00960",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Targets Weld IR with compiler feedback; compared on Spider SQL"
+  },
+  {
+   "id": "R00961",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00962",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking, SQL correction and candidate selection on BIRD/Spider"
+  },
+  {
+   "id": "R00963",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema mapping NL2SQL interface, KaggleDBQA evaluation"
+  },
+  {
+   "id": "R00964",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking enhancement evaluated on Spider"
+  },
+  {
+   "id": "R00965",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking stage with RL, Spider and BIRD"
+  },
+  {
+   "id": "R00966",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema decoupler and execution-guided search on Spider"
+  },
+  {
+   "id": "R00967",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "GeoSQL benchmark including schema retrieval task; scope unclear"
+  },
+  {
+   "id": "R00968",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Telugu NLIDB; single-turn, no central linking/correction"
+  },
+  {
+   "id": "R00969",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review/survey of Text-to-SQL"
+  },
+  {
+   "id": "R00970",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00971",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Manufacturing MES chat agent; no linking or correction focus"
+  },
+  {
+   "id": "R00972",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema pruning stated contribution; Spider and BIRD"
+  },
+  {
+   "id": "R00973",
+   "d": "include",
+   "code": "INC",
+   "why": "MCTS multi-step refinement with feedback on Spider/BIRD"
+  },
+  {
+   "id": "R00974",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00975",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Feedback-guided planner and entity linking; centrality unclear"
+  },
+  {
+   "id": "R00976",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of context-dependent Text-to-SQL"
+  },
+  {
+   "id": "R00977",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00978",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Product attribute extraction, not Text-to-SQL"
+  },
+  {
+   "id": "R00979",
+   "d": "include",
+   "code": "INC",
+   "why": "Table selection phase is central contribution"
+  },
+  {
+   "id": "R00980",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-refinement feedback loop for SQL on BIRD"
+  },
+  {
+   "id": "R00981",
+   "d": "include",
+   "code": "INC",
+   "why": "Unified parser encoding conversation context; multi-turn datasets"
+  },
+  {
+   "id": "R00982",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "SQL refinement in title; abstract shows syntax/semantic modules"
+  }
+ ],
+ "source_transcript": "agent-acdf8c169eb877bfd.jsonl"
+}

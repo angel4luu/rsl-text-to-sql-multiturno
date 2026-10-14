@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00625@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00625",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema linking (KaSLA) is the central contribution; evaluated quantitatively on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p1 Fig. 1 (BIRD-dev EX)"
+  }
+ ],
+ "source": "cli:FTA_R00625.json"
+}

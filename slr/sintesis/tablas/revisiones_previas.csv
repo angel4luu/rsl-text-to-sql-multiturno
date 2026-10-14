@@ -1,0 +1,11 @@
+clave_bib,tipo,alcance,multiturno,protocolo,fuente_leida
+Li2020ContextSurvey,Narrativa,Análisis semántico dependiente del contexto (no solo SQL),Eje central,No reportado,Resumen
+Yang2025Conversational,Narrativa,Text-to-SQL conversacional,Eje central,No reportado,Resumen
+Abbas2022NLIDB,Narrativa,NLIDB con aprendizaje profundo,Subtema,No verificado,Resumen
+Deng2022Recent,Narrativa,Text-to-SQL general,Subtema,No verificado,Resumen
+Katsogiannis2023Survey,Narrativa,Text-to-SQL con aprendizaje profundo,Subtema,No verificado,Resumen
+Liu2025SurveyLLMs,Narrativa,Text-to-SQL con LLM,Subtema,No verificado,Resumen
+Shi2026SurveyLLM,Narrativa,Text-to-SQL con LLM,Subtema,No verificado,Resumen
+Liu2026NLIDBReview,Sistemática (declarada),NLIDB general,No tratado,No documentado,Texto completo (arXiv v2)
+Bui2026Survey,Sistemática,Text-to-SQL con LLM y seguridad,Solo como categoría de datasets,Documentado,Texto completo (manuscrito)
+OrtizDelgado2026RAG,Sistemática,Estrategias RAG para Text-to-SQL,No tratado,Documentado (OSF),Resumen y registro OSF

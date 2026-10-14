@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00148@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00148",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL using multi-turn user-feedback conversation histories; quantitative execution accuracy on public Bird and Fiben benchmarks; 2025 workshop paper in English.",
+   "where": "p1 Abstract and Introduction; p4-5 Section 3.1 Data sets and Metrics; p5 Section 3.3 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00148.json"
+}

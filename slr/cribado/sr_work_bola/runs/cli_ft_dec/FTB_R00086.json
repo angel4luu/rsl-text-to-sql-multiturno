@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00086@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00086",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL with schema selector and execution-feedback refiner as stated contributions; quantitative evaluation on Spider and variants.",
+   "where": "p2 Abstract; p15 Experiment, Experimental Setup; p16 Table 4"
+  }
+ ],
+ "source": "cli:FTB_R00086.json"
+}

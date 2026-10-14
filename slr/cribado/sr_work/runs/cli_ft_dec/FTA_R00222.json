@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00222@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00222",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round Text-to-SQL with semantic completion and clarification; quantitative evaluation on BIRD, MRD-BIRD and industrial multi-round datasets; PVLDB 2025 paper.",
+   "where": "p2-3 Introduction (contributions); p6 §3.3 MRD-Q; p9-10 §4.1-4.2 Experiments"
+  }
+ ],
+ "source": "cli:FTA_R00222.json"
+}

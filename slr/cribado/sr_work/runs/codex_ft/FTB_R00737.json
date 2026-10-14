@@ -1,0 +1,1 @@
+{"label": "FTB:R00737@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00737", "d": "include", "code": "INC", "why": "Central contributions include join inference and SQL candidate reranking, quantitatively evaluated on public Spider and Spider-Syn benchmarks.", "where": "p1 Abstract; p2 §3; pp3–4 §5"}], "source": "codex:gpt-6.1-sol"}

@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00460@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00460",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is schema-context compression raising schema-linking recall; quantitative evaluation on public Spider 2.0-Snow and BIRD",
+   "where": "p1 Abstract; p2-3 Sec. I-B/I-C Contributions, Sec. II-B Schema linking"
+  }
+ ],
+ "source": "cli:FTADJ_R00460.json"
+}

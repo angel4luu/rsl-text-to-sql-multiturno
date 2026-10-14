@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00415@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00415",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-user-question agent explores schema (schema linking/exploration as central contribution), evaluated on BIRD, Spider and variants; arXiv 2026",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Sec 4.1 and Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00415.json"
+}

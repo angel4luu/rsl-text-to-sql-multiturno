@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R01029@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R01029",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with interaction state tracking, evaluated quantitatively on CoSQL and SParC; AAAI 2021 full paper.",
+   "where": "p1 Abstract; p3 Dataset; p6-7 Experiments, Tables 1-6"
+  }
+ ],
+ "source": "cli:FTB_R01029.json"
+}

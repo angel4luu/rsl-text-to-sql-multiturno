@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00644@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00644",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn table/column selection pipeline; the experiments section (pp5-8) is missing, so public-benchmark use can't be verified.",
+   "where": "p1 Abstract; p2 Contributions; extract omits pp5-8 (experiments)"
+  }
+ ],
+ "source": "cli:FTA_R00644.json"
+}

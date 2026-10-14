@@ -1,0 +1,1 @@
+{"label": "FTA:R00004@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00004", "d": "include", "code": "INC", "why": "Introduces iterative SQL error correction for training data generation and quantitatively evaluates on public Spider and BIRD benchmarks.", "where": "p1 Abstract; p3 §3; p6 §5.2; pp7–8 §6"}], "source": "codex:gpt-6.1-sol"}

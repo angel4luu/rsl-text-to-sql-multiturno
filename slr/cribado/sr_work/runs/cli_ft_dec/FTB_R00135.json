@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00135@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00135",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; central contribution is error detection and refinement, evaluated on BIRD, Spider and NL2SQL-Bugs with execution accuracy.",
+   "where": "p1 Abstract and Introduction; p6 Section 4.1 Datasets; p7 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00135.json"
+}

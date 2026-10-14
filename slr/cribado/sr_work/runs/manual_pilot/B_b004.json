@@ -1,0 +1,306 @@
+{
+ "label": "B:b004@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00151",
+   "d": "include",
+   "code": "INC",
+   "why": "SchemaLinker and schema-aware retrieval central; five benchmarks"
+  },
+  {
+   "id": "R00152",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Spatial SQL, interactive with chat history and execution-feedback refinement; evaluation unclear"
+  },
+  {
+   "id": "R00153",
+   "d": "include",
+   "code": "INC",
+   "why": "Adaptive two-stage schema linking stated as contribution"
+  },
+  {
+   "id": "R00154",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback SQL refinement central; Bird and Spider"
+  },
+  {
+   "id": "R00155",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking with abstention focus; BIRD experiments"
+  },
+  {
+   "id": "R00156",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative schema linking graph is central contribution"
+  },
+  {
+   "id": "R00157",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data annotation system; no linking or correction focus"
+  },
+  {
+   "id": "R00158",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-module framework with refinement; unclear if main contribution"
+  },
+  {
+   "id": "R00159",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests error detection in Text-to-SQL"
+  },
+  {
+   "id": "R00160",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL with error-feedback guidance; CoSQL results"
+  },
+  {
+   "id": "R00161",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Self-reflection among several components; unclear if central"
+  },
+  {
+   "id": "R00162",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking module is one of three components"
+  },
+  {
+   "id": "R00163",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-schema graph encoding; unclear if schema linking central"
+  },
+  {
+   "id": "R00164",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Open-source pretrained models; schema linking only mentioned"
+  },
+  {
+   "id": "R00165",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis and general model; no linking or correction focus"
+  },
+  {
+   "id": "R00166",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking probing is central; three benchmarks"
+  },
+  {
+   "id": "R00167",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Benchmark with ambiguity, question rewriting, table linking baseline"
+  },
+  {
+   "id": "R00168",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn Arabic dataset; not about linking or correction"
+  },
+  {
+   "id": "R00169",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General multi-agent pipeline demo; no linking or correction focus"
+  },
+  {
+   "id": "R00170",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Evaluated on CHASE; multi-turn setting and schema linking unclear"
+  },
+  {
+   "id": "R00171",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-question ambiguity resolution demo; not dependent multi-turn"
+  },
+  {
+   "id": "R00172",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generic financial Text-to-SQL; no linking, correction or multi-turn"
+  },
+  {
+   "id": "R00173",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of cross-domain NL2SQL"
+  },
+  {
+   "id": "R00174",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL encoder evaluated on SParC"
+  },
+  {
+   "id": "R00175",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt engineering benchmark; no linking or correction focus"
+  },
+  {
+   "id": "R00176",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Tool with schema mapping and execution-feedback refinement among components"
+  },
+  {
+   "id": "R00177",
+   "d": "include",
+   "code": "INC",
+   "why": "Evaluates schema subsetting/linking modules on benchmarks"
+  },
+  {
+   "id": "R00178",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Short review of own framework"
+  },
+  {
+   "id": "R00179",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data governance architecture; no linking or correction focus"
+  },
+  {
+   "id": "R00180",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema normalization study; not linking or correction contribution"
+  },
+  {
+   "id": "R00181",
+   "d": "include",
+   "code": "INC",
+   "why": "Database-content SQL refinement framework; five benchmarks"
+  },
+  {
+   "id": "R00182",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial overview"
+  },
+  {
+   "id": "R00183",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agentic assistant with execution-feedback self-correction; centrality unclear"
+  },
+  {
+   "id": "R00184",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Visualization platform; self-correction only a component"
+  },
+  {
+   "id": "R00185",
+   "d": "exclude",
+   "code": "E6",
+   "why": "User debugging interface for single queries; no correction method"
+  },
+  {
+   "id": "R00186",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL verification and refinement agent; Spider evaluation"
+  },
+  {
+   "id": "R00187",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Constraint-based SQL generation for testing, not natural language"
+  },
+  {
+   "id": "R00188",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Big-data cost metrics; no linking or correction focus"
+  },
+  {
+   "id": "R00189",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cost-accuracy pipeline configuration tuning"
+  },
+  {
+   "id": "R00190",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Graph construction with LLM-optimized schema linking; centrality unclear"
+  },
+  {
+   "id": "R00191",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-guided table retrieval for open-domain Text-to-SQL on WikiSQL"
+  },
+  {
+   "id": "R00192",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema naming benchmark; not linking or correction method"
+  },
+  {
+   "id": "R00193",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data exploration demo; no linking, correction or multi-turn"
+  },
+  {
+   "id": "R00194",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Equity analysis multi-agent system; Text-to-SQL a component"
+  },
+  {
+   "id": "R00195",
+   "d": "exclude",
+   "code": "E6",
+   "why": "GPT-based query decomposition; no linking or correction focus"
+  },
+  {
+   "id": "R00196",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; logistics NL2SQL, title lacks core criteria"
+  },
+  {
+   "id": "R00197",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Policy QA agent; Text-to-SQL only a tool service"
+  },
+  {
+   "id": "R00198",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Property trends system; chatbot is minor application"
+  },
+  {
+   "id": "R00199",
+   "d": "exclude",
+   "code": "E5",
+   "why": "MongoDB NoSQL interface"
+  },
+  {
+   "id": "R00200",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round dialogue routing and hierarchical schema linking; public datasets"
+  }
+ ],
+ "source_transcript": "agent-a693a1afca66a8fed.jsonl"
+}

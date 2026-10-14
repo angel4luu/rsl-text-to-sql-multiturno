@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00254@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00254",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn application/system description of a Text2SQL customer-service robot; no stated schema-linking or self-correction contribution.",
+   "where": "p1 Abstract; p2-3 Sections 3.1-3.4 System design"
+  }
+ ],
+ "source": "cli:FTB_R00254.json"
+}

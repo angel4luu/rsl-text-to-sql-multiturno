@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00300@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00300",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; experiments only on two proprietary business databases (CTraffic, CompanyZ); Spider used only for descriptive comparison",
+   "where": "p8 Section 4.1 Dataset; p9 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00300.json"
+}

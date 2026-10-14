@@ -1,0 +1,239 @@
+{
+ "A1_contraste_central": {
+  "n_multiturno": 34,
+  "n_un_turno": 268
+ },
+ "A2_M8_esperados": {
+  "ab": 2.4,
+  "ac": 8.4,
+  "bc": 7.8,
+  "abc": 1.41
+ },
+ "A3_tendencia_2019_2026": {
+  "estadistico": -16.166,
+  "p_exacta_bilateral": 0.0922,
+  "replicas": 10000
+ },
+ "A4_nulos": {
+  "umbral_pp": 0.5,
+  "total_estudios_clase": 126,
+  "total_nulos": 14,
+  "por_clase": [
+   {
+    "pilar": "PI1",
+    "clase": "Concatenación / historial",
+    "n": 3,
+    "nulos_umbral": 1,
+    "positivos_umbral": 2,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI1",
+    "clase": "Otros componentes del pilar",
+    "n": 17,
+    "nulos_umbral": 2,
+    "positivos_umbral": 15,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI1",
+    "clase": "Reescritura de la pregunta",
+    "n": 5,
+    "nulos_umbral": 0,
+    "positivos_umbral": 4,
+    "negativos_umbral": 1
+   },
+   {
+    "pilar": "PI2",
+    "clase": "Grafo / estado estructurado",
+    "n": 11,
+    "nulos_umbral": 0,
+    "positivos_umbral": 11,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI2",
+    "clase": "Otros componentes del pilar",
+    "n": 22,
+    "nulos_umbral": 0,
+    "positivos_umbral": 21,
+    "negativos_umbral": 1
+   },
+   {
+    "pilar": "PI2",
+    "clase": "SQL / resultados previos",
+    "n": 7,
+    "nulos_umbral": 1,
+    "positivos_umbral": 6,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI3",
+    "clase": "Otros componentes del pilar",
+    "n": 15,
+    "nulos_umbral": 2,
+    "positivos_umbral": 13,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI3",
+    "clase": "Vinculación de esquemas",
+    "n": 19,
+    "nulos_umbral": 2,
+    "positivos_umbral": 17,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI4",
+    "clase": "Aclaración / interacción con el usuario",
+    "n": 3,
+    "nulos_umbral": 0,
+    "positivos_umbral": 2,
+    "negativos_umbral": 1
+   },
+   {
+    "pilar": "PI4",
+    "clase": "Autoconsistencia / selección de candidatos",
+    "n": 2,
+    "nulos_umbral": 1,
+    "positivos_umbral": 1,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI4",
+    "clase": "Autocorrección / retroalimentación de ejecución",
+    "n": 11,
+    "nulos_umbral": 3,
+    "positivos_umbral": 8,
+    "negativos_umbral": 0
+   },
+   {
+    "pilar": "PI4",
+    "clase": "Otros componentes del pilar",
+    "n": 11,
+    "nulos_umbral": 2,
+    "positivos_umbral": 8,
+    "negativos_umbral": 1
+   }
+  ]
+ },
+ "A4_confianza_penalizada": {
+  "PI1 · Concatenación / historial": "baja",
+  "PI1 · Otros componentes del pilar": "moderada",
+  "PI1 · Reescritura de la pregunta": "moderada",
+  "PI2 · Grafo / estado estructurado": "moderada",
+  "PI2 · Otros componentes del pilar": "moderada",
+  "PI2 · SQL / resultados previos": "moderada",
+  "PI3 · Otros componentes del pilar": "moderada",
+  "PI3 · Vinculación de esquemas": "moderada",
+  "PI4 · Aclaración / interacción con el usuario": "baja",
+  "PI4 · Autoconsistencia / selección de candidatos": "baja",
+  "PI4 · Autocorrección / retroalimentación de ejecución": "baja",
+  "PI4 · Otros componentes del pilar": "moderada"
+ },
+ "A4_confianza_alta_registrada": 8,
+ "A5_omisiones": {
+  "exclusiones_conjuntas": 477,
+  "releidas": 397,
+  "no_releidas": 80,
+  "aleatorias_releidas": 150,
+  "incluidas_tras_rescate_aleatorias": 5,
+  "tasa": 0.0333,
+  "tasa_ic95": [
+   0.0143,
+   0.0757
+  ],
+  "omisiones_esperadas": 2.7,
+  "omisiones_esperadas_ic95": [
+   1.1,
+   6.1
+  ]
+ },
+ "A5_acuerdo_campo_nivel2": {
+  "pilares_centrales": {
+   "k": 31,
+   "n": 75
+  },
+  "pi1_tecnica": {
+   "k": 24,
+   "n": 75
+  },
+  "pi2_representacion": {
+   "k": 44,
+   "n": 75
+  },
+  "pi3_inferencia_joins": {
+   "k": 59,
+   "n": 75
+  },
+  "pi4_mecanismo": {
+   "k": 51,
+   "n": 75
+  },
+  "historial_eval": {
+   "k": 64,
+   "n": 75
+  }
+ },
+ "A6_acuerdo_central_nivel1": {
+  "n": 317,
+  "kappa": 0.781,
+  "acuerdo": 0.9558,
+  "pabak": 0.912
+ },
+ "A7_cota_probabilistica": {
+  "k_esperado": 48.0,
+  "n_esperado": 424.5,
+  "p": 0.1132,
+  "tasas_recuperados": {
+   "multiturno": [
+    0.2523,
+    0.3832,
+    107
+   ],
+   "un_turno": [
+    0.0216,
+    0.716,
+    324
+   ]
+  }
+ },
+ "A7_recuperacion": {
+  "buscados": 595,
+  "no_recuperados": 164
+ },
+ "A8_sensibilidad": {
+  "un_turno": [
+   16,
+   19,
+   [
+    0.6243,
+    0.9448
+   ]
+  ],
+  "multiturno": [
+   24,
+   24,
+   [
+    0.862,
+    1.0
+   ]
+  ]
+ },
+ "A9_degradacion": {
+  "PREDICHO": {
+   "curvas": 6,
+   "mediana": -7.0,
+   "min": -16.95,
+   "max": -4.85,
+   "positivas": 0
+  },
+  "SOLO_PREGUNTAS": {
+   "curvas": 8,
+   "mediana": -10.96,
+   "min": -14.87,
+   "max": -6.55,
+   "positivas": 0
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00464@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00464",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; evaluated only on the authors' own 100-question synthetic set and NHTSA data with hand-authored gold, no established public benchmark.",
+   "where": "p1 Abstract; p9-10 Sec. 5-7 Experimental setup and metrics"
+  }
+ ],
+ "source": "cli:FTB_R00464.json"
+}

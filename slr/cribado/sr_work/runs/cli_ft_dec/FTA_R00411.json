@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00411@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00411",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn table retrieval (schema linking, join connectivity) is the central contribution; evaluated quantitatively on BIRD, BEAVER and FIBEN text-to-SQL benchmarks.",
+   "where": "p1 Abstract/Introduction; p4 §5.2 Datasets and Metrics; p5 §6.1 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00411.json"
+}

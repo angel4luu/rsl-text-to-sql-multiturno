@@ -1,0 +1,258 @@
+{
+ "label": "QC:q006@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00810",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL shared-decoder multi-task model; no linking or correction contribution"
+  },
+  {
+   "id": "R00811",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn CREATE-query generation dataset; foreign keys for schema design, not join inference"
+  },
+  {
+   "id": "R00815",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn WikiSQL; value-to-column extraction via table contents may be central linking"
+  },
+  {
+   "id": "R00822",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Dialogue-based NLIDB producing SQL for database design; whether it queries the database is unclear"
+  },
+  {
+   "id": "R00823",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00826",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00833",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-KQL (Kusto Query Language) for security telemetry, not relational SQL"
+  },
+  {
+   "id": "R00834",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00836",
+   "d": "exclude",
+   "code": "E5",
+   "why": "DataFlow semantic parsing toolkit for chatbots, not SQL"
+  },
+  {
+   "id": "R00841",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00850",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of LLM-based Text-to-SQL"
+  },
+  {
+   "id": "R00853",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00855",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00856",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00861",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn empirical study of data synthesis; no linking or correction focus"
+  },
+  {
+   "id": "R00869",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00874",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00877",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00879",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Japanese"
+  },
+  {
+   "id": "R00883",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Hybrid rule/LLM NL-to-SQL system; single queries, no dialogue, no linking/correction contribution"
+  },
+  {
+   "id": "R00884",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table QA over data lakes with LLMs, no SQL generation"
+  },
+  {
+   "id": "R00888",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00890",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00892",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00895",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00899",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based Text-to-SQL"
+  },
+  {
+   "id": "R00901",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Adversarial SQL generation for cardinality estimators, not NL-to-SQL"
+  },
+  {
+   "id": "R00907",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational retrieval generating knowledge-graph queries, not SQL"
+  },
+  {
+   "id": "R00912",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-SPARQL with ontology checking, not relational SQL"
+  },
+  {
+   "id": "R00913",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational QA over knowledge graphs generating graph queries"
+  },
+  {
+   "id": "R00914",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Contract Q&A application using text-to-SQL; system description"
+  },
+  {
+   "id": "R00916",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Food recommendation RAG system; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00919",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Vision/position paper on NLIDBs without own evaluation"
+  },
+  {
+   "id": "R00925",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00926",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00928",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data dictionary generation; text-to-SQL only a downstream evaluation"
+  },
+  {
+   "id": "R00929",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00937",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00941",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LCA application using prompted Text2SQL; no linking or correction contribution"
+  },
+  {
+   "id": "R00943",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00946",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise contract QA application with RAG and Text-to-SQL"
+  },
+  {
+   "id": "R00957",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  }
+ ],
+ "source_transcript": "agent-a66f5672cb2e6b3d7.jsonl"
+}

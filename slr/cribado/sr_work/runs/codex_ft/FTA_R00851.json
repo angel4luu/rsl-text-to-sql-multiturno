@@ -1,0 +1,1 @@
+{"label": "FTA:R00851@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00851", "d": "include", "code": "INC", "why": "Proposes explicit schema linking and SQL execution feedback, quantitatively evaluated on Spider and BIRD public benchmarks.", "where": "p1 Abstract; pp12–13 Sections 5.1–5.2"}], "source": "codex:gpt-6.1-sol"}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00470@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00470",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Each dialogue clarifies one standalone question; contribution is ambiguity/unanswerability taxonomy and benchmark, not schema linking or self-correction.",
+   "where": "p7 Section 5.1 Evaluation Protocol; p10-11 Section 7.1 Limitations"
+  }
+ ],
+ "source": "cli:FTA_R00470.json"
+}

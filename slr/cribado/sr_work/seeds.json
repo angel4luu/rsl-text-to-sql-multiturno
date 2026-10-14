@@ -1,0 +1,67 @@
+[
+ {
+  "label": "S1 Chen 2021, Findings ACL (Decoupled dialogue modeling)",
+  "id": "R00107",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S2 Tummalapenta 2026, arXiv (Memory architectures)",
+  "id": "R00435",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S3 Usta 2021, PVLDB (DBTagger)",
+  "id": "R00278",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S4 Safdarian 2026, Findings EACL (SchemaGraphSQL)",
+  "id": "R00006",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S5 Chen 2025, PACMMOD (Adaptive abstention)",
+  "id": "R00155",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S6 Xie 2025, PACMMOD (OpenSearch-SQL)",
+  "id": "R00158",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S7 Yu 2019, ACL (SParC)",
+  "id": "R00126",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S8 Yu 2019, EMNLP (CoSQL)",
+  "id": "R00129",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S9 Guo 2021, ACL (CHASE)",
+  "id": "R00110",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S10 Zhang 2019, EMNLP (EditSQL)",
+  "id": "R00131",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S11 Cai 2020, EMNLP (IGSQL)",
+  "id": "R00117",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S12 Xiao 2022, Findings EMNLP (CQR-SQL; Scopus DOI wrong)",
+  "id": "R00097",
+  "matched_on": "doi"
+ },
+ {
+  "label": "S13 Zhang 2024, NAACL (CoE-SQL)",
+  "id": "R00072",
+  "matched_on": "doi"
+ }
+]

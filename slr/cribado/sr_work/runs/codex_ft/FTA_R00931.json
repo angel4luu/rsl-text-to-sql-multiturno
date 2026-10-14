@@ -1,0 +1,1 @@
+{"label": "FTA:R00931@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00931", "d": "exclude", "code": "E8", "why": "Single-turn SQL generation evaluated only on proprietary educational data; public-benchmark experiments are planned, not reported.", "where": "p8, Sections 4.1.1 Dataset and 4.1.2 Baselines"}], "source": "codex:gpt-6.1-sol"}

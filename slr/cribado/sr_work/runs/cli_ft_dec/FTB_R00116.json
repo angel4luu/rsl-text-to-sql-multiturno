@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00116@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00116",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL adaptation evaluated on Spider, SParC and CoSQL, with previous-query context, per-turn breakdown and execution-consistency verification.",
+   "where": "p5-7 Sec 3 Experiments (Sparc/CoSQL), Tables 2-3; p7 Results per-turn breakdown"
+  }
+ ],
+ "source": "cli:FTB_R00116.json"
+}

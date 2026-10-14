@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00093@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00093",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with history-enhanced schema linking; quantitative evaluation on SparC and CoSQL; 2022 ACL Findings paper.",
+   "where": "p1 Abstract; p6-7 Section 4 Experiment, Tables 3-4"
+  }
+ ],
+ "source_transcript": "agent-a80a5d989cb0f43d2.jsonl"
+}

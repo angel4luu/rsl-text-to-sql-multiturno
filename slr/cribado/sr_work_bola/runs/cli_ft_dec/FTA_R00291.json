@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00291@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00291",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-feedback/self-refinement is the central contribution; quantitative results on Spider, WikiSQL, BIRD, Dr.Spider for relational dialects.",
+   "where": "p1 Abstract and p2 Introduction contributions; p7 Table 1, Section 5.1 Main Results"
+  }
+ ],
+ "source": "cli:FTA_R00291.json"
+}

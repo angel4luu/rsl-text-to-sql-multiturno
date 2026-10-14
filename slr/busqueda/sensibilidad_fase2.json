@@ -1,0 +1,1055 @@
+{
+  "records_per_source": {
+    "Scopus": 563,
+    "IEEE": 368,
+    "ACM": 146,
+    "ACL": 133,
+    "arXiv": 386
+  },
+  "arms": {
+    "multiturno": {
+      "eligible": {
+        "n": 24,
+        "found": 24,
+        "recall": 1.0,
+        "wilson95": [
+          0.862,
+          1.0
+        ],
+        "per_db": {
+          "Scopus": 24,
+          "IEEE": 9,
+          "ACM": 2,
+          "ACL": 9,
+          "arXiv": 11
+        }
+      },
+      "eligible_plus_probable": {
+        "n": 31,
+        "found": 31,
+        "recall": 1.0,
+        "wilson95": [
+          0.89,
+          1.0
+        ],
+        "per_db": {
+          "Scopus": 31,
+          "IEEE": 9,
+          "ACM": 2,
+          "ACL": 9,
+          "arXiv": 12
+        }
+      },
+      "missed": [],
+      "circularity_control_no_SParC_CoSQL_in_abstract": {
+        "n": 5,
+        "found": 5,
+        "recall": 1.0,
+        "wilson95": [
+          0.566,
+          1.0
+        ],
+        "per_db": {
+          "Scopus": 5,
+          "IEEE": 1,
+          "ACM": 0,
+          "ACL": 3,
+          "arXiv": 3
+        }
+      },
+      "eligible_without_seeds": {
+        "n": 19,
+        "found": 19,
+        "recall": 1.0,
+        "wilson95": [
+          0.832,
+          1.0
+        ],
+        "per_db": {
+          "Scopus": 19,
+          "IEEE": 9,
+          "ACM": 2,
+          "ACL": 4,
+          "arXiv": 7
+        }
+      }
+    },
+    "un_turno": {
+      "eligible": {
+        "n": 19,
+        "found": 16,
+        "recall": 0.842,
+        "wilson95": [
+          0.624,
+          0.945
+        ],
+        "per_db": {
+          "Scopus": 10,
+          "IEEE": 0,
+          "ACM": 0,
+          "ACL": 6,
+          "arXiv": 15
+        }
+      },
+      "eligible_plus_probable": {
+        "n": 19,
+        "found": 16,
+        "recall": 0.842,
+        "wilson95": [
+          0.624,
+          0.945
+        ],
+        "per_db": {
+          "Scopus": 10,
+          "IEEE": 0,
+          "ACM": 0,
+          "ACL": 6,
+          "arXiv": 15
+        }
+      },
+      "missed": [
+        [
+          "Q108",
+          "Bertrand-DR: Improving Text-to-SQL using a Discriminative Re-ranker"
+        ],
+        [
+          "Q112",
+          "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL"
+        ],
+        [
+          "Q113",
+          "CHESS: Contextual Harnessing for Efficient SQL Synthesis"
+        ]
+      ]
+    }
+  },
+  "seeds": {
+    "S1": true,
+    "S2": true,
+    "S3": true,
+    "S4": true,
+    "S5": true,
+    "S6": true,
+    "S7": true,
+    "S8": true,
+    "S9": true,
+    "S10": true,
+    "S11": true,
+    "S12": true,
+    "S13": true
+  },
+  "members": [
+    {
+      "id": "Q001",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": "S8"
+    },
+    {
+      "id": "Q002",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": "S10"
+    },
+    {
+      "id": "Q003",
+      "arm": "multiturno",
+      "status": "Dudoso",
+      "title": "How Far are We from Effective Context Modeling? An Exploratory Study on Semantic Parsing in Context",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q004",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "PG-GSQL: Pointer-Generator Network with Guide Decoding for Cross-Domain Context-Dependent Text-to-SQL Generation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q005",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "A Multiple-Integration Encoder for Multi-Turn Text-to-SQL Semantic Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": true,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q006",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "An interaction-modeling mechanism for context-dependent Text-to-SQL translation based on heterogeneous graph aggregation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q007",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "Capturing SQL Query Overlapping via Subtree Copy for Cross-Domain Context-Dependent SQL Generation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q008",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Chase: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": "S9"
+    },
+    {
+      "id": "Q009",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": "S1"
+    },
+    {
+      "id": "Q010",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q011",
+      "arm": "multiturno",
+      "status": "Dudoso",
+      "title": "Memory-Based Semantic Parsing",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q012",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q013",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": "S12"
+    },
+    {
+      "id": "Q014",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q015",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q016",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "Context-Dependent Text-to-SQL Generation with Intermediate Representation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q017",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q018",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "DIR: A Large-Scale Dialogue Rewrite Dataset for Cross-Domain Conversational Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q019",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q020",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "QURG: Question Rewriting Guided Context-Dependent Text-to-SQL Semantic Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q021",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "SeSQL: A High-Quality Large-Scale Session-Level Chinese Text-to-SQL Dataset",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q022",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "ConDA: state-based data augmentation for context-dependent text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q023",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "GAT-SQL: An Advanced Prompt Engineering Approach for Effective Text-to-SQL Interactions",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q024",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Learn From Mistakes: Guidance on Zero-shot Conversational Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": true,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q025",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "SE-HCL: Schema Enhanced Hybrid Curriculum Learning for Multi-Turn Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q026",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Advancing Conversational Text-to-SQL: Context Strategies and Model Integration with Large Language Models",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q027",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q028",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "MTSL-SQL: Multi-Turn Schema Linking for Context-dependent Text-to-SQL Paring with Open-Source LLMs",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q029",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Prism-SQL: A Self-Judging Dual-Path Refraction Framework for Multi-Turn Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q030",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q031",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "ARE SQL for improving semantic alignment in Chinese multi round text to SQL parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q032",
+      "arm": "multiturno",
+      "status": "Elegible probable",
+      "title": "Bridge-SQL: Bridging Single- and Multi-Turn Text-to-SQL via Preference-Aligned Question Rewriting",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q101",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q102",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "Re-examining the Role of Schema Linking in Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q103",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q104",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "SADGA: Structure-Aware Dual Graph Aggregation Network for Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q105",
+      "arm": "un_turno",
+      "status": "Dudoso",
+      "title": "ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q106",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "An Investigation Between Schema Linking and Text-to-SQL Performance",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q107",
+      "arm": "un_turno",
+      "status": "Dudoso",
+      "title": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q108",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "Bertrand-DR: Improving Text-to-SQL using a Discriminative Re-ranker",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q109",
+      "arm": "multiturno",
+      "status": "Elegible",
+      "title": "GuideSQL: Utilizing Tables to Guide the Prediction of Columns for Text-to-SQL Generation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": true,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q110",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "Improving Text-to-SQL with Schema Dependency Learning",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q111",
+      "arm": "un_turno",
+      "status": "Dudoso",
+      "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q112",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q113",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "CHESS: Contextual Harnessing for Efficient SQL Synthesis",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q114",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "RSL-SQL: Robust Schema Linking in Text-to-SQL Generation",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q115",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q116",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q117",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q118",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q119",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": true,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q120",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q121",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-Consistency",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": false,
+      "seed": ""
+    },
+    {
+      "id": "Q122",
+      "arm": "un_turno",
+      "status": "Dudoso",
+      "title": "Prompting GPT-3.5 for Text-to-SQL with De-semanticization and Skeleton Retrieval",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q123",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL (extended)",
+      "hits": {
+        "Scopus": true,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q124",
+      "arm": "un_turno",
+      "status": "Elegible",
+      "title": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": true
+      },
+      "any": true,
+      "no_sparc_cosql": true,
+      "seed": ""
+    },
+    {
+      "id": "Q125",
+      "arm": "un_turno",
+      "status": "No elegible",
+      "title": "Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments",
+      "hits": {
+        "Scopus": false,
+        "IEEE": false,
+        "ACM": false,
+        "ACL": false,
+        "arXiv": false
+      },
+      "any": false,
+      "no_sparc_cosql": true,
+      "seed": ""
+    }
+  ]
+}

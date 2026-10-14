@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00110@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00110",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Chinese Text-to-SQL dataset (CHASE) over relational databases; benchmarks EditSQL, IGSQL and RAT-CON with QM/IM accuracy.",
+   "where": "p1 Abstract; p2 Introduction; p7-8 Section 5 Experiments, Table 9"
+  }
+ ],
+ "source": "cli:FTB_R00110.json"
+}

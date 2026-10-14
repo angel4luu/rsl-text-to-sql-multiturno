@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00393@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00393",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema filtering is the central contribution; quantitative evaluation on Spider, BIRD and Spider 2.0-lite; 2025 arXiv-style paper.",
+   "where": "p1 Abstract and Introduction; p5-6 Section 5 Experiments, Table 3"
+  }
+ ],
+ "source": "cli:FTA_R00393.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00095@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00095",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; central contribution is hint generation from query logs. Schema linking is dropped and the SQL verifier is only a module.",
+   "where": "p1 Abstract; p2 Contributions; p2-3 Methodology"
+  }
+ ],
+ "source": "cli:FTB_R00095.json"
+}

@@ -1,0 +1,1 @@
+{"label": "FTA:R00061@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00061", "d": "include", "code": "INC", "why": "Central contribution identifies and corrects relational SQL errors, with quantitative evaluation on the public Spider benchmark.", "where": "p1 Abstract; p5 §3.3; p6 §4.1.1 and Tables 1–2"}], "source": "codex:gpt-6.1-sol"}

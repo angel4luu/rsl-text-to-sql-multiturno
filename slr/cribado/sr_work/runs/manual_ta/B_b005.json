@@ -1,0 +1,306 @@
+{
+ "label": "B:b005@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00201",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmarks schema selection and query revision modules on BIRD"
+  },
+  {
+   "id": "R00202",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese domain model, no linking/correction focus"
+  },
+  {
+   "id": "R00203",
+   "d": "include",
+   "code": "INC",
+   "why": "Keyword mapping to schema elements (schema linking) evaluated on eight datasets"
+  },
+  {
+   "id": "R00204",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2003"
+  },
+  {
+   "id": "R00205",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Data-lake workflow planning, not relational Text-to-SQL"
+  },
+  {
+   "id": "R00206",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn long-context study, no linking/correction contribution"
+  },
+  {
+   "id": "R00207",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial"
+  },
+  {
+   "id": "R00208",
+   "d": "include",
+   "code": "INC",
+   "why": "Signal retrieval (linking) and self-correction as stated contributions"
+  },
+  {
+   "id": "R00209",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Iterative query creation and validation; unclear if multi-turn user dialogue"
+  },
+  {
+   "id": "R00210",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-driven debugging loop is one of three components"
+  },
+  {
+   "id": "R00211",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table association modeling and SQL verification among several components"
+  },
+  {
+   "id": "R00212",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive NL-to-SQL with iterative refinement; dialogue dependence unclear"
+  },
+  {
+   "id": "R00213",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-Cypher graph database dataset"
+  },
+  {
+   "id": "R00214",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt refinement and fine-tuning"
+  },
+  {
+   "id": "R00215",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-to-SQL demo, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00216",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Database encryption scheme, NL2SQL incidental"
+  },
+  {
+   "id": "R00217",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SQL workload generation, not NL-to-SQL translation"
+  },
+  {
+   "id": "R00218",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Visualization generation, not SQL"
+  },
+  {
+   "id": "R00219",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Talk on AI data processing challenges, not Text-to-SQL"
+  },
+  {
+   "id": "R00220",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General system demo, no linking/correction contribution"
+  },
+  {
+   "id": "R00221",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification of single standalone question, single-turn"
+  },
+  {
+   "id": "R00222",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round dialogue with semantic completion for SQL generation"
+  },
+  {
+   "id": "R00223",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Robustness testing framework, single-turn"
+  },
+  {
+   "id": "R00224",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multi-round reasoning on single question, general system"
+  },
+  {
+   "id": "R00225",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General NLP data discussion, not Text-to-SQL"
+  },
+  {
+   "id": "R00226",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational visualization intent, not SQL generation"
+  },
+  {
+   "id": "R00227",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Few-shot prompting tool, single-turn"
+  },
+  {
+   "id": "R00228",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph entity alignment"
+  },
+  {
+   "id": "R00229",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Spatial NLQ corpus generation, single-turn"
+  },
+  {
+   "id": "R00230",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL equivalence test generation, not linking/correction"
+  },
+  {
+   "id": "R00231",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-round dialogue context; unclear whether SQL generation involved"
+  },
+  {
+   "id": "R00232",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NLIDB with dialog management and incremental incomplete queries"
+  },
+  {
+   "id": "R00233",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial surveying LLMs for tables"
+  },
+  {
+   "id": "R00234",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial"
+  },
+  {
+   "id": "R00235",
+   "d": "exclude",
+   "code": "E5",
+   "why": "ELT pipeline benchmark, not Text-to-SQL"
+  },
+  {
+   "id": "R00236",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL2VIS benchmark, not SQL"
+  },
+  {
+   "id": "R00237",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Tabular QA agent framework, no linking/correction focus"
+  },
+  {
+   "id": "R00238",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Demo of interactive NLIDB guiding users; multi-turn unclear"
+  },
+  {
+   "id": "R00239",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Constraint mining for reconciliation scripts, not NL-to-SQL"
+  },
+  {
+   "id": "R00240",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Shopkeeper robot imitation learning"
+  },
+  {
+   "id": "R00241",
+   "d": "include",
+   "code": "INC",
+   "why": "Validation of generated SQL via metamorphic prompting on Spider and BIRD"
+  },
+  {
+   "id": "R00242",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Quantitative backtesting benchmark, not Text-to-SQL focus"
+  },
+  {
+   "id": "R00243",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Text2SQL agent with introspection; centrality and setting unclear"
+  },
+  {
+   "id": "R00244",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SQL template extraction from ORM code"
+  },
+  {
+   "id": "R00245",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Discussion of existing studies, no own evaluation"
+  },
+  {
+   "id": "R00246",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2016"
+  },
+  {
+   "id": "R00247",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00248",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Database connector bug testing"
+  },
+  {
+   "id": "R00249",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00250",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn error analysis and user study, no correction method"
+  }
+ ],
+ "source_transcript": "agent-aba0609f56cb31c85.jsonl"
+}

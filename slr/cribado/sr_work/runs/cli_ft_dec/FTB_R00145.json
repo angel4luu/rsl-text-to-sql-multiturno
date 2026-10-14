@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00145@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00145",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn: clarification questions on one standalone ambiguous question via expected information gain; no schema linking or self-correction contribution.",
+   "where": "p1 Abstract and Introduction; p2 Contributions; p5-6 Experiments (Fig. 2b)"
+  }
+ ],
+ "source": "cli:FTB_R00145.json"
+}

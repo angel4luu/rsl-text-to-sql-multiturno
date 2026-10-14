@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00455@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00455",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Self-correcting NL2SQL agent is a central contribution, but it is evaluated only on 100 internal enterprise queries, with no public benchmark.",
+   "where": "p4-5 Section 4 Evaluation; p7 Section 9 Limitations (Internal benchmarks)"
+  }
+ ],
+ "source": "cli:FTB_R00455.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00312@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00312",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary multi-turn Text-to-SQL augmentation with execution-based verify/correction; QM/IM evaluated on SParC and CoSQL; arXiv 2024+, English.",
+   "where": "p1 Abstract; p5-6 Sec IV-D StateFlow; p8-11 Sec VI Experiment (Tables IV-VIII)"
+  }
+ ],
+ "source": "cli:FTA_R00312.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00407@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00407",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL debugging/self-correction benchmark over relational schemas; 30 LLMs evaluated quantitatively on the newly released Squirrel benchmark",
+   "where": "p1 Abstract and Introduction; p2 Section 2.1; p6-7 Section 5.1, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00407.json"
+}

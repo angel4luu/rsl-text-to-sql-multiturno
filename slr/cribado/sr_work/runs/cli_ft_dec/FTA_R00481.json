@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00481@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00481",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL self-correction framework is the central contribution; quantitative results reported on the BIRD-Critic benchmark (+9.42%), plus a production dataset.",
+   "where": "p1 Abstract; p3 Introduction, Evaluation & Contributions"
+  }
+ ],
+ "source": "cli:FTA_R00481.json"
+}

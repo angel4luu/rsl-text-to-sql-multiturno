@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00164@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00164",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema linking (schema filtering, value retrieval) is a stated challenge and contribution; evaluated on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Introduction, Challenge C2; p9 Experiments 9.1.1 Datasets"
+  }
+ ],
+ "source": "cli:FTB_R00164.json"
+}

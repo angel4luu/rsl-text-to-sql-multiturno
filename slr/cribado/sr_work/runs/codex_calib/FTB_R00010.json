@@ -1,0 +1,1 @@
+{"label": "FTB:R00010@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00010", "d": "include", "code": "INC", "why": "Proposes experience-driven SQL self-correction and quantitatively evaluates execution accuracy on public BIRD and Spider benchmarks.", "where": "p1 Abstract; p6 §§3.5.1, 4; p7 §5, Table 1"}], "source": "codex:gpt-6.1-sol"}

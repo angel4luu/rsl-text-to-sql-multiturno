@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00453@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00453",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational NL2SQL system with multi-round dialogue editing and schema linking; evaluated on BIRD and MRD production data (EX/UEX).",
+   "where": "p1 Abstract; p6-9 Secs 5-7 (schema linking, Routing Agent, MRD); p9-10 Sec 8 Experiments, Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00453.json"
+}

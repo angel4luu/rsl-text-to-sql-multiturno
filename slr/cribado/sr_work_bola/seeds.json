@@ -1,0 +1,67 @@
+[
+ {
+  "label": "S1 Chen 2021, Findings ACL (Decoupled dialogue modeling)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S2 Tummalapenta 2026, arXiv (Memory architectures)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S3 Usta 2021, PVLDB (DBTagger)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S4 Safdarian 2026, Findings EACL (SchemaGraphSQL)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S5 Chen 2025, PACMMOD (Adaptive abstention)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S6 Xie 2025, PACMMOD (OpenSearch-SQL)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S7 Yu 2019, ACL (SParC)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S8 Yu 2019, EMNLP (CoSQL)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S9 Guo 2021, ACL (CHASE)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S10 Zhang 2019, EMNLP (EditSQL)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S11 Cai 2020, EMNLP (IGSQL)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S12 Xiao 2022, Findings EMNLP (CQR-SQL; Scopus DOI wrong)",
+  "id": null,
+  "matched_on": null
+ },
+ {
+  "label": "S13 Zhang 2024, NAACL (CoE-SQL)",
+  "id": null,
+  "matched_on": null
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00019@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00019",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; contributions include schema table/column recall and execution-based self-consistency candidate selection; evaluated on Spider with execution accuracy.",
+   "where": "p1 Abstract/Introduction; p6 Consistent Output; p6-7 Section 5 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00019.json"
+}

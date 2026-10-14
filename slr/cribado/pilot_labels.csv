@@ -1,0 +1,61 @@
+id,d,code,why,by
+R00002,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00007,include,INC,author label (blind sample),AJE
+R00014,include,INC,author label (blind sample),AJE
+R00041,include,INC,author label (blind sample),AJE
+R00043,include,INC,author label (blind sample),AJE
+R00047,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00048,include,INC,author label (blind sample),AJE
+R00052,include,INC,author label (blind sample),AJE
+R00054,include,INC,author label (blind sample),AJE
+R00058,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00062,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was UNC),AJE
+R00075,include,INC,author label (blind sample),AJE
+R00113,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00121,exclude,E4,reconciled 2026-10-11: author agrees criterion E4 applies (blind label was INC),AJE
+R00132,exclude,E5,author label (blind sample),AJE
+R00138,include,INC,author label (blind sample),AJE
+R00159,unclear,UNC,author label (blind sample),AJE
+R00161,include,INC,author label (blind sample),AJE
+R00170,include,INC,author label (blind sample),AJE
+R00172,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00175,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00186,include,INC,author label (blind sample),AJE
+R00190,unclear,UNC,author label (blind sample),AJE
+R00194,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was UNC),AJE
+R00198,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was UNC),AJE
+R00200,unclear,UNC,author label (blind sample),AJE
+R00254,unclear,UNC,author label (blind sample),AJE
+R00265,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE
+R00266,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE
+R00277,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00279,include,INC,reconciled 2026-10-11: schema-linking study on Spider (blind label was E5),AJE
+R00288,include,INC,author label (blind sample),AJE
+R00293,unclear,UNC,author label (blind sample),AJE
+R00297,include,INC,author label (blind sample),AJE
+R00299,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00414,exclude,E5,author label (blind sample),AJE
+R00420,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was UNC),AJE
+R00425,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00439,include,INC,author label (blind sample),AJE
+R00444,include,INC,author label (blind sample),AJE
+R00448,include,INC,author label (blind sample),AJE
+R00449,include,INC,author label (blind sample),AJE
+R00507,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was UNC),AJE
+R00509,include,INC,author label (blind sample),AJE
+R00514,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00521,include,INC,author label (blind sample),AJE
+R00528,include,INC,author label (blind sample),AJE
+R00532,include,INC,author label (blind sample),AJE
+R00540,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00544,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00545,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00759,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE
+R00762,exclude,E5,author label (blind sample),AJE
+R00772,exclude,E5,author label (blind sample),AJE
+R00775,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE
+R00778,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE
+R00782,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE
+R00786,exclude,E1,author label (blind sample),AJE
+R00793,exclude,E6,reconciled 2026-10-11: author agrees criterion E6 applies (blind label was INC),AJE
+R00796,exclude,E5,reconciled 2026-10-11: author agrees criterion E5 applies (blind label was UNC),AJE

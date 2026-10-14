@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00170@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00170",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL on relational DBs; evaluated on multi-turn CHASE and DuSQL with EM/EXEC; schema-linking F1 improvement claimed as a contribution.",
+   "where": "p1 Abstract; p2 Introduction contributions; p6 Sec 3.1 Dataset, 3.2.3 Evaluation; p7 Sec 3.4.1 Table 3"
+  }
+ ],
+ "source": "cli:FTA_R00170.json"
+}

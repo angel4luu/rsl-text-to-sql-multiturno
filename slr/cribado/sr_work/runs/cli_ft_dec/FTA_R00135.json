@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00135@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00135",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; self-correction/error-detection refinement is the central contribution; evaluated quantitatively on BIRD and Spider.",
+   "where": "p1 Abstract and Introduction; p6 Sec 4.1 Datasets; p7 Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00135.json"
+}

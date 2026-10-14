@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00166@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00166",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking as central contribution; exact-match evaluation on Spider, SYN and DK benchmarks; 2022 arXiv/KDD.",
+   "where": "p1 Abstract and Introduction; p5-6 Sections 4-5 (datasets, Tables 1-3)"
+  }
+ ],
+ "source": "cli:FTB_R00166.json"
+}

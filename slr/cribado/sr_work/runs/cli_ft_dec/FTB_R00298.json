@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00298@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00298",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL; table/column selection is a stated contribution; evaluated on Spider, SParC and CoSQL with per-question and interaction metrics.",
+   "where": "p1 Abstract; p2 Introduction; p6 Section 5.1 Dataset and Evaluation Metrics; p7 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00298.json"
+}

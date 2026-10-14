@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00004@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00004",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; Iterative Error Correction (feedback-based refinement) is a stated novel contribution; evaluated quantitatively on Spider and BIRD.",
+   "where": "p1 Abstract; p3-4 Section 3 (IEC); p6-8 Sections 5-6, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00004.json"
+}

@@ -1,0 +1,294 @@
+{
+ "label": "A:b019@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00890",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00891",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Semantic parsing to SQL evaluated on SParC; multi-turn focus unclear"
+  },
+  {
+   "id": "R00892",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00893",
+   "d": "include",
+   "code": "INC",
+   "why": "Table retriever for large databases central to SQL generation"
+  },
+  {
+   "id": "R00894",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-linking central to fine-tuned small-model Text-to-SQL"
+  },
+  {
+   "id": "R00895",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00896",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00897",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive clarification Text-to-SQL; successive dependent questions unclear"
+  },
+  {
+   "id": "R00898",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Chatbot with context management and error correction; unclear multi-turn"
+  },
+  {
+   "id": "R00899",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00900",
+   "d": "exclude",
+   "code": "E6",
+   "why": "RAG humanities chatbot; text-to-SQL only a component"
+  },
+  {
+   "id": "R00901",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Adversarial queries for cardinality estimators, not Text-to-SQL"
+  },
+  {
+   "id": "R00902",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Dual-stage error correction and refinement; unclear central contribution"
+  },
+  {
+   "id": "R00903",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking for multi-table joins, evaluated on Spider"
+  },
+  {
+   "id": "R00904",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round Text-to-SQL with state tracker, CHASE"
+  },
+  {
+   "id": "R00905",
+   "d": "include",
+   "code": "INC",
+   "why": "Outcome reward models for SQL verification, BIRD/Spider"
+  },
+  {
+   "id": "R00906",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL refinement and candidate selection central"
+  },
+  {
+   "id": "R00907",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph queries, not SQL"
+  },
+  {
+   "id": "R00908",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive user feedback to correct SQL; multi-turn unclear"
+  },
+  {
+   "id": "R00909",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Context-dependent parsing to logical forms; unclear if SQL"
+  },
+  {
+   "id": "R00910",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent Text-to-SQL on SParC and CoSQL"
+  },
+  {
+   "id": "R00911",
+   "d": "include",
+   "code": "INC",
+   "why": "Decouples schema linking from skeleton parsing, Spider"
+  },
+  {
+   "id": "R00912",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-SPARQL query checking over knowledge graph"
+  },
+  {
+   "id": "R00913",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational QA over knowledge graphs, graph queries"
+  },
+  {
+   "id": "R00914",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Contract Q&A system application; text-to-SQL a component"
+  },
+  {
+   "id": "R00915",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correcting Text-to-SQL, Spider evaluation"
+  },
+  {
+   "id": "R00916",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Food recommendation RAG; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00917",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL interface with chat history context; multi-turn unclear"
+  },
+  {
+   "id": "R00918",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema graph pruning and alignment for Chinese NL2SQL, CSpider"
+  },
+  {
+   "id": "R00919",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Overview/perspective paper without evaluation"
+  },
+  {
+   "id": "R00920",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational agent with SQL extension; relational SQL and linking unclear"
+  },
+  {
+   "id": "R00921",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking model with table filtering is core"
+  },
+  {
+   "id": "R00922",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema encoding with relation-aware attention; central contribution unclear"
+  },
+  {
+   "id": "R00923",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Keyword mappings and schema graph; linking centrality unclear"
+  },
+  {
+   "id": "R00924",
+   "d": "include",
+   "code": "INC",
+   "why": "Dialogue rewrite dataset for conversational Text-to-SQL"
+  },
+  {
+   "id": "R00925",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record states article language is Chinese"
+  },
+  {
+   "id": "R00926",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00927",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL context strategies on CoSQL/SParC"
+  },
+  {
+   "id": "R00928",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data dictionary generation; Text-to-SQL only downstream test"
+  },
+  {
+   "id": "R00929",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00930",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-to-SQL pipeline; no linking or correction contribution"
+  },
+  {
+   "id": "R00931",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema grounding and reflection-based error correction with feedback"
+  },
+  {
+   "id": "R00932",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Adversarial defense with schema linking component; centrality unclear"
+  },
+  {
+   "id": "R00933",
+   "d": "include",
+   "code": "INC",
+   "why": "Table selection for NL-to-SQL on Spider"
+  },
+  {
+   "id": "R00934",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Heterogeneous graph with schema linking edges; central contribution unclear"
+  },
+  {
+   "id": "R00935",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback selection and schema element selection, Spider/BIRD"
+  },
+  {
+   "id": "R00936",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent multi-turn Text-to-SQL on SparC/CoSQL"
+  },
+  {
+   "id": "R00937",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  }
+ ],
+ "source_transcript": "agent-adb57121ecb66150d.jsonl"
+}

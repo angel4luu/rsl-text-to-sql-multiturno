@@ -1,0 +1,189 @@
+% Generado por analysis/src/tablas/apendices.py — no editar a mano.
+{\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}l l l l p{3.1cm} p{4.6cm} r@{}}
+\caption{Búsquedas oficiales registradas (\texttt{registro\_busquedas.csv}). En IEEE~Xplore y ACM~DL las consultas se unieron y deduplicaron en la fase de cribado; los registros de ACM anteriores a 2019 se excluyeron por EX1.}\label{tab:ap-busquedas}\\
+\toprule
+Id. & Base & Consulta & Fecha & Campos & Filtros & Registros \\
+\midrule
+\endfirsthead
+\multicolumn{7}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Id. & Base & Consulta & Fecha & Campos & Filtros & Registros \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+B01 & ACL Anthology & Volcado oficial + filtro local v4 & 2026-10-11 & Título + resumen (script) & Años 2019–2026; excluidas entradas @proceedings; sin resumen $\rightarrow$ bloque A en título & 133 \\
+B02 & arXiv & API (bloque A) + filtro local v4 & 2026-10-11 & ti/abs (API) + v4 local & cs.*; 2019-01-01..2026-10-11 & 386 \\
+B03 & Scopus & Scopus & 2026-10-11 & TITLE-ABS-KEY & PUBYEAR 2019–2026 & 563 \\
+B04 & IEEE Xplore & IEEE-1 & 2026-10-11 & All Metadata & 2019–2026 & 109 \\
+B05 & IEEE Xplore & IEEE-2 & 2026-10-11 & All Metadata & 2019–2026 & 52 \\
+B06 & IEEE Xplore & IEEE-3 & 2026-10-11 & All Metadata & 2019–2026 & 87 \\
+B07 & IEEE Xplore & IEEE-4 & 2026-10-11 & All Metadata & 2019–2026 & 120 \\
+B08 & ACM DL & ACM-1 & 2026-10-11 & Title/Abstract/Keyword & Sin filtro de fecha (no disponible); EX1 en Fase 3 & 122 \\
+B09 & ACM DL & ACM-2 & 2026-10-11 & Title/Abstract & Sin filtro de fecha; EX1 en Fase 3 & 24 \\
+\midrule
+\multicolumn{6}{@{}l}{Total identificado en las bases} & 1596 \\
+\end{longtable}
+}
+
+\par\medskip\noindent\textit{Scopus — Advanced search}\par\nopagebreak
+\begin{lstlisting}
+TITLE-ABS-KEY("text-to-SQL" OR "text to SQL" OR text2sql OR nl2sql OR "NL-to-SQL" OR "natural language to SQL"
+  OR "natural language interface* to database*" OR "natural language interface* to relational database*" OR
+  nlidb* OR "SQL generation" OR "SQL query generation" OR "SQL synthesis" OR "question* to SQL" OR "database
+  question answering" OR "question answering over database*" OR "question answering over relational database*"
+  OR ("semantic pars*" AND (sql OR database* OR sparc OR cosql OR spider OR chase))) AND (
+  TITLE-ABS-KEY("multi-turn" OR multiturn OR "multi-round" OR multiround OR conversational OR
+  "context-dependent" OR "context dependent" OR "context-aware" OR dialog* OR "follow-up" OR interactive OR
+  session* OR chat OR chatbot* OR "chat-based" OR coreference OR ellipsis OR anaphor* OR "query rewriting" OR
+  "question rewriting" OR "utterance rewriting" OR sparc OR cosql) OR TITLE-ABS-KEY("schema linking" OR "schema
+  pruning" OR "schema selection" OR "schema retrieval" OR "schema grounding" OR "schema filtering" OR "schema
+  routing" OR "keyword mapping" OR "table selection" OR "column selection" OR "table retrieval" OR "value
+  linking" OR "value retrieval" OR "join path*" OR "join inference" OR "multi-hop join*" OR "foreign key*" OR
+  steiner OR "self-correct*" OR "self-debug*" OR debugging OR "self-refin*" OR refinement OR "self-consistency"
+  OR reflection OR verifier* OR verification OR "candidate selection" OR "execution feedback" OR
+  "execution-guided" OR "error correction" OR "SQL correction" OR "SQL repair" OR "query repair") ) AND PUBYEAR
+  > 2018 AND PUBYEAR < 2027
+\end{lstlisting}
+
+\par\medskip\noindent\textit{IEEE-1 — Command Search}\par\nopagebreak
+\begin{lstlisting}
+("All Metadata":"text-to-SQL" OR "All Metadata":"text to SQL" OR "All Metadata":text2sql OR "All
+  Metadata":NL2SQL OR "All Metadata":"NL-to-SQL" OR "All Metadata":"natural language to SQL" OR "All
+  Metadata":"natural language interface to database" OR "All Metadata":"natural language interfaces to
+  databases" OR "All Metadata":"natural language interface to relational database" OR "All Metadata":"natural
+  language interfaces to relational databases" OR "All Metadata":NLIDB OR "All Metadata":NLIDBs OR "All
+  Metadata":"SQL generation" OR "All Metadata":"SQL query generation" OR "All Metadata":"SQL synthesis" OR "All
+  Metadata":"question to SQL" OR "All Metadata":"questions to SQL" OR "All Metadata":"database question
+  answering" OR "All Metadata":"question answering over databases" OR "All Metadata":"question answering over
+  relational databases") AND ("All Metadata":"multi-turn" OR "All Metadata":multiturn OR "All
+  Metadata":"multi-round" OR "All Metadata":multiround OR "All Metadata":conversational OR "All
+  Metadata":"context-dependent" OR "All Metadata":"context dependent" OR "All Metadata":"context-aware" OR "All
+  Metadata":dialogue OR "All Metadata":dialog OR "All Metadata":"dialogue state tracking" OR "All
+  Metadata":"follow-up" OR "All Metadata":interactive OR "All Metadata":session OR "All Metadata":chat OR "All
+  Metadata":chatbot OR "All Metadata":"chat-based" OR "All Metadata":coreference OR "All Metadata":ellipsis OR
+  "All Metadata":anaphora OR "All Metadata":"query rewriting" OR "All Metadata":"question rewriting" OR "All
+  Metadata":"utterance rewriting" OR "All Metadata":SParC OR "All Metadata":CoSQL)
+\end{lstlisting}
+
+\par\medskip\noindent\textit{IEEE-2 — Command Search}\par\nopagebreak
+\begin{lstlisting}
+("All Metadata":"text-to-SQL" OR "All Metadata":"text to SQL" OR "All Metadata":text2sql OR "All
+  Metadata":NL2SQL OR "All Metadata":"NL-to-SQL" OR "All Metadata":"natural language to SQL" OR "All
+  Metadata":"natural language interface to database" OR "All Metadata":"natural language interfaces to
+  databases" OR "All Metadata":"natural language interface to relational database" OR "All Metadata":"natural
+  language interfaces to relational databases" OR "All Metadata":NLIDB OR "All Metadata":NLIDBs OR "All
+  Metadata":"SQL generation" OR "All Metadata":"SQL query generation" OR "All Metadata":"SQL synthesis" OR "All
+  Metadata":"question to SQL" OR "All Metadata":"questions to SQL" OR "All Metadata":"database question
+  answering" OR "All Metadata":"question answering over databases" OR "All Metadata":"question answering over
+  relational databases") AND ("All Metadata":"schema linking" OR "All Metadata":"schema pruning" OR "All
+  Metadata":"schema selection" OR "All Metadata":"schema retrieval" OR "All Metadata":"schema grounding" OR "All
+  Metadata":"schema filtering" OR "All Metadata":"schema routing" OR "All Metadata":"keyword mapping" OR "All
+  Metadata":"table selection" OR "All Metadata":"column selection" OR "All Metadata":"table retrieval" OR "All
+  Metadata":"value linking" OR "All Metadata":"value retrieval" OR "All Metadata":"join path" OR "All
+  Metadata":"join inference" OR "All Metadata":"multi-hop join" OR "All Metadata":"foreign key" OR "All
+  Metadata":Steiner)
+\end{lstlisting}
+
+\par\medskip\noindent\textit{IEEE-3 — Command Search}\par\nopagebreak
+\begin{lstlisting}
+("All Metadata":"text-to-SQL" OR "All Metadata":"text to SQL" OR "All Metadata":text2sql OR "All
+  Metadata":NL2SQL OR "All Metadata":"NL-to-SQL" OR "All Metadata":"natural language to SQL" OR "All
+  Metadata":"natural language interface to database" OR "All Metadata":"natural language interfaces to
+  databases" OR "All Metadata":"natural language interface to relational database" OR "All Metadata":"natural
+  language interfaces to relational databases" OR "All Metadata":NLIDB OR "All Metadata":NLIDBs OR "All
+  Metadata":"SQL generation" OR "All Metadata":"SQL query generation" OR "All Metadata":"SQL synthesis" OR "All
+  Metadata":"question to SQL" OR "All Metadata":"questions to SQL" OR "All Metadata":"database question
+  answering" OR "All Metadata":"question answering over databases" OR "All Metadata":"question answering over
+  relational databases") AND ("All Metadata":"self-correction" OR "All Metadata":"self-correcting" OR "All
+  Metadata":"self-debugging" OR "All Metadata":debugging OR "All Metadata":"self-refine" OR "All
+  Metadata":"self-refinement" OR "All Metadata":refinement OR "All Metadata":"self-consistency" OR "All
+  Metadata":reflection OR "All Metadata":verifier OR "All Metadata":verification OR "All Metadata":"execution
+  feedback" OR "All Metadata":"execution-guided" OR "All Metadata":"candidate selection" OR "All
+  Metadata":"error correction" OR "All Metadata":"SQL correction" OR "All Metadata":"SQL repair" OR "All
+  Metadata":"query repair")
+\end{lstlisting}
+
+\par\medskip\noindent\textit{IEEE-4 — Command Search}\par\nopagebreak
+\begin{lstlisting}
+("All Metadata":"semantic parsing") AND ("All Metadata":SQL OR "All Metadata":database OR "All
+  Metadata":databases OR "All Metadata":SParC OR "All Metadata":CoSQL OR "All Metadata":Spider)
+\end{lstlisting}
+
+\par\medskip\noindent\textit{ACM-1 — Advanced Search, editar consulta}\par\nopagebreak
+\begin{lstlisting}
+(Title:("text-to-SQL" OR "text to SQL" OR text2sql OR nl2sql OR "NL-to-SQL" OR "natural language to SQL" OR
+  "natural language interface to database" OR "natural language interfaces to databases" OR "natural language
+  interface to relational database" OR "natural language interfaces to relational databases" OR nlidb OR nlidbs
+  OR "SQL generation" OR "SQL query generation" OR "SQL synthesis" OR "question to SQL" OR "questions to SQL" OR
+  "database question answering" OR "question answering over databases" OR "question answering over relational
+  databases") OR Abstract:("text-to-SQL" OR "text to SQL" OR text2sql OR nl2sql OR "NL-to-SQL" OR "natural
+  language to SQL" OR "natural language interface to database" OR "natural language interfaces to databases" OR
+  "natural language interface to relational database" OR "natural language interfaces to relational databases"
+  OR nlidb OR nlidbs OR "SQL generation" OR "SQL query generation" OR "SQL synthesis" OR "question to SQL" OR
+  "questions to SQL" OR "database question answering" OR "question answering over databases" OR "question
+  answering over relational databases") OR Keyword:("text-to-SQL" OR "text to SQL" OR text2sql OR nl2sql OR
+  "NL-to-SQL" OR "natural language to SQL" OR "natural language interface to database" OR "natural language
+  interfaces to databases" OR "natural language interface to relational database" OR "natural language
+  interfaces to relational databases" OR nlidb OR nlidbs OR "SQL generation" OR "SQL query generation" OR "SQL
+  synthesis" OR "question to SQL" OR "questions to SQL" OR "database question answering" OR "question answering
+  over databases" OR "question answering over relational databases")) AND (Title:("multi-turn" OR multiturn OR
+  "multi-round" OR multiround OR conversational OR "context-dependent" OR "context dependent" OR "context-aware"
+  OR dialog* OR "follow-up" OR interactive OR session* OR chat OR chatbot* OR "chat-based" OR coreference OR
+  ellipsis OR anaphor* OR "query rewriting" OR "question rewriting" OR "utterance rewriting" OR sparc OR cosql
+  OR "schema linking" OR "schema pruning" OR "schema selection" OR "schema retrieval" OR "schema grounding" OR
+  "schema filtering" OR "schema routing" OR "keyword mapping" OR "table selection" OR "column selection" OR
+  "table retrieval" OR "value linking" OR "value retrieval" OR "join path" OR "join paths" OR "join inference"
+  OR "multi-hop join" OR "multi-hop joins" OR "foreign key" OR "foreign keys" OR steiner OR "self-correction" OR
+  "self-correcting" OR "self-debugging" OR debugging OR "self-refine" OR "self-refinement" OR refinement OR
+  "self-consistency" OR reflection OR verifier* OR verification OR "candidate selection" OR "execution feedback"
+  OR "execution-guided" OR "error correction" OR "SQL correction" OR "SQL repair" OR "query repair") OR
+  Abstract:("multi-turn" OR multiturn OR "multi-round" OR multiround OR conversational OR "context-dependent" OR
+  "context dependent" OR "context-aware" OR dialog* OR "follow-up" OR interactive OR session* OR chat OR
+  chatbot* OR "chat-based" OR coreference OR ellipsis OR anaphor* OR "query rewriting" OR "question rewriting"
+  OR "utterance rewriting" OR sparc OR cosql OR "schema linking" OR "schema pruning" OR "schema selection" OR
+  "schema retrieval" OR "schema grounding" OR "schema filtering" OR "schema routing" OR "keyword mapping" OR
+  "table selection" OR "column selection" OR "table retrieval" OR "value linking" OR "value retrieval" OR "join
+  path" OR "join paths" OR "join inference" OR "multi-hop join" OR "multi-hop joins" OR "foreign key" OR
+  "foreign keys" OR steiner OR "self-correction" OR "self-correcting" OR "self-debugging" OR debugging OR
+  "self-refine" OR "self-refinement" OR refinement OR "self-consistency" OR reflection OR verifier* OR
+  verification OR "candidate selection" OR "execution feedback" OR "execution-guided" OR "error correction" OR
+  "SQL correction" OR "SQL repair" OR "query repair") OR Keyword:("multi-turn" OR multiturn OR "multi-round" OR
+  multiround OR conversational OR "context-dependent" OR "context dependent" OR "context-aware" OR dialog* OR
+  "follow-up" OR interactive OR session* OR chat OR chatbot* OR "chat-based" OR coreference OR ellipsis OR
+  anaphor* OR "query rewriting" OR "question rewriting" OR "utterance rewriting" OR sparc OR cosql OR "schema
+  linking" OR "schema pruning" OR "schema selection" OR "schema retrieval" OR "schema grounding" OR "schema
+  filtering" OR "schema routing" OR "keyword mapping" OR "table selection" OR "column selection" OR "table
+  retrieval" OR "value linking" OR "value retrieval" OR "join path" OR "join paths" OR "join inference" OR
+  "multi-hop join" OR "multi-hop joins" OR "foreign key" OR "foreign keys" OR steiner OR "self-correction" OR
+  "self-correcting" OR "self-debugging" OR debugging OR "self-refine" OR "self-refinement" OR refinement OR
+  "self-consistency" OR reflection OR verifier* OR verification OR "candidate selection" OR "execution feedback"
+  OR "execution-guided" OR "error correction" OR "SQL correction" OR "SQL repair" OR "query repair"))
+\end{lstlisting}
+
+\par\medskip\noindent\textit{ACM-2 — Advanced Search, editar consulta}\par\nopagebreak
+\begin{lstlisting}
+(Title:("semantic parsing" OR "semantic parser" OR "semantic parsers") OR Abstract:("semantic parsing" OR
+  "semantic parser" OR "semantic parsers")) AND (Title:(sql OR database* OR sparc OR cosql OR spider OR chase)
+  OR Abstract:(sql OR database* OR sparc OR cosql OR spider OR chase))
+\end{lstlisting}
+
+\par\medskip\noindent\textit{arXiv — API export.arxiv.org (paso 1; el paso 2 aplica v4 en local, scripts/v4.py)}\par\nopagebreak
+\begin{lstlisting}
+((ti:"text to SQL" OR abs:"text to SQL" OR ti:text2sql OR abs:text2sql OR ti:nl2sql OR abs:nl2sql OR ti:"NL to
+  SQL" OR abs:"NL to SQL" OR ti:"natural language to SQL" OR abs:"natural language to SQL" OR ti:"natural
+  language interface to database" OR abs:"natural language interface to database" OR ti:"natural language
+  interfaces to databases" OR abs:"natural language interfaces to databases" OR ti:"natural language interface
+  to relational database" OR abs:"natural language interface to relational database" OR ti:"natural language
+  interfaces to relational databases" OR abs:"natural language interfaces to relational databases" OR ti:NLIDB
+  OR abs:NLIDB OR ti:NLIDBs OR abs:NLIDBs OR ti:"SQL generation" OR abs:"SQL generation" OR ti:"SQL query
+  generation" OR abs:"SQL query generation" OR ti:"SQL synthesis" OR abs:"SQL synthesis" OR ti:"question to SQL"
+  OR abs:"question to SQL" OR ti:"questions to SQL" OR abs:"questions to SQL" OR ti:"database question
+  answering" OR abs:"database question answering" OR ti:"question answering over databases" OR abs:"question
+  answering over databases" OR ti:"question answering over relational databases" OR abs:"question answering over
+  relational databases") OR ((ti:"semantic parsing" OR abs:"semantic parsing") AND (ti:SQL OR abs:SQL OR
+  ti:database OR abs:database OR ti:databases OR abs:databases OR ti:SParC OR abs:SParC OR ti:CoSQL OR abs:CoSQL
+  OR ti:Spider OR abs:Spider OR ti:CHASE OR abs:CHASE))) AND submittedDate:[201901010000 TO 202610112359]
+\end{lstlisting}

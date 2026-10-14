@@ -1,0 +1,1864 @@
+TY  - JOUR
+TI  - Comparison and Analysis of Value Linking in Text-to-SQL systems: [Experiments & Analysis]
+AU  - Apostolos Koukouvinis
+AU  - George Katsogiannis-Meimarakis
+AU  - Georgia Koutrika
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3802029
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3802029
+ER  - 
+
+TY  - CPAPER
+TI  - ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement
+AU  - Zijin Hong
+AU  - Hao Chen
+AU  - Zheng Yuan
+AU  - Qinggang Zhang
+AU  - Luyao Zhuang
+AU  - Qing Liao
+AU  - Feiran Huang
+AU  - Yangqiu Song
+AU  - Xiao Xia Huang
+PY  - 2026
+T2  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/3770855.3818164
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3770855.3818164
+ER  - 
+
+TY  - JOUR
+TI  - DIVER: A Robust Text-to-SQL System with Dynamic Interactive Value Linking and Evidence
+                     Reasoning
+AU  - Yafeng Nan
+AU  - Haifeng Sun
+AU  - Zirui Zhuang
+AU  - Qi Qi
+AU  - Guojun Chu
+AU  - Jianxin Liao
+AU  - Dan Pei
+AU  - Jingyu Wang
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3786640
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786640
+ER  - 
+
+TY  - CPAPER
+TI  - Multi-Turn Interactions for Text-to-SQL with Large Language Models
+AU  - G.J. Xiong
+AU  - Junwei Bao
+AU  - Houcheng Jiang
+AU  - Yang Song
+AU  - Wen Ping Zhao
+PY  - 2025
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3746252.3761052
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3746252.3761052
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL Agent: An Iterative Question Rewriting Framework Based on Reinforcement
+                     Learning
+AU  - Sixuan Wang
+AU  - Yongjun Zhong
+AU  - Dongjin Yu
+AU  - Donghai Li
+AU  - Chenming Wu
+PY  - 2026
+DO  - 10.1145/3811238.3811548
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3811238.3811548
+ER  - 
+
+TY  - CPAPER
+TI  - APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL
+AU  - Bowen Cao
+AU  - Weibin Liao
+AU  - Yushi Sun
+AU  - Dong Fang
+AU  - Haitao Li
+AU  - Wai Pang Lam
+PY  - 2026
+T2  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/3770855.3818075
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3770855.3818075
+ER  - 
+
+TY  - JOUR
+TI  - DeepEye-SQL: A Software-Engineering-Inspired Text-to-SQL Framework
+AU  - Boyan Li
+AU  - Chong Chen
+AU  - Zhujun Xue
+AU  - Yinan Mei
+AU  - Yuyu Luo
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3802035
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3802035
+ER  - 
+
+TY  - CPAPER
+TI  - RTS+: Reliable Text to SQL
+AU  - Kaiwen Chen
+AU  - Yueting Chen
+AU  - Nick Koudas
+AU  - Xiaohui Yu
+PY  - 2025
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3722212.3725129
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3722212.3725129
+ER  - 
+
+TY  - JOUR
+TI  - Developing and Benchmarking Verification Algorithms to Improve Text-to-SQL Generation
+AU  - Tarfah Alrashed
+AU  - Madhup Sukoon
+AU  - David R. Karger
+AU  - Natasha F. Noy
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3836663.3836721
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3836663.3836721
+ER  - 
+
+TY  - JOUR
+TI  - Text-to-SQL Evaluation Toolkit
+AU  - Oktie Hassanzadeh
+AU  - Yotam Perlitz
+AU  - Nhan Pham
+AU  - Tanvi Kaple
+AU  - Karolina Źróbek
+AU  - Long Vu
+AU  - Michael Glass
+AU  - Dharmashankar Subramanian
+AU  - Mohammadreza Pourreza
+AU  - Davood Rafiei
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828071
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828071
+ER  - 
+
+TY  - CPAPER
+TI  - AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL
+AU  - Zhongjun Ding
+AU  - Yin Lin
+AU  - Tianjing Zeng
+AU  - Rong Zhu
+AU  - Bolin Ding
+AU  - Jingren Zhou
+PY  - 2026
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3788853.3801581
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3788853.3801581
+ER  - 
+
+TY  - CPAPER
+TI  - Efficient Ambiguity Resolution via Information-Guided Clarification for Text-to-SQL
+AU  - Luyu Qiu
+AU  - Jianing Li
+AU  - Yuanfeng Song
+AU  - Ruoxi Qi
+AU  - Janet H. Hsiao
+AU  - Lei Chen
+PY  - 2026
+T2  - Proceedings - International Workshops on Parallel Processing
+DO  - 10.1145/3816891.3837728
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3816891.3837728
+ER  - 
+
+TY  - JOUR
+TI  - DarijaDB: Unlocking Text-to-SQL for Arabic Dialects
+AU  - Salmane Chafik
+AU  - Saad Ezzini
+AU  - Ismaïl Berrada
+PY  - 2026
+T2  - ACM Transactions on Asian and Low-Resource Language Information Processing
+DO  - 10.1145/3787497
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3787497
+ER  - 
+
+TY  - JOUR
+TI  - ParSEval: Interactive Counterexample-Driven Evaluation for Text-to-SQL
+AU  - Chunyu Chen
+AU  - Zhengjie Miao
+AU  - Yong Zhang
+AU  - Jiannan Wang
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828137
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828137
+ER  - 
+
+TY  - CPAPER
+TI  - Utilizing Past User Feedback for More Accurate Text-to-SQL
+AU  - Matthias Urban
+AU  - Jialin Ding
+AU  - David Kernert
+AU  - Kapil Vaidya
+AU  - Tim Kraska
+PY  - 2025
+T2  - Workshop on Human-In-the-Loop Data Analytics (HILDA)
+DO  - 10.1145/3736733.3736739
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3736733.3736739
+ER  - 
+
+TY  - CPAPER
+TI  - SQL-Checker: Error Detection and Labeling for Text-to-SQL with Interpretability Analysis
+AU  - Xingyu Ma
+AU  - Xin Tian
+AU  - Lingxiang Wu
+AU  - Xuepeng Wang
+AU  - Xueming Tang
+AU  - Jinqiao Wang
+PY  - 2026
+T2  - ACM Web Conference (WWW)
+DO  - 10.1145/3774904.3792212
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3774904.3792212
+ER  - 
+
+TY  - CPAPER
+TI  - From Queries to Insights: Agentic LLM Pipelines for Spatio-Temporal Text-to-SQL
+AU  - Manu Redd
+AU  - Tao Zhe
+AU  - Dongjie Wang
+PY  - 2025
+DO  - 10.1145/3764915.3770724
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3764915.3770724
+ER  - 
+
+TY  - JOUR
+TI  - SchemaRAG: A Schema-aware Retrieval-Augmented Generation Framework for Text-to-SQL
+AU  - Di Wu
+AU  - Zetong Tang
+AU  - Yi He
+AU  - Xin Luo
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3786696
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786696
+ER  - 
+
+TY  - JOUR
+TI  - SpatialSQL: A Multi-Agent System for Interactive and Observable Spatial Text-to-SQL
+AU  - Yang Song
+AU  - Yu Sun
+AU  - Xieyang Wang
+AU  - Tao Qian
+AU  - Tengfei Xu
+AU  - Jianqiu Xu
+AU  - Shuyue Wei
+AU  - Yongxin Tong
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828055
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828055
+ER  - 
+
+TY  - JOUR
+TI  - ATLAS: Adaptive Text-to-SQL with Lifecycle-Aware Self-Maintaining Context
+AU  - Qing Zhang
+AU  - Shijing Hu
+AU  - Zhihui Lu
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828135
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828135
+ER  - 
+
+TY  - JOUR
+TI  - SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL
+AU  - Geonho Lee
+AU  - Min-Soo Kim
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3819518.3819545
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3819518.3819545
+ER  - 
+
+TY  - JOUR
+TI  - Reliable Text-to-SQL with Adaptive Abstention
+AU  - Kaiwen Chen
+AU  - Yueting Chen
+AU  - Nick Koudas
+AU  - Xiaohui Yu
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3709719
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3709719
+ER  - 
+
+TY  - CPAPER
+TI  - Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph
+AU  - Aiwei Liu
+AU  - Xuming Hu
+AU  - Lin Li
+AU  - Lijie Wen
+PY  - 2022
+T2  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/3534678.3539294
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3534678.3539294
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL Domain Adaptation via Human-LLM Collaborative Data Annotation
+AU  - Yuan Tian
+AU  - Daniel Lee
+AU  - Fei Wu
+AU  - Tung Mai
+AU  - Kun Qian
+AU  - Siddhartha Sahai
+AU  - Tianyi Zhang
+AU  - Yunyao Li
+PY  - 2025
+T2  - ACM International Conference on Intelligent User Interfaces (IUI)
+DO  - 10.1145/3708359.3712083
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3708359.3712083
+ER  - 
+
+TY  - JOUR
+TI  - OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment
+AU  - Xiangjin Xie
+AU  - Guangwei Xu
+AU  - Lingyan Zhao
+AU  - Ruijie Guo
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3725331
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3725331
+ER  - 
+
+TY  - CPAPER
+TI  - The Generalization and Error Detection in LLM-based Text-to-SQL Systems
+AU  - Oleg Somov
+PY  - 2025
+DO  - 10.1145/3701551.3707416
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3701551.3707416
+ER  - 
+
+TY  - CPAPER
+TI  - Learn From Mistakes: Guidance on Zero-shot Conversational Text-to-SQL
+AU  - Wenshuo Zhai
+AU  - Xiang Hui Zhao
+AU  - Jinzhi Liao
+AU  - Ziyang Chen
+PY  - 2024
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3627673.3679951
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3627673.3679951
+ER  - 
+
+TY  - CPAPER
+TI  - RBDQ: A Reliable LLM-based Text-to-SQL System for Business Data Queries
+AU  - Fenglin Bi
+AU  - Dongdong Cao
+AU  - Zhiyu Wang
+AU  - Yang Chen
+AU  - Fangliang Zhao
+AU  - Tao Hu
+AU  - Zhi Li
+AU  - Yanbin Zhang
+AU  - Wei Wang
+PY  - 2025
+DO  - 10.1145/3701716.3715257
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3701716.3715257
+ER  - 
+
+TY  - JOUR
+TI  - OpenSQL: Data-Efficient Text-to-SQL for Open-Source LLMs via Synthesized Intermediate
+                     Supervision
+AU  - Ruilin Hu
+AU  - Yuyu Luo
+AU  - Guoliang Li
+AU  - Shuangqiao Wu
+AU  - Yun Luo
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3801059.3801074
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3801059.3801074
+ER  - 
+
+TY  - CPAPER
+TI  - Graph Reasoning Enhanced Language Models for Text-to-SQL
+AU  - Zheng Gong
+AU  - Ying Qiu Sun
+PY  - 2024
+T2  - International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)
+DO  - 10.1145/3626772.3657961
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3626772.3657961
+ER  - 
+
+TY  - JOUR
+TI  - CodeS: Towards Building Open-source Language Models for Text-to-SQL
+AU  - Haoyang Li
+AU  - Jing Zhang
+AU  - Hanbing Liu
+AU  - Ju Fan
+AU  - Xiaokang Zhang
+AU  - Jun Zhu
+AU  - Renjie Wei
+AU  - Hongyan Pan
+AU  - Cuiping Li
+AU  - Hong Chen
+PY  - 2024
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3654930
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3654930
+ER  - 
+
+TY  - JOUR
+TI  - OmniSQL: Synthesizing High-Quality Text-to-SQL Data at Scale
+AU  - Haoyang Li
+AU  - Shang Wu
+AU  - Xiaokang Zhang
+AU  - Xinmei Huang
+AU  - Jing Zhang
+AU  - Fuxin Jiang
+AU  - Shuai Wang
+AU  - Tieying Zhang
+AU  - Jianjun Chen
+AU  - Rui Shi
+AU  - Hong Chen
+AU  - Cuiping Li
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3749646.3749723
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3749646.3749723
+ER  - 
+
+TY  - CPAPER
+TI  - Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL
+                     Parsing
+AU  - Lihan Wang
+AU  - Bowen Qin
+AU  - Binyuan Hui
+AU  - Bowen Li
+AU  - Min Yang
+AU  - Bailin Wang
+AU  - Binhua Li
+AU  - Jian Sun
+AU  - Fei Huang
+AU  - Luo Si
+AU  - Yongbin Li
+PY  - 2022
+T2  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/3534678.3539305
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3534678.3539305
+ER  - 
+
+TY  - JOUR
+TI  - TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries
+AU  - Chao Deng
+AU  - Ju Fan
+AU  - Yuyu Luo
+AU  - Qinliang Xue
+AU  - Meihao Fan
+AU  - Yuxin Zhang
+AU  - Min Zhang
+AU  - X F Jia
+AU  - Jing Zhang
+AU  - Xiaoyong Du
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3797919.3797942
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3797919.3797942
+ER  - 
+
+TY  - CPAPER
+TI  - Ar-Spider: Text-to-SQL in Arabic
+AU  - Saleh Almohaimeed
+AU  - Saad Almohaimeed
+AU  - Mansour Al Ghanim
+AU  - Liqiang Wang
+PY  - 2024
+T2  - ACM/SIGAPP Symposium on Applied Computing (SAC)
+DO  - 10.1145/3605098.3636065
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3605098.3636065
+ER  - 
+
+TY  - CPAPER
+TI  - Demonstration of a Multi-agent Framework for Text to SQL Applications with Large Language
+                     Models
+AU  - Chen Shen
+AU  - Jin Wang
+AU  - Sajjadur Rahman
+AU  - Eser Kandogan
+PY  - 2024
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3627673.3679216
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3627673.3679216
+ER  - 
+
+TY  - CPAPER
+TI  - ASTormer++: A Study on a Chinese Medical Text-to-SQL Model Integrating Conceptual
+                     Understanding and Efficiency Optimization
+AU  - 边旺龙
+AU  - Guangli Wu
+AU  - Miaomiao Wang
+AU  - Jieyou Shi
+PY  - 2026
+T2  - International Conference on Biomedicine and Bioinformatics Engineering (ICBBE)
+DO  - 10.1145/3822183.3822294
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3822183.3822294
+ER  - 
+
+TY  - JOUR
+TI  - AtomSQL: Interactive Disambiguation of NL-to-SQL via User-Guided Atom-Level Alignment
+AU  - Aritra Mazumder
+AU  - Parth Desai
+AU  - Fuheng Zhao
+AU  - Anna Fariha
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828053
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828053
+ER  - 
+
+TY  - CPAPER
+TI  - Enhancing Text-to-SQL Translation for Financial System Design
+AU  - Yewei Song
+AU  - Saad Ezzini
+AU  - Xunzhu Tang
+AU  - Cédric Lothritz
+AU  - Jacques Klein
+AU  - Tegawendé François Bissyandé
+AU  - Andrey Boytsov
+AU  - Ulrick Ble
+AU  - Anne Goujon
+PY  - 2024
+T2  - International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)
+DO  - 10.1145/3639477.3639732
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3639477.3639732
+ER  - 
+
+TY  - CPAPER
+TI  - Cross-Domain Natural Language to SQL: Challenges, Methods, and Future Directions
+AU  - Bo Zhao
+AU  - Su He
+AU  - Chongbin Liang
+AU  - Songgang Chen
+PY  - 2025
+T2  - International Conference on Computer Information Science and Artificial Intelligence (CISAI)
+DO  - 10.1145/3773365.3773598
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3773365.3773598
+ER  - 
+
+TY  - JOUR
+TI  - A Multiple-Integration Encoder for Multi-Turn Text-to-SQL Semantic Parsing
+AU  - Run-Ze Wang
+AU  - Zhen-Hua Ling
+AU  - Jingbo Zhou
+AU  - Yu Hui Hu
+PY  - 2021
+T2  - IEEE/ACM Transactions on Audio Speech and Language Processing
+DO  - 10.1109/TASLP.2021.3070726
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1109/TASLP.2021.3070726
+ER  - 
+
+TY  - JOUR
+TI  - Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
+AU  - Dawei Gao
+AU  - Haibin Wang
+AU  - Yaliang Li
+AU  - Xiuyu Sun
+AU  - Yichen Qian
+AU  - Bolin Ding
+AU  - Jingren Zhou
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3641204.3641221
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3641204.3641221
+ER  - 
+
+TY  - CPAPER
+TI  - QUERYGEN: A Tool for SQL Query Generation from Natural Language using Prompt Engineering
+AU  - Suyash Vikram Singh
+AU  - Santosh Singh Rathore
+AU  - Saurabh Tiwari
+PY  - 2026
+T2  - Innovations in Software Engineering Conference (ISEC)
+DO  - 10.1145/3796563.3796577
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3796563.3796577
+ER  - 
+
+TY  - JOUR
+TI  - A Comparative Evaluation of Schema Subsetting for LLM-based NL-to-SQL over Large-Schema
+                     Databases
+AU  - Kyle Richard Luoma
+AU  - Arun Kumar
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3819518.3819531
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3819518.3819531
+ER  - 
+
+TY  - CPAPER
+TI  - A review of the Text to SQL Frameworks
+AU  - Karam Ahkouk
+AU  - Mustapha Machkour
+AU  - Khadija Majhadi
+AU  - Rachid Mama
+PY  - 2021
+T2  - International Conference on Networking, Information Systems & Security (NISS)
+DO  - 10.1145/3454127.3457619
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3454127.3457619
+ER  - 
+
+TY  - CPAPER
+TI  - From Data Governance to Contract-Constrained AI Systems: Architecture and Evaluation
+                     for Enterprise NL-to-SQL with AI-Ready Data Models
+AU  - Ümit Erdem Saltan
+PY  - 2026
+DO  - 10.1145/3816713.3819785
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3816713.3819785
+ER  - 
+
+TY  - CPAPER
+TI  - Exploring Database Normalization Effects on SQL Generation
+AU  - Ryosuke Kohita
+PY  - 2025
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3746252.3761583
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3746252.3761583
+ER  - 
+
+TY  - JOUR
+TI  - The Power of Constraints in Natural Language to SQL Translation
+AU  - Tonghui Ren
+AU  - Ke Chen
+AU  - Yuankai Fan
+AU  - Yinan Jing
+AU  - Zhenying He
+AU  - Kai Zhang
+AU  - X. Sean Wang
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3734839.3734847
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3734839.3734847
+ER  - 
+
+TY  - JOUR
+TI  - Natural Language to SQL: State of the Art and Open Problems
+AU  - Yuyu Luo
+AU  - Guoliang Li
+AU  - Ju Fan
+AU  - Chengliang Chai
+AU  - Nan Tang
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3750601.3750696
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3750601.3750696
+ER  - 
+
+TY  - CPAPER
+TI  - SQLsaber: Agentic SQL Assistant for Efficient and High-Accuracy Natural Language Database
+                     Exploration
+AU  - Sarthak Jariwala
+PY  - 2026
+DO  - 10.1145/3786335.3813217
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786335.3813217
+ER  - 
+
+TY  - CPAPER
+TI  - Phebe: A Multi-Agent Natural Language Interface for Interactive Data Visualization
+AU  - Guntawit Anurakboonying
+AU  - Ratchaphon Proongpattanaskul
+AU  - Chalantorn Sawangwongchinsri
+AU  - Tanasanee Phienthrakul
+PY  - 2026
+DO  - 10.1145/3816713.3819784
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3816713.3819784
+ER  - 
+
+TY  - CPAPER
+TI  - DIY: Assessing the Correctness of Natural Language to SQL Systems
+AU  - Arpit Ajay Narechania
+AU  - Adam Fourney
+AU  - Bongshin Lee
+AU  - Gonzalo Ramos
+PY  - 2021
+T2  - ACM International Conference on Intelligent User Interfaces (IUI)
+DO  - 10.1145/3397481.3450667
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3397481.3450667
+ER  - 
+
+TY  - CPAPER
+TI  - ToolSQL: A Tool-Assisted Agent for SQL Verification and Refinement
+AU  - Zhongyuan Wang
+AU  - Richong Zhang
+AU  - Zhijie Nie
+AU  - Jaein Kim
+PY  - 2025
+T2  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/3711896.3737159
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3711896.3737159
+ER  - 
+
+TY  - CPAPER
+TI  - LearnedSQLGen: Constraint-aware SQL Generation using Reinforcement Learning
+AU  - Lixi Zhang
+AU  - Chengliang Chai
+AU  - Xuanhe Zhou
+AU  - Guoliang Li
+PY  - 2022
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3514221.3526155
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3514221.3526155
+ER  - 
+
+TY  - CPAPER
+TI  - Both Ends Count! Just How Good are LLM Agents at Text-to-“Big SQL”?
+AU  - Germán T. Eizaguirre
+AU  - Lars Tissen
+AU  - Marc Sánchez‐Artigas
+PY  - 2026
+DO  - 10.1145/3805621.3807640
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3805621.3807640
+ER  - 
+
+TY  - JOUR
+TI  - PRISM: Navigating Cost–Accuracy Trade-offs for NL2SQL
+AU  - Gaurav Tarlok Kakkar
+AU  - Yeounoh Chung
+AU  - Fatma Özcan
+AU  - Steve Mussmann
+AU  - Joy James Prabhu Arulraj
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3786679
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786679
+ER  - 
+
+TY  - CPAPER
+TI  - A Method of Constructing and Representing Heterogeneous Graph based on Spider
+AU  - Yuxin Qiu
+AU  - Winking Q. Yu
+PY  - 2025
+DO  - 10.1145/3747227.3747229
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3747227.3747229
+ER  - 
+
+TY  - CPAPER
+TI  - Retrieval Augmented via Execution Guidance in Open-domain Table QA
+AU  - Siqin Chen
+AU  - Yubo Liu
+AU  - Jie Wu
+AU  - Mengshu Hou
+PY  - 2022
+T2  - International Conference on Algorithms, Computing and Artificial Intelligence (ACAI)
+DO  - 10.1145/3579654.3579656
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3579654.3579656
+ER  - 
+
+TY  - JOUR
+TI  - SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference
+AU  - Kyle Luoma
+AU  - Arun Kumar
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3709727
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3709727
+ER  - 
+
+TY  - CPAPER
+TI  - DataDazzle: Intelligent Data Exploration through Natural Language
+AU  - Mike Xydas
+AU  - Anna Mitsopoulou
+AU  - George Katsogiannis-Meimarakis
+AU  - Christos Tsapelas
+AU  - Stavroula Eleftherakis
+AU  - Antonis Mandamadiotis
+AU  - Georgia Koutrika
+PY  - 2025
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3722212.3725094
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3722212.3725094
+ER  - 
+
+TY  - CPAPER
+TI  - A Multi-Agent System for Equity Analysis
+AU  - Trong Thanh Nguyen
+AU  - Quyet M. Le
+AU  - Khanh Gia Pham
+AU  - Phuc Minh Nguyen
+AU  - Khuong N. Dang
+AU  - Thi-Thiet Pham
+AU  - Khoa Cuu Nguyen
+PY  - 2026
+T2  - International Conference on Intelligent Information Technology (ICIIT)
+DO  - 10.1145/3805862.3805922
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3805862.3805922
+ER  - 
+
+TY  - CPAPER
+TI  - DBVinci – towards the usage of GPT engine for processing SQL Queries
+AU  - Vanessa Câmara
+AU  - Rayol Mendonca-Neto
+AU  - André R.F. Silva
+AU  - Luiz Alberto Queiroz Cordovil Júnior
+PY  - 2023
+T2  - Brazilian Symposium on Multimedia and the Web
+DO  - 10.1145/3617023.3617035
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3617023.3617035
+ER  - 
+
+TY  - CPAPER
+TI  - Research on NL2SQL in the logistics field based on large language models under resource
+                     constraints
+AU  - Hailong Jiang
+AU  - Mengyuan Zhu
+AU  - Qian Zhang
+AU  - Guangpei Zhong
+AU  - Guoqing Li
+PY  - 2025
+T2  - International Conference on Big Data, Artificial Intelligence and Risk Management (ICBAR)
+DO  - 10.1145/3800227.3800276
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3800227.3800276
+ER  - 
+
+TY  - CPAPER
+TI  - Design and Implementation of a Multimodal Intelligent Agent System for Vocational
+                     Education Policy Question Answering Based on MCP Protocol
+AU  - Zhonghua Jiang
+AU  - Hexiao Huang
+AU  - Qi Jin
+PY  - 2026
+DO  - 10.1145/3802607.3802620
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3802607.3802620
+ER  - 
+
+TY  - CPAPER
+TI  - RailEstate: An Interactive System for Metro Linked Property Trends
+AU  - Chen-Wei Chang
+AU  - Yu-Chieh Cheng
+AU  - Yun-En Tsai
+AU  - Fanglan Chen
+AU  - Chang‐Tien Lu
+PY  - 2025
+T2  - ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL)
+DO  - 10.1145/3748636.3762799
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3748636.3762799
+ER  - 
+
+TY  - CPAPER
+TI  - MongoTalk: An Agentic AI Framework for Conversational and Autonomous No-Code MongoDB
+                     Management
+AU  - Arti Patle
+AU  - Deepika Amol Ajalkar
+AU  - Saloni Siddheshwar
+AU  - Vaibhav Vijay
+AU  - Dhruv Shirsath
+PY  - 2025
+DO  - 10.1145/3799830.3799881
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3799830.3799881
+ER  - 
+
+TY  - JOUR
+TI  - CoeusBI: A Comprehensive Interactive Business Intelligence System Powered by LLMs
+                     at Baidu
+AU  - Jinqing Lian
+AU  - Chaofan Li
+AU  - Yingxia Shao
+AU  - Ming Wang
+AU  - Yang Dong
+AU  - Xinyi Liu
+AU  - Wei Zhang
+AU  - Chaoxian Gui
+AU  - Tianqi Wan
+AU  - Ming Dong
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828017
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828017
+ER  - 
+
+TY  - JOUR
+TI  - NL2SQLBench: A Modular Benchmarking Framework for LLM-Enabled NL2SQL Solutions
+AU  - Shizheng Hou
+AU  - Wenqi Pei
+AU  - Nuo Chen
+AU  - Quang-Trung Ta
+AU  - Peng Lu
+AU  - Beng Chin Ooi
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3796195.3796211
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3796195.3796211
+ER  - 
+
+TY  - CPAPER
+TI  - Research on Tobacco Data Query Application Based on NL2SQL
+AU  - Tong Shen
+AU  - Ye Hua
+AU  - Lei Yuan
+AU  - Yiming Chen
+PY  - 2024
+T2  - International Conference on Cyber Security and Information Engineering (ICCSIE)
+DO  - 10.1145/3689236.3695386
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3689236.3695386
+ER  - 
+
+TY  - JOUR
+TI  - DBTagger
+AU  - Arif Usta
+AU  - Akifhan Karakayali
+AU  - Özgür Ulusoy
+PY  - 2021
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3446095.3446103
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3446095.3446103
+ER  - 
+
+TY  - CPAPER
+TI  - Towards a theory of natural language interfaces to databases
+AU  - Ana-Maria Popescu
+AU  - Oren Etzioni
+AU  - Henry Kautz
+PY  - 2003
+T2  - ACM International Conference on Intelligent User Interfaces (IUI)
+DO  - 10.1145/604045.604120
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/604045.604120
+ER  - 
+
+TY  - CPAPER
+TI  - L.A.K.E.: Logic Agent for Knowledge Extraction in Data Planning
+AU  - Jean-Flavien Bussotti
+AU  - Naoki Otani
+AU  - Eser Kandogan
+PY  - 2026
+DO  - 10.1145/3786335.3813202
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786335.3813202
+ER  - 
+
+TY  - JOUR
+TI  - Is Long Context All You Need? Leveraging LLM's Extended Context for NL2SQL
+AU  - Yeounoh Chung
+AU  - Gaurav Tarlok Kakkar
+AU  - Yu Gan
+AU  - Brenton Milne
+AU  - Fatma Özcan
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3742728.3742761
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3742728.3742761
+ER  - 
+
+TY  - CPAPER
+TI  - Data Democratisation with Deep Learning: The Anatomy of a Natural Language Data Interface
+AU  - George Katsogiannis-Meimarakis
+AU  - Mike Xydas
+AU  - Georgia Koutrika
+PY  - 2023
+DO  - 10.1145/3539597.3572728
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3539597.3572728
+ER  - 
+
+TY  - JOUR
+TI  - Bridging NL2SQL for CAN Signal Analytics at NIO: From Externalized Schemas to CTE
+                     Pipelines
+AU  - Wei Zhou
+AU  - Haoyu Zhao
+AU  - Ruiguang Zhong
+AU  - Shaoli Yu
+AU  - Xuanhe Zhou
+AU  - Xue Yang
+AU  - Xiaosong Jia
+AU  - Guoliang Li
+AU  - Shengzhong Liu
+AU  - Kang Zhang
+AU  - Jie Wu
+AU  - Fan Wu
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3827998.3828036
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3827998.3828036
+ER  - 
+
+TY  - CPAPER
+TI  - LLMs as an Interactive Database Interface for Designing Large Queries
+AU  - Yilin Li
+AU  - Deddy Jobson
+PY  - 2024
+T2  - Workshop on Human-In-the-Loop Data Analytics (HILDA)
+DO  - 10.1145/3665939.3665969
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3665939.3665969
+ER  - 
+
+TY  - JOUR
+TI  - Dial: A Knowledge-Grounded Dialect-Specific NL2SQL System
+AU  - Xiang Zhang
+AU  - Hongming Xu
+AU  - Le Zhou
+AU  - Wei Zhou
+AU  - Xuanhe Zhou
+AU  - Guoliang Li
+AU  - Yuyu Luo
+AU  - Changdong Liu
+AU  - Guorun Chen
+AU  - Liao Jiang
+AU  - Fan Wu
+PY  - 2026
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3836663.3836720
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3836663.3836720
+ER  - 
+
+TY  - CPAPER
+TI  - An Intelligent Data Analysis Method and System Fusing Chat BI and Headless BI
+AU  - Xingfeng Mi
+AU  - Wei Zhang
+AU  - Xudong Zhang
+AU  - Shanshan Huang
+PY  - 2026
+T2  - International Conference on Digital Society and Artificial Intelligence (DSAI)
+DO  - 10.1145/3833541.3833649
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3833541.3833649
+ER  - 
+
+TY  - CPAPER
+TI  - Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring
+AU  - Yunfan Zhou
+AU  - Qiming Shi
+AU  - Zhongsu Luo
+AU  - Xiwen Cai
+AU  - Yanwei Huang
+AU  - Dae Hyun Kim
+AU  - Di Weng
+AU  - Yingcai Wu
+PY  - 2026
+T2  - CHI Conference on Human Factors in Computing Systems
+DO  - 10.1145/3772318.3790974
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3772318.3790974
+ER  - 
+
+TY  - CPAPER
+TI  - SpCQL: A Semantic Parsing Dataset for Converting Natural Language into Cypher
+AU  - Aibo Guo
+AU  - Xinyi Li
+AU  - Guanchen Xiao
+AU  - Zhen Tan
+AU  - Xiang Hui Zhao
+PY  - 2022
+T2  - Proceedings of the ... ACM International Conference on Information & Knowledge Management
+DO  - 10.1145/3511808.3557703
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3511808.3557703
+ER  - 
+
+TY  - CPAPER
+TI  - LLM-Enhanced Chinese NL2SQL Translation Task Under Resource-Limited Condition
+AU  - Xichonglang Xiao
+AU  - Hao Xu
+PY  - 2024
+DO  - 10.1145/3674399.3674433
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3674399.3674433
+ER  - 
+
+TY  - CPAPER
+TI  - VoiceQuerySystem: A Voice-driven Database Querying System Using Natural Language Questions
+AU  - Yuanfeng Song
+AU  - Raymond Chi-Wing Wong
+AU  - Xuefang Zhao
+AU  - Di Jiang
+PY  - 2022
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3514221.3520158
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3514221.3520158
+ER  - 
+
+TY  - CPAPER
+TI  - Data Security Protection and Analysis of ERP System Based on NL2SQL with Large Language
+                     Model and Encrypted Database
+AU  - Limiao Xie
+AU  - Yingying Li
+AU  - Jianfeng Zhang
+AU  - Ning Jia
+AU  - Lin Xiong
+AU  - Gansheng Deng
+PY  - 2024
+T2  - International Conference on Big Data Technologies (ICBDT)
+DO  - 10.1145/3698300.3698320
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3698300.3698320
+ER  - 
+
+TY  - JOUR
+TI  - SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic
+                     SQL Workloads
+AU  - Jiale Lao
+AU  - Immanuel Trummer
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3786699
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786699
+ER  - 
+
+TY  - JOUR
+TI  - MultiVis-Agent: A Multi-Agent Framework with Logic Rules for Reliable and Comprehensive
+                     Cross-Modal Data Visualization
+AU  - Jinwei Lu
+AU  - Yuanfeng Song
+AU  - Chen Zhang
+AU  - Raymond Chi-Wing Wong
+PY  - 2026
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3786670
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3786670
+ER  - 
+
+TY  - CPAPER
+TI  - Navigating the Challenges of AI-Driven Data Processing
+AU  - Georgia Koutrika
+PY  - 2025
+T2  - ACM International Conference on Distributed and Event-Based Systems (DEBS)
+DO  - 10.1145/3701717.3733846
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3701717.3733846
+ER  - 
+
+TY  - JOUR
+TI  - Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large
+                     Language Models
+AU  - Siqiao Xue
+AU  - Danrui Qi
+AU  - Caigao Jiang
+AU  - Fangyin Cheng
+AU  - Keting Chen
+AU  - Zhiping Zhang
+AU  - Hongyang Zhang
+AU  - Ganglin Wei
+AU  - Wang Zhao
+AU  - Fan Zhou
+AU  - Hong Yi
+AU  - Shaodong Liu
+AU  - Hongjun Yang
+AU  - Faqiang Chen
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3685800.3685876
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3685800.3685876
+ER  - 
+
+TY  - JOUR
+TI  - Sphinteract: Resolving Ambiguities in NL2SQL through User Interaction
+AU  - Fuheng Zhao
+AU  - Shaleen Deep
+AU  - Fotis Psallidas
+AU  - Avrilia Floratou
+AU  - Divyakant Agrawal
+AU  - Amr El Abbadi
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3717755.3717772
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3717755.3717772
+ER  - 
+
+TY  - JOUR
+TI  - SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence
+AU  - Jie Jiang
+AU  - Haining Xie
+AU  - Siqi Shen
+AU  - Yu Shen
+AU  - Zihan Zhang
+AU  - Lei Meng
+AU  - Yifeng Zheng
+AU  - Yang Li
+AU  - Chunyou Li
+AU  - Danqing Huang
+AU  - Yinjun Wu
+AU  - Wentao Zhang
+AU  - Bin Cui
+AU  - Peng Chen
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3750601.3750610
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3750601.3750610
+ER  - 
+
+TY  - JOUR
+TI  - MT-teql
+AU  - Pingchuan Ma
+AU  - Shuai Wang
+PY  - 2021
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3494124.3494139
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3494124.3494139
+ER  - 
+
+TY  - JOUR
+TI  - Chat2Data: An Interactive Data Analysis System with RAG, Vector Databases and LLMs
+AU  - Xinyang Zhao
+AU  - Xuanhe Zhou
+AU  - Guoliang Li
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3685800.3685905
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3685800.3685905
+ER  - 
+
+TY  - CPAPER
+TI  - The Primacy of Data in Deep Learning NLP for Conversational AI
+AU  - Mark S. Johnson
+PY  - 2021
+T2  - Proceedings of the ... ACM International Conference on Information & Knowledge Management
+DO  - 10.1145/3459637.3482496
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3459637.3482496
+ER  - 
+
+TY  - CPAPER
+TI  - Inferring Visualization Intent from Conversation
+AU  - Haotian Li
+AU  - Nithin Chalapathi
+AU  - Huamin Qu
+AU  - Alvin Cheung
+AU  - Aditya Parameswaran
+PY  - 2024
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3627673.3679589
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3627673.3679589
+ER  - 
+
+TY  - CPAPER
+TI  - Genicious: Contextual Few-shot Prompting for Insights Discovery
+AU  - Vineet Kumar
+AU  - Ronald Tony
+AU  - Darshita Rathore
+AU  - Vipasha Rana
+AU  - Bhuvanesh Mandora
+AU  - Kanishka
+AU  - Chetna Bansal
+AU  - Anindya Moitra
+PY  - 2024
+DO  - 10.1145/3703323.3704274
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3703323.3704274
+ER  - 
+
+TY  - JOUR
+TI  - ZeroEA: A Zero-Training Entity Alignment Framework via Pre-Trained Language Model
+AU  - Nan Huo
+AU  - Reynold C. K. Cheng
+AU  - Ben Kao
+AU  - Wentao Ning
+AU  - Nur Al Hasan Haldar
+AU  - Xiaodong Li
+AU  - Jinyang Li
+AU  - Mohammad Matin Najafi
+AU  - Tian Li
+AU  - Ge Qu
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3654621.3654640
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3654621.3654640
+ER  - 
+
+TY  - CPAPER
+TI  - SNC: A Framework for Verification and Generation of Spatial NLQ Corpora
+AU  - W.P. Yi
+AU  - Xieyang Wang
+AU  - Mengyi Liu
+AU  - Jianqiu Xu
+PY  - 2025
+DO  - 10.1145/3748777.3748780
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3748777.3748780
+ER  - 
+
+TY  - JOUR
+TI  - ParSEval: Plan-Aware Test Database Generation for SQL Equivalence Evaluation
+AU  - Chunyu Chen
+AU  - Zhengjie Miao
+AU  - Yong Zhang
+AU  - Jiannan Wang
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3749646.3749727
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3749646.3749727
+ER  - 
+
+TY  - CPAPER
+TI  - A Natural Language Full-Scenario Multimodal Conversion Method and System for Enterprise-Level
+                     Analysis
+AU  - Xudong Zhang
+AU  - Xingfeng Mi
+AU  - Wei Zhang
+AU  - Bin Qin
+AU  - Shanshan Huang
+PY  - 2026
+T2  - International Conference on Digital Society and Artificial Intelligence (DSAI)
+DO  - 10.1145/3833541.3833650
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3833541.3833650
+ER  - 
+
+TY  - CPAPER
+TI  - A Natural Language and Interactive End-to-End Querying and Reporting System
+AU  - Salil Rajeev Joshi
+AU  - Bharath Venkatesh
+AU  - Dawn Thomas
+AU  - Yue Jiao
+AU  - Shourya Roy
+PY  - 2020
+DO  - 10.1145/3371158.3371198
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3371158.3371198
+ER  - 
+
+TY  - CPAPER
+TI  - On the Use of Large Language Models for Table Tasks
+AU  - Yuyang Dong
+AU  - Masafumi Oyamada
+AU  - Chuan Xiao
+AU  - Haochen Zhang
+PY  - 2024
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3627673.3679100
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3627673.3679100
+ER  - 
+
+TY  - JOUR
+TI  - Natural Language Interfaces for Databases with Deep Learning
+AU  - George Katsogiannis-Meimarakis
+AU  - Mike Xydas
+AU  - Georgia Koutrika
+PY  - 2023
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3611540.3611575
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3611540.3611575
+ER  - 
+
+TY  - JOUR
+TI  - ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines
+AU  - Tengjun Jin
+AU  - Yuxuan Zhu
+AU  - Daniel D. Kang
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3773749.3773750
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3773749.3773750
+ER  - 
+
+TY  - CPAPER
+TI  - Synthesizing Natural Language to Visualization (NL2VIS) Benchmarks from NL2SQL Benchmarks
+AU  - Yuyu Luo
+AU  - Nan Tang
+AU  - Guoliang Li
+AU  - Chengliang Chai
+AU  - Wenbo Li
+AU  - Xuedi Qin
+PY  - 2021
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3448016.3457261
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3448016.3457261
+ER  - 
+
+TY  - JOUR
+TI  - AutoTQA: Towards Autonomous Tabular Question Answering through Multi-Agent Large Language
+                     Models
+AU  - Jun-Peng Zhu
+AU  - Peng Cai
+AU  - Kai Xu
+AU  - Li Li
+AU  - Yishen Sun
+AU  - Shuai Zhou
+AU  - Han Su
+AU  - Tang Liu
+AU  - Qi Liu
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3685800.3685816
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3685800.3685816
+ER  - 
+
+TY  - CPAPER
+TI  - Building Natural Language Interfaces for Databases in Practice
+AU  - Claude Lehmann
+AU  - Dennis Gehrig
+AU  - Stefan Holdener
+AU  - Carlo Saladin
+AU  - João Pedro Monteiro
+AU  - Kurt Stockinger
+PY  - 2022
+T2  - International Conference on Scientific and Statistical Database Management
+DO  - 10.1145/3538712.3538744
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3538712.3538744
+ER  - 
+
+TY  - CPAPER
+TI  - Data Constraint Mining for Automatic Reconciliation Scripts Generation
+AU  - Tianxiao Wang
+AU  - Zhi Chen
+AU  - Xiaoqun Zhou
+AU  - Jinjie Wu
+AU  - Jianwei Yin
+AU  - Shuiguang Deng
+PY  - 2023
+T2  - ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
+DO  - 10.1145/3597926.3598122
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3597926.3598122
+ER  - 
+
+TY  - JOUR
+TI  - Data-Driven Imitation Learning for a Shopkeeper Robot with Periodically Changing Product
+                     Information
+AU  - Malcolm Doering
+AU  - Dražen Brščić
+AU  - Takayuki Kanda
+PY  - 2021
+T2  - ACM Transactions on Human-Robot Interaction
+DO  - 10.1145/3451883
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3451883
+ER  - 
+
+TY  - JOUR
+TI  - Validating LLM-Generated SQL Queries through Metamorphic Prompting
+AU  - Li Gang Lin
+AU  - Qinglin Zhu
+AU  - Jintai Hong
+AU  - Chong Wang
+AU  - Yang Liu
+AU  - Rongxin Wu
+PY  - 2026
+T2  - Proceedings of the ACM on software engineering.
+DO  - 10.1145/3797146
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3797146
+ER  - 
+
+TY  - CPAPER
+TI  - BacktestBench: Benchmarking Large Language Models for Automated Quantitative Strategy
+                     Backtesting
+AU  - Zhensheng Wang
+AU  - Wenmian Yang
+AU  - Qingtai Wu
+AU  - Lequan Ma
+AU  - Yiquan Zhang
+AU  - Weijia Jia
+PY  - 2026
+T2  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/3770855.3817460
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3770855.3817460
+ER  - 
+
+TY  - CPAPER
+TI  - MEQA - A Multi-modal Interactive Enterprise Query Answering System using Multi-Agent
+                     LLM
+AU  - Sonal Singh
+AU  - Yadunath Gupta
+AU  - Soudip Roy Chowdhury
+PY  - 2024
+DO  - 10.1145/3703323.3704277
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3703323.3704277
+ER  - 
+
+TY  - CPAPER
+TI  - AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories
+AU  - Junsong Pu
+AU  - Yichen Li
+AU  - Zhuangbin Chen
+AU  - Zhihan Jiang
+AU  - Zibin Zheng
+PY  - 2026
+T2  - IEEE/ACM International Conference on Automated Software Engineering (ASE)
+DO  - 10.1145/3832783.3837420
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3832783.3837420
+ER  - 
+
+TY  - CPAPER
+TI  - Inferring SQL Queries Using Interactivity
+AU  - Karam Ahkouk
+AU  - Mustapha Machkour
+AU  - Jilali Antari
+PY  - 2020
+T2  - International Conference on Networking, Information Systems & Security (NISS)
+DO  - 10.1145/3386723.3387820
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3386723.3387820
+ER  - 
+
+TY  - CPAPER
+TI  - Shasta
+AU  - Gokul Nath Babu Manoharan
+AU  - Stephan Ellner
+AU  - Karl Schnaitter
+AU  - Sridatta Chegu
+AU  - Alejandro Estrella-Balderrama
+AU  - Stephan Gudmundson
+AU  - Apurv Gupta
+AU  - Ben Handy
+AU  - Bart Samwel
+AU  - Chad Whipkey
+AU  - Larysa Aharkava
+AU  - Himani Apte
+AU  - Nitin Gangahar
+AU  - Jun Xu
+AU  - Shivakumar Venkataraman
+AU  - Divyakant Agrawal
+AU  - Jeffrey David Ullman
+PY  - 2016
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/2882903.2904444
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/2882903.2904444
+ER  - 
+
+TY  - JOUR
+TI  - Conversation-Based Natural Language Interface to Relational Databases
+AU  - Majdi Owda
+AU  - Zuhair A. Bandar
+AU  - Keeley A. Crockett
+PY  - 2007
+DO  - 10.5555/1339264.1339727
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.5555/1339264.1339727
+ER  - 
+
+TY  - CPAPER
+TI  - Coni: Detecting Database Connector Bugs via State-Aware Test Case Generation
+AU  - Wenqian Deng
+AU  - Jie Liang
+AU  - Zhiyong Wu
+AU  - Jingzhou Fu
+AU  - Mingzhe Wang
+AU  - Yu Jiang
+PY  - 2025
+T2  - IEEE/ACM International Conference on Software Engineering (ICSE)
+DO  - 10.1109/ICSE55347.2025.00003
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1109/ICSE55347.2025.00003
+ER  - 
+
+TY  - CPAPER
+TI  - An Ontology based Dialog Interface to Database
+AU  - Ashish Mittal
+AU  - Jaydeep Sen
+AU  - Diptikalyan Saha
+AU  - Karthik Sankaranarayanan
+PY  - 2018
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3183713.3193551
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3183713.3193551
+ER  - 
+
+TY  - JOUR
+TI  - Insights into Natural Language Database Query Errors: from Attention Misalignment
+                     to User Handling Strategies
+AU  - Zheng Ning
+AU  - Yuan Tian
+AU  - Zheng Zhang
+AU  - Tianyi Zhang
+AU  - Toby Jia-Jun Li
+PY  - 2024
+T2  - ACM Transactions on Interactive Intelligent Systems
+DO  - 10.1145/3650114
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3650114
+ER  - 
+
+TY  - CPAPER
+TI  - An Empirical Study of Model Errors and User Error Discovery and Repair Strategies
+                     in Natural Language Database Queries
+AU  - Zheng Ning
+AU  - Zheng Zhang
+AU  - Tianyi Sun
+AU  - Yuan Tian
+AU  - Tianyi Zhang
+AU  - Toby Jia-Jun Li
+PY  - 2023
+T2  - ACM International Conference on Intelligent User Interfaces (IUI)
+DO  - 10.1145/3581641.3584067
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3581641.3584067
+ER  - 
+
+TY  - JOUR
+TI  - ST-Raptor: LLM-Powered Semi-Structured Table Question Answering
+AU  - Zirui Tang
+AU  - Boyu Niu
+AU  - Xuanhe Zhou
+AU  - Boxiu Li
+AU  - Wei Zhou
+AU  - Jiannan Wang
+AU  - Guoliang Li
+AU  - Xinyi Zhang
+AU  - Fan Wu
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3769829
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3769829
+ER  - 
+
+TY  - CPAPER
+TI  - Aligning Large Language Models to a Domain-specific Graph Database for NL2GQL
+AU  - Yuanyuan Liang
+AU  - Keren Tan
+AU  - Tingyu Xie
+AU  - Wenbiao Tao
+AU  - Siyuan Wang
+AU  - Yunshi Lan
+AU  - Weining Qian
+PY  - 2024
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3627673.3679713
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3627673.3679713
+ER  - 
+
+TY  - CPAPER
+TI  - Research on Key Technologies of Customer Service Oriented Knowledge Q&A Robot
+AU  - Lintan Sun
+AU  - Wei Hong Han
+AU  - Yeteng An
+AU  - Zhimin Li
+AU  - Rui Yang
+AU  - Zixing Yang
+PY  - 2021
+DO  - 10.1145/3469213.3470416
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3469213.3470416
+ER  - 
+
+TY  - JOUR
+TI  - Tooling framework for instantiating natural language querying system
+AU  - Manasa Jammi
+AU  - Jaydeep Sen
+AU  - Ashish Mittal
+AU  - Sagar Verma
+AU  - Vardaan Pahuja
+AU  - Rema Ananthanarayanan
+AU  - Pranay Lohia
+AU  - Hima Karanam
+AU  - Diptikalyan Saha
+AU  - Karthik Sankaranarayanan
+PY  - 2018
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3229863.3236248
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.14778/3229863.3236248
+ER  - 

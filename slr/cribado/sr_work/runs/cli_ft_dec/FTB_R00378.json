@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00378@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00378",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; SQL candidate selection is the central contribution; quantitative EX evaluation on public BIRD dev.",
+   "where": "p1 Abstract; p2 Contributions; p5 Sec 5.1 Datasets; p6 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00378.json"
+}

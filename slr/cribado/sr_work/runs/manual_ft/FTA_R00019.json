@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00019@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00019",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL benchmark (DySQL-Bench) on SQLite relational DBs, with quantitative results and error recovery.",
+   "where": "p1 Abstract and Introduction; p5-7 Sections 4-5, Table 3"
+  }
+ ],
+ "source_transcript": "agent-af5eb19c403a9066f.jsonl"
+}

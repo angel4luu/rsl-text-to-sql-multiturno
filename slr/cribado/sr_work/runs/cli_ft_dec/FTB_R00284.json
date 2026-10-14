@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00284@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00284",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn pre-training centred on question–schema linking (SDP); evaluated quantitatively on public Spider and SQUALL; 2021 English arXiv preprint.",
+   "where": "p1 Abstract and Introduction; p5-6 Section 3 Experiments, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTB_R00284.json"
+}

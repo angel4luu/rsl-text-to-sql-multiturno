@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00179@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00179",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn NL-to-SQL evaluated only on 3000 proprietary production queries; no public benchmark used.",
+   "where": "p8-9 Section 9.1 Experimental Setup and Table 6"
+  }
+ ],
+ "source": "cli:FTB_R00179.json"
+}

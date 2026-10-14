@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00466@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00466",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; LLM-verifier correctness prediction is the central contribution, evaluated quantitatively (AUROC) on BIRD and Spider.",
+   "where": "p1 Abstract and Introduction contributions; p3 Setup; p3-4 Results 4.1-4.3"
+  }
+ ],
+ "source": "cli:FTB_R00466.json"
+}

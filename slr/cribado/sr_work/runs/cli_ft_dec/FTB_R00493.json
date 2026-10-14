@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00493@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00493",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL2SQL with schema-selection and error-repair as stated contributions; quantitative results on DevRev benchmark and public Spider 2.0-Snow.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p6-7 Sections 4.5-5.2 (Experiments)"
+  }
+ ],
+ "source": "cli:FTB_R00493.json"
+}

@@ -1,0 +1,100 @@
+% =====================================================================
+% Revisión Sistemática de la Literatura (PRISMA 2020)
+% Clase IEEEtran (journal), español, biblatex estilo IEEE + biber.
+% Compilar desde la raíz del repo: make slr
+% =====================================================================
+\documentclass[journal]{IEEEtran}
+
+% --- Idioma y codificación ------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% es-noshorthands: evita conflictos de < > " con IEEEtran y tablas
+% es-tabla: "Tabla" en vez de "Cuadro"
+\usepackage[english,spanish,es-noshorthands,es-tabla]{babel}
+\usepackage[autostyle]{csquotes}
+
+% --- Bibliografía -----------------------------------------------------
+\PassOptionsToPackage{hyphens}{url} % URLs largas cortan en guiones (biblatex carga url)
+\usepackage[backend=biber,style=ieee,sorting=none,maxnames=6,minnames=3]{biblatex}
+\addbibresource{../../bib/referencias.bib}
+\addbibresource{../../bib/referencias_metodo.bib}   % generado: bib/scripts/construir_bib.py
+\addbibresource{../../bib/estudios_incluidos.bib}   % generado: estudios incluidos (390)
+\AtEveryBibitem{\clearfield{note}}   % las notas de verificación (fuente, decisiones C1–C4) son internas
+
+% --- Figuras, tablas y matemáticas ------------------------------------
+\usepackage{graphicx}
+\graphicspath{{figuras/}}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb}
+\usepackage[detect-all,locale=DE]{siunitx} % coma decimal (convención en español)
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{longtable}               % tablas largas de los apéndices (una columna)
+\usepackage{listings}                % cadenas de búsqueda y prompts literales (apéndices A y G)
+\lstset{basicstyle=\ttfamily\scriptsize, breaklines=true, breakatwhitespace=false, columns=fullflexible,
+        keepspaces=true, upquote=true, frame=single, framesep=3pt, xleftmargin=3pt, xrightmargin=3pt}
+
+% --- Flotantes: cerca de su primera mención ------------------------------
+\usepackage{stfloats}                % permite [b] en figure*/table*
+\renewcommand{\topfraction}{0.9}\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\dbltopfraction}{0.9}\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}\renewcommand{\dblfloatpagefraction}{0.8}
+\setcounter{topnumber}{3}\setcounter{bottomnumber}{2}\setcounter{dbltopnumber}{2}\setcounter{totalnumber}{5}
+
+% --- Enlaces y referencias cruzadas (cargar al final) -----------------
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish,capitalise,noabbrev]{cleveref}
+\crefname{table}{tabla}{tablas}\Crefname{table}{Tabla}{Tablas}          % coherente con es-tabla
+\crefname{section}{sección}{secciones}\Crefname{section}{Sección}{Secciones}
+\crefname{subsection}{sección}{secciones}\Crefname{subsection}{Sección}{Secciones}
+\crefname{figure}{figura}{figuras}\Crefname{figure}{Figura}{Figuras}
+\crefname{appendix}{apéndice}{apéndices}\Crefname{appendix}{Apéndice}{Apéndices}
+
+% --- Macros del proyecto -----------------------------------------------
+\newcommand{\en}[1]{\textit{#1}}             % término técnico en inglés
+% Resumen en inglés (IEEEtran trae un solo abstract): \begin{abstracten} ... \end{abstracten} + \begin{keywordsen}
+\newenvironment{abstracten}{\begin{otherlanguage}{english}\sisetup{output-decimal-marker={.}}\begin{abstract}\textit{\RSLTituloEN.}\par\smallskip}{\end{abstract}\end{otherlanguage}}
+\newenvironment{keywordsen}{\begin{otherlanguage}{english}\renewcommand{\IEEEkeywordsname}{Index Terms}\begin{IEEEkeywords}}{\end{IEEEkeywords}\end{otherlanguage}}
+\newcommand{\pendiente}[1]{\textcolor{red}{[PENDIENTE: #1]}}
+\input{../comun/metadatos}
+\usepackage{xspace}
+\input{numeros}                 % cifras del texto, generadas: make tablas
+\renewcommand{\IEEEkeywordsname}{Palabras clave} % IEEEtran lo fija en inglés
+
+% =====================================================================
+\begin{document}
+
+\title{\RSLTitulo}
+
+\author{\AutorNombre%
+\thanks{\AutorNombre{} pertenece a la \Escuela, \Facultad, \Universidad, \Ciudad, \Pais{}
+(correo: \href{mailto:\AutorCorreo}{\AutorCorreo}; ORCID: \href{https://orcid.org/\AutorORCID}{\AutorORCID}).}%
+\thanks{Trabajo elaborado para el curso \RSLCurso, \Escuela, \Universidad.}%
+\thanks{\RSLFinanciamiento}}
+
+\markboth{\RSLEncabezado}{\AutorNombreCorto: \RSLTituloCorto}
+
+\maketitle
+
+\input{secciones/00-resumen}
+\input{secciones/01-introduccion}
+\input{secciones/02-trabajos-relacionados}
+\input{secciones/03-metodo}
+\input{secciones/04-resultados}
+\input{secciones/05-discusion}
+\input{secciones/06-amenazas-validez}
+\input{secciones/07-conclusiones}
+\input{secciones/08-declaraciones}
+
+\printbibliography
+
+% --- Apéndices (una columna; tablas y figuras numeradas por apéndice: A1, B1, …) ---
+\onecolumn
+\appendices
+\counterwithin*{table}{section}\counterwithin*{figure}{section}
+\renewcommand{\thetable}{\thesection\arabic{table}}\renewcommand{\thefigure}{\thesection\arabic{figure}}
+\input{secciones/09-apendices}
+
+\end{document}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00154@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00154",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; central contribution is execution-feedback refinement; evaluated quantitatively on Bird and Spider.",
+   "where": "p1 Abstract and Introduction contributions; p9-10 Sec 7.1-7.2 Experimental setup and results"
+  }
+ ],
+ "source": "cli:FTA_R00154.json"
+}

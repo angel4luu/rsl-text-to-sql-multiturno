@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00119@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00119",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-consistency verification, candidate selection and fixing of SQL are central; quantitative evaluation on Spider and BIRD.",
+   "where": "p1 Abstract; p14 Section 5; p14-15 Section 6.1-6.2 (Setup, Accuracy Improvement)"
+  }
+ ],
+ "source": "cli:FTB_R00119.json"
+}

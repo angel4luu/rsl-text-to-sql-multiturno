@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00469@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00469",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; evaluated only on authors' own 1,000-pair enterprise suite, not Spider, BIRD or another established public benchmark.",
+   "where": "p1 Abstract; p11 §5.1-5.2 Suite construction and experimental setup"
+  }
+ ],
+ "source": "cli:FTA_R00469.json"
+}

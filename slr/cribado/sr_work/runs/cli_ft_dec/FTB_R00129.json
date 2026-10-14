@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00129@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00129",
+   "d": "include",
+   "code": "INC",
+   "why": "2019 EMNLP paper introducing the multi-turn CoSQL benchmark over relational DBs, with SQL-grounded dialogue state tracking and baseline evaluations.",
+   "where": "p1 Abstract; p2-3 Introduction; §5-6 tasks and baselines"
+  }
+ ],
+ "source": "cli:FTB_R00129.json"
+}

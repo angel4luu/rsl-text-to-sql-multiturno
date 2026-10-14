@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00344@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00344",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn RL training framework for reasoning; schema-linking is only one partial reward, not the central contribution.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p6 Section 4.1"
+  }
+ ],
+ "source": "cli:FTA_R00344.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00483@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00483",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; route/join-path selection is central; quantitative evaluation on public ACME insurance benchmark.",
+   "where": "p1 Abstract; p6 §4.4; p8-9 §5.1; p11 §6.1"
+  }
+ ],
+ "source": "cli:FTB_R00483.json"
+}

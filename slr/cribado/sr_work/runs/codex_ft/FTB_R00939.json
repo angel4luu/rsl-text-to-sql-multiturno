@@ -1,0 +1,1 @@
+{"label": "FTB:R00939@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00939", "d": "unclear", "code": "UNC", "why": "The supplied full-text extract omits experimental results, preventing verification of quantitative evaluation.", "where": "p18 §4.1; pp19–33 explicitly omitted"}], "source": "codex:gpt-6.1-sol"}

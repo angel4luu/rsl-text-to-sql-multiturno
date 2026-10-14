@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00359@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00359",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn clarification of one standalone question via expected information gain; no schema linking, join inference or self-correction contribution.",
+   "where": "p1 Abstract and §1.3 (semantic, not schema, ambiguity); p8-9 §3.4, §4.1 (Spider, AmbiQT)"
+  }
+ ],
+ "source": "cli:FTB_R00359.json"
+}

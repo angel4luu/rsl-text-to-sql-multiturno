@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00014@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00014",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agentic SQL with execution-feedback rewards and iterative refinement as central contribution; evaluated on BIRD, Spider, Spider 2.0.",
+   "where": "p1 Abstract; p2-4 Sec 2 Methodology; p5-6 Sec 3 Experiment, Table 1"
+  }
+ ],
+ "source_transcript": "agent-a4b04b372a3f6213b.jsonl"
+}

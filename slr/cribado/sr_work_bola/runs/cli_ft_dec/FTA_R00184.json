@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00184@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00184",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Turkish Spider translation dataset and LLM fine-tuning; execution-feedback (CoF) is a minor add-on, not a listed contribution",
+   "where": "p2 Introduction, contributions list; p4-5 Section V.C Chain-of-Feedback"
+  }
+ ],
+ "source": "cli:FTA_R00184.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00453@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00453",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary arXiv paper on relational NL2SQL with multi-round dialogue, hierarchical schema linking, and quantitative results on BIRD and an MRD dataset.",
+   "where": "p1 Abstract; p3-4 Sec 3-4; p5-6 Sec 5 Schema Linking; p7-9 Sec 6-7 Routing/MRD; p9-10 Sec 8 Experiments, Table 3"
+  }
+ ],
+ "source": "cli:FTA_R00453.json"
+}

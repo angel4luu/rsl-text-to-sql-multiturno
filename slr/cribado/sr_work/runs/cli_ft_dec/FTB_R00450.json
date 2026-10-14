@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00450@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00450",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn voice text-to-SQL with context retention; quantitative evaluation on own 150-prompt benchmark, including multi-turn stability metric.",
+   "where": "p3 §3.2 Context retention; p4-5 §4.3-4.4 Metrics and Results, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTB_R00450.json"
+}

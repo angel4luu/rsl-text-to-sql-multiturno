@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00260@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00260",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; contribution is a multilingual pipeline and cross-lingual gap findings, with schema grounding and voting only as components of the instrument.",
+   "where": "p1 Abstract; p2 Introduction, contributions paragraph; p13-14 Sec. 4 Experimental Setup"
+  }
+ ],
+ "source": "cli:FTA_R00260.json"
+}

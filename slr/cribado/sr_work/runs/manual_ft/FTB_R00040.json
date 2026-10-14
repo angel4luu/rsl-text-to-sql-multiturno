@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00040@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00040",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation of independent queries; general RAG plus prompt-based Text-to-SQL system, no linking or correction contribution",
+   "where": "p2 Contributions; p3-4 Sec 3.4 Text-to-SQL; p5 Sec 4.3 Evaluation Protocol"
+  }
+ ],
+ "source_transcript": "agent-a6bb7688b5182fd1e.jsonl"
+}

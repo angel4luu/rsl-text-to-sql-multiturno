@@ -1,0 +1,306 @@
+{
+ "label": "B:b015@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00699",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Anti-fraud hallucination architecture; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00700",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00701",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table understanding/table QA, not SQL generation"
+  },
+  {
+   "id": "R00702",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Educational lab experience, no linking/correction contribution"
+  },
+  {
+   "id": "R00703",
+   "d": "include",
+   "code": "INC",
+   "why": "NL2SQL with reflexive error correction and exploration as stated contributions"
+  },
+  {
+   "id": "R00704",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based voice interface application, single-turn"
+  },
+  {
+   "id": "R00705",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise ChatBI application, no central linking/correction"
+  },
+  {
+   "id": "R00706",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL-to-MongoDB NoSQL querying"
+  },
+  {
+   "id": "R00707",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM teaching methodology, not linking/correction"
+  },
+  {
+   "id": "R00708",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Unified reasoning with execution feedback; unclear if central for Text-to-SQL"
+  },
+  {
+   "id": "R00709",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Nuclear alarm-deviation agent, not Text-to-SQL contribution"
+  },
+  {
+   "id": "R00710",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00711",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM fine-tuning comparison, no linking/correction"
+  },
+  {
+   "id": "R00712",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00713",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL model, no linking/correction focus"
+  },
+  {
+   "id": "R00714",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Evaluated on CHASE; unclear whether multi-turn setting"
+  },
+  {
+   "id": "R00715",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comparative review of Text-to-SQL methods"
+  },
+  {
+   "id": "R00716",
+   "d": "include",
+   "code": "INC",
+   "why": "Table/column selector and corrector, evaluated on Spider and BIRD"
+  },
+  {
+   "id": "R00717",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Vision paper on NoSQL, no evaluation"
+  },
+  {
+   "id": "R00718",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL sketch model, no linking/correction"
+  },
+  {
+   "id": "R00719",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema-aware mapping of query tokens; unclear if linking is central"
+  },
+  {
+   "id": "R00720",
+   "d": "include",
+   "code": "INC",
+   "why": "Graph alignment of question and schema (schema linking), Spider"
+  },
+  {
+   "id": "R00721",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Spatial database query language, not relational SQL"
+  },
+  {
+   "id": "R00722",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Inventory management system application, no linking/correction"
+  },
+  {
+   "id": "R00723",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM comparison for BI, no linking/correction contribution"
+  },
+  {
+   "id": "R00724",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00725",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cost-efficient query routing, not linking/correction"
+  },
+  {
+   "id": "R00726",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Spatial Text-to-SQL jointly modeling schema item alignment; centrality unclear"
+  },
+  {
+   "id": "R00727",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema-graph encoding with meta-paths; unclear if linking is central"
+  },
+  {
+   "id": "R00728",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Sketch filling on WikiSQL, no linking/correction focus"
+  },
+  {
+   "id": "R00729",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn bidirectional encoder model, no linking/correction"
+  },
+  {
+   "id": "R00730",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multilingual contrastive reward fine-tuning, not linking/correction"
+  },
+  {
+   "id": "R00731",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00732",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1999"
+  },
+  {
+   "id": "R00733",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00734",
+   "d": "include",
+   "code": "INC",
+   "why": "Refined schema filtering as stated contribution, Spider evaluation"
+  },
+  {
+   "id": "R00735",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2005"
+  },
+  {
+   "id": "R00736",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semantic parsing of metonymy for database updating, not Text-to-SQL"
+  },
+  {
+   "id": "R00737",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reranking candidate selection among contributions; centrality unclear"
+  },
+  {
+   "id": "R00738",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Fine-tuning evaluated on CHASE; unclear if multi-turn"
+  },
+  {
+   "id": "R00739",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00740",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain knowledge retrieval, not schema linking or correction"
+  },
+  {
+   "id": "R00741",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00742",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2023 knowledge graph platform, Neo4j not Text-to-SQL"
+  },
+  {
+   "id": "R00743",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Water domain QA platform application"
+  },
+  {
+   "id": "R00744",
+   "d": "include",
+   "code": "INC",
+   "why": "Hierarchical schema graph with column candidate selection, Spider"
+  },
+  {
+   "id": "R00745",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based grid data query system application"
+  },
+  {
+   "id": "R00746",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Database encryption security framework, not Text-to-SQL"
+  },
+  {
+   "id": "R00747",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL2Cypher graph database"
+  },
+  {
+   "id": "R00748",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Textual QA on bAbI, not SQL"
+  }
+ ],
+ "source_transcript": "agent-a40da09204fc5d050.jsonl"
+}

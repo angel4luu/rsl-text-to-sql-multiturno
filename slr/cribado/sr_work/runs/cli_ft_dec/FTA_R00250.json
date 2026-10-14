@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00250@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00250",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider error taxonomy, attention analysis and user study; no schema-linking or self-correction technique contributed.",
+   "where": "p1 Abstract; p2 Introduction; p15-16 Sections 4.2-4.4"
+  }
+ ],
+ "source": "cli:FTA_R00250.json"
+}

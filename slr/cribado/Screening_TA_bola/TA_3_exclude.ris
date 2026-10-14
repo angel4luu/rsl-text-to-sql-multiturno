@@ -1,0 +1,3871 @@
+﻿TY  - JOUR
+TI  - A systematic survey of LLM-based text-to-SQL: methodologies, security vulnerabilities, and future challenges
+AU  - Bui Dinh Chien
+AU  - Hoang Ha Nguyen
+AU  - Tao Quoc Ngo
+AU  - Huyen Khanh Vu-Thi
+AU  - Chien Hong Nguyen
+AU  - Duc Van Nguyen
+AU  - Ngo Tung Son
+PY  - 2026
+T2  - PeerJ Computer Science
+DO  - 10.7717/peerj-cs.3773
+M3  - article
+UR  - https://openalex.org/W7154723342
+N1  - snowballing forward from R00041, R00086, R00109, R00110, R00126, R00129, R00292, R00312, R00524
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00001
+N1  - sr-screener TA [R00001]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Systematic survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Explainable Text-to-SQL Generation: An Overview of Recent Trends and Developments
+AU  - Farouk Chmit
+AU  - Chaima Chaieb
+AU  - Hadhémi Achour
+PY  - 2026
+T2  - Lecture notes in networks and systems
+DO  - 10.1007/978-3-032-22032-5_17
+M3  - conference-paper
+UR  - https://openalex.org/W7167025344
+N1  - snowballing forward from R00042, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00003
+N1  - sr-screener TA [R00003]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Overview of trends, survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?
+AU  - Xinyu Liu
+AU  - Shuyu Shen
+AU  - Boyan Li
+AU  - Peidong Ma
+AU  - Runzhi Jiang
+AU  - Yuxin Zhang
+AU  - Ju Fan
+AU  - Guoliang Li
+AU  - Nan Tang
+AU  - Yuyu Luo
+PY  - 2025
+T2  - IEEE Transactions on Knowledge and Data Engineering
+DO  - 10.1109/tkde.2025.3592032
+M3  - article
+UR  - https://openalex.org/W4412623423
+N1  - snowballing forward from R00072, R00086, R00098, R00101, R00109, R00110, R00126, R00129, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00004
+N1  - sr-screener TA [R00004]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Survey of Large Language Model-Based Text-to-SQL Methods
+AU  - Liang Yan
+AU  - Haoran Gong
+AU  - Peiyi Han
+AU  - Yong Dong Xu
+PY  - 2025
+T2  - Asian Conference on Artificial Intelligence Technology (ACAIT)
+DO  - 10.1109/acait67930.2025.11522096
+M3  - conference-paper
+UR  - https://openalex.org/W7161790017
+N1  - snowballing forward from R00072, R00086, R00110, R00126
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00006
+N1  - sr-screener TA [R00006]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - QueryVerse: Transform Prompts Into Data
+AU  - Samuji Praneeth
+AU  - R Prasanna Kumar
+AU  - Gundala Pallavi
+PY  - 2025
+DO  - 10.1109/icoct64433.2025.11118725
+M3  - conference-paper
+UR  - https://openalex.org/W4413459762
+N1  - snowballing forward from R00078, R00079
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00008
+N1  - sr-screener TA [R00008]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn fine-tuning system, no linking/correction contribution | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Internalizing Decomposed Reasoning: Reverse-Distilled Fine-Tuning for Interpretable and Robust Text-to-SQL
+AU  - Shixing Guan
+AU  - Xuan Hua
+AU  - Jiahao Lin
+AU  - L H Zhang
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-92-3438-7_45
+M3  - conference-paper
+UR  - https://openalex.org/W7168137631
+N1  - snowballing forward from R00078
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00009
+N1  - sr-screener TA [R00009]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn fine-tuning method, reasoning distillation | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Rethinking Chain-of-Thought Supervision in Cross-Domain Text-to-SQL
+AU  - Pengyuan Zou
+AU  - Jiawei Dai
+PY  - 2026
+T2  - Communications in computer and information science
+DO  - 10.1007/978-981-92-3563-6_24
+M3  - conference-paper
+UR  - https://openalex.org/W7169657811
+N1  - snowballing forward from R00078, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00010
+N1  - sr-screener TA [R00010]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn chain-of-thought supervision study | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Do Open-Weight LLMs Respect Minimum-Necessary Access in Text-to-SQL? An Automated Audit on EHR Benchmarks
+AU  - Alberto Ballesteros-Rodríguez
+AU  - Lino Gonzalez-Garcia
+AU  - Miguel‐Ángel Sicilia
+AU  - Elena García‐Barriocanal
+PY  - 2026
+T2  - Electronics
+DO  - 10.3390/electronics15153252
+M3  - article
+UR  - https://openalex.org/W7170170575
+N1  - snowballing forward from R00079
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00011
+N1  - sr-screener TA [R00011]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn access-minimality audit, no linking/correction contribution | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment
+AU  - Yujian Gan
+AU  - Xinyun Chen
+AU  - Qiuping Huang
+AU  - Matthew Purver
+PY  - 2022
+T2  - Findings of the Association for Computational Linguistics: NAACL
+DO  - 10.18653/v1/2022.findings-naacl.62
+M3  - conference-paper
+UR  - https://openalex.org/W4229022682
+N1  - snowballing backward from R00084
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00013
+N1  - sr-screener TA [R00013]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn compositional generalization datasets | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing
+AU  - Ben Bogin
+AU  - Jonathan Berant
+AU  - Matt Gardner
+PY  - 2019
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/p19-1448
+M3  - conference-paper
+UR  - https://openalex.org/W2952032096
+N1  - snowballing backward from R00086, R00093, R00101, R00117, R00120, R00129, R00131, R01029, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00014
+N1  - sr-screener TA [R00014]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn schema-structure encoder, not linking-focused | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization
+AU  - Yujian Gan
+AU  - Xinyun Chen
+AU  - Matthew Purver
+PY  - 2021
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2021.emnlp-main.702
+M3  - conference-paper
+UR  - https://openalex.org/W3199077625
+N1  - snowballing backward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00015
+N1  - sr-screener TA [R00015]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn domain-knowledge robustness dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser
+AU  - Zhi Chen
+AU  - Lu Chen
+AU  - Yanbin Zhao
+AU  - Ruisheng Cao
+AU  - Zihan Xu
+AU  - Su Zhu
+AU  - Kai Yu
+PY  - 2021
+T2  - Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)
+DO  - 10.18653/v1/2021.naacl-main.441
+M3  - conference-paper
+UR  - https://openalex.org/W3170698273
+N1  - snowballing backward+forward from R00086, R00093, R00107, R00116, R00117, R00131, R00924
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00016
+N1  - sr-screener TA [R00016]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn graph encoder; no linking/correction stated | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A Heterogeneous Graph to Abstract Syntax Tree Framework for Text-to-SQL
+AU  - Ruisheng Cao
+AU  - Lu Chen
+AU  - Jieyu Li
+AU  - Hanchong Zhang
+AU  - Hongshen Xu
+AU  - Wangyou Zhang
+AU  - Kai Yu
+PY  - 2023
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+DO  - 10.1109/tpami.2023.3298895
+M3  - article
+UR  - https://openalex.org/W4385281245
+N1  - snowballing backward+forward from R00086, R00109, R00131, R00286
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00017
+N1  - sr-screener TA [R00017]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn graph-to-AST framework | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Evaluating the Text-to-SQL Capabilities of Large Language Models
+AU  - Nitarshan Rajkumar
+AU  - Li, Raymond
+AU  - Dzmitry Bahdanau
+PY  - 2022
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2204.00498
+M3  - preprint
+UR  - https://openalex.org/W4226053975
+N1  - snowballing backward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00018
+N1  - sr-screener TA [R00018]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Codex evaluation | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings
+AU  - Shuaichen Chang
+AU  - Eric Fosler‐Lussier
+PY  - 2023
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2305.11853
+M3  - preprint
+UR  - https://openalex.org/W4377372223
+N1  - snowballing backward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00020
+N1  - sr-screener TA [R00020]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn prompt construction study | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - GPT-Based Text-to-SQL for Spatial Databases
+AU  - Hui Wang
+AU  - Li Guo
+AU  - Yubin Liang
+AU  - Le Liu
+AU  - Jiajin Huang
+PY  - 2025
+T2  - ISPRS International Journal of Geo-Information
+DO  - 10.3390/ijgi14080288
+M3  - article
+UR  - https://openalex.org/W4412629184
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00021
+N1  - sr-screener TA [R00021]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn spatial prompt method and dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A systematic review of natural language interfaces for databases
+AU  - Mengyi Liu
+AU  - Xieyang Wang
+AU  - Jianqiu Xu
+AU  - W.P. Yi
+AU  - Ouri Wolfson
+PY  - 2026
+T2  - Frontiers of Computer Science
+DO  - 10.1007/s11704-025-50592-w
+M3  - review
+UR  - https://openalex.org/W7134109892
+N1  - snowballing forward from R00086, R00091, R00109, R00126
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00022
+N1  - sr-screener TA [R00022]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Systematic review | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents
+AU  - Khanh Trinh Pham
+AU  - Thu Huong Nguyen
+AU  - Thu Huong Nguyen
+AU  - Jun Jo
+AU  - Thanh Tam Nguyen
+AU  - Thành Tâm Nguyên
+AU  - Thành Tâm Nguyên
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-6196-4_8
+M3  - conference-paper
+UR  - https://openalex.org/W7127718823
+N1  - snowballing forward from R00086, R00109, R00110
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00023
+N1  - sr-screener TA [R00023]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn multilingual benchmark, no linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Evoschema: Towards Text-to-SQL Robustness against Schema Evolution
+AU  - Tianshu Zhang
+AU  - Kun Qian
+AU  - Siddhartha Sahai
+AU  - Yuan Tian
+AU  - Shaddy Garg
+AU  - Huan Sun
+AU  - Yunyao Li
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3748191.3748222
+M3  - article
+UR  - https://openalex.org/W4413986280
+N1  - snowballing forward from R00086, R00098
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00025
+N1  - sr-screener TA [R00025]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn schema evolution robustness benchmark | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding
+AU  - Smit Jivani
+AU  - Saravam Maheshwari
+AU  - Sunita Sarawagi
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3769822
+M3  - article
+UR  - https://openalex.org/W4417070169
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00026
+N1  - sr-screener TA [R00026]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn template constrained decoding | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL Architecture
+AU  - George Katsogiannis-Meimarakis
+AU  - Anna Mitsopoulou
+AU  - Mike Xydas
+AU  - Georgia Koutrika
+PY  - 2025
+T2  - Data-centric systems and applications
+DO  - 10.1007/978-3-032-06905-4_3
+M3  - book-chapter
+UR  - https://openalex.org/W4416144823
+N1  - snowballing forward from R00086, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00028
+N1  - sr-screener TA [R00028]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; general architecture chapter, no multi-turn/linking focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL Systems
+AU  - George Katsogiannis-Meimarakis
+AU  - Anna Mitsopoulou
+AU  - Mike Xydas
+AU  - Georgia Koutrika
+PY  - 2025
+T2  - Data-centric systems and applications
+DO  - 10.1007/978-3-032-06905-4_4
+M3  - book-chapter
+UR  - https://openalex.org/W4416144846
+N1  - snowballing forward from R00086, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00029
+N1  - sr-screener TA [R00029]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; general systems chapter, no multi-turn/linking focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - GRAY: Enhancing Few-Shot NL2SQL Translation Through Incremental SQL Log-Based Demonstration Expansion
+AU  - Zhuo Chen
+AU  - Kun Wu
+AU  - Zhen Li
+AU  - Yaxi Hou
+AU  - Wenhu Yu
+AU  - Zhongju Liu
+AU  - Hangxuan Li
+AU  - Zihang Liang
+AU  - Haoyu Qin
+AU  - Tonghui Ren
+AU  - Zhenying He
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-5716-5_5
+M3  - conference-paper
+UR  - https://openalex.org/W7125407213
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00030
+N1  - sr-screener TA [R00030]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn few-shot demonstration expansion | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - AES-SQL: Text-to-SQL Based on Adaptive Prompting and Intelligent Example Selection
+AU  - Zhentian Shen
+AU  - Zhenyang Song
+PY  - 2026
+T2  - International Conference on Consumer Electronics and Computer Engineering (ICCECE)
+DO  - 10.1109/iccece69169.2026.11399787
+M3  - conference-paper
+UR  - https://openalex.org/W7131273953
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00031
+N1  - sr-screener TA [R00031]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn prompt and example selection | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - OilRAGSQL: A RAG-based large language model framework for NL2SQL tasks in oilfield data analysis
+AU  - He Tingting
+AU  - Qiang ZHANG
+AU  - Guanyu Zheng
+AU  - Haochang Wang
+PY  - 2026
+T2  - Journal of Intelligent Information Systems
+DO  - 10.1007/s10844-026-01055-6
+M3  - article
+UR  - https://openalex.org/W7161578023
+N1  - snowballing forward from R00086, R00093
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00033
+N1  - sr-screener TA [R00033]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; domain RAG framework, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - RetailSQL: A Chinese Text-to-SQL Dataset for Retail Industry
+AU  - Wei Zhang
+AU  - Bin Ji
+AU  - Qi Li
+AU  - Jianhua Li
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-92-3435-6_25
+M3  - conference-paper
+UR  - https://openalex.org/W7168922496
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00034
+N1  - sr-screener TA [R00034]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn domain dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect
+AU  - Naihao Deng
+AU  - Yulong Chen
+AU  - Yue Zhang
+PY  - 2022
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2208.10099
+M3  - preprint
+UR  - https://openalex.org/W4292949568
+N1  - snowballing backward from R00088
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00035
+N1  - sr-screener TA [R00035]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey
+AU  - Ayush Kumar A.
+AU  - Parth Nagarkar
+AU  - Prabhav Nalhe
+AU  - Vijayakumar, Sanjeev
+PY  - 2022
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2208.04415
+M3  - preprint
+UR  - https://openalex.org/W4298879432
+N1  - snowballing backward from R00088
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00036
+N1  - sr-screener TA [R00036]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data
+AU  - Pengcheng Yin
+AU  - Graham Neubig
+AU  - Wen-tau Yih
+AU  - Sebastian Riedel
+PY  - 2020
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/2020.acl-main.745
+M3  - conference-paper
+UR  - https://openalex.org/W3035231859
+N1  - snowballing backward+forward from R00091, R00096, R00131, R01031
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00037
+N1  - sr-screener TA [R00037]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Table pretraining, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SmBoP: Semi-autoregressive Bottom-up Semantic Parsing
+AU  - Ohad Rubin
+AU  - Jonathan Berant
+PY  - 2021
+DO  - 10.18653/v1/2021.spnlp-1.2
+M3  - conference-paper
+UR  - https://openalex.org/W3094344961
+N1  - snowballing backward from R00091, R00107
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00038
+N1  - sr-screener TA [R00038]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Bottom-up decoding method, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Logic-Consistency Text Generation from Semantic Parses
+AU  - Chang Shu
+AU  - Yusen Zhang
+AU  - Xiangyu Dong
+AU  - Peng Shi
+AU  - Yu Tao
+AU  - Rui Zhang
+PY  - 2021
+DO  - 10.18653/v1/2021.findings-acl.388
+M3  - conference-paper
+UR  - https://openalex.org/W3173449346
+N1  - snowballing backward+forward from R00091, R00096, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00039
+N1  - sr-screener TA [R00039]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - SQL-to-text generation, not Text-to-SQL | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - SQL-Factory: A Multi-Agent Framework for High-Quality and Large-Scale SQL Generation
+AU  - Jiahui Li
+AU  - Tongwang Wu
+AU  - Yuren Mao
+AU  - Yunjun Gao
+AU  - Yajie Feng
+AU  - H. -G. Liu
+PY  - 2025
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3778092.3778093
+M3  - article
+UR  - https://openalex.org/W7139098105
+N1  - snowballing forward from R00091
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00041
+N1  - sr-screener TA [R00041]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - SQL corpus generation, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SmBoP: Semi-autoregressive Bottom-up Semantic Parsing
+AU  - Ohad Rubin
+AU  - Jonathan Berant
+PY  - 2021
+T2  - Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)
+DO  - 10.18653/v1/2021.naacl-main.29
+M3  - conference-paper
+UR  - https://openalex.org/W3170656151
+N1  - snowballing backward from R00093, R00098, R00101, R00107, R00109, R01031
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00044
+N1  - sr-screener TA [R00044]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Bottom-up decoding method, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - DBPal: A Fully Pluggable NL2SQL Training Pipeline
+AU  - Nathaniel Weir
+AU  - Prasetya Ajie Utama
+AU  - Alex Galakatos
+AU  - Andrew Crotty
+AU  - Amir Ilkhechi
+AU  - Shekar Ramaswamy
+AU  - Rohin Bhushan
+AU  - Nadja Geisler
+AU  - Benjamin Hättasch
+AU  - Steffen Eger
+AU  - Uğur Çetintemel
+AU  - Carsten Binnig
+PY  - 2020
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3318464.3380589
+M3  - conference-paper
+UR  - https://openalex.org/W3032766766
+N1  - snowballing backward from R00093, R00222
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00045
+N1  - sr-screener TA [R00045]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Synthetic training data pipeline, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Learning database optimization techniques: the state-of-the-art and prospects
+AU  - Shaojie Qiao
+AU  - Han-Lin Fan
+AU  - Nan Han
+AU  - Lan Du
+AU  - Yuhan Peng
+AU  - Rong-Min Tang
+AU  - Xiao Qin
+PY  - 2025
+T2  - Frontiers of Computer Science
+DO  - 10.1007/s11704-025-41116-7
+M3  - article
+UR  - https://openalex.org/W4411670550
+N1  - snowballing forward from R00093, R00096, R00097, R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00046
+N1  - sr-screener TA [R00046]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey of database optimization | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams
+AU  - Yongrui Chen
+AU  - Xinnan Guo
+AU  - Tongtong Wu
+AU  - Guilin Qi
+AU  - Yang Li
+AU  - Dong Lin Yang
+PY  - 2023
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+DO  - 10.1609/aaai.v37i11.26492
+M3  - conference-paper
+UR  - https://openalex.org/W4382318183
+N1  - snowballing forward from R00093, R00107, R00129, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00047
+N1  - sr-screener TA [R00047]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Continual learning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SUN: Exploring Intrinsic Uncertainties in Text-to-SQL Parsers
+AU  - Qin, Bowen
+AU  - Lihan Wang
+AU  - Binyuan Hui
+AU  - Bowen Li
+AU  - Xiangpeng Wei
+AU  - Binhua Li
+AU  - Huang Fei
+AU  - Luo Si
+AU  - Min Yang
+AU  - Yongbin Li
+PY  - 2022
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2209.06442
+M3  - preprint
+UR  - https://openalex.org/W4295990229
+N1  - snowballing backward from R00096, R00098
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00051
+N1  - sr-screener TA [R00051]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn uncertainty constraints, no linking/correction focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing
+AU  - Jinyang Li
+AU  - Binyuan Hui
+AU  - Reynold C. K. Cheng
+AU  - Bowen Qin
+AU  - Chenhao Ma
+AU  - Nan Huo
+AU  - Fei Huang
+AU  - Wenyu Du
+AU  - Luo Si
+AU  - Yongbin Li
+PY  - 2023
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+DO  - 10.1609/aaai.v37i11.26536
+M3  - conference-paper
+UR  - https://openalex.org/W4382202695
+N1  - snowballing backward+forward from R00096, R00109, R00116, R00525, R01031
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00052
+N1  - sr-screener TA [R00052]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn architecture with graph layers, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Prompting GPT-3.5 for Text-to-SQL with De-semanticization and Skeleton Retrieval
+AU  - Chunxi Guo
+AU  - Zhiliang Tian
+AU  - Jintao Tang
+AU  - Pancheng Wang
+AU  - Zhihua Wen
+AU  - Kang Yang
+AU  - Ting Wang
+PY  - 2023
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-99-7022-3_23
+M3  - conference-paper
+UR  - https://openalex.org/W4388551928
+N1  - snowballing forward from R00096, R00101, R00109, R00116, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00054
+N1  - sr-screener TA [R00054]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn prompting with skeleton retrieval, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Converting Natural Language to SQL Queries for Data Retrieval Using Database Metadata and LLaMA 3.2
+AU  - Kartikey Sapkal
+AU  - Arhant Nitnaware
+AU  - Yash Gunjal
+AU  - Dipti Ghusse
+AU  - Sunita Barve
+PY  - 2025
+DO  - 10.1109/icft66708.2025.11336597
+M3  - conference-paper
+UR  - https://openalex.org/W7125513366
+N1  - snowballing forward from R00096
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00055
+N1  - sr-screener TA [R00055]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn LLM system, no linking/correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Natural language to SQL conversion using probabilistic spiking return-aligned decision transformer neural networks and subtraction-average-based optimizer
+AU  - Ashlesha Kolarkar
+AU  - Kailasam Swathi
+PY  - 2025
+T2  - Neurocomputing
+DO  - 10.1016/j.neucom.2025.131123
+M3  - article
+UR  - https://openalex.org/W4412867530
+N1  - snowballing forward from R00097, R00936
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00056
+N1  - sr-screener TA [R00056]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn neural method; title shows no linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - RYANSQL: Recursively Applying Sketch-based Slot Fillings for Complex Text-to-SQL in Cross-Domain Databases
+AU  - Donghyun Choi
+AU  - Myeong Cheol Shin
+AU  - EungGyun Kim
+AU  - Dong Ryeol Shin
+PY  - 2021
+T2  - Computational Linguistics
+DO  - 10.1162/coli_a_00403
+M3  - article
+UR  - https://openalex.org/W3015937477
+N1  - snowballing backward from R00098, R00101, R00109, R00117, R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00057
+N1  - sr-screener TA [R00057]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn sketch slot filling, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Exploring Unexplored Generalization Challenges for Cross-Database Semantic Parsing
+AU  - Alane Suhr
+AU  - Ming‐Wei Chang
+AU  - Peter Martin Shaw
+AU  - Kenton Lee
+PY  - 2020
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/2020.acl-main.742
+M3  - conference-paper
+UR  - https://openalex.org/W3035172316
+N1  - snowballing backward+forward from R00098, R00109, R00110, R00126, R00511
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00058
+N1  - sr-screener TA [R00058]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn generalization evaluation setup, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Data Augmentation with Hierarchical SQL-to-Question Generation for Cross-domain Text-to-SQL Parsing
+AU  - Kun Wu
+AU  - Lijie Wang
+AU  - Zhenghua Li
+AU  - Ao Zhang
+AU  - Xinyan Xiao
+AU  - Hua Ren Wu
+AU  - Min Zhang
+AU  - Haifeng Wang
+PY  - 2021
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2021.emnlp-main.707
+M3  - conference-paper
+UR  - https://openalex.org/W3134503905
+N1  - snowballing backward from R00098, R00100
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00059
+N1  - sr-screener TA [R00059]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn data augmentation | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation
+AU  - Xinyu Pi
+AU  - Bing Wang
+AU  - Yan Gao
+AU  - Jiaqi Guo
+AU  - Zhoujun Li
+AU  - Jian–Guang Lou
+PY  - 2022
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/2022.acl-long.142
+M3  - conference-paper
+UR  - https://openalex.org/W4285195848
+N1  - snowballing backward+forward from R00098, R00117, R00126, R00129, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00060
+N1  - sr-screener TA [R00060]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn robustness benchmark, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Unlocking Compositional Generalization in Pre-trained Models Using Intermediate Representations
+AU  - Jonathan Herzig
+AU  - Peter Martin Shaw
+AU  - Ming‐Wei Chang
+AU  - Kelvin Guu
+AU  - Panupong Pasupat
+AU  - Yuan Zhang
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2104.07478
+M3  - preprint
+UR  - https://openalex.org/W3154669786
+N1  - snowballing backward from R00098
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00061
+N1  - sr-screener TA [R00061]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn intermediate representations for generalization | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SDCUP: Schema Dependency-Enhanced Curriculum Pre-Training for Table Semantic Parsing
+AU  - Bowen Qin
+AU  - Lihan Wang
+AU  - Binyuan Hui
+AU  - Ruiying Geng
+AU  - Zheng Cao
+AU  - Min Yang
+AU  - Jian Qiao Sun
+AU  - Yongbin Li
+PY  - 2021
+T2  - arXiv (Cornell University)
+M3  - preprint
+UR  - https://openalex.org/W3212973631
+N1  - snowballing backward+forward from R00098, R00117, R01029
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E9
+ID  - R00062
+N1  - sr-screener TA [R00062]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Duplicate of main-search record R00816 (SDCUP); same study already screened | A: unclear/UNC | B: unclear/UNC | by dedup
+ER  - 
+
+TY  - CPAPER
+TI  - Towards Robustness of Large Language Models on Text-to-SQL Task: An Adversarial and Cross-Domain Investigation
+AU  - Weixu Zhang
+AU  - Yu Wang
+AU  - Ming Yu Fan
+PY  - 2023
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-031-44192-9_15
+M3  - conference-paper
+UR  - https://openalex.org/W4386932799
+N1  - snowballing forward from R00098, R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00063
+N1  - sr-screener TA [R00063]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn LLM robustness study, no abstract suggests linking | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Skill-Based Few-Shot Selection for In-Context Learning
+AU  - Shengnan An
+AU  - Bo Zhou
+AU  - Zeqi Lin
+AU  - Qiang Fu
+AU  - Bei Chen
+AU  - Nanning Zheng
+AU  - Weizhu Chen
+AU  - Jian–Guang Lou
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.831
+M3  - conference-paper
+UR  - https://openalex.org/W4389519258
+N1  - snowballing forward from R00099, R00116, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00065
+N1  - sr-screener TA [R00065]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Few-shot example selection, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
+AU  - Xie, Tianbao
+AU  - Chen Henry Wu
+AU  - Peng Jia Shi
+AU  - Ruiqi Zhong
+AU  - Torsten Scholak
+AU  - Michihiro Yasunaga
+AU  - Chien-Sheng Wu
+AU  - Ming Zhong
+AU  - Pengcheng Yin
+AU  - Sida I. Wang
+AU  - Zhong, Victor
+AU  - Bailin Wang
+AU  - Chengzu Li
+AU  - Boyle, Connor
+AU  - Ansong Ni
+AU  - Ziyu Yao
+AU  - Dragomir Radev
+AU  - Caiming Xiong
+AU  - Lingpeng Kong
+AU  - Rui Zhang
+AU  - Noah A. Smith
+AU  - Luke Zettlemoyer
+AU  - Yu, Tao
+PY  - 2022
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2201.05966
+M3  - preprint
+UR  - https://openalex.org/W4221166833
+N1  - snowballing backward from R00100, R00868
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00066
+N1  - sr-screener TA [R00066]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Unified multi-task SKG benchmark, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Learning to Synthesize Data for Semantic Parsing
+AU  - Bailin Wang
+AU  - Wenpeng Yin
+AU  - Xi Lin
+AU  - Caiming Xiong
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2104.05827
+M3  - preprint
+UR  - https://openalex.org/W3156869825
+N1  - snowballing backward+forward from R00100, R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00067
+N1  - sr-screener TA [R00067]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn data synthesis | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - The Dawn of Natural Language to SQL: Are We Fully Ready?
+AU  - Boyan Li
+AU  - Yuyu Luo
+AU  - Chengliang Chai
+AU  - Guoliang Li
+AU  - Nan Tang
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3681954.3682003
+M3  - article
+UR  - https://openalex.org/W4402042542
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00068
+N1  - sr-screener TA [R00068]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn evaluation framework, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Exploring Chain of Thought Style Prompting for Text-to-SQL
+AU  - Chang-Yu Tai
+AU  - Ziru Chen
+AU  - Tianshu Zhang
+AU  - Xiang Bo Deng
+AU  - Huan Sun
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.327
+M3  - conference-paper
+UR  - https://openalex.org/W4389524197
+N1  - snowballing forward from R00101, R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00070
+N1  - sr-screener TA [R00070]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn chain-of-thought prompting | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - MedT5SQL: a transformers-based large language model for text-to-SQL conversion in the healthcare domain
+AU  - Alaa Marshan
+AU  - Anwar Nais Almutairi
+AU  - Athina Ioannou
+AU  - David Bell
+AU  - Asmat Monaghan
+AU  - Mahir Arzoky
+PY  - 2024
+T2  - Frontiers in Big Data
+DO  - 10.3389/fdata.2024.1371680
+M3  - article
+UR  - https://openalex.org/W4400056759
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00071
+N1  - sr-screener TA [R00071]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn fine-tuned T5 for healthcare | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Multi-pattern retrieval-augmented framework for Text-to-SQL with Poincaré-Skeleton retrieval and meta-instruction reasoning
+AU  - Chunxi Guo
+AU  - Zhiliang Tian
+AU  - Jintao Tang
+AU  - Shasha Li
+AU  - Ting Wang
+PY  - 2024
+T2  - Information Processing & Management
+DO  - 10.1016/j.ipm.2024.103978
+M3  - article
+UR  - https://openalex.org/W4405544168
+N1  - snowballing forward from R00101, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00073
+N1  - sr-screener TA [R00073]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; retrieval/reasoning title, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - AID-SQL: Adaptive In-Context Learning of Text-to-SQL with Difficulty-Aware Instruction and Retrieval-Augmented Generation
+AU  - Xiuwen Li
+AU  - Qifeng Cai
+AU  - Yang Shu
+AU  - Chenjuan Guo
+AU  - Bin Yang
+PY  - 2025
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde65448.2025.00294
+M3  - conference-paper
+UR  - https://openalex.org/W4413349775
+N1  - snowballing forward from R00101, R00868
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00075
+N1  - sr-screener TA [R00075]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn adaptive in-context learning and example retrieval | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Graph-empowered Text-to-SQL generation on Electronic Medical Records
+AU  - Qian Chen
+AU  - Jun Peng
+AU  - Baiyang Song
+AU  - Yiyi Zhou
+AU  - Rongrong Ji
+PY  - 2025
+T2  - Pattern Recognition
+DO  - 10.1016/j.patcog.2025.111800
+M3  - article
+UR  - https://openalex.org/W4411078493
+N1  - snowballing forward from R00101, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00076
+N1  - sr-screener TA [R00076]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; title shows no linking/correction focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - ETM: Modern Insights into Perspective on Text-to-SQL Evaluation in the Age of Large Language Models
+AU  - Benjamin G. Ascoli
+AU  - Yasoda Sai Ram Kandikonda
+AU  - Jinho D. Choi
+PY  - 2025
+T2  - Future Internet
+DO  - 10.3390/fi17080325
+M3  - article
+UR  - https://openalex.org/W4412603362
+N1  - snowballing backward+forward from R00101, R00109, R00129, R00927
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00077
+N1  - sr-screener TA [R00077]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn evaluation metric | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Large Language Model–Based Critical Care Big Data Deployment and Extraction: Descriptive Analysis
+AU  - Yang Zhong-bao
+AU  - Shan-Shan Xu
+AU  - Xiaozhu Liu
+AU  - Ningyuan Xu
+AU  - Yuqing Chen
+AU  - Shuya Wang
+AU  - Ming-Yue Miao
+AU  - Mengxue Hou
+AU  - Shuai Liu
+AU  - Yan Zhou
+AU  - Jianxin Zhou
+AU  - Linlin Zhang
+PY  - 2025
+T2  - JMIR Medical Informatics
+DO  - 10.2196/63216
+M3  - article
+UR  - https://openalex.org/W4408415869
+N1  - snowballing forward from R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00078
+N1  - sr-screener TA [R00078]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn application platform description | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Adapt and Decompose: Efficient Generalization of Text-to-SQL via Domain Adapted Least-To-Most Prompting
+AU  - Aseem Arora
+AU  - Shabbirhussain Bhaisaheb
+AU  - Harshit Nigam
+AU  - Manasi S. Patwardhan
+AU  - Lovekesh Vig
+AU  - Gautam M. Shroff
+PY  - 2023
+DO  - 10.18653/v1/2023.genbench-1.3
+M3  - conference-paper
+UR  - https://openalex.org/W4389519605
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00079
+N1  - sr-screener TA [R00079]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn prompt construction method | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Decoupling SQL query hardness parsing for text-to-SQL
+AU  - Jiawen Yi
+AU  - Guo Chen
+AU  - Xiaojun Zhou
+PY  - 2024
+T2  - Neurocomputing
+DO  - 10.1016/j.neucom.2024.129293
+M3  - article
+UR  - https://openalex.org/W4406054353
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00080
+N1  - sr-screener TA [R00080]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; query hardness parsing, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Multilingual spatial domain natural language interface to databases
+AU  - Wenlu Wang
+AU  - Jingjing Li
+AU  - Wei‐Shinn Ku
+AU  - Haixun Wang
+PY  - 2023
+T2  - GeoInformatica
+DO  - 10.1007/s10707-023-00496-3
+M3  - article
+UR  - https://openalex.org/W4367394726
+N1  - snowballing forward from R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00081
+N1  - sr-screener TA [R00081]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; multilingual spatial NLIDB, not multi-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - RGISQL: Integrating Refined Grammatical Information into Relational Graph Neural Network for Text-to-SQL Task
+AU  - Shuiyan Li
+AU  - Yaozhen He
+AU  - Longhao Ao
+AU  - Rongzhi Qi
+PY  - 2024
+T2  - Applied Sciences
+DO  - 10.3390/app142210359
+M3  - article
+UR  - https://openalex.org/W4404244577
+N1  - snowballing forward from R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00083
+N1  - sr-screener TA [R00083]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Grammatical info in GNN, single-turn, not linking | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CSS: A Large-scale Cross-schema Chinese Text-to-SQL Medical Dataset
+AU  - Hanchong Zhang
+AU  - Jieyu Li
+AU  - Lu Chen
+AU  - Ruisheng Cao
+AU  - Yunyan Zhang
+AU  - Yu Huang
+AU  - Yefeng Zheng
+AU  - Kai Fun Yu
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-acl.435
+M3  - conference-paper
+UR  - https://openalex.org/W4385571878
+N1  - snowballing forward from R00101, R00109, R00110, R00126, R00129, R00131, R00924
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00084
+N1  - sr-screener TA [R00084]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - New single-turn Chinese dataset, not about linking | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Finetuning LLMs for Text-to-SQL with Two-Stage Progressive Learning
+AU  - Ling Xiao
+AU  - Jialin Liu
+AU  - Jinbu Liu
+AU  - Jindu Liu
+AU  - Jindu Liu
+AU  - Jianhua Wu
+AU  - Jie Liu
+AU  - Jie Liu
+PY  - 2024
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-97-9434-8_35
+M3  - conference-paper
+UR  - https://openalex.org/W4403942854
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00085
+N1  - sr-screener TA [R00085]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; fine-tuning method, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Cross-lingual Text-to-SQL Semantic Parsing with Representation Mixup
+AU  - Peng Jia Shi
+AU  - Linfeng Song
+AU  - Lifeng Jin
+AU  - Haitao Mi
+AU  - He Bai
+AU  - Jimmy Lin
+AU  - Dong Yu
+PY  - 2022
+DO  - 10.18653/v1/2022.findings-emnlp.388
+M3  - conference-paper
+UR  - https://openalex.org/W4385567069
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00087
+N1  - sr-screener TA [R00087]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Cross-lingual single-turn representation mixup | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SQLify Me: An Automated Text-To-SQL Query Generator
+AU  - Ahmed R. Mohamed
+AU  - Mohamed Hisham Zain-elabdeen
+AU  - Salwa Ahmed Sayed
+AU  - Samaa Sabry Abdelwahab
+AU  - Ziad Ezzat Mohamed
+AU  - Zyad Mahmoud Ali
+AU  - Yomna A. Kawashti
+AU  - Hanan Hindy
+PY  - 2024
+T2  - International Conference on Computer Theory and Applications (ICCTA)
+DO  - 10.1109/iccta64612.2024.10974783
+M3  - conference-paper
+UR  - https://openalex.org/W4409796623
+N1  - snowballing forward from R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00089
+N1  - sr-screener TA [R00089]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - General single-turn system description | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Optimizing Text-to-SQL Transformations: The Potential of Skeleton Decoupling in SKT-SQL
+AU  - Jiawen Yi
+AU  - Guo Chen
+PY  - 2024
+T2  - Research Square
+DO  - 10.21203/rs.3.rs-5318111/v1
+M3  - preprint
+UR  - https://openalex.org/W4404120201
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00091
+N1  - sr-screener TA [R00091]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; skeleton decoupling, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Combining computational linguistics with sentence embedding to create a zero-shot NLIDB
+AU  - Yuriy Perezhohin
+AU  - Fernando Peres
+AU  - Mauro Castelli
+PY  - 2024
+T2  - Array
+DO  - 10.1016/j.array.2024.100368
+M3  - article
+UR  - https://openalex.org/W4403740037
+N1  - snowballing forward from R00101, R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00093
+N1  - sr-screener TA [R00093]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn zero-shot rule-based NLIDB | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A SQL automatic generation method based on prompt learning
+AU  - Wang Ying
+AU  - Hongyan Zhou
+AU  - Cheng Zhang
+AU  - Xianwen Yu
+PY  - 2025
+T2  - International Conference on Telecommunications, Optics, and Computer Science (TOCS)
+DO  - 10.1117/12.3067449
+M3  - conference-paper
+UR  - https://openalex.org/W4409874944
+N1  - snowballing forward from R00101, R00160
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00094
+N1  - sr-screener TA [R00094]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn prompt learning generation | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness
+AU  - Zhifeng Hao
+AU  - Yuyuan Cai
+AU  - Shaobin Shi
+AU  - Boyan Xu
+AU  - Ruichu Cai
+PY  - 2025
+DO  - 10.1109/ijcnn64981.2025.11228968
+M3  - conference-paper
+UR  - https://openalex.org/W4416249975
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00096
+N1  - sr-screener TA [R00096]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Parameter-efficient fine-tuning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A comparative analysis of NLP models for Text-to-SQL generation
+AU  - Ateka Alsheyab
+AU  - Ghaith M. Jaradat
+AU  - Wala'a Al-Omari
+AU  - Tamara Baker Jaber
+AU  - Omar Husain Altarawneh
+PY  - 2026
+T2  - AIP conference proceedings
+DO  - 10.1063/5.0318228
+M3  - conference-paper
+UR  - https://openalex.org/W7128683028
+N1  - snowballing forward from R00101, R00120
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00098
+N1  - sr-screener TA [R00098]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; comparative model analysis, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Enhancing Chain-of-Thought Reasoning for Text-to-SQL with Effective Retrieval-Augmented Generation
+AU  - Xuguang Zhu
+AU  - Yong Zhang
+AU  - Chao Li
+AU  - Chunxiao Xing
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-3827-0_33
+M3  - conference-paper
+UR  - https://openalex.org/W7165162669
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00099
+N1  - sr-screener TA [R00099]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; CoT with RAG, no linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Semantic Evaluation for Text-to-SQL with Distilled Test Suites
+AU  - Ruiqi Zhong
+AU  - Tao Yu
+AU  - Dan Klein
+PY  - 2020
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2020.emnlp-main.29
+M3  - conference-paper
+UR  - https://openalex.org/W3102020135
+N1  - snowballing backward+forward from R00109, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00102
+N1  - sr-screener TA [R00102]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn evaluation metric, not linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Grammar-based Neural Text-to-SQL Generation
+AU  - Kevin Lin
+AU  - Ben Bogin
+AU  - Neumann, Mark
+AU  - Jonathan Berant
+AU  - Matt Gardner
+PY  - 2019
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.1905.13326
+M3  - preprint
+UR  - https://openalex.org/W2947354947
+N1  - snowballing backward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00103
+N1  - sr-screener TA [R00103]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Grammar-based decoding, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A survey on deep learning approaches for text-to-SQL
+AU  - George Katsogiannis-Meimarakis
+AU  - Georgia Koutrika
+PY  - 2023
+T2  - The VLDB Journal
+DO  - 10.1007/s00778-022-00776-8
+M3  - article
+UR  - https://openalex.org/W4317716303
+N1  - snowballing forward from R00109, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00105
+N1  - sr-screener TA [R00105]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+AU  - Zihui Gu
+AU  - Ju Fan
+AU  - Nan Tang
+AU  - Lei Cao
+AU  - Bowen Jia
+AU  - Samuel R. Madden
+AU  - Xiaoyong Du
+PY  - 2023
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3589292
+M3  - article
+UR  - https://openalex.org/W4381326864
+N1  - snowballing forward from R00109, R00129, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00106
+N1  - sr-screener TA [R00106]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Few-shot prompt learning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Evaluating Cross-Domain Text-to-SQL Models and Benchmarks
+AU  - Mohammadreza Pourreza
+AU  - Davood Rafiei
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.99
+M3  - conference-paper
+UR  - https://openalex.org/W4389523781
+N1  - snowballing forward from R00109, R00116, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00107
+N1  - sr-screener TA [R00107]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn benchmark re-evaluation | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing
+AU  - Peng Shi
+AU  - Rui Zhang
+AU  - He Bai
+AU  - Jimmy Lin
+PY  - 2022
+DO  - 10.18653/v1/2022.findings-emnlp.384
+M3  - conference-paper
+UR  - https://openalex.org/W4385573402
+N1  - snowballing forward from R00109, R01031
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00108
+N1  - sr-screener TA [R00108]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Cross-lingual retrieval prompting, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Importance of Synthesizing High-quality Data for Text-to-SQL Parsing
+AU  - Yiqun Hu
+AU  - Yiyun Zhao
+AU  - Jiarong Jiang
+AU  - Wuwei Lan
+AU  - Henghui Zhu
+AU  - Anuj Chauhan
+AU  - Alexander Hanbo Li
+AU  - Lin Pan
+AU  - Jun Wang
+AU  - Chung-Wei Hang
+AU  - Sheng Zhang
+AU  - Jiang Guo
+AU  - Mingwen Dong
+AU  - Joseph Lilien
+AU  - Patrick Ng
+AU  - Zhiguo Wang
+AU  - Vittorio Castelli
+AU  - Bing Xiang
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-acl.86
+M3  - conference-paper
+UR  - https://openalex.org/W4385571380
+N1  - snowballing forward from R00109, R00116, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00110
+N1  - sr-screener TA [R00110]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Data synthesis for single-turn parsing | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Selective Demonstrations for Cross-domain Text-to-SQL
+AU  - Shuaichen Chang
+AU  - Eric Fosler‐Lussier
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.944
+M3  - conference-paper
+UR  - https://openalex.org/W4389523899
+N1  - snowballing forward from R00109, R00116, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00111
+N1  - sr-screener TA [R00111]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Demonstration selection, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge
+AU  - Longxu Dou
+AU  - Yan Gao
+AU  - Xuqi Liu
+AU  - Mingyang Pan
+AU  - Dingzirui Wang
+AU  - Wanxiang Che
+AU  - Dechen Zhan
+AU  - Min‐Yen Kan
+AU  - Jian–Guang Lou
+PY  - 2022
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2022.emnlp-main.350
+M3  - conference-paper
+UR  - https://openalex.org/W4385572825
+N1  - snowballing forward from R00109, R00110, R00286
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00113
+N1  - sr-screener TA [R00113]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Knowledge-intensive single-turn parsing, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ReFSQL: A Retrieval-Augmentation Framework for Text-to-SQL Generation
+AU  - Kun Zhang
+AU  - Xiexiong Lin
+AU  - Yuanzhuo Wang
+AU  - Xin Zhang
+AU  - Fei Sun
+AU  - Jianhe Cen
+AU  - Hexiang Tan
+AU  - Xuhui Jiang
+AU  - Huawei Shen
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.48
+M3  - conference-paper
+UR  - https://openalex.org/W4389519283
+N1  - snowballing forward from R00109, R00286, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00114
+N1  - sr-screener TA [R00114]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Retrieval-augmented generation, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Meta-Learning a Cross-lingual Manifold for Semantic Parsing
+AU  - Tom Sherborne
+AU  - Mirella Lapata
+PY  - 2023
+T2  - Transactions of the Association for Computational Linguistics
+DO  - 10.1162/tacl_a_00533
+M3  - article
+UR  - https://openalex.org/W4317879253
+N1  - snowballing forward from R00109, R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00115
+N1  - sr-screener TA [R00115]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Cross-lingual meta-learning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing geodatabases operability: advanced human-computer interaction through RAG and Multi-Agent Systems
+AU  - Ziming Peng
+AU  - Xi Kuai
+AU  - Shuisong Ke
+AU  - Xuehui Dong
+AU  - Renzhong Guo
+PY  - 2025
+T2  - Big Earth Data
+DO  - 10.1080/20964471.2025.2483541
+M3  - article
+UR  - https://openalex.org/W4408973976
+N1  - snowballing forward from R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00117
+N1  - sr-screener TA [R00117]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn RAG multi-agent geospatial system | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Semantic Decomposition of Question and SQL for Text-to-SQL Parsing
+AU  - Ben Eyal
+AU  - Moran Mahabi
+AU  - Ophir Haroche
+AU  - Amir Bachar
+AU  - Michael Elhadad
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.910
+M3  - conference-paper
+UR  - https://openalex.org/W4389524272
+N1  - snowballing forward from R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00118
+N1  - sr-screener TA [R00118]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Query decomposition language, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks
+AU  - Meiyu Lin
+AU  - Haichuan Zhang
+AU  - Jiale Lao
+AU  - Renyuan Li
+AU  - Yuanchun Zhou
+AU  - Carl Yang
+AU  - Yang Cao
+AU  - Mingjie Tang
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3769762
+M3  - article
+UR  - https://openalex.org/W7109089714
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00120
+N1  - sr-screener TA [R00120]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Backdoor security attack | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - DocSpider: a dataset of cross-domain natural language querying for MongoDB
+AU  - Arif Görkem Özer
+AU  - Recep Fırat Çekinel
+AU  - İsmail Hakkı Toroslu
+AU  - Pınar Karagöz
+PY  - 2025
+T2  - Natural language processing.
+DO  - 10.1017/nlp.2024.63
+M3  - article
+UR  - https://openalex.org/W4407364527
+N1  - snowballing forward from R00109, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00121
+N1  - sr-screener TA [R00121]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - MongoDB NoSQL dataset | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Weakly Supervised Text-to-SQL Parsing through Question Decomposition
+AU  - Tomer Wolfson
+AU  - Daniel Deutch
+AU  - Jonathan Berant
+PY  - 2022
+T2  - Findings of the Association for Computational Linguistics: NAACL
+DO  - 10.18653/v1/2022.findings-naacl.193
+M3  - conference-paper
+UR  - https://openalex.org/W4287854385
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00122
+N1  - sr-screener TA [R00122]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Weak supervision training, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Diverse Parallel Data Synthesis for Cross-Database Adaptation of Text-to-SQL Parsers
+AU  - Abhijeet Awasthi
+AU  - Ashutosh Sathe
+AU  - Sunita Sarawagi
+PY  - 2022
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2022.emnlp-main.794
+M3  - conference-paper
+UR  - https://openalex.org/W4385574340
+N1  - snowballing forward from R00109, R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00124
+N1  - sr-screener TA [R00124]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Data synthesis for adaptation, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - On the Vulnerabilities of Text-to-SQL Models
+AU  - Xutan Peng
+AU  - Yipeng Zhang
+AU  - Jingfeng Yang
+AU  - Mark Stevenson
+PY  - 2023
+T2  - IEEE International Symposium on Software Reliability Engineering (ISSRE)
+DO  - 10.1109/issre59848.2023.00047
+M3  - conference-paper
+UR  - https://openalex.org/W4388212680
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00125
+N1  - sr-screener TA [R00125]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Vulnerability/security study | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Optimal Transport Posterior Alignment for Cross-lingual Semantic Parsing
+AU  - Tom Sherborne
+AU  - Tom Hosking
+AU  - Mirella Lapata
+PY  - 2023
+T2  - Transactions of the Association for Computational Linguistics
+DO  - 10.1162/tacl_a_00611
+M3  - article
+UR  - https://openalex.org/W4389064459
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00126
+N1  - sr-screener TA [R00126]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Cross-lingual semantic parsing, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - TrojanSQL: SQL Injection against Natural Language Interface to Database
+AU  - Jinchuan Zhang
+AU  - Yan Zhou
+AU  - Binyuan Hui
+AU  - Yaxin Liu
+AU  - Ziming Li
+AU  - Songlin Hu
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.264
+M3  - conference-paper
+UR  - https://openalex.org/W4389518677
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00127
+N1  - sr-screener TA [R00127]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - SQL injection attack framework | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Translating natural language questions to SQL queries (nested queries)
+AU  - Sindhuja Swamidorai
+AU  - T. Satyanarayana Murthy
+AU  - K.V. Sriharsha
+PY  - 2023
+T2  - Multimedia Tools and Applications
+DO  - 10.1007/s11042-023-16987-2
+M3  - article
+UR  - https://openalex.org/W4387847663
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00128
+N1  - sr-screener TA [R00128]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; title shows nested query translation only | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Redefining text-to-SQL metrics by incorporating semantic and structural similarity
+AU  - Giovanni Pinna
+AU  - Yuriy Perezhohin
+AU  - Luca Manzoni
+AU  - Mauro Castelli
+AU  - Andrea De Lorenzo
+PY  - 2025
+T2  - Scientific Reports
+DO  - 10.1038/s41598-025-04890-9
+M3  - article
+UR  - https://openalex.org/W4411850382
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00129
+N1  - sr-screener TA [R00129]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Evaluation metric, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-ESQ: A Two-Stage Controllable Approach for Efficient Retrieval of Vaccine Adverse Events from NoSQL Database
+AU  - Wenlong Zhang
+AU  - Kangping Zeng
+AU  - Yang Xinming
+AU  - Tian Shi
+AU  - Ping Wang
+PY  - 2023
+T2  - ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)
+DO  - 10.1145/3584371.3613008
+M3  - conference-paper
+UR  - https://openalex.org/W4387346450
+N1  - snowballing forward from R00109, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00130
+N1  - sr-screener TA [R00130]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Elasticsearch NoSQL queries | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Non-Programmers Can Label Programs Indirectly via Active Examples: A Case Study with Text-to-SQL
+AU  - Ruiqi Zhong
+AU  - Charlie Snell
+AU  - Dan Klein
+AU  - Jason M. Eisner
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.312
+M3  - conference-paper
+UR  - https://openalex.org/W4389524469
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00132
+N1  - sr-screener TA [R00132]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Annotation framework, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers
+AU  - Abhijeet Awasthi
+AU  - Soumen Chakrabarti
+AU  - Sunita Sarawagi
+PY  - 2023
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+DO  - 10.1609/aaai.v37i11.26476
+M3  - conference-paper
+UR  - https://openalex.org/W4382202570
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00133
+N1  - sr-screener TA [R00133]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Case-based adaptation, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - GEMMA-SQL: A Novel Text-to-SQL Model Based on Large Language Models
+AU  - Hari Mohan Pandey
+AU  - Anshul Gupta
+AU  - Subham Sarkar
+AU  - Minakshi Tomer
+AU  - Schneider Johannes
+AU  - Yan Gong
+PY  - 2025
+T2  - Applied Artificial Intelligence
+DO  - 10.1080/08839514.2025.2587371
+M3  - article
+UR  - https://openalex.org/W4416387211
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00134
+N1  - sr-screener TA [R00134]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Fine-tuned lightweight model, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms
+AU  - Tianshu Zhang
+AU  - Changchang Liu
+AU  - Wei‐Han Lee
+AU  - Yu Su
+AU  - Huan Sun
+PY  - 2023
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/2023.acl-long.678
+M3  - conference-paper
+UR  - https://openalex.org/W4385565204
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00135
+N1  - sr-screener TA [R00135]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Federated learning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Uncovering and Categorizing Social Biases in Text-to-SQL
+AU  - Yan Liu
+AU  - Gao Yan
+AU  - SU Zhe
+AU  - Xiaokang Chen
+AU  - Elliott Ash
+AU  - Jian–Guang Lou
+PY  - 2023
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/2023.acl-long.759
+M3  - conference-paper
+UR  - https://openalex.org/W4385570388
+N1  - snowballing forward from R00109, R00286
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00137
+N1  - sr-screener TA [R00137]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Social bias study | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Assessing the utility of text-to-SQL approaches for satisfying software developer information needs
+AU  - Mihaela Todorova Tomova
+AU  - Martin R. Hofmann
+AU  - Constantin Hütterer
+AU  - Patrick Mäder
+PY  - 2023
+T2  - Empirical Software Engineering
+DO  - 10.1007/s10664-023-10374-z
+M3  - article
+UR  - https://openalex.org/W4389337815
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00138
+N1  - sr-screener TA [R00138]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Application assessment, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text to SQL Transformation Using LLM: A Comparative Research of T5, Seq2Seq, and SQLNet Models
+AU  - Zhazira Shaikhiyeva
+AU  - Madina Mansurova
+AU  - Gulshat A. Amirkhanova
+PY  - 2024
+DO  - 10.1109/ubmk63289.2024.10773579
+M3  - conference-paper
+UR  - https://openalex.org/W4405272924
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00140
+N1  - sr-screener TA [R00140]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Model comparison, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - An Exploratory Study on Model Compression for Text-to-SQL
+AU  - Shuo Sun
+AU  - Yuze Gao
+AU  - Yuchen Zhang
+AU  - Jian Su
+AU  - Bin Chen
+AU  - Yingzhan Lin
+AU  - Sun Shuqi
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-acl.740
+M3  - conference-paper
+UR  - https://openalex.org/W4385570031
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00141
+N1  - sr-screener TA [R00141]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Model compression study | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Exploring Schema Generalizability of Text-to-SQL
+AU  - Jieyu Li
+AU  - Lu Chen
+AU  - Ruisheng Cao
+AU  - Zhu Su
+AU  - Hongshen Xu
+AU  - Zhi Chen
+AU  - Hanchong Zhang
+AU  - Kai Yu
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-acl.87
+M3  - conference-paper
+UR  - https://openalex.org/W4385571575
+N1  - snowballing forward from R00109, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00142
+N1  - sr-screener TA [R00142]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Schema generalization test data, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Improving Text-to-SQL Semantic Parsing with Fine-grained Query Understanding
+AU  - Jun Wang
+AU  - Patrick Ng
+AU  - Alexander Hanbo Li
+AU  - Jiarong Jiang
+AU  - Zhiguo Wang
+AU  - Bing Xiang
+AU  - Ramesh M. Nallapati
+AU  - Sudipta Sengupta
+PY  - 2022
+T2  - Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)
+DO  - 10.18653/v1/2022.emnlp-industry.31
+M3  - conference-paper
+UR  - https://openalex.org/W4385572924
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00143
+N1  - sr-screener TA [R00143]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; general query understanding, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Converting Structured Forms to Storable Databases using Form2DB
+AU  - A. Anbarasi
+AU  - S. Jagadeesan
+AU  - K.C. Nithyasree
+PY  - 2023
+T2  - International Conference on System, Computation, Automation and Networking (ICSCAN)
+DO  - 10.1109/icscan58655.2023.10394829
+M3  - conference-paper
+UR  - https://openalex.org/W4391250854
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00144
+N1  - sr-screener TA [R00144]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Form-to-database pipeline application | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach
+AU  - Salmane Chafik
+AU  - Saad Ezzini
+AU  - Ismaïl Berrada
+PY  - 2025
+T2  - ACM Transactions on Software Engineering and Methodology
+DO  - 10.1145/3746226
+M3  - article
+UR  - https://openalex.org/W4411673827
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00145
+N1  - sr-screener TA [R00145]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Domain data generation, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Valid Text-to-SQL Generation with Unification-Based DeepStochLog
+AU  - Ying Jiao
+AU  - Luc De Raedt
+AU  - Giuseppe Marra
+PY  - 2024
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-031-71167-1_17
+M3  - conference-paper
+UR  - https://openalex.org/W4402364384
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00147
+N1  - sr-screener TA [R00147]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - No abstract; validity-constrained generation, not linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Rethinking data in NL2SQL: a survey of what we have and what we expect
+AU  - Yuankai Fan
+AU  - Qizhen Weng
+AU  - Yin Chen
+AU  - X. Sean Wang
+PY  - 2025
+T2  - Vicinagearth.
+DO  - 10.1007/s44336-025-00026-9
+M3  - article
+UR  - https://openalex.org/W4416716926
+N1  - snowballing forward from R00109, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00148
+N1  - sr-screener TA [R00148]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Tackling Temporal Questions in Natural Language Interface to Databases
+AU  - Ngoc Phuoc An Vo
+AU  - Octavian Popescu
+AU  - Irene Manotas
+AU  - Vadim Sheinin
+PY  - 2022
+T2  - Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)
+DO  - 10.18653/v1/2022.emnlp-industry.18
+M3  - conference-paper
+UR  - https://openalex.org/W4385573920
+N1  - snowballing forward from R00109, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00149
+N1  - sr-screener TA [R00149]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Temporal questions dataset, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Secured Data Movement Using Data Ring Fencing
+AU  - Aditya Nangia
+AU  - Saksham Bhupal
+AU  - Mukesh Mohania
+AU  - Chinmay Kumar Kundu
+PY  - 2023
+T2  - IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)
+DO  - 10.1109/tps-isa58951.2023.00052
+M3  - conference-paper
+UR  - https://openalex.org/W4391876981
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00150
+N1  - sr-screener TA [R00150]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Data security framework, text-to-SQL incidental | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Natural Language Querying on Domain-Specific NoSQL Database with Large Language Models
+AU  - Wenlong Zhang
+AU  - Chaoqun He
+AU  - Guanqun Yang
+AU  - Dipankar Bandyopadhyay
+AU  - Tian Shi
+AU  - Ping Wang
+PY  - 2024
+T2  - IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+DO  - 10.1109/bibm62325.2024.10822485
+M3  - conference-paper
+UR  - https://openalex.org/W4406271188
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00152
+N1  - sr-screener TA [R00152]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Elasticsearch NoSQL queries, not relational SQL | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Data-Secure Natural Language Interfaces to Databases via Large Language Models
+AU  - Duygu Çakır
+AU  - Volkan İllik
+AU  - Kadir Yunus Koc
+AU  - Enes Deniz
+PY  - 2024
+T2  - International Symposium on Innovative Approaches in Smart Technologies (ISAS)
+DO  - 10.1109/isas64331.2024.10845720
+M3  - conference-paper
+UR  - https://openalex.org/W4406728435
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00153
+N1  - sr-screener TA [R00153]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn general NLIDB focused on data security | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Enhancing Text2SQL Generation with Syntactic Information and Multi-task Learning
+AU  - Haochen Li
+AU  - Minghua Nuo
+PY  - 2023
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-031-44213-1_32
+M3  - conference-paper
+UR  - https://openalex.org/W4386932483
+N1  - snowballing forward from R00109, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00155
+N1  - sr-screener TA [R00155]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn syntactic information and multi-task learning, no linking focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Task-Driven Neural Natural Language Interface to Database
+AU  - Yuquan Yang
+AU  - Qifan Zhang
+AU  - Junjie Yao
+PY  - 2023
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-99-7254-8_51
+M3  - conference-paper
+UR  - https://openalex.org/W4387850597
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00156
+N1  - sr-screener TA [R00156]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn NLIDB, title shows no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - HIT-SCIR at CCKS-IJCKG2024: Enhancing Text-to-SQL with Multi-step Pipeline
+AU  - Dingzirui Wang
+AU  - Xuanliang Zhang
+AU  - Keyan Xu
+AU  - Wanxiang Che
+PY  - 2025
+T2  - Communications in computer and information science
+DO  - 10.1007/978-981-96-1809-5_41
+M3  - conference-paper
+UR  - https://openalex.org/W4408257323
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00158
+N1  - sr-screener TA [R00158]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL for Non-English Languages: Realizations and Limitations
+AU  - Farida El Boujddaini
+AU  - Ahmed Laguidi
+AU  - Youssef Mejdoub
+PY  - 2025
+T2  - Lecture notes in networks and systems
+DO  - 10.1007/978-3-032-01536-5_135
+M3  - conference-paper
+UR  - https://openalex.org/W4414917516
+N1  - snowballing forward from R00109, R00110, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00160
+N1  - sr-screener TA [R00160]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn non-English Text-to-SQL, no linking or correction focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ASASQL: Active Data Synthesis and Annotation for Efficient Natural Language SQL Generation in Cloud Systems
+AU  - Ruiqin Zheng
+AU  - Zhiyuan Wu
+AU  - Shengbing Shi
+AU  - Qiang Bai
+AU  - Hao Li
+AU  - Yu Hui
+AU  - Weigang Wu
+PY  - 2025
+T2  - IEEE International Symposium on Software Reliability Engineering (ISSRE)
+DO  - 10.1109/issre66568.2025.00040
+M3  - conference-paper
+UR  - https://openalex.org/W4416233628
+N1  - snowballing forward from R00109, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00162
+N1  - sr-screener TA [R00162]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Data synthesis and annotation, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Advancements in SQL Query Generation Schemes in the Field of Natural Language Processing: A Comprehensive Overview
+AU  - Md Sakir Ahmed
+AU  - Abhishek Khajuria
+AU  - Manas Jyoti Gogoi
+AU  - Palash Jyoti Goswami
+AU  - Penugonda Gowri Shankar
+AU  - Pranjal Barman
+AU  - Debajit Sarma
+PY  - 2025
+T2  - Lecture notes in networks and systems
+DO  - 10.1007/978-981-96-7742-9_6
+M3  - conference-paper
+UR  - https://openalex.org/W4416415063
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00163
+N1  - sr-screener TA [R00163]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Overview of SQL generation methods | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CPO-SQL: Boosting Small LLMs for Text-to-SQL via Efficient In-Context Learning and Preference Optimization
+AU  - Jipeng Cen
+AU  - Jiaxin Liu
+AU  - Zhixu Li
+AU  - Jingjing Wang
+PY  - 2025
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-3346-6_29
+M3  - conference-paper
+UR  - https://openalex.org/W4416532582
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00164
+N1  - sr-screener TA [R00164]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - In-context learning and preference optimization, no linking focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Optimizing Few-Shot NL2SQL for Sepsis Data Analysis in Medical Databases
+AU  - Zeming Li
+AU  - Xinhao Liu
+AU  - Xianbo Liu
+AU  - Yuhang Hu
+AU  - Peng Ren
+AU  - Chunxiao Xing
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-6426-2_3
+M3  - conference-paper
+UR  - https://openalex.org/W7134117669
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00165
+N1  - sr-screener TA [R00165]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Few-shot domain NL2SQL application, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - NL2SQL-OLM: A Novel Framework for Natural Language to SQL with Schema-Aware LLM Prompting and Zero-Shot Query Generation
+AU  - Ram Ghadiyaram
+AU  - Durga Krishnamoorthy
+AU  - Laxmi Vanam
+AU  - Jaya Eripilla
+PY  - 2025
+T2  - IEEE International Conference on Advances in Data-Driven Analytics and Intelligent Systems (ADACIS)
+DO  - 10.1109/adacis65663.2025.11437141
+M3  - conference-paper
+UR  - https://openalex.org/W7139084185
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00166
+N1  - sr-screener TA [R00166]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - Adapting the AI Scientist for Enterprise: Solving Real Business Problems with Autonomous Text-To-SQL Research
+AU  - V. Fedorov
+AU  - D. Lavitskaya
+AU  - Danis N. Ibragimov
+AU  - D. Safronov
+AU  - A. Balles
+AU  - A. K. Gribanova
+AU  - M. Radionov
+PY  - 2025
+T2  - Doklady Mathematics
+DO  - 10.1134/s1064562425700474
+M3  - article
+UR  - https://openalex.org/W7139139011
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00167
+N1  - sr-screener TA [R00167]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Autonomous AI-research framework, not linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Light-SQL: A Small Language Model Based Approach Using In-Context Learning for Natural Language to SQL
+AU  - Kieu-Trang Nguyen
+AU  - Quang-Hung Le
+PY  - 2026
+T2  - Communications in computer and information science
+DO  - 10.1007/978-3-032-21628-1_16
+M3  - conference-paper
+UR  - https://openalex.org/W7147395786
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00168
+N1  - sr-screener TA [R00168]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Small-model in-context learning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A unified multimodal GenAI platform integrating GraphRAG multi-agent systems and custom language models for intelligent document processing and knowledge synthesis
+AU  - Bharat Singh Parihar
+AU  - T. P. Singh
+AU  - Govind Gonnade
+AU  - Bhupesh Kumar Dewangan
+AU  - Nilesh M Shelke
+AU  - Amit Purushottam Pimpalkar
+PY  - 2026
+T2  - Scientific Reports
+DO  - 10.1038/s41598-026-47145-x
+M3  - article
+UR  - https://openalex.org/W7150000012
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00169
+N1  - sr-screener TA [R00169]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - GraphRAG document platform; Text-to-SQL peripheral | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Natural Language to SQL (NL2SQL): A Comprehensive Study of Text-to-SQL Systems, Conversational AI for Databases, Enterprise Architectures, Challenges, and Future Directions
+AU  - Shamal Chavan and Prof. Sandeep Vishwakarma
+PY  - 2026
+T2  - International Journal of Advanced Research in Science Communication and Technology
+DO  - 10.48175/ijarsct-37344
+M3  - article
+UR  - https://openalex.org/W7167028285
+N1  - snowballing forward from R00109, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00170
+N1  - sr-screener TA [R00170]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Comprehensive study report, survey-style | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - GPS–Relational: Generative Problem Solving with Relational Databases
+AU  - Goli Vaisi
+AU  - Phillip C.‐Y. Sheu
+PY  - 2026
+T2  - International Journal of Semantic Computing
+DO  - 10.1142/s1793351x26430051
+M3  - article
+UR  - https://openalex.org/W7167905937
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00171
+N1  - sr-screener TA [R00171]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - SQL evaluation framework, single-turn, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SQL-CoT: Teaching Compact LLMs Structured Reasoning for Text-to-SQL
+AU  - Kunbin He
+AU  - Zhikun Zheng
+AU  - Biao Chen
+AU  - Yuguo Hu
+AU  - Lin Zuo
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-92-3435-6_37
+M3  - conference-paper
+UR  - https://openalex.org/W7168661776
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00173
+N1  - sr-screener TA [R00173]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Structured reasoning distillation, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - DAC-SQL: A Controlled DSL as an Allowlist-Validatable Security Control Point for Deterministic Vertical-Domain NL2SQL
+AU  - Liuye Hua
+AU  - Jiong Zheng
+AU  - Haoze Zheng
+AU  - Leixin Zhang
+AU  - Guohong Zheng
+AU  - Li Zhang
+PY  - 2026
+DO  - 10.1109/ccssta69471.2026.11635782
+M3  - conference-paper
+UR  - https://openalex.org/W7202204578
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00175
+N1  - sr-screener TA [R00175]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Controlled DSL for security, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Skill-Grounded LLM Agents for Dynamic Dashboard Generation in Water Conservancy Consultation
+AU  - Miao Yu
+AU  - Hao Liu
+AU  - Min Chen
+AU  - Huining Jiang
+AU  - Jun Hou
+PY  - 2026
+DO  - 10.1145/3829641.3829776
+M3  - conference-paper
+UR  - https://openalex.org/W7213319344
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00177
+N1  - sr-screener TA [R00177]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Dashboard generation application, Text-to-SQL a component | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation
+AU  - Li Gang Lin
+AU  - Yunfeng Shen
+AU  - Lingfeng Bao
+AU  - Rongxin Wu
+AU  - Yang Liu
+PY  - 2026
+T2  - Proceedings of the ACM on software engineering.
+DO  - 10.1145/3832269
+M3  - article
+UR  - https://openalex.org/W7215058388
+N1  - snowballing forward from R00109, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00178
+N1  - sr-screener TA [R00178]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Efficiency benchmark, single-turn, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Performance Evaluation of Machine Learning—Based NL2SQL Models on Time-Series Industrial Data
+AU  - Caren Babu
+AU  - Vinoj P. G
+AU  - Sreelekha T
+AU  - Milner Paul V
+AU  - Suni Jose
+AU  - Divya R
+AU  - Alphonsa Philip
+PY  - 2026
+T2  - International Conference on Innovations in Engineering and Technology (ICIET)
+DO  - 10.1109/iciet70550.2026.11712163
+M3  - conference-paper
+UR  - https://openalex.org/W7215752624
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00180
+N1  - sr-screener TA [R00180]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Performance evaluation of NL2SQL models, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - DuSQL: A Large-Scale and Pragmatic Chinese Text-to-SQL Dataset
+AU  - Lijie Wang
+AU  - Ao Zhang
+AU  - Kun Wu
+AU  - Ke Sun
+AU  - Zhenghua Li
+AU  - Hua Ren Wu
+AU  - Min Zhang
+AU  - Haifeng Wang
+PY  - 2020
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2020.emnlp-main.562
+M3  - conference-paper
+UR  - https://openalex.org/W3106221893
+N1  - snowballing backward from R00110, R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00182
+N1  - sr-screener TA [R00182]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Chinese dataset, not about linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Improving Text-to-SQL with a Hybrid Decoding Method
+AU  - Geunyeong Jeong
+AU  - Mirae Han
+AU  - Seulgi Kim
+AU  - Yejin Lee
+AU  - Joosang Lee
+AU  - Seongsik Park
+AU  - Harksoo Kim
+PY  - 2023
+T2  - Entropy
+DO  - 10.3390/e25030513
+M3  - article
+UR  - https://openalex.org/W4327731261
+N1  - snowballing forward from R00110, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00183
+N1  - sr-screener TA [R00183]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Hybrid decoder, single-turn, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - QUERYING DATABASES WITH NATURAL LANGUAGE: THE USE OF LARGE LANGUAGE MODELS FOR TEXT-TO-SQL TASKS
+AU  - EDUARDO ROGER SILVA NASCIMENTO
+PY  - 2024
+DO  - 10.17771/pucrio.acad.66799
+M3  - dissertation
+UR  - https://openalex.org/W4399424215
+N1  - snowballing forward from R00110, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E3
+ID  - R00186
+N1  - sr-screener TA [R00186]: EXCLUDE (E3 Thesis, poster, abstract-only or extended abstract, <4 pages of content, editorial, proceedings front matter, complete book) - Dissertation | A: exclude/E3 | B: exclude/E3 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A survey of deep learning based text-to-SQL generation
+AU  - 清源 梁
+AU  - 琪豪 朱
+AU  - 泽宇 孙
+AU  - 路 张
+AU  - 文杰 张
+AU  - 英飛 熊
+AU  - 广泰 梁
+AU  - 莲 郁
+PY  - 2022
+T2  - Scientia Sinica Informationis
+DO  - 10.1360/ssi-2021-0316
+M3  - article
+UR  - https://openalex.org/W4302360327
+N1  - snowballing forward from R00110, R00116, R00117, R00126, R00129, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00187
+N1  - sr-screener TA [R00187]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey of deep learning Text-to-SQL | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization
+AU  - Wonseok Hwang
+AU  - Jinyeong Yim
+AU  - Seunghyun Park
+AU  - Minjoon Seo
+PY  - 2019
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.1902.01069
+M3  - preprint
+UR  - https://openalex.org/W2912624765
+N1  - snowballing backward from R00114, R00117, R00120, R00131, R00936, R01031, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00188
+N1  - sr-screener TA [R00188]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - WikiSQL single-turn model, no linking or correction focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Meta-Learning for Domain Generalization in Semantic Parsing
+AU  - Bailin Wang
+AU  - Mirella Lapata
+AU  - Ivan S. Titov
+PY  - 2021
+T2  - Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)
+DO  - 10.18653/v1/2021.naacl-main.33
+M3  - conference-paper
+UR  - https://openalex.org/W3169423864
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00189
+N1  - sr-screener TA [R00189]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Meta-learning domain generalization, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SPARQLing Database Queries from Intermediate Question Decompositions
+AU  - Irina Saparina
+AU  - Anton Osokin
+PY  - 2021
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2021.emnlp-main.708
+M3  - conference-paper
+UR  - https://openalex.org/W3200115033
+N1  - snowballing forward from R00116, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00190
+N1  - sr-screener TA [R00190]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Generates SPARQL queries, single-turn, no linking focus | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Domain-Specific Few-Shot Table Prompt Question Answering via Contrastive Exemplar Selection
+AU  - Tianjin Mo
+AU  - Qiao Xiao
+AU  - Hongyi Zhang
+AU  - Ren Li
+AU  - Yunsong Wu
+PY  - 2024
+T2  - Algorithms
+DO  - 10.3390/a17070278
+M3  - article
+UR  - https://openalex.org/W4400045928
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00191
+N1  - sr-screener TA [R00191]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Prompt template and exemplar selection, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - LLM-SQL-Solver: Can LLMs Determine SQL Equivalence?
+AU  - Fuheng Zhao
+AU  - Jiayue Chen
+AU  - Lawrence Lim
+AU  - Ishtiyaque Ahmad
+AU  - Divyakant Agrawal
+AU  - Amr El Abbadi
+PY  - 2025
+T2  - IEEE International Conference on Big Data (BigData)
+DO  - 10.1109/bigdata66926.2025.11401595
+M3  - conference-paper
+UR  - https://openalex.org/W7134219274
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00192
+N1  - sr-screener TA [R00192]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - SQL equivalence judgment, not linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - COMBINE: A Pipeline for SQL Generation from Natural Language
+AU  - Youssef Mellah
+AU  - Abdelkader Rhouati
+AU  - El Hassane Ettifouri
+AU  - Toumi Bouchentouf
+AU  - Mohammed Ghaouth Belkasmi
+PY  - 2021
+T2  - Communications in computer and information science
+DO  - 10.1007/978-3-030-88244-0_10
+M3  - conference-paper
+UR  - https://openalex.org/W3208628104
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00193
+N1  - sr-screener TA [R00193]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - General SQL generation pipeline, no linking or correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - An Optimized NL2SQL System for Enterprise Data Mart
+AU  - Kaiwen Dong
+AU  - Kai Lu
+AU  - Xin Xia
+AU  - David A. Cieslak
+AU  - Nitesh V. Chawla
+PY  - 2021
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-030-86517-7_21
+M3  - conference-paper
+UR  - https://openalex.org/W3201320673
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00194
+N1  - sr-screener TA [R00194]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Enterprise NL2SQL system, no linking or correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Testing Cross-Database Semantic Parsers With Canonical Utterances
+AU  - Heather Lent
+AU  - Semih Yavuz
+AU  - Tao Yu
+AU  - Tong Niu
+AU  - Yingbo Zhou
+AU  - Dragomir Radev
+AU  - Xi Lin
+PY  - 2021
+DO  - 10.18653/v1/2021.eval4nlp-1.8
+M3  - conference-paper
+UR  - https://openalex.org/W3211757523
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00195
+N1  - sr-screener TA [R00195]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Diagnostic test suite, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Dual Reader-Parser on Hybrid Textual and Tabular Evidence for Open Domain Question Answering
+AU  - Alexander Hanbo Li
+AU  - Ng, Patrick
+AU  - Peng Xu
+AU  - Henghui Zhu
+AU  - Zhiguo Wang
+AU  - Bing Xiang
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2108.02866
+M3  - preprint
+UR  - https://openalex.org/W3190221356
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00198
+N1  - sr-screener TA [R00198]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Open-domain QA hybrid reader, not linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SPARQLing Database Queries from Intermediate Question Decompositions
+AU  - Irina Saparina
+AU  - Anton Osokin
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2109.06162
+M3  - preprint
+UR  - https://openalex.org/W3213695355
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00199
+N1  - sr-screener TA [R00199]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Generates SPARQL queries, single-turn, no linking focus | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A case study using sewage metagenomic data for assessment of text-to-SQL capabilities in large language models
+AU  - Ágnes Becsei
+AU  - József Stéger
+AU  - Dávid Visontai
+AU  - Patrick Munk
+AU  - Frank M. Aarestrup
+AU  - István Csabai
+AU  - Krisztián Papp
+PY  - 2025
+T2  - Scientific Reports
+DO  - 10.1038/s41598-025-28341-7
+M3  - article
+UR  - https://openalex.org/W4416536104
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00201
+N1  - sr-screener TA [R00201]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn LLM case study, no linking or correction focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Exploring the Feasibility of Crowd-Powered Decomposition of Complex User Questions in Text-to-SQL Tasks
+AU  - Sara Salimzadeh
+AU  - Ujwal Gadiraju
+AU  - Claudia Hauff
+AU  - Arie van Deursen
+PY  - 2022
+T2  - ACM Conference on Hypertext and Social Media (HT)
+DO  - 10.1145/3511095.3531282
+M3  - conference-paper
+UR  - https://openalex.org/W4283159195
+N1  - snowballing forward from R00117, R00126, R00129, R00131, R01029
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00203
+N1  - sr-screener TA [R00203]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn question decomposition, not linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Sequential Feature Augmentation for Robust Text-to-SQL
+AU  - Hao Shen
+AU  - Ran Shen
+AU  - Gang Sun
+AU  - Yiling Li
+AU  - Yifan Wang
+AU  - Pengcheng Zhang
+PY  - 2023
+DO  - 10.1109/acdp59959.2023.00042
+M3  - conference-paper
+UR  - https://openalex.org/W4393405750
+N1  - snowballing forward from R00117
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00204
+N1  - sr-screener TA [R00204]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn robustness feature augmentation | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Photon: A Robust Cross-Domain Text-to-SQL System
+AU  - Jichuan Zeng
+AU  - Xi Lin
+AU  - Steven C. H. Hoi
+AU  - Richard Socher
+AU  - Caiming Xiong
+AU  - Michael Rung-Tsong Lyu
+AU  - Irwin King
+PY  - 2020
+T2  - Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo)
+DO  - 10.18653/v1/2020.acl-demos.24
+M3  - conference-paper
+UR  - https://openalex.org/W3037140688
+N1  - snowballing forward from R00126, R00129, R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00208
+N1  - sr-screener TA [R00208]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn robust system; no linking or correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems
+AU  - George Katsogiannis-Meimarakis
+AU  - Georgia Koutrika
+PY  - 2021
+T2  - Proceedings - ACM-SIGMOD International Conference on Management of Data
+DO  - 10.1145/3448016.3457543
+M3  - conference-paper
+UR  - https://openalex.org/W3177130063
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00209
+N1  - sr-screener TA [R00209]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Tutorial | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Battle of the Large Language Models: Dolly vs LLaMA vs Vicuna vs Guanaco vs Bard vs ChatGPT - A Text-to-SQL Parsing Comparison
+AU  - Shuo Sun
+AU  - Yuchen Zhang
+AU  - Jiahuan Yan
+AU  - Yuze Gao
+AU  - Donovan Ong
+AU  - Bin Chen
+AU  - Jian Su
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.750
+M3  - conference-paper
+UR  - https://openalex.org/W4389518855
+N1  - snowballing forward from R00126, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00210
+N1  - sr-screener TA [R00210]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn LLM comparison, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Similar Questions Correspond to Similar SQL Queries: A Case-Based Reasoning Approach for Text-to-SQL Translation
+AU  - Wei Yu
+AU  - Xiaoting Guo
+AU  - Fei Chen
+AU  - Tao Chang
+AU  - Mengzhu Wang
+AU  - Xiaodong Wang
+PY  - 2021
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-030-86957-1_20
+M3  - conference-paper
+UR  - https://openalex.org/W3201202178
+N1  - snowballing forward from R00126
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00211
+N1  - sr-screener TA [R00211]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn case-based reasoning; no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Bravely Say I Don’t Know: Relational Question-Schema Graph for Text-to-SQL Answerability Classification
+AU  - Wei Yu
+AU  - Haiyan Yang
+AU  - Mengzhu Wang
+AU  - Xiaodong Wang
+PY  - 2023
+T2  - ACM Transactions on Asian and Low-Resource Language Information Processing
+DO  - 10.1145/3579030
+M3  - article
+UR  - https://openalex.org/W4313591655
+N1  - snowballing forward from R00126, R00936
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00212
+N1  - sr-screener TA [R00212]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn answerability classification | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Photon: A Robust Cross-Domain Text-to-SQL System
+AU  - Jichuan Zeng
+AU  - Xi Lin
+AU  - Caiming Xiong
+AU  - Richard Socher
+AU  - Michael Rung-Tsong Lyu
+AU  - Irwin King
+AU  - Steven C. H. Hoi
+PY  - 2020
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2007.15280
+M3  - preprint
+UR  - https://openalex.org/W3045954184
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00213
+N1  - sr-screener TA [R00213]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn question rephrasing for untranslatable input | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Did You Ask a Good Question? A Cross-Domain Question Intention Classification Benchmark for Text-to-SQL
+AU  - Yusen Zhang
+AU  - Xiangyu Dong
+AU  - Shuaichen Chang
+AU  - Tao Yu
+AU  - Peng Shi
+AU  - Rui Zhang
+PY  - 2020
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2010.12634
+M3  - preprint
+UR  - https://openalex.org/W3093562467
+N1  - snowballing forward from R00126
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00215
+N1  - sr-screener TA [R00215]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn question intention classification benchmark | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Recent Advances in SQL Query Generation: A Survey
+AU  - Jovan Kalajdjieski
+AU  - Martina Toshevska
+AU  - Frosina Stojanovska
+PY  - 2020
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2005.07667
+M3  - preprint
+UR  - https://openalex.org/W3024426171
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00216
+N1  - sr-screener TA [R00216]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Review of Datasets for NLIDBs
+AU  - Alaka Das
+AU  - Rakesh Chandra Balabantaray
+PY  - 2023
+T2  - Lecture notes in networks and systems
+DO  - 10.1007/978-981-19-9304-6_21
+M3  - book-chapter
+UR  - https://openalex.org/W4376608118
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00217
+N1  - sr-screener TA [R00217]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Dataset review | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Topological Relation Aware Transformer
+AU  - Nathan Manzambi Ndongala
+PY  - 2024
+T2  - Texila international journal of academic research
+DO  - 10.21522/tijar.2014.11.01.art015
+M3  - article
+UR  - https://openalex.org/W4391390103
+N1  - snowballing forward from R00126
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00218
+N1  - sr-screener TA [R00218]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - IDSpider: Indonesian Standard Dataset for Text-to-SQL
+AU  - Abdiansah Abdiansah
+AU  - Novi Yusliani
+AU  - Fathoni Fathoni
+AU  - Muhammad Fazri Nizar
+AU  - Aulia Salsabella
+AU  - Agi Agustian Davi
+PY  - 2024
+T2  - International Conference on Informatics and Computing (ICIC)
+DO  - 10.1109/icic64337.2024.10956918
+M3  - conference-paper
+UR  - https://openalex.org/W4409474733
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00219
+N1  - sr-screener TA [R00219]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn translated dataset, not about linking | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Towards More Realistic Natural Language Queries in Text-to-SQL Benchmarks
+AU  - Charlotte Dörschner
+AU  - Frank Jäkel
+AU  - Carsten Binnig
+PY  - 2026
+T2  - Workshop on Human-In-the-Loop Data Analytics (HILDA)
+DO  - 10.1145/3814573.3814945
+M3  - conference-paper
+UR  - https://openalex.org/W7162471950
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00220
+N1  - sr-screener TA [R00220]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn NLQ study for benchmarks | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - MM2SQL: A Benchmark and Method for Visually-Grounded SQL Generation
+AU  - Shengze Shi
+AU  - Tao Ren
+AU  - Li Qi
+AU  - Tingrui Yang
+AU  - Wei Xiong
+AU  - Jun Hu
+PY  - 2026
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde65706.2026.00235
+M3  - conference-paper
+UR  - https://openalex.org/W7202277727
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00221
+N1  - sr-screener TA [R00221]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Visually grounded single-turn benchmark; no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies
+AU  - Linyong Nan
+AU  - Yilun Zhao
+AU  - Weijin Zou
+AU  - Narutatsu Ri
+AU  - Jaesung Tae
+AU  - Ellen Zhang
+AU  - Arman Cohan
+AU  - Dragomir Radev
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.996
+M3  - conference-paper
+UR  - https://openalex.org/W4389523875
+N1  - snowballing backward+forward from R00129, R00292, R00526
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00222
+N1  - sr-screener TA [R00222]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Prompt design strategies, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A Comprehensive Review of LLM-based Text-to-SQL Systems: Methods, Datasets, and Trends
+AU  - Garima Singh
+AU  - Prachi Chhabra
+AU  - Tathagat Banerjee
+PY  - 2026
+T2  - Computational Systems and Artificial Intelligence
+DO  - 10.69882/adba.csai.2026011
+M3  - article
+UR  - https://openalex.org/W7126269750
+N1  - snowballing forward from R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00224
+N1  - sr-screener TA [R00224]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Comprehensive review | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Comparative Study of AI Models for Natural Language to SQL Query Generation
+AU  - Ganesh Nadkarni
+AU  - Vaibhav Chavan
+AU  - Prashant Niranjan
+AU  - Kuldeep P. Sambrekar
+PY  - 2026
+T2  - International Conference on Intelligent Technologies (CONIT)
+DO  - 10.1109/conit69683.2026.11621699
+M3  - conference-paper
+UR  - https://openalex.org/W7171529086
+N1  - snowballing forward from R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00225
+N1  - sr-screener TA [R00225]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Model comparison, no linking or correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Recursive and Clause-Wise Decoding for Complex and Cross-Domain Text-to-SQL Generation.
+AU  - Dongjun Lee
+PY  - 2019
+T2  - arXiv (Cornell University)
+M3  - preprint
+UR  - https://openalex.org/W2936639673
+N1  - snowballing backward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00226
+N1  - sr-screener TA [R00226]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn decoding method | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL Generation for Question Answering on Electronic Medical Records
+AU  - Ping Wang
+AU  - Tian Shi
+AU  - Chandan K. A. Reddy
+PY  - 2020
+DO  - 10.1145/3366423.3380120
+M3  - conference-paper
+UR  - https://openalex.org/W3022196370
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00227
+N1  - sr-screener TA [R00227]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn EMR dataset and translate-edit model | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers
+AU  - Chia-Hsuan Lee
+AU  - Oleksandr Polozov
+AU  - Matthew Richardson
+PY  - 2021
+DO  - 10.18653/v1/2021.acl-long.176
+M3  - conference-paper
+UR  - https://openalex.org/W3170978252
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00228
+N1  - sr-screener TA [R00228]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn evaluation dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Natural Language to SQL Queries: A Review
+AU  - Mirza Shahzaib Baig
+AU  - Azhar Imran
+AU  - Amanullah Yasin
+AU  - Abdul Haleem Butt
+AU  - Muhammad Imran Khan
+PY  - 2022
+T2  - International Journal of Innovations in Science and Technology
+DO  - 10.33411/ijist/2022040111
+M3  - article
+UR  - https://openalex.org/W4312419558
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00230
+N1  - sr-screener TA [R00230]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Review | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - An Imitation Game for Learning Semantic Parsers from User Interaction
+AU  - Ziyu Yao
+AU  - Yiqi Tang
+AU  - Wen-tau Yih
+AU  - Huan Sun
+AU  - Yu Su
+PY  - 2020
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2020.emnlp-main.559
+M3  - conference-paper
+UR  - https://openalex.org/W3102841213
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00231
+N1  - sr-screener TA [R00231]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Improving Generalization in Language Model-based Text-to-SQL Semantic Parsing: Two Simple Semantic Boundary-based Techniques
+AU  - Daking Rai
+AU  - Bailin Wang
+AU  - Yilun Zhou
+AU  - Ziyu Yao
+PY  - 2023
+T2  - Annual Meeting of the Association for Computational Linguistics (ACL)
+DO  - 10.18653/v1/2023.acl-short.15
+M3  - conference-paper
+UR  - https://openalex.org/W4385570661
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00232
+N1  - sr-screener TA [R00232]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Generalization tokenization techniques, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Speech-to-SQL: toward speech-driven SQL query generation from natural language question
+AU  - Yuanfeng Song
+AU  - Raymond Chi-Wing Wong
+AU  - Xuefang Zhao
+PY  - 2024
+T2  - The VLDB Journal
+DO  - 10.1007/s00778-024-00837-0
+M3  - article
+UR  - https://openalex.org/W4391883497
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00233
+N1  - sr-screener TA [R00233]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Speech-driven single-turn; no linking or correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Survey of Natural Language Processing Implementation for Data Query Systems
+AU  - Albert Wong
+AU  - Dakota Joiner
+AU  - Chunyin Chiu
+AU  - Mohamed Nour Elsayed
+AU  - Keegan Pereira
+AU  - Youry Khmelevsky
+AU  - Joe Mahony
+PY  - 2021
+T2  - IEEE International Conference on Recent Advances in Systems Science and Engineering (RASSE)
+DO  - 10.1109/rasse53195.2021.9686815
+M3  - conference-paper
+UR  - https://openalex.org/W4210351797
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00234
+N1  - sr-screener TA [R00234]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task
+AU  - Yu Zeng
+AU  - Yan Gao
+AU  - Jiaqi Guo
+AU  - Bei Chen
+AU  - Qian Liu
+AU  - Jian–Guang Lou
+AU  - Fei Teng
+AU  - Dongmei Zhang
+PY  - 2020
+T2  - International Joint Conference on Artificial Intelligence
+DO  - 10.24963/ijcai.2020/504
+M3  - conference-paper
+UR  - https://openalex.org/W3034991278
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00235
+N1  - sr-screener TA [R00235]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Recursive nested SQL decoding, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Survey on Text-to-SQL Parsing: From Rule-Based Foundations to Large Language Models
+AU  - Farida El Boujddaini
+AU  - Ahmed Laguidi
+AU  - Youssef Mejdoub
+PY  - 2024
+T2  - Lecture notes in networks and systems
+DO  - 10.1007/978-3-031-70411-6_41
+M3  - conference-paper
+UR  - https://openalex.org/W4403347525
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E4
+ID  - R00237
+N1  - sr-screener TA [R00237]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Investigating Pretrained Language Models and Learning Methods for Vietnamese Text-to-SQL
+AU  - Yen Huynh
+AU  - Nhat Viet Nguyen
+AU  - Nhan Thi Cao
+PY  - 2023
+T2  - IEEE Asia-Pacific Conference on Computer Science and Data Engineering (CSDE)
+DO  - 10.1109/csde59766.2023.10487773
+M3  - conference-paper
+UR  - https://openalex.org/W4394002986
+N1  - snowballing forward from R00131, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00240
+N1  - sr-screener TA [R00240]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Vietnamese PLM comparison, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - ATHENA++
+AU  - Jaydeep Sen
+AU  - Chuan Lei
+AU  - Abdul Quamar
+AU  - Fatma Özcan
+AU  - Vasilis Efthymiou
+AU  - Ayushi Dalmia
+AU  - Greg Stager
+AU  - Ashish Mittal
+AU  - Diptikalyan Saha
+AU  - Karthik Sankaranarayanan
+PY  - 2020
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3407790.3407858
+M3  - article
+UR  - https://openalex.org/W3086973390
+N1  - snowballing backward from R00148
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00242
+N1  - sr-screener TA [R00242]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Nested query system, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A BERT-Based Generation Model to Transform Medical Texts to SQL Queries for Electronic Medical Records: Model Development and Validation
+AU  - Youcheng Pan
+AU  - Chenghao Wang
+AU  - Baotian Hu
+AU  - Yang Xiang
+AU  - Xiaolong Wang
+AU  - Qingcai Chen
+AU  - Junjie Chen
+AU  - Jingcheng Du
+PY  - 2021
+T2  - JMIR Medical Informatics
+DO  - 10.2196/32698
+M3  - article
+UR  - https://openalex.org/W3209235691
+N1  - snowballing backward from R00170
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00243
+N1  - sr-screener TA [R00243]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn medical model, no linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A FRAMEWORK FOR CONVERTING SQL QUERIES FROM NATURAL LANGUAGE
+AU  - Balapradeep K.N
+AU  - U J Ujwal
+AU  - C K Savitha
+AU  - M R Prajna
+PY  - 2024
+T2  - ShodhKosh Journal of Visual and Performing Arts
+DO  - 10.29121/shodhkosh.v5.i5.2024.2672
+M3  - article
+UR  - https://openalex.org/W4404291181
+N1  - snowballing forward from R00238
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00245
+N1  - sr-screener TA [R00245]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn NLIDB system description | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Bootstrapping text-to-SQL resources for knowledge graph question answering
+AU  - Catherine Kosten
+AU  - Davide Lanti
+AU  - Philippe Cudré-Mauroux
+AU  - Kurt Stockinger
+PY  - 2025
+T2  - Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich University of Applied Sciences)
+DO  - 10.21256/zhaw-33172
+M3  - conference-paper
+UR  - https://openalex.org/W4412966386
+N1  - snowballing forward from R00238
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E5
+ID  - R00246
+N1  - sr-screener TA [R00246]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - SPARQL knowledge graph QA benchmark | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Chat2Query: A Zero-Shot Automatic Exploratory Data Analysis System with Large Language Models
+AU  - Jun-Peng Zhu
+AU  - Peng Cai
+AU  - Boyan Niu
+AU  - Zheming Ni
+AU  - Kai Xu
+AU  - Jiajun Huang
+AU  - Jianwei Wan
+AU  - Shengbo Ma
+AU  - Bing Wang
+AU  - Donghui Zhang
+AU  - Liu Tang
+AU  - Qi Liu
+PY  - 2024
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde60146.2024.00420
+M3  - conference-paper
+UR  - https://openalex.org/W4400909559
+N1  - snowballing forward from R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00247
+N1  - sr-screener TA [R00247]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn application system description | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Fine-tuning text-to-SQL models with reinforcement-learning training objectives
+AU  - Xuan-Bang Nguyen
+AU  - Xuan-Hieu Phan
+AU  - Massimo Piccardi
+PY  - 2025
+T2  - Natural Language Processing Journal
+DO  - 10.1016/j.nlp.2025.100135
+M3  - article
+UR  - https://openalex.org/W4407802006
+N1  - snowballing forward from R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00248
+N1  - sr-screener TA [R00248]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Reinforcement-learning fine-tuning, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Fine-Tuning of Small/Medium LLMs for Business QA on Structured Data
+AU  - Rasha Ragab
+AU  - Abdulrahman Altahhan
+PY  - 2024
+T2  - International Journal on Natural Language Computing
+DO  - 10.5121/ijnlc.2024.13301
+M3  - article
+UR  - https://openalex.org/W4400797514
+N1  - snowballing forward from R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00249
+N1  - sr-screener TA [R00249]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Domain fine-tuning pilot, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+PY  - 2024
+T2  - International Journal on Natural Language Computing
+DO  - 10.5121/ijnlc.2024.133
+M3  - paratext
+UR  - https://openalex.org/W4400797531
+N1  - snowballing forward from R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E3
+ID  - R00250
+N1  - sr-screener TA [R00250]: EXCLUDE (E3 Thesis, poster, abstract-only or extended abstract, <4 pages of content, editorial, proceedings front matter, complete book) - Paratext record without title | A: exclude/E6 | B: exclude/E3 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Transformer-Based Model for the Natural Language Textual Sequences to SQL-Queries Conversion
+AU  - Kateryna Yalova
+AU  - Andrii Zhuravel
+PY  - 2024
+DO  - 10.1109/csit65290.2024.10982609
+M3  - conference-paper
+UR  - https://openalex.org/W4410203762
+N1  - snowballing forward from R00511
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00251
+N1  - sr-screener TA [R00251]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Transformer on WikiSQL, no linking or correction focus | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Leveraging Large Language Models for Text-to-SQL with Attention to Data Security
+AU  - Jubayer Abdullah Joy
+AU  - Zahid Akon
+AU  - Partho Sarathi Sarker
+AU  - Md. Mahadi Hasan Shaon
+AU  - Md Abdur Razzak
+AU  - Shanto Rahman
+AU  - Md. Erfan
+AU  - Sadib Hassan Rumman
+PY  - 2025
+T2  - Lecture notes in networks and systems
+DO  - 10.1007/978-981-96-2721-9_25
+M3  - conference-paper
+UR  - https://openalex.org/W4412634730
+N1  - snowballing forward from R00511
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00252
+N1  - sr-screener TA [R00252]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Title only; data security focus, no multi-turn or linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Know What I don’t Know: Handling Ambiguous and Unknown Questions for Text-to-SQL
+AU  - Bing Wang
+AU  - Yan feng Gao
+AU  - Zhoujun Li
+AU  - Jian–Guang Lou
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-acl.352
+M3  - conference-paper
+UR  - https://openalex.org/W4385571778
+N1  - snowballing backward from R00524
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00254
+N1  - sr-screener TA [R00254]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn ambiguity/unanswerable detection, not linking or self-correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Evaluating Text-to-SQL Model Failures on Real-World Data
+AU  - Manasi Ganti
+AU  - Laurel Orr
+AU  - Sen Wu
+PY  - 2024
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde60146.2024.00456
+M3  - conference-abstract
+UR  - https://openalex.org/W4400909796
+N1  - snowballing backward from R00524
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E3
+ID  - R00255
+N1  - sr-screener TA [R00255]: EXCLUDE (E3 Thesis, poster, abstract-only or extended abstract, <4 pages of content, editorial, proceedings front matter, complete book) - Conference abstract type; also single-turn benchmark | A: exclude/E3 | B: exclude/E3 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - DuoRAT: Towards Simpler Text-to-SQL Models
+AU  - Torsten Scholak
+AU  - Raymond Li
+AU  - Dzmitry Bahdanau
+AU  - Harm de Vries
+AU  - Chris Pal
+PY  - 2021
+T2  - Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)
+DO  - 10.18653/v1/2021.naacl-main.103
+M3  - conference-paper
+UR  - https://openalex.org/W3093923671
+N1  - snowballing backward from R00525, R00950
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00256
+N1  - sr-screener TA [R00256]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn simpler model, no linking/correction stated | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Beyond Standard Losses: Redefining Text-to-SQL with Task-Specific Optimization
+AU  - Iker Azurmendi
+AU  - Ekaitz Zulueta
+AU  - Gustavo García
+AU  - Nekane Uriarte-Arrazola
+AU  - José Manuel López-Guede
+PY  - 2025
+T2  - Mathematics
+DO  - 10.3390/math13142315
+M3  - article
+UR  - https://openalex.org/W4412514385
+N1  - snowballing forward from R00525, R00868
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00257
+N1  - sr-screener TA [R00257]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Loss function for training, single-turn | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - mRAT-SQL+GAP: A Portuguese Text-to-SQL Transformer
+AU  - Marcelo Archanjo José
+AU  - Fábio Gagliardi Cozman
+PY  - 2021
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-030-91699-2_35
+M3  - conference-paper
+UR  - https://openalex.org/W3202632637
+N1  - snowballing backward from R00526
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00258
+N1  - sr-screener TA [R00258]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Portuguese single-turn model, no linking/correction in title | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - PAUQ: Text-to-SQL in Russian
+AU  - Daria Bakshandaeva
+AU  - Oleg Somov
+AU  - Ekaterina Dmitrieva
+AU  - Vera Davydova
+AU  - Elena Viktorovna Tutubalina
+PY  - 2022
+DO  - 10.18653/v1/2022.findings-emnlp.175
+M3  - conference-paper
+UR  - https://openalex.org/W4385574048
+N1  - snowballing backward from R00526
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00259
+N1  - sr-screener TA [R00259]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Russian dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Zero-Shot Text-to-SQL Learning with Auxiliary Task
+AU  - Shuaichen Chang
+AU  - Pengfei Liu
+AU  - Yun Tang
+AU  - Jing Huang
+AU  - Xiaodong He
+AU  - Bowen Zhou
+PY  - 2020
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+DO  - 10.1609/aaai.v34i05.6246
+M3  - conference-paper
+UR  - https://openalex.org/W2997970380
+N1  - snowballing backward from R00936
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00261
+N1  - sr-screener TA [R00261]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn auxiliary task for generalization | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - X-SQL: reinforce schema representation with context
+AU  - Pengcheng He
+AU  - Yi Mao
+AU  - Kaushik Chakrabarti
+AU  - Weizhu Chen
+PY  - 2019
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.1908.08113
+M3  - preprint
+UR  - https://openalex.org/W2969670656
+N1  - snowballing backward from R00936
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00262
+N1  - sr-screener TA [R00262]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn schema encoder architecture on WikiSQL | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Inventory Management: Dataset for Scalable Text-to-SQL Systems
+AU  - S. Shoba
+AU  - Ranjan Kumar
+AU  - S Ritheesh
+AU  - B Hemant Kumar
+PY  - 2025
+T2  - International Conference on Recent Advances in Information Technology
+DO  - 10.1109/rait65068.2025.11088930
+M3  - conference-paper
+UR  - https://openalex.org/W4412742366
+N1  - snowballing forward from R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Exclude-E6
+ID  - R00265
+N1  - sr-screener TA [R00265]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn domain dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - DuSQL: a large-scale and pragmatic Chinese text-toSQL dataset. Association for Computational Linguistics, Online. https:// aclan tholo gy
+PY  - 2020
+N1  - snowballing backward (Semantic Scholar supplement) from R00286
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00271
+N1  - sr-screener TA [R00271]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Chinese dataset, no linking/correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - We conduct benchmark session-level experiments on SeSQL, employing three competitive text-to-SQL models, i.e., EditSQL (Zhang et al., 2019), IGSQL (Cai and Wan, 2020), and EX-RATSQL
+PY  - 2021
+T2  - EX-RATSQL
+N1  - snowballing backward (Semantic Scholar supplement) from R00288
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E9
+ID  - R00272
+N1  - sr-screener TA [R00272]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Duplicate of main-search record R00288 (SeSQL); same study already screened | A: unclear/UNC | B: unclear/UNC | by dedup
+ER  - 
+
+TY  - CPAPER
+TI  - Decoupling the Skeleton Parsing and Schema Linking for Text-to-SQL
+AU  - Haoyang Li
+AU  - Jing Zhang
+AU  - Cui-Ping Li
+AU  - Hong Chen
+PY  - 2023
+N1  - snowballing backward (Semantic Scholar supplement) from R00292
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E9
+ID  - R00274
+N1  - sr-screener TA [R00274]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Duplicate of main-search record R00911 (RESDSQL); same study already screened | A: unclear/UNC | B: unclear/UNC | by dedup
+ER  - 
+
+TY  - CPAPER
+TI  - NL2SQL is a solved problem... Not!
+AU  - Avrilia Floratou
+AU  - Fotis Psallidas
+AU  - Fuheng Zhao
+AU  - Shaleen Deep
+AU  - Gunther Hagleither
+AU  - Wangda Tan
+AU  - Joyce Cahoon
+AU  - Rana Alotaibi
+AU  - Jordan Henkel
+AU  - Abhik Singla
+AU  - Alex Van Grootel
+AU  - Brandon Chow
+AU  - Kai Deng
+AU  - Katherine Lin
+AU  - Marcos Campos
+AU  - K. V. Emani
+AU  - Vivek Pandit
+AU  - V. Shnayder
+AU  - Wenjing Wang
+AU  - Carlo Curino
+PY  - 2024
+T2  - Conference on Innovative Data Systems Research
+N1  - snowballing backward (Semantic Scholar supplement) from R00309
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00276
+N1  - sr-screener TA [R00276]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Title only; no sign of multi-turn, linking or correction | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries
+AU  - Irina Saparina
+AU  - Mirella Lapata
+PY  - 2024
+T2  - Neural Information Processing Systems
+DO  - 10.48550/arxiv.2406.19073
+N1  - snowballing backward (Semantic Scholar supplement) from R00312, R00373
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00277
+N1  - sr-screener TA [R00277]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn ambiguity benchmark | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring
+AU  - Gyubok Lee
+AU  - Woosog Chay
+AU  - Seonhee Cho
+AU  - Edward Choi
+PY  - 2024
+DO  - 10.48550/arxiv.2403.15879
+N1  - snowballing backward (Semantic Scholar supplement) from R00312
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00278
+N1  - sr-screener TA [R00278]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn reliability/abstention benchmark | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - TrustSQL: A Reliability Benchmark for Text-to-SQL Models with Diverse Unanswerable Questions
+AU  - Gyubok Lee
+AU  - Woosog Chay
+AU  - Seonhee Cho
+AU  - Edward Choi
+PY  - 2024
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2403.15879
+N1  - snowballing backward (Semantic Scholar supplement) from R00312
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00279
+N1  - sr-screener TA [R00279]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn unanswerable-question benchmark | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - “Nstext2sql: An open source text-to-sql dataset for foundation model training,”
+PY  - 2023
+N1  - snowballing backward (Semantic Scholar supplement) from R00312
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00280
+N1  - sr-screener TA [R00280]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn training dataset | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Survey on Employing Large Language Models for Text-to-SQL Tasks
+AU  - Liang Shi
+AU  - Zheng-Ju Tang
+AU  - Nan Zhang
+AU  - Xiaotong Zhang
+AU  - Zhi Yang
+PY  - 2024
+T2  - ACM Computing Surveys
+DO  - 10.1145/3737873
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E4
+ID  - R00283
+N1  - sr-screener TA [R00283]: EXCLUDE (E4 Not a primary study (survey, review, tutorial, position paper)) - Survey of LLM Text-to-SQL | A: exclude/E4 | B: exclude/E4 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data
+AU  - Moshe Hazoom
+AU  - Vibhor Malik
+AU  - Ben Bogin
+PY  - 2021
+T2  - NLP4PROG
+DO  - 10.18653/v1/2021.nlp4prog-1.9
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00285
+N1  - sr-screener TA [R00285]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn dataset from Stack Exchange | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - BEAVER: An Enterprise Benchmark for Text-to-SQL
+AU  - Peter Baile Chen
+AU  - Weiyue Li
+AU  - Fabian Wenz
+AU  - Yi Zhang
+AU  - Yi Zhang
+AU  - N. Tatbul
+AU  - Michael J. Cafarella
+AU  - cCaugatay Demiralp
+AU  - Michael Stonebraker
+PY  - 2024
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2409.02038
+N1  - snowballing backward (Semantic Scholar supplement) from R00482
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Exclude-E6
+ID  - R00290
+N1  - sr-screener TA [R00290]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn enterprise benchmark | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+

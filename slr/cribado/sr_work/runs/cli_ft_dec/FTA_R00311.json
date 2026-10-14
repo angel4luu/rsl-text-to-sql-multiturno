@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00311@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00311",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn clarification dialogues with new AmbigSQL conversational Text-to-SQL task on Spider; per-turn and trajectory execution-match metrics reported",
+   "where": "p7-8 Sec 4.1.3 AmbigSQL; p9-10 Sec 4.2, Table 3; p11 Sec 5.2"
+  }
+ ],
+ "source": "cli:FTA_R00311.json"
+}

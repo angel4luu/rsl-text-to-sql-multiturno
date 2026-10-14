@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00466@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00466",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; LLM-judge verification of generated SQL is central; quantitative AUROC evaluation on BIRD and Spider.",
+   "where": "p1 Abstract; p2 Introduction contributions 2-4; p3-4 Setup and Results, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00466.json"
+}

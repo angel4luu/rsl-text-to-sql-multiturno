@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00347\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00372\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00382\",\"extraccion\":{\"paradigma_principal\":\"AGENTES\"}},{\"id_estudio\":\"R00387\",\"extraccion\":{\"paradigma_principal\":\"AGENTES\"}},{\"id_estudio\":\"R00389\",\"extraccion\":{\"paradigma_principal\":\"HIBRIDO_NEUROSIMBOLICO\"}},{\"id_estudio\":\"R00393\",\"extraccion\":{\"paradigma_principal\":\"HIBRIDO_NEUROSIMBOLICO\"}},{\"id_estudio\":\"R00406\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00412\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_008"
+}

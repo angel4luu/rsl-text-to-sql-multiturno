@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00472@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00472",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agentic Text-to-SQL whose central contribution is execution-feedback credit assignment and revision; evaluated on BIRD, Spider and Spider-DK.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Experiments, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTB_R00472.json"
+}

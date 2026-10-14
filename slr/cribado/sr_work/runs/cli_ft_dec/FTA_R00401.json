@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00401@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00401",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn table retrieval/join inference paper evaluated on a proprietary Enterprise database; pages 5-7 missing, so public-benchmark use is unverifiable.",
+   "where": "p1 Introduction contributions; p4 Section 3 Experimental Evaluation (pp5-7 not in file)"
+  }
+ ],
+ "source": "cli:FTA_R00401.json"
+}

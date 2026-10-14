@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00476@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00476",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn BIRD/Spider study; contribution centres on reusing verified execution-guided repair episodes, with verification and repair sources tested; quantitative EX results.",
+   "where": "p1 Abstract and Introduction; p5 Section 4 Setup; p5-6 Section 5.1 Results"
+  }
+ ],
+ "source": "cli:FTB_R00476.json"
+}

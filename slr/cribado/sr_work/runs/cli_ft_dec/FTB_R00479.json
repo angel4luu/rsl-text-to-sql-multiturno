@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00479@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00479",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking as the central contribution, evaluated quantitatively on public benchmarks (BIRD-dev, MMQA, Spider2-Snow).",
+   "where": "p1 Abstract; p2 Contributions; p5 Sec. 5.1 Datasets; p6 Sec. 6.1 Results"
+  }
+ ],
+ "source": "cli:FTB_R00479.json"
+}

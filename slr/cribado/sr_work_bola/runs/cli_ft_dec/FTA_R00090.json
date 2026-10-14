@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00090@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00090",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn arXiv 2025 paper; db-id/schema selection and critic-agent SQL self-correction are stated contributions; evaluated on Spider, outperforming baselines.",
+   "where": "p1 Abstract and Contributions; p2 Related work (Spider used for experiments); p2-4 Methodology"
+  }
+ ],
+ "source": "cli:FTA_R00090.json"
+}

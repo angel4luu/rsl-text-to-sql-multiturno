@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00314@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00314",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and execution-feedback/critic modules as stated contributions; evaluated quantitatively on public Spider benchmark.",
+   "where": "p1 Abstract and Introduction contributions; p8 Sec 4.1 Dataset; p9 Sec 4.3 Evaluation and 4.4 Ablation"
+  }
+ ],
+ "source": "cli:FTB_R00314.json"
+}

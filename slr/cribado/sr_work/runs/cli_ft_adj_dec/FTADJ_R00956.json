@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00956@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00956",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study comparing embedding models for schema linking/selection; execution accuracy reported on public ScienceBenchmark.",
+   "where": "p1 Abstract; p2 Introduction; p4 Sec 2.3-2.4, Table 2"
+  }
+ ],
+ "source": "cli:FTADJ_R00956.json"
+}

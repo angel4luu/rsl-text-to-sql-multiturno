@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00436@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00436",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn DLM evaluation framework; retrieval and verifier modules are components, not the central contribution.",
+   "where": "p1 Abstract and Contributions; p2-3 Methodology 2.1-2.2"
+  }
+ ],
+ "source": "cli:FTA_R00436.json"
+}

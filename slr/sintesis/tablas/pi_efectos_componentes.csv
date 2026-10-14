@@ -1,0 +1,13 @@
+pilar,clase,n_estudios,n_contrastes,mediana_pp,min_pp,max_pp,estudios_positivos,estudios_negativos,estudios_nulos,pct_contrastes_positivos
+PI1,Concatenación / historial,3,16,0.6,0.15,1.99,3,0,0,87.5
+PI1,Otros componentes del pilar,17,119,2.35,-0.2,25.0,16,1,0,92.4
+PI1,Reescritura de la pregunta,5,46,1.95,-4.75,19.15,4,1,0,73.9
+PI2,Grafo / estado estructurado,11,74,2.9,0.5,32.0,11,0,0,95.9
+PI2,Otros componentes del pilar,22,124,2.85,-0.7,17.8,21,1,0,91.9
+PI2,SQL / resultados previos,7,41,5.65,-0.1,10.45,6,1,0,90.2
+PI3,Otros componentes del pilar,15,143,2.05,-0.2,24.99,14,1,0,87.4
+PI3,Vinculación de esquemas,19,92,2.15,0.25,33.2,19,0,0,81.5
+PI4,Aclaración / interacción con el usuario,3,7,8.9,-19.05,43.0,2,1,0,71.4
+PI4,Autoconsistencia / selección de candidatos,2,9,1.1,0.2,2.0,2,0,0,88.9
+PI4,Autocorrección / retroalimentación de ejecución,11,141,1.5,0.01,13.76,11,0,0,93.6
+PI4,Otros componentes del pilar,11,90,4.1,-2.3,13.75,10,1,0,86.7

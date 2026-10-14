@@ -1,0 +1,32 @@
+[
+ {
+  "label": "EXTA:R00078",
+  "prompt_file": "slr/extraccion/prompts_piloto/A_R00078.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTB:R00078",
+  "prompt_file": "slr/extraccion/prompts_piloto/B_R00078.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R01031",
+  "prompt_file": "slr/extraccion/prompts_piloto/A_R01031.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTB:R01031",
+  "prompt_file": "slr/extraccion/prompts_piloto/B_R01031.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00101",
+  "prompt_file": "slr/extraccion/prompts_piloto/A_R00101.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTB:R00101",
+  "prompt_file": "slr/extraccion/prompts_piloto/B_R00101.txt",
+  "model": "sonnet"
+ }
+]

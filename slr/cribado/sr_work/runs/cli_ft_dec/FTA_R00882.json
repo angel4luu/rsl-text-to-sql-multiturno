@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00882@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00882",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn study evaluated only on 19 proprietary, non-public Outdooractive questions; no public benchmark used",
+   "where": "p13-15 Sect. 3.2/3.4 Data and Model comparison; p24 Data availability"
+  }
+ ],
+ "source": "cli:FTA_R00882.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00289",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and join-view synthesis as core contributions; quantitative evaluation on proprietary data and the public Mondial database.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p13-14 Sections 6.1-6.3 (schema-linking experiments, Table 2)"
+  }
+ ],
+ "source": "cli:FTA_R00289.json"
+}

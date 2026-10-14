@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00091@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00091",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General multitask pretraining method for Text-to-SQL; no linking, correction or context-restoration contribution; SParC/CoSQL only as benchmarks.",
+   "where": "p1 Abstract; p2 Introduction; p3-6 Sections 3.1-3.3; p6 Section 4.1 Evaluation Setup"
+  }
+ ],
+ "source_transcript": "agent-a879e90de55ccd5b9.jsonl"
+}

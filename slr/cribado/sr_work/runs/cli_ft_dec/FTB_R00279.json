@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00279@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00279",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL study whose central contribution is schema linking annotation and analysis, evaluated quantitatively on Spider.",
+   "where": "p1 Abstract/Introduction; p2-3 Section 3 Annotation; p3-4 Sections 4-5 Experiments and Results"
+  }
+ ],
+ "source": "cli:FTB_R00279.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00475@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00475",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL correction is the central contribution; quantitative execution-accuracy evaluation on public BIRD and ScienceBenchmark; 2026 arXiv preprint in English.",
+   "where": "p1 Abstract and Contributions; p6 §4.1 Benchmarks; p6-7 §4.2 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00475.json"
+}

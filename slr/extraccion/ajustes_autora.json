@@ -1,0 +1,12 @@
+{
+ "_nota": "Decisiones de la autora sobre discrepancias con su muestra independiente (2026-10-13). R00298 se mantiene en el Nivel 2; R00924 ya coincide (SOLO_PREGUNTAS). Taxonomía (2026-10-13): la autora aprobó la consolidación de OTRO/OTRA (taxonomia_revision.md) y la nueva categoría VALORES_BD de pi2_grafo_nodos.",
+ "R00920": {
+  "historial_eval": "SOLO_PREGUNTAS"
+ },
+ "R00101": {
+  "pi2_grafo_nodos": "TOKENS_PREGUNTA; ELEMENTOS_ESQUEMA; VALORES_BD"
+ },
+ "R00936": {
+  "pi2_grafo_nodos": "TOKENS_PREGUNTA; VALORES_BD; ELEMENTOS_ESQUEMA"
+ }
+}

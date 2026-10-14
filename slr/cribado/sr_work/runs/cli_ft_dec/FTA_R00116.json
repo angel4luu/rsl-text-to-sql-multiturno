@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00116@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00116",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL adaptation evaluated on Spider, SParC and CoSQL, with previous-query context and per-turn breakdown; quantitative results reported.",
+   "where": "p5-7 Section 3 Experiments and Results, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00116.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00176@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00176",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL tool; schema mapping and execution-guided refinement are stated major components; EX 75.2% on Spider test set.",
+   "where": "p1 Abstract and Introduction; p2 §2.5 Execution-Guided Refinement; p3 §3 Preliminary Evaluation, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00176.json"
+}

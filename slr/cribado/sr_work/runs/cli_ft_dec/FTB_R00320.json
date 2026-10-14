@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00320@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00320",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and SQL refinement as central contributions, evaluated on Spider and BIRD.",
+   "where": "p1 Abstract and Introduction; p2 Contributions; p8-9 Section 4.2 Results, Tables 1-6"
+  }
+ ],
+ "source": "cli:FTB_R00320.json"
+}

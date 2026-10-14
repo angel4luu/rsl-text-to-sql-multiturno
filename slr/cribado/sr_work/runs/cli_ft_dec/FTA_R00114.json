@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00114@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00114",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn dialogue-to-SQL over relational KB with dialogue state tracker; quantitative SQL accuracy on AirDialogue; 2020 English peer-reviewed.",
+   "where": "p3-4 Sections 3.1-3.4 (architecture, Dialogue State Tracker, SQL Generator); p7-8 Section 4.4, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00114.json"
+}

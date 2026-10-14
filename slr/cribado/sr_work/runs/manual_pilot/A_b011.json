@@ -1,0 +1,306 @@
+{
+ "label": "A:b011@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00501",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-MQL for MongoDB document databases, not relational SQL"
+  },
+  {
+   "id": "R00502",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking with FK traversal is a stated central component; relational"
+  },
+  {
+   "id": "R00503",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dashboard agent system, no central linking or correction"
+  },
+  {
+   "id": "R00504",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL error correction with execution feedback is the central contribution"
+  },
+  {
+   "id": "R00505",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity benchmark; explicitly rejects dialogue-based clarification"
+  },
+  {
+   "id": "R00506",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational disambiguation over text-to-SQL; unclear if successive dependent questions"
+  },
+  {
+   "id": "R00507",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General self-improving agent verifier; text-to-SQL only one test domain"
+  },
+  {
+   "id": "R00508",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent loop with error diagnosis on one question; unclear if execution-feedback central"
+  },
+  {
+   "id": "R00509",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn schema linking on SParC and CoSQL"
+  },
+  {
+   "id": "R00510",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with execution-feedback self-repair on CHASE"
+  },
+  {
+   "id": "R00511",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational CoSQL with schema linking reranker, per-turn analysis"
+  },
+  {
+   "id": "R00512",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with self-judging on SParC and CoSQL"
+  },
+  {
+   "id": "R00513",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table subset identification via metagraph; unclear if central, single-turn"
+  },
+  {
+   "id": "R00514",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NLIDB chatbot, no linking or correction focus"
+  },
+  {
+   "id": "R00515",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General text-to-SQL and database design platform, single-turn"
+  },
+  {
+   "id": "R00516",
+   "d": "include",
+   "code": "INC",
+   "why": "Candidate selection and repair on Spider as central contribution"
+  },
+  {
+   "id": "R00517",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn generate-and-rank NLIDB demo, no linking or correction"
+  },
+  {
+   "id": "R00518",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Fine-tuned IoT NL2SQL system, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00519",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn Turkish dataset, not about linking or correction"
+  },
+  {
+   "id": "R00520",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of NLIDB with deep learning"
+  },
+  {
+   "id": "R00521",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Retry workflows with syntax correction on Spider; unclear if central"
+  },
+  {
+   "id": "R00522",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback candidate selection and refinement on BIRD"
+  },
+  {
+   "id": "R00523",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema-first RAG with safety validation, no central linking or correction"
+  },
+  {
+   "id": "R00524",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL test suite and multi-agent framework"
+  },
+  {
+   "id": "R00525",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL curriculum learning on SParC and CoSQL"
+  },
+  {
+   "id": "R00526",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent Arabic SParC dataset with corrector"
+  },
+  {
+   "id": "R00527",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based Text-to-SQL"
+  },
+  {
+   "id": "R00528",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL correction with execution-based error evaluation on Spider"
+  },
+  {
+   "id": "R00529",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based text-to-SQL"
+  },
+  {
+   "id": "R00530",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Graph RAG SQL generation and visualization, single-turn system"
+  },
+  {
+   "id": "R00531",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational restaurant Text-to-SQL; unclear if multi-turn dependency handled"
+  },
+  {
+   "id": "R00532",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational system with interactive schema-ranking agent"
+  },
+  {
+   "id": "R00533",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Caching using dialogue history; unclear if multi-turn context restoration"
+  },
+  {
+   "id": "R00534",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General single-turn NLIDB on WikiSQL, no central linking or correction"
+  },
+  {
+   "id": "R00535",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Empirical ChatGPT evaluation, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00536",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General single-turn text-to-SQL framework"
+  },
+  {
+   "id": "R00537",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ReAct agent system, single question, no central correction"
+  },
+  {
+   "id": "R00538",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn prompt approach with verifier and reviser on SParC and CoSQL"
+  },
+  {
+   "id": "R00539",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Visual analysis tool for diagnosing models, single-turn"
+  },
+  {
+   "id": "R00540",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data augmentation for single-turn text-to-SQL"
+  },
+  {
+   "id": "R00541",
+   "d": "include",
+   "code": "INC",
+   "why": "Result reflection refinement on Spider and BIRD stated in title"
+  },
+  {
+   "id": "R00542",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational multi-agent system with Text-to-SQL; multi-turn handling unclear"
+  },
+  {
+   "id": "R00543",
+   "d": "include",
+   "code": "INC",
+   "why": "Table-guided column prediction and schema linking on SParC"
+  },
+  {
+   "id": "R00544",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt injection security, not linking or correction"
+  },
+  {
+   "id": "R00545",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Voice-enabled desktop NL-to-SQL tool, single-turn"
+  },
+  {
+   "id": "R00546",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "ReAct NLIDB agent with interaction memory and error correction; unclear"
+  },
+  {
+   "id": "R00547",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema-aware single-turn NL-to-SQL web framework with safety validation"
+  },
+  {
+   "id": "R00548",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Verbalization of SQL results, not NL-to-SQL linking or correction"
+  },
+  {
+   "id": "R00549",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-to-SQL framework, single-turn, no central linking or correction"
+  },
+  {
+   "id": "R00550",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn Filipino corpus, not about linking or correction"
+  }
+ ],
+ "source_transcript": "agent-ab304c09284fd3430.jsonl"
+}

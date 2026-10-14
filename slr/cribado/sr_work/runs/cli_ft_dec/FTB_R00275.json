@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00275@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00275",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn, central join-path/keyword mapping; quantitative evaluation claimed, but benchmark datasets (public or not) are not in the extract.",
+   "where": "p1 Abstract and p3 Contributions; experimental section (Section VII, pp5-12) missing from file"
+  }
+ ],
+ "source": "cli:FTB_R00275.json"
+}

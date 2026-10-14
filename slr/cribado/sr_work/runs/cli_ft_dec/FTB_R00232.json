@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00232@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00232",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational NL2SQL system with conversational context retention for follow-up queries; reports accuracy on proprietary datasets (89%, 95%).",
+   "where": "p2 Introduction (contributions); p3-4 Sec 3.2.2-3.2.3 Query Context; p5-6 Sec 4 Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00232.json"
+}

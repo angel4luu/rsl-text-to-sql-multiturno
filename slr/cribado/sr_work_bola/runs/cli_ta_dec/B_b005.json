@@ -1,0 +1,306 @@
+{
+ "label": "B:b005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00201",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn case study; no linking or correction contribution"
+  },
+  {
+   "id": "R00202",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Graph of column names for schema representation; linking role unclear"
+  },
+  {
+   "id": "R00203",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn question decomposition, not linking or correction"
+  },
+  {
+   "id": "R00204",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Feature augmentation for robustness; single-turn, no linking or correction"
+  },
+  {
+   "id": "R00205",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests schema mapping with SQL generation"
+  },
+  {
+   "id": "R00206",
+   "d": "include",
+   "code": "INC",
+   "why": "Lexical alignments and column reference disambiguation central; single-turn linking"
+  },
+  {
+   "id": "R00207",
+   "d": "include",
+   "code": "INC",
+   "why": "Value extraction and candidate linking central to Spider system"
+  },
+  {
+   "id": "R00208",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title shows general robust system, no linking or correction"
+  },
+  {
+   "id": "R00209",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial"
+  },
+  {
+   "id": "R00210",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM comparison; no linking or correction focus"
+  },
+  {
+   "id": "R00211",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; case-based reasoning, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00212",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Answerability classification, not linking or correction"
+  },
+  {
+   "id": "R00213",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn question rephrasing system; no linking or correction"
+  },
+  {
+   "id": "R00214",
+   "d": "include",
+   "code": "INC",
+   "why": "Value extraction and linking central; Spider execution accuracy"
+  },
+  {
+   "id": "R00215",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Question intention classification benchmark, single-turn"
+  },
+  {
+   "id": "R00216",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00217",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of datasets"
+  },
+  {
+   "id": "R00218",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Relation-aware transformer on RAT-SQL; schema linking role unclear"
+  },
+  {
+   "id": "R00219",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Translated single-turn dataset, not about linking or correction"
+  },
+  {
+   "id": "R00220",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NLQ study for benchmark realism"
+  },
+  {
+   "id": "R00221",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; visually-grounded benchmark, no linking or correction focus"
+  },
+  {
+   "id": "R00222",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt design strategies, single-turn"
+  },
+  {
+   "id": "R00223",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Error feedback for data synthesis, not SQL correction"
+  },
+  {
+   "id": "R00224",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comprehensive review"
+  },
+  {
+   "id": "R00225",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; model comparison, no linking or correction focus"
+  },
+  {
+   "id": "R00226",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; decoding method, no linking or correction"
+  },
+  {
+   "id": "R00227",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain dataset and translate-edit model, single-turn"
+  },
+  {
+   "id": "R00228",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation dataset, not linking or correction"
+  },
+  {
+   "id": "R00229",
+   "d": "include",
+   "code": "INC",
+   "why": "Generate-then-rank candidate selection central; Spider evaluation"
+  },
+  {
+   "id": "R00230",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review"
+  },
+  {
+   "id": "R00231",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn parser learning from user demonstrations"
+  },
+  {
+   "id": "R00232",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Tokenization and boundary marking for generalization"
+  },
+  {
+   "id": "R00233",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; speech-to-SQL, no linking or correction"
+  },
+  {
+   "id": "R00234",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00235",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Recursive nested query decomposition, not linking or correction"
+  },
+  {
+   "id": "R00236",
+   "d": "include",
+   "code": "INC",
+   "why": "Generate-and-rerank candidate selection central; Spider results"
+  },
+  {
+   "id": "R00237",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00238",
+   "d": "include",
+   "code": "INC",
+   "why": "Column prediction via occurrence graph; column selection central, Spider"
+  },
+  {
+   "id": "R00239",
+   "d": "include",
+   "code": "INC",
+   "why": "Header-column alignment training central; single-turn linking"
+  },
+  {
+   "id": "R00240",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Vietnamese PLM comparison and learning method, no linking focus"
+  },
+  {
+   "id": "R00241",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Two-stage decomposition possibly schema linking; not stated in abstract"
+  },
+  {
+   "id": "R00242",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Nested BI query system, not linking or correction"
+  },
+  {
+   "id": "R00243",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Medical text-to-SQL model, no linking or correction"
+  },
+  {
+   "id": "R00244",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative self-evaluation feedback loop on Spider and others"
+  },
+  {
+   "id": "R00245",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generic NLIDB system, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00246",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SPARQL knowledge graph QA benchmark"
+  },
+  {
+   "id": "R00247",
+   "d": "exclude",
+   "code": "E6",
+   "why": "System description for data analysis; no linking or correction"
+  },
+  {
+   "id": "R00248",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Reinforcement learning fine-tuning, not linking or correction"
+  },
+  {
+   "id": "R00249",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Fine-tuning for business QA, single-turn"
+  },
+  {
+   "id": "R00250",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Paratext record without title"
+  }
+ ],
+ "source": "cli:B_b005.json"
+}

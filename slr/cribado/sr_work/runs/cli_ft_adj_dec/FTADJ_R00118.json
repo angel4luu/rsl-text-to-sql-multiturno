@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00118@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00118",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn clarification; central contribution: error locator plus user-guided token-to-column/value linking correcting SQL; evaluated on Spider/WikiSQL",
+   "where": "p1-2 Abstract, Introduction contributions; p5-7 Sections 6.1-6.3 Experiments"
+  }
+ ],
+ "source": "cli:FTADJ_R00118.json"
+}

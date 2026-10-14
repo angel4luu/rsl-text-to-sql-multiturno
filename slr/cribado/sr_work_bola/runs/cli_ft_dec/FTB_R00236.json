@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00236@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00236",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with a central knowledge-enhanced SQL re-ranking contribution, evaluated quantitatively on Spider and Spider-DK.",
+   "where": "p1 Abstract and Introduction; p7-8 Section 5 Experiments, Tables 2-5"
+  }
+ ],
+ "source": "cli:FTB_R00236.json"
+}

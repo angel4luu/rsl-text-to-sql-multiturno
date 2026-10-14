@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00088@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00088",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL with follow-on classifier and dialog state tracker; reports NER/NED F1 and 88% accuracy on production data.",
+   "where": "p4-5 Sec. 3 (Follow-on classifier, DST); p6 Sec. 4.2 (evaluation)"
+  }
+ ],
+ "source_transcript": "agent-a773b19f7b86c776f.jsonl"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00302@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00302",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider parsing into a new query-plan language (QPL) with question decomposition; no linking or correction contribution.",
+   "where": "p1 Abstract; p9 Section 4 Experiments and Results"
+  }
+ ],
+ "source": "cli:FTA_R00302.json"
+}

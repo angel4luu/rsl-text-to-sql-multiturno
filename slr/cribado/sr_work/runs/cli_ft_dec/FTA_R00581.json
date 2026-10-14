@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00581@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00581",
+   "d": "exclude",
+   "code": "E6",
+   "why": "VizGen is a general visualization system. Schema linking and SQL validation are only modules, with no central linking or correction contribution and no context-restoration or dialogue-state work.",
+   "where": "p3-4 Section III System Design; p1 Abstract and Introduction contributions"
+  }
+ ],
+ "source": "cli:FTA_R00581.json"
+}

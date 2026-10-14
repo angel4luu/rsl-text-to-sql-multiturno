@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00708@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00708",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn unified Python/Pandas reasoning; main contributions are unified representation and knowledge transfer; execution-feedback refinement is minor.",
+   "where": "p1 Abstract; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTADJ_R00708.json"
+}

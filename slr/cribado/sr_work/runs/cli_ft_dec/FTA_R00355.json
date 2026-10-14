@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00355@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00355",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema linking is the central contribution, evaluated quantitatively on Spider-dev, a public benchmark (2025 arXiv preprint).",
+   "where": "p1 Abstract and Introduction; p5 Experiment 5.1 Benchmarks; p5-6 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00355.json"
+}

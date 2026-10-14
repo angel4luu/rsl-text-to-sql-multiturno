@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00484@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00484",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Keyword table retrieval via generated table descriptions; no SQL generation or Text-to-SQL evaluation, NL2SQL only mentioned as motivation.",
+   "where": "p1 Abstract and Introduction; p5-6 Section 4 Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00484.json"
+}

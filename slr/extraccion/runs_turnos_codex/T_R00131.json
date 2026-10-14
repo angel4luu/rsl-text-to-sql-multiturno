@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00131\",\"extraccion\":{\"resultados_turno\":[{\"benchmark\":\"SPARC\",\"version\":\"NR\",\"particion\":\"DEV\",\"metrica\":\"QM\",\"turno\":\"4+\",\"n_turno\":\"NR\",\"historial_eval\":\"PREDICHO\",\"sistema\":\"PROPUESTO\",\"modelo_base\":\"BERT\",\"valor\":\"20\",\"ubicacion\":\"página 8, §5.4; Figura 4 (izquierda), página 9\"}],\"historial_eval_turnos\":\"PREDICHO\",\"nota\":\"El texto explicita 20% para 4+. Se omiten valores sin etiquetas numéricas de Figuras 4–5 y el rango 38%–48%, sin asignación individual inequívoca.\",\"ubic\":\"8–9\"}}]}",
+  "_label": "TURNOS:R00131"
+}

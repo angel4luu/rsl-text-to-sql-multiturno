@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00072@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL (SParC, CoSQL) using SQL editing for context; quantitative EM/EX/TS results on public benchmarks",
+   "where": "p1 Abstract/Introduction; p5-7 Section 4 Experiments, Tables 3-5"
+  }
+ ],
+ "source_transcript": "agent-a4b73e26cf5d3201d.jsonl"
+}

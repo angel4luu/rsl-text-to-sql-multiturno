@@ -1,0 +1,1 @@
+{"label": "FTA:R00996@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00996", "d": "include", "code": "INC", "why": "Proposes multi-level SQL self-correction and reports quantitative execution accuracy evaluation on Spider and BIRD public benchmarks.", "where": "p1 Abstract; pp10–11 Sections 5.1–5.2.1"}], "source": "codex:gpt-6.1-sol"}

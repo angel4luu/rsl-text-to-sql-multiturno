@@ -1,0 +1,107 @@
+{
+ "tool": "sr-screener 1.0.0",
+ "files": [
+  {
+   "file": "2026-10-11_acl_v4.ris",
+   "format": "ris",
+   "records": 133,
+   "databases": {
+    "ACL Anthology": 133
+   }
+  },
+  {
+   "file": "2026-10-11_acm1.ris",
+   "format": "ris",
+   "records": 122,
+   "databases": {
+    "ACM DL": 122
+   }
+  },
+  {
+   "file": "2026-10-11_acm2.ris",
+   "format": "ris",
+   "records": 24,
+   "databases": {
+    "ACM DL": 24
+   }
+  },
+  {
+   "file": "2026-10-11_arxiv_v4.csv",
+   "format": "csv",
+   "records": 253,
+   "databases": {
+    "arXiv": 253
+   }
+  },
+  {
+   "file": "2026-10-11_ieee1_v4.csv",
+   "format": "csv",
+   "records": 109,
+   "databases": {
+    "IEEE Xplore": 109
+   }
+  },
+  {
+   "file": "2026-10-11_ieee2_v4.csv",
+   "format": "csv",
+   "records": 52,
+   "databases": {
+    "IEEE Xplore": 52
+   }
+  },
+  {
+   "file": "2026-10-11_ieee3_v4.csv",
+   "format": "csv",
+   "records": 87,
+   "databases": {
+    "IEEE Xplore": 87
+   }
+  },
+  {
+   "file": "2026-10-11_ieee4_v4.csv",
+   "format": "csv",
+   "records": 120,
+   "databases": {
+    "IEEE Xplore": 120
+   }
+  },
+  {
+   "file": "2026-10-11_scopus_v4.ris",
+   "format": "ris",
+   "records": 557,
+   "databases": {
+    "Scopus": 557
+   }
+  }
+ ],
+ "by_database": {
+  "ACL Anthology": 133,
+  "ACM DL": 146,
+  "arXiv": 253,
+  "IEEE Xplore": 368,
+  "Scopus": 557
+ },
+ "raw_total": 1457,
+ "unique_total": 1041,
+ "duplicates_removed": 416,
+ "no_abstract": 6,
+ "overlap": {
+  "Scopus + ACL Anthology": 76,
+  "ACL Anthology": 48,
+  "Scopus + ACL Anthology + arXiv": 6,
+  "ACL Anthology + arXiv": 3,
+  "ACM DL": 73,
+  "Scopus + ACM DL": 57,
+  "ACM DL + arXiv": 4,
+  "Scopus + ACM DL + arXiv": 6,
+  "Scopus + ACM DL + IEEE Xplore": 1,
+  "Scopus + IEEE Xplore + arXiv": 3,
+  "arXiv": 217,
+  "Scopus + arXiv": 14,
+  "Scopus + IEEE Xplore": 153,
+  "IEEE Xplore": 147,
+  "Scopus": 233
+ },
+ "batches": 22,
+ "max_record_lines": 31
+}

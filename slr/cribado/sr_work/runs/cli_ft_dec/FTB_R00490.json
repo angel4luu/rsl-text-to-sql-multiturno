@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00490@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00490",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose controlled evaluation centers on schema linking and execution-feedback refinement modules, tested on BIRD and Spider with execution accuracy.",
+   "where": "p1 Abstract and Introduction contributions; p2 Section 2 Pipeline Decomposition; p3 Section 3.1 Dataset; p4 Section 4"
+  }
+ ],
+ "source": "cli:FTB_R00490.json"
+}

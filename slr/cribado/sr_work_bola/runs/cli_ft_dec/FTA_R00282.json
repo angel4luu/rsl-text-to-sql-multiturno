@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00282@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00282",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise text-to-SQL benchmark; schema linking and execution feedback are not a stated central contribution.",
+   "where": "p1 Abstract; p2 Introduction"
+  }
+ ],
+ "source": "cli:FTA_R00282.json"
+}

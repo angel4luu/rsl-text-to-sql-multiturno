@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00639@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00639",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose compiler infers join paths from the foreign-key graph; execution accuracy reported on public BIRD and Spider.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p4 Section III.B (join inference by BFS over FK graph)"
+  }
+ ],
+ "source": "cli:FTA_R00639.json"
+}

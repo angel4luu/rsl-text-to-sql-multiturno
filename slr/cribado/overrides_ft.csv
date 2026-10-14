@@ -1,0 +1,42 @@
+id,d,code,why,by
+R00231,exclude,E5,aceptado por la revisora (2026-10-12),AJE
+R00401,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00708,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00842,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00847,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00848,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00863,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00931,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00091,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00275,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00386,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00442,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00499,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00644,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00719,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00734,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00740,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00744,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00818,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00819,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00827,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00846,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00867,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00887,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00905,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00917,exclude,E7,aceptado por la revisora (2026-10-12),AJE
+R00921,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00939,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00940,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00948,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00953,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00958,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00967,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00984,exclude,E8,aceptado por la revisora (2026-10-12),AJE
+R00999,include,INC,aceptado por la revisora (2026-10-12),AJE
+R01020,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00859,include,INC,aceptado por la revisora (2026-10-12),AJE
+R00341,exclude,E9,Secondary report of included study R00045 (ExCoT); same study,AJE
+R01011,exclude,E9,"Secondary report of included study R00065 (ICRL-RAG (COLING 2025, indexado dos veces)); same study",AJE
+R00286,exclude,E9,Secondary report of included study R00981 (UniSAr); same study,AJE
+R00296,exclude,E9,Secondary report of included study R00935 (SQL-PaLM); same study,AJE

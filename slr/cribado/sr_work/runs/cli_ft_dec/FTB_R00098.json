@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00098@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00098",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL (TKK) evaluated on SParC/CoSQL multi-turn benchmarks with QM/IM per-turn metrics, plus Spider; quantitative, 2022, English.",
+   "where": "p1 Abstract; p3 Problem Definition; p4-5 Sec 4.1 Datasets/Metrics, Table 2; p6 Sec 4.2"
+  }
+ ],
+ "source": "cli:FTB_R00098.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00239",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is header-to-span (schema/value linking) alignment pretraining; evaluated quantitatively on WikiSQL and Spider.",
+   "where": "p1 Abstract; p2 Introduction contributions; p5-6 Section 4 Experiments, Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00239.json"
+}

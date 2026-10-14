@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00040@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00040",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL sketch-filling model; contributions are data augmentation and table-content attention. Execution-guided decoding is only an adopted prior add-on.",
+   "where": "p2 Introduction (contributions); p3-4 Sections III.C-E; p6 Section H (EG decoding)"
+  }
+ ],
+ "source": "cli:FTB_R00040.json"
+}

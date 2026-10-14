@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00138@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00138",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL whose central contribution is execution-feedback-driven iterative refinement; evaluated quantitatively on Spider (EX 87.33%).",
+   "where": "p1 Abstract; p2 Introduction contributions; p5-6 Sections 4-5, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00138.json"
+}

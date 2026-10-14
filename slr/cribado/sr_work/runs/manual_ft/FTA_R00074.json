@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00074@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00074",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL pre-training with coreference and schema linking objectives; quantitative results on SParC and CoSQL.",
+   "where": "p1 Abstract; p4 Methods 2.2.2; p6-7 Experiment 4.1-4.2, Tables 3-5"
+  }
+ ],
+ "source_transcript": "agent-aa3283e5798cf7683.jsonl"
+}

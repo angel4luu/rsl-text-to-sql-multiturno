@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00159@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00159",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Three-page doctoral consortium summary of a thesis research plan, an extended abstract rather than a full paper.",
+   "where": "p1 header and Abstract (thesis research summary, WSDM '25, 3 pages)"
+  }
+ ],
+ "source": "cli:FTB_R00159.json"
+}

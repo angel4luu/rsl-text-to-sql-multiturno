@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00043@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00043",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with central schema-constant selection (global gating, re-ranking), evaluated quantitatively on Spider; 2019 English paper.",
+   "where": "p1 Abstract/Introduction; p4 Section 4 Experiments and Results, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00043.json"
+}

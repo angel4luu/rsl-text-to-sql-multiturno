@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00068@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00068",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL system with Pre-SQL table filtering and self-debug; evaluated quantitatively on SParC, CoSQL and Chase-C.",
+   "where": "p3-4 Sec 3.2 Multi-Turn Text-to-SQL; p5-6 Sec 5 Experiment, Table 2"
+  }
+ ],
+ "source_transcript": "agent-a3356b68852887c3a.jsonl"
+}

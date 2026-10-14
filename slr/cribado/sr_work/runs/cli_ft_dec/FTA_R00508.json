@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00508@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00508",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL agent training built on execution feedback and error recovery; evaluated on public Spider 2.0, BIRD-Interact and LiveSQLBench with execution accuracy.",
+   "where": "p1 Abstract; p2 Introduction; p4-5 Methodology 3.3; p6-7 Results, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00508.json"
+}

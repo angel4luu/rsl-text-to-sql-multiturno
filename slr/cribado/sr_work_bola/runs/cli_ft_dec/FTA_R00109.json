@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00109@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00109",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; contrastive primitive ranker selects tables, columns and cell values (schema linking/pruning) as a central contribution; evaluated on Spider and WikiSQL.",
+   "where": "p1 Abstract and Introduction; p5-6 Sec 4.1 Dataset and Evaluation, Table 4"
+  }
+ ],
+ "source": "cli:FTA_R00109.json"
+}

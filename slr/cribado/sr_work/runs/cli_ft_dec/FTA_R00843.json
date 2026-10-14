@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00843@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00843",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn question-to-SQL; contributions are dataset, example retrieval and PoT prompting; self-correction is only an ablation module",
+   "where": "p2 Introduction (contributions); p10-11 Methods, Self-correction; p11-12 Experiments, dataset description"
+  }
+ ],
+ "source": "cli:FTA_R00843.json"
+}

@@ -1,0 +1,18 @@
+{
+ "label": "ADJ:b003@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00101",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn pretraining aimed at column-mention detection and value linking; centrality unclear"
+  },
+  {
+   "id": "R00104",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn pretraining aimed at column-mention detection and value linking; centrality unclear"
+  }
+ ],
+ "source": "cli:ADJ_b003.json"
+}

@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00482\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"PREDICHO\",\"nota\":\"No presenta resultados desglosados por turno ni longitud de interacción. La tabla 10 agrega todos los turnos; la tabla 6 solo describe longitudes de conversaciones.\",\"ubic\":\"5, 15, 20, 24\"}}]}",
+  "_label": "TURNOS:R00482"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00693@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00693",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn BIRD evaluation; schema-aware extraction and execution-feedback LLM fallback for error recovery are stated contributions",
+   "where": "p1 Abstract and Introduction contributions; p2-4 Methodology; p4 Experimental Results, BIRD"
+  }
+ ],
+ "source": "cli:FTA_R00693.json"
+}

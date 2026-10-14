@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00399@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00399",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is entity-to-header matching and multi-table retrieval (schema linking/table selection) for NL2SQL; evaluated quantitatively on Spider/Bird-derived benchmarks.",
+   "where": "p1 Abstract and Introduction; p7 Section 6.2; p8 Section 7.1-7.2, Datasets and Metrics"
+  }
+ ],
+ "source": "cli:FTA_R00399.json"
+}

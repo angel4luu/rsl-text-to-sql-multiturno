@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00086@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00086",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema selector and execution-feedback refiner are stated contributions; quantitative evaluation on Spider and its variants.",
+   "where": "p2 Abstract; p15-16 Experiment, Setup and Table 4"
+  }
+ ],
+ "source": "cli:FTA_R00086.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00369@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00369",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; Steiner-tree join-path/schema navigation and execution validation are central; evaluated on Spider, BIRD, Spider2.0-Lite.",
+   "where": "p1 Abstract; p2 Contributions, Sec 3; p5 Sec 3.4; p6 Sec 4.1 Datasets, 4.2 Results"
+  }
+ ],
+ "source": "cli:FTB_R00369.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00351@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00351",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is schema/hint retrieval and join-path hints from query logs; execution accuracy on BIRD/Spider-derived benchmarks.",
+   "where": "p1 Abstract and Introduction; p8-9 Section 8.1 Experimental Setup, Section 8.3"
+  }
+ ],
+ "source": "cli:FTB_R00351.json"
+}

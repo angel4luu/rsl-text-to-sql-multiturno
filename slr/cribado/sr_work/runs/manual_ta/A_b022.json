@@ -1,0 +1,61 @@
+{
+ "label": "A:b022@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R01033",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Header states article language is Chinese"
+  },
+  {
+   "id": "R01034",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn NLIDB follow-up query analysis with dataset and experiments"
+  },
+  {
+   "id": "R01035",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Affective robot dialogue, not Text-to-SQL"
+  },
+  {
+   "id": "R01036",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL on SParC, multi-turn SQL overlap copying"
+  },
+  {
+   "id": "R01037",
+   "d": "include",
+   "code": "INC",
+   "397": "",
+   "why": "Context-dependent parsing modelling schema and history, SParC and CoSQL"
+  },
+  {
+   "id": "R01038",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R01039",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn criteria-to-SQL pipeline, no linking or correction focus"
+  },
+  {
+   "id": "R01040",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NLIDB module inferring missing keys/schema anomalies; unclear if join inference central"
+  },
+  {
+   "id": "R01041",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  }
+ ],
+ "source_transcript": "agent-ace6ba07a940245f0.jsonl"
+}

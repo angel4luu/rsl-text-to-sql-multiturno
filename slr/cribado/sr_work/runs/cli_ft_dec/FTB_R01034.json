@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R01034@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R01034",
+   "d": "include",
+   "code": "INC",
+   "why": "AAAI-19 paper on follow-up query fusion (context restoration) for NLIDB over WikiSQL tables, with quantitative results including execution accuracy.",
+   "where": "p1 Abstract/Introduction; p5-6 Section 5 Experiments, Tables 4-5"
+  }
+ ],
+ "source": "cli:FTB_R01034.json"
+}

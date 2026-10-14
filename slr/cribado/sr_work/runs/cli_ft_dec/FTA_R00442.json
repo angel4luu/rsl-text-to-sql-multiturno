@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00442@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00442",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn; schema linking and retry validation are central. Whether the 500 TPC-H questions are a public benchmark can't be judged, because the experimental pages are missing.",
+   "where": "p1 Abstract; p3-4 Contributions; pp5-46 not included in the file"
+  }
+ ],
+ "source": "cli:FTA_R00442.json"
+}

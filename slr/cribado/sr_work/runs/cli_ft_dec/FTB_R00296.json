@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00296@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00296",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; abstract states execution-feedback selection and column selection as contributions; evaluated quantitatively on Spider and BIRD.",
+   "where": "p1 Abstract; p17-18 Sec. 7 Experimental Setup (7.1, 7.5)"
+  }
+ ],
+ "source": "cli:FTB_R00296.json"
+}

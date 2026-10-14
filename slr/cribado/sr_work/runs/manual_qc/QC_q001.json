@@ -1,0 +1,306 @@
+{
+ "label": "QC:q001@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00009",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn access-control refusal study; verification checks policy, not SQL correctness"
+  },
+  {
+   "id": "R00017",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn RL with execution-correctness reward; unclear if execution feedback is central"
+  },
+  {
+   "id": "R00022",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn clinical benchmark; linking/correction not a stated contribution"
+  },
+  {
+   "id": "R00023",
+   "d": "exclude",
+   "code": "E5",
+   "why": "API tool-calling benchmark derived from BIRD, not SQL generation"
+  },
+  {
+   "id": "R00024",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn uncertainty decomposition; no linking or correction contribution"
+  },
+  {
+   "id": "R00028",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Graph query languages (Cypher, Gremlin, SPARQL), not relational SQL"
+  },
+  {
+   "id": "R00034",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn clinical demo; feedback expands exemplar bank, not SQL self-correction"
+  },
+  {
+   "id": "R00037",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table retrieval for open-domain table QA"
+  },
+  {
+   "id": "R00047",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn benchmark representation/analysis; no linking or correction focus"
+  },
+  {
+   "id": "R00053",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dataset generation; verification applies to data construction"
+  },
+  {
+   "id": "R00057",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn SQL UPDATE cascade generation; linking/correction not stated contribution"
+  },
+  {
+   "id": "R00058",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Evaluates natural-language rendering of query results, not SQL generation"
+  },
+  {
+   "id": "R00062",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General multilingual prompting method; text-to-SQL only an extension"
+  },
+  {
+   "id": "R00071",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn linearization analysis of T5; schema linking only an observed finding"
+  },
+  {
+   "id": "R00082",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Research interests statement, not a full paper"
+  },
+  {
+   "id": "R00095",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General uniform representation for semantic parsing and dialogue formats"
+  },
+  {
+   "id": "R00099",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn dialogue state tracking reformulated as text-to-SQL; relational NLIDB unclear"
+  },
+  {
+   "id": "R00104",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table statement verification with TaPas/TaBERT, no SQL generation"
+  },
+  {
+   "id": "R00106",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dataset construction for domain transfer"
+  },
+  {
+   "id": "R00113",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness via data augmentation; no linking/correction contribution"
+  },
+  {
+   "id": "R00115",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Vietnamese dataset; schema linking (NPMI) one of several findings, centrality unclear"
+  },
+  {
+   "id": "R00121",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of neural NLIDB approaches"
+  },
+  {
+   "id": "R00125",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of cross-domain Text-to-SQL models"
+  },
+  {
+   "id": "R00130",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese Spider; encoders and embeddings, no linking/correction focus"
+  },
+  {
+   "id": "R00144",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification of single standalone question; single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00164",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking addressed among several components; centrality unclear"
+  },
+  {
+   "id": "R00171",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Atom-level cross-model confidence and candidate selection; centrality as verification unclear"
+  },
+  {
+   "id": "R00173",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of cross-domain NL2SQL"
+  },
+  {
+   "id": "R00179",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Enterprise NL-to-SQL with verification mechanisms; context issues; scope unclear"
+  },
+  {
+   "id": "R00180",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn normalization study; table selection errors only a finding"
+  },
+  {
+   "id": "R00184",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-based self-correction evaluated on BIRD-Mini within multi-component system"
+  },
+  {
+   "id": "R00187",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Constraint-driven SQL generation for database testing, no natural language input"
+  },
+  {
+   "id": "R00188",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn cost/efficiency metrics for Big Data Text-to-SQL"
+  },
+  {
+   "id": "R00189",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn pipeline configuration cost-accuracy tuning"
+  },
+  {
+   "id": "R00193",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data exploration demo; no linking, correction or multi-turn stated"
+  },
+  {
+   "id": "R00194",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multi-agent equity analysis application; Text-to-SQL one component"
+  },
+  {
+   "id": "R00199",
+   "d": "exclude",
+   "code": "E5",
+   "why": "MongoDB NoSQL interface"
+  },
+  {
+   "id": "R00252",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semi-structured table QA with tree operations, not SQL"
+  },
+  {
+   "id": "R00253",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL to graph query language over graph databases"
+  },
+  {
+   "id": "R00259",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation toolbox for proprietary data"
+  },
+  {
+   "id": "R00268",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Financial knowledge-graph question answering"
+  },
+  {
+   "id": "R00270",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00274",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00277",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness via data augmentation; no linking/correction contribution"
+  },
+  {
+   "id": "R00287",
+   "d": "exclude",
+   "code": "E5",
+   "why": "ThingTalk representation for task-oriented dialogue, not SQL"
+  },
+  {
+   "id": "R00289",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey on Text-to-SQL parsing"
+  },
+  {
+   "id": "R00291",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Monograph surveying natural language interfaces to data"
+  },
+  {
+   "id": "R00403",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn KV cache latency optimization"
+  },
+  {
+   "id": "R00410",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluation tool via equivalence verification, not self-correction"
+  },
+  {
+   "id": "R00413",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Natural language to MongoDB query generation"
+  }
+ ],
+ "source_transcript": "agent-aae4ecbf81c221b7c.jsonl"
+}

@@ -1,0 +1,294 @@
+{
+ "label": "B:b019@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00890",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00891",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Semantic parsing to SQL evaluated on SparC; multi-turn role unclear"
+  },
+  {
+   "id": "R00892",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00893",
+   "d": "include",
+   "code": "INC",
+   "why": "Table retrieval from large database plus parser; schema selection central"
+  },
+  {
+   "id": "R00894",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-linking central to small-model Text-to-SQL, execution accuracy reported"
+  },
+  {
+   "id": "R00895",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00896",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00897",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive clarification; unclear if successive dependent user questions"
+  },
+  {
+   "id": "R00898",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Chatbot with context management and error correction; central role unclear"
+  },
+  {
+   "id": "R00899",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00900",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Humanities RAG chatbot application, text-to-SQL a minor component"
+  },
+  {
+   "id": "R00901",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Adversarial SQL for cardinality estimators, not Text-to-SQL"
+  },
+  {
+   "id": "R00902",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Text/speech-to-SQL with dual-stage error correction; centrality unclear"
+  },
+  {
+   "id": "R00903",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking for Text2SQL evaluated on Spider"
+  },
+  {
+   "id": "R00904",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round Text-to-SQL with state tracker on CHASE"
+  },
+  {
+   "id": "R00905",
+   "d": "include",
+   "code": "INC",
+   "why": "Outcome reward model verification of candidate SQL on BIRD/Spider"
+  },
+  {
+   "id": "R00906",
+   "d": "include",
+   "code": "INC",
+   "why": "Collective SQL refinement and candidate selection"
+  },
+  {
+   "id": "R00907",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph queries, not SQL"
+  },
+  {
+   "id": "R00908",
+   "d": "include",
+   "code": "INC",
+   "why": "Interactive user feedback to correct SQL, evaluated on Spider"
+  },
+  {
+   "id": "R00909",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Context-dependent QA to logical forms over database; SQL unclear"
+  },
+  {
+   "id": "R00910",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent Text-to-SQL on SParC and CoSQL"
+  },
+  {
+   "id": "R00911",
+   "d": "include",
+   "code": "INC",
+   "why": "Decoupled schema linking and skeleton parsing on Spider"
+  },
+  {
+   "id": "R00912",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-SPARQL over knowledge graph"
+  },
+  {
+   "id": "R00913",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational QA over knowledge graphs, graph queries"
+  },
+  {
+   "id": "R00914",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Contract Q&A application, text-to-SQL a component"
+  },
+  {
+   "id": "R00915",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correcting Text-to-SQL evaluated on Spider"
+  },
+  {
+   "id": "R00916",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Food recommendation RAG system, Text-to-SQL a component"
+  },
+  {
+   "id": "R00917",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NLIDB with chat history and hallucination score; scope unclear"
+  },
+  {
+   "id": "R00918",
+   "d": "include",
+   "code": "INC",
+   "why": "Chinese NL2SQL with schema graph pruning and linking on CSpider"
+  },
+  {
+   "id": "R00919",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Perspective/overview of NLIDBs without evaluation"
+  },
+  {
+   "id": "R00920",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational agent with SQL extension; relational scope unclear"
+  },
+  {
+   "id": "R00921",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking model with table filtering for Text2SQL"
+  },
+  {
+   "id": "R00922",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema encoding Text-to-SQL; linking centrality unclear"
+  },
+  {
+   "id": "R00923",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Keyword mapping and schema graph NLIDB; linking centrality unclear"
+  },
+  {
+   "id": "R00924",
+   "d": "include",
+   "code": "INC",
+   "why": "Dialogue rewrite dataset for conversational Text-to-SQL"
+  },
+  {
+   "id": "R00925",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record states article language is Chinese"
+  },
+  {
+   "id": "R00926",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00927",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL history strategies on CoSQL/SParC"
+  },
+  {
+   "id": "R00928",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data dictionary generation, not Text-to-SQL technique"
+  },
+  {
+   "id": "R00929",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00930",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-to-SQL pipeline, no central linking or correction"
+  },
+  {
+   "id": "R00931",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema grounding and reflection agent with user feedback correction"
+  },
+  {
+   "id": "R00932",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Adversarial defense with schema linking component; centrality unclear"
+  },
+  {
+   "id": "R00933",
+   "d": "include",
+   "code": "INC",
+   "why": "Table selection for Text-to-SQL on Spider"
+  },
+  {
+   "id": "R00934",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Heterogeneous graph NL2SQL with schema linking edges; centrality unclear"
+  },
+  {
+   "id": "R00935",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback selection and schema element selection on Spider/BIRD"
+  },
+  {
+   "id": "R00936",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent Text-to-SQL on SParC and CoSQL"
+  },
+  {
+   "id": "R00937",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  }
+ ],
+ "source_transcript": "agent-af53278c1aa96fc13.jsonl"
+}

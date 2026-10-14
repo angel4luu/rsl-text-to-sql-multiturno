@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00003@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00003",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; central contribution is schema pruning and join-hop decomposition, evaluated quantitatively on public BIRD dev.",
+   "where": "p1 Abstract and Contributions; p3-4 Sections 5 and 6.2 (BIRD dev results, Table 3)"
+  }
+ ],
+ "source": "cli:FTB_R00003.json"
+}

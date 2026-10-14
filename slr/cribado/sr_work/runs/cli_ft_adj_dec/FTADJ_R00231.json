@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00231@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00231",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Enterprise intent-routing system; its NL2SQL module is only cited, never described or evaluated; multi-round example is API calls",
+   "where": "p2 §2.1 step 5; p3-4 §3.2, Table 2"
+  }
+ ],
+ "source": "cli:FTADJ_R00231.json"
+}

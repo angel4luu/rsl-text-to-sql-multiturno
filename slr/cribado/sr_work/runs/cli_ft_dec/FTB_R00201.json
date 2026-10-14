@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00201@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00201",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn benchmark of schema selection and query revision modules, with new metrics, evaluated on public BIRD; arXiv 2026, English.",
+   "where": "p1 Abstract; p2 Introduction, Contributions; p3-4 Sec. 3.1 Evaluation Metrics"
+  }
+ ],
+ "source": "cli:FTB_R00201.json"
+}

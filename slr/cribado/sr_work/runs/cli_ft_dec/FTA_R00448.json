@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00448@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00448",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; EGES self-correction and schema-linking augmentation are stated contributions; evaluated quantitatively on Spider.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Sec 5.1-5.3 Experiments"
+  }
+ ],
+ "source": "cli:FTA_R00448.json"
+}

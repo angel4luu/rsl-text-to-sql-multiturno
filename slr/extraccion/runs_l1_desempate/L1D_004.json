@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00064\",\"extraccion\":{\"paradigma_principal\":\"LLM_FINETUNING\"}},{\"id_estudio\":\"R00065\",\"extraccion\":{\"requiere_entrenamiento\":\"NO\"}},{\"id_estudio\":\"R00077\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00081\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00085\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00094\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00105\",\"extraccion\":{\"escenario\":\"MULTITURNO\"}},{\"id_estudio\":\"R00118\",\"extraccion\":{\"escenario\":\"MULTITURNO\",\"requiere_entrenamiento\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_004"
+}

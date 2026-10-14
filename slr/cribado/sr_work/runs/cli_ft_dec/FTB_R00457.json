@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00457@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00457",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking as the central contribution, evaluated quantitatively on Spider and BIRD (EM, EX, VES, F1).",
+   "where": "p1 Abstract; p13 Sec 5 Experiments; p14 Sec 5.1.1 Dataset and 5.1.3 Metrics"
+  }
+ ],
+ "source": "cli:FTB_R00457.json"
+}

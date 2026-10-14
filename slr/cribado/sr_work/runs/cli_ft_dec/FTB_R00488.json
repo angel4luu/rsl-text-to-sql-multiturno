@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00488@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00488",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-based sample+vote candidate selection is a central compared method; Spider dev quantitative evaluation; arXiv 2026, English.",
+   "where": "p1 Abstract; p2 Introduction; p3-4 Experimental Setup and Results, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00488.json"
+}

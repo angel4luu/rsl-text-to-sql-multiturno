@@ -1,0 +1,282 @@
+{
+ "label": "A:b018@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00844",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL-KG-Verifier validates and revises SQL; Spider/BIRD"
+  },
+  {
+   "id": "R00845",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Q-value guided steps include schema linking; unclear if central"
+  },
+  {
+   "id": "R00846",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-pruning linker and localized repair as stated contributions"
+  },
+  {
+   "id": "R00847",
+   "d": "include",
+   "code": "INC",
+   "why": "Onto-Linking model targets schema linking in Text-to-SQL"
+  },
+  {
+   "id": "R00848",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dairy NL2SQL application, no linking/correction focus"
+  },
+  {
+   "id": "R00849",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Rule-based NL2SQL chatbot demo; unclear if dialogue is multi-turn"
+  },
+  {
+   "id": "R00850",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of Text-to-SQL"
+  },
+  {
+   "id": "R00851",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback and schema-linking hints in self-play fine-tuning"
+  },
+  {
+   "id": "R00852",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Pharma platform description, no linking/correction contribution"
+  },
+  {
+   "id": "R00853",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00854",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Semantic parsing on WikiSQL and SparC; unclear multi-turn relevance"
+  },
+  {
+   "id": "R00855",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00856",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record header states article language is Chinese"
+  },
+  {
+   "id": "R00857",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-GraphQL over graph databases"
+  },
+  {
+   "id": "R00858",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Four-module pipeline with schema linking and self-correction; centrality unclear"
+  },
+  {
+   "id": "R00859",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multilingual single-turn dataset, not about linking or correction"
+  },
+  {
+   "id": "R00860",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Benchmark refinement and prompt strategies, single-turn"
+  },
+  {
+   "id": "R00861",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Synthetic data study, single-turn"
+  },
+  {
+   "id": "R00862",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table retrieval with new Text-to-SQL dataset; relevance unclear"
+  },
+  {
+   "id": "R00863",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-guided dense reward in RL; unclear if feedback central"
+  },
+  {
+   "id": "R00864",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent-based schema linking on Bird and Spider 2.0"
+  },
+  {
+   "id": "R00865",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema-aware encoding extends RAT-SQL; schema linking centrality unclear"
+  },
+  {
+   "id": "R00866",
+   "d": "exclude",
+   "code": "E5",
+   "why": "RAG question answering over personalized database, not Text-to-SQL"
+  },
+  {
+   "id": "R00867",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval with dynamic selection and iterative repair"
+  },
+  {
+   "id": "R00868",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL on SparC and CoSQL"
+  },
+  {
+   "id": "R00869",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00870",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-linking and join synthesis via keyword search"
+  },
+  {
+   "id": "R00871",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Keyword-based NLIDB interface standardization, single-turn"
+  },
+  {
+   "id": "R00872",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "LLM-friendly views eliminating joins; schema representation focus"
+  },
+  {
+   "id": "R00873",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clinical chatbot application evaluation, no linking/correction"
+  },
+  {
+   "id": "R00874",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00875",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Educational query system application, linking only error analysis"
+  },
+  {
+   "id": "R00876",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00877",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Topic modelling of geography literature, not Text-to-SQL"
+  },
+  {
+   "id": "R00878",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-based SQL quality feedback loop on BIRD"
+  },
+  {
+   "id": "R00879",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record header states article language is Japanese"
+  },
+  {
+   "id": "R00880",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General prompting methods, single-turn"
+  },
+  {
+   "id": "R00881",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demo of LLM SQL generation applications"
+  },
+  {
+   "id": "R00882",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent iteratively corrects queries; tourism ontology, centrality unclear"
+  },
+  {
+   "id": "R00883",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Hybrid rule/LLM translation, single queries, no linking/correction"
+  },
+  {
+   "id": "R00884",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table QA over data lakes, not SQL generation"
+  },
+  {
+   "id": "R00885",
+   "d": "include",
+   "code": "INC",
+   "why": "Cluster-based schema retrieval for large databases"
+  },
+  {
+   "id": "R00886",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and SQL correction modules as contributions"
+  },
+  {
+   "id": "R00887",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema grounding and execution-based review agents, benchmark evaluated"
+  },
+  {
+   "id": "R00888",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00889",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record header states article language is Chinese"
+  }
+ ],
+ "source_transcript": "agent-a080ebc6cbf709c83.jsonl"
+}

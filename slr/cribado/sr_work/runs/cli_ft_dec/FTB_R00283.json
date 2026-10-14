@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00283@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00283",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is question-schema linking (dual graph linking), evaluated quantitatively on public Spider benchmark.",
+   "where": "p1 Abstract; p2 Contributions; p6-7 Section 4 Experiments, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00283.json"
+}

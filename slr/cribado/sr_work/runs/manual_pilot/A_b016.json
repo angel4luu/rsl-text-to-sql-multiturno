@@ -1,0 +1,306 @@
+{
+ "label": "A:b016@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00749",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comparative survey of existing text-to-SQL systems"
+  },
+  {
+   "id": "R00750",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity testing pipeline, not linking or correction"
+  },
+  {
+   "id": "R00751",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL candidate reranking, evaluated on Spider"
+  },
+  {
+   "id": "R00752",
+   "d": "include",
+   "code": "INC",
+   "why": "Noise filter selecting pertinent schema items; Spider evaluation"
+  },
+  {
+   "id": "R00753",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-Python code dataset, not SQL"
+  },
+  {
+   "id": "R00754",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Uzbek sentiment analysis, not Text-to-SQL"
+  },
+  {
+   "id": "R00755",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Extended abstract of a survey"
+  },
+  {
+   "id": "R00756",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Web table QA with formal queries, not relational SQL"
+  },
+  {
+   "id": "R00757",
+   "d": "exclude",
+   "code": "E5",
+   "why": "ASR punctuation restoration"
+  },
+  {
+   "id": "R00758",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00759",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Course template recommendation, not Text-to-SQL"
+  },
+  {
+   "id": "R00760",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NL2SQL application pipeline, no linking/correction focus"
+  },
+  {
+   "id": "R00761",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2015"
+  },
+  {
+   "id": "R00762",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Frame-semantic parsing, not SQL"
+  },
+  {
+   "id": "R00763",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1990"
+  },
+  {
+   "id": "R00764",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Intent-slot spoken language understanding, no SQL generation"
+  },
+  {
+   "id": "R00765",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph querying of IFC models"
+  },
+  {
+   "id": "R00766",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00767",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generic semantic parsing attention mappings, not SQL"
+  },
+  {
+   "id": "R00768",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Digital human consistency verification, not Text-to-SQL"
+  },
+  {
+   "id": "R00769",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Logical-form semantic parsing via reinforcement learning"
+  },
+  {
+   "id": "R00770",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph KBQA system"
+  },
+  {
+   "id": "R00771",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2013"
+  },
+  {
+   "id": "R00772",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Power knowledge graph governance"
+  },
+  {
+   "id": "R00773",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Legal compliance knowledge graphs"
+  },
+  {
+   "id": "R00774",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00775",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Customer service knowledge graph matching, not SQL"
+  },
+  {
+   "id": "R00776",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn domain adaptation and augmentation, not linking/correction"
+  },
+  {
+   "id": "R00777",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Visual place recognition"
+  },
+  {
+   "id": "R00778",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Column grouping autoencoder, not Text-to-SQL"
+  },
+  {
+   "id": "R00779",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Chinese semantic relations, not SQL"
+  },
+  {
+   "id": "R00780",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2006"
+  },
+  {
+   "id": "R00781",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn tobacco-industry SQL template application"
+  },
+  {
+   "id": "R00782",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Cypher knowledge graph QA"
+  },
+  {
+   "id": "R00783",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semantic role labeling, not SQL"
+  },
+  {
+   "id": "R00784",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Cypher knowledge graph QA over documents"
+  },
+  {
+   "id": "R00785",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00786",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2016"
+  },
+  {
+   "id": "R00787",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00788",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2013"
+  },
+  {
+   "id": "R00789",
+   "d": "exclude",
+   "code": "E5",
+   "why": "IIoT log threat detection"
+  },
+  {
+   "id": "R00790",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Course content graph construction"
+  },
+  {
+   "id": "R00791",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph memory for LLMs"
+  },
+  {
+   "id": "R00792",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Kannada word sense disambiguation"
+  },
+  {
+   "id": "R00793",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn SCADA interface, SQL parsing only a minor component"
+  },
+  {
+   "id": "R00794",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00795",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Cypher knowledge graph museum QA"
+  },
+  {
+   "id": "R00796",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Electrical design RAG agents, not Text-to-SQL"
+  },
+  {
+   "id": "R00797",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1988"
+  },
+  {
+   "id": "R00798",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Face photo-sketch synthesis"
+  }
+ ],
+ "source_transcript": "agent-aa504facbbb033fc6.jsonl"
+}

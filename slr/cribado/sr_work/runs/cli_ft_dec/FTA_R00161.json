@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00161@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00161",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn business query system; contributions are Hierarchical Metrics Query, architecture and dataset. Self-reflection is only a supporting module.",
+   "where": "p1 Abstract; p2 Introduction, key contributions; p5 Experiments 4.1"
+  }
+ ],
+ "source": "cli:FTA_R00161.json"
+}

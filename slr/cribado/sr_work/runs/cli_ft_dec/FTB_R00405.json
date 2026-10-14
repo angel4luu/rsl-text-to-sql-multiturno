@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00405@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00405",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; central contribution is join-coherent table selection (schema linking), evaluated quantitatively on BIRD, Spider, MMQA and BEAVER.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p5-6 Section 5 Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00405.json"
+}

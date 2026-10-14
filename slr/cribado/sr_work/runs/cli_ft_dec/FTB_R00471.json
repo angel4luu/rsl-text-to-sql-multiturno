@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00471@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00471",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn schema-linking study evaluated only on proprietary advertiser support data; no public benchmark used",
+   "where": "p2 Section 3 Dataset; p5-6 Section 5 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00471.json"
+}

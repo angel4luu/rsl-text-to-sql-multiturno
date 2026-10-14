@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00301@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00301",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn text-to-SQL over LLM-extracted columns; evaluation is per query, and no linking or correction contribution. Dialog state is only future work.",
+   "where": "p1 Abstract and Contributions; p3 Section 3.2 and Experimental Results; p4 Section 6 Future Work"
+  }
+ ],
+ "source": "cli:FTA_R00301.json"
+}

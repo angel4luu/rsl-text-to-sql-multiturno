@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-11",
+  "api": "http://export.arxiv.org/api/query",
+  "query_block_A": "((ti:\"text to SQL\" OR abs:\"text to SQL\" OR ti:text2sql OR abs:text2sql OR ti:nl2sql OR abs:nl2sql OR ti:\"NL to SQL\" OR abs:\"NL to SQL\" OR ti:\"natural language to SQL\" OR abs:\"natural language to SQL\" OR ti:\"natural language interface to database\" OR abs:\"natural language interface to database\" OR ti:\"natural language interfaces to databases\" OR abs:\"natural language interfaces to databases\" OR ti:\"natural language interface to relational database\" OR abs:\"natural language interface to relational database\" OR ti:\"natural language interfaces to relational databases\" OR abs:\"natural language interfaces to relational databases\" OR ti:NLIDB OR abs:NLIDB OR ti:NLIDBs OR abs:NLIDBs OR ti:\"SQL generation\" OR abs:\"SQL generation\" OR ti:\"SQL query generation\" OR abs:\"SQL query generation\" OR ti:\"SQL synthesis\" OR abs:\"SQL synthesis\" OR ti:\"question to SQL\" OR abs:\"question to SQL\" OR ti:\"questions to SQL\" OR abs:\"questions to SQL\" OR ti:\"database question answering\" OR abs:\"database question answering\" OR ti:\"question answering over databases\" OR abs:\"question answering over databases\" OR ti:\"question answering over relational databases\" OR abs:\"question answering over relational databases\") OR ((ti:\"semantic parsing\" OR abs:\"semantic parsing\") AND (ti:SQL OR abs:SQL OR ti:database OR abs:database OR ti:databases OR abs:databases OR ti:SParC OR abs:SParC OR ti:CoSQL OR abs:CoSQL OR ti:Spider OR abs:Spider OR ti:CHASE OR abs:CHASE))) AND submittedDate:[201901010000 TO 202610112359]",
+  "page_size": 500,
+  "api_total_results": 960,
+  "unique_records": 960,
+  "with_cs_category": 958,
+  "selected_full_v4": 386,
+  "export_csv": "2026-10-11_arxiv_v4.csv",
+  "raw_pages_dir": "2026-10-11_raw"
+}

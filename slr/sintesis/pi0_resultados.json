@@ -1,0 +1,46 @@
+{
+ "n_estudios": 390,
+ "n_multiturno": 77,
+ "no_recuperados_por_senal": {
+  "un_turno": 148,
+  "multiturno": 43
+ },
+ "D4": {
+  "estricto": {
+   "k": 34,
+   "n": 302,
+   "p": 0.1126,
+   "ic95": [
+    0.0817,
+    0.1532
+   ],
+   "conclusion": "considerablemente menos investigado"
+  },
+  "laxo": {
+   "k": 49,
+   "n": 317,
+   "p": 0.1546,
+   "ic95": [
+    0.1189,
+    0.1985
+   ],
+   "conclusion": "considerablemente menos investigado"
+  },
+  "tendencia_2019_2025": {
+   "estadistico": -0.6,
+   "p_exacta_bilateral": 0.9499,
+   "replicas": 10000
+  },
+  "anio_2026_parcial": {
+   "anio": 2026,
+   "k": 7,
+   "n": 122,
+   "p": 0.0574,
+   "ic_inf": 0.0281,
+   "ic_sup": 0.1137
+  }
+ },
+ "tecnicas_un_turno_no_trasladadas": [
+  "pi4_mecanismo:AUTOCONSISTENCIA_VOTACION (42)"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00419@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00419",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose stated contributions are schema filtering and execution-guided repair, evaluated quantitatively on Spider, BIRD, KaggleDBQA and Spider 2.0.",
+   "where": "p1 Abstract; p2 Contributions; p8-9 Section 5 Experiments, Tables 3-7"
+  }
+ ],
+ "source": "cli:FTB_R00419.json"
+}

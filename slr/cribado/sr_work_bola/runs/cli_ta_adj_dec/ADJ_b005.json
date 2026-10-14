@@ -1,0 +1,18 @@
+{
+ "label": "ADJ:b005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00218",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn general transformer encoder; schema linking not stated as contribution"
+  },
+  {
+   "id": "R00231",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-question user demonstrations for parser training; no multi-turn dialogue or self-correction"
+  }
+ ],
+ "source": "cli:ADJ_b005.json"
+}

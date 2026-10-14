@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00374@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00374",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn (sharded) Text-to-SQL on Spider databases; prompt optimisation from turn-level feedback; quantitative functional accuracy reported; arXiv preprint, 2026.",
+   "where": "p5 Section 4.1 Text-to-SQL; p6-7 Section 5.1, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00374.json"
+}

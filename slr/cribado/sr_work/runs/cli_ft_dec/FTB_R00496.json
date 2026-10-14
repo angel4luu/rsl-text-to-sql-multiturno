@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00496@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00496",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn BIRD/Spider Text-to-SQL; schema-linking agent jointly trained with SQL agent, execution-feedback correction, quantitative results on public benchmarks.",
+   "where": "p1 Abstract; p2 Contributions; p6-7 Sec. 5.2 Tables 1-4"
+  }
+ ],
+ "source": "cli:FTB_R00496.json"
+}

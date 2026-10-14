@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00327@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00327",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; reflection-based mistake notebook and cross-consistency selection are central; EX evaluated on BIRD dev set.",
+   "where": "p1 Abstract; p5 §3.2-3.4; p5-6 §4 Experimental Setup"
+  }
+ ],
+ "source": "cli:FTB_R00327.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00282@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00282",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise Text-to-SQL benchmark; linking and self-correction are not a stated central contribution.",
+   "where": "p1 Abstract; p1-2 Introduction"
+  }
+ ],
+ "source": "cli:FTB_R00282.json"
+}

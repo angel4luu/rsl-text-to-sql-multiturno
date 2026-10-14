@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00327@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00327",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn BIRD study; mistake-notebook reflection, execution-based cross-consistency and error-feedback correction are stated contributions; quantitative EX results.",
+   "where": "p1 Abstract; p5 Sec 3.2-3.4; p5-6 Sec 4 Experimental setup"
+  }
+ ],
+ "source": "cli:FTA_R00327.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00042@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00042",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL on SParC/CoSQL with dynamic schema linking and context tracking; quantitative evaluation reported.",
+   "where": "p1 Abstract; p5-7 Sec 3.1-3.2, Tables 1-3"
+  }
+ ],
+ "source_transcript": "agent-a56cd90d238aa15ce.jsonl"
+}

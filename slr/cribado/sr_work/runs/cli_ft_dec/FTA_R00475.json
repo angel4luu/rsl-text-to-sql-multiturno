@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00475@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00475",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL correction is the central contribution. It is evaluated quantitatively on public BIRD and ScienceBenchmark, with EX gains reported.",
+   "where": "p1 Abstract and Contributions; p6 Sec 4.1 Benchmarks; p6-7 Sec 4.2, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00475.json"
+}

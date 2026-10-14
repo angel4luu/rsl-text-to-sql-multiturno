@@ -1,0 +1,306 @@
+{
+ "label": "QC:q002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00001",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic survey of LLM-based Text-to-SQL"
+  },
+  {
+   "id": "R00003",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Title indicates overview of recent trends"
+  },
+  {
+   "id": "R00004",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of Text-to-SQL in LLM era"
+  },
+  {
+   "id": "R00006",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based Text-to-SQL methods"
+  },
+  {
+   "id": "R00008",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LoRA fine-tuning on Spider, no linking/correction contribution"
+  },
+  {
+   "id": "R00009",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title on reasoning fine-tuning, no linking/correction"
+  },
+  {
+   "id": "R00010",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title on chain-of-thought supervision only"
+  },
+  {
+   "id": "R00012",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; relation-graph encoder may centre on question-schema linking"
+  },
+  {
+   "id": "R00015",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn domain-knowledge robustness dataset, not linking/correction"
+  },
+  {
+   "id": "R00017",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn graph encoder/AST decoder framework, no stated linking focus"
+  },
+  {
+   "id": "R00018",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Codex capability evaluation"
+  },
+  {
+   "id": "R00020",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt construction study"
+  },
+  {
+   "id": "R00022",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review of NL interfaces to databases"
+  },
+  {
+   "id": "R00023",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; multilingual benchmarking, no multi-turn/linking/correction in title"
+  },
+  {
+   "id": "R00025",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn schema-evolution robustness benchmark, not linking/correction"
+  },
+  {
+   "id": "R00026",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn template-constrained decoding"
+  },
+  {
+   "id": "R00028",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; generic chapter title without core focus"
+  },
+  {
+   "id": "R00029",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; generic chapter title without core focus"
+  },
+  {
+   "id": "R00031",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn adaptive prompting and example selection"
+  },
+  {
+   "id": "R00033",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; domain RAG NL2SQL application, no core focus in title"
+  },
+  {
+   "id": "R00035",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of Text-to-SQL advances"
+  },
+  {
+   "id": "R00036",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of deep learning Text-to-SQL models"
+  },
+  {
+   "id": "R00038",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn bottom-up decoding method"
+  },
+  {
+   "id": "R00039",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generates text from SQL, not Text-to-SQL"
+  },
+  {
+   "id": "R00040",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Marks schema/content entities in question; unclear if linking is central"
+  },
+  {
+   "id": "R00041",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL corpus generation framework, single-turn data synthesis"
+  },
+  {
+   "id": "R00044",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn bottom-up decoding method"
+  },
+  {
+   "id": "R00045",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Synthetic training data pipeline, single-turn"
+  },
+  {
+   "id": "R00047",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Semi-supervised continual learning, single-turn"
+  },
+  {
+   "id": "R00051",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Uncertainty constraints for parser robustness, single-turn"
+  },
+  {
+   "id": "R00054",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; prompting with skeleton retrieval, single-turn"
+  },
+  {
+   "id": "R00055",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; general LLaMA NL2SQL with metadata"
+  },
+  {
+   "id": "R00057",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn sketch-based slot filling"
+  },
+  {
+   "id": "R00058",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn cross-database generalization evaluation"
+  },
+  {
+   "id": "R00059",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn data augmentation via SQL-to-question generation"
+  },
+  {
+   "id": "R00063",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; LLM robustness investigation, single-turn"
+  },
+  {
+   "id": "R00066",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multi-task structured knowledge grounding, no multi-turn/linking focus stated"
+  },
+  {
+   "id": "R00067",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis for semantic parsing, single-turn"
+  },
+  {
+   "id": "R00071",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn T5 fine-tuning for medical Text-to-SQL"
+  },
+  {
+   "id": "R00073",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; retrieval-augmented prompting, single-turn"
+  },
+  {
+   "id": "R00075",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn difficulty-aware in-context learning with example retrieval"
+  },
+  {
+   "id": "R00077",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn evaluation metric"
+  },
+  {
+   "id": "R00078",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clinical database deployment and LLM application description"
+  },
+  {
+   "id": "R00079",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn few-shot prompt design"
+  },
+  {
+   "id": "R00080",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; query hardness decoupling, single-turn"
+  },
+  {
+   "id": "R00081",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; multilingual spatial NLIDB, no core focus in title"
+  },
+  {
+   "id": "R00082",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Database-aware value disambiguation component; 'contextual' search unclear"
+  },
+  {
+   "id": "R00083",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn grammatical graph encoder"
+  },
+  {
+   "id": "R00084",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn cross-schema Chinese medical dataset"
+  },
+  {
+   "id": "R00085",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; two-stage fine-tuning, single-turn"
+  }
+ ],
+ "source": "cli:QC_q002.json"
+}

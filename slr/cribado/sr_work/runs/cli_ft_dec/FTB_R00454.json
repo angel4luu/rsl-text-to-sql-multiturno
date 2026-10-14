@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00454@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00454",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; error-aware revision with execution feedback is a stated key innovation; evaluated quantitatively on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p4 §3-4 (error-aware revision, schema selection)"
+  }
+ ],
+ "source": "cli:FTB_R00454.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00101@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00101",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with coreference relations and schema linking; quantitative evaluation on SParC, CoSQL and Spider; EMNLP 2022 paper.",
+   "where": "p1 Abstract; p4-5 Sec 4.2 Interaction Graph; p6-8 Sec 5 Experiments, Tables 2-5"
+  }
+ ],
+ "source": "cli:FTB_R00101.json"
+}

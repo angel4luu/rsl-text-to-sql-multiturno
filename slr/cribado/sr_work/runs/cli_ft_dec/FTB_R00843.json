@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00843@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00843",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluated on independent single-turn questions; contributions are dataset, retrieval and PoT prompting. Self-correction is only an ablated module.",
+   "where": "p2 Introduction (contributions); p11 Self-correction; p12-14 Experiments and ablation"
+  }
+ ],
+ "source": "cli:FTB_R00843.json"
+}

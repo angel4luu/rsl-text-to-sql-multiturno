@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00086@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00086",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL; LLM question rewriting for multi-turn SParC/CoSQL plus Spider evaluation with schema-linking-style CoT; 2023 English paper.",
+   "where": "p5 Sec 3.4 Extension for Multi-turn; p6-8 Sec 4 Experiments, Tables 2, 8, 9"
+  }
+ ],
+ "source_transcript": "agent-a1a26600a24b63513.jsonl"
+}

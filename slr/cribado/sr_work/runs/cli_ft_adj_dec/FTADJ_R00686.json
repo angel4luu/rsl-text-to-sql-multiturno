@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00686@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00686",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn benchmark with dedicated Schema Linking and SQL Debugging/self-correction tasks among five contributions; evaluated on Spider and BIRD.",
+   "where": "p2 Fig.1 and Introduction (five tasks); p5-6 Sections 5.1-5.2 Evaluation, SQL Debugging"
+  }
+ ],
+ "source": "cli:FTADJ_R00686.json"
+}

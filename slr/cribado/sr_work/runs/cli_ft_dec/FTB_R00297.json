@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00297@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00297",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema pruning is a stated central contribution, evaluated on Spider (exact set match 0.718→0.736); arXiv 2023.",
+   "where": "p1 Abstract; p4 Introduction, main contributions"
+  }
+ ],
+ "source": "cli:FTB_R00297.json"
+}

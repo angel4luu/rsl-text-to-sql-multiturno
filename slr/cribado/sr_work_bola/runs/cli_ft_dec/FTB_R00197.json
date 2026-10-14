@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00197@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00197",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider encoder for cross-domain generalization; schema linking only a component, not the stated central contribution; no self-correction.",
+   "where": "p1 Abstract; p2 Introduction, Contributions; p6 Sec 4.1 Baselines"
+  }
+ ],
+ "source": "cli:FTB_R00197.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00281@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00281",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-based self-consistency reward, candidate selection and SQL revision are stated contributions; evaluated on BIRD and Spider dev sets.",
+   "where": "p1 Abstract and Introduction contributions; p2 reward function; p7 Section 5.1 Datasets and Section 5.2 Settings; p8 Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00281.json"
+}

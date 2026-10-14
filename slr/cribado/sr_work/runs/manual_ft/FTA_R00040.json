@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00040@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00040",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn schema-in-prompt Text-to-SQL inside a RAG assistant; no dialogue-dependent evaluation, no central linking or correction contribution.",
+   "where": "p2 Contributions; p4 Sec 3.4 and Sec 4.3 (30 independent queries); p6 Limitations"
+  }
+ ],
+ "source_transcript": "agent-a65a88600e5c71b34.jsonl"
+}

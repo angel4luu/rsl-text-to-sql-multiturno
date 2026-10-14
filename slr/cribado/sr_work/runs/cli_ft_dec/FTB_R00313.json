@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00313@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00313",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn self-correction guideline generation for Text-to-SQL, evaluated quantitatively (execution accuracy) on public BIRD and Spider dev sets; arXiv 2024.",
+   "where": "p1 Abstract and Introduction contributions; p4 Experimental setup (Datasets, Metrics); p5 Table 1 and Results"
+  }
+ ],
+ "source": "cli:FTB_R00313.json"
+}

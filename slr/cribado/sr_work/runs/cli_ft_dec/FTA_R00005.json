@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00005@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00005",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study centred on schema linking (database retrieval) over relational Spider-PT, with Hit@k results on a public benchmark",
+   "where": "p1 Abstract; p2 Introduction; p7-8 Sections 4.3 and 5, Table 4"
+  }
+ ],
+ "source": "cli:FTA_R00005.json"
+}

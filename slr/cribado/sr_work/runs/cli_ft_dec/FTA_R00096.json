@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00096@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00096",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL pre-training with schema state tracking; evaluated quantitatively on SParC and CoSQL, per-turn results reported.",
+   "where": "p1 Abstract; p6-7 Section 5 Experiment, Tables 1-2, Fig. 4"
+  }
+ ],
+ "source": "cli:FTA_R00096.json"
+}

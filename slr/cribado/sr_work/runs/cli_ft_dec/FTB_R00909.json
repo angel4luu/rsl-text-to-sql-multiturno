@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00909@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00909",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Parses speech-transcribed questions into custom logical forms over time-series patient data; no SQL generation or relational SQL evaluation.",
+   "where": "p3-4 Sec. 2 Task definition; p8-9 Sec. 4.1 Semantic parsing datasets (logical form vocabulary)"
+  }
+ ],
+ "source": "cli:FTB_R00909.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00418@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00418",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn standalone queries; central contribution is a schema-internalization fine-tuning recipe, not schema linking or self-correction.",
+   "where": "p1 Abstract; p2 Contributions; p4-5 Sec. 4.3 Two-Phase Fine-Tuning; p6 Sec. 6.1 Test Set"
+  }
+ ],
+ "source": "cli:FTB_R00418.json"
+}

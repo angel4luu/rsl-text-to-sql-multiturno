@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00286@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00286",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with discourse structure, schema linking and join completion; evaluated on SParC, CoSQL, CHASE, Spider.",
+   "where": "p1 Abstract; p3-4 Methodology 3.3-3.5; p5-6 Experiments, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00286.json"
+}

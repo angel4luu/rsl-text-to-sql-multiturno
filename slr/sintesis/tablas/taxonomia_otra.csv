@@ -1,0 +1,231 @@
+tipo,original,canonico,familia,filas
+benchmark,AEP (interno),AEP,Datos propios / industriales,2
+benchmark,BAIDU_MRD_PRODUCTION (private),BAIDU MRD PRODUCTION,Datos propios / industriales,6
+benchmark,BAIDU_MRD_PRODUCTION,BAIDU MRD PRODUCTION,Datos propios / industriales,2
+benchmark,BAIDU_SRD_PRODUCTION,BAIDU SRD PRODUCTION,Datos propios / industriales,4
+benchmark,BD-Business Line A,BD-Business Line A,Datos propios / industriales,1
+benchmark,DATAQUE_PRODUCCION_PROPIO,DATAQUE PRODUCCION PROPIO,Datos propios / industriales,1
+benchmark,Experience Platform,Experience Platform,Datos propios / industriales,1
+benchmark,Fleet-Sweep,Fleet-Sweep,Datos propios / industriales,6
+benchmark,MRD,MRD,Datos propios / industriales,1
+benchmark,MRD_BI_Baidu,MRD BI Baidu,Datos propios / industriales,5
+benchmark,MRD production dataset,MRD production dataset,Datos propios / industriales,2
+benchmark,MRD-Industry,MRD-Industry,Datos propios / industriales,6
+benchmark,SRD,SRD,Datos propios / industriales,1
+benchmark,SRD_BI_Baidu,SRD BI Baidu,Datos propios / industriales,5
+benchmark,SRD production dataset,SRD production dataset,Datos propios / industriales,3
+benchmark,SRD-Industry,SRD-Industry,Datos propios / industriales,6
+benchmark,"Yelp Restaurants (propio, single-turn)",Yelp Restaurants,Datos propios / industriales,3
+benchmark,"Yelp Restaurants (propio, conversacional)",Yelp Restaurants,Datos propios / industriales,3
+benchmark,AirDialogue,AirDialogue,Diálogo orientado a tareas / estado del diálogo,47
+benchmark,AirDialogue (Synthesized),AirDialogue,Diálogo orientado a tareas / estado del diálogo,11
+benchmark,MULTIWOZ,MULTIWOZ,Diálogo orientado a tareas / estado del diálogo,42
+benchmark,MULTIWOZ_2.1,MULTIWOZ,Diálogo orientado a tareas / estado del diálogo,2
+benchmark,MultiWOZ,MultiWOZ,Diálogo orientado a tareas / estado del diálogo,43
+benchmark,MultiWOZ_2.1,MultiWOZ,Diálogo orientado a tareas / estado del diálogo,3
+benchmark,Restaurant_CONVERSATIONAL,Restaurant CONVERSATIONAL,Diálogo orientado a tareas / estado del diálogo,3
+benchmark,Restaurant_SINGLE_TURN,Restaurant SINGLE TURN,Diálogo orientado a tareas / estado del diálogo,3
+benchmark,SemPlan,SemPlan,Diálogo orientado a tareas / estado del diálogo,13
+benchmark,Proprietary commercial spending dataset,Proprietary commercial spending dataset,Específicas del benchmark,1
+benchmark,Proprietary supplier management (procurement) dataset,Proprietary supplier management (procurement) dataset,Específicas del benchmark,1
+benchmark,Proprietary supplier management and commercial spending datasets,Proprietary supplier management and commercial spending datasets,Específicas del benchmark,1
+benchmark,AmbigSQL (Spider-derived),AmbigSQL,Interactivo / aclaración,24
+benchmark,AmbigSQL,AmbigSQL,Interactivo / aclaración,14
+benchmark,BIRD-INTERACT,BIRD-INTERACT,Interactivo / aclaración,55
+benchmark,BIRD-Interact,BIRD-Interact,Interactivo / aclaración,59
+benchmark,BIRD-Interact Mini,BIRD-Interact Mini,Interactivo / aclaración,9
+benchmark,BIRD-Interact-Full,BIRD-Interact-Full,Interactivo / aclaración,34
+benchmark,CLARITY-Spider,CLARITY-Spider,Interactivo / aclaración,48
+benchmark,CLARITY-Spider-ColAmb-MultiFacet,CLARITY-Spider-ColAmb-MultiFacet,Interactivo / aclaración,10
+benchmark,CLARITY-Spider-ColAmb-UniFacet,CLARITY-Spider-ColAmb-UniFacet,Interactivo / aclaración,10
+benchmark,EHR-ChatQA,EHR-ChatQA,Interactivo / aclaración,34
+benchmark,EHR-ChatQA-AdaptQA,EHR-ChatQA-AdaptQA,Interactivo / aclaración,12
+benchmark,EHR-ChatQA-IncreQA,EHR-ChatQA-IncreQA,Interactivo / aclaración,14
+benchmark,EnterpriseMem-Bench,EnterpriseMem-Bench,Interactivo / aclaración,44
+benchmark,PRACTIQ,PRACTIQ,Interactivo / aclaración,17
+benchmark,PRACTIQ excluyendo Answerable,PRACTIQ excluyendo Answerable,Interactivo / aclaración,6
+benchmark,SPLASH,SPLASH,Interactivo / aclaración,39
+benchmark,TIDE-Bench (anclas de BIRD),TIDE-Bench,Interactivo / aclaración,33
+benchmark,TIDE-Bench Chain-only,TIDE-Bench Chain-only,Interactivo / aclaración,12
+benchmark,TIDE-Bench Drift-only,TIDE-Bench Drift-only,Interactivo / aclaración,11
+benchmark,TIDE-Bench Joint,TIDE-Bench Joint,Interactivo / aclaración,10
+benchmark,TIDE-Bench candidatos de construcción,TIDE-Bench candidatos de construcción,Interactivo / aclaración,1
+benchmark,Ar-SParC,Ar-SParC,Multiturno conversacional,66
+benchmark,CHASE-C,CHASE-C,Multiturno conversacional,5
+benchmark,CHASE-T,CHASE-T,Multiturno conversacional,5
+benchmark,COSQL_CQR (tarea CQR),COSQL CQR,Multiturno conversacional,2
+benchmark,COSQL-CG,COSQL-CG,Multiturno conversacional,17
+benchmark,COSQL-CG (CG subset),COSQL-CG (CG subset),Multiturno conversacional,9
+benchmark,COSQL-CG (Non-CG subset),COSQL-CG (Non-CG subset),Multiturno conversacional,6
+benchmark,DySQL-Bench,DySQL-Bench,Multiturno conversacional,2
+benchmark,DySQL-Bench/eu_soccer,DySQL-Bench,Multiturno conversacional,8
+benchmark,DySQL-Bench/ice_hockey,DySQL-Bench,Multiturno conversacional,6
+benchmark,DySQL-Bench/bowling,DySQL-Bench,Multiturno conversacional,8
+benchmark,DySQL-Bench/entertainment,DySQL-Bench,Multiturno conversacional,8
+benchmark,DySQL-Bench/music,DySQL-Bench,Multiturno conversacional,7
+benchmark,EHR-SeqSQL,EHR-SeqSQL,Multiturno conversacional,56
+benchmark,FollowUp,FollowUp,Multiturno conversacional,74
+benchmark,Lost_in_conversation (Spider-based),Lost in conversation,Multiturno conversacional,41
+benchmark,Lost_in_conversation,Lost in conversation,Multiturno conversacional,35
+benchmark,MMSQL,MMSQL,Multiturno conversacional,44
+benchmark,MRD-BIRD,MRD-BIRD,Multiturno conversacional,6
+benchmark,MultiSQL,MultiSQL,Multiturno conversacional,70
+benchmark,PLSQLBench-Spider2-MT,PLSQLBench-Spider2-MT,Multiturno conversacional,38
+benchmark,SeSQL,SESQL,Multiturno conversacional,16
+benchmark,SPARC_CQR (tarea CQR),SPARC CQR,Multiturno conversacional,2
+benchmark,SPARC-CG,SPARC-CG,Multiturno conversacional,17
+benchmark,SPARC-CG (CG subset),SPARC-CG (CG subset),Multiturno conversacional,9
+benchmark,SPARC-CG (Non-CG subset),SPARC-CG (Non-CG subset),Multiturno conversacional,6
+benchmark,Spider2-MT,Spider2-MT,Multiturno conversacional,24
+benchmark,Abg-CoQA,Abg-CoQA,QA conversacional / tabular híbrida,8
+benchmark,HybridQA,HybridQA,QA conversacional / tabular híbrida,45
+benchmark,PACIFIC,PACIFIC,QA conversacional / tabular híbrida,29
+benchmark,SQA,SQA,QA conversacional / tabular híbrida,6
+benchmark,ADVETA(ADD),ADVETA(ADD),"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,ADVETA(RPL),ADVETA(RPL),"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,CSpider,CSpider,"Variantes de un turno (robustez, dominio, idioma)",1
+benchmark,DuSQL,DUSQL,"Variantes de un turno (robustez, dominio, idioma)",14
+benchmark,EHRSQL,EHRSQL,"Variantes de un turno (robustez, dominio, idioma)",10
+benchmark,Fiben,FIBEN,"Variantes de un turno (robustez, dominio, idioma)",27
+benchmark,FinScreenBench,FinScreenBench,"Variantes de un turno (robustez, dominio, idioma)",42
+benchmark,LiveSQLBench,LiveSQLBench,"Variantes de un turno (robustez, dominio, idioma)",8
+benchmark,LiveSQLBench Base-Lite SQLite,LiveSQLBench Base-Lite SQLite,"Variantes de un turno (robustez, dominio, idioma)",8
+benchmark,MBPP+-PLSQL,MBPP+-PLSQL,"Variantes de un turno (robustez, dominio, idioma)",12
+benchmark,PLSQLBench-Spider2-ST,PLSQLBench-Spider2-ST,"Variantes de un turno (robustez, dominio, idioma)",10
+benchmark,Spider-CG(APP),Spider-CG(APP),"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,Spider-CG(SUB),Spider-CG(SUB),"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,Spider-DK,Spider-DK,"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,Spider-Realistic,Spider-Realistic,"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,Spider-SYN,Spider-SYN,"Variantes de un turno (robustez, dominio, idioma)",4
+benchmark,Spider2-ST,Spider2-ST,"Variantes de un turno (robustez, dominio, idioma)",14
+benchmark,Spider2-Snow,Spider2-Snow,"Variantes de un turno (robustez, dominio, idioma)",16
+metrica,EA_CONCISE,EA CONCISE,Calidad de la explicación (evaluación humana),5
+metrica,EA_NOT_HELPFUL,EA NOT HELPFUL,Calidad de la explicación (evaluación humana),5
+metrica,EA_PARTIAL,EA PARTIAL,Calidad de la explicación (evaluación humana),5
+metrica,EA_VERBOSE,EA VERBOSE,Calidad de la explicación (evaluación humana),5
+metrica,Acccol,ACCCOL,Coincidencia exacta / lógica,2
+metrica,Accop,ACCOP,Coincidencia exacta / lógica,2
+metrica,AccS,ACCS,Coincidencia exacta / lógica,2
+metrica,Accval,ACCVAL,Coincidencia exacta / lógica,2
+metrica,EM(QM),EM(QM),Coincidencia exacta / lógica,3
+metrica,ETM,ETM,Coincidencia exacta / lógica,10
+metrica,LEM,LEM,Coincidencia exacta / lógica,10
+metrica,LEM_MULTIFACET_COLUMN_AMBIGUITY,LEM MULTIFACET COLUMN AMBIGUITY,Coincidencia exacta / lógica,7
+metrica,LEM_UNIFACET_COLUMN_AMBIGUITY,LEM UNIFACET COLUMN AMBIGUITY,Coincidencia exacta / lógica,7
+metrica,LX (QM as in Table 3; Table 5 caption says Logical Form Accuracy),LX (QM as in Table 3; Table 5 caption says Logical Form Accuracy),Coincidencia exacta / lógica,6
+metrica,LX (Table 5 caption; EM in Table 2),LX (Table 5 caption; EM in Table 2),Coincidencia exacta / lógica,3
+metrica,Name Acc,Name Acc,Coincidencia exacta / lógica,6
+metrica,Name Acc.,Name Acc,Coincidencia exacta / lógica,5
+metrica,QM-EM,QM-EM,Coincidencia exacta / lógica,4
+metrica,SEM,SEM,Coincidencia exacta / lógica,10
+metrica,SEM_MULTIFACET_COLUMN_AMBIGUITY,SEM MULTIFACET COLUMN AMBIGUITY,Coincidencia exacta / lógica,7
+metrica,SEM_UNIFACET_COLUMN_AMBIGUITY,SEM UNIFACET COLUMN AMBIGUITY,Coincidencia exacta / lógica,7
+metrica,Symbol Accuracy,Symbol Accuracy,Coincidencia exacta / lógica,33
+metrica,EM(IM),EM(IM),Ejecución por interacción (multiturno),3
+metrica,EX(IM),EX(IM),Ejecución por interacción (multiturno),13
+metrica,IAccS,IACCS,Ejecución por interacción (multiturno),2
+metrica,IEX,IEX,Ejecución por interacción (multiturno),51
+metrica,IM-EX,IM-EX,Ejecución por interacción (multiturno),51
+metrica,IM_EX,IM-EX,Ejecución por interacción (multiturno),2
+metrica,IM-TS,IM-TS,Ejecución por interacción (multiturno),13
+metrica,IM_TS,IM-TS,Ejecución por interacción (multiturno),2
+metrica,MTS,MTS,Ejecución por interacción (multiturno),5
+metrica,TS(IM),TS(IM),Ejecución por interacción (multiturno),11
+metrica,sequence_state_correct,sequence state correct,Ejecución por interacción (multiturno),6
+metrica,CEA,CEA,Ejecución por pregunta,8
+metrica,Context-aware Match (Select),Context-aware Match (Select),Ejecución por pregunta,7
+metrica,ContextAwareMatch_Update,ContextAwareMatch Update,Ejecución por pregunta,9
+metrica,Database State Match (Insert),Database State Match (Insert),Ejecución por pregunta,10
+metrica,DatabaseStateMatch_Insert,Database State Match (Insert),Ejecución por pregunta,10
+metrica,DatabaseStateMatch_Create,DatabaseStateMatch Create,Ejecución por pregunta,6
+metrica,DatabaseStateMatch_Update,DatabaseStateMatch Update,Ejecución por pregunta,6
+metrica,EX(QM),EX(QM),Ejecución por pregunta,10
+metrica,FX,FX,Ejecución por pregunta,6
+metrica,Post-clarification EX,Post-clarification EX,Ejecución por pregunta,12
+metrica,QEX,QEX,Ejecución por pregunta,16
+metrica,QM-EX,QM-EX,Ejecución por pregunta,59
+metrica,QM_EX,QM-EX,Ejecución por pregunta,2
+metrica,QM-TS,QM-TS,Ejecución por pregunta,4
+metrica,QM_TS,QM-TS,Ejecución por pregunta,2
+metrica,SQL Executability,SQL Executability,Ejecución por pregunta,8
+metrica,TDEX,TDEX,Ejecución por pregunta,9
+metrica,TS(QM),TS(QM),Ejecución por pregunta,6
+metrica,UEX,UEX,Ejecución por pregunta,35
+metrica,VA,VA,Ejecución por pregunta,6
+metrica,DEA,DEA,Específicas del benchmark,33
+metrica,DEA_chain-only_strict,DEA chain-only strict,Específicas del benchmark,12
+metrica,DEA_drift-only_all,DEA drift-only all,Específicas del benchmark,11
+metrica,DEA_joint_all,DEA joint all,Específicas del benchmark,10
+metrica,ERROR,ERROR,Específicas del benchmark,2
+metrica,QED (lower is better),QED,Específicas del benchmark,4
+metrica,RQS,RQS,Específicas del benchmark,10
+metrica,Trajectory-level Similarity,Trajectory-level Similarity,Específicas del benchmark,8
+metrica,ACCURACY_CLASIFICACION_9_CATEGORIAS,ACCURACY CLASIFICACION 9 CATEGORIAS,Estado del diálogo / aclaración,2
+metrica,CLASSIFICATION_ACCURACY,CLASSIFICATION ACCURACY,Estado del diálogo / aclaración,1
+metrica,CRS@0.5,CRS@0.5,Estado del diálogo / aclaración,4
+metrica,F1 de pares slot-valor del estado completo,F1 de pares slot-valor del estado completo,Estado del diálogo / aclaración,1
+metrica,Flight Acc,Flight Acc,Estado del diálogo / aclaración,7
+metrica,Flight Acc.,Flight Acc,Estado del diálogo / aclaración,7
+metrica,JGA,JGA,Estado del diálogo / aclaración,89
+metrica,LCR,LCR,Estado del diálogo / aclaración,11
+metrica,Post-Clarification DROP F1,Post-Clarification DROP F1,Estado del diálogo / aclaración,1
+metrica,State Acc,State Acc,Estado del diálogo / aclaración,7
+metrica,State Acc.,State Acc,Estado del diálogo / aclaración,7
+metrica,TRS@0.5,TRS@0.5,Estado del diálogo / aclaración,4
+metrica,USER_DIALOG_ACT_ACCURACY,USER DIALOG ACT ACCURACY,Estado del diálogo / aclaración,4
+metrica,clarification_correct,clarification correct,Estado del diálogo / aclaración,2
+metrica,turn accuracy,turn accuracy,Estado del diálogo / aclaración,6
+metrica,TURN_ACCURACY,turn accuracy,Estado del diálogo / aclaración,6
+metrica,Turn Accuracy,turn accuracy,Estado del diálogo / aclaración,6
+metrica,Acc.,ACC.,Exactitud no especificada,1
+metrica,WikiSQL Acc.,WikiSQL Acc.,Exactitud no especificada,3
+metrica,accuracy,accuracy,Exactitud no especificada,3
+metrica,Accuracy (unspecified),accuracy,Exactitud no especificada,3
+metrica,BLEU,BLEU,Generación de texto / respuesta,52
+metrica,F1,F1,Generación de texto / respuesta,14
+metrica,F1 Score,F1 Score,Generación de texto / respuesta,10
+metrica,Grammar,Grammar,Generación de texto / respuesta,3
+metrica,Post-Clarify F1,Post-Clarify F1,Generación de texto / respuesta,3
+metrica,Trajectory DROP F1,Trajectory DROP F1,Generación de texto / respuesta,3
+metrica,Trajectory-level DROP F1,Trajectory-level DROP F1,Generación de texto / respuesta,19
+metrica,answer_correct,answer correct,Generación de texto / respuesta,5
+metrica,% de instancias corregidas con feedback,% de instancias corregidas con feedback,Mejora / efecto de un componente,7
+metrica,Edit decreased %,Edit decreased %,Mejora / efecto de un componente,4
+metrica,Edit increased %,Edit increased %,Mejora / efecto de un componente,4
+metrica,MEJORA_EX_SOBRE_NO_FEEDBACK_PP,MEJORA EX SOBRE NO FEEDBACK PP,Mejora / efecto de un componente,23
+metrica,PORCENTAJE_INSTANCIAS_CORREGIDAS,PORCENTAJE INSTANCIAS CORREGIDAS,Mejora / efecto de un componente,6
+metrica,Persistencia de restricción errónea,Persistencia de restricción errónea,Mejora / efecto de un componente,1
+metrica,delta_EX_vs_NoFeedback,delta EX vs NoFeedback,Mejora / efecto de un componente,12
+metrica,Avg. F1,Avg. F1,Recuperación / ordenamiento,1
+metrica,Avg. Pre,Avg. Pre,Recuperación / ordenamiento,1
+metrica,Avg. Rec,Avg. Rec,Recuperación / ordenamiento,1
+metrica,KENDALL_TAU_RANGOS_GE3,KENDALL TAU RANGOS GE3,Recuperación / ordenamiento,4
+metrica,KENDALL_TAU_TODOS_LOS_RANGOS,KENDALL TAU TODOS LOS RANGOS,Recuperación / ordenamiento,4
+metrica,Kendall_tau_medio_rangos_>=3,Kendall tau medio rangos >=3,Recuperación / ordenamiento,4
+metrica,Kendall_tau_medio_todos_los_rangos,Kendall tau medio todos los rangos,Recuperación / ordenamiento,4
+metrica,Macro F1 (action level),Macro F1 (action level),Recuperación / ordenamiento,3
+metrica,Recall@5,Recall@5,Recuperación / ordenamiento,3
+metrica,EpisodePass@1,EpisodePass@1,Éxito de tarea / agente,10
+metrica,MeanTestPass@1,Mean Test Pass@1,Éxito de tarea / agente,34
+metrica,Mean Test Pass@1,Mean Test Pass@1,Éxito de tarea / agente,50
+metrica,Pass@5,PASS@5,Éxito de tarea / agente,7
+metrica,Pass@5 (AdaptQA),PASS@5,Éxito de tarea / agente,4
+metrica,Pass^1 (state-hash accuracy),PASS^1,Éxito de tarea / agente,1
+metrica,Pass^1,PASS^1,Éxito de tarea / agente,37
+metrica,Pass^5,PASS^5,Éxito de tarea / agente,8
+metrica,Pass^5 (AdaptQA),PASS^5,Éxito de tarea / agente,2
+metrica,Pass∧5,PASS∧5,Éxito de tarea / agente,12
+metrica,Progress,Progress,Éxito de tarea / agente,4
+metrica,SR,SR,Éxito de tarea / agente,55
+metrica,SR_followup_overall,SR followup overall,Éxito de tarea / agente,13
+metrica,SR_priority_overall,SR priority overall,Éxito de tarea / agente,21
+metrica,SR-5,SR-5,Éxito de tarea / agente,21
+metrica,SR-5 (AdaptQA),SR-5,Éxito de tarea / agente,7
+metrica,SUCCESS_RATE_PHASE_1,SUCCESS RATE PHASE 1,Éxito de tarea / agente,12
+metrica,SUCCESS_RATE_PHASE_2,SUCCESS RATE PHASE 2,Éxito de tarea / agente,13
+metrica,SuccessRate,SuccessRate,Éxito de tarea / agente,8
+metrica,SUCCESS_RATE,SuccessRate,Éxito de tarea / agente,8
+metrica,SuccessRate_Phase1_Overall,SuccessRate Phase1 Overall,Éxito de tarea / agente,12
+metrica,SuccessRate_Phase2_Overall,SuccessRate Phase2 Overall,Éxito de tarea / agente,13
+metrica,TurnSuitePass@1,TurnSuitePass@1,Éxito de tarea / agente,4
+metrica,functional accuracy,functional accuracy,Éxito de tarea / agente,41

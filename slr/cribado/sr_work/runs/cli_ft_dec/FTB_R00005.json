@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00005@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00005",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn database-level schema linking on Portuguese Spider; central contribution; Hit@k evaluation on public benchmark; 2026 English paper.",
+   "where": "p1-2 Abstract/Introduction; p7-9 Sections 4-5, Table 4"
+  }
+ ],
+ "source": "cli:FTB_R00005.json"
+}

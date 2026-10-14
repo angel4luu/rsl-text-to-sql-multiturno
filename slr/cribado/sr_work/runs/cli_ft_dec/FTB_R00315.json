@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00315@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00315",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema linking and correction are central contributions; quantitative evaluation on public BIRD benchmark (71.83% EX).",
+   "where": "p1 Abstract; p3 Experimental Setup 3.1 Datasets; p4 Metrics"
+  }
+ ],
+ "source": "cli:FTB_R00315.json"
+}

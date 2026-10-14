@@ -1,0 +1,292 @@
+[
+ {
+  "id": "R00012",
+  "title": "LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations",
+  "pdf": "slr/texto_completo/texto_bola/R00012.txt"
+ },
+ {
+  "id": "R00019",
+  "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+  "pdf": "slr/texto_completo/texto_bola/R00019.txt"
+ },
+ {
+  "id": "R00027",
+  "title": "PaVeRL-SQL: Text–to–SQL via Partial–Match Rewards and Verbal Reinforcement Learning",
+  "pdf": "slr/texto_completo/texto_bola/R00027.txt"
+ },
+ {
+  "id": "R00032",
+  "title": "Generating Patient Cohorts from Electronic Health Records Using Two-Step Retrieval-Augmented Text-to-SQL Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00032.txt"
+ },
+ {
+  "id": "R00040",
+  "title": "Generate Text-to-SQL Queries Based on Sketch Filling",
+  "pdf": "slr/texto_completo/pdf_bola/R00040.pdf"
+ },
+ {
+  "id": "R00042",
+  "title": "Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing",
+  "pdf": "slr/texto_completo/texto_bola/R00042.txt"
+ },
+ {
+  "id": "R00043",
+  "title": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+  "pdf": "slr/texto_completo/texto_bola/R00043.txt"
+ },
+ {
+  "id": "R00049",
+  "title": "S2SQL: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers",
+  "pdf": "slr/texto_completo/texto_bola/R00049.txt"
+ },
+ {
+  "id": "R00050",
+  "title": "Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing",
+  "pdf": "slr/texto_completo/texto_bola/R00050.txt"
+ },
+ {
+  "id": "R00053",
+  "title": "Retrieval-Augmented GPT-3.5-Based Text-to-SQL Framework with Sample-Aware Prompting and Dynamic Revision Chain",
+  "pdf": "slr/texto_completo/texto_bola/R00053.txt"
+ },
+ {
+  "id": "R00072",
+  "title": "SQLPrompt: In-Context Text-to-SQL with Minimal Labeled Data",
+  "pdf": "slr/texto_completo/texto_bola/R00072.txt"
+ },
+ {
+  "id": "R00074",
+  "title": "Error Detection for Text-to-SQL Semantic Parsing",
+  "pdf": "slr/texto_completo/texto_bola/R00074.txt"
+ },
+ {
+  "id": "R00086",
+  "title": "A robust natural language text-to-SQL generation framework with dynamic strategies based on LLMs",
+  "pdf": "slr/texto_completo/texto_bola/R00086.txt"
+ },
+ {
+  "id": "R00088",
+  "title": "Syntax and Relation Enhanced Query Generation for Text to SQL Parsing",
+  "pdf": "slr/texto_completo/texto_bola/R00088.txt"
+ },
+ {
+  "id": "R00090",
+  "title": "End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00090.txt"
+ },
+ {
+  "id": "R00095",
+  "title": "HI-SQL: Optimizing Text-to-SQL Systems through Dynamic Hint Integration",
+  "pdf": "slr/texto_completo/texto_bola/R00095.txt"
+ },
+ {
+  "id": "R00101",
+  "title": "Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training",
+  "pdf": "slr/texto_completo/texto_bola/R00101.txt"
+ },
+ {
+  "id": "R00104",
+  "title": "Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training",
+  "pdf": "slr/texto_completo/texto_bola/R00104.txt"
+ },
+ {
+  "id": "R00109",
+  "title": "Uni-Parser: Unified Semantic Parser for Question Answering on Knowledge Base and Database",
+  "pdf": "slr/texto_completo/texto_bola/R00109.txt"
+ },
+ {
+  "id": "R00112",
+  "title": "Benchmarking and Improving Text-to-SQL Generation under Ambiguity",
+  "pdf": "slr/texto_completo/texto_bola/R00112.txt"
+ },
+ {
+  "id": "R00116",
+  "title": "CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00116.txt"
+ },
+ {
+  "id": "R00119",
+  "title": "Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency",
+  "pdf": "slr/texto_completo/texto_bola/R00119.txt"
+ },
+ {
+  "id": "R00131",
+  "title": "T5QL: Taming language models for SQL generation",
+  "pdf": "slr/texto_completo/texto_bola/R00131.txt"
+ },
+ {
+  "id": "R00146",
+  "title": "Searching for Better Database Queries in the Outputs of Semantic Parsers",
+  "pdf": "slr/texto_completo/texto_bola/R00146.txt"
+ },
+ {
+  "id": "R00174",
+  "title": "A Governed NL-to-SQL Architecture for Reliable Clinical Data Querying and Outpatient Schedule Monitoring",
+  "pdf": "slr/texto_completo/texto_bola/R00174.txt"
+ },
+ {
+  "id": "R00184",
+  "title": "TURSpider: A Turkish Text-to-SQL Dataset and LLM-Based Study",
+  "pdf": "slr/texto_completo/pdf_bola/R00184.pdf"
+ },
+ {
+  "id": "R00196",
+  "title": "LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations",
+  "pdf": "slr/texto_completo/texto_bola/R00196.txt"
+ },
+ {
+  "id": "R00197",
+  "title": "ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser",
+  "pdf": "slr/texto_completo/texto_bola/R00197.txt"
+ },
+ {
+  "id": "R00200",
+  "title": "A Question‐Aware Few‐Shot Text‐to‐SQL Neural Model for Industrial Databases",
+  "pdf": "slr/texto_completo/texto_bola/R00200.txt"
+ },
+ {
+  "id": "R00202",
+  "title": "Graph Enhanced Cross-Domain Text-to-SQL Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00202.txt"
+ },
+ {
+  "id": "R00206",
+  "title": "On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries",
+  "pdf": "slr/texto_completo/texto_bola/R00206.txt"
+ },
+ {
+  "id": "R00207",
+  "title": "ValueNet: A Natural Language-to-SQL System that Learns from Database Information",
+  "pdf": "slr/texto_completo/texto_bola/R00207.txt"
+ },
+ {
+  "id": "R00214",
+  "title": "ValueNet: A Neural Text-to-SQL Architecture Incorporating Values",
+  "pdf": "slr/texto_completo/texto_bola/R00214.txt"
+ },
+ {
+  "id": "R00229",
+  "title": "Metasql: A Generate-Then-Rank Framework for Natural Language to SQL Translation",
+  "pdf": "slr/texto_completo/texto_bola/R00229.txt"
+ },
+ {
+  "id": "R00236",
+  "title": "G3R: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-SQL Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00236.txt"
+ },
+ {
+  "id": "R00238",
+  "title": "Columns Occurrences Graph to Improve Column Prediction in Deep Learning Nlidb",
+  "pdf": "slr/texto_completo/texto_bola/R00238.txt"
+ },
+ {
+  "id": "R00239",
+  "title": "Self-supervised Text-to-SQL Learning with Header Alignment Training",
+  "pdf": "slr/texto_completo/texto_bola/R00239.txt"
+ },
+ {
+  "id": "R00241",
+  "title": "DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models",
+  "pdf": "slr/texto_completo/texto_bola/R00241.txt"
+ },
+ {
+  "id": "R00244",
+  "title": "Grounding Natural Language to SQL Translation with Data-Based Self-Explanations",
+  "pdf": "slr/texto_completo/texto_bola/R00244.txt"
+ },
+ {
+  "id": "R00253",
+  "title": "A lightweight and explainable conversational AI framework for natural language SQL learning without large language models",
+  "pdf": "slr/texto_completo/texto_bola/R00253.txt"
+ },
+ {
+  "id": "R00260",
+  "title": "Text-to-SQL for Low-Resource Languages: A Unified Large Language Model Framework Evaluated on Arabic, Japanese, and Vietnamese",
+  "pdf": "slr/texto_completo/texto_bola/R00260.txt"
+ },
+ {
+  "id": "R00263",
+  "title": "Hybrid Ranking Network for Text-to-SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00263.txt"
+ },
+ {
+  "id": "R00264",
+  "title": "F-SQL: Fuse Table Schema and Table Content for Single-Table Text2SQL Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00264.txt"
+ },
+ {
+  "id": "R00266",
+  "title": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+  "pdf": "slr/texto_completo/texto_bola/R00266.txt"
+ },
+ {
+  "id": "R00267",
+  "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00267.txt"
+ },
+ {
+  "id": "R00268",
+  "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+  "pdf": "slr/texto_completo/texto_bola/R00268.txt"
+ },
+ {
+  "id": "R00269",
+  "title": "CHESS: Contextual Harnessing for Efficient SQL Synthesis",
+  "pdf": "slr/texto_completo/texto_bola/R00269.txt"
+ },
+ {
+  "id": "R00270",
+  "title": "TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00270.txt"
+ },
+ {
+  "id": "R00273",
+  "title": "Structure-Grounded Pretraining for Text-to-SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00273.txt"
+ },
+ {
+  "id": "R00281",
+  "title": "Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search",
+  "pdf": "slr/texto_completo/texto_bola/R00281.txt"
+ },
+ {
+  "id": "R00282",
+  "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+  "pdf": "slr/texto_completo/texto_bola/R00282.txt"
+ },
+ {
+  "id": "R00284",
+  "title": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00284.txt"
+ },
+ {
+  "id": "R00286",
+  "title": "Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query",
+  "pdf": "slr/texto_completo/texto_bola/R00286.txt"
+ },
+ {
+  "id": "R00287",
+  "title": "Automatic Metadata Extraction for Text-to-SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00287.txt"
+ },
+ {
+  "id": "R00288",
+  "title": "A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL",
+  "pdf": "slr/texto_completo/texto_bola/R00288.txt"
+ },
+ {
+  "id": "R00289",
+  "title": "A Text-to-SQL strategy based on large language models and knowledge graphs for real-world databases",
+  "pdf": "slr/texto_completo/texto_bola/R00289.txt"
+ },
+ {
+  "id": "R00291",
+  "title": "ExeSQL: Self-Taught Text-to-SQL Models with Execution-Driven Bootstrapping for SQL Dialects",
+  "pdf": "slr/texto_completo/texto_bola/R00291.txt"
+ },
+ {
+  "id": "R00292",
+  "title": "Content Enhanced BERT-based Text-to-SQL Generation",
+  "pdf": "slr/texto_completo/texto_bola/R00292.txt"
+ }
+]

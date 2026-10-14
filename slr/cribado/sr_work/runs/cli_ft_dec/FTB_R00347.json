@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00347@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00347",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; error-correction module is a stated contribution; execution accuracy reported on two popular benchmarks (Spider-style).",
+   "where": "p1 Abstract; p2 Introduction, contributions list; p4 Spider dataset mention"
+  }
+ ],
+ "source": "cli:FTB_R00347.json"
+}

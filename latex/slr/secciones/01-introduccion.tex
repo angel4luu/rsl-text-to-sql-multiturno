@@ -1,0 +1,37 @@
+\section{Introducción}
+\label{sec:introduccion}
+
+\subsection{Contexto}
+\label{sec:intro-contexto}
+% PRISMA ítems 3 (justificación) y 4 (objetivos)
+
+Las interfaces de lenguaje natural a bases de datos (\en{natural language interfaces to databases}, NLIDB) permiten consultar datos relacionales sin conocer SQL, y la tarea de traducir una pregunta a una consulta SQL (\en{Text-to-SQL}) es su formulación computacional más estudiada~\cite{Quamar2022NLI,Shi2026SurveyLLM}. Los \en{benchmarks} de referencia para el escenario de un turno, como WikiSQL, Spider y BIRD, evalúan preguntas aisladas sobre un esquema dado~\cite{Zhong2017Seq2SQL,Yu2018Spider,Li2023BIRD}.
+
+En el uso real, sin embargo, las consultas se formulan en diálogo. En el escenario conversacional o multiturno, la interpretación de cada pregunta del usuario depende de los turnos anteriores. Esto introduce elipsis, correferencia y referencias implícitas a consultas previas, que el sistema debe resolver antes de decidir qué tablas y columnas intervienen~\cite{Li2020ContextSurvey}. SParC y CoSQL formalizaron este escenario con diálogos sobre múltiples bases de datos~\cite{Yu2019SParC,Yu2019CoSQL}, y CHASE lo extendió al chino~\cite{Guo2021Chase}. Además, un error en un turno puede arrastrarse a los siguientes cuando el contexto incluye consultas previas generadas por el propio sistema, y la exactitud reportada tiende a disminuir en los turnos posteriores cuando se evalúa con ese historial predicho~\cite{Cai2020IGSQL,Wang2021Tracking,Fu2023MIGA}.
+
+La vinculación de esquemas (\en{schema linking}) y la inferencia de rutas de \en{join} son decisivas en un turno. En multiturno deben, además, mantenerse coherentes a lo largo del diálogo, lo que plantea cómo se restaura el contexto, cómo se representa y actualiza el estado conversacional y cómo se corrigen los errores a partir de la ejecución.
+
+\subsection{Justificación}
+\label{sec:intro-justificacion}
+
+Existen numerosas revisiones generales de Text-to-SQL y NLIDB, que tratan lo multiturno como un subtema. Solo una revisión se centra en el Text-to-SQL conversacional~\cite{Yang2025Conversational}, y según su resumen es narrativa y no reporta protocolo de búsqueda. Las revisiones de 2026 que se declaran sistemáticas no analizan el escenario multiturno~\cite{Liu2026NLIDBReview,Bui2026Survey}. La \cref{sec:relacionados} detalla estas comparaciones y sobre qué texto se verificó cada una (\cref{tab:relacionados}).
+
+Con base en la búsqueda exploratoria descrita en esa sección, no se identificó una revisión sistemática reproducible que analice de forma conjunta cuatro aspectos del Text-to-SQL multiturno: la restauración del contexto conversacional, la representación y actualización del estado del diálogo, la vinculación de esquemas con inferencia de \en{joins}, y la retroalimentación de ejecución con autocorrección. Tampoco se identificó una que los contraste sistemáticamente con sus equivalentes de un turno ni que examine la degradación del rendimiento por turno. Estos aspectos estructuran las preguntas de investigación PI1–PI4, mientras que PI5 aborda la evaluación.
+
+\subsection{Objetivos y contribuciones}
+\label{sec:intro-objetivos}
+
+El objetivo de esta revisión es identificar, clasificar y analizar críticamente las técnicas de Text-to-SQL conversacional para la restauración del contexto, la representación del estado del diálogo, la vinculación de esquemas y la inferencia de \en{joins}, y la autocorrección. Además, busca contrastarlas con las de un turno, comparar los resultados reportados y señalar brechas. La revisión sigue las guías de Kitchenham y Charters~\cite{Kitchenham2007Guidelines}, se reporta según PRISMA 2020~\cite{Page2021PRISMA} y su protocolo se registró antes de la búsqueda oficial~\cite{OSF2026Protocolo}. Las preguntas de investigación son:
+
+\begin{description}
+  \item[PI0] ¿Cómo se distribuyen los estudios por año, tipo de publicación, paradigma técnico y escenario (uno o varios turnos), y cómo evoluciona la proporción de estudios multiturno?
+  \item[PI1] ¿Qué técnicas se usan para restaurar el contexto conversacional y qué resultados reportan?
+  \item[PI2] ¿Cómo se representa y actualiza el estado del diálogo, y cómo influye en el rendimiento a lo largo de los turnos?
+  \item[PI3] ¿Qué técnicas de vinculación de esquemas e inferencia de rutas de \en{join} se emplean en multiturno, y cómo se comparan con las de un turno?
+  \item[PI4] ¿Qué mecanismos de retroalimentación de ejecución y autocorrección se han aplicado en multiturno, y cómo se comparan con los de un turno?
+  \item[PI5] ¿Qué \en{benchmarks} y métricas se emplean en multiturno y qué degradación por turno se reporta?
+\end{description}
+
+Las contribuciones son las siguientes. Primero, un protocolo registrado y reportado según PRISMA 2020, con el uso de inteligencia artificial y su verificación humana documentados por fase. Segundo, un mapeo de \nEstudios{} estudios, de los cuales \nMultiturno{} son multiturno y \nUnTurno{} de un turno, con un indicador pre-especificado, D4, de la proporción de estudios multiturno entre los que abordan la vinculación de esquemas o la autocorrección como contribución central: \DcuatroPct~\% (intervalo de Wilson \DcuatroICinf--\DcuatroICsup~\%), que la regla registrada clasifica como <<\DcuatroConclusion>>. Tercero, taxonomías de PI1–PI4 y un análisis de los contrastes dentro del estudio, con un nivel de confianza explícito por hallazgo. Cuarto, un análisis de \en{benchmarks}, métricas y degradación por turno estratificado según el historial usado en la evaluación (PI5). Quinto, la evaluación de un criterio pre-especificado de reformulación, que examina si la combinación de estado estructurado explícito, inferencia algorítmica de \en{joins} o autocorrección por ejecución, y evaluación con historial predicho o solo con preguntas ya se había evaluado: el número de estudios del corpus que la reúnen es \nBrechaMocho{}.
+
+El resto del artículo se organiza así. La \cref{sec:relacionados} revisa los trabajos relacionados. La \cref{sec:metodo} describe el método. La \cref{sec:resultados} presenta los resultados por pregunta de investigación. La \cref{sec:discusion} los interpreta, la \cref{sec:amenazas} analiza las amenazas a la validez y la \cref{sec:conclusiones} concluye.

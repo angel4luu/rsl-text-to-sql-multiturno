@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00392@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00392",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema selection and execution-feedback self-correction are central; evaluated on Spider 2.0-Snow and BIRD.",
+   "where": "p1 Abstract and Introduction contributions; p5-6 Sec 4.1-4.4 Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00392.json"
+}

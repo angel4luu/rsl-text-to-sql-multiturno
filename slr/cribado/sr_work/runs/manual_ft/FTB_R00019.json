@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00019@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00019",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL benchmark (DySQL-Bench) on SQLite databases, with quantitative results (Pass^k accuracy) for several LLMs; published 2026 in English.",
+   "where": "p1 Abstract and Introduction; p3-4 Sections 2-3 (task and benchmark construction); p5-7 Sections 4-5 and Table 3 (experiments and results)"
+  }
+ ],
+ "source_transcript": "agent-abe2da9c761c17a96.jsonl"
+}

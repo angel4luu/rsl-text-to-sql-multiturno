@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00137@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00137",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agent-DB loop; central contribution is schema/value linking and join-path tools, evaluated quantitatively on Spider and BIRD.",
+   "where": "p2 Introduction contributions and p3 Sec 3.3 Tools; p5-6 Sec 4.5-4.8 results and ablation"
+  }
+ ],
+ "source": "cli:FTB_R00137.json"
+}

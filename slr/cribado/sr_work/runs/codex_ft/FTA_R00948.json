@@ -1,0 +1,1 @@
+{"label": "FTA:R00948@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00948", "d": "unclear", "code": "UNC", "why": "Experimental pages are omitted; single-turn evaluation on a public benchmark cannot be verified.", "where": "pp1–4 provided extract; pp5–13 explicitly omitted"}], "source": "codex:gpt-6.1-sol"}

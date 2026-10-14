@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00148@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00148",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL using user feedback follow-ups for correction; quantitative execution accuracy on Bird, Fiben and internal data",
+   "where": "p1 Abstract and Introduction; p4-5 Section 3 Evaluation (Table 1)"
+  }
+ ],
+ "source": "cli:FTA_R00148.json"
+}

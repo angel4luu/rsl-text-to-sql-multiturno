@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00128@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00128",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Parses to custom logical forms run by an inference engine over a time-series knowledge base; no SQL or relational evaluation.",
+   "where": "p1 Abstract; p2 Task Definition and Table 1; p3-4 Section 3 datasets"
+  }
+ ],
+ "source": "cli:FTB_R00128.json"
+}

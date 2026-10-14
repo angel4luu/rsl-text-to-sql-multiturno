@@ -1,0 +1,199 @@
+{
+ "date": "2026-10-12",
+ "source": "Semantic Scholar Graph API (supplement, amendment A5)",
+ "counts": {
+  "seeds_without_openalex_references": 36,
+  "seeds_with_s2_references": 19,
+  "links_retrieved": 739,
+  "unique_works": 548,
+  "already_in_database_records": 74,
+  "already_in_openalex_snowball": 92,
+  "before_2019": 136,
+  "not_matching_block_A": 219,
+  "candidates": 27,
+  "candidates_without_abstract": 8
+ },
+ "seeds": [
+  {
+   "id": "R00019",
+   "s2_key": "DOI:10.18653/v1/2026.findings-acl.1654",
+   "references": 0
+  },
+  {
+   "id": "R00029",
+   "s2_key": "DOI:10.18653/v1/2026.acl-long.926",
+   "references": 0
+  },
+  {
+   "id": "R00030",
+   "s2_key": "DOI:10.18653/v1/2026.acl-long.1563",
+   "references": 0
+  },
+  {
+   "id": "R00033",
+   "s2_key": "DOI:10.18653/v1/2026.acl-long.2107",
+   "references": 24
+  },
+  {
+   "id": "R00035",
+   "s2_key": "DOI:10.18653/v1/2026.acl-industry.86",
+   "references": 0
+  },
+  {
+   "id": "R00041",
+   "s2_key": "DOI:10.18653/v1/2025.naacl-long.13",
+   "references": 0
+  },
+  {
+   "id": "R00042",
+   "s2_key": "DOI:10.18653/v1/2025.naacl-long.536",
+   "references": 29
+  },
+  {
+   "id": "R00072",
+   "s2_key": "DOI:10.18653/v1/2024.naacl-long.361",
+   "references": 0
+  },
+  {
+   "id": "R00074",
+   "s2_key": null,
+   "references": 0
+  },
+  {
+   "id": "R00078",
+   "s2_key": "DOI:10.18653/v1/2024.findings-acl.823",
+   "references": 0
+  },
+  {
+   "id": "R00079",
+   "s2_key": "DOI:10.18653/v1/2024.findings-acl.971",
+   "references": 0
+  },
+  {
+   "id": "R00099",
+   "s2_key": "DOI:10.18653/v1/2022.findings-emnlp.193",
+   "references": 0
+  },
+  {
+   "id": "R00286",
+   "s2_key": "ARXIV:2203.07781",
+   "references": 58
+  },
+  {
+   "id": "R00288",
+   "s2_key": "ARXIV:2208.12711",
+   "references": 23
+  },
+  {
+   "id": "R00292",
+   "s2_key": "ARXIV:2303.13547",
+   "references": 30
+  },
+  {
+   "id": "R00298",
+   "s2_key": "ARXIV:2310.18376",
+   "references": 57
+  },
+  {
+   "id": "R00309",
+   "s2_key": "ARXIV:2405.00527",
+   "references": 26
+  },
+  {
+   "id": "R00311",
+   "s2_key": "ARXIV:2406.00222",
+   "references": 85
+  },
+  {
+   "id": "R00312",
+   "s2_key": "ARXIV:2406.10593",
+   "references": 34
+  },
+  {
+   "id": "R00370",
+   "s2_key": "ARXIV:2509.23415",
+   "references": 0
+  },
+  {
+   "id": "R00373",
+   "s2_key": "ARXIV:2510.05318",
+   "references": 92
+  },
+  {
+   "id": "R00374",
+   "s2_key": "ARXIV:2510.05921",
+   "references": 51
+  },
+  {
+   "id": "R00435",
+   "s2_key": "ARXIV:2605.26394",
+   "references": 13
+  },
+  {
+   "id": "R00438",
+   "s2_key": "ARXIV:2606.00547",
+   "references": 43
+  },
+  {
+   "id": "R00450",
+   "s2_key": "ARXIV:2608.18105",
+   "references": 12
+  },
+  {
+   "id": "R00453",
+   "s2_key": "ARXIV:2606.15384",
+   "references": 45
+  },
+  {
+   "id": "R00480",
+   "s2_key": "ARXIV:2608.13612",
+   "references": 15
+  },
+  {
+   "id": "R00482",
+   "s2_key": "ARXIV:2608.15931",
+   "references": 26
+  },
+  {
+   "id": "R00491",
+   "s2_key": "ARXIV:2608.29543",
+   "references": 0
+  },
+  {
+   "id": "R00499",
+   "s2_key": "ARXIV:2609.36789",
+   "references": 0
+  },
+  {
+   "id": "R00508",
+   "s2_key": "ARXIV:2610.12274",
+   "references": 36
+  },
+  {
+   "id": "R00828",
+   "s2_key": "DOI:10.18687/laccei2026.1.1.800",
+   "references": 0
+  },
+  {
+   "id": "R00908",
+   "s2_key": "DOI:10.48786/edbt.2025.86",
+   "references": 0
+  },
+  {
+   "id": "R00920",
+   "s2_key": "DOI:10.18653/v1/2024.findings-naacl.283",
+   "references": 0
+  },
+  {
+   "id": "R00954",
+   "s2_key": "DOI:10.15676/ijeei.2026.18.1.1",
+   "references": 0
+  },
+  {
+   "id": "R00994",
+   "s2_key": "DOI:10.21437/interspeech.2022-10596",
+   "references": 40
+  }
+ ],
+ "candidates_file": "exports/snowballing/derived/2026-10-12_snowball_candidates_s2.ris"
+}

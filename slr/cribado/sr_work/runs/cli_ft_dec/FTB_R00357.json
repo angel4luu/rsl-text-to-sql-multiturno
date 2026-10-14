@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00357@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00357",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL-issue-to-corrected-SQL debugging on relational DBs; central execution-feedback agent; quantitative evaluation on public BIRD-CRITIC.",
+   "where": "p1 Abstract; p2 Introduction; p7-8 Section 6 Experiments, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTB_R00357.json"
+}

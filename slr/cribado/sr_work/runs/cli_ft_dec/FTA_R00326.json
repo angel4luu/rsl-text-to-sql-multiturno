@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00326@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00326",
+   "d": "exclude",
+   "code": "E7",
+   "why": "Purely theoretical expected-utility model; no empirical or quantitative evaluation of any Text-to-SQL system on any dataset.",
+   "where": "p11-16 Section 4 (Models of CBA); p17 Conclusion"
+  }
+ ],
+ "source": "cli:FTA_R00326.json"
+}

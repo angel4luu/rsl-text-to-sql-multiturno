@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00042@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00042",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is question–schema/value linking (anchor texts, text-DB alignment); evaluated quantitatively on public Spider benchmark.",
+   "where": "p1 Abstract and Introduction; p6-7 Results (Tables 3-5)"
+  }
+ ],
+ "source": "cli:FTB_R00042.json"
+}

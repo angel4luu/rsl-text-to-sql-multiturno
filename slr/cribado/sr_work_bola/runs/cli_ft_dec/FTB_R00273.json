@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00273@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00273",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn pretraining centered on column/value grounding (schema linking); quantitative results on Spider, WikiSQL and Suhr datasets",
+   "where": "p1 Abstract; p6-7 Sections 5.1 and Tables 3-5"
+  }
+ ],
+ "source": "cli:FTB_R00273.json"
+}

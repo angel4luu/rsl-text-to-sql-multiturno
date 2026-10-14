@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00606@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00606",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; entity/schema linking and query-rethink are stated contributions; quantitative results on the authors' publicly released VTS-SQL benchmark.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p3 Methodology, Sections III.A and II.C (dataset)"
+  }
+ ],
+ "source": "cli:FTA_R00606.json"
+}

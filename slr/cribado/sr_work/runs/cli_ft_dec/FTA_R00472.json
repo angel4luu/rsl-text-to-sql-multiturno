@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00472@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00472",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agentic Text-to-SQL; execution feedback as hindsight credit is the central contribution; evaluated on BIRD, Spider, Spider-DK.",
+   "where": "p1 Abstract; p2 Methodology; p5 Table 1 and Table 2, Experiments"
+  }
+ ],
+ "source": "cli:FTA_R00472.json"
+}

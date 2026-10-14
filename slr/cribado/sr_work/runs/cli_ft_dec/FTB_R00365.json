@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00365@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00365",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with central guided error correction and schema linking, evaluated on Spider, Spider-Realistic and Spider-SYN.",
+   "where": "p1 Abstract; p2 Contributions; p6 Experimental Setup 3.3.1; p7 Results, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00365.json"
+}

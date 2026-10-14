@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00072@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is execution-based consistency selection and error filtering, evaluated on Spider with EX and TS.",
+   "where": "p1 Abstract and Introduction; p3 Experiments (Spider); p4 Table 1 and Results"
+  }
+ ],
+ "source": "cli:FTA_R00072.json"
+}

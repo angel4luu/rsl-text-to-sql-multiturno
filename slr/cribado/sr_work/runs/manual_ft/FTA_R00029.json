@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00029@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00029",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary Text-to-SQL contamination probe, quantitatively evaluated on SParC and CoSQL (multi-turn benchmarks) plus Spider and BIRD, 2026 ACL paper",
+   "where": "p1 Abstract; p4 Methods 2.1 Data Selection; p5-7 Results 3-4"
+  }
+ ],
+ "source_transcript": "agent-a1c3550a628014fac.jsonl"
+}

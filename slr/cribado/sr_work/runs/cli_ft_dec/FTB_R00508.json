@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00508@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00508",
+   "d": "include",
+   "code": "INC",
+   "why": "Agentic Text-to-SQL trained on execution feedback and error recovery; evaluated on Spider 2.0, BIRD-Interact (multi-turn) and LiveSQLBench; quantitative results.",
+   "where": "p1 Abstract; p2 Introduction; p5-7 Sections 4-5 (Tables 1-3)"
+  }
+ ],
+ "source": "cli:FTB_R00508.json"
+}

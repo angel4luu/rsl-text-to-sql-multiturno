@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00460@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00460",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema context compression and evidence purification; reports schema-linking recall and EX on public Spider 2.0-Snow and BIRD benchmarks.",
+   "where": "p1 Abstract; p2-3 Contributions (experimental section pages not in the extract)"
+  }
+ ],
+ "source": "cli:FTB_R00460.json"
+}

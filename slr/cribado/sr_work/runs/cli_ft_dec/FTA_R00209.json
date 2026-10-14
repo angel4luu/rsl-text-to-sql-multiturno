@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00209@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00209",
+   "d": "exclude",
+   "code": "E7",
+   "why": "Multi-turn human-in-the-loop system, but evaluated on one example query. Only baselines get counts; the proposed system is described qualitatively.",
+   "where": "p3-4 Section 5 Experiments, 5.1-5.2, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00209.json"
+}

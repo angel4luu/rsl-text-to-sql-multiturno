@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00492@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00492",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with self-correction and retrieval refinement as central contributions; execution accuracy evaluated on BIRD.",
+   "where": "p1 Abstract; p2 Contributions; p8-9 Evaluation, Table 3"
+  }
+ ],
+ "source": "cli:FTA_R00492.json"
+}

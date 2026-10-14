@@ -1,0 +1,24 @@
+{
+  "query": "2026-10-11_acm2",
+  "pages": [
+    "2026-10-11_acm2_p1.html"
+  ],
+  "items_in_pages": 24,
+  "metadata_source": {
+    "OpenAlex": 24
+  },
+  "without_abstract": 2,
+  "without_abstract_list": [
+    {
+      "doi": "10.1145/3800227.3800276",
+      "title": "Research on NL2SQL in the logistics field based on large language models under resource\n                     constraints",
+      "page": "2026-10-11_acm2_p1.html"
+    },
+    {
+      "doi": "10.1145/3627673.3679229",
+      "title": "DiaKoP: Dialogue-based Knowledge-oriented Programming for Neural-symbolic Knowledge\n                     Base Question Answering",
+      "page": "2026-10-11_acm2_p1.html"
+    }
+  ],
+  "derived_ris": "derived/2026-10-11_acm2.ris"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00202@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00202",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; graph-based column embeddings improve column matching and prediction (schema linking); evaluated on public Spider benchmark with exact-match accuracy.",
+   "where": "p1 Abstract/Introduction; p2 Section 3 Method; p4 Section 5 Experiments, Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00202.json"
+}

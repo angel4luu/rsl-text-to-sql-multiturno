@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00370@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00370",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn EHR Text-to-SQL benchmark (IncreQA/AdaptQA, user adds constraints); quantitative Pass@5 and Pass^5 results on MIMIC-IV and eICU",
+   "where": "p1 Abstract; p2 Introduction; p3-4 Sec. 3 Task formulation and benchmark components"
+  }
+ ],
+ "source": "cli:FTB_R00370.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00097@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00097",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with question reformulation and schema grounding; quantitative evaluation on SParC and CoSQL benchmarks.",
+   "where": "p1 Abstract; p4-6 Section 3 Experiments, Tables 1 and 4"
+  }
+ ],
+ "source": "cli:FTA_R00097.json"
+}

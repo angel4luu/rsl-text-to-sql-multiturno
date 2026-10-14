@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00370@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00370",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn EHR Text-to-SQL benchmark with simulated user; reports Pass@5 and Pass^5 results on MIMIC-IV and eICU relational databases.",
+   "where": "p1 Abstract; p2 Introduction and contributions; p3-4 Section 3 (task formulation, benchmark components)"
+  }
+ ],
+ "source": "cli:FTA_R00370.json"
+}

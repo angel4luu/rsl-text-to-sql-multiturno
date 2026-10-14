@@ -1,0 +1,758 @@
+[
+ {
+  "label": "FTQC-FTA:R00040@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00040.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00091@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00091.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00254@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00254.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00275@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00275.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00301@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00301.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00386@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00386.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00404@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00404.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00416@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00416.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00418@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00418.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00442@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00442.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00470@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00470.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00499@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00499.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00506@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00506.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00542@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00542.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00581@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00581.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00644@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00644.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00719@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00719.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00734@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00734.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00740@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00740.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00744@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00744.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00818@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00818.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00819@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00819.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00827@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00827.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00840@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00840.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00843@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00843.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00846@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00846.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00867@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00867.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00875@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00875.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00887@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00887.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00905@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00905.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00917@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00917.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00921@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00921.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00939@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00939.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00940@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00940.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00948@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00948.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00953@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00953.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00958@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00958.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00967@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00967.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00984@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00984.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R00999@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R00999.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R01019@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R01019.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTQC-FTA:R01020@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_qc/FTQC_R01020.txt",
+  "model": "opus"
+ }
+]

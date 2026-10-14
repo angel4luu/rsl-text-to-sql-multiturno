@@ -1,0 +1,98 @@
+% Generado por analysis/src/tablas/apendices.py — no editar a mano.
+{\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}p{4.3cm} p{12.6cm}@{}}
+\caption{Formulario de extracción de datos (bloques 0--7; 71 filas de campos). Los bloques 2, 3 y 5b, y los campos marcados como Nivel 2, se extraen solo en los estudios multiturno. \texttt{NR}: no reportado; \texttt{NA}: no aplica.}\label{tab:ap-formulario}\\
+\toprule
+Campo & Vocabulario o contenido \\
+\midrule
+\endfirsthead
+\multicolumn{2}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Campo & Vocabulario o contenido \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\multicolumn{2}{@{}l}{\textit{Bloque 0 — Identificación}} \\
+\texttt{id\_\allowbreak{}estudio} & E001… \\
+\texttt{clave\_\allowbreak{}bib} & Clave en \texttt{referencias.bib} \\
+\texttt{informes} & DOI/arXiv de todos los informes vinculados (\texttt{;}) \\
+\texttt{titulo}, \texttt{autores}, \texttt{anio}, \texttt{venue} & Del informe principal \\
+\texttt{foro\_\allowbreak{}tipo} & \texttt{CONGRESO}, \texttt{REVISTA}, \texttt{TALLER}, \texttt{PREPRINT} \textit{(A5; ambos niveles)} \\
+\texttt{foro\_\allowbreak{}nivel} & CORE (\texttt{A*}, \texttt{A}, \texttt{B}, \texttt{C}) para congresos, cuartil SJR (\texttt{Q1}–\texttt{Q4}) para revistas, \texttt{SIN\_\allowbreak{}RANKING}, \texttt{PREPRINT} \textit{(A5; análisis de sensibilidad, no criterio de elegibilidad)} \\
+\texttt{tipo\_\allowbreak{}pub} & \texttt{REVISTA} · \texttt{CONFERENCIA} · \texttt{TALLER} · \texttt{PREPRINT} \\
+\texttt{origen} & \texttt{SCOPUS} · \texttt{IEEE} · \texttt{ACM} · \texttt{ACL} · \texttt{ARXIV} · \texttt{BOLA\_\allowbreak{}NIEVE} (\texttt{;}) \\
+\texttt{nivel} & \texttt{1} · \texttt{2} \\
+\multicolumn{2}{@{}l}{\textit{Bloque 1 — Caracterización (PI0)}} \\
+\texttt{escenario} & \texttt{MULTITURNO} · \texttt{UN\_\allowbreak{}TURNO} (definición revisada; caso B6) \\
+\texttt{etiquetas} & \texttt{INTERACTIVO} (B1) · \texttt{USA\_\allowbreak{}HISTORIAL} (B2) · \texttt{COMPONENTE} (B3) · \texttt{RONDAS\_\allowbreak{}INTERNAS} (B6) · ninguna \\
+\texttt{tipo\_\allowbreak{}contribucion} & \texttt{TECNICA} · \texttt{BENCHMARK} · \texttt{ESTUDIO\_\allowbreak{}EMPIRICO} (\texttt{;}) \\
+\texttt{paradigma\_\allowbreak{}principal} & \textbf{Un solo código}, con precedencia: \texttt{AGENTES} $>$ \texttt{HIBRIDO\_\allowbreak{}NEUROSIMBOLICO} $>$ \texttt{LLM\_\allowbreak{}FINETUNING} $>$ \texttt{LLM\_\allowbreak{}PROMPTING} $>$ \texttt{PLM\_\allowbreak{}FINETUNING} $>$ \texttt{NEURONAL\_\allowbreak{}PRE\_\allowbreak{}PLM} $>$ \texttt{REGLAS\_\allowbreak{}SIMBOLICO} (se asigna el primero que aplique) \\
+\texttt{paradigmas\_\allowbreak{}secundarios} & Los demás que apliquen (\texttt{;}) \\
+\texttt{modelos\_\allowbreak{}base} & Normalizado (p. ej., \texttt{GPT-4o; T5-3B}) \\
+\texttt{fecha\_\allowbreak{}modelo} & Versión/fecha del modelo si se reporta (p. ej., \texttt{gpt-4o-2024-05-13}), si no \texttt{NR} \\
+\texttt{pilares\_\allowbreak{}centrales} & PI declarados como contribución central (\texttt{PI1}…\texttt{PI4}; \texttt{;}) \\
+\texttt{pilares\_\allowbreak{}contenidos} & PI presentes solo como componente (\texttt{;}) — para el indicador D4 laxo \\
+\texttt{idioma\_\allowbreak{}dataset} & \texttt{EN} · \texttt{ZH} · \texttt{ES} · \texttt{OTRO} (\texttt{;}) \\
+\texttt{codigo\_\allowbreak{}disponible} & \texttt{SI} · \texttt{NO} · \texttt{PARCIAL} \\
+\texttt{requiere\_\allowbreak{}entrenamiento} & \texttt{SI} · \texttt{NO} (\textit{training-free}) · \texttt{PARCIAL} \\
+\multicolumn{2}{@{}l}{\textit{Bloque 2 — PI1: restauración del contexto (Nivel 2)}} \\
+\texttt{pi1\_\allowbreak{}tecnica} & \texttt{CONCATENACION} · \texttt{REESCRITURA} · \texttt{RESOLUCION\_\allowbreak{}EXPLICITA} · \texttt{CLASIFICACION\_\allowbreak{}DISCURSO} · \texttt{OTRA:$<$descripción$>$} (\texttt{;}) \\
+\texttt{pi1\_\allowbreak{}insumos\_\allowbreak{}historial} & \texttt{PREGUNTAS\_\allowbreak{}PREVIAS} · \texttt{SQL\_\allowbreak{}PREVIOS} · \texttt{RESPUESTAS\_\allowbreak{}SISTEMA} · \texttt{RESULTADOS\_\allowbreak{}EJECUCION} (\texttt{;}) \\
+\texttt{pi1\_\allowbreak{}resumen} & $\leq$ 2 frases + ubicación \\
+\multicolumn{2}{@{}l}{\textit{Bloque 3 — PI2: estado del diálogo (Nivel 2)}} \\
+\texttt{pi2\_\allowbreak{}representacion} & \texttt{HISTORIAL\_\allowbreak{}PLANO} · \texttt{VENTANA\_\allowbreak{}DESLIZANTE} · \texttt{RESUMEN} · \texttt{SQL\_\allowbreak{}PREVIO\_\allowbreak{}EDICION} · \texttt{ARBOL\_\allowbreak{}AST} · \texttt{GRAFO} · \texttt{MEMORIA\_\allowbreak{}EXTERNA} · \texttt{ESTRUCTURA\_\allowbreak{}EXPLICITA} · \texttt{OTRA:$<$descripción$>$} (\texttt{;}) \\
+\texttt{pi2\_\allowbreak{}grafo\_\allowbreak{}nodos} & Si \texttt{GRAFO}: qué representan los nodos (\texttt{ELEMENTOS\_\allowbreak{}ESQUEMA} · \texttt{TOKENS\_\allowbreak{}PREGUNTA} · \texttt{TURNOS} · \texttt{OTROS:$<$descripción$>$}; \texttt{;}); si no \texttt{NA} \\
+\texttt{pi2\_\allowbreak{}grafo\_\allowbreak{}dinamico} & \texttt{SI} (cambia por turno) · \texttt{NO} · \texttt{NA} \\
+\texttt{pi2\_\allowbreak{}actualizacion} & \texttt{IMPLICITA\_\allowbreak{}NEURONAL} · \texttt{REGLAS\_\allowbreak{}DETERMINISTAS} · \texttt{LLM\_\allowbreak{}GENERATIVA} · \texttt{NR} \\
+\texttt{pi2\_\allowbreak{}coste\_\allowbreak{}contexto} & \texttt{CRECE\_\allowbreak{}CON\_\allowbreak{}TURNOS} · \texttt{ACOTADO} · \texttt{NR} \\
+\texttt{pi2\_\allowbreak{}resumen} & $\leq$ 2 frases + ubicación \\
+\multicolumn{2}{@{}l}{\textit{Bloque 4 — PI3: vinculación de esquemas e inferencia de \textit{joins}}} \\
+\texttt{pi3\_\allowbreak{}tecnica\_\allowbreak{}linking} & \texttt{COINCIDENCIA\_\allowbreak{}CADENAS} · \texttt{EMBEDDINGS\_\allowbreak{}RECUPERACION} · \texttt{CLASIFICADOR\_\allowbreak{}ENTRENADO} · \texttt{LLM\_\allowbreak{}PROMPTING} · \texttt{GRAFO\_\allowbreak{}ESQUEMA} · \texttt{PODA\_\allowbreak{}ESQUEMA} · \texttt{NINGUNA\_\allowbreak{}EXPLICITA} (\texttt{;}) \\
+\texttt{pi3\_\allowbreak{}inferencia\_\allowbreak{}joins} & \texttt{IMPLICITA\_\allowbreak{}MODELO} · \texttt{ALGORITMICA\_\allowbreak{}CAMINOS} · \texttt{GRAFO\_\allowbreak{}FK\_\allowbreak{}RESTRICCIONES} · \texttt{NR} \\
+\texttt{pi3\_\allowbreak{}algoritmo} & Si algorítmica (p. ej., \texttt{STEINER; DIJKSTRA}), si no \texttt{NA} \textit{(Nivel 2)} \\
+\texttt{pi3\_\allowbreak{}escala\_\allowbreak{}esquema} & Máximo de tablas/columnas evaluado \textit{(Nivel 2)} \\
+\texttt{pi3\_\allowbreak{}metricas\_\allowbreak{}linking} & Recall/precisión de \textit{linking} \textit{(Nivel 2)} \\
+\texttt{pi3\_\allowbreak{}resumen} & $\leq$ 2 frases + ubicación \textit{(Nivel 2)} \\
+\multicolumn{2}{@{}l}{\textit{Bloque 5 — PI4: retroalimentación de ejecución y autocorrección}} \\
+\texttt{pi4\_\allowbreak{}mecanismo} & \texttt{EJECUCION\_\allowbreak{}FEEDBACK\_\allowbreak{}ERRORES} · \texttt{AUTODEPURACION\_\allowbreak{}LLM} · \texttt{AUTOCONSISTENCIA\_\allowbreak{}VOTACION} · \texttt{VERIFICADOR\_\allowbreak{}CRITICO} · \texttt{REPARACION\_\allowbreak{}SIMBOLICA} · \texttt{ACLARACION\_\allowbreak{}USUARIO} · \texttt{ABSTENCION} (\texttt{;}) \\
+\texttt{pi4\_\allowbreak{}senal} & \texttt{ERROR\_\allowbreak{}DBMS} · \texttt{RESULTADO\_\allowbreak{}VACIO} · \texttt{RESULTADO\_\allowbreak{}EJECUCION} · \texttt{JUICIO\_\allowbreak{}LLM} · \texttt{USUARIO} (\texttt{;}) \\
+\texttt{pi4\_\allowbreak{}rondas\_\allowbreak{}max} & Número o \texttt{NR} \textit{(Nivel 2)} \\
+\texttt{pi4\_\allowbreak{}aplicado\_\allowbreak{}multiturno} & \texttt{SI} · \texttt{NO} \\
+\texttt{pi4\_\allowbreak{}resumen} & $\leq$ 2 frases + ubicación \textit{(Nivel 2)} \\
+\multicolumn{2}{@{}l}{\textit{Bloque 5b — Transversales (Nivel 2)}} \\
+\texttt{historial\_\allowbreak{}eval} & Se refiere \textbf{solo a las salidas del sistema en turnos previos} (SQL previo, reescrituras, estados), \textbf{no} a las preguntas anteriores del usuario, que siempre se dan. **\texttt{GOLD}\textbf{ = el sistema recibe el SQL, la reescritura o el estado }de referencia\textbf{ de los turnos previos (\textit{teacher forcing}) · }\texttt{PREDICHO}\textbf{ = recibe }sus propias\textbf{ salidas previas (propagación de errores real) · }\texttt{SOLO\_\allowbreak{}PREGUNTAS}** = solo usa las preguntas previas del usuario, sin salidas previas · \texttt{NR} \\
+\texttt{degradacion\_\allowbreak{}reportada} & \texttt{SI} · \texttt{NO} \\
+\texttt{errores\_\allowbreak{}join\_\allowbreak{}reportados} & \texttt{SI} · \texttt{NO} \\
+\texttt{coste\_\allowbreak{}reportado} & \texttt{TOKENS} · \texttt{LATENCIA} · \texttt{MONETARIO} · \texttt{NINGUNO} (\texttt{;}) \\
+\texttt{contaminacion\_\allowbreak{}discutida} & \texttt{SI} · \texttt{NO} \\
+\texttt{limitaciones\_\allowbreak{}autores} & Texto breve + ubicación \\
+\texttt{notas\_\allowbreak{}revisora} & Observaciones de la autora (separadas de lo que dice el estudio) \\
+\texttt{extraccion\_\allowbreak{}independiente} & \texttt{SI} si pertenece a la muestra del 20 \% extraída por la autora sin ver la IA \\
+\texttt{verificado\_\allowbreak{}por} & Quién verificó la fila \\
+\multicolumn{2}{@{}l}{\textit{Bloque 6 — \texttt{resultados.csv}}} \\
+\texttt{id\_\allowbreak{}estudio} & E001… \\
+\texttt{benchmark} & \texttt{SPIDER} · \texttt{BIRD} · \texttt{WIKISQL} · \texttt{SPARC} · \texttt{COSQL} · \texttt{CHASE} · \texttt{OTRO:$<$nombre$>$} \\
+\texttt{version} & Versión del \textit{benchmark} (p. ej., \texttt{SPIDER\_\allowbreak{}1.0}, \texttt{SPIDER\_\allowbreak{}2.0}, \texttt{BIRD\_\allowbreak{}DEV\_\allowbreak{}2024}) o \texttt{NR} \\
+\texttt{particion} & \texttt{DEV} · \texttt{TEST} · \texttt{OTRA} \\
+\texttt{metrica} & \texttt{EX} · \texttt{EM} · \texttt{ESM} · \texttt{TS} · \texttt{QM} · \texttt{IM} · \texttt{VES} · \texttt{LINKING\_\allowbreak{}RECALL} · \texttt{OTRA:$<$nombre$>$} \\
+\texttt{turno} & \texttt{TODOS} · \texttt{1} · \texttt{2} · \texttt{3} · \texttt{4+} · número mayor si se reporta por separado \\
+\texttt{n\_\allowbreak{}turno} & Número de preguntas en ese grupo de turno, si se reporta \\
+\texttt{historial\_\allowbreak{}eval} & \texttt{GOLD} · \texttt{PREDICHO} · \texttt{SOLO\_\allowbreak{}PREGUNTAS} · \texttt{NR} (definición en el bloque 5b) \\
+\texttt{conocimiento\_\allowbreak{}externo} & \texttt{SI} (p. ej., \textit{evidence} de BIRD) · \texttt{NO} · \texttt{NA} \\
+\texttt{n\_\allowbreak{}candidatos} & Número de candidatos / presupuesto de autoconsistencia, o \texttt{NR} \\
+\texttt{valor} & Porcentaje tal como se reporta \\
+\texttt{sistema} & \texttt{PROPUESTO} o nombre de la línea base \\
+\texttt{es\_\allowbreak{}linea\_\allowbreak{}base\_\allowbreak{}referencia} & \texttt{SI} para \textbf{una} línea base por configuración (regla abajo) \\
+\texttt{modelo\_\allowbreak{}base} & Modelo de esa fila \\
+\texttt{ubicacion} & Tabla/página \\
+\multicolumn{2}{@{}l}{\textit{Bloque 7 — \texttt{contrastes.csv} (contrastes dentro del estudio)}} \\
+\texttt{id\_\allowbreak{}estudio} & E001… \\
+\texttt{componente} & Qué se activa/desactiva (p. ej., \texttt{REESCRITURA}, \texttt{GRAFO\_\allowbreak{}ESTADO}, \texttt{AUTOCORRECCION}) \\
+\texttt{pilar} & \texttt{PI1} · \texttt{PI2} · \texttt{PI3} · \texttt{PI4} \\
+\texttt{benchmark}, \texttt{version}, \texttt{particion}, \texttt{metrica}, \texttt{turno}, \texttt{historial\_\allowbreak{}eval}, \texttt{conocimiento\_\allowbreak{}externo}, \texttt{n\_\allowbreak{}candidatos}, \texttt{modelo\_\allowbreak{}base} & Configuración común (\texttt{turno} permite estudiar el efecto del componente a lo largo de los turnos, PI2) \\
+\texttt{valor\_\allowbreak{}con}, \texttt{valor\_\allowbreak{}sin} & Resultado con y sin el componente \\
+\texttt{ubicacion} & Tabla/página \\
+\end{longtable}
+}

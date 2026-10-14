@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00222@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00222",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL with multi-round dialogue semantic completion and clarification; evaluated quantitatively on BIRD, MRD-BIRD and industrial data.",
+   "where": "p1 Abstract; p3 Contributions; p6 Sec 3.3 MRD-Q; p9-10 Sec 4.1-4.2 Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00222.json"
+}

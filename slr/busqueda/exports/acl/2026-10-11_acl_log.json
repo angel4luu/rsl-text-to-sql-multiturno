@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-11",
+  "source_url": "https://aclanthology.org/anthology+abstracts.bib.gz",
+  "dump_file": "2026-10-11_anthology+abstracts.bib.gz",
+  "sha256": "85a532922aa2e8d3da7c4b0b4318f3ca03a8d81d134ecb35e52ade7346d38242",
+  "entries_papers": 128673,
+  "entries_2019_2026": 73532,
+  "selected_v4_title_abstract": 127,
+  "selected_title_only_no_abstract": 6,
+  "selected_total": 133,
+  "export_bib": "2026-10-11_acl_v4.bib",
+  "derived_ris": "derived/2026-10-11_acl_v4.ris"
+}

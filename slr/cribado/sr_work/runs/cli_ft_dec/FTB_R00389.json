@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00389@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00389",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn join-aware table retrieval (schema linking/join inference) as central contribution; evaluated quantitatively on Spider, BIRD and other NL2SQL benchmarks.",
+   "where": "p1 Abstract; p2 Introduction contributions; p3-4 Sections 3-4, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00389.json"
+}

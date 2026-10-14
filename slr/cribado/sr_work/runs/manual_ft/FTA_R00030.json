@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00030@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00030",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with execution feedback and self-correction; evaluated quantitatively on CoSQL and SParC",
+   "where": "p1 Abstract and Introduction; p6-7 Sec 4.1-4.2, Table 2"
+  }
+ ],
+ "source_transcript": "agent-ab128dcc4a4fe70ee.jsonl"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00468@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00468",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema linking/retrieval benchmark and method, evaluated quantitatively on Spider, BIRD and other public text-to-SQL datasets; 2026 arXiv preprint.",
+   "where": "p1 Abstract and Introduction; p2-4 Sections 3-5, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00468.json"
+}

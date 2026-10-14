@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00072@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn, but execution-based consistency decoding and error filtering are central contributions; evaluated on Spider (EX/TS).",
+   "where": "p1 Abstract and Introduction; p3-4 Experiments and Results (Tables 1-5)"
+  }
+ ],
+ "source": "cli:FTB_R00072.json"
+}

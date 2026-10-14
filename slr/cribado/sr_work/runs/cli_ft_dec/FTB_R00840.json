@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00840@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00840",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain RAG chatbot for Argo data; evaluated on standalone queries; no schema-linking or self-correction contribution; conversational memory only mentioned",
+   "where": "p4-5 Sec 4.6 (MCP memory); p8-9 Sec 6.1-6.2 (214 single queries, Table 2)"
+  }
+ ],
+ "source": "cli:FTB_R00840.json"
+}

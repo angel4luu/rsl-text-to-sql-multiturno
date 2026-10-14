@@ -1,0 +1,11 @@
+id_estudio,anio,citas,citas_por_anio,percentil_en_anio,titulo
+R00124,2020,510,72.9,100,RAT-SQL: Relation-aware schema encoding and linking for text-to-SQL parsers
+R00294,2023,207,51.8,100,DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction
+R00127,2019,406,50.8,100,Towards complex text-to-SQL in cross-domain database with intermediate representation
+R00911,2023,188,47.0,97,RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+R00164,2024,128,42.7,100,CodeS: Towards Building Open-source Language Models for Text-to-SQL
+B00042,2020,181,25.9,94,Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
+B00012,2021,138,23.0,96,LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
+B00241,2024,67,22.3,98,DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models
+R00293,2023,81,20.2,94,Teaching Large Language Models to Self-Debug
+B00273,2021,86,14.3,92,Structure-Grounded Pretraining for Text-to-SQL

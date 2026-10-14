@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00981@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00981",
+   "d": "include",
+   "code": "INC",
+   "why": "Unified Text-to-SQL parser with multi-turn context encoding, schema linking and JOIN completion; evaluated on SParC, CoSQL, CHASE and Spider.",
+   "where": "p1 Abstract; p3-5 Methodology 3.3-3.5; p6 Table 3 (multi-turn results)"
+  }
+ ],
+ "source": "cli:FTA_R00981.json"
+}

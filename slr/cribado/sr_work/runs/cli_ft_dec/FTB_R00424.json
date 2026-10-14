@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00424@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00424",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demo of a multi-source data-planning architecture. Linking, correction and multi-turn NL2SQL context handling are not stated contributions, and no NL2SQL evaluation is reported.",
+   "where": "p1 Abstract; p2 Introduction, Contributions; p4 Section 4 Demonstrations"
+  }
+ ],
+ "source": "cli:FTB_R00424.json"
+}

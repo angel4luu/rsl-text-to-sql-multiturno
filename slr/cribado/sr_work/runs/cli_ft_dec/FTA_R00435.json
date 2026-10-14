@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00435@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00435",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary multi-turn Text-to-SQL benchmark on relational databases, with context memory and quantitative execution-accuracy evaluation; 2026 arXiv preprint in English.",
+   "where": "p1 Abstract; p4-5 Sec 3 Problem Formulation; p10-11 Sec 6.1 Results, Tables 6-7"
+  }
+ ],
+ "source": "cli:FTA_R00435.json"
+}

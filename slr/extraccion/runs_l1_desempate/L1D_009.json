@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00422\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00430\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00437\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00443\",\"extraccion\":{\"requiere_entrenamiento\":\"NR\"}},{\"id_estudio\":\"R00444\",\"extraccion\":{\"paradigma_principal\":\"LLM_PROMPTING\",\"requiere_entrenamiento\":\"NR\"}},{\"id_estudio\":\"R00448\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00460\",\"extraccion\":{\"requiere_entrenamiento\":\"NR\"}},{\"id_estudio\":\"R00468\",\"extraccion\":{\"codigo_disponible\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_009"
+}

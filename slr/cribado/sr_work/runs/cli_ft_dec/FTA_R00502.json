@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00502@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00502",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema linking and value grounding are central; quantitative results, including four public benchmarks.",
+   "where": "p1 Abstract; p2 Contributions (four public benchmarks); p3-4 Sec 3.4 Schema Linking; p4 Sec 4.1 Datasets"
+  }
+ ],
+ "source": "cli:FTA_R00502.json"
+}

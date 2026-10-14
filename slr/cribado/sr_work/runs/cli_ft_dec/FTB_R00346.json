@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00346@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00346",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-based candidate selection is the central contribution; evaluated quantitatively on public BIRD benchmark with accuracy gains.",
+   "where": "p1 Abstract/Introduction; p4 Text-to-SQL Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00346.json"
+}

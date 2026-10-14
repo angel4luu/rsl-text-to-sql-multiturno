@@ -1,0 +1,1 @@
+{"label": "FTB:R00043@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00043", "d": "exclude", "code": "E8", "why": "Single-turn pipeline evaluated only on a custom financial dataset; no public benchmark evaluation is reported.", "where": "p4 §3.2 Evaluation Dataset; pp8–9 §6.3 Result"}], "source": "codex:gpt-6.1-sol"}

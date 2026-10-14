@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00947@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00947",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL2SQL with bidirectional schema linking and execution-feedback self-correction as stated contributions; evaluated on BIRD (EX 69.97%, 65.51%).",
+   "where": "p1 Abstract; p5 Section 3.2 Core modules; p6-7 Section 4.1-4.2, Tables 2-5"
+  }
+ ],
+ "source": "cli:FTB_R00947.json"
+}

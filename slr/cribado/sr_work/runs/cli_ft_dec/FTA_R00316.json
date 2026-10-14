@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00316@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00316",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and Sub-SQL refinement as stated contributions; EX evaluated on BIRD and Spider.",
+   "where": "p1 Abstract; p2 Contributions; p7-8 Section 4 Experiments, Tables 1-4"
+  }
+ ],
+ "source": "cli:FTA_R00316.json"
+}

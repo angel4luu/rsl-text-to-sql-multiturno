@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00336@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00336",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL agent; self-refinement and schema linking are central; evaluated quantitatively on public Spider 2.0.",
+   "where": "p1 Abstract; p6-7 Section 4 Experiments, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00336.json"
+}

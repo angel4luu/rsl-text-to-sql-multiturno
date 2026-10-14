@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00011@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00011",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema routing/linking is the central contribution; evaluated quantitatively on Spider and BIRD; 2026, English, peer-reviewed.",
+   "where": "p1 Abstract; p5-7 Section 4 Experiments (Tables 2-4)"
+  }
+ ],
+ "source": "cli:FTA_R00011.json"
+}

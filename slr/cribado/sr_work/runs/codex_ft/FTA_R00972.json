@@ -1,0 +1,1 @@
+{"label": "FTA:R00972@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00972", "d": "include", "code": "INC", "why": "Schema pruning is a central contribution, quantitatively evaluated on public Spider and BIRD relational Text-to-SQL benchmarks.", "where": "p1 Abstract; p2 Contributions; p6 §4.1; p7 §4.2"}], "source": "codex:gpt-6.1-sol"}

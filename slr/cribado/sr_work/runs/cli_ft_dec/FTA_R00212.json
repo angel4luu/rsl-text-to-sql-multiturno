@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00212@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00212",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn tool using historical scripts as examples; contribution is implicit-knowledge alignment and user review, not schema linking or self-correction.",
+   "where": "p1 Abstract and Figure 1; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTA_R00212.json"
+}

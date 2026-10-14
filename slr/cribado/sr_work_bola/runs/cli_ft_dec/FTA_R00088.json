@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00088@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00088",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; relation-aware question–schema linking is the central contribution; evaluated with EM on Spider and Spider-Syn.",
+   "where": "p1 Abstract; p2 Introduction (SRSQL contribution); p8-9 Section 5 Experiment"
+  }
+ ],
+ "source": "cli:FTA_R00088.json"
+}

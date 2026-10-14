@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00167@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00167",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn benchmark whose stated aims include table linking and cross-database join planning. Reports execution accuracy on public TACO-Beijing and TACO-US.",
+   "where": "p1 Abstract and Introduction; p9-10 Sec 5 Experiments, Table 3, Exp-3 ablation"
+  }
+ ],
+ "source": "cli:FTB_R00167.json"
+}

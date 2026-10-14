@@ -1,0 +1,1 @@
+{"label": "FTB:R00935@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00935", "d": "include", "code": "INC", "why": "Proposes execution-guided SQL selection and schema selection, with quantitative evaluation on public Spider and BIRD benchmarks.", "where": "p1 Abstract; pp17–18 Sections 7–8"}], "source": "codex:gpt-6.1-sol"}

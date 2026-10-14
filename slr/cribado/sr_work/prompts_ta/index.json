@@ -1,0 +1,478 @@
+[
+ {
+  "label": "A:b005@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b005.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b005@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b005.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b007@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b007.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b007@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b007.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b008@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b008.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b008@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b008.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b010@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b010.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b010@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b010.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b012@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b012.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b012@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b012.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b013@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b013.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b013@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b013.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b014@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b014.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b014@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b014.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b015@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b015.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b015@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b015.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b017@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b017.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b017@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b017.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b018@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b018.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b018@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b018.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b019@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b019.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b019@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b019.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b020@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b020.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b020@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b020.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b021@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b021.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b021@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b021.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "A:b022@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/A_b022.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "B:b022@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ta",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "956699735cf1db42b095a17839f71ad58ca7c11bf89747e356f3841f6806d598",
+   "content_id": "937d1d2665a2c49e8b052ba0859ce9b73a1372763f3264efe03832b43086f283",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ta/B_b022.txt",
+  "model": "sonnet"
+ }
+]

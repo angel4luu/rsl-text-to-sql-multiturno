@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00006@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00006",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema linking/join-path paper, central contribution, evaluated quantitatively on public BIRD and Spider 2.0 Lite",
+   "where": "p1 Abstract; p3-5 Sections 3-4 (Datasets, Results, Tables 1-3)"
+  }
+ ],
+ "source": "cli:FTB_R00006.json"
+}

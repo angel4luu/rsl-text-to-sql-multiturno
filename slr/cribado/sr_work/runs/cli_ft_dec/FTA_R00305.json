@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00305@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00305",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL centred on schema linking; evaluated quantitatively on public BIRD benchmark (EX, VES, SLAM); 2024 English arXiv.",
+   "where": "p1 Abstract and Introduction; p5-6 Section 5 Experiment (metrics, SLAM)"
+  }
+ ],
+ "source": "cli:FTA_R00305.json"
+}

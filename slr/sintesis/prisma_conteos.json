@@ -1,0 +1,63 @@
+{
+ "bases": {
+  "identificados": {
+   "Scopus": 563,
+   "IEEE Xplore": 368,
+   "ACM DL": 146,
+   "ACL Anthology": 133,
+   "arXiv": 386,
+   "total": 1596
+  },
+  "duplicados_eliminados": 555,
+  "cribados": 1041,
+  "excluidos_cribado": 446,
+  "excluidos_cribado_por_codigo": {
+   "E1": 43,
+   "E2": 11,
+   "E3": 33,
+   "E4": 39,
+   "E5": 108,
+   "E6": 212
+  },
+  "buscados": 595,
+  "no_recuperados": 164,
+  "evaluados": 431,
+  "excluidos_texto_completo": 82,
+  "excluidos_texto_completo_por_motivo": {
+   "E1 Published before 2019": 1,
+   "E2 Article written in a language other than English or Spanish": 1,
+   "E3 Thesis, poster, abstract-only or extended abstract, <4 pages of content, editorial, proceedings front matter, complete book": 1,
+   "E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)": 6,
+   "E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution": 42,
+   "E7 No quantitative empirical evaluation (full text only)": 4,
+   "E8 Single-turn study not evaluated on any public benchmark (full text only)": 23,
+   "E9 Secondary report of an already included study (deduplication / full text only)": 4
+  },
+  "incluidos": 349
+ },
+ "otros_metodos": {
+  "estudios_de_inicio": 78,
+  "registros_identificados_openalex": 266,
+  "registros_identificados_semantic_scholar": 27,
+  "duplicados_eliminados": 1,
+  "cribados": 292,
+  "excluidos_cribado": 204,
+  "duplicados_tras_cribado_E9": 3,
+  "buscados": 85,
+  "no_recuperados": 27,
+  "evaluados": 58,
+  "excluidos_texto_completo": 17,
+  "excluidos_texto_completo_por_motivo": {
+   "E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution": 15,
+   "E9 Secondary report of an already included study (deduplication / full text only)": 2
+  },
+  "incluidos": 41,
+  "excluidos_cribado_por_codigo": {
+   "E3": 3,
+   "E4": 21,
+   "E5": 7,
+   "E6": 173,
+   "E9": 3
+  }
+ }
+}

@@ -1,0 +1,626 @@
+[
+ {
+  "id": "R00019",
+  "title": "Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7166848346",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00029",
+  "title": "SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7166843688",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00030",
+  "title": "MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4415273600",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00033",
+  "title": "Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7166865640",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00035",
+  "title": "CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7166805953",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00041",
+  "title": "PRACTIQ: A Practical Conversational text-to-SQL dataset with Ambiguous and Unanswerable Queries",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4411119602",
+  "backward": 0,
+  "forward": 6
+ },
+ {
+  "id": "R00042",
+  "title": "Track-SQL: Enhancing Generative Language Models with Dual-Extractive Modules for Schema and Context Tracking in Multi-turn Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4411120143",
+  "backward": 0,
+  "forward": 2
+ },
+ {
+  "id": "R00068",
+  "title": "ABACUS-SQL: A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4412887115",
+  "backward": 1,
+  "forward": 1
+ },
+ {
+  "id": "R00072",
+  "title": "CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4401043809",
+  "backward": 0,
+  "forward": 12
+ },
+ {
+  "id": "R00074",
+  "title": "TP-Link: Fine-grained Pre-Training for Text-to-SQL Parsing with Linking Information",
+  "resolved": "title",
+  "openalex": "https://openalex.org/W7131861455",
+  "backward": 0,
+  "forward": 1
+ },
+ {
+  "id": "R00078",
+  "title": "MultiSQL: A Schema-Integrated Context-Dependent Text2SQL Dataset with Diverse SQL Operations",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4402670240",
+  "backward": 0,
+  "forward": 6
+ },
+ {
+  "id": "R00079",
+  "title": "EHR-SeqSQL: A Sequential Text-to-SQL Dataset For Interactively Exploring Electronic Health Records",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4402670501",
+  "backward": 0,
+  "forward": 5
+ },
+ {
+  "id": "R00084",
+  "title": "Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385571688",
+  "backward": 33,
+  "forward": 1
+ },
+ {
+  "id": "R00086",
+  "title": "ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4389519829",
+  "backward": 27,
+  "forward": 48
+ },
+ {
+  "id": "R00088",
+  "title": "Conversing with databases: Practical Natural Language Querying",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4389524560",
+  "backward": 10,
+  "forward": 0
+ },
+ {
+  "id": "R00091",
+  "title": "Multitask Pretraining with Structured Knowledge for Text-to-SQL Generation",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385565008",
+  "backward": 42,
+  "forward": 5
+ },
+ {
+  "id": "R00093",
+  "title": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4226490385",
+  "backward": 37,
+  "forward": 34
+ },
+ {
+  "id": "R00096",
+  "title": "STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385573280",
+  "backward": 32,
+  "forward": 26
+ },
+ {
+  "id": "R00097",
+  "title": "CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385573339",
+  "backward": 36,
+  "forward": 14
+ },
+ {
+  "id": "R00098",
+  "title": "Towards Generalizable and Robust Text-to-SQL Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385567284",
+  "backward": 43,
+  "forward": 8
+ },
+ {
+  "id": "R00099",
+  "title": "In-Context Learning for Few-Shot Dialogue State Tracking",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4221151667",
+  "backward": 0,
+  "forward": 56
+ },
+ {
+  "id": "R00100",
+  "title": "Augmenting Multi-Turn Text-to-SQL Datasets with Self-Play",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385573571",
+  "backward": 38,
+  "forward": 6
+ },
+ {
+  "id": "R00101",
+  "title": "RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4385573058",
+  "backward": 33,
+  "forward": 78
+ },
+ {
+  "id": "R00107",
+  "title": "Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3174921180",
+  "backward": 44,
+  "forward": 20
+ },
+ {
+  "id": "R00109",
+  "title": "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3200285169",
+  "backward": 15,
+  "forward": 316
+ },
+ {
+  "id": "R00110",
+  "title": "CHASE: A large-scale and pragmatic Chinese dataset for cross-database context-dependent text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3176134318",
+  "backward": 36,
+  "forward": 32
+ },
+ {
+  "id": "R00114",
+  "title": "AirConcierge: Generating task-oriented dialogue via efficient large-scale knowledge retrieval",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3100963818",
+  "backward": 27,
+  "forward": 5
+ },
+ {
+  "id": "R00116",
+  "title": "Grounded adaptation for zero-shot executable semantic parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3103962261",
+  "backward": 21,
+  "forward": 85
+ },
+ {
+  "id": "R00117",
+  "title": "IGSQL: Database schema interaction graph based neural model for context-dependent text-to-SQL generation",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3103291908",
+  "backward": 25,
+  "forward": 43
+ },
+ {
+  "id": "R00120",
+  "title": "PG-GSQL: Pointer-Generator Network with Guide Decoding for Cross-Domain Context-Dependent Text-to-SQL Generation",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3118052716",
+  "backward": 33,
+  "forward": 4
+ },
+ {
+  "id": "R00126",
+  "title": "SPARC: Cross-domain semantic parsing in context",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W2948465491",
+  "backward": 36,
+  "forward": 139
+ },
+ {
+  "id": "R00129",
+  "title": "CoSQL: A conversational text-to-SQL challenge towards cross-domain natural language interfaces to databases",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W2970442801",
+  "backward": 59,
+  "forward": 156
+ },
+ {
+  "id": "R00131",
+  "title": "Editing-based SQL query generation for cross-domain context-dependent questions",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W2970172141",
+  "backward": 56,
+  "forward": 114
+ },
+ {
+  "id": "R00148",
+  "title": "Utilizing Past User Feedback for More Accurate Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4412107772",
+  "backward": 5,
+  "forward": 3
+ },
+ {
+  "id": "R00160",
+  "title": "Learn From Mistakes: Guidance on Zero-shot Conversational Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4403577425",
+  "backward": 13,
+  "forward": 5
+ },
+ {
+  "id": "R00170",
+  "title": "ASTormer++: A Study on a Chinese Medical Text-to-SQL Model Integrating Conceptual Understanding and Efficiency Optimization",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7213455970",
+  "backward": 3,
+  "forward": 0
+ },
+ {
+  "id": "R00222",
+  "title": "SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4414266741",
+  "backward": 27,
+  "forward": 7
+ },
+ {
+  "id": "R00232",
+  "title": "A natural language and interactive end-to-end querying and reporting system",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W2999323504",
+  "backward": 12,
+  "forward": 2
+ },
+ {
+  "id": "R00238",
+  "title": "Building Natural Language Interfaces for Databases in Practice",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4292696275",
+  "backward": 8,
+  "forward": 3
+ },
+ {
+  "id": "R00286",
+  "title": "UniSAr: A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4221166881",
+  "backward": 0,
+  "forward": 7
+ },
+ {
+  "id": "R00288",
+  "title": "SeSQL: Yet Another Large-scale Session-level Chinese Text-to-SQL Dataset",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4293566289",
+  "backward": 0,
+  "forward": 1
+ },
+ {
+  "id": "R00292",
+  "title": "A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4361019453",
+  "backward": 0,
+  "forward": 61
+ },
+ {
+  "id": "R00298",
+  "title": "SQLformer: Deep Auto-Regressive Query Graph Generation for Text-to-SQL Translation",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4388092460",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00309",
+  "title": "ChatBI: Towards Natural Language to Complex Business Intelligence SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4396625496",
+  "backward": 0,
+  "forward": 1
+ },
+ {
+  "id": "R00311",
+  "title": "LEARNING TO CLARIFY: MULTI-TURN CONVERSATIONS WITH ACTION-BASED CONTRASTIVE SELF-TRAINING",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4399354831",
+  "backward": 0,
+  "forward": 1
+ },
+ {
+  "id": "R00312",
+  "title": "QDA-SQL: Questions Enhanced Dialogue Augmentation for Multi-Turn Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4399794374",
+  "backward": 0,
+  "forward": 2
+ },
+ {
+  "id": "R00370",
+  "title": "From Conversation to Query Execution: Benchmarking User and Tool Interactions for EHR Database Agents",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4415332399",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00373",
+  "title": "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation for Large Language Models via Lens of Dynamic Interactions",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4414976110",
+  "backward": 0,
+  "forward": 1
+ },
+ {
+  "id": "R00374",
+  "title": "Prompt reinforcing for long-term planning of large language models",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4414979820",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00435",
+  "title": "Memory Architectures for Multi-Turn Text-to-SQL: A Benchmark and Empirical Study",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7162498655",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00438",
+  "title": "Learning to Retrieve: Dual-Level Long-Term Memory for Text-to-SQL Agents",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7163189858",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00450",
+  "title": "StocksTalk: A Voice-Enabled Conversational Agent for Structured Query Generation over Web Data",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7203954866",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00453",
+  "title": "CoeusBI: A Comprehensive Interactive Business Intelligence System Powered by LLMs at Baidu [Extended Version]",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7164942622",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00480",
+  "title": "SemPlan: Benchmarking Structured Semantic Planning for LLM-Based Queries over Enterprise Data",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7202282744",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00482",
+  "title": "PLSQLBench: Benchmarking LLM Systems for Executable Procedural Database Programming",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7203675954",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00491",
+  "title": "Evaluating LLMs on Conversational Text-to-SQL under Chain Ambiguity and Intent Drift",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7204946433",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00499",
+  "title": "GitHarness: Git Init Your Harness Working Memory for Perpetual User Requirements",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7214923360",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00508",
+  "title": "HarnessSQL: Harness-Native Training for SQL Agents in Realistic Database Environments",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7221124200",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00511",
+  "title": "Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4372265458",
+  "backward": 26,
+  "forward": 9
+ },
+ {
+  "id": "R00524",
+  "title": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4416252302",
+  "backward": 10,
+  "forward": 3
+ },
+ {
+  "id": "R00525",
+  "title": "SE-HCL: Schema Enhanced Hybrid Curriculum Learning for Multi-Turn Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4391791521",
+  "backward": 35,
+  "forward": 6
+ },
+ {
+  "id": "R00526",
+  "title": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4416251373",
+  "backward": 25,
+  "forward": 2
+ },
+ {
+  "id": "R00828",
+  "title": "CHIMLE: An LLM-based chatbot for managing student academic databases",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7196936754",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00868",
+  "title": "MIGA: A Unified Multi-Task Generation Framework for Conversational Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4382202648",
+  "backward": 35,
+  "forward": 12
+ },
+ {
+  "id": "R00904",
+  "title": "ARE SQL for improving semantic alignment in Chinese multi round text to SQL parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7153785340",
+  "backward": 15,
+  "forward": 0
+ },
+ {
+  "id": "R00908",
+  "title": "FISQL: Enhancing Text-to-SQL Systems with Rich Interactive Feedback",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W6967106046",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00920",
+  "title": "SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4401042599",
+  "backward": 0,
+  "forward": 6
+ },
+ {
+  "id": "R00924",
+  "title": "DIR: A Large-Scale Dialogue Rewrite Dataset for Cross-Domain Conversational Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4319982568",
+  "backward": 35,
+  "forward": 6
+ },
+ {
+  "id": "R00927",
+  "title": "Advancing Conversational Text-to-SQL: Context Strategies and Model Integration with Large Language Models",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4416350242",
+  "backward": 12,
+  "forward": 0
+ },
+ {
+  "id": "R00936",
+  "title": "An interaction-modeling mechanism for context-dependent Text-to-SQL translation based on heterogeneous graph aggregation",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3184970047",
+  "backward": 39,
+  "forward": 12
+ },
+ {
+  "id": "R00950",
+  "title": "QURG: Question Rewriting Guided Context-Dependent Text-to-SQL Semantic Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4388551826",
+  "backward": 31,
+  "forward": 4
+ },
+ {
+  "id": "R00954",
+  "title": "An Intelligent Natural Language Interface for Querying Databases based on Deep Learning",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W7162002468",
+  "backward": 0,
+  "forward": 0
+ },
+ {
+  "id": "R00981",
+  "title": "UniSAr: a unified structure-aware autoregressive language model for text-to-SQL semantic parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4383199468",
+  "backward": 30,
+  "forward": 14
+ },
+ {
+  "id": "R00994",
+  "title": "Pay More Attention to History: A Context Modelling Strategy for Conversational Text-to-SQL",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W4225983122",
+  "backward": 0,
+  "forward": 8
+ },
+ {
+  "id": "R01029",
+  "title": "Tracking Interaction States for Multi-Turn Text-to-SQL Semantic Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3176057191",
+  "backward": 34,
+  "forward": 13
+ },
+ {
+  "id": "R01031",
+  "title": "SCORE: PRE-TRAINING FOR CONTEXT REPRESENTATION IN CONVERSATIONAL SEMANTIC PARSING",
+  "resolved": "title",
+  "openalex": "https://openalex.org/W3119822474",
+  "backward": 51,
+  "forward": 42
+ },
+ {
+  "id": "R01034",
+  "title": "FANDA: A novel approach to perform follow-up query analysis",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W2963677379",
+  "backward": 25,
+  "forward": 6
+ },
+ {
+  "id": "R01037",
+  "title": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+  "resolved": "doi",
+  "openalex": "https://openalex.org/W3173964589",
+  "backward": 39,
+  "forward": 36
+ }
+]

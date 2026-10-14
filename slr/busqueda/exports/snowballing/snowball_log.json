@@ -1,0 +1,18 @@
+{
+ "date": "2026-10-12",
+ "source": "OpenAlex API",
+ "counts": {
+  "seeds": 78,
+  "seeds_resolved": 78,
+  "links_retrieved": 2690,
+  "unique_works": 1303,
+  "already_in_database_records": 231,
+  "before_2019": 224,
+  "not_matching_block_A": 582,
+  "candidates": 266,
+  "candidates_without_abstract": 62
+ },
+ "raw_file": "exports/snowballing/2026-10-12_openalex_raw.jsonl",
+ "candidates_file": "exports/snowballing/derived/2026-10-12_snowball_candidates.ris",
+ "seeds_not_resolved": []
+}

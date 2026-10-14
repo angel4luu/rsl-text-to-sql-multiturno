@@ -1,0 +1,26 @@
+\section{Trabajos relacionados}
+\label{sec:relacionados}
+
+\input{tablas/relacionados}
+
+La búsqueda exploratoria de revisiones previas se realizó el \fechaBusquedaExploratoria{} en Scopus, OpenAlex, DBLP, arXiv y Consensus. Fue exploratoria y no forma parte del recuento PRISMA. Identificó \nRevisionesPrevias{} revisiones pertinentes, que resume la \cref{tab:relacionados}. La columna <<Fuente leída>> indica el texto sobre el que se verificó cada descriptor; cuando fue solo el resumen, la descripción debe leerse con esa salvedad. Estas revisiones tienen objetivos distintos de los de la presente, por lo que la comparación es de alcance y de método, no de calidad.
+
+\subsection{Revisiones generales de Text-to-SQL y NLIDB}
+\label{sec:rel-generales}
+% PRISMA ítem 3 (justificación)
+
+Las revisiones generales abordan la tarea desde la perspectiva de las NLIDB o de los modelos de lenguaje de gran tamaño (\en{large language models}, LLM), y tratan lo multiturno, según sus resúmenes, como un subtema. Abbas et al.~\cite{Abbas2022NLIDB} se centran en NLIDB con aprendizaje profundo. Deng et al.~\cite{Deng2022Recent} y Katsogiannis-Meimarakis y Koutrika~\cite{Katsogiannis2023Survey} cubren Text-to-SQL con redes neuronales. Liu et al.~\cite{Liu2025SurveyLLMs} y Shi et al.~\cite{Shi2026SurveyLLM} lo hacen para la era de los LLM. De todas ellas solo se verificó el resumen, de modo que no se afirma el grado de cobertura de lo multiturno en su texto completo.
+
+Varias revisiones de 2026 se presentan como sistemáticas. Liu et al.~\cite{Liu2026NLIDBReview} revisan las NLIDB en general. Según la versión arXiv v2, leída completa, no documenta un protocolo de búsqueda ni un diagrama PRISMA, no menciona SParC ni CoSQL y trata la vinculación de esquemas solo como preprocesamiento; la versión publicada podría diferir. Bui et al.~\cite{Bui2026Survey} sí documentan una búsqueda sistemática, con criterios de inclusión y exclusión, sobre Text-to-SQL con LLM y su seguridad. En el texto completo del manuscrito, lo multiturno aparece solo como categoría de \en{datasets}, y no se analizan la restauración del contexto, el estado del diálogo ni la degradación por turno. Ortiz-Delgado et al.~\cite{OrtizDelgado2026RAG} presentan una revisión sistemática, con protocolo en OSF, sobre estrategias de generación aumentada por recuperación para Text-to-SQL; según su resumen y su registro, no trata el escenario multiturno.
+
+\subsection{Revisiones centradas en el contexto y el escenario conversacional}
+\label{sec:rel-conversacional}
+
+Las revisiones más próximas se centran en la dependencia del contexto. Li, Qu y Haffari~\cite{Li2020ContextSurvey} presentan una revisión narrativa, anterior a los LLM, del análisis semántico dependiente del contexto, que no se limita a SQL. Yang et al.~\cite{Yang2025Conversational} es la revisión más cercana en alcance: según su resumen, cubre el manejo del contexto (correferencia y elipsis), la evolución de las arquitecturas desde codificador-decodificador hasta LLM y agentes, y una comparación cuantitativa en SParC y CoSQL. Su resumen no menciona protocolo de búsqueda ni criterios de selección, ni la vinculación de esquemas, la inferencia de \en{joins} o la retroalimentación de ejecución como ejes. No fue posible leer su texto completo, por lo que estas observaciones se limitan a lo que declara el resumen y deberán contrastarse con el texto completo.
+
+\subsection{Diferencias de esta revisión}
+\label{sec:rel-brecha}
+
+Con base en lo verificado, esta revisión se distingue de las anteriores en el diseño, no en una valoración de su calidad. Primero, sigue un protocolo registrado y reportado según PRISMA 2020, con estrategia de búsqueda reproducible sobre \nBases{} fuentes. Segundo, define su alcance mediante PICOC e integra de forma conjunta restauración del contexto, estado del diálogo, vinculación de esquemas con inferencia de \en{joins} y autocorrección. Tercero, contrasta de manera explícita el escenario multiturno con el de un turno mediante un indicador descriptivo pre-especificado. Cuarto, evalúa la degradación por turno separando los estudios según el historial usado en la evaluación. Finalmente, el criterio de brecha de investigación se fijó antes de examinar los datos y se evalúa con independencia de su resultado (\cref{sec:intro-objetivos}).
+
+Estas diferencias acotan el aporte a un análisis sistemático y conjunto del escenario multiturno. Los \en{surveys} narrativos, en cambio, ofrecen panoramas conceptuales y taxonomías de arquitecturas que esta revisión no pretende reemplazar.

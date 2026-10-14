@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00250@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00250",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider error taxonomy, attention-alignment analysis and user study of error handling; no schema-linking or self-correction contribution, no multi-turn dialogue.",
+   "where": "p1 Abstract; p2 Introduction; p15-16 Sections 4.2-4.4"
+  }
+ ],
+ "source": "cli:FTB_R00250.json"
+}

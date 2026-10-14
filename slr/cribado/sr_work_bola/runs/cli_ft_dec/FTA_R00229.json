@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00229@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00229",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn generate-then-rank (candidate selection) framework; quantitative results on public Spider and ScienceBenchmark; English arXiv 2024.",
+   "where": "p1 Abstract; p2 Introduction (contributions and experiments)"
+  }
+ ],
+ "source": "cli:FTA_R00229.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00485@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00485",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL verifier (central contribution is verification) with quantitative evaluation on the public BIRD benchmark; arXiv 2026, English.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Sections 7-8, Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00485.json"
+}

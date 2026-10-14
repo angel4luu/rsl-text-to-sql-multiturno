@@ -1,0 +1,1 @@
+{"label": "FTB:R00118@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00118", "d": "include", "code": "INC", "why": "Central schema and value disambiguation through user feedback, quantitatively evaluated on public WikiSQL and Spider benchmarks.", "where": "pp2–5, Sections 2–5; pp6–7, Sections 6.2–6.3"}], "source": "codex:gpt-6.1-sol"}

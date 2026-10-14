@@ -1,0 +1,19 @@
+\subsection{Panorama bibliométrico exploratorio}
+\label{sec:res-bibliometria}
+% PRISMA ítem 17 (características de los estudios; análisis exploratorio, no preespecificado)
+
+Este panorama bibliométrico es un análisis exploratorio y descriptivo (enmienda A6) que no modifica ninguna conclusión pre-especificada. OpenAlex resolvió 384 de los \nEstudios{} estudios en la consulta del 2026-10-13; los 6 restantes no cuentan con datos bibliométricos.
+% fuente: bibliometria_resultados.json
+
+\input{figuras/tex/bib_panorama}
+
+El panel~(a) de la \cref{fig:bib_panorama} clasifica el foro de publicación en cinco comunidades. Entre los estudios multiturno, 34 se publicaron en foros de procesamiento del lenguaje natural, 4 en foros de bases de datos, 7 en foros de aprendizaje automático o inteligencia artificial y 14 en otros foros, y 18 son \en{preprints}. Entre los estudios de un turno, las cifras son 65, 24, 19, 77 y 128, respectivamente.
+% fuente: bib_comunidad.csv, PI0.md
+
+La red de citas entre los estudios incluidos (panel~(b)) reúne 843 citas entre 185 estudios con al menos un vínculo, mientras que 205 estudios quedan aislados. Por dirección, hay 434 citas de un turno a un turno, 137 de un turno a multiturno, 173 de multiturno a multiturno y 99 de multiturno a un turno. La mediana de citas por año desde la publicación es de 1,0 en los estudios multiturno y de 0,5 en los de un turno. Por tipo de afiliación, 197 estudios son solo de academia, 79 combinan academia e industria, 28 son solo de industria y 80 carecen de datos.
+% fuente: bibliometria_resultados.json, PI0.md, leyendas.json
+
+Respecto de los países (panel~(c)), China registra 170 estudios (35 multiturno y 135 de un turno) y Estados Unidos 91 (24 y 67); siguen Hong Kong con 18, Corea del Sur con 12 y Canadá con 12. En cuanto a las familias de modelos base (panel~(d)), BERT, RoBERTa y ELECTRA y T5 son las más mencionadas hasta 2022; GPT lo es en 2024 y en 2026, y Qwen en 2025. Claude y Qwen aparecen desde 2025, y DeepSeek desde 2024. En el Nivel 1 solo se registraron los modelos citados en las páginas 1 y 2, de modo que el uso real de cada familia está subestimado, y las cifras por país y por comunidad dependen de la cobertura de OpenAlex y de la clasificación de los foros.
+% fuente: bib_paises.csv, bib_modelos_anio.csv, PI0.md
+
+Los análisis de productividad y red de coautoría, y de frecuencia de términos en títulos y resúmenes, se publican en el repositorio del proyecto.

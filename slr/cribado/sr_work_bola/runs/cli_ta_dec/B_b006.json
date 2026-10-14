@@ -1,0 +1,258 @@
+{
+ "label": "B:b006@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00251",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General single-turn Transformer seq2seq, no linking/correction focus"
+  },
+  {
+   "id": "R00252",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title suggests security, not linking, correction or multi-turn"
+  },
+  {
+   "id": "R00253",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational SQL chatbot; unclear whether successive dependent questions are handled"
+  },
+  {
+   "id": "R00254",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity/unanswerable question detection, not linking or correction"
+  },
+  {
+   "id": "R00255",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference abstract only; also single-turn benchmark study"
+  },
+  {
+   "id": "R00256",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn simpler model; no linking/correction contribution evident"
+  },
+  {
+   "id": "R00257",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Custom loss function, single-turn, no linking/correction"
+  },
+  {
+   "id": "R00258",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Portuguese single-turn model adaptation, no linking/correction focus"
+  },
+  {
+   "id": "R00259",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Russian single-turn dataset, not about linking or correction"
+  },
+  {
+   "id": "R00260",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multilingual single-turn pipeline; linking/voting only components"
+  },
+  {
+   "id": "R00261",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn auxiliary task for generalization"
+  },
+  {
+   "id": "R00262",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn architecture on WikiSQL, schema representation only"
+  },
+  {
+   "id": "R00263",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Column-wise ranking may be column selection as central contribution"
+  },
+  {
+   "id": "R00264",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn single-table table-content fusion, not linking-centered"
+  },
+  {
+   "id": "R00265",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn domain dataset, not about linking or correction"
+  },
+  {
+   "id": "R00266",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; global schema constant selection/alignment central, Spider evaluation"
+  },
+  {
+   "id": "R00267",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema filter and candidate selection among several components"
+  },
+  {
+   "id": "R00268",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn benchmark about database values, not linking/correction"
+  },
+  {
+   "id": "R00269",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema selector, iterative refinement and unit-test validation; BIRD evaluation"
+  },
+  {
+   "id": "R00270",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese dataset, not linking/correction"
+  },
+  {
+   "id": "R00271",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; single-turn Chinese dataset title"
+  },
+  {
+   "id": "R00272",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; session-level benchmark with EditSQL/IGSQL suggests multi-turn"
+  },
+  {
+   "id": "R00273",
+   "d": "include",
+   "code": "INC",
+   "why": "Column/value grounding for text-table alignment is central; evaluated on Spider"
+  },
+  {
+   "id": "R00274",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title names schema linking as contribution"
+  },
+  {
+   "id": "R00275",
+   "d": "include",
+   "code": "INC",
+   "why": "Semantics Correction post-processing is stated contribution; Spider evaluation"
+  },
+  {
+   "id": "R00276",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; position-style title, no linking/correction/multi-turn signal"
+  },
+  {
+   "id": "R00277",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity benchmark"
+  },
+  {
+   "id": "R00278",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn reliability benchmark with abstention"
+  },
+  {
+   "id": "R00279",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; single-turn unanswerable-question benchmark"
+  },
+  {
+   "id": "R00280",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; single-turn training dataset"
+  },
+  {
+   "id": "R00281",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn MCTS reasoning; not linking/correction central"
+  },
+  {
+   "id": "R00282",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise workflow benchmark"
+  },
+  {
+   "id": "R00283",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based Text-to-SQL"
+  },
+  {
+   "id": "R00284",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-agent with schema selector and SQL refiner agents; BIRD evaluation"
+  },
+  {
+   "id": "R00285",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dataset from Stack Exchange"
+  },
+  {
+   "id": "R00286",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese CRUD dataset"
+  },
+  {
+   "id": "R00287",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Metadata extraction, single-turn, not linking/correction"
+  },
+  {
+   "id": "R00288",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Ensemble with schema representation, refiner and selection; centrality unclear"
+  },
+  {
+   "id": "R00289",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; LLM plus knowledge graph might support schema linking"
+  },
+  {
+   "id": "R00290",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise benchmark"
+  },
+  {
+   "id": "R00291",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-driven bootstrapping for dialects; unclear if execution feedback central"
+  },
+  {
+   "id": "R00292",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Matches table content and headers to question words; possible value linking"
+  }
+ ],
+ "source": "cli:B_b006.json"
+}

@@ -1,0 +1,11 @@
+campo,codigo,estudios,pct
+pi1_tecnica,CONCATENACION,35,48.6
+pi1_tecnica,NR,25,34.7
+pi1_tecnica,REESCRITURA,12,16.7
+pi1_tecnica,RESOLUCION_EXPLICITA,2,2.8
+pi1_tecnica,CLASIFICACION_DISCURSO,2,2.8
+pi1_insumos_historial,PREGUNTAS_PREVIAS,59,81.9
+pi1_insumos_historial,SQL_PREVIOS,32,44.4
+pi1_insumos_historial,RESPUESTAS_SISTEMA,13,18.1
+pi1_insumos_historial,NR,11,15.3
+pi1_insumos_historial,RESULTADOS_EJECUCION,3,4.2

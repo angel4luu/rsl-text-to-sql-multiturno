@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00945@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00945",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study; abstract's central contribution is LLM generation–verification loop (self-correction); evaluated on public BIRD benchmark.",
+   "where": "p1 Abstract; p12-13 Sections 5.1 Datasets, 6.1 Overall Results"
+  }
+ ],
+ "source": "cli:FTADJ_R00945.json"
+}

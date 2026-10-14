@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00140@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00140",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema linking and verification/selection are central contributions; evaluated on BIRD, Spider and Spider 2.0.",
+   "where": "p1 Abstract; p14 Sec 4.1 Experimental Setup; p15 Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00140.json"
+}

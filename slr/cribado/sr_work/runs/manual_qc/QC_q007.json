@@ -1,0 +1,174 @@
+{
+ "label": "QC:q007@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00959",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing workshop papers"
+  },
+  {
+   "id": "R00961",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  },
+  {
+   "id": "R00968",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Telugu NL-to-SQL; error handling and refinement listed as standout feature, centrality unclear"
+  },
+  {
+   "id": "R00969",
+   "d": "exclude",
+   "code": "E4",
+   "why": "PRISMA systematic review of Text-to-SQL"
+  },
+  {
+   "id": "R00970",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  },
+  {
+   "id": "R00971",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-request MES agent; request rewriting and planning, no linking/correction"
+  },
+  {
+   "id": "R00974",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  },
+  {
+   "id": "R00976",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of 19 context-dependent Text-to-SQL papers"
+  },
+  {
+   "id": "R00978",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Product attribute value extraction, not Text-to-SQL"
+  },
+  {
+   "id": "R00985",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn tool evaluation on industrial databases; linking/correction not stated contribution"
+  },
+  {
+   "id": "R00987",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Educational SQL dataset annotation methodology, not linking or correction"
+  },
+  {
+   "id": "R01000",
+   "d": "exclude",
+   "code": "E5",
+   "why": "User study of recommender chatbot presentation strategies, not Text-to-SQL technique"
+  },
+  {
+   "id": "R01001",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn data synthesis and distillation for training"
+  },
+  {
+   "id": "R01003",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based table agents"
+  },
+  {
+   "id": "R01004",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  },
+  {
+   "id": "R01007",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge-graph question answering, no SQL generation"
+  },
+  {
+   "id": "R01008",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dialect documentation retrieval, not linking or correction"
+  },
+  {
+   "id": "R01009",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  },
+  {
+   "id": "R01012",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of conversational Text-to-SQL"
+  },
+  {
+   "id": "R01016",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Workshop proceedings front matter"
+  },
+  {
+   "id": "R01022",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R01023",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn DialogFlow NLIDB application, no linking or correction"
+  },
+  {
+   "id": "R01025",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Logical forms for email assistant, not SQL"
+  },
+  {
+   "id": "R01026",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge-graph question answering, no SQL generation"
+  },
+  {
+   "id": "R01028",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  },
+  {
+   "id": "R01033",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R01035",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Affective communicative robot, not Text-to-SQL"
+  },
+  {
+   "id": "R01038",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter listing conference papers"
+  }
+ ],
+ "source_transcript": "agent-ae898e3b60bdf4e54.jsonl"
+}

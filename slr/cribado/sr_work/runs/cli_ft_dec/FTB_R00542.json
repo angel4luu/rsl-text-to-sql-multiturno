@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00542@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00542",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn queries; Text-to-SQL agent is one component of a multi-agent transparency system, no central linking or correction contribution.",
+   "where": "p1 Abstract; p10 IV.B.2.b and p12 IV.B.4.ii (Text-to-SQL agent design and evaluation)"
+  }
+ ],
+ "source": "cli:FTB_R00542.json"
+}

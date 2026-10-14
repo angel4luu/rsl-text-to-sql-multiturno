@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00428@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00428",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-grounded feedback is the central contribution, evaluated quantitatively on public benchmarks Dr.Spider, BIRD and BEAVER.",
+   "where": "p1 Abstract and Introduction; p2 Contributions 2-3"
+  }
+ ],
+ "source": "cli:FTB_R00428.json"
+}

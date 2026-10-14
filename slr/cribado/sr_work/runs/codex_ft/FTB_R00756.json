@@ -1,0 +1,1 @@
+{"label": "FTB:R00756@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00756", "d": "exclude", "code": "E1", "why": "Published in 2018, before the eligibility cutoff of 1 January 2019.", "where": "p1 arXiv publication header"}], "source": "codex:gpt-6.1-sol"}

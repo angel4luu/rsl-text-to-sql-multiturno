@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00340@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00340",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL critique and self-correction is the central contribution. Quantitative evaluation on BIRD and Spider.",
+   "where": "p1 Abstract; p5 Sec 4.1 Datasets and Metrics; p5-6 Sec 4.2"
+  }
+ ],
+ "source": "cli:FTB_R00340.json"
+}

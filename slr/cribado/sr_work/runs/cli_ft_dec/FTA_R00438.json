@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00438@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00438",
+   "d": "include",
+   "code": "INC",
+   "why": "Interactive Text-to-SQL agent with user simulator and follow-up requests (BIRD-Interact Phase 2); execution-feedback memory retrieval; quantitative results on public benchmarks.",
+   "where": "p1 Abstract; p3 Preliminary; p6 Experiments, Datasets and Metrics; p7 Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00438.json"
+}

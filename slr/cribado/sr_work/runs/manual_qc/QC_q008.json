@@ -1,0 +1,306 @@
+{
+ "label": "QC:q008@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00002",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title suggests domain-specific tuning, no linking/correction/multi-turn"
+  },
+  {
+   "id": "R00069",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Analytical-question bias mitigation, not Text-to-SQL generation"
+  },
+  {
+   "id": "R00083",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; cross-lingual parsing efficiency, no linking/correction signal"
+  },
+  {
+   "id": "R00103",
+   "d": "exclude",
+   "code": "E5",
+   "why": "OpenStreetMap NLMaps semantic parsing, not SQL"
+  },
+  {
+   "id": "R00145",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Clarification over multiple candidate SQL queries; candidate selection possibly central"
+  },
+  {
+   "id": "R00147",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Counterexample-based evaluation demo, no linking/correction contribution"
+  },
+  {
+   "id": "R00168",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Arabic dataset; method addresses schema linking challenges, centrality unclear"
+  },
+  {
+   "id": "R00192",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema identifier naturalness vs NL-schema mismatch; possibly schema-linking focus"
+  },
+  {
+   "id": "R00195",
+   "d": "exclude",
+   "code": "E6",
+   "why": "GPT-3.5 query decomposition on WikiSQL, no linking/correction"
+  },
+  {
+   "id": "R00197",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Policy QA agent system; Text-to-SQL only one tool"
+  },
+  {
+   "id": "R00198",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application demo with NL-to-SQL chatbot, system description"
+  },
+  {
+   "id": "R00205",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Agentic data planning over heterogeneous data lakes"
+  },
+  {
+   "id": "R00215",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-to-SQL single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00217",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SQL workload generation for benchmarking, not NL-to-SQL"
+  },
+  {
+   "id": "R00219",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Talk on AI data-processing challenges, no own evaluation"
+  },
+  {
+   "id": "R00221",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification of single standalone question; no linking/correction contribution"
+  },
+  {
+   "id": "R00223",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Metamorphic robustness testing of NLIDBs, single-turn"
+  },
+  {
+   "id": "R00224",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data analysis demo with RAG; internal multi-round reasoning only"
+  },
+  {
+   "id": "R00227",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Few-shot prompting insights tool, no linking/correction"
+  },
+  {
+   "id": "R00233",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial on LLMs for table tasks"
+  },
+  {
+   "id": "R00237",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Multi-agent tabular QA; text-to-SQL only one execution tool"
+  },
+  {
+   "id": "R00239",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Data constraint mining for reconciliation scripts"
+  },
+  {
+   "id": "R00245",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Discusses published studies on interactivity, no own evaluation"
+  },
+  {
+   "id": "R00258",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2014"
+  },
+  {
+   "id": "R00260",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain instruction tuning and data generation, no linking/correction"
+  },
+  {
+   "id": "R00264",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Video title semantic homogenization recognition"
+  },
+  {
+   "id": "R00266",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL interface for moving objects database SECONDO, not SQL"
+  },
+  {
+   "id": "R00267",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generic DSL code generation"
+  },
+  {
+   "id": "R00271",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Visualization QA via program synthesis"
+  },
+  {
+   "id": "R00272",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2015"
+  },
+  {
+   "id": "R00273",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00280",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Simple NL-to-SQL model on ATIS/WikiSQL, no linking/correction"
+  },
+  {
+   "id": "R00299",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data documentation for GPT-4 prompts, no linking/correction contribution"
+  },
+  {
+   "id": "R00343",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data balancing and oversampling on WikiSQL"
+  },
+  {
+   "id": "R00345",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-schema design generation, not SQL querying"
+  },
+  {
+   "id": "R00348",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Several components incl. iterative query refinement; centrality unclear"
+  },
+  {
+   "id": "R00371",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Privacy masking via abstraction, no linking/correction"
+  },
+  {
+   "id": "R00379",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Enterprise deep research agents; NL2SQL only one tool"
+  },
+  {
+   "id": "R00384",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Online reflection with schema-semantics knowledge; linking/correction possibly central"
+  },
+  {
+   "id": "R00459",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of privacy in LLM agents"
+  },
+  {
+   "id": "R00478",
+   "d": "exclude",
+   "code": "E5",
+   "why": "LLM reasoning reliability reproduction, not Text-to-SQL"
+  },
+  {
+   "id": "R00494",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review and framework for tabular insight extraction"
+  },
+  {
+   "id": "R00514",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Movie-domain NLIDB chatbot via intermediate query, no linking/correction"
+  },
+  {
+   "id": "R00515",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Platform for database design and text-to-SQL, system description"
+  },
+  {
+   "id": "R00518",
+   "d": "exclude",
+   "code": "E6",
+   "why": "IoT domain fine-tuning NL2SQL, no linking/correction"
+  },
+  {
+   "id": "R00519",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New Turkish single-turn dataset, not about linking/correction"
+  },
+  {
+   "id": "R00520",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of NLIDB with deep learning"
+  },
+  {
+   "id": "R00529",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based text-to-SQL"
+  },
+  {
+   "id": "R00536",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General text-to-SQL system; schema adaptation mentioned in passing"
+  },
+  {
+   "id": "R00537",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ReAct agent framework comparing LLMs, no linking/correction contribution"
+  }
+ ],
+ "source_transcript": "agent-abbba4f880cb52b5e.jsonl"
+}

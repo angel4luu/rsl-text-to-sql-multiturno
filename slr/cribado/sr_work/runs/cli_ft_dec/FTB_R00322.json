@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00322@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00322",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; candidate selection and query fixer are central contributions; quantitative evaluation on BIRD and Spider; 2024 arXiv preprint.",
+   "where": "p1 Abstract; p7 §4.1-4.3 Datasets and results; p8 §4.4 Generator and selection performance"
+  }
+ ],
+ "source": "cli:FTB_R00322.json"
+}

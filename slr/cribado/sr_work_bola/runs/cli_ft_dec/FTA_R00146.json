@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00146@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00146",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is execution-feedback and test-suite-based candidate search, evaluated quantitatively on Spider and GeoQuery.",
+   "where": "p1 Abstract and Introduction; p3 Section 3 Search Criteria; p4 Section 5 Data and Metrics"
+  }
+ ],
+ "source": "cli:FTA_R00146.json"
+}

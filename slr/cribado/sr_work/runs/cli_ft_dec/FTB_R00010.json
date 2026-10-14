@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00010@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00010",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with self-correction as central contribution; evaluated quantitatively on BIRD and Spider.",
+   "where": "p1 Abstract; p6 Sec. 3.5 and Sec. 4; p7 Tables 1 and 8; p9 Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00010.json"
+}

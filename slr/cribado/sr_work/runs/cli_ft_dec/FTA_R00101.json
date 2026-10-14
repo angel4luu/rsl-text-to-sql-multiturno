@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00101@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00101",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with coreference and schema-linking relations, evaluated quantitatively on SParC, CoSQL and Spider.",
+   "where": "p1 Abstract; p5 Sec 4.2 Coreference; p6-8 Sec 5 Tables 2-5"
+  }
+ ],
+ "source": "cli:FTA_R00101.json"
+}

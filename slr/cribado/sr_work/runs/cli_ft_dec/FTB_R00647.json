@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00647@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00647",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; n-best reranking with schema-linking algorithm as stated contribution; evaluated quantitatively (EM/EX) on Spider.",
+   "where": "p1 Abstract; p2 Introduction; p3 Sec 4.2 and 5.1; p4 Sec 5.4 Results"
+  }
+ ],
+ "source": "cli:FTB_R00647.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00470@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00470",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification dialogues about one standalone question (single-turn per protocol); contribution is ambiguity/unanswerability taxonomy and benchmark, not linking or correction.",
+   "where": "p2 Introduction contributions; p7 Sec 5.1 Evaluation Protocol (interactive phase); p11 Limitations (no follow-up questions)"
+  }
+ ],
+ "source": "cli:FTB_R00470.json"
+}

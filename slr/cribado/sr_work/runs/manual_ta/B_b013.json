@@ -1,0 +1,294 @@
+{
+ "label": "B:b013@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00601",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn visual interface, no linking/correction contribution"
+  },
+  {
+   "id": "R00602",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn security chatbot application, no linking/correction focus"
+  },
+  {
+   "id": "R00603",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM comparison for advising agent"
+  },
+  {
+   "id": "R00604",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Agentic labor-market system description, single-turn"
+  },
+  {
+   "id": "R00605",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain NL2SQL+RAG framework, no linking/correction contribution"
+  },
+  {
+   "id": "R00606",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Domain Text-to-SQL; query rethink mechanism may be correction"
+  },
+  {
+   "id": "R00607",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General NL2SQL web application, single-turn"
+  },
+  {
+   "id": "R00608",
+   "d": "exclude",
+   "code": "E6",
+   "why": "IoT analytics architecture, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00609",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL2SQL agent mentions multi-turn interactions; unclear dependency"
+  },
+  {
+   "id": "R00610",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn, cross-session context, sequential queries, SQL generation evaluated"
+  },
+  {
+   "id": "R00611",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cloud billing chatbot application, single-turn"
+  },
+  {
+   "id": "R00612",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Roadmap for finance assistant, no linking/correction contribution"
+  },
+  {
+   "id": "R00613",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL teaching tool, not a technique"
+  },
+  {
+   "id": "R00614",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of agentic AI with MCP implementation"
+  },
+  {
+   "id": "R00615",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Sample generation pipeline, not linking/correction"
+  },
+  {
+   "id": "R00616",
+   "d": "include",
+   "code": "INC",
+   "why": "NLIDB centered on keyword mapping to schema"
+  },
+  {
+   "id": "R00617",
+   "d": "include",
+   "code": "INC",
+   "why": "Phrase-based schema linking for Text-to-SQL"
+  },
+  {
+   "id": "R00618",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking, selection and repair-guided correction"
+  },
+  {
+   "id": "R00619",
+   "d": "include",
+   "code": "INC",
+   "why": "JOIN reasoning and schema linking graph framework"
+  },
+  {
+   "id": "R00620",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema context and linking importance in Turkish; centrality unclear"
+  },
+  {
+   "id": "R00621",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General LLM Text-to-SQL system, linking only a keyword"
+  },
+  {
+   "id": "R00622",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correction enhancement with execution feedback"
+  },
+  {
+   "id": "R00623",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval/filtering central to RAG approach"
+  },
+  {
+   "id": "R00624",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Wiki graph enhances schema linking; centrality unclear"
+  },
+  {
+   "id": "R00625",
+   "d": "include",
+   "code": "INC",
+   "why": "Knapsack-based schema linking method"
+  },
+  {
+   "id": "R00626",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking optimization via table completion"
+  },
+  {
+   "id": "R00627",
+   "d": "include",
+   "code": "INC",
+   "why": "Empirical study of schema grounding impact"
+  },
+  {
+   "id": "R00628",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval and execution-feedback revision"
+  },
+  {
+   "id": "R00629",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking among several components; centrality unclear"
+  },
+  {
+   "id": "R00630",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Two-stage schema linking framework plus dataset; centrality unclear"
+  },
+  {
+   "id": "R00631",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema filtering and column selection among components"
+  },
+  {
+   "id": "R00632",
+   "d": "include",
+   "code": "INC",
+   "why": "Hypothetical SQL-guided schema pruning contribution"
+  },
+  {
+   "id": "R00633",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Value linking among ICL contributions; centrality unclear"
+  },
+  {
+   "id": "R00634",
+   "d": "include",
+   "code": "INC",
+   "why": "Value retrieval technique as stated contribution"
+  },
+  {
+   "id": "R00635",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table/column selection submodels; centrality unclear"
+  },
+  {
+   "id": "R00636",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema filtering and linking among architecture components"
+  },
+  {
+   "id": "R00637",
+   "d": "include",
+   "code": "INC",
+   "why": "Selector for schema linking and refiner for self-correction"
+  },
+  {
+   "id": "R00638",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking and verification modules among three"
+  },
+  {
+   "id": "R00639",
+   "d": "include",
+   "code": "INC",
+   "why": "IR with join path inference from foreign key graph"
+  },
+  {
+   "id": "R00640",
+   "d": "include",
+   "code": "INC",
+   "why": "Bilingual schema linking with graph encoding"
+  },
+  {
+   "id": "R00641",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic literature review"
+  },
+  {
+   "id": "R00642",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema filtering and join-path selection via hierarchical GNN"
+  },
+  {
+   "id": "R00643",
+   "d": "include",
+   "code": "INC",
+   "why": "Verification and iterative schema retrieval correction"
+  },
+  {
+   "id": "R00644",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table and column selection pipeline; centrality unclear"
+  },
+  {
+   "id": "R00645",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema re-ranking and execution-guided self-correction"
+  },
+  {
+   "id": "R00646",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema grounding and validation stages in modular baseline"
+  },
+  {
+   "id": "R00647",
+   "d": "include",
+   "code": "INC",
+   "why": "Candidate reranking and schema linking algorithm"
+  },
+  {
+   "id": "R00648",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  }
+ ],
+ "source_transcript": "agent-acc88e0c2ed3e1497.jsonl"
+}

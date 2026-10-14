@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00190@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00190",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema linking via LLM prompting is a stated contribution; evaluated on Spider with exact-match and execution accuracy.",
+   "where": "p1 Abstract and p2 Contributions; p7-8 Section 5 Experiments, Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00190.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00109@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00109",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL and KBQA parser; contrastive primitive ranker (table/column/cell selection) is central; evaluated on Spider and WikiSQL.",
+   "where": "p1 Abstract and Introduction contributions; p5-6 Section 4.1 datasets, Table 4 Spider results"
+  }
+ ],
+ "source": "cli:FTB_R00109.json"
+}

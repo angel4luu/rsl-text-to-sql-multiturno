@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00210@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00210",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational NL2SQL; execution-driven debugging and verification loop is a stated contribution; quantitative evaluation on DS-NL2SQL, built from Spider/BIRD and released publicly.",
+   "where": "p1 Abstract and Contributions (5); p9-10 §7 Experiments, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00210.json"
+}

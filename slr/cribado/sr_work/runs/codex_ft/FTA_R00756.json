@@ -1,0 +1,1 @@
+{"label": "FTA:R00756@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00756", "d": "exclude", "code": "E1", "why": "The report was published in 2018, before the eligibility cutoff of January 2019.", "where": "p1, arXiv header (14 Aug 2018)"}], "source": "codex:gpt-6.1-sol"}

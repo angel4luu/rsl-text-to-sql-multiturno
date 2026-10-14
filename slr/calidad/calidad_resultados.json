@@ -1,0 +1,88 @@
+{
+ "n": 77,
+ "por_item": {
+  "CQ2": {
+   "tipo": "validez",
+   "1": 14,
+   "0.5": 62,
+   "0": 1,
+   "sin_dato": 0
+  },
+  "CQ4": {
+   "tipo": "validez",
+   "1": 46,
+   "0.5": 27,
+   "0": 4,
+   "sin_dato": 0
+  },
+  "CQ5": {
+   "tipo": "validez",
+   "1": 19,
+   "0.5": 54,
+   "0": 4,
+   "sin_dato": 0
+  },
+  "CQ6": {
+   "tipo": "validez",
+   "1": 68,
+   "0.5": 9,
+   "0": 0,
+   "sin_dato": 0
+  },
+  "CQ7": {
+   "tipo": "validez",
+   "1": 34,
+   "0.5": 38,
+   "0": 5,
+   "sin_dato": 0
+  },
+  "CQ1": {
+   "tipo": "reporte",
+   "1": 77,
+   "0.5": 0,
+   "0": 0,
+   "sin_dato": 0
+  },
+  "CQ3": {
+   "tipo": "reporte",
+   "1": 61,
+   "0.5": 16,
+   "0": 0,
+   "sin_dato": 0
+  },
+  "CQ8": {
+   "tipo": "reporte",
+   "1": 34,
+   "0.5": 19,
+   "0": 24,
+   "sin_dato": 0
+  },
+  "CQ9": {
+   "tipo": "reporte",
+   "1": 31,
+   "0.5": 34,
+   "0": 12,
+   "sin_dato": 0
+  },
+  "CQ10": {
+   "tipo": "reporte",
+   "1": 54,
+   "0.5": 23,
+   "0": 0,
+   "sin_dato": 0
+  }
+ },
+ "validez_mediana": 70.0,
+ "validez_q1": 60.0,
+ "validez_q3": 80.0,
+ "validez_min": 20.0,
+ "validez_max": 100.0,
+ "supera_umbral": 72,
+ "bajo_umbral": [
+  "R00088",
+  "R00232",
+  "R00238",
+  "R00450",
+  "R00828"
+ ]
+}

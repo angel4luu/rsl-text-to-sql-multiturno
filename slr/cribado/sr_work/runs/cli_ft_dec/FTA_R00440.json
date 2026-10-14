@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00440@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00440",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; schema abstraction (join paths), partitioning (pruning) and renaming (linking) are the central contribution; EX evaluated on BIRD/Spider-derived benchmarks.",
+   "where": "p1 Abstract and Introduction; p8-9 Section 6.1 Benchmarks, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00440.json"
+}

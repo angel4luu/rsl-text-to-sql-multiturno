@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00318@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00318",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with self-correction as a titled central component; execution accuracy reported on the public Spider dev set.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p5 Experiments, Datasets; p6 Results"
+  }
+ ],
+ "source": "cli:FTB_R00318.json"
+}

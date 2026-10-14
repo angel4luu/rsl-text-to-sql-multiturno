@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00606@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00606",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL; single-turn, with entity linking and query-rethink (self-correction) as stated contributions; quantitative results on the released VTS-SQL benchmark.",
+   "where": "p1 Abstract and Introduction contributions; p2-3 Sec. II.C Dataset (public VTS-SQL); p3-4 Sec. III.A methodology"
+  }
+ ],
+ "source": "cli:FTB_R00606.json"
+}

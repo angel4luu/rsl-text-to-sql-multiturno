@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00828@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00828",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn LLM Text-to-SQL chatbot over a relational SQLite database. Follow-up context tests (13/16 correct) on proprietary data.",
+   "where": "p1 Abstract; p7-8 Section IV Resultados, Table I"
+  }
+ ],
+ "source": "cli:FTA_R00828.json"
+}

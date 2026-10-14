@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00202@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00202",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; graph-based column embeddings for column matching/prediction are the central contribution; evaluated on Spider with exact-match and COL accuracy.",
+   "where": "p1 Abstract/Introduction; p2 Problem Formulation; p4 Experiments 5.1-5.2, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00202.json"
+}

@@ -1,0 +1,1 @@
+{"label": "FTA:R00092@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00092", "d": "include", "code": "INC", "why": "Proposes automatic SQL error correction with clause-level edits and quantitatively evaluates exact and execution match on Spider.", "where": "p1 Abstract; p2 §2; p3 §3.3; p4 §4.1, Table 3"}], "source": "codex:gpt-6.1-sol"}

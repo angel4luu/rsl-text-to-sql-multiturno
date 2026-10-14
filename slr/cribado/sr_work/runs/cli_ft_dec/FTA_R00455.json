@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00455@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00455",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Self-correcting NL2SQL is a contribution, but multi-turn is only system context. Evaluation uses internal enterprise benchmarks, with no public benchmark.",
+   "where": "p2 Introduction (contributions, system context); p5 Section 4 Evaluation; p6 Section 9 Limitations, Internal benchmarks"
+  }
+ ],
+ "source": "cli:FTA_R00455.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00840@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00840",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain RAG chatbot; evaluated on single-turn queries; follow-up memory mentioned only in passing; no linking or self-correction contribution.",
+   "where": "p5-6 Sec 4.6 MCP reasoning; p8-9 Sec 6.1-6.2 evaluation"
+  }
+ ],
+ "source": "cli:FTA_R00840.json"
+}

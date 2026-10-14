@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00480@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00480",
+   "d": "include",
+   "code": "INC",
+   "why": "NL-to-SQL benchmark over PostgreSQL with multi-turn split and structured dialogue state (PATCH/REPLACE); quantitative multi-turn results reported.",
+   "where": "p3 Sec 4.2 (multi-turn split); p4 Sec 5 (A4 state); p5-6 Tables 2-3; p7 Sec 9 and p9 Table 8 (multi-turn results)"
+  }
+ ],
+ "source": "cli:FTB_R00480.json"
+}

@@ -1,0 +1,306 @@
+{
+ "label": "A:b001@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00001",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Text-to-SQL used for TOD ontology construction; dialogue link, NL-to-SQL role unclear"
+  },
+  {
+   "id": "R00002",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title suggests general prompting/preference alignment, no linking/correction focus"
+  },
+  {
+   "id": "R00003",
+   "d": "include",
+   "code": "INC",
+   "why": "Join-hop depth benchmark and decomposition; join-path errors central; Spider/BIRD"
+  },
+  {
+   "id": "R00004",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "GRPO study with Iterative Error Correction as one component; centrality unclear"
+  },
+  {
+   "id": "R00005",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmarks schema linking representations on Portuguese Spider"
+  },
+  {
+   "id": "R00006",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking with join pathfinding on BIRD and Spider 2.0"
+  },
+  {
+   "id": "R00007",
+   "d": "include",
+   "code": "INC",
+   "why": "Vector schema linking and execution-guided self-correction"
+  },
+  {
+   "id": "R00008",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking retrieval is central; BIRD and Spider"
+  },
+  {
+   "id": "R00009",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Access-control refusal benchmark; not linking or correction"
+  },
+  {
+   "id": "R00010",
+   "d": "include",
+   "code": "INC",
+   "why": "Experience-driven self-correction for NL2SQL on BIRD"
+  },
+  {
+   "id": "R00011",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema routing/retrieval across large databases, BIRD/Spider"
+  },
+  {
+   "id": "R00012",
+   "d": "include",
+   "code": "INC",
+   "why": "Adaptive table retrieval for text-to-SQL on Spider/BIRD"
+  },
+  {
+   "id": "R00013",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General agent memory method; Text-to-SQL only one task"
+  },
+  {
+   "id": "R00014",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback rewards for agentic SQL; internal rounds, central feedback"
+  },
+  {
+   "id": "R00015",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-based clause-level RL rewards; unclear if feedback/correction central"
+  },
+  {
+   "id": "R00016",
+   "d": "include",
+   "code": "INC",
+   "why": "Probing and rule-based verification with iterative SQL refinement"
+  },
+  {
+   "id": "R00017",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General RL training with execution reward; no correction/linking contribution"
+  },
+  {
+   "id": "R00018",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-based step verification feedback for text-to-SQL"
+  },
+  {
+   "id": "R00019",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn interactive benchmark with evolving user intents over relational DBs"
+  },
+  {
+   "id": "R00020",
+   "d": "include",
+   "code": "INC",
+   "why": "Error-reasoning self-correction framework on Spider/BIRD"
+  },
+  {
+   "id": "R00021",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema exploration and join paths; unclear if linking is central"
+  },
+  {
+   "id": "R00022",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn clinical benchmark, not about linking or correction"
+  },
+  {
+   "id": "R00023",
+   "d": "exclude",
+   "code": "E5",
+   "why": "API tool-calling benchmark, not SQL generation"
+  },
+  {
+   "id": "R00024",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Uncertainty decomposition for clinical text-to-SQL; single-turn, no linking/correction"
+  },
+  {
+   "id": "R00025",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-aware reasoning and real-time error correction"
+  },
+  {
+   "id": "R00026",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-based candidate selection/verification on BIRD, Spider"
+  },
+  {
+   "id": "R00027",
+   "d": "include",
+   "code": "INC",
+   "why": "Agentic refinement with execution feedback and self-correction"
+  },
+  {
+   "id": "R00028",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Graph query languages (Cypher/SPARQL), not relational SQL"
+  },
+  {
+   "id": "R00029",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Contamination probe over Spider, SParC, CoSQL; multi-turn benchmark evaluation plausible"
+  },
+  {
+   "id": "R00030",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with execution feedback on CoSQL/SParC"
+  },
+  {
+   "id": "R00031",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback iterative refinement RL on BIRD"
+  },
+  {
+   "id": "R00032",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-table retrieval with joinability; BIRD/Spider SQL execution"
+  },
+  {
+   "id": "R00033",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL state tracking on SParC/CoSQL"
+  },
+  {
+   "id": "R00034",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clinical NL2SQL demo; clinician-edit feedback, single-turn, no linking/correction"
+  },
+  {
+   "id": "R00035",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn ambiguity NL2SQL benchmark on Spider/BIRD"
+  },
+  {
+   "id": "R00036",
+   "d": "include",
+   "code": "INC",
+   "why": "Verification and error-correction loop on Spider and BIRD"
+  },
+  {
+   "id": "R00037",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table retrieval for open-domain table QA, not SQL"
+  },
+  {
+   "id": "R00038",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table QA pipeline with text-to-SQL and self-correction among components"
+  },
+  {
+   "id": "R00039",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table QA NL-to-SQL with iterative refinement; relational DB and centrality unclear"
+  },
+  {
+   "id": "R00040",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational Text-to-SQL assistant; unclear if turns are dependent"
+  },
+  {
+   "id": "R00041",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational text-to-SQL dataset with clarification turns"
+  },
+  {
+   "id": "R00042",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn schema and context tracking on SParC/CoSQL"
+  },
+  {
+   "id": "R00043",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pipeline lists self-correction among components; centrality unclear"
+  },
+  {
+   "id": "R00044",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Framework addresses schema-linking gaps; unclear if linking is central"
+  },
+  {
+   "id": "R00045",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-accuracy feedback for DPO training; correction centrality unclear"
+  },
+  {
+   "id": "R00046",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Self-play fine-tuning method; not linking or correction at inference"
+  },
+  {
+   "id": "R00047",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Benchmark representation analysis; no linking/correction contribution"
+  },
+  {
+   "id": "R00048",
+   "d": "include",
+   "code": "INC",
+   "why": "Test-driven self-refinement with execution feedback on BIRD"
+  },
+  {
+   "id": "R00049",
+   "d": "include",
+   "code": "INC",
+   "why": "Table acquisition (table selection) for Text-to-SQL on benchmarks"
+  },
+  {
+   "id": "R00050",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correction merged with self-consistency on BIRD"
+  }
+ ],
+ "source_transcript": "agent-a095c1026e2fcb197.jsonl"
+}

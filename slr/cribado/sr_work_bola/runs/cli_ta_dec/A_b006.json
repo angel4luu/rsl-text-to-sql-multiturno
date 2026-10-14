@@ -1,0 +1,258 @@
+{
+ "label": "A:b006@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00251",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Transformer on WikiSQL, no linking or correction focus"
+  },
+  {
+   "id": "R00252",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Title only; data security focus, no multi-turn or linking/correction"
+  },
+  {
+   "id": "R00253",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational SQL chatbot; unclear if dependent successive questions"
+  },
+  {
+   "id": "R00254",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity/unanswerable detection, not linking or self-correction"
+  },
+  {
+   "id": "R00255",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference abstract type; also single-turn benchmark"
+  },
+  {
+   "id": "R00256",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn simpler model, no linking/correction stated"
+  },
+  {
+   "id": "R00257",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Loss function for training, single-turn"
+  },
+  {
+   "id": "R00258",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Portuguese single-turn model, no linking/correction in title"
+  },
+  {
+   "id": "R00259",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Russian dataset"
+  },
+  {
+   "id": "R00260",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multilingual single-turn pipeline; linking not central"
+  },
+  {
+   "id": "R00261",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn auxiliary task for generalization"
+  },
+  {
+   "id": "R00262",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn schema encoder architecture on WikiSQL"
+  },
+  {
+   "id": "R00263",
+   "d": "include",
+   "code": "INC",
+   "why": "Column-wise ranking (column selection) central, WikiSQL"
+  },
+  {
+   "id": "R00264",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Fuses schema and table content; unclear if value linking central"
+  },
+  {
+   "id": "R00265",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn domain dataset"
+  },
+  {
+   "id": "R00266",
+   "d": "include",
+   "code": "INC",
+   "why": "Global reasoning for selecting database constants, Spider"
+  },
+  {
+   "id": "R00267",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema filter and candidate selection as contributions, BIRD/Spider"
+  },
+  {
+   "id": "R00268",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn benchmark about database values"
+  },
+  {
+   "id": "R00269",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema selector, iterative refinement and unit testing agents"
+  },
+  {
+   "id": "R00270",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese dataset"
+  },
+  {
+   "id": "R00271",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese dataset, no linking/correction"
+  },
+  {
+   "id": "R00272",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Session-level text-to-SQL benchmark, likely multi-turn; no abstract"
+  },
+  {
+   "id": "R00273",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-table alignment grounding of columns and values"
+  },
+  {
+   "id": "R00274",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Title names schema linking as focus; no abstract"
+  },
+  {
+   "id": "R00275",
+   "d": "include",
+   "code": "INC",
+   "why": "Semantics Correction post-processing as stated contribution, Spider"
+  },
+  {
+   "id": "R00276",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Title only; no sign of multi-turn, linking or correction"
+  },
+  {
+   "id": "R00277",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity benchmark"
+  },
+  {
+   "id": "R00278",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn reliability/abstention benchmark"
+  },
+  {
+   "id": "R00279",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn unanswerable-question benchmark"
+  },
+  {
+   "id": "R00280",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn training dataset"
+  },
+  {
+   "id": "R00281",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "MCTS with reward-based candidate evaluation; centrality unclear"
+  },
+  {
+   "id": "R00282",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise workflow benchmark"
+  },
+  {
+   "id": "R00283",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM Text-to-SQL"
+  },
+  {
+   "id": "R00284",
+   "d": "include",
+   "code": "INC",
+   "why": "Selector sub-database and Refiner agents for erroneous SQL"
+  },
+  {
+   "id": "R00285",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dataset from Stack Exchange"
+  },
+  {
+   "id": "R00286",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn CRUD Chinese dataset"
+  },
+  {
+   "id": "R00287",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Metadata extraction, single-turn, not linking/correction"
+  },
+  {
+   "id": "R00288",
+   "d": "include",
+   "code": "INC",
+   "why": "Refiner correcting errors and candidate selection, BIRD/Spider"
+  },
+  {
+   "id": "R00289",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; LLM plus knowledge graph, relational target unclear"
+  },
+  {
+   "id": "R00290",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise benchmark"
+  },
+  {
+   "id": "R00291",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-driven feedback and filtering central contribution"
+  },
+  {
+   "id": "R00292",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table content matching with question; value linking centrality unclear"
+  }
+ ],
+ "source": "cli:A_b006.json"
+}

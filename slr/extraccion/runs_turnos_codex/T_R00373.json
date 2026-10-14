@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00373\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"PREDICHO\",\"nota\":\"Tablas 2 y 10 desglosan subtareas, no turnos. Figuras 4 y 13 carecen de valores impresos por turno; se omiten sin estimar.\",\"ubic\":\"pp. 3, 6–8, 23, 30, 32, 35\"}}]}",
+  "_label": "TURNOS:R00373"
+}

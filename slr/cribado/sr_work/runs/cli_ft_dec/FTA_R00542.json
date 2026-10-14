@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00542@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00542",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn government Text-to-SQL agent; schema linking and retry are minor modules, not stated contributions; no multi-turn evaluation.",
+   "where": "p12-13 Sec. IV.B.4 Text-to-SQL agent evaluation; p10 Sec. IV.B.2.b agent flow"
+  }
+ ],
+ "source": "cli:FTA_R00542.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00847@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00847",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn schema-linking study; only evaluated on 579 course exercises from a textbook, no public benchmark",
+   "where": "p9 Sec 5.2 Experimental results, Table 3; p1 Abstract"
+  }
+ ],
+ "source": "cli:FTADJ_R00847.json"
+}

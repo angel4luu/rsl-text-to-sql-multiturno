@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00500@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00500",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn join-graph table retrieval (schema selection/join inference) is the central contribution, evaluated quantitatively on Spider, BIRD and BEAVER.",
+   "where": "p1 Abstract; p2 Contributions; p4-5 Experimental Setup and Results"
+  }
+ ],
+ "source": "cli:FTA_R00500.json"
+}

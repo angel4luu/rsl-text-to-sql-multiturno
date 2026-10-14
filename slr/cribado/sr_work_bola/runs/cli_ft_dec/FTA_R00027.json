@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00027@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00027",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is execution-feedback RL with partial-match rewards plus candidate verification and selection; evaluated on Spider, BIRD and Spider 2.0.",
+   "where": "p1 Abstract and Contributions; p2-4 Methodology III-B/C; p4 Experiments IV-A"
+  }
+ ],
+ "source": "cli:FTA_R00027.json"
+}

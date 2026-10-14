@@ -1,0 +1,33 @@
+id,d,code,why,by
+R00158,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00166,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00218,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00231,exclude,E6,aceptado por la revisora (2026-10-12),AJE
+R00012,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00040,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00082,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00112,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00119,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00136,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00223,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00260,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00268,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00270,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00282,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00286,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00287,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00019,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00049,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00092,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00095,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00101,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00104,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00184,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00185,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00196,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00197,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00264,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00281,unclear,UNC,aceptado por la revisora (2026-10-12),AJE
+R00272,exclude,E9,Duplicate of main-search record R00288 (SeSQL); same study already screened,dedup
+R00274,exclude,E9,Duplicate of main-search record R00911 (RESDSQL); same study already screened,dedup
+R00062,exclude,E9,Duplicate of main-search record R00816 (SDCUP); same study already screened,dedup

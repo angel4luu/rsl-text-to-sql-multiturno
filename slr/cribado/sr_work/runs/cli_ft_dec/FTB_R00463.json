@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00463@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00463",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; candidate verification/selection is the central contribution; quantitative evaluation on public BIRD and Spider benchmarks.",
+   "where": "p1 Abstract; p2 Contributions; p4-5 Experimental Setup and Results, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00463.json"
+}

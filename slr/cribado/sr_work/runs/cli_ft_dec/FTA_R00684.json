@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00684@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00684",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; fine-grained execution feedback is the central contribution; evaluated on public BIRD and Spider benchmarks.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p3-4 Methodology (results pages not in extract)"
+  }
+ ],
+ "source": "cli:FTA_R00684.json"
+}

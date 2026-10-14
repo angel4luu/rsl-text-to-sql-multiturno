@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00986@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00986",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Chinese Text-to-SQL; schema-filtering encoder and correcting decoder are central contributions; EM/EX evaluated on public CSpider.",
+   "where": "p1 Abstract; p2 Introduction; p11-12 Sec 4 Experimental Setup"
+  }
+ ],
+ "source": "cli:FTADJ_R00986.json"
+}

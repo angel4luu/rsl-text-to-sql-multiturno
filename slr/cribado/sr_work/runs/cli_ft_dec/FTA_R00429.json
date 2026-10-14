@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00429@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00429",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL agent; two-tier repair/backtracking and schema exploration are central; evaluated quantitatively on public Spider2.0.",
+   "where": "p1 Abstract; p2 Contributions; p6 Sec 4.2 Repair/Plan backtracking; p6-7 Sec 5 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00429.json"
+}

@@ -1,0 +1,306 @@
+{
+ "label": "B:b001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00001",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic survey"
+  },
+  {
+   "id": "R00002",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; value ambiguity benchmark may involve value linking"
+  },
+  {
+   "id": "R00003",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Overview of trends, survey"
+  },
+  {
+   "id": "R00004",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00005",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title indicates multi-turn NLIDBs"
+  },
+  {
+   "id": "R00006",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00007",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; 'Prune' suggests schema pruning"
+  },
+  {
+   "id": "R00008",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LoRA fine-tuning, no linking/correction focus"
+  },
+  {
+   "id": "R00009",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn fine-tuning method, no linking/correction"
+  },
+  {
+   "id": "R00010",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn CoT supervision study"
+  },
+  {
+   "id": "R00011",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn access-minimality audit, no linking/correction"
+  },
+  {
+   "id": "R00012",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn graph encoder model; no linking stated"
+  },
+  {
+   "id": "R00013",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn compositional generalization dataset"
+  },
+  {
+   "id": "R00014",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn schema graph encoder, not linking/correction"
+  },
+  {
+   "id": "R00015",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness dataset Spider-DK"
+  },
+  {
+   "id": "R00016",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn graph projection parser, no linking stated"
+  },
+  {
+   "id": "R00017",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn graph-to-AST framework"
+  },
+  {
+   "id": "R00018",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Codex evaluation"
+  },
+  {
+   "id": "R00019",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn zero-shot prompting method"
+  },
+  {
+   "id": "R00020",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt construction study"
+  },
+  {
+   "id": "R00021",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn spatial prompt method and dataset"
+  },
+  {
+   "id": "R00022",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review"
+  },
+  {
+   "id": "R00023",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; multilingual single-turn benchmark"
+  },
+  {
+   "id": "R00024",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; key column selection and value constraints central, TableQA"
+  },
+  {
+   "id": "R00025",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn schema evolution robustness benchmark"
+  },
+  {
+   "id": "R00026",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn template constrained decoding"
+  },
+  {
+   "id": "R00027",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Self-evaluation/verbal RL self-improvement; unclear if correction central"
+  },
+  {
+   "id": "R00028",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; generic architecture chapter, no focus"
+  },
+  {
+   "id": "R00029",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; generic systems chapter, no focus"
+  },
+  {
+   "id": "R00030",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn few-shot demonstration expansion"
+  },
+  {
+   "id": "R00031",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt and example selection"
+  },
+  {
+   "id": "R00032",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; two-step retrieval may be schema retrieval"
+  },
+  {
+   "id": "R00033",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; RAG framework application, no linking focus"
+  },
+  {
+   "id": "R00034",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese dataset"
+  },
+  {
+   "id": "R00035",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00036",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00037",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Pretraining for tabular data, not linking/correction"
+  },
+  {
+   "id": "R00038",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn decoding method"
+  },
+  {
+   "id": "R00039",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SQL-to-text generation, not Text-to-SQL"
+  },
+  {
+   "id": "R00040",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn sketch filling and augmentation"
+  },
+  {
+   "id": "R00041",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL corpus generation, not linking/correction"
+  },
+  {
+   "id": "R00042",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-schema/value linking and schema pruning; centrality unclear"
+  },
+  {
+   "id": "R00043",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; global reasoning over schema may be linking"
+  },
+  {
+   "id": "R00044",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn decoding method"
+  },
+  {
+   "id": "R00045",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn synthetic training data pipeline"
+  },
+  {
+   "id": "R00046",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of database optimization"
+  },
+  {
+   "id": "R00047",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn continual learning method"
+  },
+  {
+   "id": "R00048",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; multi-level retrieval may be schema retrieval"
+  },
+  {
+   "id": "R00049",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn syntax-injected graph encoder"
+  },
+  {
+   "id": "R00050",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Latent grounding of tokens to concepts; Text-to-SQL case study"
+  }
+ ],
+ "source": "cli:B_b001.json"
+}

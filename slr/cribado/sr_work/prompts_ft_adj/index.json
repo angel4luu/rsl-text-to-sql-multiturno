@@ -1,0 +1,362 @@
+[
+ {
+  "label": "FTADJ:R00098@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00098.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00118@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00118.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00170@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00170.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00231@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00231.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00401@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00401.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00443@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00443.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00460@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00460.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00464@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00464.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00686@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00686.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00708@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00708.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00842@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00842.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00847@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00847.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00848@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00848.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00863@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00863.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00931@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00931.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00945@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00945.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00956@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00956.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00975@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00975.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00982@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00982.txt",
+  "model": "opus"
+ },
+ {
+  "label": "FTADJ:R00986@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+  "context": {
+   "review_id": "3a06db41-c217-4c33-9902-edadc1f59601",
+   "dataset": "9cad0004ed17a333ccd99c67c786e9f2f0988531a916a72d12fb5b9d28b0d260",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "c0d1e622fcb80e4710484b84a23392c058b7ced1b954ffb333b00137a3419e8a",
+   "content_id": "3954da746ebfabacb973ece8dd68e1dae35b9cdffc0bc1885c8a52f54933f613",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141"
+  },
+  "prompt_file": "slr/cribado/sr_work/prompts_ft_adj/FTADJ_R00986.txt",
+  "model": "opus"
+ }
+]

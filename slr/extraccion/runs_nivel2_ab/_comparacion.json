@@ -1,0 +1,2034 @@
+{
+ "R00019": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "fecha_modelo",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_actualizacion",
+   "pi3_escala_esquema"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 2,
+   "B": 37,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00029": {
+  "campos": 34,
+  "discrepancias": [
+   "modelos_base",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi4_rondas_max",
+   "historial_eval",
+   "degradacion_reportada",
+   "coste_reportado",
+   "calidad_nota"
+  ],
+  "calidad_discrepancias": [
+   "CQ4"
+  ],
+  "resultados": {
+   "A": 8,
+   "B": 8,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00030": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "historial_eval"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 35,
+   "B": 40,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 16
+  }
+ },
+ "R00033": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica"
+  ],
+  "calidad_discrepancias": [
+   "CQ8"
+  ],
+  "resultados": {
+   "A": 39,
+   "B": 32,
+   "comunes": 20
+  },
+  "contrastes": {
+   "A": 16,
+   "B": 16
+  }
+ },
+ "R00035": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "tipo_contribucion",
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "pi3_metricas_linking",
+   "pi4_mecanismo",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ5"
+  ],
+  "resultados": {
+   "A": 20,
+   "B": 40,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 8
+  }
+ },
+ "R00041": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ3",
+   "CQ4",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 15,
+   "B": 15,
+   "comunes": 5
+  },
+  "contrastes": {
+   "A": 1,
+   "B": 2
+  }
+ },
+ "R00042": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_metricas_linking",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "pi4_rondas_max",
+   "pi4_aplicado_multiturno",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 37,
+   "B": 39,
+   "comunes": 13
+  },
+  "contrastes": {
+   "A": 16,
+   "B": 40
+  }
+ },
+ "R00068": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "pi4_mecanismo"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 23,
+   "B": 23,
+   "comunes": 23
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00072": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi4_rondas_max",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 38,
+   "B": 40,
+   "comunes": 6
+  },
+  "contrastes": {
+   "A": 6,
+   "B": 12
+  }
+ },
+ "R00074": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi2_coste_contexto"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 40,
+   "B": 39,
+   "comunes": 22
+  },
+  "contrastes": {
+   "A": 16,
+   "B": 20
+  }
+ },
+ "R00079": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "tipo_contribucion",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi3_escala_esquema"
+  ],
+  "calidad_discrepancias": [
+   "CQ3"
+  ],
+  "resultados": {
+   "A": 19,
+   "B": 29,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 8
+  }
+ },
+ "R00084": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 36,
+   "B": 39,
+   "comunes": 6
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 18
+  }
+ },
+ "R00086": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 24,
+   "B": 39,
+   "comunes": 16
+  },
+  "contrastes": {
+   "A": 5,
+   "B": 15
+  }
+ },
+ "R00088": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_coste_contexto",
+   "pi3_metricas_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ6"
+  ],
+  "resultados": {
+   "A": 1,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00093": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_grafo_nodos",
+   "pi3_inferencia_joins"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 36,
+   "B": 40,
+   "comunes": 28
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 12
+  }
+ },
+ "R00096": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 35,
+   "B": 37,
+   "comunes": 23
+  },
+  "contrastes": {
+   "A": 20,
+   "B": 20
+  }
+ },
+ "R00097": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi3_inferencia_joins"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 38,
+   "B": 40,
+   "comunes": 30
+  },
+  "contrastes": {
+   "A": 20,
+   "B": 24
+  }
+ },
+ "R00099": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "tipo_contribucion",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ4"
+  ],
+  "resultados": {
+   "A": 32,
+   "B": 31,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 7,
+   "B": 10
+  }
+ },
+ "R00100": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_insumos_historial",
+   "pi2_actualizacion",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 31,
+   "B": 39,
+   "comunes": 31
+  },
+  "contrastes": {
+   "A": 20,
+   "B": 20
+  }
+ },
+ "R00105": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_contenidos",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "pi4_aplicado_multiturno"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 4,
+   "B": 16,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 5,
+   "B": 5
+  }
+ },
+ "R00107": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ5",
+   "CQ7",
+   "CQ8",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 36,
+   "B": 36,
+   "comunes": 36
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 6
+  }
+ },
+ "R00109": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi2_actualizacion",
+   "pi4_senal",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 35,
+   "B": 40,
+   "comunes": 33
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 14
+  }
+ },
+ "R00110": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 34,
+   "B": 38,
+   "comunes": 22
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00114": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ6",
+   "CQ7",
+   "CQ8",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 26,
+   "B": 35,
+   "comunes": 3
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00116": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "pi3_algoritmo",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "pi4_aplicado_multiturno"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 35,
+   "B": 35,
+   "comunes": 35
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 6
+  }
+ },
+ "R00117": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_grafo_dinamico",
+   "pi2_coste_contexto",
+   "pi3_escala_esquema",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 32,
+   "B": 32,
+   "comunes": 32
+  },
+  "contrastes": {
+   "A": 16,
+   "B": 16
+  }
+ },
+ "R00120": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 20,
+   "B": 20,
+   "comunes": 20
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 8
+  }
+ },
+ "R00123": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_contenidos",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ6"
+  ],
+  "resultados": {
+   "A": 17,
+   "B": 17,
+   "comunes": 17
+  },
+  "contrastes": {
+   "A": 1,
+   "B": 2
+  }
+ },
+ "R00126": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 20,
+   "B": 12,
+   "comunes": 12
+  },
+  "contrastes": {
+   "A": 4,
+   "B": 4
+  }
+ },
+ "R00129": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi2_coste_contexto",
+   "pi3_inferencia_joins",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "pi4_aplicado_multiturno"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ4",
+   "CQ6",
+   "CQ7",
+   "CQ8",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 8,
+   "B": 24,
+   "comunes": 8
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00131": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi3_tecnica_linking",
+   "pi4_rondas_max",
+   "historial_eval"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 26,
+   "B": 40,
+   "comunes": 24
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 12
+  }
+ },
+ "R00148": {
+  "campos": 33,
+  "discrepancias": [
+   "escenario",
+   "etiquetas",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi4_senal",
+   "pi4_aplicado_multiturno",
+   "historial_eval",
+   "degradacion_reportada",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 30,
+   "B": 33,
+   "comunes": 9
+  },
+  "contrastes": {
+   "A": 9,
+   "B": 18
+  }
+ },
+ "R00160": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi4_mecanismo",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 12,
+   "B": 24,
+   "comunes": 2
+  },
+  "contrastes": {
+   "A": 6,
+   "B": 20
+  }
+ },
+ "R00170": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi3_metricas_linking",
+   "pi4_rondas_max",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ8",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 18,
+   "B": 16,
+   "comunes": 16
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 4
+  }
+ },
+ "R00222": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "idioma_dataset",
+   "pi2_representacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "historial_eval",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 14,
+   "B": 14,
+   "comunes": 12
+  },
+  "contrastes": {
+   "A": 9,
+   "B": 9
+  }
+ },
+ "R00232": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_coste_contexto",
+   "pi4_aplicado_multiturno"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 3,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00238": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "codigo_disponible",
+   "requiere_entrenamiento",
+   "pi1_tecnica",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ6"
+  ],
+  "resultados": {
+   "A": 0,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00286": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_inferencia_joins",
+   "pi3_algoritmo",
+   "pi4_mecanismo",
+   "pi4_rondas_max",
+   "pi4_aplicado_multiturno",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 30,
+   "B": 30,
+   "comunes": 20
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 10
+  }
+ },
+ "R00288": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "paradigma_principal",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 16,
+   "B": 16,
+   "comunes": 16
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00292": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_contenidos",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 13,
+   "B": 39,
+   "comunes": 9
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00298": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "paradigmas_secundarios",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi4_rondas_max",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [
+   "CQ4"
+  ],
+  "resultados": {
+   "A": 37,
+   "B": 32,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 4,
+   "B": 1
+  }
+ },
+ "R00309": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "tipo_contribucion",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "requiere_entrenamiento",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking",
+   "pi4_senal",
+   "pi4_rondas_max",
+   "historial_eval",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ6",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 8,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 2,
+   "B": 2
+  }
+ },
+ "R00311": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_inferencia_joins",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ8",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 24,
+   "B": 34,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 9,
+   "B": 8
+  }
+ },
+ "R00312": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ7",
+   "CQ8"
+  ],
+  "resultados": {
+   "A": 38,
+   "B": 39,
+   "comunes": 28
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 17
+  }
+ },
+ "R00370": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_insumos_historial",
+   "pi2_coste_contexto",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ4",
+   "CQ5",
+   "CQ9",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 34,
+   "B": 26,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00373": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "pi1_insumos_historial",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 27,
+   "B": 27,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 7,
+   "B": 28
+  }
+ },
+ "R00374": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "requiere_entrenamiento",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi4_mecanismo",
+   "historial_eval"
+  ],
+  "calidad_discrepancias": [
+   "CQ2"
+  ],
+  "resultados": {
+   "A": 9,
+   "B": 9,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 5
+  }
+ },
+ "R00435": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "historial_eval",
+   "contaminacion_discutida"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 24,
+   "B": 24,
+   "comunes": 24
+  },
+  "contrastes": {
+   "A": 20,
+   "B": 15
+  }
+ },
+ "R00438": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi4_mecanismo",
+   "pi4_rondas_max",
+   "coste_reportado",
+   "contaminacion_discutida"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 25,
+   "B": 25,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 8
+  }
+ },
+ "R00450": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking",
+   "pi4_mecanismo"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 20,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 18
+  }
+ },
+ "R00453": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "fecha_modelo",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking",
+   "pi4_mecanismo",
+   "historial_eval",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 21,
+   "B": 15,
+   "comunes": 15
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 20
+  }
+ },
+ "R00480": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi3_tecnica_linking",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ7",
+   "CQ8"
+  ],
+  "resultados": {
+   "A": 8,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 3,
+   "B": 2
+  }
+ },
+ "R00482": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_insumos_historial",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ7",
+   "CQ8"
+  ],
+  "resultados": {
+   "A": 36,
+   "B": 39,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 10
+  }
+ },
+ "R00491": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_contenidos",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi4_mecanismo"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ8"
+  ],
+  "resultados": {
+   "A": 33,
+   "B": 33,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 1
+  }
+ },
+ "R00499": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "fecha_modelo",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_grafo_nodos",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "contaminacion_discutida"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 24,
+   "B": 25,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 6,
+   "B": 8
+  }
+ },
+ "R00508": {
+  "campos": 33,
+  "discrepancias": [
+   "escenario",
+   "etiquetas",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ5"
+  ],
+  "resultados": {
+   "A": 22,
+   "B": 18,
+   "comunes": 7
+  },
+  "contrastes": {
+   "A": 14,
+   "B": 17
+  }
+ },
+ "R00511": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_inferencia_joins",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7",
+   "CQ8",
+   "CQ9",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 12,
+   "B": 21,
+   "comunes": 12
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 22
+  }
+ },
+ "R00524": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "degradacion_reportada",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ4",
+   "CQ7",
+   "CQ9",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 11,
+   "B": 23,
+   "comunes": 11
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 16
+  }
+ },
+ "R00525": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ8"
+  ],
+  "resultados": {
+   "A": 38,
+   "B": 38,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 24,
+   "B": 24
+  }
+ },
+ "R00526": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "requiere_entrenamiento",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ7",
+   "CQ9",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 35,
+   "B": 26,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 12,
+   "B": 40
+  }
+ },
+ "R00828": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_centrales",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "historial_eval",
+   "coste_reportado"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 0,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00868": {
+  "campos": 33,
+  "discrepancias": [
+   "pi1_tecnica",
+   "pi3_tecnica_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 35,
+   "B": 35,
+   "comunes": 35
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 8
+  }
+ },
+ "R00904": {
+  "campos": 34,
+  "discrepancias": [
+   "etiquetas",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi3_inferencia_joins",
+   "notas_revisora_aux"
+  ],
+  "calidad_discrepancias": [
+   "CQ6"
+  ],
+  "resultados": {
+   "A": 0,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00908": {
+  "campos": 33,
+  "discrepancias": [
+   "tipo_contribucion",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi3_escala_esquema",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 3,
+   "B": 3,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 4,
+   "B": 3
+  }
+ },
+ "R00920": {
+  "campos": 33,
+  "discrepancias": [
+   "etiquetas",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_coste_contexto",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal"
+  ],
+  "calidad_discrepancias": [
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 18,
+   "B": 39,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 0,
+   "B": 0
+  }
+ },
+ "R00924": {
+  "campos": 34,
+  "discrepancias": [
+   "etiquetas",
+   "tipo_contribucion",
+   "modelos_base",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi2_representacion",
+   "pi2_coste_contexto",
+   "pi4_rondas_max",
+   "degradacion_reportada",
+   "notas_revisora_nota"
+  ],
+  "calidad_discrepancias": [
+   "CQ4",
+   "CQ5",
+   "CQ7",
+   "CQ9",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 28,
+   "B": 28,
+   "comunes": 8
+  },
+  "contrastes": {
+   "A": 6,
+   "B": 12
+  }
+ },
+ "R00927": {
+  "campos": 33,
+  "discrepancias": [
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi2_coste_contexto",
+   "pi3_escala_esquema"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ7",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 37,
+   "B": 39,
+   "comunes": 27
+  },
+  "contrastes": {
+   "A": 8,
+   "B": 12
+  }
+ },
+ "R00936": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pi1_tecnica",
+   "pi2_coste_contexto"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 32,
+   "B": 32,
+   "comunes": 32
+  },
+  "contrastes": {
+   "A": 16,
+   "B": 16
+  }
+ },
+ "R00950": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_grafo_nodos",
+   "pi2_grafo_dinamico",
+   "pi2_actualizacion",
+   "pi3_inferencia_joins",
+   "errores_join_reportados"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7",
+   "CQ8",
+   "CQ9",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 0,
+   "B": 0,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 2,
+   "B": 0
+  }
+ },
+ "R00954": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "requiere_entrenamiento",
+   "pi1_insumos_historial",
+   "pi3_tecnica_linking"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ7"
+  ],
+  "resultados": {
+   "A": 12,
+   "B": 12,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 6,
+   "B": 2
+  }
+ },
+ "R00981": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "pi2_representacion",
+   "pi3_algoritmo",
+   "pi4_mecanismo",
+   "pi4_rondas_max",
+   "pi4_aplicado_multiturno",
+   "degradacion_reportada"
+  ],
+  "calidad_discrepancias": [
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 30,
+   "B": 30,
+   "comunes": 30
+  },
+  "contrastes": {
+   "A": 9,
+   "B": 10
+  }
+ },
+ "R00994": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "idioma_dataset",
+   "pi1_tecnica",
+   "pi3_tecnica_linking",
+   "pi3_inferencia_joins"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ10"
+  ],
+  "resultados": {
+   "A": 24,
+   "B": 24,
+   "comunes": 24
+  },
+  "contrastes": {
+   "A": 10,
+   "B": 10
+  }
+ },
+ "R01029": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base",
+   "pi1_tecnica",
+   "pi1_insumos_historial",
+   "pi3_tecnica_linking",
+   "pi3_algoritmo"
+  ],
+  "calidad_discrepancias": [
+   "CQ2",
+   "CQ5"
+  ],
+  "resultados": {
+   "A": 20,
+   "B": 20,
+   "comunes": 20
+  },
+  "contrastes": {
+   "A": 4,
+   "B": 4
+  }
+ },
+ "R01034": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_escala_esquema",
+   "pi4_rondas_max"
+  ],
+  "calidad_discrepancias": [
+   "CQ3",
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 27,
+   "B": 27,
+   "comunes": 0
+  },
+  "contrastes": {
+   "A": 6,
+   "B": 14
+  }
+ },
+ "R01037": {
+  "campos": 33,
+  "discrepancias": [
+   "modelos_base",
+   "pilares_centrales",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi1_tecnica",
+   "pi2_representacion",
+   "pi2_actualizacion",
+   "pi3_tecnica_linking",
+   "pi3_escala_esquema",
+   "pi4_mecanismo",
+   "pi4_senal",
+   "pi4_aplicado_multiturno",
+   "historial_eval"
+  ],
+  "calidad_discrepancias": [
+   "CQ5",
+   "CQ7",
+   "CQ9"
+  ],
+  "resultados": {
+   "A": 38,
+   "B": 40,
+   "comunes": 34
+  },
+  "contrastes": {
+   "A": 13,
+   "B": 16
+  }
+ }
+}

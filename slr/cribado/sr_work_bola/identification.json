@@ -1,0 +1,36 @@
+{
+ "tool": "sr-screener 1.0.0",
+ "files": [
+  {
+   "file": "2026-10-12_snowball_candidates.ris",
+   "format": "ris",
+   "records": 266,
+   "databases": {
+    "OpenAlex (snowballing)": 266
+   }
+  },
+  {
+   "file": "2026-10-12_snowball_candidates_s2.ris",
+   "format": "ris",
+   "records": 27,
+   "databases": {
+    "Semantic Scholar (snowballing)": 27
+   }
+  }
+ ],
+ "by_database": {
+  "OpenAlex (snowballing)": 266,
+  "Semantic Scholar (snowballing)": 27
+ },
+ "raw_total": 293,
+ "unique_total": 292,
+ "duplicates_removed": 1,
+ "no_abstract": 69,
+ "overlap": {
+  "OpenAlex (snowballing)": 265,
+  "Semantic Scholar (snowballing) + OpenAlex (snowballing)": 1,
+  "Semantic Scholar (snowballing)": 26
+ },
+ "batches": 6,
+ "max_record_lines": 27
+}

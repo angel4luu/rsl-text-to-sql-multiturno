@@ -1,0 +1,11 @@
+id_estudio,citas_en_red,escenario,anio,titulo
+R00124,77,UN_TURNO,2020,RAT-SQL: Relation-aware schema encoding and linking for text-to-SQL parsers
+R00127,60,UN_TURNO,2020,Towards complex text-to-SQL in cross-domain database with intermediate representation
+R00109,48,MULTITURNO,2021,PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+B00042,40,UN_TURNO,2020,Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
+R00131,40,MULTITURNO,2019,Editing-based SQL query generation for cross-domain context-dependent questions
+B00012,34,UN_TURNO,2021,LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
+R00126,34,MULTITURNO,2020,SPARC: Cross-domain semantic parsing in context
+B00043,29,UN_TURNO,2019,Global Reasoning over Database Structures for Text-to-SQL Parsing
+R00129,27,MULTITURNO,2019,CoSQL: A conversational text-to-SQL challenge towards cross-domain natural language interfaces to da
+R00911,27,UN_TURNO,2023,RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL

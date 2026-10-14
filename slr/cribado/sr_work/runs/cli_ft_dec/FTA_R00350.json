@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00350@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00350",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn N-rep: multi-representation schema linking and candidate selection are central; evaluated on BIRD and Spider with execution accuracy.",
+   "where": "p1 Abstract and Introduction; p3 Methodology 4.1-4.3; p3-4 Experiments 5.1-5.5, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00350.json"
+}

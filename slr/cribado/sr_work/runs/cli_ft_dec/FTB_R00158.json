@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00158@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00158",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn general multi-agent framework; contributions are consistency alignment, dynamic few-shot and SQL-Like CoT. Refinement is only one module.",
+   "where": "p1 Abstract; p2 Introduction, Contributions"
+  }
+ ],
+ "source": "cli:FTB_R00158.json"
+}

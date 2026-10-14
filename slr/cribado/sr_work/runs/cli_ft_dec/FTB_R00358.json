@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00358@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00358",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study centred on self-correction in generation, evaluated quantitatively on BIRD and Spider (public benchmarks, execution accuracy).",
+   "where": "p1 Abstract and Introduction contributions; p4-5 Sections 4.3 and 5.3 (BIRD/Spider EX results)"
+  }
+ ],
+ "source": "cli:FTB_R00358.json"
+}

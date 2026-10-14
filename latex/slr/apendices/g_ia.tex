@@ -1,0 +1,62 @@
+% Generado por analysis/src/tablas/apendices.py — no editar a mano.
+{\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}p{3.6cm} p{2.9cm} l p{6.0cm} r@{}}
+\caption{Modelos, roles y ajustes de ejecución por etapa. Cada \en{prompt} se ejecutó como una sesión aislada; un \en{prompt} de cribado T/R cubre un lote de registros. No se fijó la temperatura: las herramientas de línea de órdenes usan el valor por defecto del proveedor. Fuente: \texttt{index.json} de cada carpeta de \en{prompts} y metadatos de ejecución (\texttt{\_model.json}).}\label{tab:ap-modelos}\\
+\toprule
+Fase & Rol & Modelo (ID) & Ejecución & \en{Prompts} \\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Fase & Rol & Modelo (ID) & Ejecución & \en{Prompts} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Cribado T/R, piloto & Revisores A y B & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 16 \\
+Cribado T/R, piloto & Desempate & \texttt{claude-opus-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 5 \\
+Cribado T/R & Revisores A y B & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 40 \\
+Cribado T/R & Desempate & \texttt{claude-opus-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 16 \\
+Cribado T/R & Control de calidad & \texttt{claude-opus-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 16 \\
+Texto completo & Calibración & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 8 \\
+Texto completo & Revisores A y B & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 978 \\
+Texto completo & Desempate & \texttt{claude-opus-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 24 \\
+Texto completo & Control de calidad & \texttt{claude-opus-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 42 \\
+Texto completo & Auditoría de exclusiones & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 20 \\
+Extracción, piloto & Extractores A y B & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 6 \\
+Extracción, Nivel 1 & Extractores A y B & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 80 \\
+Extracción, Nivel 1 & Desempate & \texttt{gpt-6.1-sol} & \texttt{codex exec}; razonamiento \texttt{medium}; \en{sandbox} de solo lectura; sesión efímera & 11 \\
+Extracción y calidad, Nivel 2 & Extractor A & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 78 \\
+Extracción y calidad, Nivel 2 & Extractor B & \texttt{gpt-6.1-sol} & \texttt{codex exec}; razonamiento \texttt{medium}; \en{sandbox} de solo lectura; sesión efímera & 152 \\
+Extracción y calidad, Nivel 2 & Extractor B & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 2 \\
+Extracción y calidad, Nivel 2 & Desempate & \texttt{claude-sonnet-5-5} & \texttt{claude -p}; solo herramienta Read; sin \en{hooks}, MCP ni sesión persistente; salida JSON & 75 \\
+Extracción por turno, Nivel 2 & Extractor & \texttt{gpt-6.1-sol} & \texttt{codex exec}; razonamiento \texttt{medium}; \en{sandbox} de solo lectura; sesión efímera & 39 \\
+\end{longtable}
+}
+
+{\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}p{6.2cm} p{4.2cm} r r r@{}}
+\caption{Verificación humana de la extracción y la calidad asistidas por IA. Muestra ciega: 5 estudios del Nivel 2 extraídos por la autora sin ver la propuesta de la IA (semilla fija). Fuente: \texttt{informe\_acuerdo\_extraccion.md}.}\label{tab:ap-verificacion}\\
+\toprule
+Verificación & Criterio & $k/n$ & \% & IC 95 \% (Wilson) \\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Verificación & Criterio & $k/n$ & \% & IC 95 \% (Wilson) \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+Valores concordantes A--B del Nivel 2 (muestra del 10 \%) & Confirmados sin cambios & 182/182 & \num{100.0} & \num{97.9}--\num{100.0} \\
+Estudios del Nivel 1 (muestra del 10 \%) & Confirmados sin cambios & 32/32 & \num{100.0} & \num{89.3}--\num{100.0} \\
+Ítems de validez con puntuación entre 40 y 60 \% & Confirmados sin cambios & 95/95 & \num{100.0} & \num{96.1}--\num{100.0} \\
+Muestra ciega: escenario & Coincide con la IA & 4/5 & \num{80.0} & \num{37.6}--\num{96.4} \\
+Muestra ciega: historial en la evaluación & Coincide con la IA & 3/5 & \num{60.0} & \num{23.1}--\num{88.2} \\
+Muestra ciega: ítems de calidad & Puntuación idéntica & 34/50 & \num{68.0} & \num{54.2}--\num{79.2} \\
+Muestra ciega: ítems de calidad & Diferencia $\leq$ 0,5 & 48/50 & \num{96.0} & \num{86.5}--\num{98.9} \\
+Muestra ciega: resultados principales & Presentes en \texttt{resultados.csv} & 10/15 & \num{66.7} & \num{41.7}--\num{84.8} \\
+\end{longtable}
+}

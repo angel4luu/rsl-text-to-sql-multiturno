@@ -1,0 +1,283 @@
+{
+ "label": "B:b018@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00844",
+   "d": "include",
+   "code": "INC",
+   "why": "KG-based SQL verifier refining outputs; Spider/BIRD"
+  },
+  {
+   "id": "R00845",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking is one step; unclear if central"
+  },
+  {
+   "id": "R00846",
+   "d": "include",
+   "code": "INC",
+   "why": "KG schema linker pruning and localized SQL repair stated contributions"
+  },
+  {
+   "id": "R00847",
+   "d": "include",
+   "code": "INC",
+   "why": "Onto-Linking model targets schema linking"
+  },
+  {
+   "id": "R00848",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational dairy NL2SQL; unclear if successive dependent questions"
+  },
+  {
+   "id": "R00849",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based NL2SQL demo, no linking or correction focus"
+  },
+  {
+   "id": "R00850",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00851",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback and schema-linking hints in fine-tuning"
+  },
+  {
+   "id": "R00852",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Platform description, Text-to-SQL only a component"
+  },
+  {
+   "id": "R00853",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00854",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Semantic parsing evaluated on SparC; Text-to-SQL scope unclear"
+  },
+  {
+   "id": "R00855",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00856",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article in Chinese"
+  },
+  {
+   "id": "R00857",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-GraphQL on graph database"
+  },
+  {
+   "id": "R00858",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and self-correction modules in text-to-SQL system"
+  },
+  {
+   "id": "R00859",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multilingual dataset plus schema augmentation with verification"
+  },
+  {
+   "id": "R00860",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Benchmark refinement and prompts, single-turn, no linking focus"
+  },
+  {
+   "id": "R00861",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Synthetic data study, single-turn"
+  },
+  {
+   "id": "R00862",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table retrieval for QA; open-domain Text-to-SQL dataset mentioned"
+  },
+  {
+   "id": "R00863",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-guided dense reward; unclear if feedback central"
+  },
+  {
+   "id": "R00864",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent-based schema linking is the central contribution"
+  },
+  {
+   "id": "R00865",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema encoding/linking improvement with domain knowledge on Spider"
+  },
+  {
+   "id": "R00866",
+   "d": "exclude",
+   "code": "E5",
+   "why": "RAG QA over personal documents, not Text-to-SQL"
+  },
+  {
+   "id": "R00867",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval and iterative SQL repair stated contributions"
+  },
+  {
+   "id": "R00868",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational text-to-SQL on SparC and CoSQL"
+  },
+  {
+   "id": "R00869",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00870",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and join synthesis via keyword search"
+  },
+  {
+   "id": "R00871",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Keyword-based NLIDB interface, no linking or correction"
+  },
+  {
+   "id": "R00872",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "LLM-friendly views eliminating joins; schema representation focus"
+  },
+  {
+   "id": "R00873",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clinical chatbot application, single questions, no linking focus"
+  },
+  {
+   "id": "R00874",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00875",
+   "d": "exclude",
+   "code": "E6",
+   "within": "",
+   "why": "Application system; schema linking only error analysis"
+  },
+  {
+   "id": "R00876",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00877",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article in Chinese"
+  },
+  {
+   "id": "R00878",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-based SQL quality feedback loop for refinement"
+  },
+  {
+   "id": "R00879",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article in Japanese"
+  },
+  {
+   "id": "R00880",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt strategies, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00881",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demo applications of LLM SQL generation"
+  },
+  {
+   "id": "R00882",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent iteratively corrects queries; ontology focus, small evaluation"
+  },
+  {
+   "id": "R00883",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Hybrid rule/LLM architecture, no multi-turn or linking focus"
+  },
+  {
+   "id": "R00884",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table QA over data lakes, no SQL"
+  },
+  {
+   "id": "R00885",
+   "d": "include",
+   "code": "INC",
+   "why": "Cluster-based schema retrieval is a main contribution"
+  },
+  {
+   "id": "R00886",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and SQL correction modules"
+  },
+  {
+   "id": "R00887",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema grounding and execution-based review agents"
+  },
+  {
+   "id": "R00888",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00889",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article in Chinese"
+  }
+ ],
+ "source_transcript": "agent-a7fbc75ce7b9dcc85.jsonl"
+}

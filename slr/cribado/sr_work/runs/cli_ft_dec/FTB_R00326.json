@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00326@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00326",
+   "d": "exclude",
+   "code": "E7",
+   "why": "Purely theoretical expected-utility model; no empirical evaluation of any Text-to-SQL system or benchmark (single-turn, static).",
+   "where": "p11-12 Section 4.1 Basic Assumptions; p13-16 Sections 4.2-4.4; p17 Conclusion"
+  }
+ ],
+ "source": "cli:FTB_R00326.json"
+}

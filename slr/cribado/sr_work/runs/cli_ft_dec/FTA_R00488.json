@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00488@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00488",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-based sample+vote candidate selection is a central contribution; execution accuracy evaluated on public Spider dev set.",
+   "where": "p1 Abstract; p2 Problem Formulation; p3 Experimental Setup and Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00488.json"
+}

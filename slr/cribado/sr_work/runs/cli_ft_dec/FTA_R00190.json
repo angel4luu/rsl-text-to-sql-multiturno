@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00190@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00190",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; LLM-prompt schema linking is a stated contribution; evaluated on Spider with exact match and execution accuracy.",
+   "where": "p2 Introduction, contributions (2); p7-8 Section 5 Experiments, Table 3"
+  }
+ ],
+ "source": "cli:FTA_R00190.json"
+}

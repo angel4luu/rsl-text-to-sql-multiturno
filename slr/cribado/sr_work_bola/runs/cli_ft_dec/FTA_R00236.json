@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00236@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00236",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose stated contribution is a knowledge-enhanced SQL re-ranker (candidate selection), evaluated quantitatively on Spider and Spider-DK.",
+   "where": "p1 Abstract; p2 Introduction contributions; p7-8 Section 5 Experiments, Tables 2-5"
+  }
+ ],
+ "source": "cli:FTA_R00236.json"
+}

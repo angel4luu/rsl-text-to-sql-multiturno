@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00448@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00448",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; execution-guided self-correction (EGES) and schema linking are stated contributions; quantitative evaluation on Spider.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Sections 5.1-5.3"
+  }
+ ],
+ "source": "cli:FTB_R00448.json"
+}

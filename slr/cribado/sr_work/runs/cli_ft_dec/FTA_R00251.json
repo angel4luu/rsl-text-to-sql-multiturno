@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00251@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00251",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider models; contribution is error taxonomy and user-study of manual repair, not schema linking or system self-correction.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p10-11 Results"
+  }
+ ],
+ "source": "cli:FTA_R00251.json"
+}

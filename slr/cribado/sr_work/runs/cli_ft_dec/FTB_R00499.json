@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00499@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00499",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "General agent framework; text-to-SQL is one of five benchmark domains. Extract omits pages 5–26, so SQL evaluation and results can't be verified.",
+   "where": "p1 Abstract; p3 Contributions; extract ends at p4 (pp5–26 not included)"
+  }
+ ],
+ "source": "cli:FTB_R00499.json"
+}

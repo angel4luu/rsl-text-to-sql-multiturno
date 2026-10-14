@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00264",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn sketch-based model fusing table content into column representations; not framed as schema linking, join inference or self-correction.",
+   "where": "p1 Abstract; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTB_R00264.json"
+}

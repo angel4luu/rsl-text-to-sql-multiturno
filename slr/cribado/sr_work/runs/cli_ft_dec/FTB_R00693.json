@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00693@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00693",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; schema-aware extraction and execution-error LLM fallback are central; EX 47.78% on public BIRD dev set.",
+   "where": "p1 Abstract and Introduction contributions; p3-4 Methodology C-D; p4 Experimental Results B-C"
+  }
+ ],
+ "source": "cli:FTB_R00693.json"
+}

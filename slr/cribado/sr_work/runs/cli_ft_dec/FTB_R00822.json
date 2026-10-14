@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00822@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00822",
+   "d": "exclude",
+   "code": "E5",
+   "why": "System turns a guided dialogue into CREATE/INSERT statements for database design; it does not translate natural-language questions into SQL queries.",
+   "where": "p1 Abstract; p5-7 Sections 3-3.1 (dialogue model); p11 Conclusion (query interface left as future work)"
+  }
+ ],
+ "source": "cli:FTB_R00822.json"
+}

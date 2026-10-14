@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00909@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00909",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Parses questions into custom logical forms over time-series data; no SQL generated or evaluated on relational databases",
+   "where": "p2-3 Sections 1-2 (task definition); p14-17 Section 4.4 (evaluation)"
+  }
+ ],
+ "source": "cli:FTA_R00909.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00120@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00120",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn SParC/CoSQL Text-to-SQL with previous-SQL reuse and schema linking; quantitative evaluation reported; 2020 COLING paper.",
+   "where": "p1 Abstract; p7-8 Section 4 Experiment and Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00120.json"
+}

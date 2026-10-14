@@ -1,0 +1,90 @@
+% Generado por analysis/src/tablas/apendices.py — no editar a mano.
+{\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}l l l l l l l l l l p{4.4cm} r@{}}
+\caption{Características de los estudios multiturno que alcanzan el umbral de validez (n = 72). Pilar: contribución central declarada; SE: sin entrenamiento; Hist.: historial usado en la evaluación; Resultado principal: \en{benchmark}, métrica y valor reportado (\%), con $\Delta$ en puntos porcentuales frente a la línea base de referencia (regla M7e) cuando existe; Val.: puntuación de validez (\%). NR: no reportado; NA: no aplica. Códigos: paradigma: AG = agentes, HNS = híbrido neurosimbólico, LLM-A = ajuste fino de LLM, LLM-P = LLM con \en{prompting}, NPP = neuronal anterior a los PLM, PLM-A = ajuste fino de PLM; PI1: CON = concatenación del historial, REE = reescritura de la pregunta, RES = resolución explícita de referencias, CLD = clasificación del discurso; PI2: HP = historial plano, EE = estructura explícita, SQL = SQL previo (edición), GR = grafo, ME = memoria externa, VD = ventana deslizante, RSM = resumen; PI3 (\en{joins}): IMP = implícita en el modelo, GFK = grafo de claves foráneas, ALG = algorítmica (caminos); PI4: EJE = retroalimentación de ejecución, ADP = autodepuración con LLM, VER = verificador o crítico, REP = reparación simbólica, ACL = aclaración con el usuario, ABS = abstención; historial en la evaluación: G = de referencia (\en{gold}), P = predicho, SP = solo preguntas.}\label{tab:ap-caracteristicas}\\
+\toprule
+Ref. & Año & Pilar & Parad. & SE & PI1 & PI2 & PI3 & PI4 & Hist. & Resultado principal & Val. \\
+\midrule
+\endfirsthead
+\multicolumn{12}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Ref. & Año & Pilar & Parad. & SE & PI1 & PI2 & PI3 & PI4 & Hist. & Resultado principal & Val. \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\cite{Yu2019CoSQL} & 2019 & PI2 & NPP & NO & NR & HP; SQL & NR & NR & P & --- & 70 \\
+\cite{Zhang2019EditSQL} & 2019 & PI2 & PLM-A & NO & NR & SQL & IMP & NA & P; G & SPARC, QM: 54.5 ($\Delta$ 27.8) & 90 \\
+\cite{Liu2019FANDA} & 2019 & PI1 & HNS & NO & REE & EE & NR & NA & SP & FollowUp, Symbol Accuracy: 49.0 ($\Delta$ 23.5) & 70 \\
+\cite{Chen2020AirConcierge} & 2020 & PI2 & NPP & NO & NR & EE & NR & NA & P & AirDialogue, Name Acc: 100.0 ($\Delta$ 100.0) & 50 \\
+\cite{Zhong2020Grounded} & 2020 & NR & PLM-A & NO & CON & NR & IMP & NR & P & SPIDER, EX: 59.2 ($\Delta$ 3.8) & 90 \\
+\cite{Cai2020IGSQL} & 2020 & PI2 & PLM-A & NO & NR & GR; SQL & IMP & NA & P & SPARC, IM: 29.5 ($\Delta$ 4.2) & 90 \\
+\cite{Wang2020PGGSQL} & 2020 & PI2; PI3 & PLM-A & NO & NR & SQL; VD & GFK & NA & P & SPARC, QM: 53.1 ($\Delta$ 5.9) & 70 \\
+\cite{Elgohary2020Speak} & 2020 & PI4 & PLM-A & NO & CON & SQL & IMP & ACL & P & --- & 60 \\
+\cite{Yu2019SParC} & 2020 & NR & NPP & NO & NR & VD & NR & NR & SP & --- & 80 \\
+\cite{Elgohary2021NLEDIT} & 2021 & PI4 & PLM-A & NO & CON & SQL & IMP & ACL & P & --- & 70 \\
+\cite{Chen2021Decoupled} & 2021 & PI1 & PLM-A & NO & REE & NR & IMP & NA & SP & --- & 90 \\
+\cite{Scholak2021PICARD} & 2021 & NR & HNS & NO & CON & HP & IMP & REP & SP & SPIDER, EX: 75.1 ($\Delta$ 5.0) & 90 \\
+\cite{Guo2021Chase} & 2021 & NR & PLM-A & NO & CON & HP; SQL; GR & IMP & NA & NR & --- & 80 \\
+\cite{Yu2021Interactionmodeling} & 2021 & PI2 & NPP & NO & NR & GR & IMP & NA & NR & SPARC, QM: 51.5 ($\Delta$ 0.8) & 70 \\
+\cite{Wang2021Tracking} & 2021 & PI2 & PLM-A & NO & NR & EE; GR & NR & NA & P & COSQL, QM: 44.4 ($\Delta$ 4.5) & 100 \\
+\cite{Yu2021SCoRe} & 2021 & PI2 & PLM-A & NO & CON & HP & NR & NA & SP & SPARC, IM: 42.5 ($\Delta$ 5.8) & 80 \\
+\cite{Hui2021Dynamic} & 2021 & PI2 & PLM-A & NO & CON & GR; SQL & IMP & NR & NR & SPARC, QM: 55.8 ($\Delta$ 7.9) & 70 \\
+\cite{Zheng2022HIESQL} & 2022 & PI3 & PLM-A & NO & CON & GR; HP & IMP & NA & P & --- & 80 \\
+\cite{Cai2022STAR} & 2022 & PI2 & PLM-A & NO & CON & HP; EE & NR & NA & SP & COSQL, IM: 30.0 ($\Delta$ 7.5) & 70 \\
+\cite{Xiao2022CQRSQL} & 2022 & PI1 & PLM-A & NO & REE & HP & IMP & NA & SP & --- & 80 \\
+\cite{Hu2022InContext} & 2022 & PI2 & LLM-P & NO & NR & EE & NR & NA & P & --- & 90 \\
+\cite{Liu2022Augmenting} & 2022 & NR & PLM-A & NO & CON & HP & IMP & NA & SP & SPARC, QM: 64.0 ($\Delta$ 3.3) & 80 \\
+\cite{Qi2022RASAT} & 2022 & PI3 & PLM-A & NO & CON; RES & HP; GR & IMP & NA & SP & --- & 100 \\
+\cite{Huang2022SeSQL} & 2022 & NR & NPP & NO & CON & HP; SQL; GR & NR & NA & NR & --- & 90 \\
+\cite{Li2022Pay} & 2022 & PI2 & PLM-A & NO & CON & HP & IMP & NA & SP & SPARC, QM: 64.1 ($\Delta$ 4.5) & 60 \\
+\cite{Liu2023Exploring} & 2023 & NR & PLM-A & NO & CON & HP & IMP & NA & SP & SPARC-CG (CG subset), QM: 26.2 ($\Delta$ 0.9) & 80 \\
+\cite{Zhang2023ACTSQL} & 2023 & PI3 & LLM-P & SI & REE & NR & IMP & NA & SP & COSQL, QM: 63.7 ($\Delta$ 18.3) & 70 \\
+\cite{Liu2023Comprehensive} & 2023 & NA & LLM-P & SI & CON & HP & IMP & NA & P & --- & 60 \\
+\cite{Bazaga2023SQLformer} & 2023 & PI3 & PLM-A & NO & NR & NR & IMP & NA & NR & SPARC, IM: 51.3 ($\Delta$ 4.1) & 80 \\
+\cite{HariKrishnanParthasarathi2023Conversational} & 2023 & NR & HNS & NO & CON & HP & IMP & VER & SP & COSQL, EX: 70.0 ($\Delta$ 3.4) & 70 \\
+\cite{Fu2023MIGA} & 2023 & PI1;PI2;PI3 & PLM-A & NO & CON & HP & IMP & NA & P & --- & 90 \\
+\cite{Li2023DIR} & 2023 & PI1 & PLM-A & NO & REE; CON & HP & NR & NA & SP & COSQL, QM: 52.98 ($\Delta$ 27.17) & 60 \\
+\cite{Dou2023UniSAr} & 2023 & PI3 & PLM-A & NO & CON & HP & ALG & NR & P & --- & 80 \\
+\cite{Zhang2024CoESQL} & 2024 & PI2 & LLM-P & SI & CON & SQL & IMP & NA & P & SPARC, EM(QM): 56.0 ($\Delta$ 6.0) & 80 \\
+\cite{Liu2024TPLink} & 2024 & PI1;PI3 & PLM-A & NO & CON & HP & NR & NA & SP & --- & 70 \\
+\cite{Li2024MultiSQL} & 2024 & PI1;PI4 & LLM-P & NO & CON & HP & IMP & EJE & NR & MultiSQL, DatabaseStateMatch Update: 0.735 ($\Delta$ 0.09) & 60 \\
+\cite{Ryu2024EHRSeqSQL} & 2024 & NR & LLM-P & NO & CON & HP & IMP & NA & P; SP & --- & 80 \\
+\cite{Zhai2024Learn} & 2024 & PI4 & LLM-P & SI & NR & NR & IMP & EJE & NR & COSQL, IEX: 45.1 ($\Delta$ 14.4) & 70 \\
+\cite{Lian2024ChatBI} & 2024 & PI1;PI3 & HNS & NO & REE & VD & NR & NA & P & MRD BI Baidu, UEX: 67.32 ($\Delta$ 32.03) & 50 \\
+\cite{Sun2024QDASQL} & 2024 & PI4 & LLM-A & NO & CON & HP & IMP & ABS; ACL; EJE & NR & SPARC, IM: 42.4 ($\Delta$ 29.8) & 70 \\
+\cite{Zhang2024SEHCL} & 2024 & NR & PLM-A & NO & NR & NR & IMP & NA & NR & SPARC, IM: 48.5 ($\Delta$ 2.8) & 80 \\
+\cite{Liu2024SUQL} & 2024 & NR & HNS & SI & NR & HP & IMP & NR & SP & Yelp Restaurants, turn accuracy: 93.8 ($\Delta$ 36.8) & 70 \\
+\cite{Chai2023QURG} & 2024 & PI1 & PLM-A & NO & REE & HP & IMP & NA & SP & --- & 60 \\
+\cite{Dong2025PRACTIQ} & 2025 & PI4 & LLM-P & SI & NR & HP & IMP & ACL; ABS & G & --- & 70 \\
+\cite{Chen2025TrackSQL} & 2025 & PI1;PI2;PI3 & LLM-A & NO & CON & ME; VD & IMP & NR & P & --- & 80 \\
+\cite{Xu2025AbacusSQL} & 2025 & PI4 & LLM-P & SI & CON & HP & IMP & ADP & NR & CHASE, QEX: 53.5 ($\Delta$ 7.0) & 60 \\
+\cite{Urban2025Utilizing} & 2025 & PI2; PI4 & LLM-P & SI & NR & ME & IMP & ACL & P & BIRD, EX: 48.5 ($\Delta$ 6.2) & 60 \\
+\cite{Jiang2025SiriusBI} & 2025 & PI1;PI4 & AG & NO & CLD; REE & ME & NR & ACL & SP & MRD-BIRD, EX: 51.14 ($\Delta$ 0.53) & 60 \\
+\cite{Chen2024Learning} & 2025 & PI4 & LLM-A & NO & CON & HP & IMP & ACL & P & AmbigSQL, Post-clarification EX: 53.0 ($\Delta$ 2.3) & 90 \\
+\cite{Lee2025Conversation} & 2025 & PI3; PI4 & AG & SI & CON & HP & IMP & ACL & P & --- & 90 \\
+\cite{Huo2025BIRDINTERACT} & 2025 & PI4 & AG & SI & CON & HP & IMP & ACL; EJE & P & --- & 90 \\
+\cite{Lin2025Prompt} & 2025 & PI4 & LLM-P & SI & NR & NR & IMP & NR & NR & Lost in conversation, functional accuracy: 0.607 ($\Delta$ 0.27) & 80 \\
+\cite{Guo2025Evaluating} & 2025 & PI4 & AG & SI & REE & HP & IMP & ACL; EJE & NR & MMSQL, EX: 74.8 ($\Delta$ 8.4) & 60 \\
+\cite{Almohaimeed2025Prompt} & 2025 & PI4 & LLM-A & NO & NR & NR & IMP & ADP & NR & SPARC, EX: 72.5 ($\Delta$ 1.0) & 70 \\
+\cite{Menon2025FISQL} & 2025 & PI4 & LLM-P & SI & NR & SQL & IMP & ACL & P & --- & 60 \\
+\cite{Ascoli2025Advancing} & 2025 & PI1 & LLM-A & NO & CON; REE & HP & IMP & NA & NR & --- & 60 \\
+\cite{Sun2026Rethinking} & 2026 & NR & AG & SI & NR & HP & IMP & EJE; ACL & P & --- & 80 \\
+\cite{Safarzadeh2026SPENCE} & 2026 & NA & LLM-P & SI & NR & NR & NR & NA & NR & --- & 60 \\
+\cite{Guo2026MTSQLR1} & 2026 & PI4 & AG & NO & CON & HP; ME & IMP & EJE; ADP; VER & G; P & COSQL, EX: 79.9 ($\Delta$ 4.7) & 90 \\
+\cite{Zhou2026RoseSQL} & 2026 & PI2 & LLM-P & SI & REE & EE & IMP & NA & NR & SPARC, IM-EX: 63.82 ($\Delta$ 14.77) & 80 \\
+\cite{Sarwar2026CLARITY} & 2026 & PI4 & LLM-P & SI & CON & HP & NR & ABS; ACL & G & --- & 80 \\
+\cite{Bian2026ASTormer} & 2026 & NR & PLM-A & NO & NR & NR & IMP & NA & NR & DUSQL, EM: 77.12 ($\Delta$ 63.14) & 60 \\
+\cite{Tummalapenta2026Memory} & 2026 & PI2 & LLM-P & SI & RES & VD; ME; EE & IMP & NA & P & --- & 80 \\
+\cite{Wang2026Learning} & 2026 & PI2 & AG & NO & NR & HP; ME & IMP & ACL; EJE & P & BIRD-Interact, SuccessRate Phase1 Overall: 33.01 ($\Delta$ 3.84) & 70 \\
+\cite{Lian2026CoeusBI} & 2026 & PI2;PI3 & AG & NO & CLD & EE & IMP & EJE & G & BAIDU MRD PRODUCTION, UEX: 83.3 ($\Delta$ 26.4) & 80 \\
+\cite{Teixeira2026SemPlan} & 2026 & PI2 & HNS & SI & NR & EE & NR & ABS; ACL & NR & --- & 70 \\
+\cite{Liu2026PLSQLBench} & 2026 & NR & AG & SI & CON & HP & IMP & NR & P & Spider2-MT, Mean Test Pass@1: 81.29 ($\Delta$ 15.35) & 90 \\
+\cite{Liu2026Evaluating} & 2026 & PI2;PI4 & LLM-P & SI & CON & HP & IMP & ACL & P & --- & 80 \\
+\cite{Yang2026GitHarness} & 2026 & PI1;PI2 & AG & NO & REE & GR; ME; EE & IMP & NA & P & --- & 80 \\
+\cite{Yang2026HarnessSQL} & 2026 & PI4 & AG & NO & NR & HP; RSM & IMP & EJE; ADP; ACL & P & SPIDER, EX: 54.8 ($\Delta$ 32.6) & 80 \\
+\cite{Chen2026SQL} & 2026 & PI2; PI3 & PLM-A & NO & NR & NR & IMP & NA & NR & --- & 50 \\
+\cite{Khadija2026Intelligent} & 2026 & PI2 & HNS & NO & CON & HP & IMP & ACL & NR & --- & 60 \\
+\end{longtable}
+}

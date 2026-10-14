@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00129@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00129",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn conversational Text-to-SQL corpus (CoSQL), SQL-grounded dialogue state tracking, baselines evaluated; EMNLP 2019 full paper",
+   "where": "p1 Abstract; p1-2 Introduction, Figure 1"
+  }
+ ],
+ "source": "cli:FTA_R00129.json"
+}

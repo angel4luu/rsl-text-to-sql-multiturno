@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00492@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00492",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; central self-reflection, SQL correction and retrieval loops; evaluated on public BIRD benchmark (72.03% EX); arXiv 2026.",
+   "where": "p1 Abstract; p2 Contributions; p8-9 Sections 9.1-9.4, Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00492.json"
+}

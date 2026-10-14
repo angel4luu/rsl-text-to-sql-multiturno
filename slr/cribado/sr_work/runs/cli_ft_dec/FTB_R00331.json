@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00331@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00331",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; view-based schema reduces join complexity and drives schema linking (central); EX evaluated on public BIRD benchmark",
+   "where": "p1 Abstract; p2 Introduction contributions; p5 Sec 4.5 and 5.1 Experiments; p6 Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00331.json"
+}

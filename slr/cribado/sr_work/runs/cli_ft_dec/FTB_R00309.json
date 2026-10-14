@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00309@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00309",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn NL2BI Text-to-SQL with MRD matching and schema linking; arXiv 2024; abstract reports comparison against mainstream NL2SQL on real BI data.",
+   "where": "p1 Abstract and Introduction; p5-6 Sections 4.1-4.2 (MRD matching, Single View Selection)"
+  }
+ ],
+ "source": "cli:FTB_R00309.json"
+}

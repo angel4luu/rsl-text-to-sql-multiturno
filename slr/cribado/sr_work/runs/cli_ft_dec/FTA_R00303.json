@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00303@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00303",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Spider Text-to-SQL; example- and error-driven execution-feedback correction is a main component; reports execution accuracy (82.1%).",
+   "where": "p2 Sec.3 Example/Error Driven Correction; p3 Table 1; p1 Abstract"
+  }
+ ],
+ "source": "cli:FTA_R00303.json"
+}

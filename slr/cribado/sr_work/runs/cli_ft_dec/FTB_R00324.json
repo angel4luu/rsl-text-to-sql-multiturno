@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00324@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00324",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and execution-feedback self-correction as central contributions; evaluated on BIRD and Spider.",
+   "where": "p1 Abstract; p2 Introduction contributions; p7-8 Experiments, Tables I-III"
+  }
+ ],
+ "source": "cli:FTB_R00324.json"
+}

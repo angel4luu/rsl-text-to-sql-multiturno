@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00429@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00429",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agent with schema exploration and two-tier repair/backtracking as core contributions; evaluated quantitatively on public Spider2.0 benchmarks.",
+   "where": "p1 Abstract; p2 Contributions; p6 Sec 4.2 Repair/Plan backtracking; p7 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00429.json"
+}

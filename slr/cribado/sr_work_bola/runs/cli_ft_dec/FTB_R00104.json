@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00104@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00104",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Text-to-SQL pre-training framework with synthetic data; schema linking/correction is not the central contribution.",
+   "where": "p1 Abstract and Introduction (contributions); p4-5 Experiments (Spider, Criteria-to-SQL single-turn)"
+  }
+ ],
+ "source": "cli:FTB_R00104.json"
+}

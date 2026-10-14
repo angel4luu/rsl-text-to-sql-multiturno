@@ -1,0 +1,6505 @@
+[
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/A_b001.json",
+  "label": "A:b001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00001",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Systematic survey"
+   },
+   {
+    "id": "R00002",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; value ambiguity benchmark may concern value linking"
+   },
+   {
+    "id": "R00003",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Overview of trends, survey"
+   },
+   {
+    "id": "R00004",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00005",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title indicates multi-turn NLIDBs"
+   },
+   {
+    "id": "R00006",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00007",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; 'Prune' may mean schema pruning"
+   },
+   {
+    "id": "R00008",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn fine-tuning system, no linking/correction contribution"
+   },
+   {
+    "id": "R00009",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn fine-tuning method, reasoning distillation"
+   },
+   {
+    "id": "R00010",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn chain-of-thought supervision study"
+   },
+   {
+    "id": "R00011",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn access-minimality audit, no linking/correction contribution"
+   },
+   {
+    "id": "R00012",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; graph relations may cover schema linking"
+   },
+   {
+    "id": "R00013",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn compositional generalization datasets"
+   },
+   {
+    "id": "R00014",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema-structure encoder, not linking-focused"
+   },
+   {
+    "id": "R00015",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn domain-knowledge robustness dataset"
+   },
+   {
+    "id": "R00016",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph encoder; no linking/correction stated"
+   },
+   {
+    "id": "R00017",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph-to-AST framework"
+   },
+   {
+    "id": "R00018",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Codex evaluation"
+   },
+   {
+    "id": "R00019",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Zero-shot prompting with hints and consistency; linking/correction role unclear"
+   },
+   {
+    "id": "R00020",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt construction study"
+   },
+   {
+    "id": "R00021",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn spatial prompt method and dataset"
+   },
+   {
+    "id": "R00022",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Systematic review"
+   },
+   {
+    "id": "R00023",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn multilingual benchmark, no linking/correction"
+   },
+   {
+    "id": "R00024",
+    "d": "include",
+    "code": "INC",
+    "why": "Key column extraction and table-content constraints, single-turn column selection central"
+   },
+   {
+    "id": "R00025",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema evolution robustness benchmark"
+   },
+   {
+    "id": "R00026",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn template constrained decoding"
+   },
+   {
+    "id": "R00027",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Verbal RL self-evaluation; self-correction centrality unclear"
+   },
+   {
+    "id": "R00028",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; general architecture chapter, no multi-turn/linking focus"
+   },
+   {
+    "id": "R00029",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; general systems chapter, no multi-turn/linking focus"
+   },
+   {
+    "id": "R00030",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn few-shot demonstration expansion"
+   },
+   {
+    "id": "R00031",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt and example selection"
+   },
+   {
+    "id": "R00032",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; two-step retrieval may be schema retrieval"
+   },
+   {
+    "id": "R00033",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; domain RAG framework, single-turn"
+   },
+   {
+    "id": "R00034",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn domain dataset"
+   },
+   {
+    "id": "R00035",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00036",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00037",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Table pretraining, not linking/correction"
+   },
+   {
+    "id": "R00038",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Bottom-up decoding method, single-turn"
+   },
+   {
+    "id": "R00039",
+    "d": "exclude",
+    "code": "E5",
+    "why": "SQL-to-text generation, not Text-to-SQL"
+   },
+   {
+    "id": "R00040",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn sketch filling and augmentation"
+   },
+   {
+    "id": "R00041",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL corpus generation, single-turn"
+   },
+   {
+    "id": "R00042",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema value-augmented encoding; linking centrality unclear"
+   },
+   {
+    "id": "R00043",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; global reasoning over schema may concern linking"
+   },
+   {
+    "id": "R00044",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Bottom-up decoding method, single-turn"
+   },
+   {
+    "id": "R00045",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Synthetic training data pipeline, single-turn"
+   },
+   {
+    "id": "R00046",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of database optimization"
+   },
+   {
+    "id": "R00047",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Continual learning, single-turn"
+   },
+   {
+    "id": "R00048",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; multi-level retrieval may be schema retrieval"
+   },
+   {
+    "id": "R00049",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema interaction graph; linking centrality unclear"
+   },
+   {
+    "id": "R00050",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Latent grounding of tokens to concepts, text-to-SQL case study"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/A_b002.json",
+  "label": "A:b002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00051",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn uncertainty constraints, no linking/correction focus"
+   },
+   {
+    "id": "R00052",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn architecture with graph layers, not linking/correction"
+   },
+   {
+    "id": "R00053",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests dynamic revision chain (correction)"
+   },
+   {
+    "id": "R00054",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompting with skeleton retrieval, not linking/correction"
+   },
+   {
+    "id": "R00055",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LLM system, no linking/correction in title"
+   },
+   {
+    "id": "R00056",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn neural method; title shows no linking/correction"
+   },
+   {
+    "id": "R00057",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn sketch slot filling, not linking/correction"
+   },
+   {
+    "id": "R00058",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn generalization evaluation setup, not linking/correction"
+   },
+   {
+    "id": "R00059",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data augmentation"
+   },
+   {
+    "id": "R00060",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn robustness benchmark, not linking/correction"
+   },
+   {
+    "id": "R00061",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn intermediate representations for generalization"
+   },
+   {
+    "id": "R00062",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Pre-training on question-schema interaction; schema grounding may be central"
+   },
+   {
+    "id": "R00063",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LLM robustness study, no abstract suggests linking"
+   },
+   {
+    "id": "R00064",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn Osquery system with table retrieval; centrality unclear"
+   },
+   {
+    "id": "R00065",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Few-shot example selection, single-turn"
+   },
+   {
+    "id": "R00066",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Unified multi-task SKG benchmark, not linking/correction"
+   },
+   {
+    "id": "R00067",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data synthesis"
+   },
+   {
+    "id": "R00068",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation framework, not linking/correction"
+   },
+   {
+    "id": "R00069",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema alignment and execution-based selection among several components"
+   },
+   {
+    "id": "R00070",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn chain-of-thought prompting"
+   },
+   {
+    "id": "R00071",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn fine-tuned T5 for healthcare"
+   },
+   {
+    "id": "R00072",
+    "d": "include",
+    "code": "INC",
+    "why": "Execution-based consistency candidate selection is a central contribution"
+   },
+   {
+    "id": "R00073",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; retrieval/reasoning title, no linking or correction"
+   },
+   {
+    "id": "R00074",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Error detection for parsers; verification centrality plausible"
+   },
+   {
+    "id": "R00075",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn adaptive in-context learning and example retrieval"
+   },
+   {
+    "id": "R00076",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title shows no linking/correction focus"
+   },
+   {
+    "id": "R00077",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation metric"
+   },
+   {
+    "id": "R00078",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn application platform description"
+   },
+   {
+    "id": "R00079",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt construction method"
+   },
+   {
+    "id": "R00080",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; query hardness parsing, not linking/correction"
+   },
+   {
+    "id": "R00081",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; multilingual spatial NLIDB, not multi-turn"
+   },
+   {
+    "id": "R00082",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn O&G multi-task T5 application"
+   },
+   {
+    "id": "R00083",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Grammatical info in GNN, single-turn, not linking"
+   },
+   {
+    "id": "R00084",
+    "d": "exclude",
+    "code": "E6",
+    "why": "New single-turn Chinese dataset, not about linking"
+   },
+   {
+    "id": "R00085",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; fine-tuning method, single-turn"
+   },
+   {
+    "id": "R00086",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema selector and SQL refiner stated as contributions"
+   },
+   {
+    "id": "R00087",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual single-turn representation mixup"
+   },
+   {
+    "id": "R00088",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema/pattern linking mentioned; unclear if central"
+   },
+   {
+    "id": "R00089",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General single-turn system description"
+   },
+   {
+    "id": "R00090",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Database selection plus critic-agent error correction; centrality unclear"
+   },
+   {
+    "id": "R00091",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; skeleton decoupling, not linking/correction"
+   },
+   {
+    "id": "R00092",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; graph attention title, no linking stated"
+   },
+   {
+    "id": "R00093",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn zero-shot rule-based NLIDB"
+   },
+   {
+    "id": "R00094",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt learning generation"
+   },
+   {
+    "id": "R00095",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn hints from query logs"
+   },
+   {
+    "id": "R00096",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Parameter-efficient fine-tuning, single-turn"
+   },
+   {
+    "id": "R00097",
+    "d": "include",
+    "code": "INC",
+    "why": "Relevant table and column extraction via RAG is the focus"
+   },
+   {
+    "id": "R00098",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; comparative model analysis, single-turn"
+   },
+   {
+    "id": "R00099",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; CoT with RAG, no linking/correction"
+   },
+   {
+    "id": "R00100",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; 'logic-linking' in title may mean schema linking"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/A_b003.json",
+  "label": "A:b003@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00101",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn pretraining framework; no linking/correction focus"
+   },
+   {
+    "id": "R00102",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation metric, not linking or correction"
+   },
+   {
+    "id": "R00103",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Grammar-based decoding, single-turn"
+   },
+   {
+    "id": "R00104",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn pretraining framework; no linking/correction focus"
+   },
+   {
+    "id": "R00105",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00106",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Few-shot prompt learning, single-turn"
+   },
+   {
+    "id": "R00107",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn benchmark re-evaluation"
+   },
+   {
+    "id": "R00108",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual retrieval prompting, single-turn"
+   },
+   {
+    "id": "R00109",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "KB and DB parser with primitive ranker pruning; relational SQL unclear"
+   },
+   {
+    "id": "R00110",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data synthesis for single-turn parsing"
+   },
+   {
+    "id": "R00111",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Demonstration selection, single-turn"
+   },
+   {
+    "id": "R00112",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Ambiguity benchmark and decoding, single-turn"
+   },
+   {
+    "id": "R00113",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Knowledge-intensive single-turn parsing, not linking/correction"
+   },
+   {
+    "id": "R00114",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Retrieval-augmented generation, single-turn"
+   },
+   {
+    "id": "R00115",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual meta-learning, single-turn"
+   },
+   {
+    "id": "R00116",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema subsetting retrieval central; Spider/BIRD-based benchmarks"
+   },
+   {
+    "id": "R00117",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn RAG multi-agent geospatial system"
+   },
+   {
+    "id": "R00118",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Query decomposition language, single-turn"
+   },
+   {
+    "id": "R00119",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Dataset error fixing, not model self-correction"
+   },
+   {
+    "id": "R00120",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Backdoor security attack"
+   },
+   {
+    "id": "R00121",
+    "d": "exclude",
+    "code": "E5",
+    "why": "MongoDB NoSQL dataset"
+   },
+   {
+    "id": "R00122",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Weak supervision training, single-turn"
+   },
+   {
+    "id": "R00123",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Generate-and-rank; join semantics extension, centrality unclear"
+   },
+   {
+    "id": "R00124",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data synthesis for adaptation, single-turn"
+   },
+   {
+    "id": "R00125",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Vulnerability/security study"
+   },
+   {
+    "id": "R00126",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual semantic parsing, single-turn"
+   },
+   {
+    "id": "R00127",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL injection attack framework"
+   },
+   {
+    "id": "R00128",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title shows nested query translation only"
+   },
+   {
+    "id": "R00129",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Evaluation metric, single-turn"
+   },
+   {
+    "id": "R00130",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Elasticsearch NoSQL queries"
+   },
+   {
+    "id": "R00131",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Constrained generation plus candidate re-ranking; centrality unclear"
+   },
+   {
+    "id": "R00132",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Annotation framework, single-turn"
+   },
+   {
+    "id": "R00133",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Case-based adaptation, single-turn"
+   },
+   {
+    "id": "R00134",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Fine-tuned lightweight model, single-turn"
+   },
+   {
+    "id": "R00135",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Federated learning, single-turn"
+   },
+   {
+    "id": "R00136",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Model simplification of RAT-SQL relations"
+   },
+   {
+    "id": "R00137",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Social bias study"
+   },
+   {
+    "id": "R00138",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Application assessment, single-turn"
+   },
+   {
+    "id": "R00139",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; metadata graph reasoning suggests schema linking"
+   },
+   {
+    "id": "R00140",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Model comparison, single-turn"
+   },
+   {
+    "id": "R00141",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Model compression study"
+   },
+   {
+    "id": "R00142",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Schema generalization test data, single-turn"
+   },
+   {
+    "id": "R00143",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; general query understanding, single-turn"
+   },
+   {
+    "id": "R00144",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Form-to-database pipeline application"
+   },
+   {
+    "id": "R00145",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Domain data generation, single-turn"
+   },
+   {
+    "id": "R00146",
+    "d": "include",
+    "code": "INC",
+    "why": "Search using execution criterion to find correct queries"
+   },
+   {
+    "id": "R00147",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; validity-constrained generation, not linking/correction"
+   },
+   {
+    "id": "R00148",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00149",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Temporal questions dataset, single-turn"
+   },
+   {
+    "id": "R00150",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data security framework, text-to-SQL incidental"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/A_b004.json",
+  "label": "A:b004@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00151",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; generate-and-rank suggests candidate selection"
+   },
+   {
+    "id": "R00152",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Elasticsearch NoSQL queries, not relational SQL"
+   },
+   {
+    "id": "R00153",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn general NLIDB focused on data security"
+   },
+   {
+    "id": "R00154",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; multi-table NL2SQL may involve joins or linking"
+   },
+   {
+    "id": "R00155",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn syntactic information and multi-task learning, no linking focus"
+   },
+   {
+    "id": "R00156",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn NLIDB, title shows no linking or correction"
+   },
+   {
+    "id": "R00157",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; schema interaction graph may be schema linking"
+   },
+   {
+    "id": "R00158",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General multi-step pipeline, no linking or correction in title"
+   },
+   {
+    "id": "R00159",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema relation-aware modelling; unclear if schema linking is central"
+   },
+   {
+    "id": "R00160",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn non-English Text-to-SQL, no linking or correction focus"
+   },
+   {
+    "id": "R00161",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Semantic path selection and graph pruning; possible schema linking"
+   },
+   {
+    "id": "R00162",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data synthesis and annotation, single-turn"
+   },
+   {
+    "id": "R00163",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Overview of SQL generation methods"
+   },
+   {
+    "id": "R00164",
+    "d": "exclude",
+    "code": "E6",
+    "why": "In-context learning and preference optimization, no linking focus"
+   },
+   {
+    "id": "R00165",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Few-shot domain NL2SQL application, no linking or correction"
+   },
+   {
+    "id": "R00166",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Schema-aware prompting framework, single-turn, not linking-centred"
+   },
+   {
+    "id": "R00167",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Autonomous AI-research framework, not linking or correction"
+   },
+   {
+    "id": "R00168",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Small-model in-context learning, single-turn"
+   },
+   {
+    "id": "R00169",
+    "d": "exclude",
+    "code": "E6",
+    "why": "GraphRAG document platform; Text-to-SQL peripheral"
+   },
+   {
+    "id": "R00170",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive study report, survey-style"
+   },
+   {
+    "id": "R00171",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL evaluation framework, single-turn, no linking or correction"
+   },
+   {
+    "id": "R00172",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; feedback-driven query rewriting suggests self-correction"
+   },
+   {
+    "id": "R00173",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Structured reasoning distillation, no linking or correction"
+   },
+   {
+    "id": "R00174",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Up to three exchanges per interaction; multi-turn status unclear"
+   },
+   {
+    "id": "R00175",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Controlled DSL for security, single-turn"
+   },
+   {
+    "id": "R00176",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Clustering-based test-time scaling may be candidate selection"
+   },
+   {
+    "id": "R00177",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Dashboard generation application, Text-to-SQL a component"
+   },
+   {
+    "id": "R00178",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Efficiency benchmark, single-turn, no linking or correction"
+   },
+   {
+    "id": "R00179",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Table-level retrieval suggests table selection; no abstract"
+   },
+   {
+    "id": "R00180",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Performance evaluation of NL2SQL models, no linking or correction"
+   },
+   {
+    "id": "R00181",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Execution-based verification suggests correction; no abstract"
+   },
+   {
+    "id": "R00182",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset, not about linking or correction"
+   },
+   {
+    "id": "R00183",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Hybrid decoder, single-turn, no linking or correction"
+   },
+   {
+    "id": "R00184",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Turkish dataset; feedback only applied as add-on"
+   },
+   {
+    "id": "R00185",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Transition representation generator, single-turn, linking not central"
+   },
+   {
+    "id": "R00186",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Dissertation"
+   },
+   {
+    "id": "R00187",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of deep learning Text-to-SQL"
+   },
+   {
+    "id": "R00188",
+    "d": "exclude",
+    "code": "E6",
+    "why": "WikiSQL single-turn model, no linking or correction focus"
+   },
+   {
+    "id": "R00189",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Meta-learning domain generalization, single-turn"
+   },
+   {
+    "id": "R00190",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Generates SPARQL queries, single-turn, no linking focus"
+   },
+   {
+    "id": "R00191",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Prompt template and exemplar selection, single-turn"
+   },
+   {
+    "id": "R00192",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL equivalence judgment, not linking or correction"
+   },
+   {
+    "id": "R00193",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General SQL generation pipeline, no linking or correction in title"
+   },
+   {
+    "id": "R00194",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Enterprise NL2SQL system, no linking or correction in title"
+   },
+   {
+    "id": "R00195",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Diagnostic test suite, single-turn"
+   },
+   {
+    "id": "R00196",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Graph encoder, single-turn, linking not stated contribution"
+   },
+   {
+    "id": "R00197",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Schema generalization GNN, single-turn, linking not central"
+   },
+   {
+    "id": "R00198",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Open-domain QA hybrid reader, not linking or correction"
+   },
+   {
+    "id": "R00199",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Generates SPARQL queries, single-turn, no linking focus"
+   },
+   {
+    "id": "R00200",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Attention-based column filtering resembles column selection"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/A_b005.json",
+  "label": "A:b005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00201",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LLM case study, no linking or correction focus"
+   },
+   {
+    "id": "R00202",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Column-name graph embeddings may serve schema linking; unclear if central"
+   },
+   {
+    "id": "R00203",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question decomposition, not linking or correction"
+   },
+   {
+    "id": "R00204",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn robustness feature augmentation"
+   },
+   {
+    "id": "R00205",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests schema mapping with SQL generation"
+   },
+   {
+    "id": "R00206",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-column alignment supervision; unclear if schema linking is central"
+   },
+   {
+    "id": "R00207",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Value extraction/incorporation; unclear if value linking is central"
+   },
+   {
+    "id": "R00208",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn robust system; no linking or correction in title"
+   },
+   {
+    "id": "R00209",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Tutorial"
+   },
+   {
+    "id": "R00210",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LLM comparison, no linking or correction"
+   },
+   {
+    "id": "R00211",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn case-based reasoning; no linking or correction"
+   },
+   {
+    "id": "R00212",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn answerability classification"
+   },
+   {
+    "id": "R00213",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question rephrasing for untranslatable input"
+   },
+   {
+    "id": "R00214",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Value extraction/incorporation; unclear if value linking is central"
+   },
+   {
+    "id": "R00215",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question intention classification benchmark"
+   },
+   {
+    "id": "R00216",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00217",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Dataset review"
+   },
+   {
+    "id": "R00218",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn architecture, no linking or correction focus"
+   },
+   {
+    "id": "R00219",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn translated dataset, not about linking"
+   },
+   {
+    "id": "R00220",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn NLQ study for benchmarks"
+   },
+   {
+    "id": "R00221",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Visually grounded single-turn benchmark; no linking or correction"
+   },
+   {
+    "id": "R00222",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Prompt design strategies, single-turn"
+   },
+   {
+    "id": "R00223",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Error feedback for data synthesis, not SQL correction"
+   },
+   {
+    "id": "R00224",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive review"
+   },
+   {
+    "id": "R00225",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Model comparison, no linking or correction in title"
+   },
+   {
+    "id": "R00226",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn decoding method"
+   },
+   {
+    "id": "R00227",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn EMR dataset and translate-edit model"
+   },
+   {
+    "id": "R00228",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation dataset"
+   },
+   {
+    "id": "R00229",
+    "d": "include",
+    "code": "INC",
+    "why": "Generate-then-rank candidate selection central; Spider evaluation"
+   },
+   {
+    "id": "R00230",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Review"
+   },
+   {
+    "id": "R00231",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Interactive user feedback learning; unclear if dependent successive questions"
+   },
+   {
+    "id": "R00232",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Generalization tokenization techniques, single-turn"
+   },
+   {
+    "id": "R00233",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Speech-driven single-turn; no linking or correction in title"
+   },
+   {
+    "id": "R00234",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00235",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Recursive nested SQL decoding, single-turn"
+   },
+   {
+    "id": "R00236",
+    "d": "include",
+    "code": "INC",
+    "why": "Re-ranking candidate SQL central; Spider evaluation"
+   },
+   {
+    "id": "R00237",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00238",
+    "d": "include",
+    "code": "INC",
+    "why": "Column prediction via co-occurrence is central; Spider"
+   },
+   {
+    "id": "R00239",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Header-column alignment pretraining; unclear if schema linking central"
+   },
+   {
+    "id": "R00240",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Vietnamese PLM comparison, single-turn"
+   },
+   {
+    "id": "R00241",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Decomposed two-stage; unclear if schema linking is the first stage"
+   },
+   {
+    "id": "R00242",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Nested query system, single-turn"
+   },
+   {
+    "id": "R00243",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn medical model, no linking or correction"
+   },
+   {
+    "id": "R00244",
+    "d": "include",
+    "code": "INC",
+    "why": "Iterative self-evaluation feedback loop; Spider benchmarks"
+   },
+   {
+    "id": "R00245",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn NLIDB system description"
+   },
+   {
+    "id": "R00246",
+    "d": "exclude",
+    "code": "E5",
+    "why": "SPARQL knowledge graph QA benchmark"
+   },
+   {
+    "id": "R00247",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn application system description"
+   },
+   {
+    "id": "R00248",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Reinforcement-learning fine-tuning, single-turn"
+   },
+   {
+    "id": "R00249",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Domain fine-tuning pilot, single-turn"
+   },
+   {
+    "id": "R00250",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Domain fine-tuning pilot, single-turn"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/A_b006.json",
+  "label": "A:b006@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00251",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Transformer on WikiSQL, no linking or correction focus"
+   },
+   {
+    "id": "R00252",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Title only; data security focus, no multi-turn or linking/correction"
+   },
+   {
+    "id": "R00253",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Conversational SQL chatbot; unclear if dependent successive questions"
+   },
+   {
+    "id": "R00254",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity/unanswerable detection, not linking or self-correction"
+   },
+   {
+    "id": "R00255",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Conference abstract type; also single-turn benchmark"
+   },
+   {
+    "id": "R00256",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn simpler model, no linking/correction stated"
+   },
+   {
+    "id": "R00257",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Loss function for training, single-turn"
+   },
+   {
+    "id": "R00258",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Portuguese single-turn model, no linking/correction in title"
+   },
+   {
+    "id": "R00259",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Russian dataset"
+   },
+   {
+    "id": "R00260",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Multilingual single-turn pipeline; linking not central"
+   },
+   {
+    "id": "R00261",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn auxiliary task for generalization"
+   },
+   {
+    "id": "R00262",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema encoder architecture on WikiSQL"
+   },
+   {
+    "id": "R00263",
+    "d": "include",
+    "code": "INC",
+    "why": "Column-wise ranking (column selection) central, WikiSQL"
+   },
+   {
+    "id": "R00264",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Fuses schema and table content; unclear if value linking central"
+   },
+   {
+    "id": "R00265",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn domain dataset"
+   },
+   {
+    "id": "R00266",
+    "d": "include",
+    "code": "INC",
+    "why": "Global reasoning for selecting database constants, Spider"
+   },
+   {
+    "id": "R00267",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema filter and candidate selection as contributions, BIRD/Spider"
+   },
+   {
+    "id": "R00268",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn benchmark about database values"
+   },
+   {
+    "id": "R00269",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema selector, iterative refinement and unit testing agents"
+   },
+   {
+    "id": "R00270",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset"
+   },
+   {
+    "id": "R00271",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset, no linking/correction"
+   },
+   {
+    "id": "R00272",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Session-level text-to-SQL benchmark, likely multi-turn; no abstract"
+   },
+   {
+    "id": "R00273",
+    "d": "include",
+    "code": "INC",
+    "why": "Text-table alignment grounding of columns and values"
+   },
+   {
+    "id": "R00274",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Title names schema linking as focus; no abstract"
+   },
+   {
+    "id": "R00275",
+    "d": "include",
+    "code": "INC",
+    "why": "Semantics Correction post-processing as stated contribution, Spider"
+   },
+   {
+    "id": "R00276",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Title only; no sign of multi-turn, linking or correction"
+   },
+   {
+    "id": "R00277",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity benchmark"
+   },
+   {
+    "id": "R00278",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn reliability/abstention benchmark"
+   },
+   {
+    "id": "R00279",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn unanswerable-question benchmark"
+   },
+   {
+    "id": "R00280",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn training dataset"
+   },
+   {
+    "id": "R00281",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "MCTS with reward-based candidate evaluation; centrality unclear"
+   },
+   {
+    "id": "R00282",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise workflow benchmark"
+   },
+   {
+    "id": "R00283",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of LLM Text-to-SQL"
+   },
+   {
+    "id": "R00284",
+    "d": "include",
+    "code": "INC",
+    "why": "Selector sub-database and Refiner agents for erroneous SQL"
+   },
+   {
+    "id": "R00285",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn dataset from Stack Exchange"
+   },
+   {
+    "id": "R00286",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn CRUD Chinese dataset"
+   },
+   {
+    "id": "R00287",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Metadata extraction, single-turn, not linking/correction"
+   },
+   {
+    "id": "R00288",
+    "d": "include",
+    "code": "INC",
+    "why": "Refiner correcting errors and candidate selection, BIRD/Spider"
+   },
+   {
+    "id": "R00289",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; LLM plus knowledge graph, relational target unclear"
+   },
+   {
+    "id": "R00290",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise benchmark"
+   },
+   {
+    "id": "R00291",
+    "d": "include",
+    "code": "INC",
+    "why": "Execution-driven feedback and filtering central contribution"
+   },
+   {
+    "id": "R00292",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Table content matching with question; value linking centrality unclear"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/B_b001.json",
+  "label": "B:b001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00001",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Systematic survey"
+   },
+   {
+    "id": "R00002",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; value ambiguity benchmark may involve value linking"
+   },
+   {
+    "id": "R00003",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Overview of trends, survey"
+   },
+   {
+    "id": "R00004",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00005",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title indicates multi-turn NLIDBs"
+   },
+   {
+    "id": "R00006",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00007",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; 'Prune' suggests schema pruning"
+   },
+   {
+    "id": "R00008",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LoRA fine-tuning, no linking/correction focus"
+   },
+   {
+    "id": "R00009",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn fine-tuning method, no linking/correction"
+   },
+   {
+    "id": "R00010",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn CoT supervision study"
+   },
+   {
+    "id": "R00011",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn access-minimality audit, no linking/correction"
+   },
+   {
+    "id": "R00012",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph encoder model; no linking stated"
+   },
+   {
+    "id": "R00013",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn compositional generalization dataset"
+   },
+   {
+    "id": "R00014",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema graph encoder, not linking/correction"
+   },
+   {
+    "id": "R00015",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn robustness dataset Spider-DK"
+   },
+   {
+    "id": "R00016",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph projection parser, no linking stated"
+   },
+   {
+    "id": "R00017",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph-to-AST framework"
+   },
+   {
+    "id": "R00018",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Codex evaluation"
+   },
+   {
+    "id": "R00019",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn zero-shot prompting method"
+   },
+   {
+    "id": "R00020",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt construction study"
+   },
+   {
+    "id": "R00021",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn spatial prompt method and dataset"
+   },
+   {
+    "id": "R00022",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Systematic review"
+   },
+   {
+    "id": "R00023",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; multilingual single-turn benchmark"
+   },
+   {
+    "id": "R00024",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; key column selection and value constraints central, TableQA"
+   },
+   {
+    "id": "R00025",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema evolution robustness benchmark"
+   },
+   {
+    "id": "R00026",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn template constrained decoding"
+   },
+   {
+    "id": "R00027",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Self-evaluation/verbal RL self-improvement; unclear if correction central"
+   },
+   {
+    "id": "R00028",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; generic architecture chapter, no focus"
+   },
+   {
+    "id": "R00029",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; generic systems chapter, no focus"
+   },
+   {
+    "id": "R00030",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn few-shot demonstration expansion"
+   },
+   {
+    "id": "R00031",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt and example selection"
+   },
+   {
+    "id": "R00032",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; two-step retrieval may be schema retrieval"
+   },
+   {
+    "id": "R00033",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; RAG framework application, no linking focus"
+   },
+   {
+    "id": "R00034",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset"
+   },
+   {
+    "id": "R00035",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00036",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00037",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Pretraining for tabular data, not linking/correction"
+   },
+   {
+    "id": "R00038",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn decoding method"
+   },
+   {
+    "id": "R00039",
+    "d": "exclude",
+    "code": "E5",
+    "why": "SQL-to-text generation, not Text-to-SQL"
+   },
+   {
+    "id": "R00040",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn sketch filling and augmentation"
+   },
+   {
+    "id": "R00041",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL corpus generation, not linking/correction"
+   },
+   {
+    "id": "R00042",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema/value linking and schema pruning; centrality unclear"
+   },
+   {
+    "id": "R00043",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; global reasoning over schema may be linking"
+   },
+   {
+    "id": "R00044",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn decoding method"
+   },
+   {
+    "id": "R00045",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn synthetic training data pipeline"
+   },
+   {
+    "id": "R00046",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of database optimization"
+   },
+   {
+    "id": "R00047",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn continual learning method"
+   },
+   {
+    "id": "R00048",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; multi-level retrieval may be schema retrieval"
+   },
+   {
+    "id": "R00049",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn syntax-injected graph encoder"
+   },
+   {
+    "id": "R00050",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Latent grounding of tokens to concepts; Text-to-SQL case study"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/B_b002.json",
+  "label": "B:b002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00051",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn uncertainty constraints, no linking/correction focus"
+   },
+   {
+    "id": "R00052",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph-aware architecture, linking not stated central"
+   },
+   {
+    "id": "R00053",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests dynamic revision chain (self-correction)"
+   },
+   {
+    "id": "R00054",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Prompting/skeleton retrieval title, no linking or correction"
+   },
+   {
+    "id": "R00055",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LLaMA application, no linking/correction in title"
+   },
+   {
+    "id": "R00056",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn neural model title, no linking/correction"
+   },
+   {
+    "id": "R00057",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn sketch slot filling for complex SQL"
+   },
+   {
+    "id": "R00058",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn generalization evaluation setup, not linking/correction"
+   },
+   {
+    "id": "R00059",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data augmentation"
+   },
+   {
+    "id": "R00060",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn robustness benchmark, not linking/correction"
+   },
+   {
+    "id": "R00061",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn intermediate representations for generalization"
+   },
+   {
+    "id": "R00062",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Pre-training on question-schema interaction; schema grounding possibly central"
+   },
+   {
+    "id": "R00063",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LLM robustness investigation"
+   },
+   {
+    "id": "R00064",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn Osquery system with table retrieval; centrality unclear"
+   },
+   {
+    "id": "R00065",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Few-shot example selection, single-turn, no linking/correction"
+   },
+   {
+    "id": "R00066",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Unified multi-task structured knowledge grounding, not linking/correction"
+   },
+   {
+    "id": "R00067",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data synthesis"
+   },
+   {
+    "id": "R00068",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation framework, no linking/correction focus"
+   },
+   {
+    "id": "R00069",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema alignment and execution-based selection among several components"
+   },
+   {
+    "id": "R00070",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn chain-of-thought prompting"
+   },
+   {
+    "id": "R00071",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn fine-tuned T5 for healthcare"
+   },
+   {
+    "id": "R00072",
+    "d": "include",
+    "code": "INC",
+    "why": "Execution-based consistency selection of SQL candidates is central"
+   },
+   {
+    "id": "R00073",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Retrieval/reasoning framework title, no linking/correction"
+   },
+   {
+    "id": "R00074",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Error detection for parsers, related to correction; centrality unclear"
+   },
+   {
+    "id": "R00075",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn adaptive in-context learning and example retrieval"
+   },
+   {
+    "id": "R00076",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Graph-based EMR generation, no linking/correction in title"
+   },
+   {
+    "id": "R00077",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Evaluation metric for single-turn Text-to-SQL"
+   },
+   {
+    "id": "R00078",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Application/platform description, no linking/correction"
+   },
+   {
+    "id": "R00079",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompting method for generalization"
+   },
+   {
+    "id": "R00080",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Query hardness parsing, no linking/correction"
+   },
+   {
+    "id": "R00081",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Multilingual spatial NLIDB, single-turn, no linking/correction"
+   },
+   {
+    "id": "R00082",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn multi-task T5 for O&G search"
+   },
+   {
+    "id": "R00083",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Grammar-enhanced GNN, linking not stated central"
+   },
+   {
+    "id": "R00084",
+    "d": "exclude",
+    "code": "E6",
+    "why": "New single-turn Chinese medical dataset"
+   },
+   {
+    "id": "R00085",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Fine-tuning method, single-turn"
+   },
+   {
+    "id": "R00086",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema selector and SQL refiner stated as contributions"
+   },
+   {
+    "id": "R00087",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual single-turn representation mixup"
+   },
+   {
+    "id": "R00088",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Mentions pattern linking and alignment; centrality unclear"
+   },
+   {
+    "id": "R00089",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn generator system, no linking/correction"
+   },
+   {
+    "id": "R00090",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Database selection plus critic-agent error correction among components"
+   },
+   {
+    "id": "R00091",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Skeleton decoupling, no linking/correction in title"
+   },
+   {
+    "id": "R00092",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Multi-hop relations graph attention; may concern schema linking"
+   },
+   {
+    "id": "R00093",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Zero-shot rule-based NLIDB, single-turn, no linking/correction"
+   },
+   {
+    "id": "R00094",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Prompt learning template method, single-turn"
+   },
+   {
+    "id": "R00095",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Hints for multi-table joins from query logs; join focus unclear"
+   },
+   {
+    "id": "R00096",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Parameter-efficient tuning, single-turn"
+   },
+   {
+    "id": "R00097",
+    "d": "include",
+    "code": "INC",
+    "why": "Retrieval of relevant tables and columns is the central contribution"
+   },
+   {
+    "id": "R00098",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Comparative analysis of models, no linking/correction"
+   },
+   {
+    "id": "R00099",
+    "d": "exclude",
+    "code": "E6",
+    "why": "CoT with retrieval, no linking/correction in title"
+   },
+   {
+    "id": "R00100",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; 'Logic-Linking' may refer to linking, unclear"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/B_b003.json",
+  "label": "B:b003@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00101",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Pretraining for column mention detection; unclear if schema linking is central"
+   },
+   {
+    "id": "R00102",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation metric, no linking/correction focus"
+   },
+   {
+    "id": "R00103",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn grammar-based decoding"
+   },
+   {
+    "id": "R00104",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Pretraining for column mention detection; unclear if schema linking is central"
+   },
+   {
+    "id": "R00105",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00106",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn few-shot prompt framework"
+   },
+   {
+    "id": "R00107",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn benchmark re-evaluation, no linking/correction"
+   },
+   {
+    "id": "R00108",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual single-turn in-context learning"
+   },
+   {
+    "id": "R00109",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "KB and DB parser; primitive ranker pruning, unclear schema linking centrality"
+   },
+   {
+    "id": "R00110",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data synthesis"
+   },
+   {
+    "id": "R00111",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn demonstration selection"
+   },
+   {
+    "id": "R00112",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity benchmark and decoding"
+   },
+   {
+    "id": "R00113",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn knowledge-intensive parsing, no linking focus"
+   },
+   {
+    "id": "R00114",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn retrieval augmentation of SQL structure"
+   },
+   {
+    "id": "R00115",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual meta-learning, single-turn"
+   },
+   {
+    "id": "R00116",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema subsetting/retrieval central, evaluated on Spider/BIRD-derived benchmarks"
+   },
+   {
+    "id": "R00117",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn RAG multi-agent geodatabase system"
+   },
+   {
+    "id": "R00118",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn query decomposition language"
+   },
+   {
+    "id": "R00119",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Dataset error fixing, single-turn"
+   },
+   {
+    "id": "R00120",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Backdoor security attack, single-turn"
+   },
+   {
+    "id": "R00121",
+    "d": "exclude",
+    "code": "E5",
+    "why": "MongoDB NoSQL dataset"
+   },
+   {
+    "id": "R00122",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Weak supervision training, single-turn"
+   },
+   {
+    "id": "R00123",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Generate-and-rank with join annotation extension; centrality unclear"
+   },
+   {
+    "id": "R00124",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data synthesis for adaptation"
+   },
+   {
+    "id": "R00125",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Security vulnerabilities, single-turn"
+   },
+   {
+    "id": "R00126",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Cross-lingual semantic parsing, single-turn"
+   },
+   {
+    "id": "R00127",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL injection attack, single-turn"
+   },
+   {
+    "id": "R00128",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; nested queries, no linking/correction focus"
+   },
+   {
+    "id": "R00129",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Evaluation metric, single-turn"
+   },
+   {
+    "id": "R00130",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Elasticsearch NoSQL target"
+   },
+   {
+    "id": "R00131",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Candidate generation and re-ranking; unclear if central"
+   },
+   {
+    "id": "R00132",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Annotation framework, single-turn"
+   },
+   {
+    "id": "R00133",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Inference-time adaptation, single-turn"
+   },
+   {
+    "id": "R00134",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General fine-tuned single-turn model"
+   },
+   {
+    "id": "R00135",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Federated learning for parsing, single-turn"
+   },
+   {
+    "id": "R00136",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Lighter RAT-SQL relations, no linking contribution stated"
+   },
+   {
+    "id": "R00137",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Social bias study, single-turn"
+   },
+   {
+    "id": "R00138",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn comparative application study"
+   },
+   {
+    "id": "R00139",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; metadata graph reasoning suggests schema linking"
+   },
+   {
+    "id": "R00140",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn model comparison"
+   },
+   {
+    "id": "R00141",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Model compression, single-turn"
+   },
+   {
+    "id": "R00142",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Schema generalizability test data, single-turn"
+   },
+   {
+    "id": "R00143",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; general query understanding, single-turn"
+   },
+   {
+    "id": "R00144",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Form-to-database pipeline, no linking/correction"
+   },
+   {
+    "id": "R00145",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Domain-specific data generation, single-turn"
+   },
+   {
+    "id": "R00146",
+    "d": "include",
+    "code": "INC",
+    "why": "Execution-feedback-guided query search is central contribution"
+   },
+   {
+    "id": "R00147",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; validity-constrained generation, no linking/correction"
+   },
+   {
+    "id": "R00148",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00149",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Temporal questions dataset, single-turn"
+   },
+   {
+    "id": "R00150",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data security architecture, not linking/correction"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/B_b004.json",
+  "label": "B:b004@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00151",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; generate-and-rank may mean candidate selection"
+   },
+   {
+    "id": "R00152",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Elasticsearch NoSQL queries, not relational SQL"
+   },
+   {
+    "id": "R00153",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data-security LLM approach, no linking/correction focus"
+   },
+   {
+    "id": "R00154",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; multi-table NL2SQL may involve join inference"
+   },
+   {
+    "id": "R00155",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Syntactic information and multi-task learning, single-turn"
+   },
+   {
+    "id": "R00156",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Generic neural NLIDB, title shows no linking/correction/multi-turn"
+   },
+   {
+    "id": "R00157",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; schema-question interaction graph may be schema linking"
+   },
+   {
+    "id": "R00158",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; multi-step pipeline may include linking or correction"
+   },
+   {
+    "id": "R00159",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Relation-aware question-schema modeling; unclear if linking is central"
+   },
+   {
+    "id": "R00160",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Non-English Text-to-SQL study, single-turn, no linking/correction focus"
+   },
+   {
+    "id": "R00161",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Graph pruning and semantic paths; possibly schema linking central"
+   },
+   {
+    "id": "R00162",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data synthesis and annotation strategy, single-turn"
+   },
+   {
+    "id": "R00163",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive overview of SQL generation"
+   },
+   {
+    "id": "R00164",
+    "d": "exclude",
+    "code": "E6",
+    "why": "In-context learning and preference optimization, single-turn"
+   },
+   {
+    "id": "R00165",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Few-shot domain NL2SQL application, no linking/correction"
+   },
+   {
+    "id": "R00166",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema-aware prompting with schema extraction; centrality unclear"
+   },
+   {
+    "id": "R00167",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Automated AI-scientist research framework, not linking/correction"
+   },
+   {
+    "id": "R00168",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Small LM in-context learning, single-turn"
+   },
+   {
+    "id": "R00169",
+    "d": "exclude",
+    "code": "E6",
+    "why": "GraphRAG document platform; Text-to-SQL peripheral"
+   },
+   {
+    "id": "R00170",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive survey/report of NL2SQL systems"
+   },
+   {
+    "id": "R00171",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL evaluation framework, single-turn, not linking/correction"
+   },
+   {
+    "id": "R00172",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; feedback-driven query rewriting suggests self-correction"
+   },
+   {
+    "id": "R00173",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Structured reasoning distillation for compact LLMs, single-turn"
+   },
+   {
+    "id": "R00174",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Up to three exchanges per interaction; multi-turn unclear"
+   },
+   {
+    "id": "R00175",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Controlled DSL security control, single-turn"
+   },
+   {
+    "id": "R00176",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; clustering test-time scaling may be candidate selection"
+   },
+   {
+    "id": "R00177",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Dashboard generation application, Text-to-SQL incidental"
+   },
+   {
+    "id": "R00178",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Efficiency benchmark, single-turn, not linking/correction"
+   },
+   {
+    "id": "R00179",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; table-level retrieval suggests schema selection"
+   },
+   {
+    "id": "R00180",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Performance evaluation on time-series data, no linking/correction"
+   },
+   {
+    "id": "R00181",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; execution-based verification may be central"
+   },
+   {
+    "id": "R00182",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset, not about linking/correction"
+   },
+   {
+    "id": "R00183",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Hybrid decoding method, single-turn"
+   },
+   {
+    "id": "R00184",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Turkish dataset; Chain-of-Feedback applied, centrality unclear"
+   },
+   {
+    "id": "R00185",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Multi-step generator including question-schema relation learning; centrality unclear"
+   },
+   {
+    "id": "R00186",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Dissertation"
+   },
+   {
+    "id": "R00187",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of deep learning text-to-SQL"
+   },
+   {
+    "id": "R00188",
+    "d": "exclude",
+    "code": "E6",
+    "why": "WikiSQL BERT model, single-turn, no linking focus"
+   },
+   {
+    "id": "R00189",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Meta-learning for domain generalization, single-turn"
+   },
+   {
+    "id": "R00190",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Generates SPARQL queries via intermediate representations"
+   },
+   {
+    "id": "R00191",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Exemplar selection prompting, single-turn"
+   },
+   {
+    "id": "R00192",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL equivalence checking, not Text-to-SQL technique"
+   },
+   {
+    "id": "R00193",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Generic SQL generation pipeline, no linking/correction indicated"
+   },
+   {
+    "id": "R00194",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Enterprise data mart NL2SQL system, no linking/correction indicated"
+   },
+   {
+    "id": "R00195",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Diagnostic test suite, single-turn, not linking/correction"
+   },
+   {
+    "id": "R00196",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema relation graph with pruning; linking centrality unclear"
+   },
+   {
+    "id": "R00197",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema-question linking via relation-aware transformer; centrality unclear"
+   },
+   {
+    "id": "R00198",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Open-domain QA hybrid text/table, not linking/correction"
+   },
+   {
+    "id": "R00199",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Generates SPARQL queries via intermediate representations"
+   },
+   {
+    "id": "R00200",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Attention-based column filtering resembles column selection; centrality unclear"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/B_b005.json",
+  "label": "B:b005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00201",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn case study; no linking or correction contribution"
+   },
+   {
+    "id": "R00202",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Graph of column names for schema representation; linking role unclear"
+   },
+   {
+    "id": "R00203",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question decomposition, not linking or correction"
+   },
+   {
+    "id": "R00204",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Feature augmentation for robustness; single-turn, no linking or correction"
+   },
+   {
+    "id": "R00205",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests schema mapping with SQL generation"
+   },
+   {
+    "id": "R00206",
+    "d": "include",
+    "code": "INC",
+    "why": "Lexical alignments and column reference disambiguation central; single-turn linking"
+   },
+   {
+    "id": "R00207",
+    "d": "include",
+    "code": "INC",
+    "why": "Value extraction and candidate linking central to Spider system"
+   },
+   {
+    "id": "R00208",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title shows general robust system, no linking or correction"
+   },
+   {
+    "id": "R00209",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Tutorial"
+   },
+   {
+    "id": "R00210",
+    "d": "exclude",
+    "code": "E6",
+    "why": "LLM comparison; no linking or correction focus"
+   },
+   {
+    "id": "R00211",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; case-based reasoning, single-turn, no linking or correction"
+   },
+   {
+    "id": "R00212",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Answerability classification, not linking or correction"
+   },
+   {
+    "id": "R00213",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question rephrasing system; no linking or correction"
+   },
+   {
+    "id": "R00214",
+    "d": "include",
+    "code": "INC",
+    "why": "Value extraction and linking central; Spider execution accuracy"
+   },
+   {
+    "id": "R00215",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Question intention classification benchmark, single-turn"
+   },
+   {
+    "id": "R00216",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00217",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Review of datasets"
+   },
+   {
+    "id": "R00218",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Relation-aware transformer on RAT-SQL; schema linking role unclear"
+   },
+   {
+    "id": "R00219",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Translated single-turn dataset, not about linking or correction"
+   },
+   {
+    "id": "R00220",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn NLQ study for benchmark realism"
+   },
+   {
+    "id": "R00221",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; visually-grounded benchmark, no linking or correction focus"
+   },
+   {
+    "id": "R00222",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Prompt design strategies, single-turn"
+   },
+   {
+    "id": "R00223",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Error feedback for data synthesis, not SQL correction"
+   },
+   {
+    "id": "R00224",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive review"
+   },
+   {
+    "id": "R00225",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; model comparison, no linking or correction focus"
+   },
+   {
+    "id": "R00226",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; decoding method, no linking or correction"
+   },
+   {
+    "id": "R00227",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Domain dataset and translate-edit model, single-turn"
+   },
+   {
+    "id": "R00228",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation dataset, not linking or correction"
+   },
+   {
+    "id": "R00229",
+    "d": "include",
+    "code": "INC",
+    "why": "Generate-then-rank candidate selection central; Spider evaluation"
+   },
+   {
+    "id": "R00230",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Review"
+   },
+   {
+    "id": "R00231",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn parser learning from user demonstrations"
+   },
+   {
+    "id": "R00232",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Tokenization and boundary marking for generalization"
+   },
+   {
+    "id": "R00233",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; speech-to-SQL, no linking or correction"
+   },
+   {
+    "id": "R00234",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00235",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Recursive nested query decomposition, not linking or correction"
+   },
+   {
+    "id": "R00236",
+    "d": "include",
+    "code": "INC",
+    "why": "Generate-and-rerank candidate selection central; Spider results"
+   },
+   {
+    "id": "R00237",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey"
+   },
+   {
+    "id": "R00238",
+    "d": "include",
+    "code": "INC",
+    "why": "Column prediction via occurrence graph; column selection central, Spider"
+   },
+   {
+    "id": "R00239",
+    "d": "include",
+    "code": "INC",
+    "why": "Header-column alignment training central; single-turn linking"
+   },
+   {
+    "id": "R00240",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Vietnamese PLM comparison and learning method, no linking focus"
+   },
+   {
+    "id": "R00241",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Two-stage decomposition possibly schema linking; not stated in abstract"
+   },
+   {
+    "id": "R00242",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Nested BI query system, not linking or correction"
+   },
+   {
+    "id": "R00243",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Medical text-to-SQL model, no linking or correction"
+   },
+   {
+    "id": "R00244",
+    "d": "include",
+    "code": "INC",
+    "why": "Iterative self-evaluation feedback loop on Spider and others"
+   },
+   {
+    "id": "R00245",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Generic NLIDB system, single-turn, no linking or correction"
+   },
+   {
+    "id": "R00246",
+    "d": "exclude",
+    "code": "E5",
+    "why": "SPARQL knowledge graph QA benchmark"
+   },
+   {
+    "id": "R00247",
+    "d": "exclude",
+    "code": "E6",
+    "why": "System description for data analysis; no linking or correction"
+   },
+   {
+    "id": "R00248",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Reinforcement learning fine-tuning, not linking or correction"
+   },
+   {
+    "id": "R00249",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Fine-tuning for business QA, single-turn"
+   },
+   {
+    "id": "R00250",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Paratext record without title"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_dec/B_b006.json",
+  "label": "B:b006@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00251",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General single-turn Transformer seq2seq, no linking/correction focus"
+   },
+   {
+    "id": "R00252",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title suggests security, not linking, correction or multi-turn"
+   },
+   {
+    "id": "R00253",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Conversational SQL chatbot; unclear whether successive dependent questions are handled"
+   },
+   {
+    "id": "R00254",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity/unanswerable question detection, not linking or correction"
+   },
+   {
+    "id": "R00255",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Conference abstract only; also single-turn benchmark study"
+   },
+   {
+    "id": "R00256",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn simpler model; no linking/correction contribution evident"
+   },
+   {
+    "id": "R00257",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Custom loss function, single-turn, no linking/correction"
+   },
+   {
+    "id": "R00258",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Portuguese single-turn model adaptation, no linking/correction focus"
+   },
+   {
+    "id": "R00259",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Russian single-turn dataset, not about linking or correction"
+   },
+   {
+    "id": "R00260",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Multilingual single-turn pipeline; linking/voting only components"
+   },
+   {
+    "id": "R00261",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn auxiliary task for generalization"
+   },
+   {
+    "id": "R00262",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn architecture on WikiSQL, schema representation only"
+   },
+   {
+    "id": "R00263",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Column-wise ranking may be column selection as central contribution"
+   },
+   {
+    "id": "R00264",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn single-table table-content fusion, not linking-centered"
+   },
+   {
+    "id": "R00265",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn domain dataset, not about linking or correction"
+   },
+   {
+    "id": "R00266",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; global schema constant selection/alignment central, Spider evaluation"
+   },
+   {
+    "id": "R00267",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema filter and candidate selection among several components"
+   },
+   {
+    "id": "R00268",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn benchmark about database values, not linking/correction"
+   },
+   {
+    "id": "R00269",
+    "d": "include",
+    "code": "INC",
+    "why": "Schema selector, iterative refinement and unit-test validation; BIRD evaluation"
+   },
+   {
+    "id": "R00270",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset, not linking/correction"
+   },
+   {
+    "id": "R00271",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; single-turn Chinese dataset title"
+   },
+   {
+    "id": "R00272",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; session-level benchmark with EditSQL/IGSQL suggests multi-turn"
+   },
+   {
+    "id": "R00273",
+    "d": "include",
+    "code": "INC",
+    "why": "Column/value grounding for text-table alignment is central; evaluated on Spider"
+   },
+   {
+    "id": "R00274",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title names schema linking as contribution"
+   },
+   {
+    "id": "R00275",
+    "d": "include",
+    "code": "INC",
+    "why": "Semantics Correction post-processing is stated contribution; Spider evaluation"
+   },
+   {
+    "id": "R00276",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; position-style title, no linking/correction/multi-turn signal"
+   },
+   {
+    "id": "R00277",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity benchmark"
+   },
+   {
+    "id": "R00278",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn reliability benchmark with abstention"
+   },
+   {
+    "id": "R00279",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; single-turn unanswerable-question benchmark"
+   },
+   {
+    "id": "R00280",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; single-turn training dataset"
+   },
+   {
+    "id": "R00281",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn MCTS reasoning; not linking/correction central"
+   },
+   {
+    "id": "R00282",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise workflow benchmark"
+   },
+   {
+    "id": "R00283",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of LLM-based Text-to-SQL"
+   },
+   {
+    "id": "R00284",
+    "d": "include",
+    "code": "INC",
+    "why": "Multi-agent with schema selector and SQL refiner agents; BIRD evaluation"
+   },
+   {
+    "id": "R00285",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn dataset from Stack Exchange"
+   },
+   {
+    "id": "R00286",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese CRUD dataset"
+   },
+   {
+    "id": "R00287",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Metadata extraction, single-turn, not linking/correction"
+   },
+   {
+    "id": "R00288",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Ensemble with schema representation, refiner and selection; centrality unclear"
+   },
+   {
+    "id": "R00289",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; LLM plus knowledge graph might support schema linking"
+   },
+   {
+    "id": "R00290",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise benchmark"
+   },
+   {
+    "id": "R00291",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Execution-driven bootstrapping for dialects; unclear if execution feedback central"
+   },
+   {
+    "id": "R00292",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Matches table content and headers to question words; possible value linking"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_adj_dec/ADJ_b001.json",
+  "label": "ADJ:b001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00012",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title names graph-encoder model, no multi-turn, linking or correction focus"
+   },
+   {
+    "id": "R00019",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn Spider; unclear if Consistent Output is a central candidate-selection contribution"
+   },
+   {
+    "id": "R00049",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn Spider; syntax injected into question-schema interaction graph, linking possibly central"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_adj_dec/ADJ_b002.json",
+  "label": "ADJ:b002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00092",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; title suggests graph-based question-schema relation modelling, possibly linking or multi-hop joins"
+   },
+   {
+    "id": "R00095",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn; log-derived hints target multi-table joins, unclear if join inference is central"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_adj_dec/ADJ_b003.json",
+  "label": "ADJ:b003@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00101",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn pretraining aimed at column-mention detection and value linking; centrality unclear"
+   },
+   {
+    "id": "R00104",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn pretraining aimed at column-mention detection and value linking; centrality unclear"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_adj_dec/ADJ_b004.json",
+  "label": "ADJ:b004@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00158",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title gives a general multi-step pipeline, no linking/correction/multi-turn"
+   },
+   {
+    "id": "R00166",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn; contribution is automatic schema extraction plus prompting, not linking/correction"
+   },
+   {
+    "id": "R00184",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn dataset; unclear if Chain-of-Feedback refinement is a central contribution"
+   },
+   {
+    "id": "R00185",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Learning question-schema relations for column prediction is a listed step; unclear if central"
+   },
+   {
+    "id": "R00196",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema graph encoding with schema graph-pruning task stated as a contribution"
+   },
+   {
+    "id": "R00197",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Question-schema linking for unseen schemas appears central; evaluated on Spider"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_adj_dec/ADJ_b005.json",
+  "label": "ADJ:b005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00218",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn general transformer encoder; schema linking not stated as contribution"
+   },
+   {
+    "id": "R00231",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-question user demonstrations for parser training; no multi-turn dialogue or self-correction"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_adj_dec/ADJ_b006.json",
+  "label": "ADJ:b006@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00264",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn; fusing table content with schema plausibly central value/schema linking"
+   },
+   {
+    "id": "R00281",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn MCTS; reward-based candidate SQL evaluation may be a central contribution"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_qc_dec/QC_q001.json",
+  "label": "QC:q001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00011",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn audit of access minimality; linking/correction not a stated contribution"
+   },
+   {
+    "id": "R00037",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General table pretraining model; single-turn, no linking/correction contribution"
+   },
+   {
+    "id": "R00046",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of learned database optimization techniques"
+   },
+   {
+    "id": "R00065",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Few-shot example selection method; single-turn, no linking/correction focus"
+   },
+   {
+    "id": "R00102",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn evaluation metric (test suite accuracy), no linking/correction contribution"
+   },
+   {
+    "id": "R00107",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Re-evaluation of single-turn benchmarks; no linking/correction contribution"
+   },
+   {
+    "id": "R00114",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Retrieval-augmented fine-tuning framework; single-turn, no linking/correction focus"
+   },
+   {
+    "id": "R00122",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Weak supervision via question decomposition; single-turn, no linking/correction contribution"
+   },
+   {
+    "id": "R00125",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Security vulnerabilities of Text-to-SQL; no linking/correction contribution"
+   },
+   {
+    "id": "R00132",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Annotation framework for non-programmers; single-turn, no linking/correction contribution"
+   },
+   {
+    "id": "R00136",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Reduces RAT-SQL schema-question relations; schema linking possibly central"
+   },
+   {
+    "id": "R00169",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General GenAI document platform; text-to-SQL only a component"
+   },
+   {
+    "id": "R00170",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive overview report of NL2SQL systems"
+   },
+   {
+    "id": "R00186",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Dissertation"
+   },
+   {
+    "id": "R00189",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Meta-learning for domain generalization; single-turn, no linking/correction"
+   },
+   {
+    "id": "R00192",
+    "d": "exclude",
+    "code": "E6",
+    "why": "LLMs judging SQL equivalence; not linking or self-correction contribution"
+   },
+   {
+    "id": "R00204",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Feature augmentation for robustness; single-turn, no linking/correction"
+   },
+   {
+    "id": "R00224",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Literature review of LLM-based Text-to-SQL"
+   },
+   {
+    "id": "R00228",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Title: single-turn evaluation benchmark, no linking/correction focus"
+   },
+   {
+    "id": "R00242",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Ontology-based nested query NLIDB; single-turn, no linking/correction contribution"
+   },
+   {
+    "id": "R00243",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Medical BERT-grammar decoder model; single-turn, no linking/correction focus"
+   },
+   {
+    "id": "R00247",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Exploratory data analysis system description; no multi-turn dialogue stated"
+   },
+   {
+    "id": "R00255",
+    "d": "exclude",
+    "code": "E3",
+    "why": "Conference abstract only"
+   },
+   {
+    "id": "R00260",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema/value grounding and execution voting/repair; unclear if central contribution"
+   },
+   {
+    "id": "R00290",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise benchmark; no linking/correction contribution"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_qc_dec/QC_q002.json",
+  "label": "QC:q002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00001",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Systematic survey of LLM-based Text-to-SQL"
+   },
+   {
+    "id": "R00003",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Title indicates overview of recent trends"
+   },
+   {
+    "id": "R00004",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of Text-to-SQL in LLM era"
+   },
+   {
+    "id": "R00006",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of LLM-based Text-to-SQL methods"
+   },
+   {
+    "id": "R00008",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn LoRA fine-tuning on Spider, no linking/correction contribution"
+   },
+   {
+    "id": "R00009",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title on reasoning fine-tuning, no linking/correction"
+   },
+   {
+    "id": "R00010",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title on chain-of-thought supervision only"
+   },
+   {
+    "id": "R00012",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "No abstract; relation-graph encoder may centre on question-schema linking"
+   },
+   {
+    "id": "R00015",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn domain-knowledge robustness dataset, not linking/correction"
+   },
+   {
+    "id": "R00017",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn graph encoder/AST decoder framework, no stated linking focus"
+   },
+   {
+    "id": "R00018",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Codex capability evaluation"
+   },
+   {
+    "id": "R00020",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt construction study"
+   },
+   {
+    "id": "R00022",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Systematic review of NL interfaces to databases"
+   },
+   {
+    "id": "R00023",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; multilingual benchmarking, no multi-turn/linking/correction in title"
+   },
+   {
+    "id": "R00025",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema-evolution robustness benchmark, not linking/correction"
+   },
+   {
+    "id": "R00026",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn template-constrained decoding"
+   },
+   {
+    "id": "R00028",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; generic chapter title without core focus"
+   },
+   {
+    "id": "R00029",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; generic chapter title without core focus"
+   },
+   {
+    "id": "R00031",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn adaptive prompting and example selection"
+   },
+   {
+    "id": "R00033",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; domain RAG NL2SQL application, no core focus in title"
+   },
+   {
+    "id": "R00035",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of Text-to-SQL advances"
+   },
+   {
+    "id": "R00036",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of deep learning Text-to-SQL models"
+   },
+   {
+    "id": "R00038",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn bottom-up decoding method"
+   },
+   {
+    "id": "R00039",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Generates text from SQL, not Text-to-SQL"
+   },
+   {
+    "id": "R00040",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Marks schema/content entities in question; unclear if linking is central"
+   },
+   {
+    "id": "R00041",
+    "d": "exclude",
+    "code": "E6",
+    "why": "SQL corpus generation framework, single-turn data synthesis"
+   },
+   {
+    "id": "R00044",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn bottom-up decoding method"
+   },
+   {
+    "id": "R00045",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Synthetic training data pipeline, single-turn"
+   },
+   {
+    "id": "R00047",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Semi-supervised continual learning, single-turn"
+   },
+   {
+    "id": "R00051",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Uncertainty constraints for parser robustness, single-turn"
+   },
+   {
+    "id": "R00054",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; prompting with skeleton retrieval, single-turn"
+   },
+   {
+    "id": "R00055",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; general LLaMA NL2SQL with metadata"
+   },
+   {
+    "id": "R00057",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn sketch-based slot filling"
+   },
+   {
+    "id": "R00058",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cross-database generalization evaluation"
+   },
+   {
+    "id": "R00059",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data augmentation via SQL-to-question generation"
+   },
+   {
+    "id": "R00063",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; LLM robustness investigation, single-turn"
+   },
+   {
+    "id": "R00066",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Multi-task structured knowledge grounding, no multi-turn/linking focus stated"
+   },
+   {
+    "id": "R00067",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data synthesis for semantic parsing, single-turn"
+   },
+   {
+    "id": "R00071",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn T5 fine-tuning for medical Text-to-SQL"
+   },
+   {
+    "id": "R00073",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; retrieval-augmented prompting, single-turn"
+   },
+   {
+    "id": "R00075",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn difficulty-aware in-context learning with example retrieval"
+   },
+   {
+    "id": "R00077",
+    "d": "exclude",
+    "code": "E6",
+    "why": "New single-turn evaluation metric"
+   },
+   {
+    "id": "R00078",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Clinical database deployment and LLM application description"
+   },
+   {
+    "id": "R00079",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn few-shot prompt design"
+   },
+   {
+    "id": "R00080",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; query hardness decoupling, single-turn"
+   },
+   {
+    "id": "R00081",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; multilingual spatial NLIDB, no core focus in title"
+   },
+   {
+    "id": "R00082",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Database-aware value disambiguation component; 'contextual' search unclear"
+   },
+   {
+    "id": "R00083",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn grammatical graph encoder"
+   },
+   {
+    "id": "R00084",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cross-schema Chinese medical dataset"
+   },
+   {
+    "id": "R00085",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; two-stage fine-tuning, single-turn"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_qc_dec/QC_q003.json",
+  "label": "QC:q003@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00087",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cross-lingual parsing via representation mixup; no linking/correction"
+   },
+   {
+    "id": "R00089",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn general Seq2Seq/LLM Text-to-SQL system"
+   },
+   {
+    "id": "R00091",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals skeleton decoupling, not linking/correction"
+   },
+   {
+    "id": "R00093",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn zero-shot rule/embedding NLIDB; no central linking/correction"
+   },
+   {
+    "id": "R00094",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt-learning template method"
+   },
+   {
+    "id": "R00096",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn parameter-efficient fine-tuning method"
+   },
+   {
+    "id": "R00099",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals CoT with RAG, not linking/correction"
+   },
+   {
+    "id": "R00103",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn grammar-based decoding"
+   },
+   {
+    "id": "R00105",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of deep learning text-to-SQL approaches"
+   },
+   {
+    "id": "R00106",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn few-shot prompt learning framework"
+   },
+   {
+    "id": "R00108",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cross-lingual exemplar retrieval for in-context learning"
+   },
+   {
+    "id": "R00110",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Title signals single-turn data synthesis; no abstract text"
+   },
+   {
+    "id": "R00111",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn demonstration selection framework"
+   },
+   {
+    "id": "R00112",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Schema-name and join-path ambiguity; candidate SQL generation possibly central"
+   },
+   {
+    "id": "R00115",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cross-lingual meta-learning parser"
+   },
+   {
+    "id": "R00117",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn geospatial RAG multi-agent application"
+   },
+   {
+    "id": "R00118",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn query decomposition via QPL"
+   },
+   {
+    "id": "R00119",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Execution-consistency validation and fixing central; unclear if applies to generation"
+   },
+   {
+    "id": "R00120",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn backdoor/SQL injection security study"
+   },
+   {
+    "id": "R00124",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data synthesis for cross-database adaptation"
+   },
+   {
+    "id": "R00126",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cross-lingual parsing via optimal transport"
+   },
+   {
+    "id": "R00127",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn SQL injection backdoor attack study"
+   },
+   {
+    "id": "R00128",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals nested-query generation only"
+   },
+   {
+    "id": "R00130",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Elasticsearch NoSQL query generation, not relational SQL"
+   },
+   {
+    "id": "R00133",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn inference-time case-based adaptation"
+   },
+   {
+    "id": "R00134",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn fine-tuned small LLM with prompting"
+   },
+   {
+    "id": "R00137",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn social bias benchmark"
+   },
+   {
+    "id": "R00138",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn comparative assessment in software engineering domain"
+   },
+   {
+    "id": "R00141",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn model compression study"
+   },
+   {
+    "id": "R00142",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn schema generalization data generation; linking not contribution"
+   },
+   {
+    "id": "R00143",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Title signals fine-grained query understanding; no linking/correction stated"
+   },
+   {
+    "id": "R00145",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn domain-specific dataset generation and fine-tuning"
+   },
+   {
+    "id": "R00147",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals valid-generation decoding, not linking/correction"
+   },
+   {
+    "id": "R00148",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of NL2SQL data"
+   },
+   {
+    "id": "R00149",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn temporal question dataset"
+   },
+   {
+    "id": "R00150",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Data security framework; text-to-SQL only a component"
+   },
+   {
+    "id": "R00153",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn data-secure LLM NLIDB system"
+   },
+   {
+    "id": "R00155",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals syntax and multi-task learning"
+   },
+   {
+    "id": "R00156",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title gives no multi-turn/linking/correction signal"
+   },
+   {
+    "id": "R00162",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn active data synthesis and annotation"
+   },
+   {
+    "id": "R00163",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Comprehensive overview of SQL generation schemes"
+   },
+   {
+    "id": "R00164",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals in-context learning and preference optimization"
+   },
+   {
+    "id": "R00165",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals few-shot medical NL2SQL application"
+   },
+   {
+    "id": "R00167",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Automated AI research framework for text-to-SQL"
+   },
+   {
+    "id": "R00168",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals small-model in-context learning"
+   },
+   {
+    "id": "R00173",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals structured CoT reasoning training"
+   },
+   {
+    "id": "R00175",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals DSL security allowlist, not linking/correction"
+   },
+   {
+    "id": "R00177",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Dashboard generation application; Text-to-SQL only a step"
+   },
+   {
+    "id": "R00178",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn SQL efficiency benchmark"
+   },
+   {
+    "id": "R00180",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title signals model performance evaluation on industrial data"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_qc_dec/QC_q004.json",
+  "label": "QC:q004@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00182",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Chinese dataset; no linking or correction contribution"
+   },
+   {
+    "id": "R00188",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn WikiSQL BERT model; table contextualization, not linking/correction"
+   },
+   {
+    "id": "R00190",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question decomposition to SPARQL; no linking/correction focus"
+   },
+   {
+    "id": "R00191",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn prompt templates and exemplar selection"
+   },
+   {
+    "id": "R00193",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title gives no multi-turn, linking or correction focus"
+   },
+   {
+    "id": "R00194",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; enterprise NL2SQL system, no linking/correction focus"
+   },
+   {
+    "id": "R00195",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn diagnostic test suite for parsers"
+   },
+   {
+    "id": "R00198",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn hybrid open-domain QA generating SQL"
+   },
+   {
+    "id": "R00199",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question decomposition to SPARQL; no linking/correction focus"
+   },
+   {
+    "id": "R00201",
+    "d": "exclude",
+    "code": "E6",
+    "why": "LLM case study on a metagenomic database; no linking/correction focus"
+   },
+   {
+    "id": "R00203",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Crowd-powered question decomposition; single-turn"
+   },
+   {
+    "id": "R00210",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General LLM comparison across prompting strategies"
+   },
+   {
+    "id": "R00211",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; case-based reasoning, no linking/correction focus"
+   },
+   {
+    "id": "R00213",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Rephrasing of single untranslatable questions; not multi-turn or SQL correction"
+   },
+   {
+    "id": "R00215",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn question intention classification benchmark"
+   },
+   {
+    "id": "R00216",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of SQL query generation"
+   },
+   {
+    "id": "R00217",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Review of NLIDB datasets"
+   },
+   {
+    "id": "R00220",
+    "d": "exclude",
+    "code": "E6",
+    "why": "User study of NLQ realism; single-turn"
+   },
+   {
+    "id": "R00221",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; visually grounded SQL, no linking/correction focus"
+   },
+   {
+    "id": "R00223",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Error feedback loop is central; unclear whether it is SQL self-correction or only data synthesis"
+   },
+   {
+    "id": "R00225",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; comparative study of models"
+   },
+   {
+    "id": "R00226",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; clause-wise decoding, no linking/correction focus"
+   },
+   {
+    "id": "R00230",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Review of NL-to-SQL frameworks"
+   },
+   {
+    "id": "R00232",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Token boundary techniques for generalization"
+   },
+   {
+    "id": "R00233",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; speech-driven SQL, no linking/correction focus"
+   },
+   {
+    "id": "R00234",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of NLP for data query systems"
+   },
+   {
+    "id": "R00235",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Recursive nested-SQL parsing; single-turn"
+   },
+   {
+    "id": "R00237",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey on Text-to-SQL parsing"
+   },
+   {
+    "id": "R00240",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Vietnamese PLM fine-tuning study; single-turn"
+   },
+   {
+    "id": "R00245",
+    "d": "exclude",
+    "code": "E6",
+    "why": "General NLIDB system description"
+   },
+   {
+    "id": "R00246",
+    "d": "exclude",
+    "code": "E5",
+    "why": "Converting SQL benchmarks into KGQA/SPARQL"
+   },
+   {
+    "id": "R00248",
+    "d": "exclude",
+    "code": "E6",
+    "why": "RL training objectives; general fine-tuning method"
+   },
+   {
+    "id": "R00250",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Domain fine-tuning of LLMs for business queries"
+   },
+   {
+    "id": "R00251",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Transformer seq2seq on WikiSQL; single-turn"
+   },
+   {
+    "id": "R00252",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; data security focus"
+   },
+   {
+    "id": "R00254",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Detects ambiguous/unanswerable questions, not SQL correction; single-turn"
+   },
+   {
+    "id": "R00257",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Custom loss function for fine-tuning"
+   },
+   {
+    "id": "R00258",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; Portuguese Text-to-SQL transformer"
+   },
+   {
+    "id": "R00259",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Russian Spider dataset; single-turn"
+   },
+   {
+    "id": "R00265",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn inventory domain dataset"
+   },
+   {
+    "id": "R00268",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Benchmark centred on database value comprehension; value linking possibly central"
+   },
+   {
+    "id": "R00270",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Table-aware approaches for condition value matching; value linking possibly central"
+   },
+   {
+    "id": "R00271",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; single-turn Chinese dataset"
+   },
+   {
+    "id": "R00276",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; title gives no linking/correction focus"
+   },
+   {
+    "id": "R00277",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity benchmark"
+   },
+   {
+    "id": "R00278",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Reliability/abstention benchmark; error detectors only in evaluated baselines"
+   },
+   {
+    "id": "R00280",
+    "d": "exclude",
+    "code": "E6",
+    "why": "No abstract; training dataset"
+   },
+   {
+    "id": "R00282",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Benchmark stresses metadata search over huge schemas; schema linking possibly central"
+   },
+   {
+    "id": "R00283",
+    "d": "exclude",
+    "code": "E4",
+    "why": "Survey of LLM-based Text-to-SQL"
+   },
+   {
+    "id": "R00286",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Baseline uses value matching; unclear whether value linking is a main contribution"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ta_qc_dec/QC_q005.json",
+  "label": "QC:q005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+  "decisions": [
+   {
+    "id": "R00287",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn BIRD; metadata extraction (profiling, query logs) may support schema/join linking"
+   }
+  ],
+  "accepted_context": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00012.json",
+  "label": "FTA:R00012@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00012",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; question–schema graph encoding with graph pruning (schema item relevance) as a stated contribution; evaluated on Spider.",
+    "where": "p1 Abstract; p2 Contributions; p6-7 Sections 3 and 4 (Experiments, Tables 2-4)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00019.json",
+  "label": "FTA:R00019@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00019",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; contributions include schema table/column recall and execution-based self-consistency candidate selection; evaluated on Spider with execution accuracy.",
+    "where": "p1 Abstract/Introduction; p6 Consistent Output; p6-7 Section 5 Experiments, Table 1"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00027.json",
+  "label": "FTA:R00027@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00027",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is execution-feedback RL with partial-match rewards plus candidate verification and selection; evaluated on Spider, BIRD and Spider 2.0.",
+    "where": "p1 Abstract and Contributions; p2-4 Methodology III-B/C; p4 Experiments IV-A"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00032.json",
+  "label": "FTA:R00032@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00032",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cohort-criteria-to-SQL RAG system and dataset; contributions are not schema linking, join inference or self-correction.",
+    "where": "p2 Contributions; p5-6 Evaluation"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00040.json",
+  "label": "FTA:R00040@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00040",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn WikiSQL model; contributions are data augmentation and table-content attention, not schema linking or self-correction (EG decoding is adopted from prior work).",
+    "where": "p2 Introduction (contributions); p3-4 Sections III.A-E; p6 Section IV.A"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00042.json",
+  "label": "FTA:R00042@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00042",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose core contribution is question-schema-value linking via anchor texts; evaluated quantitatively on Spider.",
+    "where": "p1 Abstract and Introduction; p2 Section 2.2; p6-7 Section 5 Results (Tables 3-5)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00043.json",
+  "label": "FTA:R00043@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00043",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with central schema-constant selection (global gating, re-ranking), evaluated quantitatively on Spider; 2019 English paper.",
+    "where": "p1 Abstract/Introduction; p4 Section 4 Experiments and Results, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00049.json",
+  "label": "FTA:R00049@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00049",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Spider encoder injecting syntactic dependencies and a decoupling constraint; schema linking is reused, not the contribution.",
+    "where": "p1 Abstract; p2 Introduction contributions; p2-3 Method"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00050.json",
+  "label": "FTA:R00050@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00050",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; schema linking is the central contribution, evaluated quantitatively on public Spider-L and SQUALL, plus downstream text-to-SQL parsers.",
+    "where": "p1 Abstract and Introduction contributions; p4-5 Section 3 Experiments, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00053.json",
+  "label": "FTA:R00053@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00053",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with execution-feedback dynamic revision chain as a stated contribution; evaluated on Spider, Spider-Syn and Spider-DK (EX, TS).",
+    "where": "p1 Abstract; p2 Introduction; p8 Sec 4.1 Datasets/Evaluation; p9 Table 1"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00072.json",
+  "label": "FTA:R00072@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00072",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is execution-based consistency selection and error filtering, evaluated on Spider with EX and TS.",
+    "where": "p1 Abstract and Introduction; p3 Experiments (Spider); p4 Table 1 and Results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00074.json",
+  "label": "FTA:R00074@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00074",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL error detection/re-ranking (verification, candidate selection) is the central contribution; evaluated quantitatively on Spider.",
+    "where": "p1 Abstract and Introduction; p4-5 Section 4 Experiments, Table 2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00086.json",
+  "label": "FTA:R00086@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00086",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; schema selector and execution-feedback refiner are stated contributions; quantitative evaluation on Spider and its variants.",
+    "where": "p2 Abstract; p15-16 Experiment, Setup and Table 4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00088.json",
+  "label": "FTA:R00088@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00088",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; relation-aware question–schema linking is the central contribution; evaluated with EM on Spider and Spider-Syn.",
+    "where": "p1 Abstract; p2 Introduction (SRSQL contribution); p8-9 Section 5 Experiment"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00090.json",
+  "label": "FTA:R00090@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00090",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn arXiv 2025 paper; db-id/schema selection and critic-agent SQL self-correction are stated contributions; evaluated on Spider, outperforming baselines.",
+    "where": "p1 Abstract and Contributions; p2 Related work (Spider used for experiments); p2-4 Methodology"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00095.json",
+  "label": "FTA:R00095@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00095",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn; contribution is hint generation from query logs. Schema linking is skipped and the verifier is only a module.",
+    "where": "p1 Abstract; p2 Introduction contributions; p2-3 Methodology (III.B, III.C)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00101.json",
+  "label": "FTA:R00101@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00101",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn pre-training framework for encoders; schema linking and self-correction are not stated as the central contribution.",
+    "where": "p1 Abstract and Introduction; p1-2 contributions list"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00104.json",
+  "label": "FTA:R00104@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00104",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Spider/Criteria-to-SQL pre-training framework; schema linking or correction is not the stated central contribution.",
+    "where": "p1 Abstract; p2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00109.json",
+  "label": "FTA:R00109@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00109",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; contrastive primitive ranker selects tables, columns and cell values (schema linking/pruning) as a central contribution; evaluated on Spider and WikiSQL.",
+    "where": "p1 Abstract and Introduction; p5-6 Sec 4.1 Dataset and Evaluation, Table 4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00112.json",
+  "label": "FTA:R00112@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00112",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn ambiguity benchmark (AmbiQT) and top-k diverse decoding; schema linking and self-correction are not stated contributions.",
+    "where": "p1 Abstract; p2 Introduction, contributions; p5 Sec. 5 LogicalBeam"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00116.json",
+  "label": "FTA:R00116@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00116",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn schema retrieval/subsetting is the central contribution; evaluated quantitatively on SpiderUnion, BirdUnion (Spider/BIRD-derived) and SocialDB.",
+    "where": "p1 Abstract/Introduction; p6-7 Sec 5.1-5.3 Experiments"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00119.json",
+  "label": "FTA:R00119@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00119",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; execution-consistency verification, fixing and candidate selection are central; quantitative evaluation on Spider and BIRD.",
+    "where": "p1 Abstract; p14 Sec 5 Optimizing Model Inference; p14-15 Sec 6.1-6.2 Evaluation"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00131.json",
+  "label": "FTA:R00131@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00131",
+    "d": "include",
+    "code": "INC",
+    "why": "Relational Text-to-SQL, 2022 workshop paper. Candidate re-ranking is a stated contribution. Evaluated on Spider, Spider-SSP and CoSQL with EM/QM/IM.",
+    "where": "p1 Abstract; p2 Contributions; p6-7 Sections 4.2-4.5 (Spider, CoSQL results)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00146.json",
+  "label": "FTA:R00146@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00146",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is execution-feedback and test-suite-based candidate search, evaluated quantitatively on Spider and GeoQuery.",
+    "where": "p1 Abstract and Introduction; p3 Section 3 Search Criteria; p4 Section 5 Data and Metrics"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00174.json",
+  "label": "FTA:R00174@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00174",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn governed pilot; clarification and reformulation concern one question; schema linking and self-correction are not central contributions.",
+    "where": "p1 Abstract; p2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00184.json",
+  "label": "FTA:R00184@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00184",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Turkish Spider translation dataset and LLM fine-tuning; execution-feedback (CoF) is a minor add-on, not a listed contribution",
+    "where": "p2 Introduction, contributions list; p4-5 Section V.C Chain-of-Feedback"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00196.json",
+  "label": "FTA:R00196@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00196",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; graph pruning (schema item relevance) is a stated contribution; evaluated quantitatively on public Spider benchmark; 2021 arXiv.",
+    "where": "p1 Abstract; p2 Introduction contributions; p6-7 Section 4 Experiments"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00197.json",
+  "label": "FTA:R00197@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00197",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn encoder (GPNN) for cross-domain generalization; schema linking comes from an existing RAT module, not the stated contribution.",
+    "where": "p1 Abstract; p2 Introduction, Contributions; p6 Sec 4.1 Baselines"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00200.json",
+  "label": "FTA:R00200@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00200",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; attention-based column filtering (schema pruning) is a main contribution; quantitative LF/EX results on the published ESQL benchmark.",
+    "where": "p1 Abstract and Introduction contributions; p6-7 Section 4 Experiments, Tables 4-7"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00202.json",
+  "label": "FTA:R00202@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00202",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; graph-based column embeddings improve column matching and prediction (schema linking); evaluated on public Spider benchmark with exact-match accuracy.",
+    "where": "p1 Abstract/Introduction; p2 Section 3 Method; p4 Section 5 Experiments, Table 2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00206.json",
+  "label": "FTA:R00206@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00206",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn SQL parsing; question-to-column alignment and column prediction are central; quantitative evaluation on public WTQ/SQUALL.",
+    "where": "p1 Abstract; p2 Introduction; p6-7 Section 5.3 and Experiments, Tables 3-7"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00207.json",
+  "label": "FTA:R00207@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00207",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; value extraction/linking is the central contribution; evaluated on Spider with execution accuracy (67%, 62%).",
+    "where": "p1 Abstract; p1-2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00214.json",
+  "label": "FTA:R00214@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00214",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is value extraction/linking; evaluated quantitatively on public Spider benchmark (Execution Accuracy).",
+    "where": "p1 Abstract and Contributions; p10-11 Sec. 6 Experiments (Data Set, Metrics, Results)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00229.json",
+  "label": "FTA:R00229@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00229",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn generate-then-rank (candidate selection) framework; quantitative results on public Spider and ScienceBenchmark; English arXiv 2024.",
+    "where": "p1 Abstract; p2 Introduction (contributions and experiments)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00236.json",
+  "label": "FTA:R00236@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00236",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose stated contribution is a knowledge-enhanced SQL re-ranker (candidate selection), evaluated quantitatively on Spider and Spider-DK.",
+    "where": "p1 Abstract; p2 Introduction contributions; p7-8 Section 5 Experiments, Tables 2-5"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00238.json",
+  "label": "FTA:R00238@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00238",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; column prediction (column selection/schema linking) is the central contribution, evaluated quantitatively on Spider with exact match.",
+    "where": "p1 Abstract; p10-11 Sections 5-6, Datasets and Results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00239.json",
+  "label": "FTA:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00239",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is header-to-span (schema/value linking) alignment pretraining; evaluated quantitatively on WikiSQL and Spider.",
+    "where": "p1 Abstract; p2 Introduction contributions; p5-6 Section 4 Experiments, Table 2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00241.json",
+  "label": "FTA:R00241@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00241",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; schema linking is a central contribution; evaluated quantitatively on Spider, Spider-SYN and BIRD.",
+    "where": "p1 Abstract; p3 Section 2.2 Decomposed Fine-tuning; p4 Sections 3.2-3.3 Datasets and Results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00244.json",
+  "label": "FTA:R00244@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00244",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn NL2SQL with self-correction feedback loop as central contribution; reports accuracy gains on Spider and four other public benchmarks.",
+    "where": "p1 Abstract; p2 Introduction (methodology, contributions)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00253.json",
+  "label": "FTA:R00253@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00253",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Rasa SQL-tutor chatbot; evaluated on independent single queries; no linking, correction or context-restoration contribution",
+    "where": "p1 Abstract; p14-15 Results, SQL query generation accuracy"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00260.json",
+  "label": "FTA:R00260@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00260",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn; contribution is a multilingual pipeline and cross-lingual gap findings, with schema grounding and voting only as components of the instrument.",
+    "where": "p1 Abstract; p2 Introduction, contributions paragraph; p13-14 Sec. 4 Experimental Setup"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00263.json",
+  "label": "FTA:R00263@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00263",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn WikiSQL model that adapts BERT with column-wise encoding; schema linking and execution-guided decoding are not the central contribution.",
+    "where": "p1 Abstract; p2 Introduction; p8 Sec 3.5 and Sec 4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00264.json",
+  "label": "FTA:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00264",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is column selection by fusing schema with table content; evaluated on public WikiSQL and TableQA, reporting state-of-the-art results.",
+    "where": "p1 Abstract and Introduction; p2 Contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00266.json",
+  "label": "FTA:R00266@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00266",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with schema linking/DB constant selection as central contribution; evaluated on Spider, 2019 arXiv.",
+    "where": "p1 Abstract; p2-3 Sec. 3 Global Reasoning; p4 Sec. 4 Experiments, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00267.json",
+  "label": "FTA:R00267@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00267",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with schema filter and candidate selection as stated contributions; evaluated quantitatively on BIRD and Spider.",
+    "where": "p1 Abstract and Introduction; p2 Contributions; p6-7 Experiments (Tables I-II)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00268.json",
+  "label": "FTA:R00268@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00268",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn BIRD benchmark about large noisy values, external knowledge and efficiency; no schema-linking or self-correction contribution.",
+    "where": "p1 Abstract and Introduction; p2 Task Formulation"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00269.json",
+  "label": "FTA:R00269@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00269",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with schema pruning and execution-based refinement as stated contributions; reports 71.10% accuracy on BIRD and evaluates on Spider.",
+    "where": "p1 Abstract and Introduction (CHESS framework, Experiments); p28 Appendix F error analysis"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00270.json",
+  "label": "FTA:R00270@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00270",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Chinese NL2SQL dataset and table-aware value/entity linking methods, with quantitative results on WikiSQL and TableQA.",
+    "where": "p1 Abstract; p2 Introduction; p6-7 Section 5 Experiments, Tables 3-4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00273.json",
+  "label": "FTA:R00273@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00273",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn pretraining centred on text-table alignment (column and value grounding, i.e. schema linking), evaluated on Spider, WikiSQL and the Suhr datasets.",
+    "where": "p1 Abstract and Introduction; p6-7 Section 5 Experiments, Tables 3-5"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00281.json",
+  "label": "FTA:R00281@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00281",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; execution-based self-consistency reward, candidate selection and SQL revision are stated contributions; evaluated on BIRD and Spider dev sets.",
+    "where": "p1 Abstract and Introduction contributions; p2 reward function; p7 Section 5.1 Datasets and Section 5.2 Settings; p8 Tables 2-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00282.json",
+  "label": "FTA:R00282@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00282",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise text-to-SQL benchmark; schema linking and execution feedback are not a stated central contribution.",
+    "where": "p1 Abstract; p2 Introduction"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00284.json",
+  "label": "FTA:R00284@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00284",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; Selector (schema pruning) and Refiner (execution feedback) are stated contributions; evaluated on BIRD and Spider with EX/VES.",
+    "where": "p1 Abstract; p2 Introduction; p5-6 Section 5 Experiments, Tables 1-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00286.json",
+  "label": "FTA:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00286",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; value matching/prompting DB-interaction refinement stated as contribution; evaluated quantitatively (EM, EX) on public CRUDSQL dataset.",
+    "where": "p1 Abstract; p2 Introduction contributions (3); p6-7 Section 5 Experiments, Tables 3-5"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00287.json",
+  "label": "FTA:R00287@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00287",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with a novel schema linking algorithm as a stated contribution, evaluated quantitatively on BIRD.",
+    "where": "p2 Contributions (1.1); p5 Section 3 schema linking; p6 Section 4.1, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00288.json",
+  "label": "FTA:R00288@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00288",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; refiner (execution-feedback correction) and fine-tuned candidate selection are stated contributions; evaluated on Spider and BIRD.",
+    "where": "p2 Abstract; p6 §5.3 SQL Refiner, §6 Candidate Selection; p6-7 §7 Experiments, Tables 1-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00289.json",
+  "label": "FTA:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00289",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with schema linking and join-view synthesis as core contributions; quantitative evaluation on proprietary data and the public Mondial database.",
+    "where": "p1 Abstract; p2 Introduction (contributions); p13-14 Sections 6.1-6.3 (schema-linking experiments, Table 2)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00291.json",
+  "label": "FTA:R00291@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00291",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; execution-feedback/self-refinement is the central contribution; quantitative results on Spider, WikiSQL, BIRD, Dr.Spider for relational dialects.",
+    "where": "p1 Abstract and p2 Introduction contributions; p7 Table 1, Section 5.1 Main Results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTA_R00292.json",
+  "label": "FTA:R00292@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00292",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is question–cell and question–header matching (value/schema linking); quantitative WikiSQL evaluation.",
+    "where": "p1 Abstract and Introduction contributions; p5 Experiments, Tables 1-2; p6 Ablation, Table 3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00012.json",
+  "label": "FTB:R00012@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00012",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; schema-graph encoding and graph-pruning schema selection are stated contributions; evaluated on Spider with exact-match accuracy.",
+    "where": "p1 Abstract; p2 Introduction contributions; p6-7 Sections 4.1-4.2 (Spider, Tables 2-3)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00019.json",
+  "label": "FTB:R00019@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00019",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; Consistent Output (execution-based voting, candidate selection) and schema table/column recall are key components; evaluated on Spider with EX.",
+    "where": "p1 Abstract and Introduction; p6 Sec 4 (Consistent Output); p6-7 Sec 5 Experiments"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00027.json",
+  "label": "FTB:R00027@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00027",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is execution-feedback RL and candidate selection, evaluated on Spider, Spider 2.0 and BIRD.",
+    "where": "p1 Abstract and Contributions; p2 Contributions I–II; p3–4 Methodology; p4 Experiments IV.A"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00032.json",
+  "label": "FTB:R00032@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00032",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn cohort-criteria RAG pipeline; contributions are a dataset and few-shot RAG, not schema linking or self-correction.",
+    "where": "p2 Contributions; p5-6 Evaluation"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00040.json",
+  "label": "FTB:R00040@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00040",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn WikiSQL sketch-filling model; contributions are data augmentation and table-content attention. Execution-guided decoding is only an adopted prior add-on.",
+    "where": "p2 Introduction (contributions); p3-4 Sections III.C-E; p6 Section H (EG decoding)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00042.json",
+  "label": "FTB:R00042@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00042",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is question–schema/value linking (anchor texts, text-DB alignment); evaluated quantitatively on public Spider benchmark.",
+    "where": "p1 Abstract and Introduction; p6-7 Results (Tables 3-5)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00043.json",
+  "label": "FTB:R00043@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00043",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is global schema-constant selection and re-ranking, evaluated on Spider with accuracy results.",
+    "where": "p1 Abstract and Introduction; p3-4 Section 3; p4 Section 4, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00049.json",
+  "label": "FTB:R00049@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00049",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn encoder injecting syntactic dependencies; schema linking is inherited from prior work, not the contribution; no correction component.",
+    "where": "p1 Abstract and Introduction contributions; p2-3 Method (Sec 2)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00050.json",
+  "label": "FTB:R00050@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00050",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn weakly supervised schema-linking (grounding) method, evaluated on Spider-L and SQUALL, and coupled with two text-to-SQL parsers on two benchmarks.",
+    "where": "p1 Abstract and Introduction contributions; p4-5 Section 3 Experiments, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00053.json",
+  "label": "FTB:R00053@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00053",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL with a dynamic revision chain (execution feedback) as a stated contribution; evaluated on Spider, Spider-Syn and Spider-DK.",
+    "where": "p1 Abstract; p2 Introduction; p8-9 Section 4 Experiments, Table 1"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00072.json",
+  "label": "FTB:R00072@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00072",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn, but execution-based consistency decoding and error filtering are central contributions; evaluated on Spider (EX/TS).",
+    "where": "p1 Abstract and Introduction; p3-4 Experiments and Results (Tables 1-5)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00074.json",
+  "label": "FTB:R00074@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00074",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn parser-independent SQL error detection and re-ranking (verification/candidate selection), evaluated quantitatively on Spider dev; peer-reviewed 2023.",
+    "where": "p1 Abstract and Introduction; p4-5 Section 4 Experiments, Table 2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00086.json",
+  "label": "FTB:R00086@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00086",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL with schema selector and execution-feedback refiner as stated contributions; quantitative evaluation on Spider and variants.",
+    "where": "p2 Abstract; p15 Experiment, Experimental Setup; p16 Table 4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00088.json",
+  "label": "FTB:R00088@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00088",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; relation-aware question-schema linking is a stated contribution; evaluated with EM on Spider and Spider-SYN.",
+    "where": "p1 Abstract and Introduction; p8-9 Section 5 Experiment (Tables 1-3)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00090.json",
+  "label": "FTB:R00090@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00090",
+    "d": "include",
+    "code": "INC",
+    "why": "Relational Text-to-SQL; db_id/schema selection plus critic-agent SQL self-correction as stated contributions; Spider experiments with reported outperformance.",
+    "where": "p1 Abstract and Contributions; p2 Related Work (Spider used for experiments); p2-3 Framework and Methodology"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00095.json",
+  "label": "FTB:R00095@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00095",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn; central contribution is hint generation from query logs. Schema linking is dropped and the SQL verifier is only a module.",
+    "where": "p1 Abstract; p2 Contributions; p2-3 Methodology"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00101.json",
+  "label": "FTB:R00101@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00101",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn pre-training framework for encoders; schema linking and correction are not the stated central contribution.",
+    "where": "p1 Abstract and Introduction; p2 Contributions list"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00104.json",
+  "label": "FTB:R00104@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00104",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Text-to-SQL pre-training framework with synthetic data; schema linking/correction is not the central contribution.",
+    "where": "p1 Abstract and Introduction (contributions); p4-5 Experiments (Spider, Criteria-to-SQL single-turn)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00109.json",
+  "label": "FTB:R00109@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00109",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL and KBQA parser; contrastive primitive ranker (table/column/cell selection) is central; evaluated on Spider and WikiSQL.",
+    "where": "p1 Abstract and Introduction contributions; p5-6 Section 4.1 datasets, Table 4 Spider results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00112.json",
+  "label": "FTB:R00112@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00112",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn; contribution is an ambiguity benchmark and diverse top-k decoding, not schema linking or self-correction.",
+    "where": "p1 Abstract and Introduction; p2 Contributions; p5 Sections 5.1-5.2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00116.json",
+  "label": "FTB:R00116@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00116",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn schema retrieval/linking is the central contribution; quantitative recall and EM/EX results on SpiderUnion and BirdUnion, derived from public Spider and BIRD.",
+    "where": "p1 Abstract and Introduction; p6-7 Sec. 5.1-5.3 Experiments"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00119.json",
+  "label": "FTB:R00119@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00119",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; execution-consistency verification, candidate selection and fixing of SQL are central; quantitative evaluation on Spider and BIRD.",
+    "where": "p1 Abstract; p14 Section 5; p14-15 Section 6.1-6.2 (Setup, Accuracy Improvement)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00131.json",
+  "label": "FTB:R00131@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00131",
+    "d": "include",
+    "code": "INC",
+    "why": "Relational Text-to-SQL; candidate re-ranking is a stated contribution; evaluated on Spider and CoSQL with EM, QM and IM.",
+    "where": "p1 Abstract; p2 Introduction, contributions; p6-7 Section 4.2-4.5 Experiments"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00146.json",
+  "label": "FTB:R00146@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00146",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is execution-feedback/test-based search over candidates; evaluated quantitatively on Spider and GeoQuery.",
+    "where": "p1 Abstract and Introduction; p4 Sec 5.1-5.2 (datasets, metrics)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00174.json",
+  "label": "FTB:R00174@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00174",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn pilot of a governed NL-to-SQL deployment; schema linking and self-correction are not stated contributions, and the exchanges are clarifications of one question.",
+    "where": "p1 Abstract; p2 Introduction, contributions paragraph"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00184.json",
+  "label": "FTB:R00184@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00184",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Turkish Spider translation dataset and LLM fine-tuning; Chain-of-Feedback is only a secondary experiment, not a central contribution.",
+    "where": "p1 Abstract; p2 Introduction, contributions list; p5 Section V.C Chain-of-Feedback"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00196.json",
+  "label": "FTB:R00196@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00196",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; graph pruning (schema item relevance) is a stated contribution; evaluated on Spider with exact-match accuracy.",
+    "where": "p1 Abstract; p2 Introduction contributions; p6-7 Section 4 Experiments, Tables 2-4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00197.json",
+  "label": "FTB:R00197@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00197",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Spider encoder for cross-domain generalization; schema linking only a component, not the stated central contribution; no self-correction.",
+    "where": "p1 Abstract; p2 Introduction, Contributions; p6 Sec 4.1 Baselines"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00200.json",
+  "label": "FTB:R00200@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00200",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose stated contribution is attention-based column filtering; reports LF accuracy on the ESQL benchmark, which prior work (MST-SQL) also uses. Public availability is not stated.",
+    "where": "p2 Introduction, contributions 1-3; p6-7 Section 4, Tables 4-5"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00202.json",
+  "label": "FTB:R00202@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00202",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; graph-based column embeddings for column matching/prediction are the central contribution; evaluated on Spider with exact-match and COL accuracy.",
+    "where": "p1 Abstract/Introduction; p2 Problem Formulation; p4 Experiments 5.1-5.2, Table 2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00206.json",
+  "label": "FTB:R00206@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00206",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn SQL generation; column-reference prediction and supervised attention (schema linking) are central; quantitative results on WTQ and SQUALL.",
+    "where": "p1 Abstract and Introduction; p6-7 Section 5 Experiments, Tables 3-7"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00207.json",
+  "label": "FTB:R00207@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00207",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL whose central contribution is value extraction and linking to database content; reports Execution Accuracy on Spider (67%, 62%).",
+    "where": "p1 Abstract; p1-2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00214.json",
+  "label": "FTB:R00214@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00214",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; central contribution is value extraction and linking to columns; Spider execution accuracy reported; 2020 arXiv.",
+    "where": "p1 Abstract and Contributions; p10-11 Section 6 Experiments (Spider, Execution Accuracy results)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00229.json",
+  "label": "FTB:R00229@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00229",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn generate-then-rank (candidate selection) is the central contribution; evaluated quantitatively on Spider and Science Benchmark.",
+    "where": "p1 Abstract; p2 Introduction, contributions and experiments summary"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00236.json",
+  "label": "FTB:R00236@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00236",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with a central knowledge-enhanced SQL re-ranking contribution, evaluated quantitatively on Spider and Spider-DK.",
+    "where": "p1 Abstract and Introduction; p7-8 Section 5 Experiments, Tables 2-5"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00238.json",
+  "label": "FTB:R00238@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00238",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; column prediction (column selection/linking) is the central contribution, evaluated quantitatively on public Spider benchmark, 2021.",
+    "where": "p1 Abstract; p10-11 Experiments/Datasets; p11 Results and Analysis"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00239.json",
+  "label": "FTB:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00239",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn self-supervised pretraining method; header alignment is a training objective, not a schema-linking or self-correction contribution.",
+    "where": "p1 Abstract; p2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00241.json",
+  "label": "FTB:R00241@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00241",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL with decomposed schema-linking fine-tuning as central contribution; quantitative evaluation on Spider, Spider-SYN and BIRD.",
+    "where": "p1 Abstract; p3 Sec 2.2 Decomposed Fine-tuning; p4 Sec 3.2-3.4 Datasets and Results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00244.json",
+  "label": "FTB:R00244@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00244",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn NL2SQL; central contribution is a self-explanation feedback loop for verification and correction, evaluated quantitatively on Spider and four other public benchmarks.",
+    "where": "p1 Abstract; p2 Introduction, Contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00253.json",
+  "label": "FTB:R00253@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00253",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn Rasa intent/template chatbot; no context restoration, schema linking or SQL self-correction as a contribution; error handling is generic.",
+    "where": "p1 Abstract; p14-15 Results, SQL query generation accuracy evaluation"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00260.json",
+  "label": "FTB:R00260@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00260",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn multilingual fine-tuned pipeline; contributions are cross-lingual gap findings, with schema grounding and voting only as components.",
+    "where": "p1 Abstract; p2 Introduction (contributions); p13-14 Section 4 Experimental Setup"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00263.json",
+  "label": "FTB:R00263@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00263",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn WikiSQL; general PLM column-wise encoder-decoder architecture. Execution-guided decoding is adopted from prior work, not a stated contribution.",
+    "where": "p1 Abstract; p2 Introduction; p8 Sec 3.5 and Sec 4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00264.json",
+  "label": "FTB:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00264",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn sketch-based model fusing table content into column representations; not framed as schema linking, join inference or self-correction.",
+    "where": "p1 Abstract; p2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00266.json",
+  "label": "FTB:R00266@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00266",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; central contribution is global schema-constant selection and re-ranking, evaluated on Spider.",
+    "where": "p1 Abstract; p2-4 Sections 3-4, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00267.json",
+  "label": "FTB:R00267@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00267",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; schema filter and candidate selection are stated contributions; quantitative evaluation on BIRD and Spider.",
+    "where": "p1 Abstract and Contributions; p6-7 Section IV Experiments, Tables I-II"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00268.json",
+  "label": "FTB:R00268@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00268",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn benchmark (BIRD) on large noisy values, external knowledge and efficiency; no schema linking or self-correction contribution.",
+    "where": "p1 Abstract; p1-2 Introduction; p6-7 Sections 6.1-6.2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00269.json",
+  "label": "FTB:R00269@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00269",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; schema pruning and iterative refinement/unit-test selection are central; evaluated on BIRD and Spider (71.10% BIRD test).",
+    "where": "p1 Abstract and Introduction; p28 Appendix F error analysis"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00270.json",
+  "label": "FTB:R00270@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00270",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL dataset centred on entity/value linking; quantitative results on TableQA and WikiSQL with SQLNet/SQLova.",
+    "where": "p1 Abstract and Introduction; p6-7 Section 5 Experiments, Tables 3-4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00273.json",
+  "label": "FTB:R00273@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00273",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn pretraining centered on column/value grounding (schema linking); quantitative results on Spider, WikiSQL and Suhr datasets",
+    "where": "p1 Abstract; p6-7 Sections 5.1 and Tables 3-5"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00281.json",
+  "label": "FTB:R00281@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00281",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL; self-consistency reward/candidate selection and SQL revision are stated contributions; evaluated on BIRD and Spider with execution accuracy",
+    "where": "p1 Abstract and Contributions; p2 Contributions; p7-8 Section 5 Experiments, Tables 2-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00282.json",
+  "label": "FTB:R00282@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00282",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn enterprise Text-to-SQL benchmark; linking and self-correction are not a stated central contribution.",
+    "where": "p1 Abstract; p1-2 Introduction"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00284.json",
+  "label": "FTB:R00284@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00284",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn Text-to-SQL; Selector (schema pruning) and Refiner (execution feedback) are stated contributions; evaluated on BIRD and Spider.",
+    "where": "p1 Abstract and Introduction; p6 Section 5 Experiments, Tables 1-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00286.json",
+  "label": "FTB:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00286",
+    "d": "exclude",
+    "code": "E6",
+    "why": "Single-turn CRUD dataset; value matching/prompting are baseline modules, not a central schema-linking or correction contribution.",
+    "where": "p1 Abstract; p2 Introduction, contributions (1)-(3)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00287.json",
+  "label": "FTB:R00287@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00287",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn relational Text-to-SQL with a novel schema linking algorithm and join-path discovery, evaluated on the public BIRD benchmark.",
+    "where": "p1 Abstract; p1-2 Contributions (1.1); p5 Section 3 (schema linking); p6 Section 4.1, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00288.json",
+  "label": "FTB:R00288@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00288",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn, but refiner (execution-based correction) and fine-tuned candidate selection are stated contributions; evaluated on Spider and BIRD.",
+    "where": "p2 Abstract; p2 Introduction; p6 §5.3 Refiner, §6 Selection; p6-7 §7 Experiments, Tables 1-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00289.json",
+  "label": "FTB:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00289",
+    "d": "unclear",
+    "code": "UNC",
+    "why": "Single-turn study with schema linking and join views as central contributions. Mondial benchmark section is missing from the excerpt, so public-benchmark use can't be confirmed.",
+    "where": "p1 Abstract; p2 Introduction contributions; p13-14 Sections 6.1-6.3 (pp. 3-12 and 15-25 not provided)"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00291.json",
+  "label": "FTB:R00291@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00291",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn dialect Text-to-SQL; execution feedback, rejection sampling and self-refinement are central; evaluated on Spider, WikiSQL, BIRD.",
+    "where": "p1 Abstract and Introduction contributions; p7 Table 1, Experimental Results"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_dec/FTB_R00292.json",
+  "label": "FTB:R00292@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00292",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is question–cell value matching and question–header column matching (value/schema linking), evaluated quantitatively on WikiSQL.",
+    "where": "p1 Abstract and Introduction (contributions); p5-6 Experiments, Tables 1-3"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_adj_dec/FTADJ_R00239.json",
+  "label": "FTADJ:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00239",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; central contribution is a self-supervised objective for aligning headers with utterance spans (schema linking); evaluated on WikiSQL and Spider.",
+    "where": "p1 Abstract; p2 Introduction, contributions; p5-6 Section 4 Experiments, Tables 1-2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_adj_dec/FTADJ_R00264.json",
+  "label": "FTADJ:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00264",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; main contribution fuses table content into column representations for column selection/value linking; evaluated on WikiSQL.",
+    "where": "p1 Abstract; p2 Introduction, contributions"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_adj_dec/FTADJ_R00286.json",
+  "label": "FTADJ:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00286",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn; value matching (database value linking) is listed as contribution (3), with ablation results on the public CRUDSQL dataset.",
+    "where": "p1 Abstract; p2 Introduction, contributions (3); p7 Section 5.2 Table 4"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ },
+ {
+  "source": "slr/cribado/sr_work_bola/runs/cli_ft_adj_dec/FTADJ_R00289.json",
+  "label": "FTADJ:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "decisions": [
+   {
+    "id": "R00289",
+    "d": "include",
+    "code": "INC",
+    "why": "Single-turn work whose central contribution is schema linking and KG view join synthesis, evaluated on proprietary data and the public Mondial database.",
+    "where": "p1 Abstract; p2 Introduction, contributions; p13-14 Sections 6.3-6.4, Table 2"
+   }
+  ],
+  "accepted_context": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+ }
+]

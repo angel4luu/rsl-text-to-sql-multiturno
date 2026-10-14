@@ -1,0 +1,7355 @@
+{
+ "unique": [
+  {
+   "members": [
+    0
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A systematic survey of LLM-based text-to-SQL: methodologies, security vulnerabilities, and future challenges",
+   "year": "2026",
+   "journal": "PeerJ Computer Science",
+   "type": "article",
+   "lang": "",
+   "doi": "10.7717/peerj-cs.3773",
+   "pmid": "",
+   "authors": [
+    "Bui Dinh Chien",
+    "Hoang Ha Nguyen",
+    "Tao Quoc Ngo",
+    "Huyen Khanh Vu-Thi",
+    "Chien Hong Nguyen",
+    "Duc Van Nguyen",
+    "Ngo Tung Son"
+   ],
+   "kw": [],
+   "id": "R00001",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    1
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "An Extensible Benchmark for Value Ambiguity Resolution in Text-to-SQL",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-6196-4_9",
+   "pmid": "",
+   "authors": [
+    "Tam Minh Pham",
+    "Quoc Viet Hung Nguyen",
+    "Jun Jo",
+    "Thành Tâm Nguyên"
+   ],
+   "kw": [],
+   "id": "R00002",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    2
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Explainable Text-to-SQL Generation: An Overview of Recent Trends and Developments",
+   "year": "2026",
+   "journal": "Lecture notes in networks and systems",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-22032-5_17",
+   "pmid": "",
+   "authors": [
+    "Farouk Chmit",
+    "Chaima Chaieb",
+    "Hadhémi Achour"
+   ],
+   "kw": [],
+   "id": "R00003",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    3
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Survey of Text-to-SQL in the Era of LLMs: Where Are We, and Where Are We Going?",
+   "year": "2025",
+   "journal": "IEEE Transactions on Knowledge and Data Engineering",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/tkde.2025.3592032",
+   "pmid": "",
+   "authors": [
+    "Xinyu Liu",
+    "Shuyu Shen",
+    "Boyan Li",
+    "Peidong Ma",
+    "Runzhi Jiang",
+    "Yuxin Zhang",
+    "Ju Fan",
+    "Guoliang Li",
+    "Nan Tang",
+    "Yuyu Luo"
+   ],
+   "kw": [],
+   "id": "R00004",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    4
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Multi-turn NLIDBs",
+   "year": "2025",
+   "journal": "Data-centric systems and applications",
+   "type": "book-chapter",
+   "lang": "",
+   "doi": "10.1007/978-3-032-06905-4_6",
+   "pmid": "",
+   "authors": [
+    "George Katsogiannis-Meimarakis",
+    "Anna Mitsopoulou",
+    "Mike Xydas",
+    "Georgia Koutrika"
+   ],
+   "kw": [],
+   "id": "R00005",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    5
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Survey of Large Language Model-Based Text-to-SQL Methods",
+   "year": "2025",
+   "journal": "Asian Conference on Artificial Intelligence Technology (ACAIT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/acait67930.2025.11522096",
+   "pmid": "",
+   "authors": [
+    "Liang Yan",
+    "Haoran Gong",
+    "Peiyi Han",
+    "Yong Dong Xu"
+   ],
+   "kw": [],
+   "id": "R00006",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    6
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Prune Bi-SLAM-SQL: A Lightweight and Robust Framework for Transportation NL2SQL Task",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-38715-8_15",
+   "pmid": "",
+   "authors": [
+    "Jing Chen",
+    "Zhengquan Jiang",
+    "Xiang Meng",
+    "Yujie Zhao",
+    "Hui Hu",
+    "Shuo Chen"
+   ],
+   "kw": [],
+   "id": "R00007",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    7
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "QueryVerse: Transform Prompts Into Data",
+   "year": "2025",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icoct64433.2025.11118725",
+   "pmid": "",
+   "authors": [
+    "Samuji Praneeth",
+    "R Prasanna Kumar",
+    "Gundala Pallavi"
+   ],
+   "kw": [],
+   "id": "R00008",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    8
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Internalizing Decomposed Reasoning: Reverse-Distilled Fine-Tuning for Interpretable and Robust Text-to-SQL",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-92-3438-7_45",
+   "pmid": "",
+   "authors": [
+    "Shixing Guan",
+    "Xuan Hua",
+    "Jiahao Lin",
+    "L H Zhang"
+   ],
+   "kw": [],
+   "id": "R00009",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    9
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Rethinking Chain-of-Thought Supervision in Cross-Domain Text-to-SQL",
+   "year": "2026",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-92-3563-6_24",
+   "pmid": "",
+   "authors": [
+    "Pengyuan Zou",
+    "Jiawei Dai"
+   ],
+   "kw": [],
+   "id": "R00010",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    10
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Do Open-Weight LLMs Respect Minimum-Necessary Access in Text-to-SQL? An Automated Audit on EHR Benchmarks",
+   "year": "2026",
+   "journal": "Electronics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/electronics15153252",
+   "pmid": "",
+   "authors": [
+    "Alberto Ballesteros-Rodríguez",
+    "Lino Gonzalez-Garcia",
+    "Miguel‐Ángel Sicilia",
+    "Elena García‐Barriocanal"
+   ],
+   "kw": [],
+   "id": "R00011",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    11
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations",
+   "year": "2021",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.acl-long.198",
+   "pmid": "",
+   "authors": [
+    "Ruisheng Cao",
+    "Lu Chen",
+    "Zhi Chen",
+    "Yanbin Zhao",
+    "Su Zhu",
+    "Kai Yu"
+   ],
+   "kw": [],
+   "id": "R00012",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    12
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment",
+   "year": "2022",
+   "journal": "Findings of the Association for Computational Linguistics: NAACL",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.findings-naacl.62",
+   "pmid": "",
+   "authors": [
+    "Yujian Gan",
+    "Xinyun Chen",
+    "Qiuping Huang",
+    "Matthew Purver"
+   ],
+   "kw": [],
+   "id": "R00013",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    13
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing",
+   "year": "2019",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/p19-1448",
+   "pmid": "",
+   "authors": [
+    "Ben Bogin",
+    "Jonathan Berant",
+    "Matt Gardner"
+   ],
+   "kw": [],
+   "id": "R00014",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    14
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization",
+   "year": "2021",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.emnlp-main.702",
+   "pmid": "",
+   "authors": [
+    "Yujian Gan",
+    "Xinyun Chen",
+    "Matthew Purver"
+   ],
+   "kw": [],
+   "id": "R00015",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    15
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser",
+   "year": "2021",
+   "journal": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.naacl-main.441",
+   "pmid": "",
+   "authors": [
+    "Zhi Chen",
+    "Lu Chen",
+    "Yanbin Zhao",
+    "Ruisheng Cao",
+    "Zihan Xu",
+    "Su Zhu",
+    "Kai Yu"
+   ],
+   "kw": [],
+   "id": "R00016",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    16
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Heterogeneous Graph to Abstract Syntax Tree Framework for Text-to-SQL",
+   "year": "2023",
+   "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/tpami.2023.3298895",
+   "pmid": "",
+   "authors": [
+    "Ruisheng Cao",
+    "Lu Chen",
+    "Jieyu Li",
+    "Hanchong Zhang",
+    "Hongshen Xu",
+    "Wangyou Zhang",
+    "Kai Yu"
+   ],
+   "kw": [],
+   "id": "R00017",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    17
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Evaluating the Text-to-SQL Capabilities of Large Language Models",
+   "year": "2022",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2204.00498",
+   "pmid": "",
+   "authors": [
+    "Nitarshan Rajkumar",
+    "Li, Raymond",
+    "Dzmitry Bahdanau"
+   ],
+   "kw": [],
+   "id": "R00018",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    18
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+   "year": "2023",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2307.07306",
+   "pmid": "",
+   "authors": [
+    "Xuemei Dong",
+    "Zhang, Chao",
+    "Yuhang Ge",
+    "Yuren Mao",
+    "Yunjun Gao",
+    "Lu Chen",
+    "Jinshu Lin",
+    "Dongfang Lou"
+   ],
+   "kw": [],
+   "id": "R00019",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    19
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings",
+   "year": "2023",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2305.11853",
+   "pmid": "",
+   "authors": [
+    "Shuaichen Chang",
+    "Eric Fosler‐Lussier"
+   ],
+   "kw": [],
+   "id": "R00020",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    20
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "GPT-Based Text-to-SQL for Spatial Databases",
+   "year": "2025",
+   "journal": "ISPRS International Journal of Geo-Information",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/ijgi14080288",
+   "pmid": "",
+   "authors": [
+    "Hui Wang",
+    "Li Guo",
+    "Yubin Liang",
+    "Le Liu",
+    "Jiajin Huang"
+   ],
+   "kw": [],
+   "id": "R00021",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    21
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A systematic review of natural language interfaces for databases",
+   "year": "2026",
+   "journal": "Frontiers of Computer Science",
+   "type": "review",
+   "lang": "",
+   "doi": "10.1007/s11704-025-50592-w",
+   "pmid": "",
+   "authors": [
+    "Mengyi Liu",
+    "Xieyang Wang",
+    "Jianqiu Xu",
+    "W.P. Yi",
+    "Ouri Wolfson"
+   ],
+   "kw": [],
+   "id": "R00022",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    22
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-6196-4_8",
+   "pmid": "",
+   "authors": [
+    "Khanh Trinh Pham",
+    "Thu Huong Nguyen",
+    "Thu Huong Nguyen",
+    "Jun Jo",
+    "Thanh Tam Nguyen",
+    "Thành Tâm Nguyên",
+    "Thành Tâm Nguyên"
+   ],
+   "kw": [],
+   "id": "R00023",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    23
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Staged Multi‐Strategy Framework With Open‐Source Large Language Models for Natural Language to SQL Generation",
+   "year": "2025",
+   "journal": "IEEJ Transactions on Electrical and Electronic Engineering",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1002/tee.24268",
+   "pmid": "",
+   "authors": [
+    "Chuanlong Liu",
+    "Wei Liao",
+    "Zhen Cheng Xu"
+   ],
+   "kw": [],
+   "id": "R00024",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    24
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Evoschema: Towards Text-to-SQL Robustness against Schema Evolution",
+   "year": "2025",
+   "journal": "Proceedings of the VLDB Endowment",
+   "type": "article",
+   "lang": "",
+   "doi": "10.14778/3748191.3748222",
+   "pmid": "",
+   "authors": [
+    "Tianshu Zhang",
+    "Kun Qian",
+    "Siddhartha Sahai",
+    "Yuan Tian",
+    "Shaddy Garg",
+    "Huan Sun",
+    "Yunyao Li"
+   ],
+   "kw": [],
+   "id": "R00025",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    25
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Reliable Answers for Recurring Questions: Boosting Text-to-SQL Accuracy with Template Constrained Decoding",
+   "year": "2025",
+   "journal": "Proceedings of the ACM on Management of Data",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3769822",
+   "pmid": "",
+   "authors": [
+    "Smit Jivani",
+    "Saravam Maheshwari",
+    "Sunita Sarawagi"
+   ],
+   "kw": [],
+   "id": "R00026",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    26
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "PaVeRL-SQL: Text–to–SQL via Partial–Match Rewards and Verbal Reinforcement Learning",
+   "year": "2025",
+   "journal": "IEEE International Conference on Big Data (BigData)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/bigdata66926.2025.11402412",
+   "pmid": "",
+   "authors": [
+    "Heng Hao",
+    "Wenjun Hu",
+    "Oxana Verkholyak",
+    "Davoud Ataee Tarzanagh",
+    "Baruch Gutow",
+    "Sima Didari",
+    "Masoud Faraki",
+    "Hankyu Moon",
+    "Seungjai Min"
+   ],
+   "kw": [],
+   "id": "R00027",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    27
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text-to-SQL Architecture",
+   "year": "2025",
+   "journal": "Data-centric systems and applications",
+   "type": "book-chapter",
+   "lang": "",
+   "doi": "10.1007/978-3-032-06905-4_3",
+   "pmid": "",
+   "authors": [
+    "George Katsogiannis-Meimarakis",
+    "Anna Mitsopoulou",
+    "Mike Xydas",
+    "Georgia Koutrika"
+   ],
+   "kw": [],
+   "id": "R00028",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    28
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text-to-SQL Systems",
+   "year": "2025",
+   "journal": "Data-centric systems and applications",
+   "type": "book-chapter",
+   "lang": "",
+   "doi": "10.1007/978-3-032-06905-4_4",
+   "pmid": "",
+   "authors": [
+    "George Katsogiannis-Meimarakis",
+    "Anna Mitsopoulou",
+    "Mike Xydas",
+    "Georgia Koutrika"
+   ],
+   "kw": [],
+   "id": "R00029",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    29
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "GRAY: Enhancing Few-Shot NL2SQL Translation Through Incremental SQL Log-Based Demonstration Expansion",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-5716-5_5",
+   "pmid": "",
+   "authors": [
+    "Zhuo Chen",
+    "Kun Wu",
+    "Zhen Li",
+    "Yaxi Hou",
+    "Wenhu Yu",
+    "Zhongju Liu",
+    "Hangxuan Li",
+    "Zihang Liang",
+    "Haoyu Qin",
+    "Tonghui Ren",
+    "Zhenying He"
+   ],
+   "kw": [],
+   "id": "R00030",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    30
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "AES-SQL: Text-to-SQL Based on Adaptive Prompting and Intelligent Example Selection",
+   "year": "2026",
+   "journal": "International Conference on Consumer Electronics and Computer Engineering (ICCECE)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/iccece69169.2026.11399787",
+   "pmid": "",
+   "authors": [
+    "Zhentian Shen",
+    "Zhenyang Song"
+   ],
+   "kw": [],
+   "id": "R00031",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    31
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Generating Patient Cohorts from Electronic Health Records Using Two-Step Retrieval-Augmented Text-to-SQL Generation",
+   "year": "2026",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-16708-8_19",
+   "pmid": "",
+   "authors": [
+    "Angelo Ziletti",
+    "Leonardo D'Ambrosi"
+   ],
+   "kw": [],
+   "id": "R00032",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    32
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "OilRAGSQL: A RAG-based large language model framework for NL2SQL tasks in oilfield data analysis",
+   "year": "2026",
+   "journal": "Journal of Intelligent Information Systems",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s10844-026-01055-6",
+   "pmid": "",
+   "authors": [
+    "He Tingting",
+    "Qiang ZHANG",
+    "Guanyu Zheng",
+    "Haochang Wang"
+   ],
+   "kw": [],
+   "id": "R00033",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    33
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "RetailSQL: A Chinese Text-to-SQL Dataset for Retail Industry",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-92-3435-6_25",
+   "pmid": "",
+   "authors": [
+    "Wei Zhang",
+    "Bin Ji",
+    "Qi Li",
+    "Jianhua Li"
+   ],
+   "kw": [],
+   "id": "R00034",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    34
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect",
+   "year": "2022",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2208.10099",
+   "pmid": "",
+   "authors": [
+    "Naihao Deng",
+    "Yulong Chen",
+    "Yue Zhang"
+   ],
+   "kw": [],
+   "id": "R00035",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    35
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey",
+   "year": "2022",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2208.04415",
+   "pmid": "",
+   "authors": [
+    "Ayush Kumar A.",
+    "Parth Nagarkar",
+    "Prabhav Nalhe",
+    "Vijayakumar, Sanjeev"
+   ],
+   "kw": [],
+   "id": "R00036",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    36
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data",
+   "year": "2020",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.acl-main.745",
+   "pmid": "",
+   "authors": [
+    "Pengcheng Yin",
+    "Graham Neubig",
+    "Wen-tau Yih",
+    "Sebastian Riedel"
+   ],
+   "kw": [],
+   "id": "R00037",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    37
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SmBoP: Semi-autoregressive Bottom-up Semantic Parsing",
+   "year": "2021",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.spnlp-1.2",
+   "pmid": "",
+   "authors": [
+    "Ohad Rubin",
+    "Jonathan Berant"
+   ],
+   "kw": [],
+   "id": "R00038",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    38
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Logic-Consistency Text Generation from Semantic Parses",
+   "year": "2021",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.findings-acl.388",
+   "pmid": "",
+   "authors": [
+    "Chang Shu",
+    "Yusen Zhang",
+    "Xiangyu Dong",
+    "Peng Shi",
+    "Yu Tao",
+    "Rui Zhang"
+   ],
+   "kw": [],
+   "id": "R00039",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    39
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Generate Text-to-SQL Queries Based on Sketch Filling",
+   "year": "2024",
+   "journal": "IEEE Access",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/access.2024.3476927",
+   "pmid": "",
+   "authors": [
+    "Yinpei Fu",
+    "Songtao Ye",
+    "Hongjie Fan"
+   ],
+   "kw": [],
+   "id": "R00040",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    40
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SQL-Factory: A Multi-Agent Framework for High-Quality and Large-Scale SQL Generation",
+   "year": "2025",
+   "journal": "Proceedings of the VLDB Endowment",
+   "type": "article",
+   "lang": "",
+   "doi": "10.14778/3778092.3778093",
+   "pmid": "",
+   "authors": [
+    "Jiahui Li",
+    "Tongwang Wu",
+    "Yuren Mao",
+    "Yunjun Gao",
+    "Yajie Feng",
+    "H. -G. Liu"
+   ],
+   "kw": [],
+   "id": "R00041",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    41
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing",
+   "year": "2020",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.findings-emnlp.438",
+   "pmid": "",
+   "authors": [
+    "Xi Lin",
+    "Richard Socher",
+    "Caiming Xiong"
+   ],
+   "kw": [],
+   "id": "R00042",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    42
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+   "year": "2019",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/d19-1378",
+   "pmid": "",
+   "authors": [
+    "Ben Bogin",
+    "Matt Gardner",
+    "Jonathan Berant"
+   ],
+   "kw": [],
+   "id": "R00043",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    43
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SmBoP: Semi-autoregressive Bottom-up Semantic Parsing",
+   "year": "2021",
+   "journal": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.naacl-main.29",
+   "pmid": "",
+   "authors": [
+    "Ohad Rubin",
+    "Jonathan Berant"
+   ],
+   "kw": [],
+   "id": "R00044",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    44
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "DBPal: A Fully Pluggable NL2SQL Training Pipeline",
+   "year": "2020",
+   "journal": "Proceedings - ACM-SIGMOD International Conference on Management of Data",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3318464.3380589",
+   "pmid": "",
+   "authors": [
+    "Nathaniel Weir",
+    "Prasetya Ajie Utama",
+    "Alex Galakatos",
+    "Andrew Crotty",
+    "Amir Ilkhechi",
+    "Shekar Ramaswamy",
+    "Rohin Bhushan",
+    "Nadja Geisler",
+    "Benjamin Hättasch",
+    "Steffen Eger",
+    "Uğur Çetintemel",
+    "Carsten Binnig"
+   ],
+   "kw": [],
+   "id": "R00045",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    45
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Learning database optimization techniques: the state-of-the-art and prospects",
+   "year": "2025",
+   "journal": "Frontiers of Computer Science",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s11704-025-41116-7",
+   "pmid": "",
+   "authors": [
+    "Shaojie Qiao",
+    "Han-Lin Fan",
+    "Nan Han",
+    "Lan Du",
+    "Yuhan Peng",
+    "Rong-Min Tang",
+    "Xiao Qin"
+   ],
+   "kw": [],
+   "id": "R00046",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    46
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Learn from Yesterday: A Semi-supervised Continual Learning Method for Supervision-Limited Text-to-SQL Task Streams",
+   "year": "2023",
+   "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1609/aaai.v37i11.26492",
+   "pmid": "",
+   "authors": [
+    "Yongrui Chen",
+    "Xinnan Guo",
+    "Tongtong Wu",
+    "Guilin Qi",
+    "Yang Li",
+    "Dong Lin Yang"
+   ],
+   "kw": [],
+   "id": "R00047",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    47
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "MR-SQL: Multi-level Retrieval Enhances Inference for LLM in Text-to-SQL",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-3830-0_27",
+   "pmid": "",
+   "authors": [
+    "Zhenhe Wu",
+    "Zhongqiu Li",
+    "Mengxiang Li",
+    "Mengxiang Li",
+    "Jie Zhang",
+    "Zhongjiang He",
+    "Jian Yang",
+    "Yu Zhao",
+    "Ruiyu Fang",
+    "Yongxiang Li",
+    "Zhoujun Li",
+    "Zhoujun Li",
+    "Shuangyong Song"
+   ],
+   "kw": [],
+   "id": "R00048",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    48,
+    274
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)",
+    "OpenAlex (snowballing)"
+   ],
+   "title": "S2SQL: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers",
+   "year": "2022",
+   "journal": "Findings of the Association for Computational Linguistics: ACL 2022",
+   "type": "conference-paper | Semantic Scholar (snowballing): Conference paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.findings-acl.99",
+   "pmid": "",
+   "authors": [
+    "Binyuan Hui",
+    "Ruiying Geng",
+    "Lihan Wang",
+    "Bowen Qin",
+    "Yanyang Li",
+    "Bowen Li",
+    "Jian Sun",
+    "Yongbin Li"
+   ],
+   "kw": [],
+   "id": "R00049",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    49
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing",
+   "year": "2021",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.findings-acl.100",
+   "pmid": "",
+   "authors": [
+    "Qian Liu",
+    "Dejian Yang",
+    "Jiahui Zhang",
+    "Jiaqi Guo",
+    "Bin Zhou",
+    "Jian–Guang Lou"
+   ],
+   "kw": [],
+   "id": "R00050",
+   "batch": "b001"
+  },
+  {
+   "members": [
+    50
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SUN: Exploring Intrinsic Uncertainties in Text-to-SQL Parsers",
+   "year": "2022",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2209.06442",
+   "pmid": "",
+   "authors": [
+    "Qin, Bowen",
+    "Lihan Wang",
+    "Binyuan Hui",
+    "Bowen Li",
+    "Xiangpeng Wei",
+    "Binhua Li",
+    "Huang Fei",
+    "Luo Si",
+    "Min Yang",
+    "Yongbin Li"
+   ],
+   "kw": [],
+   "id": "R00051",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    51
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Graphix-T5: Mixing Pre-trained Transformers with Graph-Aware Layers for Text-to-SQL Parsing",
+   "year": "2023",
+   "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1609/aaai.v37i11.26536",
+   "pmid": "",
+   "authors": [
+    "Jinyang Li",
+    "Binyuan Hui",
+    "Reynold C. K. Cheng",
+    "Bowen Qin",
+    "Chenhao Ma",
+    "Nan Huo",
+    "Fei Huang",
+    "Wenyu Du",
+    "Luo Si",
+    "Yongbin Li"
+   ],
+   "kw": [],
+   "id": "R00052",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    52
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Retrieval-Augmented GPT-3.5-Based Text-to-SQL Framework with Sample-Aware Prompting and Dynamic Revision Chain",
+   "year": "2023",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-99-8076-5_25",
+   "pmid": "",
+   "authors": [
+    "Chunxi Guo",
+    "Zhiliang Tian",
+    "Jintao Tang",
+    "Shasha Li",
+    "Zhihua Wen",
+    "Kaixuan Wang",
+    "Ting Wang"
+   ],
+   "kw": [],
+   "id": "R00053",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    53
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Prompting GPT-3.5 for Text-to-SQL with De-semanticization and Skeleton Retrieval",
+   "year": "2023",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-99-7022-3_23",
+   "pmid": "",
+   "authors": [
+    "Chunxi Guo",
+    "Zhiliang Tian",
+    "Jintao Tang",
+    "Pancheng Wang",
+    "Zhihua Wen",
+    "Kang Yang",
+    "Ting Wang"
+   ],
+   "kw": [],
+   "id": "R00054",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    54
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Converting Natural Language to SQL Queries for Data Retrieval Using Database Metadata and LLaMA 3.2",
+   "year": "2025",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icft66708.2025.11336597",
+   "pmid": "",
+   "authors": [
+    "Kartikey Sapkal",
+    "Arhant Nitnaware",
+    "Yash Gunjal",
+    "Dipti Ghusse",
+    "Sunita Barve"
+   ],
+   "kw": [],
+   "id": "R00055",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    55
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Natural language to SQL conversion using probabilistic spiking return-aligned decision transformer neural networks and subtraction-average-based optimizer",
+   "year": "2025",
+   "journal": "Neurocomputing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1016/j.neucom.2025.131123",
+   "pmid": "",
+   "authors": [
+    "Ashlesha Kolarkar",
+    "Kailasam Swathi"
+   ],
+   "kw": [],
+   "id": "R00056",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    56
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "RYANSQL: Recursively Applying Sketch-based Slot Fillings for Complex Text-to-SQL in Cross-Domain Databases",
+   "year": "2021",
+   "journal": "Computational Linguistics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1162/coli_a_00403",
+   "pmid": "",
+   "authors": [
+    "Donghyun Choi",
+    "Myeong Cheol Shin",
+    "EungGyun Kim",
+    "Dong Ryeol Shin"
+   ],
+   "kw": [],
+   "id": "R00057",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    57
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Exploring Unexplored Generalization Challenges for Cross-Database Semantic Parsing",
+   "year": "2020",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.acl-main.742",
+   "pmid": "",
+   "authors": [
+    "Alane Suhr",
+    "Ming‐Wei Chang",
+    "Peter Martin Shaw",
+    "Kenton Lee"
+   ],
+   "kw": [],
+   "id": "R00058",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    58
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Data Augmentation with Hierarchical SQL-to-Question Generation for Cross-domain Text-to-SQL Parsing",
+   "year": "2021",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.emnlp-main.707",
+   "pmid": "",
+   "authors": [
+    "Kun Wu",
+    "Lijie Wang",
+    "Zhenghua Li",
+    "Ao Zhang",
+    "Xinyan Xiao",
+    "Hua Ren Wu",
+    "Min Zhang",
+    "Haifeng Wang"
+   ],
+   "kw": [],
+   "id": "R00059",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    59
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation",
+   "year": "2022",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.acl-long.142",
+   "pmid": "",
+   "authors": [
+    "Xinyu Pi",
+    "Bing Wang",
+    "Yan Gao",
+    "Jiaqi Guo",
+    "Zhoujun Li",
+    "Jian–Guang Lou"
+   ],
+   "kw": [],
+   "id": "R00060",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    60
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Unlocking Compositional Generalization in Pre-trained Models Using Intermediate Representations",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2104.07478",
+   "pmid": "",
+   "authors": [
+    "Jonathan Herzig",
+    "Peter Martin Shaw",
+    "Ming‐Wei Chang",
+    "Kelvin Guu",
+    "Panupong Pasupat",
+    "Yuan Zhang"
+   ],
+   "kw": [],
+   "id": "R00061",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    61
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SDCUP: Schema Dependency-Enhanced Curriculum Pre-Training for Table Semantic Parsing",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [
+    "Bowen Qin",
+    "Lihan Wang",
+    "Binyuan Hui",
+    "Ruiying Geng",
+    "Zheng Cao",
+    "Min Yang",
+    "Jian Qiao Sun",
+    "Yongbin Li"
+   ],
+   "kw": [],
+   "id": "R00062",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    62
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Towards Robustness of Large Language Models on Text-to-SQL Task: An Adversarial and Cross-Domain Investigation",
+   "year": "2023",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-031-44192-9_15",
+   "pmid": "",
+   "authors": [
+    "Weixu Zhang",
+    "Yu Wang",
+    "Ming Yu Fan"
+   ],
+   "kw": [],
+   "id": "R00063",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    63
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "NL2SQL for Cybersecurity: Automating Osquery Threat Hunting via Natural Language Queries",
+   "year": "2026",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/comsnets67989.2026.11418133",
+   "pmid": "",
+   "authors": [
+    "Anubhav Binit",
+    "Nitish Kumar",
+    "Manjesh K. Hanawal"
+   ],
+   "kw": [],
+   "id": "R00064",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    64
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Skill-Based Few-Shot Selection for In-Context Learning",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.831",
+   "pmid": "",
+   "authors": [
+    "Shengnan An",
+    "Bo Zhou",
+    "Zeqi Lin",
+    "Qiang Fu",
+    "Bei Chen",
+    "Nanning Zheng",
+    "Weizhu Chen",
+    "Jian–Guang Lou"
+   ],
+   "kw": [],
+   "id": "R00065",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    65
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models",
+   "year": "2022",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2201.05966",
+   "pmid": "",
+   "authors": [
+    "Xie, Tianbao",
+    "Chen Henry Wu",
+    "Peng Jia Shi",
+    "Ruiqi Zhong",
+    "Torsten Scholak",
+    "Michihiro Yasunaga",
+    "Chien-Sheng Wu",
+    "Ming Zhong",
+    "Pengcheng Yin",
+    "Sida I. Wang",
+    "Zhong, Victor",
+    "Bailin Wang",
+    "Chengzu Li",
+    "Boyle, Connor",
+    "Ansong Ni",
+    "Ziyu Yao",
+    "Dragomir Radev",
+    "Caiming Xiong",
+    "Lingpeng Kong",
+    "Rui Zhang",
+    "Noah A. Smith",
+    "Luke Zettlemoyer",
+    "Yu, Tao"
+   ],
+   "kw": [],
+   "id": "R00066",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    66
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Learning to Synthesize Data for Semantic Parsing",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2104.05827",
+   "pmid": "",
+   "authors": [
+    "Bailin Wang",
+    "Wenpeng Yin",
+    "Xi Lin",
+    "Caiming Xiong"
+   ],
+   "kw": [],
+   "id": "R00067",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    67
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "The Dawn of Natural Language to SQL: Are We Fully Ready?",
+   "year": "2024",
+   "journal": "Proceedings of the VLDB Endowment",
+   "type": "article",
+   "lang": "",
+   "doi": "10.14778/3681954.3682003",
+   "pmid": "",
+   "authors": [
+    "Boyan Li",
+    "Yuyu Luo",
+    "Chengliang Chai",
+    "Guoliang Li",
+    "Nan Tang"
+   ],
+   "kw": [],
+   "id": "R00068",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    68
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL",
+   "year": "2024",
+   "journal": "Proceedings of the VLDB Endowment",
+   "type": "article",
+   "lang": "",
+   "doi": "10.14778/3681954.3681960",
+   "pmid": "",
+   "authors": [
+    "Ju Fan",
+    "Zihui Gu",
+    "Songyue Zhang",
+    "Yuxin Zhang",
+    "Zui Chen",
+    "Lei Cao",
+    "Guoliang Li",
+    "Samuel R. Madden",
+    "Xiaoyong Du",
+    "Nan Tang"
+   ],
+   "kw": [],
+   "id": "R00069",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    69
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Exploring Chain of Thought Style Prompting for Text-to-SQL",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.327",
+   "pmid": "",
+   "authors": [
+    "Chang-Yu Tai",
+    "Ziru Chen",
+    "Tianshu Zhang",
+    "Xiang Bo Deng",
+    "Huan Sun"
+   ],
+   "kw": [],
+   "id": "R00070",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    70
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "MedT5SQL: a transformers-based large language model for text-to-SQL conversion in the healthcare domain",
+   "year": "2024",
+   "journal": "Frontiers in Big Data",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3389/fdata.2024.1371680",
+   "pmid": "",
+   "authors": [
+    "Alaa Marshan",
+    "Anwar Nais Almutairi",
+    "Athina Ioannou",
+    "David Bell",
+    "Asmat Monaghan",
+    "Mahir Arzoky"
+   ],
+   "kw": [],
+   "id": "R00071",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    71
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SQLPrompt: In-Context Text-to-SQL with Minimal Labeled Data",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.39",
+   "pmid": "",
+   "authors": [
+    "Ruoxi Sun",
+    "Sercan Ö. Arık",
+    "Rajarishi Sinha",
+    "Hootan Nakhost",
+    "Hanjun Dai",
+    "Pengcheng Yin",
+    "Tomas Pfister"
+   ],
+   "kw": [],
+   "id": "R00072",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    72
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Multi-pattern retrieval-augmented framework for Text-to-SQL with Poincaré-Skeleton retrieval and meta-instruction reasoning",
+   "year": "2024",
+   "journal": "Information Processing & Management",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1016/j.ipm.2024.103978",
+   "pmid": "",
+   "authors": [
+    "Chunxi Guo",
+    "Zhiliang Tian",
+    "Jintao Tang",
+    "Shasha Li",
+    "Ting Wang"
+   ],
+   "kw": [],
+   "id": "R00073",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    73
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Error Detection for Text-to-SQL Semantic Parsing",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.785",
+   "pmid": "",
+   "authors": [
+    "Shijie Chen",
+    "Ziru Chen",
+    "Huan Sun",
+    "Yu Su"
+   ],
+   "kw": [],
+   "id": "R00074",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    74
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "AID-SQL: Adaptive In-Context Learning of Text-to-SQL with Difficulty-Aware Instruction and Retrieval-Augmented Generation",
+   "year": "2025",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde65448.2025.00294",
+   "pmid": "",
+   "authors": [
+    "Xiuwen Li",
+    "Qifeng Cai",
+    "Yang Shu",
+    "Chenjuan Guo",
+    "Bin Yang"
+   ],
+   "kw": [],
+   "id": "R00075",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    75
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Graph-empowered Text-to-SQL generation on Electronic Medical Records",
+   "year": "2025",
+   "journal": "Pattern Recognition",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1016/j.patcog.2025.111800",
+   "pmid": "",
+   "authors": [
+    "Qian Chen",
+    "Jun Peng",
+    "Baiyang Song",
+    "Yiyi Zhou",
+    "Rongrong Ji"
+   ],
+   "kw": [],
+   "id": "R00076",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    76
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ETM: Modern Insights into Perspective on Text-to-SQL Evaluation in the Age of Large Language Models",
+   "year": "2025",
+   "journal": "Future Internet",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/fi17080325",
+   "pmid": "",
+   "authors": [
+    "Benjamin G. Ascoli",
+    "Yasoda Sai Ram Kandikonda",
+    "Jinho D. Choi"
+   ],
+   "kw": [],
+   "id": "R00077",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    77
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Large Language Model–Based Critical Care Big Data Deployment and Extraction: Descriptive Analysis",
+   "year": "2025",
+   "journal": "JMIR Medical Informatics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.2196/63216",
+   "pmid": "",
+   "authors": [
+    "Yang Zhong-bao",
+    "Shan-Shan Xu",
+    "Xiaozhu Liu",
+    "Ningyuan Xu",
+    "Yuqing Chen",
+    "Shuya Wang",
+    "Ming-Yue Miao",
+    "Mengxue Hou",
+    "Shuai Liu",
+    "Yan Zhou",
+    "Jianxin Zhou",
+    "Linlin Zhang"
+   ],
+   "kw": [],
+   "id": "R00078",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    78
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Adapt and Decompose: Efficient Generalization of Text-to-SQL via Domain Adapted Least-To-Most Prompting",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.genbench-1.3",
+   "pmid": "",
+   "authors": [
+    "Aseem Arora",
+    "Shabbirhussain Bhaisaheb",
+    "Harshit Nigam",
+    "Manasi S. Patwardhan",
+    "Lovekesh Vig",
+    "Gautam M. Shroff"
+   ],
+   "kw": [],
+   "id": "R00079",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    79
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Decoupling SQL query hardness parsing for text-to-SQL",
+   "year": "2024",
+   "journal": "Neurocomputing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1016/j.neucom.2024.129293",
+   "pmid": "",
+   "authors": [
+    "Jiawen Yi",
+    "Guo Chen",
+    "Xiaojun Zhou"
+   ],
+   "kw": [],
+   "id": "R00080",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    80
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Multilingual spatial domain natural language interface to databases",
+   "year": "2023",
+   "journal": "GeoInformatica",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s10707-023-00496-3",
+   "pmid": "",
+   "authors": [
+    "Wenlu Wang",
+    "Jingjing Li",
+    "Wei‐Shinn Ku",
+    "Haixun Wang"
+   ],
+   "kw": [],
+   "id": "R00081",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    81
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enabling Contextual Natural Language Search on Oil and Gas Databases",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.2118/216349-ms",
+   "pmid": "",
+   "authors": [
+    "Avinash Lokhande",
+    "Prashanth Pillai",
+    "Purnaprajna Mangsuli"
+   ],
+   "kw": [],
+   "id": "R00082",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    82
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "RGISQL: Integrating Refined Grammatical Information into Relational Graph Neural Network for Text-to-SQL Task",
+   "year": "2024",
+   "journal": "Applied Sciences",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/app142210359",
+   "pmid": "",
+   "authors": [
+    "Shuiyan Li",
+    "Yaozhen He",
+    "Longhao Ao",
+    "Rongzhi Qi"
+   ],
+   "kw": [],
+   "id": "R00083",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    83
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "CSS: A Large-scale Cross-schema Chinese Text-to-SQL Medical Dataset",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-acl.435",
+   "pmid": "",
+   "authors": [
+    "Hanchong Zhang",
+    "Jieyu Li",
+    "Lu Chen",
+    "Ruisheng Cao",
+    "Yunyan Zhang",
+    "Yu Huang",
+    "Yefeng Zheng",
+    "Kai Fun Yu"
+   ],
+   "kw": [],
+   "id": "R00084",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    84
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Finetuning LLMs for Text-to-SQL with Two-Stage Progressive Learning",
+   "year": "2024",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-97-9434-8_35",
+   "pmid": "",
+   "authors": [
+    "Ling Xiao",
+    "Jialin Liu",
+    "Jinbu Liu",
+    "Jindu Liu",
+    "Jindu Liu",
+    "Jianhua Wu",
+    "Jie Liu",
+    "Jie Liu"
+   ],
+   "kw": [],
+   "id": "R00085",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    85
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A robust natural language text-to-SQL generation framework with dynamic strategies based on LLMs",
+   "year": "2026",
+   "journal": "Scientific Reports",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1038/s41598-026-39128-9",
+   "pmid": "",
+   "authors": [
+    "Xiaodong Su",
+    "Yang Gu",
+    "Peng Wang",
+    "Wei Gu",
+    "Lincheng Qi",
+    "Jingwei He"
+   ],
+   "kw": [],
+   "id": "R00086",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    86
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Cross-lingual Text-to-SQL Semantic Parsing with Representation Mixup",
+   "year": "2022",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.findings-emnlp.388",
+   "pmid": "",
+   "authors": [
+    "Peng Jia Shi",
+    "Linfeng Song",
+    "Lifeng Jin",
+    "Haitao Mi",
+    "He Bai",
+    "Jimmy Lin",
+    "Dong Yu"
+   ],
+   "kw": [],
+   "id": "R00087",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    87
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Syntax and Relation Enhanced Query Generation for Text to SQL Parsing",
+   "year": "2024",
+   "journal": "Frontiers in Science and Engineering",
+   "type": "article",
+   "lang": "",
+   "doi": "10.54691/ww5m2092",
+   "pmid": "",
+   "authors": [
+    "Kun Han",
+    "Xi Xiong"
+   ],
+   "kw": [],
+   "id": "R00088",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    88
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SQLify Me: An Automated Text-To-SQL Query Generator",
+   "year": "2024",
+   "journal": "International Conference on Computer Theory and Applications (ICCTA)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/iccta64612.2024.10974783",
+   "pmid": "",
+   "authors": [
+    "Ahmed R. Mohamed",
+    "Mohamed Hisham Zain-elabdeen",
+    "Salwa Ahmed Sayed",
+    "Samaa Sabry Abdelwahab",
+    "Ziad Ezzat Mohamed",
+    "Zyad Mahmoud Ali",
+    "Yomna A. Kawashti",
+    "Hanan Hindy"
+   ],
+   "kw": [],
+   "id": "R00089",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    89
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation",
+   "year": "2025",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/ijcnn64981.2025.11227747",
+   "pmid": "",
+   "authors": [
+    "Anurag Tripathi",
+    "Vaibhav Patle",
+    "Abhinav Jain",
+    "Ayush Pundir",
+    "Sairam Menon",
+    "Ajeet Kumar Singh",
+    "Dorien Herremans"
+   ],
+   "kw": [],
+   "id": "R00090",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    90
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Optimizing Text-to-SQL Transformations: The Potential of Skeleton Decoupling in SKT-SQL",
+   "year": "2024",
+   "journal": "Research Square",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.21203/rs.3.rs-5318111/v1",
+   "pmid": "",
+   "authors": [
+    "Jiawen Yi",
+    "Guo Chen"
+   ],
+   "kw": [],
+   "id": "R00091",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    91
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "GADESQL: Graph Attention Diffusion Enhanced Text-To-SQL with Single and Multi-hop Relations",
+   "year": "2023",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-99-7254-8_53",
+   "pmid": "",
+   "authors": [
+    "Qinzhen Cao",
+    "Rui Xi",
+    "Jie Wu",
+    "Xiaowen Nie",
+    "Yubo Liu",
+    "Mengshu Hou"
+   ],
+   "kw": [],
+   "id": "R00092",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    92
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Combining computational linguistics with sentence embedding to create a zero-shot NLIDB",
+   "year": "2024",
+   "journal": "Array",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1016/j.array.2024.100368",
+   "pmid": "",
+   "authors": [
+    "Yuriy Perezhohin",
+    "Fernando Peres",
+    "Mauro Castelli"
+   ],
+   "kw": [],
+   "id": "R00093",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    93
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A SQL automatic generation method based on prompt learning",
+   "year": "2025",
+   "journal": "International Conference on Telecommunications, Optics, and Computer Science (TOCS)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1117/12.3067449",
+   "pmid": "",
+   "authors": [
+    "Wang Ying",
+    "Hongyan Zhou",
+    "Cheng Zhang",
+    "Xianwen Yu"
+   ],
+   "kw": [],
+   "id": "R00094",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    94
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "HI-SQL: Optimizing Text-to-SQL Systems through Dynamic Hint Integration",
+   "year": "2025",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/ijcnn64981.2025.11227320",
+   "pmid": "",
+   "authors": [
+    "Ganesh Parab",
+    "Zishan Ahmad",
+    "Dagnachew Birru"
+   ],
+   "kw": [],
+   "id": "R00095",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    95
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "PEFT Innovations in Text-to-SQL: Adapter and Prefix Tuning Methods with Structural Awareness",
+   "year": "2025",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/ijcnn64981.2025.11228968",
+   "pmid": "",
+   "authors": [
+    "Zhifeng Hao",
+    "Yuyuan Cai",
+    "Shaobin Shi",
+    "Boyan Xu",
+    "Ruichu Cai"
+   ],
+   "kw": [],
+   "id": "R00096",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    96
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text to SQL Using Retrieval-Augmented Generation and Large Language Models",
+   "year": "2025",
+   "journal": "International Conference on System Theory, Control and Computing (ICSTCC)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icstcc66753.2025.11240489",
+   "pmid": "",
+   "authors": [
+    "Ionel Gabriel Zahia",
+    "Loretta Ichim",
+    "Dan Popescu"
+   ],
+   "kw": [],
+   "id": "R00097",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    97
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A comparative analysis of NLP models for Text-to-SQL generation",
+   "year": "2026",
+   "journal": "AIP conference proceedings",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1063/5.0318228",
+   "pmid": "",
+   "authors": [
+    "Ateka Alsheyab",
+    "Ghaith M. Jaradat",
+    "Wala'a Al-Omari",
+    "Tamara Baker Jaber",
+    "Omar Husain Altarawneh"
+   ],
+   "kw": [],
+   "id": "R00098",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    98
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enhancing Chain-of-Thought Reasoning for Text-to-SQL with Effective Retrieval-Augmented Generation",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-3827-0_33",
+   "pmid": "",
+   "authors": [
+    "Xuguang Zhu",
+    "Yong Zhang",
+    "Chao Li",
+    "Chunxiao Xing"
+   ],
+   "kw": [],
+   "id": "R00099",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    99
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "LLCE-SQL: Data-Efficient Text-to-SQL Training via Logic-Linking Driven Collaborative Evolution",
+   "year": "2026",
+   "journal": "IEEE Transactions on Audio Speech and Language Processing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/taslpro.2026.3724417",
+   "pmid": "",
+   "authors": [
+    "Yan Zhang",
+    "Jin Qi",
+    "Wei Xu",
+    "Xiaoxuan Hu",
+    "Zhenjiang Dong",
+    "Genxin Chen",
+    "Li Sun",
+    "Yanfei Sun"
+   ],
+   "kw": [],
+   "id": "R00100",
+   "batch": "b002"
+  },
+  {
+   "members": [
+    100
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training",
+   "year": "2021",
+   "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1609/aaai.v35i15.17627",
+   "pmid": "",
+   "authors": [
+    "Peng Shi",
+    "Patrick Ng",
+    "Zhiguo Wang",
+    "Henghui Zhu",
+    "Alexander Hanbo Li",
+    "Jun Wang",
+    "Cícero Nogueira dos Santos",
+    "Bing Xiang"
+   ],
+   "kw": [],
+   "id": "R00101",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    101
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Semantic Evaluation for Text-to-SQL with Distilled Test Suites",
+   "year": "2020",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.emnlp-main.29",
+   "pmid": "",
+   "authors": [
+    "Ruiqi Zhong",
+    "Tao Yu",
+    "Dan Klein"
+   ],
+   "kw": [],
+   "id": "R00102",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    102
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Grammar-based Neural Text-to-SQL Generation",
+   "year": "2019",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.1905.13326",
+   "pmid": "",
+   "authors": [
+    "Kevin Lin",
+    "Ben Bogin",
+    "Neumann, Mark",
+    "Jonathan Berant",
+    "Matt Gardner"
+   ],
+   "kw": [],
+   "id": "R00103",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    103
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training",
+   "year": "2020",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2012.10309",
+   "pmid": "",
+   "authors": [
+    "Peng Shi",
+    "Ng, Patrick",
+    "Zhiguo Wang",
+    "Henghui Zhu",
+    "Alexander Hanbo Li",
+    "Jun Wang",
+    "Cícero Nogueira dos Santos",
+    "Bing Xiang"
+   ],
+   "kw": [],
+   "id": "R00104",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    104
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A survey on deep learning approaches for text-to-SQL",
+   "year": "2023",
+   "journal": "The VLDB Journal",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s00778-022-00776-8",
+   "pmid": "",
+   "authors": [
+    "George Katsogiannis-Meimarakis",
+    "Georgia Koutrika"
+   ],
+   "kw": [],
+   "id": "R00105",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    105
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning",
+   "year": "2023",
+   "journal": "Proceedings of the ACM on Management of Data",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3589292",
+   "pmid": "",
+   "authors": [
+    "Zihui Gu",
+    "Ju Fan",
+    "Nan Tang",
+    "Lei Cao",
+    "Bowen Jia",
+    "Samuel R. Madden",
+    "Xiaoyong Du"
+   ],
+   "kw": [],
+   "id": "R00106",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    106
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Evaluating Cross-Domain Text-to-SQL Models and Benchmarks",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.99",
+   "pmid": "",
+   "authors": [
+    "Mohammadreza Pourreza",
+    "Davood Rafiei"
+   ],
+   "kw": [],
+   "id": "R00107",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    107
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing",
+   "year": "2022",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.findings-emnlp.384",
+   "pmid": "",
+   "authors": [
+    "Peng Shi",
+    "Rui Zhang",
+    "He Bai",
+    "Jimmy Lin"
+   ],
+   "kw": [],
+   "id": "R00108",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    108
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Uni-Parser: Unified Semantic Parser for Question Answering on Knowledge Base and Database",
+   "year": "2022",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.emnlp-main.605",
+   "pmid": "",
+   "authors": [
+    "Liu Ye",
+    "Semih Yavuz",
+    "Rui Meng",
+    "Dragomir Radev",
+    "Caiming Xiong",
+    "Yingbo Zhou"
+   ],
+   "kw": [],
+   "id": "R00109",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    109
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Importance of Synthesizing High-quality Data for Text-to-SQL Parsing",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-acl.86",
+   "pmid": "",
+   "authors": [
+    "Yiqun Hu",
+    "Yiyun Zhao",
+    "Jiarong Jiang",
+    "Wuwei Lan",
+    "Henghui Zhu",
+    "Anuj Chauhan",
+    "Alexander Hanbo Li",
+    "Lin Pan",
+    "Jun Wang",
+    "Chung-Wei Hang",
+    "Sheng Zhang",
+    "Jiang Guo",
+    "Mingwen Dong",
+    "Joseph Lilien",
+    "Patrick Ng",
+    "Zhiguo Wang",
+    "Vittorio Castelli",
+    "Bing Xiang"
+   ],
+   "kw": [],
+   "id": "R00110",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    110
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Selective Demonstrations for Cross-domain Text-to-SQL",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.944",
+   "pmid": "",
+   "authors": [
+    "Shuaichen Chang",
+    "Eric Fosler‐Lussier"
+   ],
+   "kw": [],
+   "id": "R00111",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    111
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Benchmarking and Improving Text-to-SQL Generation under Ambiguity",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.436",
+   "pmid": "",
+   "authors": [
+    "Adithya Bhaskar",
+    "Tushar Tomar",
+    "Ashutosh Sathe",
+    "Sunita Sarawagi"
+   ],
+   "kw": [],
+   "id": "R00112",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    112
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge",
+   "year": "2022",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.emnlp-main.350",
+   "pmid": "",
+   "authors": [
+    "Longxu Dou",
+    "Yan Gao",
+    "Xuqi Liu",
+    "Mingyang Pan",
+    "Dingzirui Wang",
+    "Wanxiang Che",
+    "Dechen Zhan",
+    "Min‐Yen Kan",
+    "Jian–Guang Lou"
+   ],
+   "kw": [],
+   "id": "R00113",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    113
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ReFSQL: A Retrieval-Augmentation Framework for Text-to-SQL Generation",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.48",
+   "pmid": "",
+   "authors": [
+    "Kun Zhang",
+    "Xiexiong Lin",
+    "Yuanzhuo Wang",
+    "Xin Zhang",
+    "Fei Sun",
+    "Jianhe Cen",
+    "Hexiang Tan",
+    "Xuhui Jiang",
+    "Huawei Shen"
+   ],
+   "kw": [],
+   "id": "R00114",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    114
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Meta-Learning a Cross-lingual Manifold for Semantic Parsing",
+   "year": "2023",
+   "journal": "Transactions of the Association for Computational Linguistics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1162/tacl_a_00533",
+   "pmid": "",
+   "authors": [
+    "Tom Sherborne",
+    "Mirella Lapata"
+   ],
+   "kw": [],
+   "id": "R00115",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    115
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.868",
+   "pmid": "",
+   "authors": [
+    "Mayank Kothyari",
+    "Dhruva Dhingra",
+    "Sunita Sarawagi",
+    "Soumen Chakrabarti"
+   ],
+   "kw": [],
+   "id": "R00116",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    116
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enhancing geodatabases operability: advanced human-computer interaction through RAG and Multi-Agent Systems",
+   "year": "2025",
+   "journal": "Big Earth Data",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1080/20964471.2025.2483541",
+   "pmid": "",
+   "authors": [
+    "Ziming Peng",
+    "Xi Kuai",
+    "Shuisong Ke",
+    "Xuehui Dong",
+    "Renzhong Guo"
+   ],
+   "kw": [],
+   "id": "R00117",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    117
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Semantic Decomposition of Question and SQL for Text-to-SQL Parsing",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.910",
+   "pmid": "",
+   "authors": [
+    "Ben Eyal",
+    "Moran Mahabi",
+    "Ophir Haroche",
+    "Amir Bachar",
+    "Michael Elhadad"
+   ],
+   "kw": [],
+   "id": "R00118",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    118
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency",
+   "year": "2025",
+   "journal": "Proceedings of the ACM on Management of Data",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3725271",
+   "pmid": "",
+   "authors": [
+    "Yicun Yang",
+    "Zhaoguo Wang",
+    "Yu Xia",
+    "Zhuoran Wei",
+    "Haoran Ding",
+    "Ružica Piskač",
+    "Haibo Chen",
+    "Jinyang Li"
+   ],
+   "kw": [],
+   "id": "R00119",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    119
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks",
+   "year": "2025",
+   "journal": "Proceedings of the ACM on Management of Data",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3769762",
+   "pmid": "",
+   "authors": [
+    "Meiyu Lin",
+    "Haichuan Zhang",
+    "Jiale Lao",
+    "Renyuan Li",
+    "Yuanchun Zhou",
+    "Carl Yang",
+    "Yang Cao",
+    "Mingjie Tang"
+   ],
+   "kw": [],
+   "id": "R00120",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    120
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "DocSpider: a dataset of cross-domain natural language querying for MongoDB",
+   "year": "2025",
+   "journal": "Natural language processing.",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1017/nlp.2024.63",
+   "pmid": "",
+   "authors": [
+    "Arif Görkem Özer",
+    "Recep Fırat Çekinel",
+    "İsmail Hakkı Toroslu",
+    "Pınar Karagöz"
+   ],
+   "kw": [],
+   "id": "R00121",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    121
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Weakly Supervised Text-to-SQL Parsing through Question Decomposition",
+   "year": "2022",
+   "journal": "Findings of the Association for Computational Linguistics: NAACL",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.findings-naacl.193",
+   "pmid": "",
+   "authors": [
+    "Tomer Wolfson",
+    "Daniel Deutch",
+    "Jonathan Berant"
+   ],
+   "kw": [],
+   "id": "R00122",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    122
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Gar: A Generate-and-Rank Approach for Natural Language to SQL Translation",
+   "year": "2023",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde55515.2023.00016",
+   "pmid": "",
+   "authors": [
+    "Yuankai Fan",
+    "Zhenying He",
+    "Tonghui Ren",
+    "Dianjun Guo",
+    "Lin Chen",
+    "Ruisi Zhu",
+    "Guanduo Chen",
+    "Yinan Jing",
+    "Kai Zhang",
+    "Xiaocong Wang"
+   ],
+   "kw": [],
+   "id": "R00123",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    123
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Diverse Parallel Data Synthesis for Cross-Database Adaptation of Text-to-SQL Parsers",
+   "year": "2022",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.emnlp-main.794",
+   "pmid": "",
+   "authors": [
+    "Abhijeet Awasthi",
+    "Ashutosh Sathe",
+    "Sunita Sarawagi"
+   ],
+   "kw": [],
+   "id": "R00124",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    124
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "On the Vulnerabilities of Text-to-SQL Models",
+   "year": "2023",
+   "journal": "IEEE International Symposium on Software Reliability Engineering (ISSRE)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/issre59848.2023.00047",
+   "pmid": "",
+   "authors": [
+    "Xutan Peng",
+    "Yipeng Zhang",
+    "Jingfeng Yang",
+    "Mark Stevenson"
+   ],
+   "kw": [],
+   "id": "R00125",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    125
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Optimal Transport Posterior Alignment for Cross-lingual Semantic Parsing",
+   "year": "2023",
+   "journal": "Transactions of the Association for Computational Linguistics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1162/tacl_a_00611",
+   "pmid": "",
+   "authors": [
+    "Tom Sherborne",
+    "Tom Hosking",
+    "Mirella Lapata"
+   ],
+   "kw": [],
+   "id": "R00126",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    126
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "TrojanSQL: SQL Injection against Natural Language Interface to Database",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.264",
+   "pmid": "",
+   "authors": [
+    "Jinchuan Zhang",
+    "Yan Zhou",
+    "Binyuan Hui",
+    "Yaxin Liu",
+    "Ziming Li",
+    "Songlin Hu"
+   ],
+   "kw": [],
+   "id": "R00127",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    127
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Translating natural language questions to SQL queries (nested queries)",
+   "year": "2023",
+   "journal": "Multimedia Tools and Applications",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s11042-023-16987-2",
+   "pmid": "",
+   "authors": [
+    "Sindhuja Swamidorai",
+    "T. Satyanarayana Murthy",
+    "K.V. Sriharsha"
+   ],
+   "kw": [],
+   "id": "R00128",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    128
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Redefining text-to-SQL metrics by incorporating semantic and structural similarity",
+   "year": "2025",
+   "journal": "Scientific Reports",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1038/s41598-025-04890-9",
+   "pmid": "",
+   "authors": [
+    "Giovanni Pinna",
+    "Yuriy Perezhohin",
+    "Luca Manzoni",
+    "Mauro Castelli",
+    "Andrea De Lorenzo"
+   ],
+   "kw": [],
+   "id": "R00129",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    129
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text-to-ESQ: A Two-Stage Controllable Approach for Efficient Retrieval of Vaccine Adverse Events from NoSQL Database",
+   "year": "2023",
+   "journal": "ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3584371.3613008",
+   "pmid": "",
+   "authors": [
+    "Wenlong Zhang",
+    "Kangping Zeng",
+    "Yang Xinming",
+    "Tian Shi",
+    "Ping Wang"
+   ],
+   "kw": [],
+   "id": "R00130",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    130
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "T5QL: Taming language models for SQL generation",
+   "year": "2022",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.gem-1.23",
+   "pmid": "",
+   "authors": [
+    "Samuel Arcadinho",
+    "David Aparício",
+    "Hugo Veiga",
+    "Antonio Alegria"
+   ],
+   "kw": [],
+   "id": "R00131",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    131
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Non-Programmers Can Label Programs Indirectly via Active Examples: A Case Study with Text-to-SQL",
+   "year": "2023",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.emnlp-main.312",
+   "pmid": "",
+   "authors": [
+    "Ruiqi Zhong",
+    "Charlie Snell",
+    "Dan Klein",
+    "Jason M. Eisner"
+   ],
+   "kw": [],
+   "id": "R00132",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    132
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Structured Case-Based Reasoning for Inference-Time Adaptation of Text-to-SQL Parsers",
+   "year": "2023",
+   "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1609/aaai.v37i11.26476",
+   "pmid": "",
+   "authors": [
+    "Abhijeet Awasthi",
+    "Soumen Chakrabarti",
+    "Sunita Sarawagi"
+   ],
+   "kw": [],
+   "id": "R00133",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    133
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "GEMMA-SQL: A Novel Text-to-SQL Model Based on Large Language Models",
+   "year": "2025",
+   "journal": "Applied Artificial Intelligence",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1080/08839514.2025.2587371",
+   "pmid": "",
+   "authors": [
+    "Hari Mohan Pandey",
+    "Anshul Gupta",
+    "Subham Sarkar",
+    "Minakshi Tomer",
+    "Schneider Johannes",
+    "Yan Gong"
+   ],
+   "kw": [],
+   "id": "R00134",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    134
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms",
+   "year": "2023",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.acl-long.678",
+   "pmid": "",
+   "authors": [
+    "Tianshu Zhang",
+    "Changchang Liu",
+    "Wei‐Han Lee",
+    "Yu Su",
+    "Huan Sun"
+   ],
+   "kw": [],
+   "id": "R00135",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    135
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Light RAT-SQL: A RAT-SQL with More Abstraction and Less Embedding of Pre-existing Relations",
+   "year": "2023",
+   "journal": "Texila international journal of academic research",
+   "type": "article",
+   "lang": "",
+   "doi": "10.21522/tijar.2014.10.02.art001",
+   "pmid": "",
+   "authors": [
+    "Nathan Manzambi Ndongala"
+   ],
+   "kw": [],
+   "id": "R00136",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    136
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Uncovering and Categorizing Social Biases in Text-to-SQL",
+   "year": "2023",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.acl-long.759",
+   "pmid": "",
+   "authors": [
+    "Yan Liu",
+    "Gao Yan",
+    "SU Zhe",
+    "Xiaokang Chen",
+    "Elliott Ash",
+    "Jian–Guang Lou"
+   ],
+   "kw": [],
+   "id": "R00137",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    137
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Assessing the utility of text-to-SQL approaches for satisfying software developer information needs",
+   "year": "2023",
+   "journal": "Empirical Software Engineering",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s10664-023-10374-z",
+   "pmid": "",
+   "authors": [
+    "Mihaela Todorova Tomova",
+    "Martin R. Hofmann",
+    "Constantin Hütterer",
+    "Patrick Mäder"
+   ],
+   "kw": [],
+   "id": "R00138",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    138
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "NL2SQL with partial missing metadata based on multi-view metadata graph compensation and reasoning",
+   "year": "2024",
+   "journal": "Applied Intelligence",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s10489-023-05221-z",
+   "pmid": "",
+   "authors": [
+    "Jie Lin",
+    "Yulong Liang",
+    "Jiyan Li",
+    "Yi Bai",
+    "Yong Wang"
+   ],
+   "kw": [],
+   "id": "R00139",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    139
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text to SQL Transformation Using LLM: A Comparative Research of T5, Seq2Seq, and SQLNet Models",
+   "year": "2024",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/ubmk63289.2024.10773579",
+   "pmid": "",
+   "authors": [
+    "Zhazira Shaikhiyeva",
+    "Madina Mansurova",
+    "Gulshat A. Amirkhanova"
+   ],
+   "kw": [],
+   "id": "R00140",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    140
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "An Exploratory Study on Model Compression for Text-to-SQL",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-acl.740",
+   "pmid": "",
+   "authors": [
+    "Shuo Sun",
+    "Yuze Gao",
+    "Yuchen Zhang",
+    "Jian Su",
+    "Bin Chen",
+    "Yingzhan Lin",
+    "Sun Shuqi"
+   ],
+   "kw": [],
+   "id": "R00141",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    141
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Exploring Schema Generalizability of Text-to-SQL",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-acl.87",
+   "pmid": "",
+   "authors": [
+    "Jieyu Li",
+    "Lu Chen",
+    "Ruisheng Cao",
+    "Zhu Su",
+    "Hongshen Xu",
+    "Zhi Chen",
+    "Hanchong Zhang",
+    "Kai Yu"
+   ],
+   "kw": [],
+   "id": "R00142",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    142
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Improving Text-to-SQL Semantic Parsing with Fine-grained Query Understanding",
+   "year": "2022",
+   "journal": "Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.emnlp-industry.31",
+   "pmid": "",
+   "authors": [
+    "Jun Wang",
+    "Patrick Ng",
+    "Alexander Hanbo Li",
+    "Jiarong Jiang",
+    "Zhiguo Wang",
+    "Bing Xiang",
+    "Ramesh M. Nallapati",
+    "Sudipta Sengupta"
+   ],
+   "kw": [],
+   "id": "R00143",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    143
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Converting Structured Forms to Storable Databases using Form2DB",
+   "year": "2023",
+   "journal": "International Conference on System, Computation, Automation and Networking (ICSCAN)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icscan58655.2023.10394829",
+   "pmid": "",
+   "authors": [
+    "A. Anbarasi",
+    "S. Jagadeesan",
+    "K.C. Nithyasree"
+   ],
+   "kw": [],
+   "id": "R00144",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    144
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Towards Automating Domain-Specific Data Generation for Text-to-SQL: A Comprehensive Approach",
+   "year": "2025",
+   "journal": "ACM Transactions on Software Engineering and Methodology",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3746226",
+   "pmid": "",
+   "authors": [
+    "Salmane Chafik",
+    "Saad Ezzini",
+    "Ismaïl Berrada"
+   ],
+   "kw": [],
+   "id": "R00145",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    145
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Searching for Better Database Queries in the Outputs of Semantic Parsers",
+   "year": "2023",
+   "journal": "Findings of the Association for Computational Linguistics: EACL",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-eacl.168",
+   "pmid": "",
+   "authors": [
+    "Anton Osokin",
+    "Irina Saparina",
+    "Ramil Yarullin"
+   ],
+   "kw": [],
+   "id": "R00146",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    146
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Valid Text-to-SQL Generation with Unification-Based DeepStochLog",
+   "year": "2024",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-031-71167-1_17",
+   "pmid": "",
+   "authors": [
+    "Ying Jiao",
+    "Luc De Raedt",
+    "Giuseppe Marra"
+   ],
+   "kw": [],
+   "id": "R00147",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    147
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Rethinking data in NL2SQL: a survey of what we have and what we expect",
+   "year": "2025",
+   "journal": "Vicinagearth.",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s44336-025-00026-9",
+   "pmid": "",
+   "authors": [
+    "Yuankai Fan",
+    "Qizhen Weng",
+    "Yin Chen",
+    "X. Sean Wang"
+   ],
+   "kw": [],
+   "id": "R00148",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    148
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Tackling Temporal Questions in Natural Language Interface to Databases",
+   "year": "2022",
+   "journal": "Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.emnlp-industry.18",
+   "pmid": "",
+   "authors": [
+    "Ngoc Phuoc An Vo",
+    "Octavian Popescu",
+    "Irene Manotas",
+    "Vadim Sheinin"
+   ],
+   "kw": [],
+   "id": "R00149",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    149
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Secured Data Movement Using Data Ring Fencing",
+   "year": "2023",
+   "journal": "IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/tps-isa58951.2023.00052",
+   "pmid": "",
+   "authors": [
+    "Aditya Nangia",
+    "Saksham Bhupal",
+    "Mukesh Mohania",
+    "Chinmay Kumar Kundu"
+   ],
+   "kw": [],
+   "id": "R00150",
+   "batch": "b003"
+  },
+  {
+   "members": [
+    150
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Gar $$\\scriptstyle ++$$: Natural Language to SQL Translation with Efficient Generate-and-Rank",
+   "year": "2024",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-97-7238-4_26",
+   "pmid": "",
+   "authors": [
+    "Yuankai Fan",
+    "Can Huang",
+    "Tonghui Ren",
+    "Zhenying He",
+    "Xiaocong Wang",
+    "Xianglian Wu",
+    "Yue Wang",
+    "Jiaming Li",
+    "Y. F. Yang"
+   ],
+   "kw": [],
+   "id": "R00151",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    151
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Natural Language Querying on Domain-Specific NoSQL Database with Large Language Models",
+   "year": "2024",
+   "journal": "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/bibm62325.2024.10822485",
+   "pmid": "",
+   "authors": [
+    "Wenlong Zhang",
+    "Chaoqun He",
+    "Guanqun Yang",
+    "Dipankar Bandyopadhyay",
+    "Tian Shi",
+    "Ping Wang"
+   ],
+   "kw": [],
+   "id": "R00152",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    152
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Data-Secure Natural Language Interfaces to Databases via Large Language Models",
+   "year": "2024",
+   "journal": "International Symposium on Innovative Approaches in Smart Technologies (ISAS)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/isas64331.2024.10845720",
+   "pmid": "",
+   "authors": [
+    "Duygu Çakır",
+    "Volkan İllik",
+    "Kadir Yunus Koc",
+    "Enes Deniz"
+   ],
+   "kw": [],
+   "id": "R00153",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    153
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Structured Design Solves Multiple Tables of NL2SQL",
+   "year": "2022",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-19-8300-9_24",
+   "pmid": "",
+   "authors": [
+    "Xianwei Yi",
+    "Ruijie Wang",
+    "Hanyi Zhang",
+    "Shiqi Zhen"
+   ],
+   "kw": [],
+   "id": "R00154",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    154
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enhancing Text2SQL Generation with Syntactic Information and Multi-task Learning",
+   "year": "2023",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-031-44213-1_32",
+   "pmid": "",
+   "authors": [
+    "Haochen Li",
+    "Minghua Nuo"
+   ],
+   "kw": [],
+   "id": "R00155",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    155
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Task-Driven Neural Natural Language Interface to Database",
+   "year": "2023",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-99-7254-8_51",
+   "pmid": "",
+   "authors": [
+    "Yuquan Yang",
+    "Qifan Zhang",
+    "Junjie Yao"
+   ],
+   "kw": [],
+   "id": "R00156",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    156
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enhancing Interaction Graph of Data Schema and Syntactic Structure with Pre-trained Language Model for Text-to-SQL",
+   "year": "2025",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-96-1024-2_12",
+   "pmid": "",
+   "authors": [
+    "Wenbin Zhao",
+    "Long Zhao",
+    "Feng Wu",
+    "Zixuan Zheng",
+    "Haoxin Jin",
+    "Bin Gu"
+   ],
+   "kw": [],
+   "id": "R00157",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    157
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "HIT-SCIR at CCKS-IJCKG2024: Enhancing Text-to-SQL with Multi-step Pipeline",
+   "year": "2025",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-96-1809-5_41",
+   "pmid": "",
+   "authors": [
+    "Dingzirui Wang",
+    "Xuanliang Zhang",
+    "Keyan Xu",
+    "Wanxiang Che"
+   ],
+   "kw": [],
+   "id": "R00158",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    158
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "IRAM-SQL: A Language Model Integrating Relation-Aware Mechanism for Text-to-SQL",
+   "year": "2024",
+   "journal": "International Conference on Computer and Communications (ICCC)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/iccc62609.2024.10942231",
+   "pmid": "",
+   "authors": [
+    "Ruohan Zhang",
+    "Zhou Feng",
+    "Shuyuan Peng"
+   ],
+   "kw": [],
+   "id": "R00159",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    159
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text-to-SQL for Non-English Languages: Realizations and Limitations",
+   "year": "2025",
+   "journal": "Lecture notes in networks and systems",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-01536-5_135",
+   "pmid": "",
+   "authors": [
+    "Farida El Boujddaini",
+    "Ahmed Laguidi",
+    "Youssef Mejdoub"
+   ],
+   "kw": [],
+   "id": "R00160",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    160
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SPG-SQL: Semantic Path Guided SQL Generation Model with Gumbel-Enhanced Graph Pruning",
+   "year": "2025",
+   "journal": "International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/caibda65784.2025.11182823",
+   "pmid": "",
+   "authors": [
+    "Junrui Zhang",
+    "Haosong Gou",
+    "Shaojie Qiao",
+    "Gaoyi Zhang",
+    "Nan Han"
+   ],
+   "kw": [],
+   "id": "R00161",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    161
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ASASQL: Active Data Synthesis and Annotation for Efficient Natural Language SQL Generation in Cloud Systems",
+   "year": "2025",
+   "journal": "IEEE International Symposium on Software Reliability Engineering (ISSRE)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/issre66568.2025.00040",
+   "pmid": "",
+   "authors": [
+    "Ruiqin Zheng",
+    "Zhiyuan Wu",
+    "Shengbing Shi",
+    "Qiang Bai",
+    "Hao Li",
+    "Yu Hui",
+    "Weigang Wu"
+   ],
+   "kw": [],
+   "id": "R00162",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    162
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Advancements in SQL Query Generation Schemes in the Field of Natural Language Processing: A Comprehensive Overview",
+   "year": "2025",
+   "journal": "Lecture notes in networks and systems",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-96-7742-9_6",
+   "pmid": "",
+   "authors": [
+    "Md Sakir Ahmed",
+    "Abhishek Khajuria",
+    "Manas Jyoti Gogoi",
+    "Palash Jyoti Goswami",
+    "Penugonda Gowri Shankar",
+    "Pranjal Barman",
+    "Debajit Sarma"
+   ],
+   "kw": [],
+   "id": "R00163",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    163
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "CPO-SQL: Boosting Small LLMs for Text-to-SQL via Efficient In-Context Learning and Preference Optimization",
+   "year": "2025",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-3346-6_29",
+   "pmid": "",
+   "authors": [
+    "Jipeng Cen",
+    "Jiaxin Liu",
+    "Zhixu Li",
+    "Jingjing Wang"
+   ],
+   "kw": [],
+   "id": "R00164",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    164
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Optimizing Few-Shot NL2SQL for Sepsis Data Analysis in Medical Databases",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-95-6426-2_3",
+   "pmid": "",
+   "authors": [
+    "Zeming Li",
+    "Xinhao Liu",
+    "Xianbo Liu",
+    "Yuhang Hu",
+    "Peng Ren",
+    "Chunxiao Xing"
+   ],
+   "kw": [],
+   "id": "R00165",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    165
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "NL2SQL-OLM: A Novel Framework for Natural Language to SQL with Schema-Aware LLM Prompting and Zero-Shot Query Generation",
+   "year": "2025",
+   "journal": "IEEE International Conference on Advances in Data-Driven Analytics and Intelligent Systems (ADACIS)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/adacis65663.2025.11437141",
+   "pmid": "",
+   "authors": [
+    "Ram Ghadiyaram",
+    "Durga Krishnamoorthy",
+    "Laxmi Vanam",
+    "Jaya Eripilla"
+   ],
+   "kw": [],
+   "id": "R00166",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    166
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Adapting the AI Scientist for Enterprise: Solving Real Business Problems with Autonomous Text-To-SQL Research",
+   "year": "2025",
+   "journal": "Doklady Mathematics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1134/s1064562425700474",
+   "pmid": "",
+   "authors": [
+    "V. Fedorov",
+    "D. Lavitskaya",
+    "Danis N. Ibragimov",
+    "D. Safronov",
+    "A. Balles",
+    "A. K. Gribanova",
+    "M. Radionov"
+   ],
+   "kw": [],
+   "id": "R00167",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    167
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Light-SQL: A Small Language Model Based Approach Using In-Context Learning for Natural Language to SQL",
+   "year": "2026",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-21628-1_16",
+   "pmid": "",
+   "authors": [
+    "Kieu-Trang Nguyen",
+    "Quang-Hung Le"
+   ],
+   "kw": [],
+   "id": "R00168",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    168
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A unified multimodal GenAI platform integrating GraphRAG multi-agent systems and custom language models for intelligent document processing and knowledge synthesis",
+   "year": "2026",
+   "journal": "Scientific Reports",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1038/s41598-026-47145-x",
+   "pmid": "",
+   "authors": [
+    "Bharat Singh Parihar",
+    "T. P. Singh",
+    "Govind Gonnade",
+    "Bhupesh Kumar Dewangan",
+    "Nilesh M Shelke",
+    "Amit Purushottam Pimpalkar"
+   ],
+   "kw": [],
+   "id": "R00169",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    169
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Natural Language to SQL (NL2SQL): A Comprehensive Study of Text-to-SQL Systems, Conversational AI for Databases, Enterprise Architectures, Challenges, and Future Directions",
+   "year": "2026",
+   "journal": "International Journal of Advanced Research in Science Communication and Technology",
+   "type": "article",
+   "lang": "",
+   "doi": "10.48175/ijarsct-37344",
+   "pmid": "",
+   "authors": [
+    "Shamal Chavan and Prof. Sandeep Vishwakarma"
+   ],
+   "kw": [],
+   "id": "R00170",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    170
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "GPS–Relational: Generative Problem Solving with Relational Databases",
+   "year": "2026",
+   "journal": "International Journal of Semantic Computing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1142/s1793351x26430051",
+   "pmid": "",
+   "authors": [
+    "Goli Vaisi",
+    "Phillip C.‐Y. Sheu"
+   ],
+   "kw": [],
+   "id": "R00171",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    171
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ReActSQL: A Multi-agent Framework for Text-to-SQL via Feedback-Driven Query Rewriting",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-92-3417-2_12",
+   "pmid": "",
+   "authors": [
+    "Xingyu Li"
+   ],
+   "kw": [],
+   "id": "R00172",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    172
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SQL-CoT: Teaching Compact LLMs Structured Reasoning for Text-to-SQL",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-92-3435-6_37",
+   "pmid": "",
+   "authors": [
+    "Kunbin He",
+    "Zhikun Zheng",
+    "Biao Chen",
+    "Yuguo Hu",
+    "Lin Zuo"
+   ],
+   "kw": [],
+   "id": "R00173",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    173
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Governed NL-to-SQL Architecture for Reliable Clinical Data Querying and Outpatient Schedule Monitoring",
+   "year": "2026",
+   "journal": "Big Data and Cognitive Computing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/bdcc10080258",
+   "pmid": "",
+   "authors": [
+    "Isaac Daroch",
+    "Matías Rojas Cabrera",
+    "Rodrigo Muñoz Andrade",
+    "Alejandra Fernández V",
+    "Juan Pablo Vásconez"
+   ],
+   "kw": [],
+   "id": "R00174",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    174
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "DAC-SQL: A Controlled DSL as an Allowlist-Validatable Security Control Point for Deterministic Vertical-Domain NL2SQL",
+   "year": "2026",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/ccssta69471.2026.11635782",
+   "pmid": "",
+   "authors": [
+    "Liuye Hua",
+    "Jiong Zheng",
+    "Haoze Zheng",
+    "Leixin Zhang",
+    "Guohong Zheng",
+    "Li Zhang"
+   ],
+   "kw": [],
+   "id": "R00175",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    175
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "CYANSQL: Unlock the Power of NL2SQL Via Clustering-Based Test-Time Scaling",
+   "year": "2026",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde65706.2026.00084",
+   "pmid": "",
+   "authors": [
+    "Haoyu Qin",
+    "Tonghui Ren",
+    "Zhenying He",
+    "X.Sean Wang",
+    "Jiashu Xing",
+    "Yanghuan Ye",
+    "Shifei Huang",
+    "Jinbao Li"
+   ],
+   "kw": [],
+   "id": "R00176",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    176
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Skill-Grounded LLM Agents for Dynamic Dashboard Generation in Water Conservancy Consultation",
+   "year": "2026",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3829641.3829776",
+   "pmid": "",
+   "authors": [
+    "Miao Yu",
+    "Hao Liu",
+    "Min Chen",
+    "Huining Jiang",
+    "Jun Hou"
+   ],
+   "kw": [],
+   "id": "R00177",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    177
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation",
+   "year": "2026",
+   "journal": "Proceedings of the ACM on software engineering.",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3832269",
+   "pmid": "",
+   "authors": [
+    "Li Gang Lin",
+    "Yunfeng Shen",
+    "Lingfeng Bao",
+    "Rongxin Wu",
+    "Yang Liu"
+   ],
+   "kw": [],
+   "id": "R00178",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    178
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Agentic Text-to-SQL with Table-Level Retrieval for Protective Relay Settings",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-39892-5_35",
+   "pmid": "",
+   "authors": [
+    "Gustavo L. B. Pereira",
+    "João Pedro G. Fernandes",
+    "João Pedro A. F. Matos",
+    "Vinicius Alboneti Aguiar",
+    "Sávio S. T. de Oliveira",
+    "Anderson S. Soares"
+   ],
+   "kw": [],
+   "id": "R00179",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    179
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Performance Evaluation of Machine Learning—Based NL2SQL Models on Time-Series Industrial Data",
+   "year": "2026",
+   "journal": "International Conference on Innovations in Engineering and Technology (ICIET)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/iciet70550.2026.11712163",
+   "pmid": "",
+   "authors": [
+    "Caren Babu",
+    "Vinoj P. G",
+    "Sreelekha T",
+    "Milner Paul V",
+    "Suni Jose",
+    "Divya R",
+    "Alphonsa Philip"
+   ],
+   "kw": [],
+   "id": "R00180",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    180
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "CAGE-SQL: Diagnostic Mutation Analysis for Execution-Based Text-to-SQL Verification",
+   "year": "2026",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-92-5696-9_1",
+   "pmid": "",
+   "authors": [
+    "Bochen Wu",
+    "Haoyu Gao"
+   ],
+   "kw": [],
+   "id": "R00181",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    181
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "DuSQL: A Large-Scale and Pragmatic Chinese Text-to-SQL Dataset",
+   "year": "2020",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.emnlp-main.562",
+   "pmid": "",
+   "authors": [
+    "Lijie Wang",
+    "Ao Zhang",
+    "Kun Wu",
+    "Ke Sun",
+    "Zhenghua Li",
+    "Hua Ren Wu",
+    "Min Zhang",
+    "Haifeng Wang"
+   ],
+   "kw": [],
+   "id": "R00182",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    182
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Improving Text-to-SQL with a Hybrid Decoding Method",
+   "year": "2023",
+   "journal": "Entropy",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/e25030513",
+   "pmid": "",
+   "authors": [
+    "Geunyeong Jeong",
+    "Mirae Han",
+    "Seulgi Kim",
+    "Yejin Lee",
+    "Joosang Lee",
+    "Seongsik Park",
+    "Harksoo Kim"
+   ],
+   "kw": [],
+   "id": "R00183",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    183
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "TURSpider: A Turkish Text-to-SQL Dataset and LLM-Based Study",
+   "year": "2024",
+   "journal": "IEEE Access",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/access.2024.3498841",
+   "pmid": "",
+   "authors": [
+    "Ali Buğra Kanburoğlu",
+    "Faik Boray TEK"
+   ],
+   "kw": [],
+   "id": "R00184",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    184
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "GTR: An SQL Generator With Transition Representation in Cross-Domain Database Systems",
+   "year": "2023",
+   "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/tnnls.2023.3309824",
+   "pmid": "",
+   "authors": [
+    "Shaojie Qiao",
+    "Chenxu Liu",
+    "Guoping Yang",
+    "Nan Han",
+    "Yuhan Peng",
+    "Lingchun Wu",
+    "He Li",
+    "Guan Yuan"
+   ],
+   "kw": [],
+   "id": "R00185",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    185
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "QUERYING DATABASES WITH NATURAL LANGUAGE: THE USE OF LARGE LANGUAGE MODELS FOR TEXT-TO-SQL TASKS",
+   "year": "2024",
+   "journal": "",
+   "type": "dissertation",
+   "lang": "",
+   "doi": "10.17771/pucrio.acad.66799",
+   "pmid": "",
+   "authors": [
+    "EDUARDO ROGER SILVA NASCIMENTO"
+   ],
+   "kw": [],
+   "id": "R00186",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    186
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A survey of deep learning based text-to-SQL generation",
+   "year": "2022",
+   "journal": "Scientia Sinica Informationis",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1360/ssi-2021-0316",
+   "pmid": "",
+   "authors": [
+    "清源 梁",
+    "琪豪 朱",
+    "泽宇 孙",
+    "路 张",
+    "文杰 张",
+    "英飛 熊",
+    "广泰 梁",
+    "莲 郁"
+   ],
+   "kw": [],
+   "id": "R00187",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    187
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization",
+   "year": "2019",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.1902.01069",
+   "pmid": "",
+   "authors": [
+    "Wonseok Hwang",
+    "Jinyeong Yim",
+    "Seunghyun Park",
+    "Minjoon Seo"
+   ],
+   "kw": [],
+   "id": "R00188",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    188
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Meta-Learning for Domain Generalization in Semantic Parsing",
+   "year": "2021",
+   "journal": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.naacl-main.33",
+   "pmid": "",
+   "authors": [
+    "Bailin Wang",
+    "Mirella Lapata",
+    "Ivan S. Titov"
+   ],
+   "kw": [],
+   "id": "R00189",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    189
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SPARQLing Database Queries from Intermediate Question Decompositions",
+   "year": "2021",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.emnlp-main.708",
+   "pmid": "",
+   "authors": [
+    "Irina Saparina",
+    "Anton Osokin"
+   ],
+   "kw": [],
+   "id": "R00190",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    190
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Domain-Specific Few-Shot Table Prompt Question Answering via Contrastive Exemplar Selection",
+   "year": "2024",
+   "journal": "Algorithms",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/a17070278",
+   "pmid": "",
+   "authors": [
+    "Tianjin Mo",
+    "Qiao Xiao",
+    "Hongyi Zhang",
+    "Ren Li",
+    "Yunsong Wu"
+   ],
+   "kw": [],
+   "id": "R00191",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    191
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "LLM-SQL-Solver: Can LLMs Determine SQL Equivalence?",
+   "year": "2025",
+   "journal": "IEEE International Conference on Big Data (BigData)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/bigdata66926.2025.11401595",
+   "pmid": "",
+   "authors": [
+    "Fuheng Zhao",
+    "Jiayue Chen",
+    "Lawrence Lim",
+    "Ishtiyaque Ahmad",
+    "Divyakant Agrawal",
+    "Amr El Abbadi"
+   ],
+   "kw": [],
+   "id": "R00192",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    192
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "COMBINE: A Pipeline for SQL Generation from Natural Language",
+   "year": "2021",
+   "journal": "Communications in computer and information science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-030-88244-0_10",
+   "pmid": "",
+   "authors": [
+    "Youssef Mellah",
+    "Abdelkader Rhouati",
+    "El Hassane Ettifouri",
+    "Toumi Bouchentouf",
+    "Mohammed Ghaouth Belkasmi"
+   ],
+   "kw": [],
+   "id": "R00193",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    193
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "An Optimized NL2SQL System for Enterprise Data Mart",
+   "year": "2021",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-030-86517-7_21",
+   "pmid": "",
+   "authors": [
+    "Kaiwen Dong",
+    "Kai Lu",
+    "Xin Xia",
+    "David A. Cieslak",
+    "Nitesh V. Chawla"
+   ],
+   "kw": [],
+   "id": "R00194",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    194
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Testing Cross-Database Semantic Parsers With Canonical Utterances",
+   "year": "2021",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.eval4nlp-1.8",
+   "pmid": "",
+   "authors": [
+    "Heather Lent",
+    "Semih Yavuz",
+    "Tao Yu",
+    "Tong Niu",
+    "Yingbo Zhou",
+    "Dragomir Radev",
+    "Xi Lin"
+   ],
+   "kw": [],
+   "id": "R00195",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    195
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2106.01093",
+   "pmid": "",
+   "authors": [
+    "Ruisheng Cao",
+    "Lu Chen",
+    "Zhi Chen",
+    "Yanbin Zhao",
+    "Su Zhu",
+    "Kai Yu"
+   ],
+   "kw": [],
+   "id": "R00196",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    196
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2104.04689",
+   "pmid": "",
+   "authors": [
+    "Zhi Chen",
+    "Lu Chen",
+    "Yanbin Zhao",
+    "Ruisheng Cao",
+    "Zihan Xu",
+    "Su Zhu",
+    "Kai Yu"
+   ],
+   "kw": [],
+   "id": "R00197",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    197
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Dual Reader-Parser on Hybrid Textual and Tabular Evidence for Open Domain Question Answering",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2108.02866",
+   "pmid": "",
+   "authors": [
+    "Alexander Hanbo Li",
+    "Ng, Patrick",
+    "Peng Xu",
+    "Henghui Zhu",
+    "Zhiguo Wang",
+    "Bing Xiang"
+   ],
+   "kw": [],
+   "id": "R00198",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    198
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SPARQLing Database Queries from Intermediate Question Decompositions",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2109.06162",
+   "pmid": "",
+   "authors": [
+    "Irina Saparina",
+    "Anton Osokin"
+   ],
+   "kw": [],
+   "id": "R00199",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    199
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Question‐Aware Few‐Shot Text‐to‐SQL Neural Model for Industrial Databases",
+   "year": "2025",
+   "journal": "International Journal of Intelligent Systems",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1155/int/8124797",
+   "pmid": "",
+   "authors": [
+    "Ren Li",
+    "Yu Chen",
+    "Hongyi Zhang",
+    "Jianxi Yang",
+    "Qiao Xiao",
+    "Shixin Jiang"
+   ],
+   "kw": [],
+   "id": "R00200",
+   "batch": "b004"
+  },
+  {
+   "members": [
+    200
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A case study using sewage metagenomic data for assessment of text-to-SQL capabilities in large language models",
+   "year": "2025",
+   "journal": "Scientific Reports",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1038/s41598-025-28341-7",
+   "pmid": "",
+   "authors": [
+    "Ágnes Becsei",
+    "József Stéger",
+    "Dávid Visontai",
+    "Patrick Munk",
+    "Frank M. Aarestrup",
+    "István Csabai",
+    "Krisztián Papp"
+   ],
+   "kw": [],
+   "id": "R00201",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    201
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Graph Enhanced Cross-Domain Text-to-SQL Generation",
+   "year": "2019",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/d19-5319",
+   "pmid": "",
+   "authors": [
+    "Siyu Huo",
+    "Tengfei Ma",
+    "Jie Chen",
+    "Maria Chang",
+    "Lingfei Wu",
+    "Michael Witbrock"
+   ],
+   "kw": [],
+   "id": "R00202",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    202
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Exploring the Feasibility of Crowd-Powered Decomposition of Complex User Questions in Text-to-SQL Tasks",
+   "year": "2022",
+   "journal": "ACM Conference on Hypertext and Social Media (HT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3511095.3531282",
+   "pmid": "",
+   "authors": [
+    "Sara Salimzadeh",
+    "Ujwal Gadiraju",
+    "Claudia Hauff",
+    "Arie van Deursen"
+   ],
+   "kw": [],
+   "id": "R00203",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    203
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Sequential Feature Augmentation for Robust Text-to-SQL",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/acdp59959.2023.00042",
+   "pmid": "",
+   "authors": [
+    "Hao Shen",
+    "Ran Shen",
+    "Gang Sun",
+    "Yiling Li",
+    "Yifan Wang",
+    "Pengcheng Zhang"
+   ],
+   "kw": [],
+   "id": "R00204",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    204
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enhancing Data Pipelines with Foundation Models: A New Approach to Automated Schema Mapping and SQL Generation",
+   "year": "2026",
+   "journal": "Smart innovation, systems and technologies",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-032-22114-8_3",
+   "pmid": "",
+   "authors": [
+    "Sai Sukesh Reddy Tummuri"
+   ],
+   "kw": [],
+   "id": "R00205",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    205
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries",
+   "year": "2020",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.findings-emnlp.167",
+   "pmid": "",
+   "authors": [
+    "Tianze Shi",
+    "Chen Zhao",
+    "Jordan Lee Boyd-Graber",
+    "Hal Daumé",
+    "Lillian Lee"
+   ],
+   "kw": [],
+   "id": "R00206",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    206
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ValueNet: A Natural Language-to-SQL System that Learns from Database Information",
+   "year": "2021",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde51399.2021.00220",
+   "pmid": "",
+   "authors": [
+    "Ursin Brunner",
+    "Kurt Stockinger"
+   ],
+   "kw": [],
+   "id": "R00207",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    207
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Photon: A Robust Cross-Domain Text-to-SQL System",
+   "year": "2020",
+   "journal": "Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL Demo)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.acl-demos.24",
+   "pmid": "",
+   "authors": [
+    "Jichuan Zeng",
+    "Xi Lin",
+    "Steven C. H. Hoi",
+    "Richard Socher",
+    "Caiming Xiong",
+    "Michael Rung-Tsong Lyu",
+    "Irwin King"
+   ],
+   "kw": [],
+   "id": "R00208",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    208
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Deep Dive into Deep Learning Approaches for Text-to-SQL Systems",
+   "year": "2021",
+   "journal": "Proceedings - ACM-SIGMOD International Conference on Management of Data",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3448016.3457543",
+   "pmid": "",
+   "authors": [
+    "George Katsogiannis-Meimarakis",
+    "Georgia Koutrika"
+   ],
+   "kw": [],
+   "id": "R00209",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    209
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Battle of the Large Language Models: Dolly vs LLaMA vs Vicuna vs Guanaco vs Bard vs ChatGPT - A Text-to-SQL Parsing Comparison",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.750",
+   "pmid": "",
+   "authors": [
+    "Shuo Sun",
+    "Yuchen Zhang",
+    "Jiahuan Yan",
+    "Yuze Gao",
+    "Donovan Ong",
+    "Bin Chen",
+    "Jian Su"
+   ],
+   "kw": [],
+   "id": "R00210",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    210
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Similar Questions Correspond to Similar SQL Queries: A Case-Based Reasoning Approach for Text-to-SQL Translation",
+   "year": "2021",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-030-86957-1_20",
+   "pmid": "",
+   "authors": [
+    "Wei Yu",
+    "Xiaoting Guo",
+    "Fei Chen",
+    "Tao Chang",
+    "Mengzhu Wang",
+    "Xiaodong Wang"
+   ],
+   "kw": [],
+   "id": "R00211",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    211
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Bravely Say I Don’t Know: Relational Question-Schema Graph for Text-to-SQL Answerability Classification",
+   "year": "2023",
+   "journal": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1145/3579030",
+   "pmid": "",
+   "authors": [
+    "Wei Yu",
+    "Haiyan Yang",
+    "Mengzhu Wang",
+    "Xiaodong Wang"
+   ],
+   "kw": [],
+   "id": "R00212",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    212
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Photon: A Robust Cross-Domain Text-to-SQL System",
+   "year": "2020",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2007.15280",
+   "pmid": "",
+   "authors": [
+    "Jichuan Zeng",
+    "Xi Lin",
+    "Caiming Xiong",
+    "Richard Socher",
+    "Michael Rung-Tsong Lyu",
+    "Irwin King",
+    "Steven C. H. Hoi"
+   ],
+   "kw": [],
+   "id": "R00213",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    213
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ValueNet: A Neural Text-to-SQL Architecture Incorporating Values",
+   "year": "2020",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [
+    "Ursin Brunner",
+    "Kurt Stockinger"
+   ],
+   "kw": [],
+   "id": "R00214",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    214
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Did You Ask a Good Question? A Cross-Domain Question Intention Classification Benchmark for Text-to-SQL",
+   "year": "2020",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2010.12634",
+   "pmid": "",
+   "authors": [
+    "Yusen Zhang",
+    "Xiangyu Dong",
+    "Shuaichen Chang",
+    "Tao Yu",
+    "Peng Shi",
+    "Rui Zhang"
+   ],
+   "kw": [],
+   "id": "R00215",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    215
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Recent Advances in SQL Query Generation: A Survey",
+   "year": "2020",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2005.07667",
+   "pmid": "",
+   "authors": [
+    "Jovan Kalajdjieski",
+    "Martina Toshevska",
+    "Frosina Stojanovska"
+   ],
+   "kw": [],
+   "id": "R00216",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    216
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Review of Datasets for NLIDBs",
+   "year": "2023",
+   "journal": "Lecture notes in networks and systems",
+   "type": "book-chapter",
+   "lang": "",
+   "doi": "10.1007/978-981-19-9304-6_21",
+   "pmid": "",
+   "authors": [
+    "Alaka Das",
+    "Rakesh Chandra Balabantaray"
+   ],
+   "kw": [],
+   "id": "R00217",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    217
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Topological Relation Aware Transformer",
+   "year": "2024",
+   "journal": "Texila international journal of academic research",
+   "type": "article",
+   "lang": "",
+   "doi": "10.21522/tijar.2014.11.01.art015",
+   "pmid": "",
+   "authors": [
+    "Nathan Manzambi Ndongala"
+   ],
+   "kw": [],
+   "id": "R00218",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    218
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "IDSpider: Indonesian Standard Dataset for Text-to-SQL",
+   "year": "2024",
+   "journal": "International Conference on Informatics and Computing (ICIC)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icic64337.2024.10956918",
+   "pmid": "",
+   "authors": [
+    "Abdiansah Abdiansah",
+    "Novi Yusliani",
+    "Fathoni Fathoni",
+    "Muhammad Fazri Nizar",
+    "Aulia Salsabella",
+    "Agi Agustian Davi"
+   ],
+   "kw": [],
+   "id": "R00219",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    219
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Towards More Realistic Natural Language Queries in Text-to-SQL Benchmarks",
+   "year": "2026",
+   "journal": "Workshop on Human-In-the-Loop Data Analytics (HILDA)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3814573.3814945",
+   "pmid": "",
+   "authors": [
+    "Charlotte Dörschner",
+    "Frank Jäkel",
+    "Carsten Binnig"
+   ],
+   "kw": [],
+   "id": "R00220",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    220
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "MM2SQL: A Benchmark and Method for Visually-Grounded SQL Generation",
+   "year": "2026",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde65706.2026.00235",
+   "pmid": "",
+   "authors": [
+    "Shengze Shi",
+    "Tao Ren",
+    "Li Qi",
+    "Tingrui Yang",
+    "Wei Xiong",
+    "Jun Hu"
+   ],
+   "kw": [],
+   "id": "R00221",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    221
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-emnlp.996",
+   "pmid": "",
+   "authors": [
+    "Linyong Nan",
+    "Yilun Zhao",
+    "Weijin Zou",
+    "Narutatsu Ri",
+    "Jaesung Tae",
+    "Ellen Zhang",
+    "Arman Cohan",
+    "Dragomir Radev"
+   ],
+   "kw": [],
+   "id": "R00222",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    222
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "SAGE: Synthetic-Augmented Generation with Error Feedback for Text-to-SQL",
+   "year": "2025",
+   "journal": "IEEE International Conference on Sensors, Electronics and Computer Engineering (ICSECE)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icsece65727.2025.11256835",
+   "pmid": "",
+   "authors": [
+    "Zewu Peng",
+    "Taipeng Zhu",
+    "Chenghui Liu",
+    "Yue Chen",
+    "Zhixin Zhang",
+    "Ziming Ye"
+   ],
+   "kw": [],
+   "id": "R00223",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    223
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Comprehensive Review of LLM-based Text-to-SQL Systems: Methods, Datasets, and Trends",
+   "year": "2026",
+   "journal": "Computational Systems and Artificial Intelligence",
+   "type": "article",
+   "lang": "",
+   "doi": "10.69882/adba.csai.2026011",
+   "pmid": "",
+   "authors": [
+    "Garima Singh",
+    "Prachi Chhabra",
+    "Tathagat Banerjee"
+   ],
+   "kw": [],
+   "id": "R00224",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    224
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Comparative Study of AI Models for Natural Language to SQL Query Generation",
+   "year": "2026",
+   "journal": "International Conference on Intelligent Technologies (CONIT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/conit69683.2026.11621699",
+   "pmid": "",
+   "authors": [
+    "Ganesh Nadkarni",
+    "Vaibhav Chavan",
+    "Prashant Niranjan",
+    "Kuldeep P. Sambrekar"
+   ],
+   "kw": [],
+   "id": "R00225",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    225
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Recursive and Clause-Wise Decoding for Complex and Cross-Domain Text-to-SQL Generation.",
+   "year": "2019",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [
+    "Dongjun Lee"
+   ],
+   "kw": [],
+   "id": "R00226",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    226
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text-to-SQL Generation for Question Answering on Electronic Medical Records",
+   "year": "2020",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1145/3366423.3380120",
+   "pmid": "",
+   "authors": [
+    "Ping Wang",
+    "Tian Shi",
+    "Chandan K. A. Reddy"
+   ],
+   "kw": [],
+   "id": "R00227",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    227
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers",
+   "year": "2021",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.acl-long.176",
+   "pmid": "",
+   "authors": [
+    "Chia-Hsuan Lee",
+    "Oleksandr Polozov",
+    "Matthew Richardson"
+   ],
+   "kw": [],
+   "id": "R00228",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    228
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Metasql: A Generate-Then-Rank Framework for Natural Language to SQL Translation",
+   "year": "2024",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde60146.2024.00143",
+   "pmid": "",
+   "authors": [
+    "Yuankai Fan",
+    "Zhenying He",
+    "Tonghui Ren",
+    "Can Huang",
+    "Yinan Jing",
+    "Kai Zhang",
+    "X. Sean Wang"
+   ],
+   "kw": [],
+   "id": "R00229",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    229
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Natural Language to SQL Queries: A Review",
+   "year": "2022",
+   "journal": "International Journal of Innovations in Science and Technology",
+   "type": "article",
+   "lang": "",
+   "doi": "10.33411/ijist/2022040111",
+   "pmid": "",
+   "authors": [
+    "Mirza Shahzaib Baig",
+    "Azhar Imran",
+    "Amanullah Yasin",
+    "Abdul Haleem Butt",
+    "Muhammad Imran Khan"
+   ],
+   "kw": [],
+   "id": "R00230",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    230
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "An Imitation Game for Learning Semantic Parsers from User Interaction",
+   "year": "2020",
+   "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2020.emnlp-main.559",
+   "pmid": "",
+   "authors": [
+    "Ziyu Yao",
+    "Yiqi Tang",
+    "Wen-tau Yih",
+    "Huan Sun",
+    "Yu Su"
+   ],
+   "kw": [],
+   "id": "R00231",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    231
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Improving Generalization in Language Model-based Text-to-SQL Semantic Parsing: Two Simple Semantic Boundary-based Techniques",
+   "year": "2023",
+   "journal": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.acl-short.15",
+   "pmid": "",
+   "authors": [
+    "Daking Rai",
+    "Bailin Wang",
+    "Yilun Zhou",
+    "Ziyu Yao"
+   ],
+   "kw": [],
+   "id": "R00232",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    232
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Speech-to-SQL: toward speech-driven SQL query generation from natural language question",
+   "year": "2024",
+   "journal": "The VLDB Journal",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1007/s00778-024-00837-0",
+   "pmid": "",
+   "authors": [
+    "Yuanfeng Song",
+    "Raymond Chi-Wing Wong",
+    "Xuefang Zhao"
+   ],
+   "kw": [],
+   "id": "R00233",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    233
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Survey of Natural Language Processing Implementation for Data Query Systems",
+   "year": "2021",
+   "journal": "IEEE International Conference on Recent Advances in Systems Science and Engineering (RASSE)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/rasse53195.2021.9686815",
+   "pmid": "",
+   "authors": [
+    "Albert Wong",
+    "Dakota Joiner",
+    "Chunyin Chiu",
+    "Mohamed Nour Elsayed",
+    "Keegan Pereira",
+    "Youry Khmelevsky",
+    "Joe Mahony"
+   ],
+   "kw": [],
+   "id": "R00234",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    234
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "RECPARSER: A Recursive Semantic Parsing Framework for Text-to-SQL Task",
+   "year": "2020",
+   "journal": "International Joint Conference on Artificial Intelligence",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.24963/ijcai.2020/504",
+   "pmid": "",
+   "authors": [
+    "Yu Zeng",
+    "Yan Gao",
+    "Jiaqi Guo",
+    "Bei Chen",
+    "Qian Liu",
+    "Jian–Guang Lou",
+    "Fei Teng",
+    "Dongmei Zhang"
+   ],
+   "kw": [],
+   "id": "R00235",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    235
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "G3R: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-SQL Generation",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-acl.23",
+   "pmid": "",
+   "authors": [
+    "Yanzheng Xiang",
+    "Qianwen Zhang",
+    "Xu Zhang",
+    "Zejie Liu",
+    "Yunbo Cao",
+    "Deyu Zhou"
+   ],
+   "kw": [],
+   "id": "R00236",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    236
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A Survey on Text-to-SQL Parsing: From Rule-Based Foundations to Large Language Models",
+   "year": "2024",
+   "journal": "Lecture notes in networks and systems",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-031-70411-6_41",
+   "pmid": "",
+   "authors": [
+    "Farida El Boujddaini",
+    "Ahmed Laguidi",
+    "Youssef Mejdoub"
+   ],
+   "kw": [],
+   "id": "R00237",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    237
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Columns Occurrences Graph to Improve Column Prediction in Deep Learning Nlidb",
+   "year": "2021",
+   "journal": "Applied Sciences",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/app112412116",
+   "pmid": "",
+   "authors": [
+    "Shanza Abbas",
+    "Muhammad Umair Khan",
+    "Scott Uk-Jin Lee",
+    "Asad Abbas"
+   ],
+   "kw": [],
+   "id": "R00238",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    238
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Self-supervised Text-to-SQL Learning with Header Alignment Training",
+   "year": "2021",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2103.06402",
+   "pmid": "",
+   "authors": [
+    "Dong-Gyu Kim",
+    "Seanie Lee"
+   ],
+   "kw": [],
+   "id": "R00239",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    239
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Investigating Pretrained Language Models and Learning Methods for Vietnamese Text-to-SQL",
+   "year": "2023",
+   "journal": "IEEE Asia-Pacific Conference on Computer Science and Data Engineering (CSDE)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/csde59766.2023.10487773",
+   "pmid": "",
+   "authors": [
+    "Yen Huynh",
+    "Nhat Viet Nguyen",
+    "Nhan Thi Cao"
+   ],
+   "kw": [],
+   "id": "R00240",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    240
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models",
+   "year": "2024",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2024.findings-emnlp.481",
+   "pmid": "",
+   "authors": [
+    "Mohammadreza Pourreza",
+    "Davood Rafiei"
+   ],
+   "kw": [],
+   "id": "R00241",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    241
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "ATHENA++",
+   "year": "2020",
+   "journal": "Proceedings of the VLDB Endowment",
+   "type": "article",
+   "lang": "",
+   "doi": "10.14778/3407790.3407858",
+   "pmid": "",
+   "authors": [
+    "Jaydeep Sen",
+    "Chuan Lei",
+    "Abdul Quamar",
+    "Fatma Özcan",
+    "Vasilis Efthymiou",
+    "Ayushi Dalmia",
+    "Greg Stager",
+    "Ashish Mittal",
+    "Diptikalyan Saha",
+    "Karthik Sankaranarayanan"
+   ],
+   "kw": [],
+   "id": "R00242",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    242
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A BERT-Based Generation Model to Transform Medical Texts to SQL Queries for Electronic Medical Records: Model Development and Validation",
+   "year": "2021",
+   "journal": "JMIR Medical Informatics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.2196/32698",
+   "pmid": "",
+   "authors": [
+    "Youcheng Pan",
+    "Chenghao Wang",
+    "Baotian Hu",
+    "Yang Xiang",
+    "Xiaolong Wang",
+    "Qingcai Chen",
+    "Junjie Chen",
+    "Jingcheng Du"
+   ],
+   "kw": [],
+   "id": "R00243",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    243
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Grounding Natural Language to SQL Translation with Data-Based Self-Explanations",
+   "year": "2025",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde65448.2025.00010",
+   "pmid": "",
+   "authors": [
+    "Yuankai Fan",
+    "Tonghui Ren",
+    "Can Huang",
+    "Zhenying He",
+    "X. Sean Wang"
+   ],
+   "kw": [],
+   "id": "R00244",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    244
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A FRAMEWORK FOR CONVERTING SQL QUERIES FROM NATURAL LANGUAGE",
+   "year": "2024",
+   "journal": "ShodhKosh Journal of Visual and Performing Arts",
+   "type": "article",
+   "lang": "",
+   "doi": "10.29121/shodhkosh.v5.i5.2024.2672",
+   "pmid": "",
+   "authors": [
+    "Balapradeep K.N",
+    "U J Ujwal",
+    "C K Savitha",
+    "M R Prajna"
+   ],
+   "kw": [],
+   "id": "R00245",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    245
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Bootstrapping text-to-SQL resources for knowledge graph question answering",
+   "year": "2025",
+   "journal": "Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich University of Applied Sciences)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.21256/zhaw-33172",
+   "pmid": "",
+   "authors": [
+    "Catherine Kosten",
+    "Davide Lanti",
+    "Philippe Cudré-Mauroux",
+    "Kurt Stockinger"
+   ],
+   "kw": [],
+   "id": "R00246",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    246
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Chat2Query: A Zero-Shot Automatic Exploratory Data Analysis System with Large Language Models",
+   "year": "2024",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/icde60146.2024.00420",
+   "pmid": "",
+   "authors": [
+    "Jun-Peng Zhu",
+    "Peng Cai",
+    "Boyan Niu",
+    "Zheming Ni",
+    "Kai Xu",
+    "Jiajun Huang",
+    "Jianwei Wan",
+    "Shengbo Ma",
+    "Bing Wang",
+    "Donghui Zhang",
+    "Liu Tang",
+    "Qi Liu"
+   ],
+   "kw": [],
+   "id": "R00247",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    247
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Fine-tuning text-to-SQL models with reinforcement-learning training objectives",
+   "year": "2025",
+   "journal": "Natural Language Processing Journal",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1016/j.nlp.2025.100135",
+   "pmid": "",
+   "authors": [
+    "Xuan-Bang Nguyen",
+    "Xuan-Hieu Phan",
+    "Massimo Piccardi"
+   ],
+   "kw": [],
+   "id": "R00248",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    248
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Fine-Tuning of Small/Medium LLMs for Business QA on Structured Data",
+   "year": "2024",
+   "journal": "International Journal on Natural Language Computing",
+   "type": "article",
+   "lang": "",
+   "doi": "10.5121/ijnlc.2024.13301",
+   "pmid": "",
+   "authors": [
+    "Rasha Ragab",
+    "Abdulrahman Altahhan"
+   ],
+   "kw": [],
+   "id": "R00249",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    249
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "",
+   "year": "2024",
+   "journal": "International Journal on Natural Language Computing",
+   "type": "paratext",
+   "lang": "",
+   "doi": "10.5121/ijnlc.2024.133",
+   "pmid": "",
+   "authors": [],
+   "kw": [],
+   "id": "R00250",
+   "batch": "b005"
+  },
+  {
+   "members": [
+    250
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Transformer-Based Model for the Natural Language Textual Sequences to SQL-Queries Conversion",
+   "year": "2024",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/csit65290.2024.10982609",
+   "pmid": "",
+   "authors": [
+    "Kateryna Yalova",
+    "Andrii Zhuravel"
+   ],
+   "kw": [],
+   "id": "R00251",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    251
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Leveraging Large Language Models for Text-to-SQL with Attention to Data Security",
+   "year": "2025",
+   "journal": "Lecture notes in networks and systems",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-981-96-2721-9_25",
+   "pmid": "",
+   "authors": [
+    "Jubayer Abdullah Joy",
+    "Zahid Akon",
+    "Partho Sarathi Sarker",
+    "Md. Mahadi Hasan Shaon",
+    "Md Abdur Razzak",
+    "Shanto Rahman",
+    "Md. Erfan",
+    "Sadib Hassan Rumman"
+   ],
+   "kw": [],
+   "id": "R00252",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    252
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "A lightweight and explainable conversational AI framework for natural language SQL learning without large language models",
+   "year": "2026",
+   "journal": "Scientific Reports",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1038/s41598-026-70120-5",
+   "pmid": "",
+   "authors": [
+    "Bahasuru Nayanakantha",
+    "Kaneeka Vidanage",
+    "Dr.Smita Nirkhi",
+    "Sabyasachi Bhattacharyya"
+   ],
+   "kw": [],
+   "id": "R00253",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    253
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Know What I don’t Know: Handling Ambiguous and Unknown Questions for Text-to-SQL",
+   "year": "2023",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2023.findings-acl.352",
+   "pmid": "",
+   "authors": [
+    "Bing Wang",
+    "Yan  feng Gao",
+    "Zhoujun Li",
+    "Jian–Guang Lou"
+   ],
+   "kw": [],
+   "id": "R00254",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    254
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Evaluating Text-to-SQL Model Failures on Real-World Data",
+   "year": "2024",
+   "journal": "Proceedings - International Conference on Data Engineering",
+   "type": "conference-abstract",
+   "lang": "",
+   "doi": "10.1109/icde60146.2024.00456",
+   "pmid": "",
+   "authors": [
+    "Manasi Ganti",
+    "Laurel Orr",
+    "Sen Wu"
+   ],
+   "kw": [],
+   "id": "R00255",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    255
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "DuoRAT: Towards Simpler Text-to-SQL Models",
+   "year": "2021",
+   "journal": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.naacl-main.103",
+   "pmid": "",
+   "authors": [
+    "Torsten Scholak",
+    "Raymond Li",
+    "Dzmitry Bahdanau",
+    "Harm de Vries",
+    "Chris Pal"
+   ],
+   "kw": [],
+   "id": "R00256",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    256
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Beyond Standard Losses: Redefining Text-to-SQL with Task-Specific Optimization",
+   "year": "2025",
+   "journal": "Mathematics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/math13142315",
+   "pmid": "",
+   "authors": [
+    "Iker Azurmendi",
+    "Ekaitz Zulueta",
+    "Gustavo García",
+    "Nekane Uriarte-Arrazola",
+    "José Manuel López-Guede"
+   ],
+   "kw": [],
+   "id": "R00257",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    257
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "mRAT-SQL+GAP: A Portuguese Text-to-SQL Transformer",
+   "year": "2021",
+   "journal": "Lecture notes in computer science",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1007/978-3-030-91699-2_35",
+   "pmid": "",
+   "authors": [
+    "Marcelo Archanjo José",
+    "Fábio Gagliardi Cozman"
+   ],
+   "kw": [],
+   "id": "R00258",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    258
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "PAUQ: Text-to-SQL in Russian",
+   "year": "2022",
+   "journal": "",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.18653/v1/2022.findings-emnlp.175",
+   "pmid": "",
+   "authors": [
+    "Daria Bakshandaeva",
+    "Oleg Somov",
+    "Ekaterina Dmitrieva",
+    "Vera Davydova",
+    "Elena Viktorovna Tutubalina"
+   ],
+   "kw": [],
+   "id": "R00259",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    259
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Text-to-SQL for Low-Resource Languages: A Unified Large Language Model Framework Evaluated on Arabic, Japanese, and Vietnamese",
+   "year": "2026",
+   "journal": "Electronics",
+   "type": "article",
+   "lang": "",
+   "doi": "10.3390/electronics15194398",
+   "pmid": "",
+   "authors": [
+    "Abdulrahman Aloraini"
+   ],
+   "kw": [],
+   "id": "R00260",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    260
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Zero-Shot Text-to-SQL Learning with Auxiliary Task",
+   "year": "2020",
+   "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1609/aaai.v34i05.6246",
+   "pmid": "",
+   "authors": [
+    "Shuaichen Chang",
+    "Pengfei Liu",
+    "Yun Tang",
+    "Jing Huang",
+    "Xiaodong He",
+    "Bowen Zhou"
+   ],
+   "kw": [],
+   "id": "R00261",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    261
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "X-SQL: reinforce schema representation with context",
+   "year": "2019",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.1908.08113",
+   "pmid": "",
+   "authors": [
+    "Pengcheng He",
+    "Yi Mao",
+    "Kaushik Chakrabarti",
+    "Weizhu Chen"
+   ],
+   "kw": [],
+   "id": "R00262",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    262
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Hybrid Ranking Network for Text-to-SQL",
+   "year": "2020",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.2008.04759",
+   "pmid": "",
+   "authors": [
+    "Qin Lyu",
+    "Kaushik Chakrabarti",
+    "Shobhit Hathi",
+    "Souvik Kundu",
+    "Jianwen Zhang",
+    "Zheng Chen"
+   ],
+   "kw": [],
+   "id": "R00263",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    263
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "F-SQL: Fuse Table Schema and Table Content for Single-Table Text2SQL Generation",
+   "year": "2020",
+   "journal": "IEEE Access",
+   "type": "article",
+   "lang": "",
+   "doi": "10.1109/access.2020.3011747",
+   "pmid": "",
+   "authors": [
+    "Xiaoyu Zhang",
+    "Fengjing Yin",
+    "Guojie Ma",
+    "Bin Ge",
+    "Weidong Xiao"
+   ],
+   "kw": [],
+   "id": "R00264",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    264
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Inventory Management: Dataset for Scalable Text-to-SQL Systems",
+   "year": "2025",
+   "journal": "International Conference on Recent Advances in Information Technology",
+   "type": "conference-paper",
+   "lang": "",
+   "doi": "10.1109/rait65068.2025.11088930",
+   "pmid": "",
+   "authors": [
+    "S. Shoba",
+    "Ranjan Kumar",
+    "S Ritheesh",
+    "B Hemant Kumar"
+   ],
+   "kw": [],
+   "id": "R00265",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    265
+   ],
+   "sources": [
+    "OpenAlex (snowballing)"
+   ],
+   "title": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+   "year": "2019",
+   "journal": "arXiv (Cornell University)",
+   "type": "preprint",
+   "lang": "",
+   "doi": "10.48550/arxiv.1908.11214",
+   "pmid": "",
+   "authors": [
+    "Ben Bogin",
+    "Matt Gardner",
+    "Jonathan Berant"
+   ],
+   "kw": [],
+   "id": "R00266",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    266
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL",
+   "year": "2025",
+   "journal": "IEEE Transactions on Knowledge and Data Engineering",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.1109/tkde.2026.3657851",
+   "pmid": "",
+   "authors": [
+    "Yifu Liu",
+    "Yin Zhu",
+    "Yingqi Gao",
+    "Zhiling Luo",
+    "Xiaoxia Li",
+    "Xiao-Rong Shi",
+    "Yuntao Hong",
+    "Jinyang Gao",
+    "Yu Li",
+    "Bolin Ding",
+    "Jingren Zhou"
+   ],
+   "kw": [],
+   "id": "R00267",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    267
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs",
+   "year": "2023",
+   "journal": "Neural Information Processing Systems",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2305.03111",
+   "pmid": "",
+   "authors": [
+    "Jinyang Li",
+    "Binyuan Hui",
+    "Ge Qu",
+    "Bin-Hua Li",
+    "Jiaxi Yang",
+    "Bo-Wen Li",
+    "Bailin Wang",
+    "Bowen Qin",
+    "Rongyu Cao",
+    "Ruiying Geng",
+    "Nan Huo",
+    "Xuan-He Zhou",
+    "Chenhao Ma",
+    "Guo-Liang Li",
+    "K. Chang",
+    "Fei Huang",
+    "Reynold Cheng",
+    "Yong-Bin Li"
+   ],
+   "kw": [],
+   "id": "R00268",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    268
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "CHESS: Contextual Harnessing for Efficient SQL Synthesis",
+   "year": "2024",
+   "journal": "arXiv.org",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2405.16755",
+   "pmid": "",
+   "authors": [
+    "Shayan Talaei",
+    "Mohammadreza Pourreza",
+    "Yu-Chen Chang",
+    "Azalia Mirhoseini",
+    "Amin Saberi"
+   ],
+   "kw": [],
+   "id": "R00269",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    269
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation",
+   "year": "2020",
+   "journal": "arXiv.org",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2006.06434",
+   "pmid": "",
+   "authors": [
+    "Ningyuan Sun",
+    "Xuefeng Yang",
+    "Yunfeng Liu"
+   ],
+   "kw": [],
+   "id": "R00270",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    270
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "DuSQL: a large-scale and pragmatic Chinese text-toSQL dataset. Association for Computational Linguistics, Online. https:// aclan tholo gy",
+   "year": "2020",
+   "journal": "",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [],
+   "kw": [],
+   "id": "R00271",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    271
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "We conduct benchmark session-level experiments on SeSQL, employing three competitive text-to-SQL models, i.e., EditSQL (Zhang et al., 2019), IGSQL (Cai and Wan, 2020), and EX-RATSQL",
+   "year": "2021",
+   "journal": "EX-RATSQL",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [],
+   "kw": [],
+   "id": "R00272",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    272
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Structure-Grounded Pretraining for Text-to-SQL",
+   "year": "2020",
+   "journal": "North American Chapter of the Association for Computational Linguistics",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.naacl-main.105",
+   "pmid": "",
+   "authors": [
+    "Xiang Deng",
+    "Ahmed Hassan Awadallah",
+    "Christopher Meek",
+    "Oleksandr Polozov",
+    "Huan Sun",
+    "Matthew Richardson"
+   ],
+   "kw": [],
+   "id": "R00273",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    273
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Decoupling the Skeleton Parsing and Schema Linking for Text-to-SQL",
+   "year": "2023",
+   "journal": "",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [
+    "Haoyang Li",
+    "Jing Zhang",
+    "Cui-Ping Li",
+    "Hong Chen"
+   ],
+   "kw": [],
+   "id": "R00274",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    275
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "CatSQL: Towards Real World Natural Language to SQL Applications",
+   "year": "2023",
+   "journal": "Proceedings of the VLDB Endowment",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.14778/3583140.3583165",
+   "pmid": "",
+   "authors": [
+    "Han Fu",
+    "Chang Liu",
+    "Bin Wu",
+    "Feifei Li",
+    "Jian Tan",
+    "Jian-Ling Sun"
+   ],
+   "kw": [],
+   "id": "R00275",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    276
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "NL2SQL is a solved problem... Not!",
+   "year": "2024",
+   "journal": "Conference on Innovative Data Systems Research",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [
+    "Avrilia Floratou",
+    "Fotis Psallidas",
+    "Fuheng Zhao",
+    "Shaleen Deep",
+    "Gunther Hagleither",
+    "Wangda Tan",
+    "Joyce Cahoon",
+    "Rana Alotaibi",
+    "Jordan Henkel",
+    "Abhik Singla",
+    "Alex Van Grootel",
+    "Brandon Chow",
+    "Kai Deng",
+    "Katherine Lin",
+    "Marcos Campos",
+    "K. V. Emani",
+    "Vivek Pandit",
+    "V. Shnayder",
+    "Wenjing Wang",
+    "Carlo Curino"
+   ],
+   "kw": [],
+   "id": "R00276",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    277
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries",
+   "year": "2024",
+   "journal": "Neural Information Processing Systems",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2406.19073",
+   "pmid": "",
+   "authors": [
+    "Irina Saparina",
+    "Mirella Lapata"
+   ],
+   "kw": [],
+   "id": "R00277",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    278
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring",
+   "year": "2024",
+   "journal": "",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2403.15879",
+   "pmid": "",
+   "authors": [
+    "Gyubok Lee",
+    "Woosog Chay",
+    "Seonhee Cho",
+    "Edward Choi"
+   ],
+   "kw": [],
+   "id": "R00278",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    279
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "TrustSQL: A Reliability Benchmark for Text-to-SQL Models with Diverse Unanswerable Questions",
+   "year": "2024",
+   "journal": "arXiv.org",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2403.15879",
+   "pmid": "",
+   "authors": [
+    "Gyubok Lee",
+    "Woosog Chay",
+    "Seonhee Cho",
+    "Edward Choi"
+   ],
+   "kw": [],
+   "id": "R00279",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    280
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "“Nstext2sql: An open source text-to-sql dataset for foundation model training,”",
+   "year": "2023",
+   "journal": "",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "",
+   "pmid": "",
+   "authors": [],
+   "kw": [],
+   "id": "R00280",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    281
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search",
+   "year": "2025",
+   "journal": "International Conference on Machine Learning",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2502.17248",
+   "pmid": "",
+   "authors": [
+    "Bo-Yan Li",
+    "Jiayi Zhang",
+    "Ju Fan",
+    "Yanwei Xu",
+    "Chong Chen",
+    "Nan Tang",
+    "Yu-Yu Luo"
+   ],
+   "kw": [],
+   "id": "R00281",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    282
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+   "year": "2024",
+   "journal": "International Conference on Learning Representations",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2411.07763",
+   "pmid": "",
+   "authors": [
+    "Fangyu Lei",
+    "Fangyu Lei",
+    "Ji-Xuan Chen",
+    "Yuxiao Ye",
+    "Ruisheng Cao",
+    "Dongchan Shin",
+    "Hongjin Su",
+    "Zhaoqing Suo",
+    "Hongcheng Gao",
+    "Hongcheng Gao",
+    "Pengcheng Yin",
+    "Victor Zhong",
+    "Caiming Xiong",
+    "Ruoxi Sun",
+    "Qian Liu",
+    "Sida Wang",
+    "Tao Yu"
+   ],
+   "kw": [],
+   "id": "R00282",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    283
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "A Survey on Employing Large Language Models for Text-to-SQL Tasks",
+   "year": "2024",
+   "journal": "ACM Computing Surveys",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.1145/3737873",
+   "pmid": "",
+   "authors": [
+    "Liang Shi",
+    "Zheng-Ju Tang",
+    "Nan Zhang",
+    "Xiaotong Zhang",
+    "Zhi Yang"
+   ],
+   "kw": [],
+   "id": "R00283",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    284
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+   "year": "2023",
+   "journal": "International Conference on Computational Linguistics",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2312.11242",
+   "pmid": "",
+   "authors": [
+    "Bing Wang",
+    "Changyu Ren",
+    "Jian Yang",
+    "Xin-Nian Liang",
+    "Jia-Qi Bai",
+    "Lin-Zheng Chai",
+    "Zhao Yan",
+    "Qian-Wen Zhang",
+    "Di Yin",
+    "Xing Sun",
+    "Zhou-Jun Li"
+   ],
+   "kw": [],
+   "id": "R00284",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    285
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data",
+   "year": "2021",
+   "journal": "NLP4PROG",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.18653/v1/2021.nlp4prog-1.9",
+   "pmid": "",
+   "authors": [
+    "Moshe Hazoom",
+    "Vibhor Malik",
+    "Ben Bogin"
+   ],
+   "kw": [],
+   "id": "R00285",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    286
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query",
+   "year": "2024",
+   "journal": "NAACL-HLT",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.18653/v1/2024.findings-naacl.214",
+   "pmid": "",
+   "authors": [
+    "Xi Chen",
+    "Jinguo You",
+    "Likun Likun",
+    "Xiang Li"
+   ],
+   "kw": [],
+   "id": "R00286",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    287
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Automatic Metadata Extraction for Text-to-SQL",
+   "year": "2025",
+   "journal": "arXiv.org",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2505.19988",
+   "pmid": "",
+   "authors": [
+    "Vladislav Shkapenyuk",
+    "Divesh Srivastava",
+    "T. Johnson",
+    "Parisa Ghane"
+   ],
+   "kw": [],
+   "id": "R00287",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    288
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL",
+   "year": "2024",
+   "journal": "",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2411.08599",
+   "pmid": "",
+   "authors": [
+    "Yingqi Gao",
+    "Yifu Liu",
+    "Xiaoxia Li",
+    "Xiao-Rong Shi",
+    "Yin Zhu",
+    "Yiming Wang",
+    "Shiqi Li",
+    "Wei Li",
+    "Yuntao Hong",
+    "Zhiling Luo",
+    "Jinyang Gao",
+    "Liyu Mou",
+    "Yu Li"
+   ],
+   "kw": [],
+   "id": "R00288",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    289
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "A Text-to-SQL strategy based on large language models and knowledge graphs for real-world databases",
+   "year": "2026",
+   "journal": "Data & Knowledge Engineering",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.1016/j.datak.2026.102580",
+   "pmid": "",
+   "authors": [
+    "Eduardo R. S. Nascimento",
+    "Caio Viktor S. Avila",
+    "Y. Izquierdo",
+    "Grettel M. García",
+    "Lucas Feijó L. Andrade",
+    "Matheus O. Silva",
+    "M. Facina",
+    "Melissa Lemos",
+    "Marco A. Casanova"
+   ],
+   "kw": [],
+   "id": "R00289",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    290
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
+   "year": "2024",
+   "journal": "arXiv.org",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2409.02038",
+   "pmid": "",
+   "authors": [
+    "Peter Baile Chen",
+    "Weiyue Li",
+    "Fabian Wenz",
+    "Yi Zhang",
+    "Yi Zhang",
+    "N. Tatbul",
+    "Michael J. Cafarella",
+    "cCaugatay Demiralp",
+    "Michael Stonebraker"
+   ],
+   "kw": [],
+   "id": "R00290",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    291
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "ExeSQL: Self-Taught Text-to-SQL Models with Execution-Driven Bootstrapping for SQL Dialects",
+   "year": "2025",
+   "journal": "Conference on Empirical Methods in Natural Language Processing",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.2505.17231",
+   "pmid": "",
+   "authors": [
+    "Jipeng Zhang",
+    "Haolin Yang",
+    "Kehao Miao",
+    "Ruiyuan Zhang",
+    "Ren-Jie Pi",
+    "Jia-Hui Gao",
+    "Xiao-Fang Zhou"
+   ],
+   "kw": [],
+   "id": "R00291",
+   "batch": "b006"
+  },
+  {
+   "members": [
+    292
+   ],
+   "sources": [
+    "Semantic Scholar (snowballing)"
+   ],
+   "title": "Content Enhanced BERT-based Text-to-SQL Generation",
+   "year": "2019",
+   "journal": "arXiv.org",
+   "type": "Conference paper",
+   "lang": "",
+   "doi": "10.48550/arxiv.1910.07179",
+   "pmid": "",
+   "authors": [
+    "Tong Guo",
+    "Huilin Gao"
+   ],
+   "kw": [],
+   "id": "R00292",
+   "batch": "b006"
+  }
+ ],
+ "id_width": 5,
+ "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022"
+}

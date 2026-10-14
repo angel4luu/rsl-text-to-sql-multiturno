@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00293@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00293",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn self-debugging with execution feedback is the central contribution, evaluated quantitatively on Spider text-to-SQL, a public benchmark.",
+   "where": "p1 Abstract; p2 Introduction; p4 Sec 4.1 Text-to-SQL Generation"
+  }
+ ],
+ "source": "cli:FTA_R00293.json"
+}

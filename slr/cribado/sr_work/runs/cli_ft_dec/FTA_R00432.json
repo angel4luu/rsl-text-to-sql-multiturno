@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00432@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00432",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; candidate selection is the central contribution; execution accuracy evaluated on BIRD-DEV subset (public benchmark).",
+   "where": "p1 Abstract and Contribution; p4 Experiments (Dataset, Baselines, Evaluation)"
+  }
+ ],
+ "source": "cli:FTA_R00432.json"
+}

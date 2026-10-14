@@ -1,0 +1,156 @@
+{
+ "label": "QC:q001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00011",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn audit of access minimality; linking/correction not a stated contribution"
+  },
+  {
+   "id": "R00037",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General table pretraining model; single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00046",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of learned database optimization techniques"
+  },
+  {
+   "id": "R00065",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Few-shot example selection method; single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00102",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation metric (test suite accuracy), no linking/correction contribution"
+  },
+  {
+   "id": "R00107",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Re-evaluation of single-turn benchmarks; no linking/correction contribution"
+  },
+  {
+   "id": "R00114",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Retrieval-augmented fine-tuning framework; single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00122",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Weak supervision via question decomposition; single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00125",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Security vulnerabilities of Text-to-SQL; no linking/correction contribution"
+  },
+  {
+   "id": "R00132",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Annotation framework for non-programmers; single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00136",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reduces RAT-SQL schema-question relations; schema linking possibly central"
+  },
+  {
+   "id": "R00169",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General GenAI document platform; text-to-SQL only a component"
+  },
+  {
+   "id": "R00170",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comprehensive overview report of NL2SQL systems"
+  },
+  {
+   "id": "R00186",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Dissertation"
+  },
+  {
+   "id": "R00189",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Meta-learning for domain generalization; single-turn, no linking/correction"
+  },
+  {
+   "id": "R00192",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLMs judging SQL equivalence; not linking or self-correction contribution"
+  },
+  {
+   "id": "R00204",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Feature augmentation for robustness; single-turn, no linking/correction"
+  },
+  {
+   "id": "R00224",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Literature review of LLM-based Text-to-SQL"
+  },
+  {
+   "id": "R00228",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Title: single-turn evaluation benchmark, no linking/correction focus"
+  },
+  {
+   "id": "R00242",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Ontology-based nested query NLIDB; single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00243",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Medical BERT-grammar decoder model; single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00247",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Exploratory data analysis system description; no multi-turn dialogue stated"
+  },
+  {
+   "id": "R00255",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference abstract only"
+  },
+  {
+   "id": "R00260",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema/value grounding and execution voting/repair; unclear if central contribution"
+  },
+  {
+   "id": "R00290",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn enterprise benchmark; no linking/correction contribution"
+  }
+ ],
+ "source": "cli:QC_q001.json"
+}

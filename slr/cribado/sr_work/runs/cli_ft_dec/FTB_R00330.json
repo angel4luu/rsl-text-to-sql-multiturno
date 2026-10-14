@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00330@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00330",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema linking and noise correction are stated contributions; evaluated on Spider/BIRD and five public benchmarks, outperforming prior methods.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p3-4 Sections 3.1-3.2"
+  }
+ ],
+ "source": "cli:FTB_R00330.json"
+}

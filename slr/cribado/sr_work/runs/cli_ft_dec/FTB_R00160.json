@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00160@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00160",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn CoSQL Text-to-SQL; execution-based error learning and guidance; quantitative results (QEX, IEX) on public benchmark.",
+   "where": "p1 Abstract; p2 Introduction; p3-4 Experiment 4.1-4.2, Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00160.json"
+}

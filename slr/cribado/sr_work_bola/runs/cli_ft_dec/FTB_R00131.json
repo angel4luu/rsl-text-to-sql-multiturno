@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00131@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00131",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL; candidate re-ranking is a stated contribution; evaluated on Spider and CoSQL with EM, QM and IM.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p6-7 Section 4.2-4.5 Experiments"
+  }
+ ],
+ "source": "cli:FTB_R00131.json"
+}

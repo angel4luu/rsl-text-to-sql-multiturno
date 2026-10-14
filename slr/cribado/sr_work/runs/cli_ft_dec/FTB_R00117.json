@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00117@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00117",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with schema interaction graph; quantitative evaluation on SParC and CoSQL; EMNLP 2020 full paper",
+   "where": "p1 Abstract; p3-5 Section 4 Model; p6-8 Sections 6.1-6.3 Experiments, Tables 3-6"
+  }
+ ],
+ "source": "cli:FTB_R00117.json"
+}

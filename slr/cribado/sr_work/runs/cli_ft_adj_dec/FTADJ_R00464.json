@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00464@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00464",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study; core contribution is join-path validation plus validate-and-retry self-correction, evaluated on a released open benchmark and NHTSA data",
+   "where": "p1 Abstract, Core contribution; p9-10 Sec. 6-8 Experimental Setup, Metrics, Results"
+  }
+ ],
+ "source": "cli:FTADJ_R00464.json"
+}

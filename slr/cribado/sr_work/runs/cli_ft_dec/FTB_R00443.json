@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00443@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00443",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn memory-evolution framework for Text-to-SQL; schema linking and self-correction are not the central contribution, since memory is only anchored to the schema.",
+   "where": "p1 Abstract; p1-2 Introduction (contributions); p5-6 Experiment"
+  }
+ ],
+ "source": "cli:FTB_R00443.json"
+}

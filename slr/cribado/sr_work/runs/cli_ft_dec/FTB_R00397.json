@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00397@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00397",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; central contribution is agentic RL with execution feedback/self-correction; evaluated with EX on BIRD and Spider.",
+   "where": "p1 Abstract and Introduction; p3 §3.2-3.3; p3-4 §4 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00397.json"
+}

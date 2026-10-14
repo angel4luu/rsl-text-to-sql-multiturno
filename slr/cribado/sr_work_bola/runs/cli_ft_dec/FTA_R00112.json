@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00112@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00112",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity benchmark (AmbiQT) and top-k diverse decoding; schema linking and self-correction are not stated contributions.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p5 Sec. 5 LogicalBeam"
+  }
+ ],
+ "source": "cli:FTA_R00112.json"
+}

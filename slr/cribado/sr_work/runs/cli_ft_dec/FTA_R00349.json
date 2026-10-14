@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00349@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00349",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmark for table/database retrieval (table selection) with Text-to-SQL on Spider/BIRD, reporting recall and execution accuracy; single-turn.",
+   "where": "p1 Abstract; p3-4 Sec. 3 Benchmark design, Text-to-SQL task and Table 1 metrics"
+  }
+ ],
+ "source": "cli:FTA_R00349.json"
+}

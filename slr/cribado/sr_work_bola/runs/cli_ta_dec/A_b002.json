@@ -1,0 +1,306 @@
+{
+ "label": "A:b002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00051",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn uncertainty constraints, no linking/correction focus"
+  },
+  {
+   "id": "R00052",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn architecture with graph layers, not linking/correction"
+  },
+  {
+   "id": "R00053",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests dynamic revision chain (correction)"
+  },
+  {
+   "id": "R00054",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompting with skeleton retrieval, not linking/correction"
+  },
+  {
+   "id": "R00055",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM system, no linking/correction in title"
+  },
+  {
+   "id": "R00056",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn neural method; title shows no linking/correction"
+  },
+  {
+   "id": "R00057",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn sketch slot filling, not linking/correction"
+  },
+  {
+   "id": "R00058",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn generalization evaluation setup, not linking/correction"
+  },
+  {
+   "id": "R00059",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn data augmentation"
+  },
+  {
+   "id": "R00060",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness benchmark, not linking/correction"
+  },
+  {
+   "id": "R00061",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn intermediate representations for generalization"
+  },
+  {
+   "id": "R00062",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pre-training on question-schema interaction; schema grounding may be central"
+  },
+  {
+   "id": "R00063",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM robustness study, no abstract suggests linking"
+  },
+  {
+   "id": "R00064",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn Osquery system with table retrieval; centrality unclear"
+  },
+  {
+   "id": "R00065",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Few-shot example selection, single-turn"
+  },
+  {
+   "id": "R00066",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Unified multi-task SKG benchmark, not linking/correction"
+  },
+  {
+   "id": "R00067",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn data synthesis"
+  },
+  {
+   "id": "R00068",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation framework, not linking/correction"
+  },
+  {
+   "id": "R00069",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema alignment and execution-based selection among several components"
+  },
+  {
+   "id": "R00070",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn chain-of-thought prompting"
+  },
+  {
+   "id": "R00071",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn fine-tuned T5 for healthcare"
+  },
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-based consistency candidate selection is a central contribution"
+  },
+  {
+   "id": "R00073",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; retrieval/reasoning title, no linking or correction"
+  },
+  {
+   "id": "R00074",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Error detection for parsers; verification centrality plausible"
+  },
+  {
+   "id": "R00075",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn adaptive in-context learning and example retrieval"
+  },
+  {
+   "id": "R00076",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title shows no linking/correction focus"
+  },
+  {
+   "id": "R00077",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation metric"
+  },
+  {
+   "id": "R00078",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn application platform description"
+  },
+  {
+   "id": "R00079",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt construction method"
+  },
+  {
+   "id": "R00080",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; query hardness parsing, not linking/correction"
+  },
+  {
+   "id": "R00081",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; multilingual spatial NLIDB, not multi-turn"
+  },
+  {
+   "id": "R00082",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn O&G multi-task T5 application"
+  },
+  {
+   "id": "R00083",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Grammatical info in GNN, single-turn, not linking"
+  },
+  {
+   "id": "R00084",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn Chinese dataset, not about linking"
+  },
+  {
+   "id": "R00085",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; fine-tuning method, single-turn"
+  },
+  {
+   "id": "R00086",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema selector and SQL refiner stated as contributions"
+  },
+  {
+   "id": "R00087",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cross-lingual single-turn representation mixup"
+  },
+  {
+   "id": "R00088",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema/pattern linking mentioned; unclear if central"
+  },
+  {
+   "id": "R00089",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General single-turn system description"
+  },
+  {
+   "id": "R00090",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Database selection plus critic-agent error correction; centrality unclear"
+  },
+  {
+   "id": "R00091",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; skeleton decoupling, not linking/correction"
+  },
+  {
+   "id": "R00092",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; graph attention title, no linking stated"
+  },
+  {
+   "id": "R00093",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn zero-shot rule-based NLIDB"
+  },
+  {
+   "id": "R00094",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt learning generation"
+  },
+  {
+   "id": "R00095",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn hints from query logs"
+  },
+  {
+   "id": "R00096",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Parameter-efficient fine-tuning, single-turn"
+  },
+  {
+   "id": "R00097",
+   "d": "include",
+   "code": "INC",
+   "why": "Relevant table and column extraction via RAG is the focus"
+  },
+  {
+   "id": "R00098",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; comparative model analysis, single-turn"
+  },
+  {
+   "id": "R00099",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; CoT with RAG, no linking/correction"
+  },
+  {
+   "id": "R00100",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; 'logic-linking' in title may mean schema linking"
+  }
+ ],
+ "source": "cli:A_b002.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00088@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00088",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn conversational Text-to-SQL with dialog state tracker and follow-on handling; reports NER/NED F1 and 88% system accuracy on proprietary data.",
+   "where": "p5-6 Sec 3.2 (Follow-on classifier, DST); p6 Sec 4.1-4.2 (Data, evaluation)"
+  }
+ ],
+ "source_transcript": "agent-a766b88fd7882e605.jsonl"
+}

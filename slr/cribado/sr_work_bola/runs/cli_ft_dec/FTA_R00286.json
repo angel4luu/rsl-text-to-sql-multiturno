@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00286",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; value matching/prompting DB-interaction refinement stated as contribution; evaluated quantitatively (EM, EX) on public CRUDSQL dataset.",
+   "where": "p1 Abstract; p2 Introduction contributions (3); p6-7 Section 5 Experiments, Tables 3-5"
+  }
+ ],
+ "source": "cli:FTA_R00286.json"
+}

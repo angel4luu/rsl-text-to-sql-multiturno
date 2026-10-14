@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00131@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00131",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn cross-domain Text-to-SQL with query editing from history; quantitative evaluation on SParC, Spider and ATIS, 2019 EMNLP paper.",
+   "where": "p1 Abstract/Introduction; p7-9 Section 5 Experimental Results (Tables 4-6)"
+  }
+ ],
+ "source": "cli:FTA_R00131.json"
+}

@@ -1,0 +1,1 @@
+{"label": "FTB:R00986@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00986", "d": "include", "code": "INC", "why": "Central contributions address cross-language schema linking and SQL correction, quantitatively evaluated on the public CSpider benchmark.", "where": "p1 Abstract; pp11–12 Sections 4.1–4.3"}], "source": "codex:gpt-6.1-sol"}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00875@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00875",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application LLM/LangChain query system; 42 independent questions; schema linking only an error category, not a contribution.",
+   "where": "p4-5 Methods 3.1; p8 Section 5.2 Question Design; p11 Section 6.4 Error Type Analysis"
+  }
+ ],
+ "source": "cli:FTA_R00875.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00473@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00473",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema-linking method (central contribution), quantitative evaluation on Spider, BIRD and Spider2-SQLite; English arXiv 2026.",
+   "where": "p1 Abstract and Introduction; p4-5 Experiments, Datasets and Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00473.json"
+}

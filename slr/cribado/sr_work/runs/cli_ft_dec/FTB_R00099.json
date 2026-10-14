@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00099@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00099",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn DST reformulated as text-to-SQL over table schemas; dialogue-state context representation; quantitative JGA on MultiWOZ, 2022 paper in English.",
+   "where": "p2-3 Sec 2.1 DST as Text-to-SQL; p5-6 Sec 3-4 Experiments, Results (Tables 1-2)"
+  }
+ ],
+ "source": "cli:FTB_R00099.json"
+}

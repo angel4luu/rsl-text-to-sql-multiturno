@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00401@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00401",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn table retrieval/join study evaluated only on anonymized proprietary enterprise database; Spider/BIRD used only for statistics",
+   "where": "p2 Introduction, contributions; p4 Section 3 Experimental Evaluation"
+  }
+ ],
+ "source": "cli:FTADJ_R00401.json"
+}

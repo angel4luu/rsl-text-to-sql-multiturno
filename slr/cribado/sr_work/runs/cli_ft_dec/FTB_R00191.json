@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00191@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00191",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-guided table retrieval (table selection) is the central contribution; evaluated quantitatively on Open-domain WikiSQL, derived from public WikiSQL.",
+   "where": "p1 Abstract and Introduction; p5 Tables 2-4, Section 4.4 Experimental Results"
+  }
+ ],
+ "source": "cli:FTB_R00191.json"
+}

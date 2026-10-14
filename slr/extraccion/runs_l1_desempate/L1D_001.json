@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"B00019\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"B00053\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"B00086\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"B00088\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"B00109\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"B00229\",\"extraccion\":{\"paradigma_principal\":\"LLM_PROMPTING\",\"requiere_entrenamiento\":\"SI\"}},{\"id_estudio\":\"B00270\",\"extraccion\":{\"paradigma_principal\":\"NR\"}},{\"id_estudio\":\"B00281\",\"extraccion\":{\"paradigma_principal\":\"AGENTES\",\"pi3_inferencia_joins\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_001"
+}

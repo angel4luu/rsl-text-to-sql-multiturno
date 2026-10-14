@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00402@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00402",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; self-correction/reflective refinement is the central contribution; quantitative evaluation on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Contributions; p5 Section 5 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00402.json"
+}

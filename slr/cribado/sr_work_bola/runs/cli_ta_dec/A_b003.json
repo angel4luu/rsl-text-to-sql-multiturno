@@ -1,0 +1,306 @@
+{
+ "label": "A:b003@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00101",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn pretraining framework; no linking/correction focus"
+  },
+  {
+   "id": "R00102",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation metric, not linking or correction"
+  },
+  {
+   "id": "R00103",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Grammar-based decoding, single-turn"
+  },
+  {
+   "id": "R00104",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn pretraining framework; no linking/correction focus"
+  },
+  {
+   "id": "R00105",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00106",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Few-shot prompt learning, single-turn"
+  },
+  {
+   "id": "R00107",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn benchmark re-evaluation"
+  },
+  {
+   "id": "R00108",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cross-lingual retrieval prompting, single-turn"
+  },
+  {
+   "id": "R00109",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "KB and DB parser with primitive ranker pruning; relational SQL unclear"
+  },
+  {
+   "id": "R00110",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis for single-turn parsing"
+  },
+  {
+   "id": "R00111",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demonstration selection, single-turn"
+  },
+  {
+   "id": "R00112",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Ambiguity benchmark and decoding, single-turn"
+  },
+  {
+   "id": "R00113",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Knowledge-intensive single-turn parsing, not linking/correction"
+  },
+  {
+   "id": "R00114",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Retrieval-augmented generation, single-turn"
+  },
+  {
+   "id": "R00115",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cross-lingual meta-learning, single-turn"
+  },
+  {
+   "id": "R00116",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema subsetting retrieval central; Spider/BIRD-based benchmarks"
+  },
+  {
+   "id": "R00117",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn RAG multi-agent geospatial system"
+  },
+  {
+   "id": "R00118",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Query decomposition language, single-turn"
+  },
+  {
+   "id": "R00119",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Dataset error fixing, not model self-correction"
+  },
+  {
+   "id": "R00120",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Backdoor security attack"
+  },
+  {
+   "id": "R00121",
+   "d": "exclude",
+   "code": "E5",
+   "why": "MongoDB NoSQL dataset"
+  },
+  {
+   "id": "R00122",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Weak supervision training, single-turn"
+  },
+  {
+   "id": "R00123",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Generate-and-rank; join semantics extension, centrality unclear"
+  },
+  {
+   "id": "R00124",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis for adaptation, single-turn"
+  },
+  {
+   "id": "R00125",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Vulnerability/security study"
+  },
+  {
+   "id": "R00126",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cross-lingual semantic parsing, single-turn"
+  },
+  {
+   "id": "R00127",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL injection attack framework"
+  },
+  {
+   "id": "R00128",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title shows nested query translation only"
+  },
+  {
+   "id": "R00129",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluation metric, single-turn"
+  },
+  {
+   "id": "R00130",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Elasticsearch NoSQL queries"
+  },
+  {
+   "id": "R00131",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Constrained generation plus candidate re-ranking; centrality unclear"
+  },
+  {
+   "id": "R00132",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Annotation framework, single-turn"
+  },
+  {
+   "id": "R00133",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Case-based adaptation, single-turn"
+  },
+  {
+   "id": "R00134",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Fine-tuned lightweight model, single-turn"
+  },
+  {
+   "id": "R00135",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Federated learning, single-turn"
+  },
+  {
+   "id": "R00136",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Model simplification of RAT-SQL relations"
+  },
+  {
+   "id": "R00137",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Social bias study"
+  },
+  {
+   "id": "R00138",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application assessment, single-turn"
+  },
+  {
+   "id": "R00139",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; metadata graph reasoning suggests schema linking"
+  },
+  {
+   "id": "R00140",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Model comparison, single-turn"
+  },
+  {
+   "id": "R00141",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Model compression study"
+  },
+  {
+   "id": "R00142",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema generalization test data, single-turn"
+  },
+  {
+   "id": "R00143",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; general query understanding, single-turn"
+  },
+  {
+   "id": "R00144",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Form-to-database pipeline application"
+  },
+  {
+   "id": "R00145",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain data generation, single-turn"
+  },
+  {
+   "id": "R00146",
+   "d": "include",
+   "code": "INC",
+   "why": "Search using execution criterion to find correct queries"
+  },
+  {
+   "id": "R00147",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; validity-constrained generation, not linking/correction"
+  },
+  {
+   "id": "R00148",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00149",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Temporal questions dataset, single-turn"
+  },
+  {
+   "id": "R00150",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data security framework, text-to-SQL incidental"
+  }
+ ],
+ "source": "cli:A_b003.json"
+}

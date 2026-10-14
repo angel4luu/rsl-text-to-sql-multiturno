@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00210@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00210",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-driven debugging/verification loop is a stated contribution; quantitative evaluation on DS-NL2SQL, built from Spider/BIRD and released publicly.",
+   "where": "p1 Abstract and Introduction contributions (5); p9-10 Section 7.2 DS-NL2SQL benchmark, Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00210.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R01019@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R01019",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn tool-calling system with semantic layer and security focus; no central schema-linking or self-correction contribution.",
+   "where": "p3 Section 1.4 Contributions; p17 Section 4.4.1 (single-turn interface)"
+  }
+ ],
+ "source": "cli:FTA_R01019.json"
+}

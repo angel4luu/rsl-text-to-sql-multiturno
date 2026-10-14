@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00141@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00141",
+   "d": "exclude",
+   "code": "E7",
+   "why": "Four-page demo paper; no quantitative results reported. Accuracy claims only cite prior studies.",
+   "where": "p1 Abstract; p3-4 Sections 3-4 (demonstration phases, scenarios)"
+  }
+ ],
+ "source": "cli:FTB_R00141.json"
+}

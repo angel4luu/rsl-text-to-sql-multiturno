@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00309@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00309",
+   "d": "include",
+   "code": "INC",
+   "why": "2024 arXiv primary study. Multi-round NL2BI with MRD matching and schema linking via view selection. Abstract reports best results against NL2SQL baselines.",
+   "where": "p1 Abstract and Introduction; p5 §4.1 MRD Matching; p6 §4.2 Single View Selection. Experiment pages 7-12 were not in the extract."
+  }
+ ],
+ "source": "cli:FTA_R00309.json"
+}

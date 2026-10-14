@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00679@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00679",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn skeleton-prediction tree search; no central schema linking, join inference or execution-feedback self-correction contribution.",
+   "where": "p1 Abstract; p1-2 Introduction, contributions; p4 Methodology"
+  }
+ ],
+ "source": "cli:FTB_R00679.json"
+}

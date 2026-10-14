@@ -1,0 +1,1 @@
+{"label": "FTB:R00995@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00995", "d": "include", "code": "INC", "why": "Central contribution is two-stage SQL verification and correction, quantitatively evaluated on public BIRD and Spider benchmarks.", "where": "p1 Abstract; p6 §§4.1–4.2; p7 §§4.4–4.5"}], "source": "codex:gpt-6.1-sol"}

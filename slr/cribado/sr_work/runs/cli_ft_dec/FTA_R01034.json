@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R01034@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R01034",
+   "d": "include",
+   "code": "INC",
+   "why": "Follow-up query fusion (context restoration) for NLIDB over WikiSQL tables; quantitative evaluation including execution accuracy; AAAI 2019",
+   "where": "p1 Abstract/Introduction; p4-5 Sections 3-4; p5-6 Section 5 Experiments, Tables 4-5"
+  }
+ ],
+ "source": "cli:FTA_R01034.json"
+}

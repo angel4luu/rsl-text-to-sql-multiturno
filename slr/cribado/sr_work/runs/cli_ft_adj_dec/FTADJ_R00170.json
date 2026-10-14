@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00170@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00170",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Chinese Text-to-SQL evaluated on public DuSQL and CHASE, including multi-turn dialogues; improved schema linking is a stated core strategy.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p6 Sec 3.1 Dataset, Table 1; p7 Tables 3-4"
+  }
+ ],
+ "source": "cli:FTADJ_R00170.json"
+}

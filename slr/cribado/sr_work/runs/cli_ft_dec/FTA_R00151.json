@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00151@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00151",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking (SchemaLinker) and candidate selection as core contributions; evaluated with EX on Spider and BIRD.",
+   "where": "p1 Abstract; p14 §3.4; p15 §4.2.1–4.2.2 Datasets and Metrics"
+  }
+ ],
+ "source": "cli:FTA_R00151.json"
+}

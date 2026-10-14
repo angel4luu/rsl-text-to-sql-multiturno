@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00192@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00192",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study on schema identifier naturalness and its effect on schema linking, with quantitative LLM evaluation on the new SNAILS benchmark.",
+   "where": "p1 Abstract; p2 Introduction, Our Focus; p4 Sec 1.2 Artifacts (pp5-25 not in excerpt)"
+  }
+ ],
+ "source": "cli:FTB_R00192.json"
+}

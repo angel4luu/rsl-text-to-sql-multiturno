@@ -1,0 +1,44 @@
+% Generado por analysis/src/tablas/tablas.py — no editar a mano.
+\begin{table}[!tbp]
+\centering
+\caption{Técnicas de PI3 y PI4 por escenario, con ambos brazos restringidos a los estudios cuya contribución central es PI3 o PI4 (misma regla de entrada): multiturno ($n = 34$) y un turno ($n = 268$). Un estudio puede tener varios códigos. Los estudios de un turno se extrajeron de las páginas iniciales (Nivel 1), por lo que la fila «no reportado» no es comparable entre escenarios. \textsuperscript{b}Técnica de un turno no trasladada al multiturno.}
+\label{tab:contraste-pi34}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l r r@{}}
+\toprule
+Código & Multiturno & Un turno \\
+\midrule
+\multicolumn{3}{@{}l}{\textit{PI3 · Vinculación de esquemas}} \\
+\quad LLM con \en{prompting} & 9 (\num{26.5}) & 68 (\num{25.4}) \\
+\quad Poda del esquema & 7 (\num{20.6}) & 50 (\num{18.7}) \\
+\quad Recuperación por \en{embeddings} & 5 (\num{14.7}) & 44 (\num{16.4}) \\
+\quad Clasificador entrenado & 6 (\num{17.6}) & 41 (\num{15.3}) \\
+\quad Ninguna explícita & 5 (\num{14.7}) & 31 (\num{11.6}) \\
+\quad Grafo del esquema & 5 (\num{14.7}) & 27 (\num{10.1}) \\
+\quad Coincidencia de cadenas & 8 (\num{23.5}) & 15 (\num{5.6}) \\
+\quad No reportado & 8 (\num{23.5}) & 75 (\num{28.0}) \\
+\multicolumn{3}{@{}l}{\textit{PI3 · Inferencia de \en{joins}}} \\
+\quad Implícita en el modelo & 26 (\num{76.5}) & 55 (\num{20.5}) \\
+\quad Grafo de claves foráneas & 1 (\num{2.9}) & 12 (\num{4.5}) \\
+\quad Algorítmica (caminos) & 1 (\num{2.9}) & 8 (\num{3.0}) \\
+\quad No reportado & 6 (\num{17.6}) & 193 (\num{72.0}) \\
+\multicolumn{3}{@{}l}{\textit{PI4 · Mecanismo}} \\
+\quad Retroalimentación de ejecución & 8 (\num{23.5}) & 90 (\num{33.6}) \\
+\quad Verificador o crítico & 1 (\num{2.9}) & 58 (\num{21.6}) \\
+\quad Autodepuración con LLM & 4 (\num{11.8}) & 40 (\num{14.9}) \\
+\quad Autoconsistencia (votación)\textsuperscript{b} & 0 (\num{0.0}) & 36 (\num{13.4}) \\
+\quad Aclaración con el usuario & 16 (\num{47.1}) & 6 (\num{2.2}) \\
+\quad Abstención & 3 (\num{8.8}) & 8 (\num{3.0}) \\
+\quad Reparación simbólica\textsuperscript{b} & 0 (\num{0.0}) & 6 (\num{2.2}) \\
+\quad No reportado & 12 (\num{35.3}) & 105 (\num{39.2}) \\
+\multicolumn{3}{@{}l}{\textit{PI4 · Señal}} \\
+\quad Resultado de la ejecución & 7 (\num{20.6}) & 91 (\num{34.0}) \\
+\quad Error del SGBD & 7 (\num{20.6}) & 56 (\num{20.9}) \\
+\quad Juicio de un LLM & 3 (\num{8.8}) & 48 (\num{17.9}) \\
+\quad Usuario & 15 (\num{44.1}) & 8 (\num{3.0}) \\
+\quad Resultado vacío & 1 (\num{2.9}) & 7 (\num{2.6}) \\
+\quad No reportado & 11 (\num{32.4}) & 120 (\num{44.8}) \\
+\bottomrule
+\end{tabular}
+\end{table}

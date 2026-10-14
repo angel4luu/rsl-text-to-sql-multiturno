@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00086@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00086",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL; schema-linking-style CoT plus multi-turn question rewriting, evaluated on Spider, SParC and CoSQL (QM/IM).",
+   "where": "p5 Sec 3.4 Multi-turn extension; p6 Sec 4.1 Datasets and metrics; p8 Sec 4.4 Tables 8-9"
+  }
+ ],
+ "source_transcript": "agent-adb6a6fef614b8db8.jsonl"
+}

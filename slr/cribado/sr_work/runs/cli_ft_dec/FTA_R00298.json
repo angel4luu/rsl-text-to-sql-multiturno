@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00298@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00298",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL with table/column selection as a stated contribution; evaluated on Spider, SParC and CoSQL with per-question and per-interaction metrics.",
+   "where": "p1 Abstract; p6 Sec 5.1 Dataset and Evaluation Metrics; p7 Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00298.json"
+}

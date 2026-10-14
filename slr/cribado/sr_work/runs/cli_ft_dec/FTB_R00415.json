@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00415@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00415",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agentic Text-to-SQL; schema exploration and grounding is the central contribution; EX evaluated on BIRD and Spider variants.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Sec 4.1 and Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00415.json"
+}

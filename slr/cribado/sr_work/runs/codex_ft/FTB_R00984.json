@@ -1,0 +1,1 @@
+{"label": "FTB:R00984@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00984", "d": "unclear", "code": "UNC", "why": "Incomplete extract omits experimental pages; single-turn evaluation on a public benchmark cannot be verified.", "where": "p4 §3.4; pages 5–10 omitted"}], "source": "codex:gpt-6.1-sol"}

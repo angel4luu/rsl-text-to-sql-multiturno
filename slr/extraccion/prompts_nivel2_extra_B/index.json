@@ -1,0 +1,12 @@
+[
+ {
+  "label": "EXTB:R00105",
+  "prompt_file": "slr/extraccion/prompts_nivel2_extra/B_R00105.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTB:R00123",
+  "prompt_file": "slr/extraccion/prompts_nivel2_extra/B_R00123.txt",
+  "model": "sonnet"
+ }
+]

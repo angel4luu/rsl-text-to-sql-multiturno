@@ -1,0 +1,18 @@
+{
+ "label": "QC:q003@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00001",
+   "d": "exclude",
+   "code": "E5",
+   "why": "LLM uses SQL to build dialogue ontology, not NL querying of databases"
+  },
+  {
+   "id": "R00132",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Code idiom decoding; ATIS-SQL single-turn, no linking/correction contribution"
+  }
+ ],
+ "source_transcript": "agent-ae7b7177ea7cecb40.jsonl"
+}

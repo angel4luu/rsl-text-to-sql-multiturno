@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00954@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00954",
+   "d": "include",
+   "code": "INC",
+   "why": "Proposes multi-turn Chat-SQL with dialogue state tracking, evaluated quantitatively on SParC, Spider and WikiSQL; published 2026, English.",
+   "where": "p9-10 Sec 3 Proposed model; p15 Sec 4 Dialogue Manager; p15-17 Sec 4 Tables 4-6"
+  }
+ ],
+ "source": "cli:FTA_R00954.json"
+}

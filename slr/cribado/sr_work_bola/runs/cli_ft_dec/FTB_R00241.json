@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00241@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00241",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with decomposed schema-linking fine-tuning as central contribution; quantitative evaluation on Spider, Spider-SYN and BIRD.",
+   "where": "p1 Abstract; p3 Sec 2.2 Decomposed Fine-tuning; p4 Sec 3.2-3.4 Datasets and Results"
+  }
+ ],
+ "source": "cli:FTB_R00241.json"
+}

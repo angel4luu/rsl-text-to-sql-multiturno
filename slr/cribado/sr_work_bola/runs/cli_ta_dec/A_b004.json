@@ -1,0 +1,306 @@
+{
+ "label": "A:b004@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00151",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; generate-and-rank suggests candidate selection"
+  },
+  {
+   "id": "R00152",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Elasticsearch NoSQL queries, not relational SQL"
+  },
+  {
+   "id": "R00153",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn general NLIDB focused on data security"
+  },
+  {
+   "id": "R00154",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; multi-table NL2SQL may involve joins or linking"
+  },
+  {
+   "id": "R00155",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn syntactic information and multi-task learning, no linking focus"
+  },
+  {
+   "id": "R00156",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NLIDB, title shows no linking or correction"
+  },
+  {
+   "id": "R00157",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; schema interaction graph may be schema linking"
+  },
+  {
+   "id": "R00158",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General multi-step pipeline, no linking or correction in title"
+  },
+  {
+   "id": "R00159",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-schema relation-aware modelling; unclear if schema linking is central"
+  },
+  {
+   "id": "R00160",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn non-English Text-to-SQL, no linking or correction focus"
+  },
+  {
+   "id": "R00161",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Semantic path selection and graph pruning; possible schema linking"
+  },
+  {
+   "id": "R00162",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis and annotation, single-turn"
+  },
+  {
+   "id": "R00163",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Overview of SQL generation methods"
+  },
+  {
+   "id": "R00164",
+   "d": "exclude",
+   "code": "E6",
+   "why": "In-context learning and preference optimization, no linking focus"
+  },
+  {
+   "id": "R00165",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Few-shot domain NL2SQL application, no linking or correction"
+  },
+  {
+   "id": "R00166",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema-aware prompting framework, single-turn, not linking-centred"
+  },
+  {
+   "id": "R00167",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Autonomous AI-research framework, not linking or correction"
+  },
+  {
+   "id": "R00168",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Small-model in-context learning, single-turn"
+  },
+  {
+   "id": "R00169",
+   "d": "exclude",
+   "code": "E6",
+   "why": "GraphRAG document platform; Text-to-SQL peripheral"
+  },
+  {
+   "id": "R00170",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comprehensive study report, survey-style"
+  },
+  {
+   "id": "R00171",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL evaluation framework, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00172",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; feedback-driven query rewriting suggests self-correction"
+  },
+  {
+   "id": "R00173",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Structured reasoning distillation, no linking or correction"
+  },
+  {
+   "id": "R00174",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Up to three exchanges per interaction; multi-turn status unclear"
+  },
+  {
+   "id": "R00175",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Controlled DSL for security, single-turn"
+  },
+  {
+   "id": "R00176",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Clustering-based test-time scaling may be candidate selection"
+  },
+  {
+   "id": "R00177",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Dashboard generation application, Text-to-SQL a component"
+  },
+  {
+   "id": "R00178",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Efficiency benchmark, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00179",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table-level retrieval suggests table selection; no abstract"
+  },
+  {
+   "id": "R00180",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Performance evaluation of NL2SQL models, no linking or correction"
+  },
+  {
+   "id": "R00181",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-based verification suggests correction; no abstract"
+  },
+  {
+   "id": "R00182",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese dataset, not about linking or correction"
+  },
+  {
+   "id": "R00183",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Hybrid decoder, single-turn, no linking or correction"
+  },
+  {
+   "id": "R00184",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Turkish dataset; feedback only applied as add-on"
+  },
+  {
+   "id": "R00185",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Transition representation generator, single-turn, linking not central"
+  },
+  {
+   "id": "R00186",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Dissertation"
+  },
+  {
+   "id": "R00187",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of deep learning Text-to-SQL"
+  },
+  {
+   "id": "R00188",
+   "d": "exclude",
+   "code": "E6",
+   "why": "WikiSQL single-turn model, no linking or correction focus"
+  },
+  {
+   "id": "R00189",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Meta-learning domain generalization, single-turn"
+  },
+  {
+   "id": "R00190",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generates SPARQL queries, single-turn, no linking focus"
+  },
+  {
+   "id": "R00191",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt template and exemplar selection, single-turn"
+  },
+  {
+   "id": "R00192",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL equivalence judgment, not linking or correction"
+  },
+  {
+   "id": "R00193",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General SQL generation pipeline, no linking or correction in title"
+  },
+  {
+   "id": "R00194",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise NL2SQL system, no linking or correction in title"
+  },
+  {
+   "id": "R00195",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Diagnostic test suite, single-turn"
+  },
+  {
+   "id": "R00196",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Graph encoder, single-turn, linking not stated contribution"
+  },
+  {
+   "id": "R00197",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema generalization GNN, single-turn, linking not central"
+  },
+  {
+   "id": "R00198",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Open-domain QA hybrid reader, not linking or correction"
+  },
+  {
+   "id": "R00199",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generates SPARQL queries, single-turn, no linking focus"
+  },
+  {
+   "id": "R00200",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Attention-based column filtering resembles column selection"
+  }
+ ],
+ "source": "cli:A_b004.json"
+}

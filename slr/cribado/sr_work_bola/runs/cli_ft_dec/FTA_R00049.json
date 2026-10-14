@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00049@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00049",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider encoder injecting syntactic dependencies and a decoupling constraint; schema linking is reused, not the contribution.",
+   "where": "p1 Abstract; p2 Introduction contributions; p2-3 Method"
+  }
+ ],
+ "source": "cli:FTA_R00049.json"
+}

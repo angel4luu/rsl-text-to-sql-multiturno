@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00504@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00504",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL self-correction with execution feedback as central contribution; evaluated quantitatively on NL2SQL-BUGs (BIRD-derived) public benchmark; 2026 arXiv preprint.",
+   "where": "p1 Abstract and Introduction; p6 Table 1 and Section 4.1 Setup"
+  }
+ ],
+ "source": "cli:FTB_R00504.json"
+}

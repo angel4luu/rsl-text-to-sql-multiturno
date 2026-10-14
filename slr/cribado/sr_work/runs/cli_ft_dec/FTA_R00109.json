@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00109@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00109",
+   "d": "include",
+   "code": "INC",
+   "why": "Constrained decoding for Text-to-SQL; evaluated on Spider and multi-turn CoSQL (previous questions as context) with QM/IM metrics.",
+   "where": "p3 Section 3 Experiments (CoSQL setup); p4-5 Results, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00109.json"
+}

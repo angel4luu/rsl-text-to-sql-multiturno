@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00201@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00201",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary benchmarking study of schema selection and query revision modules, with new metrics, evaluated quantitatively on BIRD and ScienceBenchmark.",
+   "where": "p1 Abstract; p2 Introduction, Contributions; p3-4 Sections 2.2, 2.4 and 3.1"
+  }
+ ],
+ "source": "cli:FTA_R00201.json"
+}

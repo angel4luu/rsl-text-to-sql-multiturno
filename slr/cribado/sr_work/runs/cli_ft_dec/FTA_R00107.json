@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00107@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00107",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with utterance rewrite for ellipsis/coreference; quantitative evaluation on SParC and CoSQL; 2021 Findings of ACL paper",
+   "where": "p1 Abstract; p6-7 Section 4 Experiments, Tables 2 and 4"
+  }
+ ],
+ "source": "cli:FTA_R00107.json"
+}

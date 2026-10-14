@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00131@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00131",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL on SParC with query editing for context restoration, schema encoding, per-turn quantitative results",
+   "where": "p1 Abstract/Intro; p3-6 Methodology; p7-9 Experimental Results (Tables 5-6, Figs 4-5)"
+  }
+ ],
+ "source": "cli:FTB_R00131.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00842@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00842",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; schema linking is central, but evaluation uses only the in-house Busca360 industrial benchmark, no public benchmark.",
+   "where": "p1 Abstract & Introduction; p2 §2.1; p6-7 §4.5 Results (Table 5)"
+  }
+ ],
+ "source": "cli:FTADJ_R00842.json"
+}

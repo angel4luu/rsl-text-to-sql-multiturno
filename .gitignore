@@ -1,0 +1,50 @@
+# Paper PDFs (copyright) — keep in Mendeley / locally
+*.pdf
+# ...but keep generated figures and the compiled SLR
+!latex/slr/figuras/*.pdf
+!latex/slr/main.pdf
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editors / OS / tools
+.cache/
+.obsidian/
+.DS_Store
+
+# Large raw dumps (checksum recorded in the search logs)
+slr/busqueda/exports/acl/*.bib.gz
+
+# Full texts extracted from PDFs (copyright)
+slr/texto_completo/texto/
+slr/texto_completo/texto_full/
+slr/texto_completo/texto_calib/
+slr/texto_completo/texto_bola/
+slr/texto_completo/texto_full_bola/
+slr/texto_completo/pdf_bola/
+# Prompts that embed page text from the papers (copyright; regenerable with slr/extraccion/scripts)
+slr/extraccion/prompts_nivel1/
+slr/extraccion/prompts_l1_desempate/
+slr/extraccion/prompts_l2_desempate/
+# SCImago SJR list (11 MB, re-downloadable from scimagojr.com)
+slr/extraccion/fuentes/sjr_*.csv
+
+# Pre-tesis: datos personales (DNI, código, firmas) nunca al repositorio
+plan-tesis/privado/

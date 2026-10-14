@@ -1,0 +1,221 @@
+regla,base_descartada,doi_descartado,base_conservada,doi_conservado,titulo
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2203.07376,Scopus,10.18653/v1/2022.findings-acl.236,HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2203.07376,ACL Anthology,10.18653/v1/2022.findings-acl.236,HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.14296,Scopus,10.18653/v1/2026.findings-eacl.236,Rethinking Schema Linking: A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.14296,ACL Anthology,10.18653/v1/2026.findings-eacl.236,Rethinking Schema Linking: A Context-Aware Bidirectional Retrieval Approach for Text-to-SQL
+doi_erroneo_scopus,Scopus,10.18653/v1/2022.findings-emnlp.112,ACL Anthology,10.18653/v1/2022.findings-emnlp.89,STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.11888,Scopus,10.18653/v1/2022.findings-emnlp.112,STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.11888,ACL Anthology,10.18653/v1/2022.findings-emnlp.89,STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.14762,Scopus,10.18653/v1/2025.emnlp-main.1700,Castle: Causal Cascade Updates in Relational Databases with Large Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.14762,ACL Anthology,10.18653/v1/2025.emnlp-main.1700,Castle: Causal Cascade Updates in Relational Databases with Large Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.21363,Scopus,10.1145/3772318.3790974,Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.21363,ACM DL,10.1145/3772318.3790974,Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring
+doi_erroneo_scopus,Scopus,10.18653/v1/2022.findings-emnlp.141,ACL Anthology,10.18653/v1/2022.findings-emnlp.411,Augmenting Multi-Turn Text-to-SQL Datasets with Self-Play
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.12096,Scopus,10.18653/v1/2022.findings-emnlp.141,Augmenting Multi-Turn Text-to-SQL Datasets with Self-Play
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.12096,ACL Anthology,10.18653/v1/2022.findings-emnlp.411,Augmenting Multi-Turn Text-to-SQL Datasets with Self-Play
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2404.02389,Scopus,10.18653/v1/2024.naacl-long.8,On Linearizing Structured Data in Encoder-Decoder Language Models: Insights from Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2404.02389,ACL Anthology,10.18653/v1/2024.naacl-long.8,On Linearizing Structured Data in Encoder-Decoder Language Models: Insights from Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2406.13408,Scopus,10.1609/aaai.v39i1.31979,SQLFixAgent: Towards Semantic-Accurate Text-to-SQL Parsing via Consistency-Enhanced Multi-Agent Collaboration
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2503.18596,Scopus,10.18653/v1/2025.emnlp-main.51,LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2503.18596,ACL Anthology,10.18653/v1/2025.emnlp-main.51,LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2310.17342,Scopus,10.18653/v1/2023.findings-emnlp.227,ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2310.17342,ACL Anthology,10.18653/v1/2023.findings-emnlp.227,ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought
+doi_erroneo_scopus,Scopus,10.18653/v1/2022.findings-emnlp.383,ACL Anthology,10.18653/v1/2022.findings-emnlp.155,Towards Generalizable and Robust Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.12674,Scopus,10.18653/v1/2022.findings-emnlp.383,Towards Generalizable and Robust Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.12674,ACL Anthology,10.18653/v1/2022.findings-emnlp.155,Towards Generalizable and Robust Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.00989,Scopus,10.1109/itsc60802.2025.11423850,VTS-LLM: Domain-Adaptive LLM Agent for Enhancing Awareness in Vessel Traffic Services through Natural Language
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.00989,IEEE Xplore,10.1109/itsc60802.2025.11423850,VTS-LLM: Domain-Adaptive LLM Agent for Enhancing Awareness in Vessel Traffic Services through Natural Language
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.13073,Scopus,10.18653/v1/2023.acl-short.117,Text-to-SQL Error Correction with Language Models of Code
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.13073,ACL Anthology,10.18653/v1/2023.acl-short.117,Text-to-SQL Error Correction with Language Models of Code
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2408.04919,Scopus,10.1007/s11704-025-41136-3,SEA-SQL: Semantic-Enhanced Text-to-SQL with Adaptive Refinement
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2404.10209,Scopus,10.14778/3685800.3685876,Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2404.10209,ACM DL,10.14778/3685800.3685876,Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.23358,Scopus,10.1162/tacl.a.689,Text-to-SQL Task-oriented Dialogue Ontology Construction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.23358,ACL Anthology,10.1162/tacl.a.689,Text-to-SQL Task-oriented Dialogue Ontology Construction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2402.07304,Scopus,10.1145/3650114,Insights into Natural Language Database Query Errors: From Attention Misalignment to User Handling Strategies
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2402.07304,ACM DL,10.1145/3650114,Insights into Natural Language Database Query Errors: From Attention Misalignment to User Handling Strategies
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2509.22218,Scopus,10.1109/slaai-icai68534.2025.11318518,VizGen: Data Exploration and Visualization from Natural Language via a Multi-Agent AI Architecture
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2509.22218,IEEE Xplore,10.1109/slaai-icai68534.2025.11318518,VizGen: Data Exploration and Visualization from Natural Language via a Multi-Agent AI Architecture
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2509.22218,IEEE Xplore,10.1109/slaai-icai68534.2025.11318518,VizGen: Data Exploration and Visualization from Natural Language via a Multi-Agent AI Architecture
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2405.02712,Scopus,10.18653/v1/2024.naacl-long.361,CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2405.02712,ACL Anthology,10.18653/v1/2024.naacl-long.361,CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.01989,Scopus,10.1145/3746252.3761583,Exploring Database Normalization Effects on SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.01989,ACM DL,10.1145/3746252.3761583,Exploring Database Normalization Effects on SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2412.05208,Scopus,10.1109/ccwc62904.2025.10903689,"A Survey of Large Language Model-Based Generative AI for Text-to-SQL: Benchmarks, Applications, Use Cases, and Challenges"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2412.05208,IEEE Xplore,10.1109/ccwc62904.2025.10903689,"A Survey of Large Language Model-Based Generative AI for Text-to-SQL: Benchmarks, Applications, Use Cases, and Challenges"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2412.05208,IEEE Xplore,10.1109/ccwc62904.2025.10903689,"A Survey of Large Language Model-Based Generative AI for Text-to-SQL: Benchmarks, Applications, Use Cases, and Challenges"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2412.05208,IEEE Xplore,10.1109/ccwc62904.2025.10903689,"A Survey of Large Language Model-Based Generative AI for Text-to-SQL: Benchmarks, Applications, Use Cases, and Challenges"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2502.12911,Scopus,10.1109/icde65706.2026.00046,Knapsack Optimization-based Schema Linking for LLM-based Text-to-SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2502.12911,IEEE Xplore,10.1109/icde65706.2026.00046,Knapsack Optimization-based Schema Linking for LLM-based Text-to-SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2606.18108,Scopus,10.1051/0004-6361/202558221,Querying an astronomical database using large language models: the ALeRCE text-to-SQL system
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2212.13492,Scopus,10.1609/aaai.v37i11.26499,MultiSpider: Towards Benchmarking Multilingual Text-to-SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2309.10506,Scopus,10.18653/v1/2023.ijcnlp-short.18,Enhancing Open-Domain Table Question Answering via Syntax- and Structure-aware Dense Retrieval
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2206.14017,Scopus,10.1145/3534678.3539305,Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2206.14017,ACM DL,10.1145/3534678.3539305,Proton: Probing Schema Linking Information from Pre-trained Language Models for Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.17190,Scopus,10.1609/aaai.v40i40.40672,AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2212.09278,Scopus,10.1609/aaai.v37i11.26504,MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.11266,Scopus,10.18653/v1/2026.eacl-long.143,Live API-Bench: 2500+ Live APIs for Testing Multi-Step Tool Calling
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.11266,ACL Anthology,10.18653/v1/2026.eacl-long.143,Live API-Bench: 2500+ Live APIs for Testing Multi-Step Tool Calling
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2509.03937,Scopus,10.18653/v1/2025.findings-emnlp.59,SPFT-SQL: Enhancing Large Language Model for Text-to-SQL Parsing by Self-Play Fine-Tuning
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2509.03937,ACL Anthology,10.18653/v1/2025.findings-emnlp.59,SPFT-SQL: Enhancing Large Language Model for Text-to-SQL Parsing by Self-Play Fine-Tuning
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2508.12769,Scopus,10.3233/faia251337,CRED-SQL: Enhancing Real-world Large Scale Database Text-to-SQL Parsing through Cluster Retrieval and Execution Description
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.21045,Scopus,10.1080/17538947.2026.2687193,From Questions to Queries: An AI-powered Multi-Agent Framework for Spatial Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2407.03227,Scopus,10.18653/v1/2024.emnlp-main.449,Improving Retrieval-augmented Text-to-SQL with AST-based Ranking and Schema Pruning
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2407.03227,ACL Anthology,10.18653/v1/2024.emnlp-main.449,Improving Retrieval-augmented Text-to-SQL with AST-based Ranking and Schema Pruning
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2504.09824,Scopus,10.18653/v1/2025.acl-demo.12,Abacus-SQL: A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2504.09824,ACL Anthology,10.18653/v1/2025.acl-demo.12,Abacus-SQL: A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2412.17867,Scopus,10.1109/ijcnn64981.2025.11228279,Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2412.17867,IEEE Xplore,10.1109/ijcnn64981.2025.11228279,Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.07950,Scopus,10.1109/icde65706.2026.00142,Decomposition-Driven Multi-Table Retrieval and Reasoning for Numerical Question Answering
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.07950,IEEE Xplore,10.1109/icde65706.2026.00142,Decomposition-Driven Multi-Table Retrieval and Reasoning for Numerical Question Answering
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.00986,Scopus,10.1007/978-3-032-05144-8_13,Talking to Data: Designing Smart Assistants for Humanities Databases
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.03742,Scopus,10.1145/3770855.3818164,ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.03742,ACM DL,10.1145/3770855.3818164,ErrorLLM: Modeling SQL Errors for Text-to-SQL Refinement
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2508.15276,Scopus,10.1145/3788853.3801581,AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2508.15276,ACM DL,10.1145/3788853.3801581,AmbiSQL: Interactive Ambiguity Detection and Resolution for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.20677,Scopus,10.1109/ijcnn64981.2025.11228397,Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.20677,IEEE Xplore,10.1109/ijcnn64981.2025.11228397,Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.20677,IEEE Xplore,10.1109/ijcnn64981.2025.11228397,Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.20677,IEEE Xplore,10.1109/ijcnn64981.2025.11228397,Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2302.05965,Scopus,10.1609/aaai.v37i11.26535,RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.00391,Scopus,10.18653/v1/2025.acl-long.552,SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.00391,ACL Anthology,10.18653/v1/2025.acl-long.552,SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2401.01711,Scopus,10.5220/0012394300003636,Evaluating Large Language Models in Semantic Parsing for Conversational Question Answering over Knowledge Graphs
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.07642,Scopus,10.18653/v1/2026.findings-eacl.316,Role-Conditioned Refusals: Evaluating Access Control Reasoning in Large Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.07642,ACL Anthology,10.18653/v1/2026.findings-eacl.316,Role-Conditioned Refusals: Evaluating Access Control Reasoning in Large Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2302.11054,Scopus,10.1109/icassp49357.2023.10096170,Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2302.11054,IEEE Xplore,10.1109/icassp49357.2023.10096170,Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2302.11054,IEEE Xplore,10.1109/icassp49357.2023.10096170,Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead
+doi_erroneo_scopus,Scopus,10.18653/v1/2022.findings-emnlp.88,ACL Anthology,10.18653/v1/2022.findings-emnlp.60,Syntactic and Semantic Uniformity for Semantic Parsing and Task-Oriented Dialogue Systems
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.17896,Scopus,10.18653/v1/2025.acl-demo.43,VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.17896,ACL Anthology,10.18653/v1/2025.acl-demo.43,VeriMinder: Mitigating Analytical Vulnerabilities in NL2SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2208.03903,Scopus,10.1145/3534678.3539294,Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2208.03903,ACM DL,10.1145/3534678.3539294,Semantic Enhanced Text-to-SQL Parsing via Iteratively Learning Schema Linking Graph
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2306.04480,Scopus,10.18653/v1/2023.findings-acl.43,Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2306.04480,ACL Anthology,10.18653/v1/2023.findings-acl.43,Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing
+doi_erroneo_scopus,Scopus,10.18653/v1/2022.findings-emnlp.374,ACL Anthology,10.18653/v1/2022.findings-emnlp.150,CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2205.07686,Scopus,10.18653/v1/2022.findings-emnlp.374,CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2205.07686,ACL Anthology,10.18653/v1/2022.findings-emnlp.150,CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2601.09876,Scopus,10.18653/v1/2026.eacl-long.64,Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2601.09876,ACL Anthology,10.18653/v1/2026.eacl-long.64,Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2406.00019,Scopus,10.18653/v1/2024.findings-acl.971,EHR-SeqSQL : A Sequential Text-to-SQL Dataset For Interactively Exploring Electronic Health Records
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2406.00019,ACL Anthology,10.18653/v1/2024.findings-acl.971,EHR-SeqSQL : A Sequential Text-to-SQL Dataset For Interactively Exploring Electronic Health Records
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.27532,Scopus,10.18653/v1/2025.findings-emnlp.81,SQLSpace: A Representation Space for Text-to-SQL to Discover and Mitigate Robustness Gaps
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.27532,ACL Anthology,10.18653/v1/2025.findings-emnlp.81,SQLSpace: A Representation Space for Text-to-SQL to Discover and Mitigate Robustness Gaps
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.08195,Scopus,10.18653/v1/2023.acl-long.177,Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.08195,ACL Anthology,10.18653/v1/2023.acl-long.177,Learning to Simulate Natural Language Feedback for Interactive Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.06655,Scopus,10.1007/978-981-99-7022-3_24,QURG: Question Rewriting Guided Context-Dependent Text-to-SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2105.07911,Scopus,10.18653/v1/2022.findings-naacl.141,SeaD: End-to-end Text-to-SQL Generation with Schema-aware Denoising
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2105.07911,ACL Anthology,10.18653/v1/2022.findings-naacl.141,SeaD: End-to-end Text-to-SQL Generation with Schema-aware Denoising
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2502.13550,Scopus,10.18653/v1/2025.acl-long.1187,STaR-SQL: Self-Taught Reasoner for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2502.13550,ACL Anthology,10.18653/v1/2025.acl-long.1187,STaR-SQL: Self-Taught Reasoner for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2509.25264,Scopus,10.1016/j.eswa.2026.132122,GeoSQL-Eval: First Evaluation of LLMs on PostGIS-Based NL2GeoSQL Queries
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2405.15307,Scopus,10.18653/v1/2024.findings-acl.324,"Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2405.15307,ACL Anthology,10.18653/v1/2024.findings-acl.324,"Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2501.16607,Scopus,10.1609/aaai.v40i41.40751,MCTS-SQL: Light-Weight LLMs can Master the Text-to-SQL through Monte Carlo Tree Search
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.07372,Scopus,10.18653/v1/2023.emnlp-main.1004,Interactive Text-to-SQL Generation via Editable Step-by-Step Explanations
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.07372,ACL Anthology,10.18653/v1/2023.emnlp-main.1004,Interactive Text-to-SQL Generation via Editable Step-by-Step Explanations
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.09014,Scopus,10.18653/v1/2026.findings-eacl.186,LitE-SQL: A Lightweight and Efficient Text-to-SQL Framework with Vector-based Schema Linking and Execution-Guided Self-Correction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.09014,ACL Anthology,10.18653/v1/2026.findings-eacl.186,LitE-SQL: A Lightweight and Efficient Text-to-SQL Framework with Vector-based Schema Linking and Execution-Guided Self-Correction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2501.01237,Scopus,10.18420/btw2025-132,Self-Refinement Strategies for LLM-based Product Attribute Value Extraction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.03598,Scopus,10.1049/icp.2025.2864,Auto prompt sql: a resource-efficient architecture for text-to-sql translation in constrained environments
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2506.03598,IEEE Xplore,10.1049/icp.2025.2864,Auto prompt sql: a resource-efficient architecture for text-to-sql translation in constrained environments
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2606.14201,Scopus,10.14778/3797919.3797942,TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2606.14201,ACM DL,10.14778/3797919.3797942,TACO: A Benchmark for Open-Domain Text-to-SQL with Ambiguous and Cross-Database Queries
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2410.11076,Scopus,10.18653/v1/2025.naacl-long.13,PRACTIQ: A Practical Conversational Text-to-SQL dataset with Ambiguous and Unanswerable Queries
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2410.11076,ACL Anthology,10.18653/v1/2025.naacl-long.13,PRACTIQ: A Practical Conversational Text-to-SQL dataset with Ambiguous and Unanswerable Queries
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2411.06102,Scopus,10.14778/3750601.3750610,SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2411.06102,ACM DL,10.14778/3750601.3750610,SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2312.03463,Scopus,10.48786/edbt.2025.57,DBCopilot: Natural Language Querying over Massive Databases via Schema Routing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.14305,Scopus,10.18653/v1/2025.emnlp-main.308,JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.14305,ACL Anthology,10.18653/v1/2025.emnlp-main.308,JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2405.09593,Scopus,10.1007/978-3-031-68309-1_11,SQL-to-Schema Enhances Schema Linking in Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2602.16720,Scopus,10.1145/3770855.3818075,APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2602.16720,ACM DL,10.1145/3770855.3818075,APEX-SQL: Talking to the data via Agentic Exploration for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2112.08735,Scopus,10.21437/interspeech.2022-10596,Pay More Attention to History: A Context Modelling Strategy for Conversational Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2403.09732,Scopus,10.1007/978-981-95-3830-0_13,PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.10281,Scopus,10.1007/s11280-025-01399-z,"Toward Real-World Table Agents: Capabilities, Workflows, and Design Principles for LLM-based Table Intelligence"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2205.06983,Scopus,10.18653/v1/2022.emnlp-main.211,RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2205.06983,ACL Anthology,10.18653/v1/2022.emnlp-main.211,RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL
+doi_erroneo_scopus,Scopus,10.18653/v1/2022.findings-emnlp.273,ACL Anthology,10.18653/v1/2022.findings-emnlp.193,In-Context Learning for Few-Shot Dialogue State Tracking
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2203.08568,Scopus,10.18653/v1/2022.findings-emnlp.273,In-Context Learning for Few-Shot Dialogue State Tracking
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2203.08568,ACL Anthology,10.18653/v1/2022.findings-emnlp.193,In-Context Learning for Few-Shot Dialogue State Tracking
+solo_listado_revisar_EX9,Scopus,10.1016/j.heliyon.2021.e08035,Scopus,10.1007/978-3-030-79757-7_21,Graph NLU enabled question answering system
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.11061,Scopus,10.1109/cmvit57620.2023.00030,SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2305.11061,IEEE Xplore,10.1109/cmvit57620.2023.00030,SPSQL: Step-by-step Parsing Based Framework for Text-to-SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2605.09295,Scopus,10.1109/icde65706.2026.00181,LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2605.09295,IEEE Xplore,10.1109/icde65706.2026.00181,LEAF-SQL: Level-wise Exploration with Adaptive Fine-graining for Text-to-SQL Skeleton Prediction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.23854,Scopus,10.18653/v1/2025.emnlp-industry.60,Can LLMs Narrate Tabular Data? An Evaluation Framework for Natural Language Representations of Text-to-SQL System Outputs
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.23854,ACL Anthology,10.18653/v1/2025.emnlp-industry.60,Can LLMs Narrate Tabular Data? An Evaluation Framework for Natural Language Representations of Text-to-SQL System Outputs
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.10668,Scopus,10.1109/slt54892.2023.10023434,N-Best Hypotheses Reranking for Text-To-SQL Systems
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.10668,IEEE Xplore,10.1109/slt54892.2023.10023434,N-Best Hypotheses Reranking for Text-To-SQL Systems
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2210.10668,IEEE Xplore,10.1109/slt54892.2023.10023434,N-Best Hypotheses Reranking for Text-To-SQL Systems
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1909.00786,Scopus,10.18653/v1/d19-1537,Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1909.00786,ACL Anthology,10.18653/v1/d19-1537,Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2005.02539,ACL Anthology,10.18653/v1/2020.acl-main.187,Speak to your Parser: Interactive Text-to-SQL with Natural Language Feedback
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2009.14809,Scopus,10.18653/v1/2020.coling-main.260,A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2009.14809,ACL Anthology,10.18653/v1/2020.coling-main.260,A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1906.02285,ACL Anthology,10.18653/v1/p19-1443,SParC: Cross-Domain Semantic Parsing in Context
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1905.08205,ACL Anthology,10.18653/v1/p19-1444,Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1911.04942,ACL Anthology,10.18653/v1/2020.acl-main.677,RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1904.09086,Scopus,10.18653/v1/d19-1545,Learning Programmatic Idioms for Scalable Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1904.09086,ACL Anthology,10.18653/v1/d19-1545,Learning Programmatic Idioms for Scalable Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1910.05389,Scopus,10.18653/v1/d19-1547,Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1910.05389,ACL Anthology,10.18653/v1/d19-1547,Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.02282,Scopus,10.18653/v1/2021.findings-acl.270,Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.02282,ACL Anthology,10.18653/v1/2021.findings-acl.270,Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2012.04995,Scopus,10.1609/aaai.v35i16.17646,Tracking Interaction States for Multi-Turn Text-to-SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2103.14540,Scopus,10.18653/v1/2021.naacl-main.444,NL-EDIT: Correcting semantic parse errors through natural language interaction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2103.14540,ACL Anthology,10.18653/v1/2021.naacl-main.444,NL-EDIT: Correcting semantic parse errors through natural language interaction
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2011.04151,ACL Anthology,10.18653/v1/2020.emnlp-main.561,"""What Do You Mean by That?"""" A Parser-Independent Interactive Approach for Enhancing Text-to-SQL"""
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2009.07396,ACL Anthology,10.18653/v1/2020.emnlp-main.558,Grounded Adaptation for Zero-shot Executable Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.01065,Scopus,10.18653/v1/2021.acl-long.195,Towards Robustness of Text-to-SQL Models against Synonym Substitution
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.01065,ACL Anthology,10.18653/v1/2021.acl-long.195,Towards Robustness of Text-to-SQL Models against Synonym Substitution
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1909.05378,Scopus,10.18653/v1/d19-1204,CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1909.05378,ACL Anthology,10.18653/v1/d19-1204,CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2109.05093,Scopus,10.18653/v1/2021.emnlp-main.779,PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2109.05093,ACL Anthology,10.18653/v1/2021.emnlp-main.779,PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2010.01891,ACL Anthology,10.18653/v1/2020.findings-emnlp.364,A Pilot Study of Text-to-SQL Semantic Parsing for Vietnamese
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1905.00245,Scopus,10.18653/v1/n19-1360,Context-Dependent Semantic Parsing over Temporally Structured Data
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1905.00245,ACL Anthology,10.18653/v1/n19-1360,Context-Dependent Semantic Parsing over Temporally Structured Data
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1909.13293,Scopus,10.18653/v1/d19-1377,A Pilot Study for Chinese SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1909.13293,ACL Anthology,10.18653/v1/d19-1377,A Pilot Study for Chinese SQL Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2104.10366,Scopus,10.18653/v1/2021.semeval-1.179,Sattiy at SemEval-2021 Task 9: An Ensemble Solution for Statement Verification and Evidence Finding with Tables
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2104.10366,ACL Anthology,10.18653/v1/2021.semeval-1.179,Sattiy at SemEval-2021 Task 9: An Ensemble Solution for Statement Verification and Evidence Finding with Tables
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2109.05153,Scopus,10.18653/v1/2021.findings-emnlp.174,Natural SQL: Making SQL Easier to Infer from Natural Language Specifications
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2109.05153,ACL Anthology,10.18653/v1/2021.findings-emnlp.174,Natural SQL: Making SQL Easier to Infer from Natural Language Specifications
+preprint_de_version_publicada,arXiv,10.48550/arxiv.1901.08259,Scopus,10.1609/aaai.v33i01.33016770,FANDA: A Novel Approach to Perform Follow-up Query Analysis
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2011.05744,ACL Anthology,10.18653/v1/2020.emnlp-main.560,IGSQL: Database Schema Interaction Graph Based Neural Model for Context-Dependent Text-to-SQL Generation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2101.01686,Scopus,10.1609/aaai.v35i14.17550,Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.04559,Scopus,10.18653/v1/2021.acl-demo.36,Turing: an Accurate and Interpretable Multi-Hypothesis Cross-Domain Natural Language Database Interface
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.04559,ACL Anthology,10.18653/v1/2021.acl-demo.36,Turing: an Accurate and Interpretable Multi-Hypothesis Cross-Domain Natural Language Database Interface
+solo_listado_revisar_EX9,IEEE Xplore,10.1109/wi-iatw.2007.60,ACM DL,10.5555/1339264.1339727,Conversation-Based Natural Language Interface to Relational Databases
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2501.10858,ACM DL,10.1145/3709719,Reliable Text-to-SQL with Adaptive Abstention
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2502.14913,ACM DL,10.1145/3725331,OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2402.16347,ACM DL,10.1145/3654930,CodeS: Towards Building Open-source Language Models for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.06192,ACM DL,10.1145/3786699,SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2508.18190,ACM DL,10.1145/3769829,ST-Raptor: LLM-Powered Semi-Structured Table Question Answering
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2601.10011,ACL Anthology,10.18653/v1/2026.findings-acl.253,Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction for Training-Free NL2SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2605.18766,ACL Anthology,10.18653/v1/2026.findings-acl.635,Retrieve Only Relevant Tables Whether Few or Many: Adaptive Table Retrieval Method
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2512.11485,ACL Anthology,10.18653/v1/2026.findings-acl.719,Mistake Notebook Learning: Batch-Clustered Failures for Training-Free Agent Adaptation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2603.16161,ACL Anthology,10.18653/v1/2026.findings-acl.920,SQL-ASTRA: Alleviating Sparse Feedback in Agentic SQL via Column-Set Matching and Trajectory Aggregation
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2606.23693,ACL Anthology,10.18653/v1/2026.findings-acl.1107,EXPO-SQL: Execution-based Clause-level Policy Optimization for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2604.17653,ACL Anthology,10.18653/v1/2026.findings-acl.1286,PV-SQL: Synergizing Database Probing and Rule-based Verification for Text-to-SQL Agents
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.20315,ACL Anthology,10.18653/v1/2026.findings-acl.1345,"Arctic-Text2SQL-R1: Simple Rewards, Strong Reasoning in Text-to-SQL"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.26495,ACL Anthology,10.18653/v1/2026.findings-acl.1654,Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2602.01952,ACL Anthology,10.18653/v1/2026.findings-acl.1959,SQLAgent: Learning to Explore Before Generating as a Data Engineer
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.12768,ACL Anthology,10.18653/v1/2026.acl-long.35,ReEx-SQL: Reasoning with Execution-Aware Reinforcement Learning for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2604.15163,ACL Anthology,10.18653/v1/2026.acl-long.313,DPC: Training-Free Text-to-SQL Candidate Selection via Dual-Paradigm Consistency
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2604.17771,ACL Anthology,10.18653/v1/2026.acl-long.926,SPENCE: A Syntactic Probe for Detecting Contamination in NL2SQL Benchmarks
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2510.12831,ACL Anthology,10.18653/v1/2026.acl-long.1563,MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2601.17699,ACL Anthology,10.18653/v1/2026.acl-long.1677,SQL-Trail: Multi-Turn Reinforcement Learning with Interleaved Feedback for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2511.00805,ACL Anthology,10.18653/v1/2026.acl-long.1826,"REaR: Retrieve, Expand and Refine for Effective Multitable Retrieval"
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2605.03720,ACL Anthology,10.18653/v1/2026.acl-long.2107,Rose-SQL: Role-State Evolution Guided Structured Reasoning for Multi-Turn Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2604.15646,ACL Anthology,10.18653/v1/2026.acl-demo.75,FD-NL2SQL: Feedback-Driven Clinical NL2SQL that Improves with Use
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2604.22313,ACL Anthology,10.18653/v1/2026.acl-industry.86,CLARITY: A Framework and Benchmark for Conversational Language Ambiguity and Unanswerability in Interactive NL2SQL Systems
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2508.06168,ACL Anthology,10.18653/v1/2025.trl-1.19,Improving Table Retrieval with Question Generation from Partial Tables
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2505.13271,ACL Anthology,10.18653/v1/2025.findings-ijcnlp.91,CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2507.22478,ACL Anthology,10.18653/v1/2025.findings-ijcnlp.92,SLM-SQL: An Exploration of Small Language Models for Text-to-SQL
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2503.17811,ACL Anthology,10.18653/v1/2025.findings-ijcnlp.130,Feather-SQL: A Lightweight NL2SQL Framework with Dual-Model Collaboration Paradigm for Small Language Models
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2402.10671,ACL Anthology,10.18653/v1/2024.findings-acl.641,Decomposition for Enhancing Attention: Improving LLM-based Text-to-SQL through Workflow Paradigm
+preprint_de_version_publicada,arXiv,10.48550/arxiv.2106.11739,ACL Anthology,10.18653/v1/2021.splurobonlp-1.6,Error-Aware Interactive Semantic Parsing of OpenStreetMap

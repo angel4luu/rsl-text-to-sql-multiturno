@@ -1,0 +1,1189 @@
+﻿TY  - CPAPER
+TI  - An Extensible Benchmark for Value Ambiguity Resolution in Text-to-SQL
+AU  - Tam Minh Pham
+AU  - Quoc Viet Hung Nguyen
+AU  - Jun Jo
+AU  - Thành Tâm Nguyên
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-6196-4_9
+M3  - conference-paper
+UR  - https://openalex.org/W7127379489
+N1  - snowballing forward from R00041, R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00002
+N1  - sr-screener TA [R00002]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; value ambiguity benchmark may concern value linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Multi-turn NLIDBs
+AU  - George Katsogiannis-Meimarakis
+AU  - Anna Mitsopoulou
+AU  - Mike Xydas
+AU  - Georgia Koutrika
+PY  - 2025
+T2  - Data-centric systems and applications
+DO  - 10.1007/978-3-032-06905-4_6
+M3  - book-chapter
+UR  - https://openalex.org/W4416144825
+N1  - snowballing forward from R00072, R00078, R00086, R00093, R00096, R00097, R00107, R00110, R00117, R00126, R00129, R00131, R00525, R00868, R01029
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00005
+N1  - sr-screener TA [R00005]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; title indicates multi-turn NLIDBs | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Prune Bi-SLAM-SQL: A Lightweight and Robust Framework for Transportation NL2SQL Task
+AU  - Jing Chen
+AU  - Zhengquan Jiang
+AU  - Xiang Meng
+AU  - Yujie Zhao
+AU  - Hui Hu
+AU  - Shuo Chen
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-032-38715-8_15
+M3  - conference-paper
+UR  - https://openalex.org/W7220990752
+N1  - snowballing forward from R00074
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00007
+N1  - sr-screener TA [R00007]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; 'Prune' may mean schema pruning | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
+AU  - Ruisheng Cao
+AU  - Lu Chen
+AU  - Zhi Chen
+AU  - Yanbin Zhao
+AU  - Su Zhu
+AU  - Kai Yu
+PY  - 2021
+DO  - 10.18653/v1/2021.acl-long.198
+M3  - conference-paper
+UR  - https://openalex.org/W3175488485
+N1  - snowballing backward+forward from R00084, R00086, R00093, R00096, R00097, R00098, R00101, R00116, R00131, R00525, R00526, R00868, R00924, R00950, R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00012
+N1  - sr-screener TA [R00012]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - C3: Zero-shot Text-to-SQL with ChatGPT
+AU  - Xuemei Dong
+AU  - Zhang, Chao
+AU  - Yuhang Ge
+AU  - Yuren Mao
+AU  - Yunjun Gao
+AU  - Lu Chen
+AU  - Jinshu Lin
+AU  - Dongfang Lou
+PY  - 2023
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2307.07306
+M3  - preprint
+UR  - https://openalex.org/W4384615768
+N1  - snowballing backward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00019
+N1  - sr-screener TA [R00019]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - PaVeRL-SQL: Text–to–SQL via Partial–Match Rewards and Verbal Reinforcement Learning
+AU  - Heng Hao
+AU  - Wenjun Hu
+AU  - Oxana Verkholyak
+AU  - Davoud Ataee Tarzanagh
+AU  - Baruch Gutow
+AU  - Sima Didari
+AU  - Masoud Faraki
+AU  - Hankyu Moon
+AU  - Seungjai Min
+PY  - 2025
+T2  - IEEE International Conference on Big Data (BigData)
+DO  - 10.1109/bigdata66926.2025.11402412
+M3  - conference-paper
+UR  - https://openalex.org/W7134167262
+N1  - snowballing forward from R00086, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00027
+N1  - sr-screener TA [R00027]: UNCLEAR (Unclear - needs next stage / team decision) - Verbal RL self-evaluation; self-correction centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Generating Patient Cohorts from Electronic Health Records Using Two-Step Retrieval-Augmented Text-to-SQL Generation
+AU  - Angelo Ziletti
+AU  - Leonardo D'Ambrosi
+PY  - 2026
+T2  - Communications in computer and information science
+DO  - 10.1007/978-3-032-16708-8_19
+M3  - conference-paper
+UR  - https://openalex.org/W7155221636
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00032
+N1  - sr-screener TA [R00032]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; two-step retrieval may be schema retrieval | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Generate Text-to-SQL Queries Based on Sketch Filling
+AU  - Yinpei Fu
+AU  - Songtao Ye
+AU  - Hongjie Fan
+PY  - 2024
+T2  - IEEE Access
+DO  - 10.1109/access.2024.3476927
+M3  - article
+UR  - https://openalex.org/W4403277638
+N1  - snowballing forward from R00091, R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00040
+N1  - sr-screener TA [R00040]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
+AU  - Xi Lin
+AU  - Richard Socher
+AU  - Caiming Xiong
+PY  - 2020
+DO  - 10.18653/v1/2020.findings-emnlp.438
+M3  - conference-paper
+UR  - https://openalex.org/W3103801878
+N1  - snowballing backward+forward from R00093, R00097, R00098, R00100, R00101, R00126, R00129, R00131, R00511, R00525, R00904, R00924, R00950, R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00042
+N1  - sr-screener TA [R00042]: UNCLEAR (Unclear - needs next stage / team decision) - Question-schema value-augmented encoding; linking centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Global Reasoning over Database Structures for Text-to-SQL Parsing
+AU  - Ben Bogin
+AU  - Matt Gardner
+AU  - Jonathan Berant
+PY  - 2019
+DO  - 10.18653/v1/d19-1378
+M3  - conference-paper
+UR  - https://openalex.org/W2971323043
+N1  - snowballing backward from R00093, R00098, R00101, R00117, R00924, R00936, R00981, R01029
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00043
+N1  - sr-screener TA [R00043]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; global reasoning over schema may concern linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - MR-SQL: Multi-level Retrieval Enhances Inference for LLM in Text-to-SQL
+AU  - Zhenhe Wu
+AU  - Zhongqiu Li
+AU  - Mengxiang Li
+AU  - Mengxiang Li
+AU  - Jie Zhang
+AU  - Zhongjiang He
+AU  - Jian Yang
+AU  - Yu Zhao
+AU  - Ruiyu Fang
+AU  - Yongxiang Li
+AU  - Zhoujun Li
+AU  - Zhoujun Li
+AU  - Shuangyong Song
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-95-3830-0_27
+M3  - conference-paper
+UR  - https://openalex.org/W7117966372
+N1  - snowballing forward from R00093
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00048
+N1  - sr-screener TA [R00048]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; multi-level retrieval may be schema retrieval | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - S2SQL: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
+AU  - Binyuan Hui
+AU  - Ruiying Geng
+AU  - Lihan Wang
+AU  - Bowen Qin
+AU  - Yanyang Li
+AU  - Bowen Li
+AU  - Jian Sun
+AU  - Yongbin Li
+PY  - 2022
+T2  - Findings of the Association for Computational Linguistics: ACL 2022
+DO  - 10.18653/v1/2022.findings-acl.99
+M3  - conference-paper
+UR  - https://openalex.org/W4221161254
+N1  - snowballing backward from R00096, R00098, R00101, R00526, R00924
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00049
+N1  - sr-screener TA [R00049]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing
+AU  - Qian Liu
+AU  - Dejian Yang
+AU  - Jiahui Zhang
+AU  - Jiaqi Guo
+AU  - Bin Zhou
+AU  - Jian–Guang Lou
+PY  - 2021
+DO  - 10.18653/v1/2021.findings-acl.100
+M3  - conference-paper
+UR  - https://openalex.org/W3175013773
+N1  - snowballing backward+forward from R00096, R00131, R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00050
+N1  - sr-screener TA [R00050]: UNCLEAR (Unclear - needs next stage / team decision) - Latent grounding of tokens to concepts, text-to-SQL case study | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Retrieval-Augmented GPT-3.5-Based Text-to-SQL Framework with Sample-Aware Prompting and Dynamic Revision Chain
+AU  - Chunxi Guo
+AU  - Zhiliang Tian
+AU  - Jintao Tang
+AU  - Shasha Li
+AU  - Zhihua Wen
+AU  - Kaixuan Wang
+AU  - Ting Wang
+PY  - 2023
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-99-8076-5_25
+M3  - conference-paper
+UR  - https://openalex.org/W4388639106
+N1  - snowballing forward from R00096, R00101, R00109, R00116, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00053
+N1  - sr-screener TA [R00053]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; title suggests dynamic revision chain (correction) | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - NL2SQL for Cybersecurity: Automating Osquery Threat Hunting via Natural Language Queries
+AU  - Anubhav Binit
+AU  - Nitish Kumar
+AU  - Manjesh K. Hanawal
+PY  - 2026
+DO  - 10.1109/comsnets67989.2026.11418133
+M3  - conference-paper
+UR  - https://openalex.org/W7134908887
+N1  - snowballing forward from R00098
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00064
+N1  - sr-screener TA [R00064]: UNCLEAR (Unclear - needs next stage / team decision) - Single-turn Osquery system with table retrieval; centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL
+AU  - Ju Fan
+AU  - Zihui Gu
+AU  - Songyue Zhang
+AU  - Yuxin Zhang
+AU  - Zui Chen
+AU  - Lei Cao
+AU  - Guoliang Li
+AU  - Samuel R. Madden
+AU  - Xiaoyong Du
+AU  - Nan Tang
+PY  - 2024
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3681954.3681960
+M3  - article
+UR  - https://openalex.org/W4402043038
+N1  - snowballing forward from R00101, R00109, R00116, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00069
+N1  - sr-screener TA [R00069]: UNCLEAR (Unclear - needs next stage / team decision) - Schema alignment and execution-based selection among several components | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Error Detection for Text-to-SQL Semantic Parsing
+AU  - Shijie Chen
+AU  - Ziru Chen
+AU  - Huan Sun
+AU  - Yu Su
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.785
+M3  - conference-paper
+UR  - https://openalex.org/W4389518685
+N1  - snowballing forward from R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00074
+N1  - sr-screener TA [R00074]: UNCLEAR (Unclear - needs next stage / team decision) - Error detection for parsers; verification centrality plausible | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Enabling Contextual Natural Language Search on Oil and Gas Databases
+AU  - Avinash Lokhande
+AU  - Prashanth Pillai
+AU  - Purnaprajna Mangsuli
+PY  - 2023
+DO  - 10.2118/216349-ms
+M3  - conference-paper
+UR  - https://openalex.org/W4387235533
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00082
+N1  - sr-screener TA [R00082]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - Syntax and Relation Enhanced Query Generation for Text to SQL Parsing
+AU  - Kun Han
+AU  - Xi Xiong
+PY  - 2024
+T2  - Frontiers in Science and Engineering
+DO  - 10.54691/ww5m2092
+M3  - article
+UR  - https://openalex.org/W4396865716
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00088
+N1  - sr-screener TA [R00088]: UNCLEAR (Unclear - needs next stage / team decision) - Schema/pattern linking mentioned; unclear if central | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation
+AU  - Anurag Tripathi
+AU  - Vaibhav Patle
+AU  - Abhinav Jain
+AU  - Ayush Pundir
+AU  - Sairam Menon
+AU  - Ajeet Kumar Singh
+AU  - Dorien Herremans
+PY  - 2025
+DO  - 10.1109/ijcnn64981.2025.11227747
+M3  - conference-paper
+UR  - https://openalex.org/W4416251342
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00090
+N1  - sr-screener TA [R00090]: UNCLEAR (Unclear - needs next stage / team decision) - Database selection plus critic-agent error correction; centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - GADESQL: Graph Attention Diffusion Enhanced Text-To-SQL with Single and Multi-hop Relations
+AU  - Qinzhen Cao
+AU  - Rui Xi
+AU  - Jie Wu
+AU  - Xiaowen Nie
+AU  - Yubo Liu
+AU  - Mengshu Hou
+PY  - 2023
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-99-7254-8_53
+M3  - conference-paper
+UR  - https://openalex.org/W4387850824
+N1  - snowballing forward from R00101, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00092
+N1  - sr-screener TA [R00092]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - HI-SQL: Optimizing Text-to-SQL Systems through Dynamic Hint Integration
+AU  - Ganesh Parab
+AU  - Zishan Ahmad
+AU  - Dagnachew Birru
+PY  - 2025
+DO  - 10.1109/ijcnn64981.2025.11227320
+M3  - conference-paper
+UR  - https://openalex.org/W4416249555
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00095
+N1  - sr-screener TA [R00095]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - LLCE-SQL: Data-Efficient Text-to-SQL Training via Logic-Linking Driven Collaborative Evolution
+AU  - Yan Zhang
+AU  - Jin Qi
+AU  - Wei Xu
+AU  - Xiaoxuan Hu
+AU  - Zhenjiang Dong
+AU  - Genxin Chen
+AU  - Li Sun
+AU  - Yanfei Sun
+PY  - 2026
+T2  - IEEE Transactions on Audio Speech and Language Processing
+DO  - 10.1109/taslpro.2026.3724417
+M3  - article
+UR  - https://openalex.org/W7203636360
+N1  - snowballing forward from R00101, R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00100
+N1  - sr-screener TA [R00100]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; 'logic-linking' in title may mean schema linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training
+AU  - Peng Shi
+AU  - Patrick Ng
+AU  - Zhiguo Wang
+AU  - Henghui Zhu
+AU  - Alexander Hanbo Li
+AU  - Jun Wang
+AU  - Cícero Nogueira dos Santos
+AU  - Bing Xiang
+PY  - 2021
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+DO  - 10.1609/aaai.v35i15.17627
+M3  - conference-paper
+UR  - https://openalex.org/W3116083993
+N1  - snowballing backward+forward from R00107, R00116, R00131, R00924
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00101
+N1  - sr-screener TA [R00101]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Learning Contextual Representations for Semantic Parsing with Generation-Augmented Pre-Training
+AU  - Peng Shi
+AU  - Ng, Patrick
+AU  - Zhiguo Wang
+AU  - Henghui Zhu
+AU  - Alexander Hanbo Li
+AU  - Jun Wang
+AU  - Cícero Nogueira dos Santos
+AU  - Bing Xiang
+PY  - 2020
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2012.10309
+M3  - preprint
+UR  - https://openalex.org/W3176561775
+N1  - snowballing backward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00104
+N1  - sr-screener TA [R00104]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Uni-Parser: Unified Semantic Parser for Question Answering on Knowledge Base and Database
+AU  - Liu Ye
+AU  - Semih Yavuz
+AU  - Rui Meng
+AU  - Dragomir Radev
+AU  - Caiming Xiong
+AU  - Yingbo Zhou
+PY  - 2022
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2022.emnlp-main.605
+M3  - conference-paper
+UR  - https://openalex.org/W4385567171
+N1  - snowballing forward from R00109, R00131, R00286
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00109
+N1  - sr-screener TA [R00109]: UNCLEAR (Unclear - needs next stage / team decision) - KB and DB parser with primitive ranker pruning; relational SQL unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Benchmarking and Improving Text-to-SQL Generation under Ambiguity
+AU  - Adithya Bhaskar
+AU  - Tushar Tomar
+AU  - Ashutosh Sathe
+AU  - Sunita Sarawagi
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.436
+M3  - conference-paper
+UR  - https://openalex.org/W4389519120
+N1  - snowballing forward from R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00112
+N1  - sr-screener TA [R00112]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - Automated Validating and Fixing of Text-to-SQL Translation with Execution Consistency
+AU  - Yicun Yang
+AU  - Zhaoguo Wang
+AU  - Yu Xia
+AU  - Zhuoran Wei
+AU  - Haoran Ding
+AU  - Ružica Piskač
+AU  - Haibo Chen
+AU  - Jinyang Li
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3725271
+M3  - article
+UR  - https://openalex.org/W4411403493
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00119
+N1  - sr-screener TA [R00119]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Gar: A Generate-and-Rank Approach for Natural Language to SQL Translation
+AU  - Yuankai Fan
+AU  - Zhenying He
+AU  - Tonghui Ren
+AU  - Dianjun Guo
+AU  - Lin Chen
+AU  - Ruisi Zhu
+AU  - Guanduo Chen
+AU  - Yinan Jing
+AU  - Kai Zhang
+AU  - Xiaocong Wang
+PY  - 2023
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde55515.2023.00016
+M3  - conference-paper
+UR  - https://openalex.org/W4385270122
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00123
+N1  - sr-screener TA [R00123]: UNCLEAR (Unclear - needs next stage / team decision) - Generate-and-rank; join semantics extension, centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - T5QL: Taming language models for SQL generation
+AU  - Samuel Arcadinho
+AU  - David Aparício
+AU  - Hugo Veiga
+AU  - Antonio Alegria
+PY  - 2022
+DO  - 10.18653/v1/2022.gem-1.23
+M3  - conference-paper
+UR  - https://openalex.org/W4385573324
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00131
+N1  - sr-screener TA [R00131]: UNCLEAR (Unclear - needs next stage / team decision) - Constrained generation plus candidate re-ranking; centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Light RAT-SQL: A RAT-SQL with More Abstraction and Less Embedding of Pre-existing Relations
+AU  - Nathan Manzambi Ndongala
+PY  - 2023
+T2  - Texila international journal of academic research
+DO  - 10.21522/tijar.2014.10.02.art001
+M3  - article
+UR  - https://openalex.org/W4367315688
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00136
+N1  - sr-screener TA [R00136]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - NL2SQL with partial missing metadata based on multi-view metadata graph compensation and reasoning
+AU  - Jie Lin
+AU  - Yulong Liang
+AU  - Jiyan Li
+AU  - Yi Bai
+AU  - Yong Wang
+PY  - 2024
+T2  - Applied Intelligence
+DO  - 10.1007/s10489-023-05221-z
+M3  - article
+UR  - https://openalex.org/W4390668621
+N1  - snowballing forward from R00109, R00126, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00139
+N1  - sr-screener TA [R00139]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; metadata graph reasoning suggests schema linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Gar $$\scriptstyle ++$$: Natural Language to SQL Translation with Efficient Generate-and-Rank
+AU  - Yuankai Fan
+AU  - Can Huang
+AU  - Tonghui Ren
+AU  - Zhenying He
+AU  - Xiaocong Wang
+AU  - Xianglian Wu
+AU  - Yue Wang
+AU  - Jiaming Li
+AU  - Y. F. Yang
+PY  - 2024
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-97-7238-4_26
+M3  - conference-paper
+UR  - https://openalex.org/W4401907392
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00151
+N1  - sr-screener TA [R00151]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; generate-and-rank suggests candidate selection | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Structured Design Solves Multiple Tables of NL2SQL
+AU  - Xianwei Yi
+AU  - Ruijie Wang
+AU  - Hanyi Zhang
+AU  - Shiqi Zhen
+PY  - 2022
+T2  - Communications in computer and information science
+DO  - 10.1007/978-981-19-8300-9_24
+M3  - conference-paper
+UR  - https://openalex.org/W4312442756
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00154
+N1  - sr-screener TA [R00154]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; multi-table NL2SQL may involve joins or linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Enhancing Interaction Graph of Data Schema and Syntactic Structure with Pre-trained Language Model for Text-to-SQL
+AU  - Wenbin Zhao
+AU  - Long Zhao
+AU  - Feng Wu
+AU  - Zixuan Zheng
+AU  - Haoxin Jin
+AU  - Bin Gu
+PY  - 2025
+T2  - Communications in computer and information science
+DO  - 10.1007/978-981-96-1024-2_12
+M3  - conference-paper
+UR  - https://openalex.org/W4406771118
+N1  - snowballing forward from R00109, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00157
+N1  - sr-screener TA [R00157]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; schema interaction graph may be schema linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - IRAM-SQL: A Language Model Integrating Relation-Aware Mechanism for Text-to-SQL
+AU  - Ruohan Zhang
+AU  - Zhou Feng
+AU  - Shuyuan Peng
+PY  - 2024
+T2  - International Conference on Computer and Communications (ICCC)
+DO  - 10.1109/iccc62609.2024.10942231
+M3  - conference-paper
+UR  - https://openalex.org/W4409097919
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00159
+N1  - sr-screener TA [R00159]: UNCLEAR (Unclear - needs next stage / team decision) - Question-schema relation-aware modelling; unclear if schema linking is central | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SPG-SQL: Semantic Path Guided SQL Generation Model with Gumbel-Enhanced Graph Pruning
+AU  - Junrui Zhang
+AU  - Haosong Gou
+AU  - Shaojie Qiao
+AU  - Gaoyi Zhang
+AU  - Nan Han
+PY  - 2025
+T2  - International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)
+DO  - 10.1109/caibda65784.2025.11182823
+M3  - conference-paper
+UR  - https://openalex.org/W4415003833
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00161
+N1  - sr-screener TA [R00161]: UNCLEAR (Unclear - needs next stage / team decision) - Semantic path selection and graph pruning; possible schema linking | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ReActSQL: A Multi-agent Framework for Text-to-SQL via Feedback-Driven Query Rewriting
+AU  - Xingyu Li
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-92-3417-2_12
+M3  - conference-paper
+UR  - https://openalex.org/W7168648124
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00172
+N1  - sr-screener TA [R00172]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; feedback-driven query rewriting suggests self-correction | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A Governed NL-to-SQL Architecture for Reliable Clinical Data Querying and Outpatient Schedule Monitoring
+AU  - Isaac Daroch
+AU  - Matías Rojas Cabrera
+AU  - Rodrigo Muñoz Andrade
+AU  - Alejandra Fernández V
+AU  - Juan Pablo Vásconez
+PY  - 2026
+T2  - Big Data and Cognitive Computing
+DO  - 10.3390/bdcc10080258
+M3  - article
+UR  - https://openalex.org/W7172271400
+N1  - snowballing forward from R00109, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00174
+N1  - sr-screener TA [R00174]: UNCLEAR (Unclear - needs next stage / team decision) - Up to three exchanges per interaction; multi-turn status unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CYANSQL: Unlock the Power of NL2SQL Via Clustering-Based Test-Time Scaling
+AU  - Haoyu Qin
+AU  - Tonghui Ren
+AU  - Zhenying He
+AU  - X.Sean Wang
+AU  - Jiashu Xing
+AU  - Yanghuan Ye
+AU  - Shifei Huang
+AU  - Jinbao Li
+PY  - 2026
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde65706.2026.00084
+M3  - conference-paper
+UR  - https://openalex.org/W7202280149
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00176
+N1  - sr-screener TA [R00176]: UNCLEAR (Unclear - needs next stage / team decision) - Clustering-based test-time scaling may be candidate selection | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Agentic Text-to-SQL with Table-Level Retrieval for Protective Relay Settings
+AU  - Gustavo L. B. Pereira
+AU  - João Pedro G. Fernandes
+AU  - João Pedro A. F. Matos
+AU  - Vinicius Alboneti Aguiar
+AU  - Sávio S. T. de Oliveira
+AU  - Anderson S. Soares
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-3-032-39892-5_35
+M3  - conference-paper
+UR  - https://openalex.org/W7215079455
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00179
+N1  - sr-screener TA [R00179]: UNCLEAR (Unclear - needs next stage / team decision) - Table-level retrieval suggests table selection; no abstract | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CAGE-SQL: Diagnostic Mutation Analysis for Execution-Based Text-to-SQL Verification
+AU  - Bochen Wu
+AU  - Haoyu Gao
+PY  - 2026
+T2  - Lecture notes in computer science
+DO  - 10.1007/978-981-92-5696-9_1
+M3  - conference-paper
+UR  - https://openalex.org/W7220854057
+N1  - snowballing forward from R00109
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00181
+N1  - sr-screener TA [R00181]: UNCLEAR (Unclear - needs next stage / team decision) - Execution-based verification suggests correction; no abstract | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - TURSpider: A Turkish Text-to-SQL Dataset and LLM-Based Study
+AU  - Ali Buğra Kanburoğlu
+AU  - Faik Boray TEK
+PY  - 2024
+T2  - IEEE Access
+DO  - 10.1109/access.2024.3498841
+M3  - article
+UR  - https://openalex.org/W4404411228
+N1  - snowballing forward from R00110
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00184
+N1  - sr-screener TA [R00184]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - GTR: An SQL Generator With Transition Representation in Cross-Domain Database Systems
+AU  - Shaojie Qiao
+AU  - Chenxu Liu
+AU  - Guoping Yang
+AU  - Nan Han
+AU  - Yuhan Peng
+AU  - Lingchun Wu
+AU  - He Li
+AU  - Guan Yuan
+PY  - 2023
+T2  - IEEE Transactions on Neural Networks and Learning Systems
+DO  - 10.1109/tnnls.2023.3309824
+M3  - article
+UR  - https://openalex.org/W4386470315
+N1  - snowballing forward from R00110, R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00185
+N1  - sr-screener TA [R00185]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - LGESQL: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
+AU  - Ruisheng Cao
+AU  - Lu Chen
+AU  - Zhi Chen
+AU  - Yanbin Zhao
+AU  - Su Zhu
+AU  - Kai Yu
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2106.01093
+M3  - preprint
+UR  - https://openalex.org/W3169459536
+N1  - snowballing backward+forward from R00116, R00868
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00196
+N1  - sr-screener TA [R00196]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser
+AU  - Zhi Chen
+AU  - Lu Chen
+AU  - Yanbin Zhao
+AU  - Ruisheng Cao
+AU  - Zihan Xu
+AU  - Su Zhu
+AU  - Kai Yu
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2104.04689
+M3  - preprint
+UR  - https://openalex.org/W3152888762
+N1  - snowballing forward from R00116, R00117
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00197
+N1  - sr-screener TA [R00197]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - A Question‐Aware Few‐Shot Text‐to‐SQL Neural Model for Industrial Databases
+AU  - Ren Li
+AU  - Yu Chen
+AU  - Hongyi Zhang
+AU  - Jianxi Yang
+AU  - Qiao Xiao
+AU  - Shixin Jiang
+PY  - 2025
+T2  - International Journal of Intelligent Systems
+DO  - 10.1155/int/8124797
+M3  - article
+UR  - https://openalex.org/W4408961528
+N1  - snowballing forward from R00116
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00200
+N1  - sr-screener TA [R00200]: UNCLEAR (Unclear - needs next stage / team decision) - Attention-based column filtering resembles column selection | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Graph Enhanced Cross-Domain Text-to-SQL Generation
+AU  - Siyu Huo
+AU  - Tengfei Ma
+AU  - Jie Chen
+AU  - Maria Chang
+AU  - Lingfei Wu
+AU  - Michael Witbrock
+PY  - 2019
+DO  - 10.18653/v1/d19-5319
+M3  - conference-paper
+UR  - https://openalex.org/W2984689063
+N1  - snowballing backward from R00117, R00936
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00202
+N1  - sr-screener TA [R00202]: UNCLEAR (Unclear - needs next stage / team decision) - Column-name graph embeddings may serve schema linking; unclear if central | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Enhancing Data Pipelines with Foundation Models: A New Approach to Automated Schema Mapping and SQL Generation
+AU  - Sai Sukesh Reddy Tummuri
+PY  - 2026
+T2  - Smart innovation, systems and technologies
+DO  - 10.1007/978-3-032-22114-8_3
+M3  - conference-paper
+UR  - https://openalex.org/W7167354322
+N1  - snowballing forward from R00117
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00205
+N1  - sr-screener TA [R00205]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; title suggests schema mapping with SQL generation | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SAGE: Synthetic-Augmented Generation with Error Feedback for Text-to-SQL
+AU  - Zewu Peng
+AU  - Taipeng Zhu
+AU  - Chenghui Liu
+AU  - Yue Chen
+AU  - Zhixin Zhang
+AU  - Ziming Ye
+PY  - 2025
+T2  - IEEE International Conference on Sensors, Electronics and Computer Engineering (ICSECE)
+DO  - 10.1109/icsece65727.2025.11256835
+M3  - conference-paper
+UR  - https://openalex.org/W4416924659
+N1  - snowballing forward from R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00223
+N1  - sr-screener TA [R00223]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models
+AU  - Mohammadreza Pourreza
+AU  - Davood Rafiei
+PY  - 2024
+DO  - 10.18653/v1/2024.findings-emnlp.481
+M3  - conference-paper
+UR  - https://openalex.org/W4404782579
+N1  - snowballing backward from R00148
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00241
+N1  - sr-screener TA [R00241]: UNCLEAR (Unclear - needs next stage / team decision) - Decomposed two-stage; unclear if schema linking is the first stage | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A lightweight and explainable conversational AI framework for natural language SQL learning without large language models
+AU  - Bahasuru Nayanakantha
+AU  - Kaneeka Vidanage
+AU  - Dr.Smita Nirkhi
+AU  - Sabyasachi Bhattacharyya
+PY  - 2026
+T2  - Scientific Reports
+DO  - 10.1038/s41598-026-70120-5
+M3  - article
+UR  - https://openalex.org/W7212382403
+N1  - snowballing forward from R00511
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00253
+N1  - sr-screener TA [R00253]: UNCLEAR (Unclear - needs next stage / team decision) - Conversational SQL chatbot; unclear if dependent successive questions | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Text-to-SQL for Low-Resource Languages: A Unified Large Language Model Framework Evaluated on Arabic, Japanese, and Vietnamese
+AU  - Abdulrahman Aloraini
+PY  - 2026
+T2  - Electronics
+DO  - 10.3390/electronics15194398
+M3  - article
+UR  - https://openalex.org/W7214234908
+N1  - snowballing forward from R00526
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00260
+N1  - sr-screener TA [R00260]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - F-SQL: Fuse Table Schema and Table Content for Single-Table Text2SQL Generation
+AU  - Xiaoyu Zhang
+AU  - Fengjing Yin
+AU  - Guojie Ma
+AU  - Bin Ge
+AU  - Weidong Xiao
+PY  - 2020
+T2  - IEEE Access
+DO  - 10.1109/access.2020.3011747
+M3  - article
+UR  - https://openalex.org/W3044645765
+N1  - snowballing backward from R00981
+DB  - OpenAlex (snowballing)
+LB  - TA-Unclear
+ID  - R00264
+N1  - sr-screener TA [R00264]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
+AU  - Jinyang Li
+AU  - Binyuan Hui
+AU  - Ge Qu
+AU  - Bin-Hua Li
+AU  - Jiaxi Yang
+AU  - Bo-Wen Li
+AU  - Bailin Wang
+AU  - Bowen Qin
+AU  - Rongyu Cao
+AU  - Ruiying Geng
+AU  - Nan Huo
+AU  - Xuan-He Zhou
+AU  - Chenhao Ma
+AU  - Guo-Liang Li
+AU  - K. Chang
+AU  - Fei Huang
+AU  - Reynold Cheng
+AU  - Yong-Bin Li
+PY  - 2023
+T2  - Neural Information Processing Systems
+DO  - 10.48550/arxiv.2305.03111
+N1  - snowballing backward (Semantic Scholar supplement) from R00033, R00042, R00309, R00312, R00373, R00453, R00480, R00482, R00508
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00268
+N1  - sr-screener TA [R00268]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation
+AU  - Ningyuan Sun
+AU  - Xuefeng Yang
+AU  - Yunfeng Liu
+PY  - 2020
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2006.06434
+N1  - snowballing backward (Semantic Scholar supplement) from R00286
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00270
+N1  - sr-screener TA [R00270]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
+AU  - Bo-Yan Li
+AU  - Jiayi Zhang
+AU  - Ju Fan
+AU  - Yanwei Xu
+AU  - Chong Chen
+AU  - Nan Tang
+AU  - Yu-Yu Luo
+PY  - 2025
+T2  - International Conference on Machine Learning
+DO  - 10.48550/arxiv.2502.17248
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00281
+N1  - sr-screener TA [R00281]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows
+AU  - Fangyu Lei
+AU  - Fangyu Lei
+AU  - Ji-Xuan Chen
+AU  - Yuxiao Ye
+AU  - Ruisheng Cao
+AU  - Dongchan Shin
+AU  - Hongjin Su
+AU  - Zhaoqing Suo
+AU  - Hongcheng Gao
+AU  - Hongcheng Gao
+AU  - Pengcheng Yin
+AU  - Victor Zhong
+AU  - Caiming Xiong
+AU  - Ruoxi Sun
+AU  - Qian Liu
+AU  - Sida Wang
+AU  - Tao Yu
+PY  - 2024
+T2  - International Conference on Learning Representations
+DO  - 10.48550/arxiv.2411.07763
+N1  - snowballing backward (Semantic Scholar supplement) from R00373, R00438, R00453, R00508
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00282
+N1  - sr-screener TA [R00282]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query
+AU  - Xi Chen
+AU  - Jinguo You
+AU  - Likun Likun
+AU  - Xiang Li
+PY  - 2024
+T2  - NAACL-HLT
+DO  - 10.18653/v1/2024.findings-naacl.214
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00286
+N1  - sr-screener TA [R00286]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - Automatic Metadata Extraction for Text-to-SQL
+AU  - Vladislav Shkapenyuk
+AU  - Divesh Srivastava
+AU  - T. Johnson
+AU  - Parisa Ghane
+PY  - 2025
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2505.19988
+N1  - snowballing backward (Semantic Scholar supplement) from R00453
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00287
+N1  - sr-screener TA [R00287]: UNCLEAR (Unclear - needs next stage / team decision) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: exclude/E6 | by AJE
+ER  - 
+
+TY  - CPAPER
+TI  - A Text-to-SQL strategy based on large language models and knowledge graphs for real-world databases
+AU  - Eduardo R. S. Nascimento
+AU  - Caio Viktor S. Avila
+AU  - Y. Izquierdo
+AU  - Grettel M. García
+AU  - Lucas Feijó L. Andrade
+AU  - Matheus O. Silva
+AU  - M. Facina
+AU  - Melissa Lemos
+AU  - Marco A. Casanova
+PY  - 2026
+T2  - Data & Knowledge Engineering
+DO  - 10.1016/j.datak.2026.102580
+N1  - snowballing backward (Semantic Scholar supplement) from R00453
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00289
+N1  - sr-screener TA [R00289]: UNCLEAR (Unclear - needs next stage / team decision) - No abstract; LLM plus knowledge graph, relational target unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Content Enhanced BERT-based Text-to-SQL Generation
+AU  - Tong Guo
+AU  - Huilin Gao
+PY  - 2019
+T2  - arXiv.org
+DO  - 10.48550/arxiv.1910.07179
+N1  - snowballing backward (Semantic Scholar supplement) from R00994
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Unclear
+ID  - R00292
+N1  - sr-screener TA [R00292]: UNCLEAR (Unclear - needs next stage / team decision) - Table content matching with question; value linking centrality unclear | A: unclear/UNC | B: unclear/UNC | by A+B
+ER  - 
+

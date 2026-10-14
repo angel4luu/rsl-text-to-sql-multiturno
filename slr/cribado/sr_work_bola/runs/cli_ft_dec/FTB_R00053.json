@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00053@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00053",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL with a dynamic revision chain (execution feedback) as a stated contribution; evaluated on Spider, Spider-Syn and Spider-DK.",
+   "where": "p1 Abstract; p2 Introduction; p8-9 Section 4 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00053.json"
+}

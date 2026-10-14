@@ -1,0 +1,44 @@
+% =====================================================================
+% Apéndices A–G (fase 12). El contenido de tablas, figuras y prompts se genera con
+% analysis/src/tablas/apendices.py (make tablas); aquí solo va el texto de enlace.
+% =====================================================================
+Los apéndices reúnen el material que exigen los ítems de PRISMA 2020 citados en el texto. Los demás materiales se
+publican en el repositorio del proyecto (\url{\RSLRepositorio}): las decisiones de cribado de cada registro con su motivo, las taxonomías
+secundarias, los resultados por configuración, los análisis de sensibilidad completos, los análisis bibliométricos de
+autores y términos, y todos los \en{prompts} ejecutados.
+
+\section{Estrategia de búsqueda}\label{app:busqueda}
+La \cref{tab:ap-busquedas} resume las búsquedas oficiales registradas. A continuación se reproducen las cadenas exactas,
+tal como se pegaron en cada fuente, conforme a PRISMA-S; los saltos de línea se añadieron solo para la maquetación. En arXiv y ACL Anthology la lógica completa de la cadena v4
+se aplicó con un script versionado sobre título y resumen; para ACL se registró la suma de verificación del volcado
+oficial.
+\input{apendices/a_busqueda}
+
+\section{Informes excluidos a texto completo}\label{app:excluidos}
+\input{apendices/b_excluidos}
+
+\section{Formulario de extracción de datos}\label{app:formulario}
+\input{apendices/c_formulario}
+
+\section{Evaluación de la calidad}\label{app:calidad}
+La \cref{tab:ap-rubrica} presenta la rúbrica; la \cref{tab:calidad}, el perfil agregado por ítem, y la
+\cref{tab:ap-calidad}, el perfil por estudio que exige el protocolo.
+\input{apendices/d_calidad}
+
+\section{Características de los estudios multiturno}\label{app:caracteristicas}
+Los valores de la \cref{tab:ap-caracteristicas} se reportan tal como aparecen en cada estudio y no son comparables entre
+estudios, porque difieren el \en{benchmark}, la métrica y el historial usado en la evaluación.
+\input{apendices/e_caracteristicas}
+
+\section{Figuras complementarias}\label{app:figuras}
+\input{apendices/f_figuras}
+
+\section{Uso de modelos de IA}\label{app:ia}
+La \cref{tab:ap-modelos} detalla los modelos y los ajustes de cada etapa, y la \cref{tab:ap-verificacion}, la
+verificación humana. Se reproduce después una plantilla de \en{prompt} por etapa principal, en inglés y sin cambios,
+salvo tres omisiones marcadas entre corchetes: los bloques del protocolo, del formulario y de la lista de verificación,
+que ya figuran en el texto principal o en los \cref{app:formulario,app:calidad}; el texto de las páginas de los
+artículos, por derechos de autor, y las rutas absolutas, que se muestran relativas al repositorio. Los caracteres no
+ASCII se transliteraron y las líneas largas se partieron para la maquetación.
+\input{apendices/g_ia}
+\input{apendices/g_prompts}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00435@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00435",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary arXiv 2026 multi-turn Text-to-SQL benchmark with quantitative per-turn execution-accuracy evaluation of context memory on relational databases",
+   "where": "p1 Abstract; p4-5 Sec 3 Problem Formulation; p10-12 Sec 6 Results (Tables 6-8)"
+  }
+ ],
+ "source": "cli:FTB_R00435.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00367@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00367",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking (X-Linking) as central contribution; quantitative results on public Spider benchmark; 2025 arXiv, English.",
+   "where": "p1 Abstract and Introduction contributions; p4-5 Experiments (Tables 1-3)"
+  }
+ ],
+ "source": "cli:FTB_R00367.json"
+}

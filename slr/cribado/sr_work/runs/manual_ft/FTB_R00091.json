@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00091@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00091",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General multitask pretraining method; no context restoration, linking or correction contribution; SParC/CoSQL only as aggregate benchmark scores.",
+   "where": "p1 Abstract; p2 Introduction; p3-6 Section 3 (Methods); p6 Section 4.1; p7 Table 1"
+  }
+ ],
+ "source_transcript": "agent-a5f81838e0e05c906.jsonl"
+}

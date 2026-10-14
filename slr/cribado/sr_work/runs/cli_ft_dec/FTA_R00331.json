@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00331@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00331",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; view-based schema handles join/foreign-key complexity, with mapping-based schema linking in stage two; EX evaluated on public BIRD.",
+   "where": "p1 Abstract; p2 Introduction and contributions; p5 §4.5 and §5.1; p6 Table 3"
+  }
+ ],
+ "source": "cli:FTA_R00331.json"
+}

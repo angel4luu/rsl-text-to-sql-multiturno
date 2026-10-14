@@ -1,0 +1,306 @@
+{
+ "label": "A:b014@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00649",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema ranking is central contribution; Spider evaluation"
+  },
+  {
+   "id": "R00650",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema linking via graph encoding is central"
+  },
+  {
+   "id": "R00651",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Architecture with table selection and execution refinement; central role unclear"
+  },
+  {
+   "id": "R00652",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table QA retrieval, no SQL generation"
+  },
+  {
+   "id": "R00653",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demonstration retrieval for prompting, no linking or correction focus"
+  },
+  {
+   "id": "R00654",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of NL2SQL"
+  },
+  {
+   "id": "R00655",
+   "d": "include",
+   "code": "INC",
+   "why": "JOIN path identification is central contribution"
+  },
+  {
+   "id": "R00656",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking enhancement is central contribution"
+  },
+  {
+   "id": "R00657",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "BI system with schema graph and self-correction; central contribution unclear"
+  },
+  {
+   "id": "R00658",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Multi-table QA over table collections, not SQL"
+  },
+  {
+   "id": "R00659",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Complex query method with table selection; central contribution unclear"
+  },
+  {
+   "id": "R00660",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based Sinhala NLIDB, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00661",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL error correction is central"
+  },
+  {
+   "id": "R00662",
+   "d": "include",
+   "code": "INC",
+   "why": "Fragment-level self-consistency candidate selection is central"
+  },
+  {
+   "id": "R00663",
+   "d": "include",
+   "code": "INC",
+   "why": "Coverage/redundancy feedback refinement of SQL is central"
+  },
+  {
+   "id": "R00664",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback revision agent is key innovation"
+  },
+  {
+   "id": "R00665",
+   "d": "include",
+   "code": "INC",
+   "why": "Classification-based execution feedback self-correction loop"
+  },
+  {
+   "id": "R00666",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Several components; result verification not clearly central"
+  },
+  {
+   "id": "R00667",
+   "d": "include",
+   "code": "INC",
+   "why": "Fine-grained execution feedback is central contribution"
+  },
+  {
+   "id": "R00668",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Human-feedback active learning fine-tuning, single-turn, no execution correction"
+  },
+  {
+   "id": "R00669",
+   "d": "include",
+   "code": "INC",
+   "why": "Verifiable generation loop with execution feedback"
+  },
+  {
+   "id": "R00670",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback RL and SQL self-correction on Spider/BIRD"
+  },
+  {
+   "id": "R00671",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-aware retrieval and execution-based candidate validation"
+  },
+  {
+   "id": "R00672",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM inference scheduling, not linking or correction"
+  },
+  {
+   "id": "R00673",
+   "d": "include",
+   "code": "INC",
+   "why": "Consistency verification/correction mechanism is central"
+  },
+  {
+   "id": "R00674",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Error-aware verification and correction for clinical SQL; relational scope unclear"
+  },
+  {
+   "id": "R00675",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Stepwise validated Pandas intermediate; self-correction centrality unclear"
+  },
+  {
+   "id": "R00676",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Domain framework including execution feedback refinement; centrality unclear"
+  },
+  {
+   "id": "R00677",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Logic rules for aggregation/value spans, no linking or correction focus"
+  },
+  {
+   "id": "R00678",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema design comparison of LLMs, single-turn"
+  },
+  {
+   "id": "R00679",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Skeleton prediction search, no linking or correction"
+  },
+  {
+   "id": "R00680",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema element attention and iterative prompt refinement; centrality unclear"
+  },
+  {
+   "id": "R00681",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Compliance benchmark, not about linking or correction"
+  },
+  {
+   "id": "R00682",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative SQL refinement agent with execution feedback"
+  },
+  {
+   "id": "R00683",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain prompting method, self-correction only one listed strategy"
+  },
+  {
+   "id": "R00684",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Knowledge generation preference learning, not correction of SQL"
+  },
+  {
+   "id": "R00685",
+   "d": "include",
+   "code": "INC",
+   "why": "Semantic schema linking and execution-guided refinement loop"
+  },
+  {
+   "id": "R00686",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Benchmark with sub-tasks; schema linking involvement unclear"
+  },
+  {
+   "id": "R00687",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1986"
+  },
+  {
+   "id": "R00688",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ASR error correction for speech, not SQL correction"
+  },
+  {
+   "id": "R00689",
+   "d": "exclude",
+   "code": "E6",
+   "why": "MCP reporting patterns, no linking or correction contribution"
+  },
+  {
+   "id": "R00690",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema grounding and execution verification among components; centrality unclear"
+  },
+  {
+   "id": "R00691",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Geospatial SQL with execution-feedback repair; centrality unclear"
+  },
+  {
+   "id": "R00692",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LMS assistant; correction mechanism only minor component"
+  },
+  {
+   "id": "R00693",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cost-oriented SLM/LLM fallback system, not linking or correction"
+  },
+  {
+   "id": "R00694",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multi-database benchmark generation, no linking or correction"
+  },
+  {
+   "id": "R00695",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General NL2SQL architecture description"
+  },
+  {
+   "id": "R00696",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Agent orchestration for supply chain, not linking/correction"
+  },
+  {
+   "id": "R00697",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-agent with schema mapping and refinement agents; centrality unclear"
+  },
+  {
+   "id": "R00698",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise ChatBI application description"
+  }
+ ],
+ "source_transcript": "agent-a081bf749c6e56b9e.jsonl"
+}

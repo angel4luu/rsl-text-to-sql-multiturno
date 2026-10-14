@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00441@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00441",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is clause-level error localization and candidate verification, evaluated quantitatively on BIRD and Spider.",
+   "where": "p1 Abstract; p7 §4.1 Experiment Setup; p8 Table 1, Table 2, §4.4"
+  }
+ ],
+ "source": "cli:FTB_R00441.json"
+}

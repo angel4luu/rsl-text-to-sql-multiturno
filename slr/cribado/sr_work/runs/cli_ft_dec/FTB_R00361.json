@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00361@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00361",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn evaluation of 133 questions on an internal LinkedIn benchmark only; no public benchmark results reported.",
+   "where": "p5 Sec 3.1 Benchmark Definition; p5-6 Sec 3.2 Results and Table 2"
+  }
+ ],
+ "source": "cli:FTB_R00361.json"
+}

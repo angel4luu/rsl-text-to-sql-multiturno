@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00120@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00120",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL (SParC/CoSQL) with previous-SQL reuse, schema/column-table linking, and quantitative per-turn evaluation; 2020 COLING paper",
+   "where": "p1 Abstract; p7-9 Sections 4-4.3 (Tables 1-4)"
+  }
+ ],
+ "source": "cli:FTB_R00120.json"
+}

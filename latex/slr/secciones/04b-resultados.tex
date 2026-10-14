@@ -1,0 +1,82 @@
+\subsection{PI1: restauración del contexto}
+\label{sec:res-pi1}
+% PRISMA ítems 19 (resultados individuales) y 20a (características por síntesis)
+
+\input{tablas/taxo-pi12}
+
+La taxonomía de PI1 se basa en los \nUmbral{} estudios multiturno del Nivel 2 que alcanzan el umbral de validez (\cref{tab:taxo-pi12}). La técnica más frecuente es la concatenación del historial (35 estudios, 48,6~\%), seguida de la reescritura de la pregunta (12 estudios, 16,7~\%). La clasificación del discurso y la resolución explícita de referencias aparecen en 2 estudios cada una (2,8~\%), y 25 estudios (34,7~\%) figuran como «no reportado o no extraído», es decir, la técnica puede faltar en el informe o no haberse capturado en la extracción asistida por IA. Un estudio puede tener más de un código. Entre los insumos del historial, las preguntas previas están presentes en 59 estudios (81,9~\%), el SQL previo en 32 (44,4~\%), las respuestas del sistema en 13 (18,1~\%) y los resultados de ejecución en 3 (4,2~\%); 11 estudios (15,3~\%) no reportan el insumo.
+% fuente: PI1.md
+
+Entre los estudios que reescriben la pregunta figuran Rose-SQL~\cite{Zhou2026RoseSQL}, ACT-SQL~\cite{Zhang2023ACTSQL}, CQR-SQL~\cite{Xiao2022CQRSQL}, DIR~\cite{Li2023DIR}, QURG~\cite{Chai2023QURG} y FANDA~\cite{Liu2019FANDA}. CoE-SQL~\cite{Zhang2024CoESQL} y el trabajo de \en{self-play}~\cite{Liu2022Augmenting} concatenan el historial sin reescritura.
+
+Respecto de la pregunta específica, los contrastes dentro del estudio se agrupan en clases distintas para la reescritura y para la concatenación, de modo que la comparación entre ambas es descriptiva y no procede de un mismo estudio. La mediana de la reescritura es de 2,0~pp (5 estudios) y la de la concatenación de 0,6~pp (3 estudios); en ambas clases la dirección es positiva en la mayoría de los estudios. El detalle, con la confianza de cada hallazgo, figura en la \cref{sec:res-efectos} (\cref{fig:pi_efectos_componentes} y \cref{tab:efectos}). Las diferencias frente a la línea base propia de los estudios con reescritura se reportan cada una en su \en{benchmark}, métrica e historial, y no se comparan entre sí; por ejemplo, ACT-SQL reporta +18,3~pp en CoSQL con la métrica QM y el historial SOLO\_PREGUNTAS.
+% fuente: PI1.md
+
+\subsection{PI2: representación y actualización del estado}
+\label{sec:res-pi2}
+% PRISMA ítems 19 (resultados individuales) y 20a (características por síntesis)
+
+La base de PI2 son los mismos \nUmbral{} estudios del Nivel 2 (\cref{tab:taxo-pi12}). La representación más frecuente es el historial plano (38 estudios, 52,8~\%). Le siguen el SQL previo como base de edición (11 estudios, 15,3~\%), la estructura explícita (10, 13,9~\%), el grafo (9, 12,5~\%), la memoria externa (7, 9,7~\%), la ventana deslizante (5, 6,9~\%) y el resumen (1, 1,4~\%); 11 estudios (15,3~\%) no reportan la representación. La actualización del estado es implícita y neuronal en 34 estudios (47,2~\%), se basa en reglas deterministas en 16 (22,2~\%) y es generativa con un LLM en 12 (16,7~\%); otros 16 (22,2~\%) no la reportan.
+% fuente: PI2.md
+
+En cuanto al coste del contexto, 36 estudios (50,0~\%) crecen con el número de turnos, 14 (19,4~\%) lo acotan y 22 (30,6~\%) no lo reportan. Los trabajos con estructura explícita incluyen a Rose-SQL~\cite{Zhou2026RoseSQL}, el seguimiento de estados con aprendizaje en contexto~\cite{Hu2022InContext}, SemPlan~\cite{Teixeira2026SemPlan} y el modelado de estados de interacción~\cite{Wang2021Tracking}. Los de grafo son IGSQL~\cite{Cai2020IGSQL}, un grafo heterogéneo de interacción~\cite{Yu2021Interactionmodeling} y una red de relaciones híbrida dinámica~\cite{Hui2021Dynamic}. CoE-SQL~\cite{Zhang2024CoESQL} y EditSQL~\cite{Zhang2019EditSQL} editan el SQL previo.
+% fuente: PI2.md
+
+Los campos descriptivos del grafo no se reportan en 64 de los 72 estudios. Entre los 8 que sí los reportan, los nodos son elementos del esquema en 8 estudios, tokens de la pregunta en 4 y valores de la base de datos en 2, y el grafo es dinámico en 7 y estático en 1. Los archivos no incluyen el cruce entre tipo de representación y coste del contexto, solo las frecuencias marginales. Los contrastes dentro del estudio de las clases de grafo o estado estructurado (11 estudios; mediana de 2,9~pp) y de SQL o resultados previos (7 estudios; mediana de 5,7~pp) se presentan en la \cref{sec:res-efectos}.
+% fuente: PI2.md
+
+\subsection{PI3: vinculación de esquemas e inferencia de \en{joins}}
+\label{sec:res-pi3}
+% PRISMA ítems 19 (resultados individuales) y 20a (características por síntesis)
+
+Entre los \nUmbral{} estudios del Nivel 2, la técnica de vinculación no se reporta en 22 (30,6~\%). Entre las reportadas predominan la coincidencia de cadenas (15 estudios, 20,8~\%), la ausencia de vinculación explícita (12, 16,7~\%) y el grafo del esquema (12, 16,7~\%); siguen el \en{prompting} de un LLM (10, 13,9~\%), el clasificador entrenado (9, 12,5~\%), la poda del esquema (7, 9,7~\%) y la recuperación por \en{embeddings} (6, 8,3~\%). La inferencia de \en{joins} es implícita en el modelo en 54 estudios (75,0~\%) y no se reporta en 16 (22,2~\%). Solo 2 estudios usan una inferencia no implícita: UniSAr~\cite{Dou2023UniSAr}, con caminos algorítmicos, y PG-GSQL~\cite{Wang2020PGGSQL}, con un grafo de claves foráneas y restricciones. Un total de 10 estudios (13,9~\%) reportan errores de \en{join}.
+% fuente: PI3.md
+
+\input{tablas/contraste-pi34}
+
+La \cref{tab:contraste-pi34} contrasta las frecuencias de cada código entre los \nCentralMT{} estudios multiturno y los \nCentralUT{} de un turno cuya contribución central es PI3 o PI4, con la misma regla de entrada en ambos brazos y sin aplicar el umbral de validez; por ello los recuentos multiturno difieren de los de la taxonomía anterior (p.\,ej., 9 frente a 10 estudios con \en{prompting} de un LLM). Los estudios de un turno se extrajeron de las páginas iniciales (Nivel 1), de modo que las filas «no reportado o no extraído» no son comparables entre escenarios. Las frecuencias del \en{prompting} de un LLM, la poda y la recuperación por \en{embeddings} son similares en ambos brazos (26,5 y 25,4~\%; 20,6 y 18,7~\%; 14,7 y 16,4~\%). La coincidencia de cadenas representa el 23,5~\% de los estudios multiturno y el 5,6~\% de los de un turno, y el grafo del esquema el 14,7~\% frente al 10,1~\%. La inferencia implícita de \en{joins} figura en el 76,5~\% de los estudios multiturno y el 20,5~\% de los de un turno, pero la inferencia de \en{joins} figura como no reportada o no extraída en el 72,0~\% de los de un turno frente al 17,6~\% de los multiturno, de modo que esta comparación no es válida. La comparación es de frecuencias, no de resultados.
+% fuente: pi34_tecnicas_central.csv, PI3.md
+
+Como análisis exploratorio (enmienda A6), la \cref{fig:bib_coocurrencia_tecnicas} (\cref{app:figuras}) muestra las combinaciones de técnicas de PI3 y PI4 en un mismo estudio. En multiturno, la aclaración con el usuario se combina con la retroalimentación de ejecución, con el \en{prompting} de un LLM y con la coincidencia de cadenas en 6 estudios cada una. En un turno, la retroalimentación de ejecución coincide con el \en{prompting} de un LLM en 31 estudios y este con la autoconsistencia en 19. La mediana de los contrastes dentro del estudio de la vinculación de esquemas es de 2,2~pp (19 estudios); su detalle se presenta en la \cref{sec:res-efectos}.
+% fuente: bib_coocurrencia_multiturno.csv, bib_coocurrencia_un_turno.csv, PI3.md
+
+\subsection{PI4: retroalimentación de ejecución y autocorrección}
+\label{sec:res-pi4}
+% PRISMA ítems 19 (resultados individuales) y 20a (características por síntesis)
+
+En los \nUmbral{} estudios del Nivel 2, el mecanismo de autocorrección no se reporta en 46 (63,9~\%) y la señal en 47 (65,3~\%). Entre los reportados, la aclaración con el usuario aparece en 18 estudios (25,0~\%), la retroalimentación de ejecución y errores en 10 (13,9~\%), la abstención y la autodepuración con un LLM en 4 cada una (5,6~\%), el verificador o crítico en 2 (2,8~\%) y la reparación simbólica en 1 (1,4~\%). Las señales son el usuario (16 estudios, 22,2~\%), el resultado de la ejecución (9, 12,5~\%), el error del SGBD (9, 12,5~\%), el juicio de un LLM (3, 4,2~\%) y el resultado vacío (2, 2,8~\%). El mecanismo se aplica al escenario multiturno en 30 estudios (41,7~\%) y no en 42 (58,3~\%). Ejemplos son la aclaración en un analizador interactivo~\cite{Elgohary2020Speak}, la retroalimentación de ejecución con aprendizaje a partir de errores~\cite{Zhai2024Learn}, HarnessSQL~\cite{Yang2026HarnessSQL}, la reparación simbólica de PICARD~\cite{Scholak2021PICARD} y un verificador conversacional~\cite{HariKrishnanParthasarathi2023Conversational}.
+% fuente: PI4.md
+
+El contraste con un turno aparece en la \cref{tab:contraste-pi34}, con la misma base restringida a PI3/PI4 centrales que en PI3. La retroalimentación de ejecución está en el 23,5~\% de los estudios multiturno y el 33,6~\% de los de un turno, una diferencia menor que la del contraste previo sin restringir; el verificador o crítico, en el 2,9~\% frente al 21,6~\%, y la autodepuración con un LLM, en el 11,8~\% frente al 14,9~\%. La aclaración con el usuario ocurre en el 47,1~\% de los estudios multiturno y el 2,2~\% de los de un turno, y la señal de usuario en el 44,1~\% frente al 3,0~\%, de modo que ambas siguen siendo mucho más frecuentes en multiturno. La autoconsistencia por votación y la reparación simbólica no figuran en ningún estudio multiturno de la tabla y aparecen en 36 (13,4~\%) y 6 (2,2~\%) de un turno, respectivamente. Las medianas de los contrastes dentro del estudio son de 1,5~pp para la autocorrección por ejecución (11 estudios) y de 8,9~pp para la aclaración (3 estudios), con los detalles y la confianza en la \cref{sec:res-efectos}.
+% fuente: pi34_tecnicas_central.csv, PI4.md
+
+\subsection{PI5: \en{benchmarks}, métricas y degradación por turno}
+\label{sec:res-pi5}
+% PRISMA ítems 19 (resultados individuales) y 20c (causas de heterogeneidad)
+
+\input{tablas/pi5}
+
+Los \nUmbral{} estudios del Nivel 2 con validez suficiente usan sobre todo \en{benchmarks} multiturno conversacionales (50 estudios), seguidos de \en{benchmarks} estándar de un turno (18), interactivos o de aclaración (11), variantes de un turno (7), de diálogo orientado a tareas (5), de datos propios o industriales (3) y de QA conversacional o tabular híbrida (3). Entre ellos se cuentan SParC~\cite{Yu2019SParC}, CoSQL~\cite{Yu2019CoSQL} y CHASE~\cite{Guo2021Chase}, además de Spider~\cite{Yu2018Spider} y BIRD~\cite{Li2023BIRD} en su uso de un turno. Las métricas más empleadas son la ejecución por pregunta (34 estudios), la coincidencia por interacción (31) y la coincidencia por pregunta (30), seguidas de la coincidencia exacta o lógica (21) y la ejecución por interacción (9). Un estudio puede aparecer en varias familias. Las categorías \texttt{OTRA} se consolidaron en las familias anteriores.
+% fuente: PI5.md
+
+\input{figuras/tex/pi5_degradacion}
+
+El tipo de historial usado en la evaluación (\cref{tab:pi5}) es predicho en 31 estudios (43,1~\%), solo preguntas en 19 (26,4~\%), de referencia (\en{gold}) en 5 (6,9~\%) y no reportado o no extraído en 20 (27,8~\%). Un total de 38 estudios (52,8~\%) reportan degradación por turno, 10 (13,9~\%) errores de \en{join} y 7 (9,7~\%) discuten la contaminación del \en{benchmark}. En la muestra independiente de la autora, el historial coincidió en 3 de 5 estudios (60,0~\%); las discrepancias correspondieron a SUQL~\cite{Liu2024SUQL} y DIR~\cite{Li2023DIR}, y la primera se corrigió a SOLO\_PREGUNTAS. La estratificación de PI5 depende, por tanto, de una codificación verificada de forma independiente en 3 de 5 estudios de la muestra.
+% fuente: PI5.md
+
+La \cref{fig:pi5_degradacion} presenta la degradación por turno, con los estratos separados y sin agruparlos. En el estrato predicho hay 6 curvas de 5 estudios, con una pendiente mediana de $-7{,}0$~pp por turno (rango de \degPredMin{} a \degPredMax{}~pp por turno). En el estrato de solo preguntas hay 8 curvas de 6 estudios, con una mediana de $-11{,}0$~pp por turno (rango de \degSoloMin{} a \degSoloMax{}~pp por turno). Ninguna curva con al menos tres turnos corresponde al historial de referencia ni al no reportado. Todas las pendientes individuales son negativas en ambos estratos; por ejemplo, la de IGSQL~\cite{Cai2020IGSQL} en SParC es de $-16{,}95$~pp por turno (historial predicho) y la de QURG~\cite{Chai2023QURG} en SParC de $-10{,}62$~pp (solo preguntas). Los valores relativos superiores al 100~\% de la figura indican que algunos grupos de turnos posteriores puntúan más que el turno 1. Los grupos de turno contienen preguntas distintas, por lo que la pendiente mezcla la profundidad del turno con la dificultad de las preguntas, y las comparaciones entre filas son descriptivas.
+% fuente: PI5.md, revision_4f.json (A9_degradacion)
+
+\subsection{Sesgos de notificación y análisis de sensibilidad complementarios}
+\label{sec:res-sesgos}
+% PRISMA ítems 20d (sensibilidad) y 21 (sesgos de notificación)
+
+Varios campos de la extracción figuran como no reportados o no extraídos en una parte amplia de los estudios del Nivel 2: la técnica de restauración del contexto en 25 de 72 (34,7~\%), el mecanismo de autocorrección en 46 de 72, el historial de la evaluación en 20 de 72 y los campos descriptivos del grafo en 64 de 72. Los contrastes con dirección negativa son escasos: se registra un estudio en la reescritura de la pregunta, uno en SQL o resultados previos y uno en la aclaración, entre otros.
+% fuente: PI1.md, PI2.md, PI4.md, PI5.md
+
+La reincorporación de los \nBajoUmbral{} estudios bajo el umbral de validez no modificó las medianas de PI1 ni de PI2. En PI3 la mediana de otros componentes pasó de 2,1 a 2,6~pp y en PI4 la de otros componentes de 4,1 a 3,1~pp, y la clase de autocorrección por ejecución pasó de 11 a 12 estudios con la misma mediana de 1,5~pp. Al excluir los preprints, la mediana de SQL o resultados previos pasó de 5,7 a 3,3~pp (6 estudios), la de vinculación de esquemas de 2,2 a 1,3~pp (16 estudios) y la de otros componentes de PI4 de 4,1 a 3,0~pp (6 estudios); las demás medianas variaron poco o nada. La clase de aclaración no figura en el análisis sin preprints. Las sensibilidades de D4 se presentan en la \cref{sec:res-d4}.
+% fuente: PI1.md, PI3.md, PI4.md, PI2.md
+
+Los informes no recuperados corresponden a 148 de señal de un turno y 43 de señal multiturno. Con el supuesto extremo de que todos cuentan en el denominador y los de señal multiturno también en el numerador, D4 es de 77/493 (15,6~\%; IC 95~\% de 12,7 a 19,1~\%); la estimación probabilística da D4 $\approx$ \DcuatroProbPct~\%.
+% fuente: PI0.md, revision_4f.json (A7_cota_probabilistica)
+%%%% END

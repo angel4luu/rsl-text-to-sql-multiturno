@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00636@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00636",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL with schema filtering/linking as stated contributions; quantitative EX/TS evaluation on public Spider benchmark.",
+   "where": "p1 Abstract; p2 Methods 2.2-2.3; p3 Sections 3.1-3.2, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00636.json"
+}

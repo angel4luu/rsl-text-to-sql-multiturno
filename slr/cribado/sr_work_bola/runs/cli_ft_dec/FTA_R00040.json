@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00040@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00040",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL model; contributions are data augmentation and table-content attention, not schema linking or self-correction (EG decoding is adopted from prior work).",
+   "where": "p2 Introduction (contributions); p3-4 Sections III.A-E; p6 Section IV.A"
+  }
+ ],
+ "source": "cli:FTA_R00040.json"
+}

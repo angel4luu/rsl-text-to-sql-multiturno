@@ -1,0 +1,1 @@
+{"label": "CALIB-FTA:R00882@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00882", "d": "exclude", "code": "E8", "why": "Single-turn correction study evaluates 19 tourism questions, without evaluation on a public benchmark.", "where": "p15 Evaluation; p16 Table 4"}], "source": "codex:gpt-6.1-sol"}

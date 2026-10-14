@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00156@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00156",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema linking is the central contribution; evaluated on Spider, Spider-SYN and Spider-DK.",
+   "where": "p1 Abstract; p2 Introduction contributions; p5 Sec 3.1.1 Datasets and Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00156.json"
+}

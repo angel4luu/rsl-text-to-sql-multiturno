@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00322@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00322",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with candidate selection and query fixer as central contributions; evaluated on BIRD and Spider with execution accuracy.",
+   "where": "p1 Abstract; p7 Sec 4.1-4.3 (Tables 2-3); p8 Sec 4.4 (Tables 4-5)"
+  }
+ ],
+ "source": "cli:FTA_R00322.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00323@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00323",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL error-correction method, quantitatively evaluated (execution accuracy, fix rate) on the public open-source Gretel Text-to-SQL dataset; arXiv 2024.",
+   "where": "p1 Abstract; p2-3 Sections 2-3 Methodology and Experiments; p3 Section 5 Results (Table 1)"
+  }
+ ],
+ "source": "cli:FTB_R00323.json"
+}

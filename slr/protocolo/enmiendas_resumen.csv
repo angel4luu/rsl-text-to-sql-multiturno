@@ -1,0 +1,7 @@
+id,fase,momento
+A1,Búsqueda,Antes del cribado (resultados de arXiv y ACL ya conocidos)
+A2,Búsqueda,Durante la búsqueda
+A3,Cribado,Antes del cribado
+A4,Recuperación,"Tras la recuperación, antes de la extracción"
+A5,Cribado y extracción,Antes de la extracción
+A6,Síntesis,Durante la síntesis (exploratorio)

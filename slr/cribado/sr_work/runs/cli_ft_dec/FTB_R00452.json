@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00452@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00452",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL RL method centred on execution-feedback reflection and self-verification; the 'multi-turn' loops are single-question, evaluated on Spider and BIRD with quantitative results.",
+   "where": "p1 Abstract; p6-7 Sec. 4.1 Experimental Setup, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00452.json"
+}

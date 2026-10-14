@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00212@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00212",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NL-to-SQL with historical-script knowledge retrieval and user-driven refinement; no schema-linking or execution-feedback/self-correction contribution; not a dependent multi-turn dialogue setting.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p12 Sec 5.2-5.3"
+  }
+ ],
+ "source": "cli:FTB_R00212.json"
+}

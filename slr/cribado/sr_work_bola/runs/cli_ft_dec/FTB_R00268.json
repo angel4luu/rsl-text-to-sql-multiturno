@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00268@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00268",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn benchmark (BIRD) on large noisy values, external knowledge and efficiency; no schema linking or self-correction contribution.",
+   "where": "p1 Abstract; p1-2 Introduction; p6-7 Sections 6.1-6.2"
+  }
+ ],
+ "source": "cli:FTB_R00268.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00276@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00276",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn pre-training method using synthetic data; schema linking is only an auxiliary objective, not the central contribution.",
+   "where": "p1 Abstract; p2 Introduction; p4 Sec 2.4 (SSP objective)"
+  }
+ ],
+ "source": "cli:FTB_R00276.json"
+}

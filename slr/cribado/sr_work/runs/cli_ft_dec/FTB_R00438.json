@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00438@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00438",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL agents evaluated on BIRD-Interact, including Phase 2 dependent follow-up requests, with quantitative per-phase success rates.",
+   "where": "p1 Abstract; p6 §6.1 Datasets and Metrics; p7 Table 1, §6.2"
+  }
+ ],
+ "source": "cli:FTB_R00438.json"
+}

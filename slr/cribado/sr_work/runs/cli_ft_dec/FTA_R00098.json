@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00098@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00098",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General staged-training framework (TKK); no stated schema-linking, self-correction or context-handling contribution; SParC/CoSQL used only as evaluation sets.",
+   "where": "p1 Abstract; p2-3 Sections 1 and 3 (TKK framework); p5 Table 2 and Section 4.1"
+  }
+ ],
+ "source": "cli:FTA_R00098.json"
+}

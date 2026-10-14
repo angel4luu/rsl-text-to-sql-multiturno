@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00275@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00275",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn study with join-path/keyword-mapping focus, but the extract omits pp5–12, so benchmark public status is unverifiable.",
+   "where": "p1 Abstract; p3 Contributions; pp5–12 (experiments) not in file"
+  }
+ ],
+ "source": "cli:FTA_R00275.json"
+}

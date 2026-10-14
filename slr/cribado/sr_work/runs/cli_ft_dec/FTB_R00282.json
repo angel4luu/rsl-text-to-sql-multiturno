@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00282@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00282",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema linking via a column-selection auxiliary task is central; evaluated quantitatively on Spider.",
+   "where": "p1 Abstract and Introduction; p2 Sec 2.2; p3-4 Sec 3-4, Tables 1-4"
+  }
+ ],
+ "source": "cli:FTB_R00282.json"
+}

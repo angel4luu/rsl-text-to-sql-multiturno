@@ -1,0 +1,42 @@
+{
+ "label": "ADJ:b004@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00158",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title gives a general multi-step pipeline, no linking/correction/multi-turn"
+  },
+  {
+   "id": "R00166",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; contribution is automatic schema extraction plus prompting, not linking/correction"
+  },
+  {
+   "id": "R00184",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn dataset; unclear if Chain-of-Feedback refinement is a central contribution"
+  },
+  {
+   "id": "R00185",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Learning question-schema relations for column prediction is a listed step; unclear if central"
+  },
+  {
+   "id": "R00196",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-schema graph encoding with schema graph-pruning task stated as a contribution"
+  },
+  {
+   "id": "R00197",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-schema linking for unseen schemas appears central; evaluated on Spider"
+  }
+ ],
+ "source": "cli:ADJ_b004.json"
+}

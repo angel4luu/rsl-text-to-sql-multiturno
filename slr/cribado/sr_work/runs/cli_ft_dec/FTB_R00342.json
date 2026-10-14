@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00342@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00342",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn system; contributions are compounding operators, decomposed examples and knowledge-set edits. Schema linking and self-correction are only minor modules.",
+   "where": "p1 Abstract; p2 Introduction contributions; p2 §2.1 Inference"
+  }
+ ],
+ "source": "cli:FTB_R00342.json"
+}

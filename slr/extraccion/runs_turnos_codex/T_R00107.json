@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00107\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"SOLO_PREGUNTAS\",\"nota\":\"Figura 3(b) muestra errores por turno sin valores numéricos impresos; se omiten. Tamaños impresos: turno 1: 422; turno 2: 422; turno 3: 270; ≥4: 89.\",\"ubic\":\"3, 8\"}}]}",
+  "_label": "TURNOS:R00107"
+}

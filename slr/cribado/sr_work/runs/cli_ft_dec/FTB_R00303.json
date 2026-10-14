@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00303@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00303",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL on Spider; execution-feedback error correction is a stated contribution, with quantitative execution accuracy reported.",
+   "where": "p1 Abstract; p2 §3 Example/Error Driven Correction; p3 Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00303.json"
+}

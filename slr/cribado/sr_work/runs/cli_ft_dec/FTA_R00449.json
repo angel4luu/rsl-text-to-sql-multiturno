@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00449@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00449",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL2SQL whose central contribution is execution-probing-based SQL selection and repair, evaluated by execution accuracy on public benchmarks (Spider 2.0 Lite, BIRD, AMBROSIA).",
+   "where": "p1 Abstract; p2 Contributions; p7-8 Section 4 Experiments, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00449.json"
+}

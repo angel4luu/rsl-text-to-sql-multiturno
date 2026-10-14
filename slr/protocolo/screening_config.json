@@ -1,0 +1,214 @@
+{
+  "review_title": "Conversational Text-to-SQL SLR (context, dialogue state, schema linking, self-correction)",
+  "exclusion_codes": [
+    {
+      "code": "E1",
+      "short": "date",
+      "label": "Published before 2019"
+    },
+    {
+      "code": "E2",
+      "short": "language",
+      "label": "Article written in a language other than English or Spanish"
+    },
+    {
+      "code": "E3",
+      "short": "publication type",
+      "label": "Thesis, poster, abstract-only or extended abstract, <4 pages of content, editorial, proceedings front matter, complete book"
+    },
+    {
+      "code": "E4",
+      "short": "not primary",
+      "label": "Not a primary study (survey, review, tutorial, position paper)"
+    },
+    {
+      "code": "E5",
+      "short": "not relational Text-to-SQL",
+      "label": "Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)"
+    },
+    {
+      "code": "E6",
+      "short": "single-turn, no central linking/correction",
+      "label": "Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution"
+    },
+    {
+      "code": "E7",
+      "short": "no quantitative evaluation",
+      "label": "No quantitative empirical evaluation (full text only)"
+    },
+    {
+      "code": "E8",
+      "short": "single-turn, no public benchmark",
+      "label": "Single-turn study not evaluated on any public benchmark (full text only)"
+    },
+    {
+      "code": "E9",
+      "short": "secondary report",
+      "label": "Secondary report of an already included study (deduplication / full text only)"
+    }
+  ],
+  "core_criteria": [
+    "Text-to-SQL / natural language interface over relational databases",
+    "multi-turn conversational setting, or single-turn with schema linking/join inference or execution feedback/self-correction as a central contribution"
+  ],
+  "personas": {
+    "A": "You are REVIEWER A, a natural language processing researcher specialised in Text-to-SQL, semantic parsing and conversational systems over relational databases.",
+    "B": "You are REVIEWER B, a systematic-review methodologist experienced in software engineering and computer science reviews following Kitchenham's guidelines and PRISMA 2020."
+  },
+  "conflict_policy": "adjudicate",
+  "qc": {
+    "near_miss": {
+      "task": [
+        "text[- ]?to[- ]?sql",
+        "text2sql",
+        "nl2sql",
+        "nl[- ]to[- ]sql",
+        "natural language (interface|quer)",
+        "\\bnlidbs?\\b",
+        "sql (query )?(generation|synthesis)",
+        "semantic pars",
+        "question answering over (relational )?databases?"
+      ],
+      "scope": [
+        "multi[- ]?turn",
+        "multi[- ]?round",
+        "conversation",
+        "context[- ]?(dependent|aware)",
+        "dialog",
+        "follow[- ]?up",
+        "\\bsparc\\b",
+        "\\bcosql\\b",
+        "\\bchase\\b",
+        "rewrit",
+        "coreferen",
+        "ellipsis",
+        "schema (linking|pruning|selection|retrieval|grounding|filtering|routing)",
+        "(table|column) (selection|retrieval)",
+        "value (linking|retrieval)",
+        "join",
+        "foreign key",
+        "steiner",
+        "self[- ]?(correct|debug|refin|consisten)",
+        "refinement",
+        "execution[- ](feedback|guided)",
+        "verif",
+        "error correction",
+        "repair"
+      ]
+    },
+    "random_exclusion_sample": 150,
+    "random_seed": 2026,
+    "policy": "advance"
+  },
+  "seeds": [
+    {
+      "label": "S1 Chen 2021, Findings ACL (Decoupled dialogue modeling)",
+      "doi": "10.18653/v1/2021.findings-acl.270",
+      "pmid": "",
+      "title": "Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL"
+    },
+    {
+      "label": "S2 Tummalapenta 2026, arXiv (Memory architectures)",
+      "doi": "10.48550/arXiv.2605.26394",
+      "pmid": "",
+      "title": "Memory Architectures for Multi-Turn Text-to-SQL: A Benchmark and Empirical Study"
+    },
+    {
+      "label": "S3 Usta 2021, PVLDB (DBTagger)",
+      "doi": "10.14778/3446095.3446103",
+      "pmid": "",
+      "title": "DBTagger: Multi-Task Learning for Keyword Mapping in NLIDBs Using Bi-Directional Recurrent Neural Networks"
+    },
+    {
+      "label": "S4 Safdarian 2026, Findings EACL (SchemaGraphSQL)",
+      "doi": "10.18653/v1/2026.findings-eacl.134",
+      "pmid": "",
+      "title": "SchemaGraphSQL: Efficient Schema Linking with Pathfinding Graph Algorithms for Text-to-SQL on Large-Scale Databases"
+    },
+    {
+      "label": "S5 Chen 2025, PACMMOD (Adaptive abstention)",
+      "doi": "10.1145/3709719",
+      "pmid": "",
+      "title": "Reliable Text-to-SQL with Adaptive Abstention"
+    },
+    {
+      "label": "S6 Xie 2025, PACMMOD (OpenSearch-SQL)",
+      "doi": "10.1145/3725331",
+      "pmid": "",
+      "title": "OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment"
+    },
+    {
+      "label": "S7 Yu 2019, ACL (SParC)",
+      "doi": "10.18653/v1/P19-1443",
+      "pmid": "",
+      "title": "SParC: Cross-Domain Semantic Parsing in Context"
+    },
+    {
+      "label": "S8 Yu 2019, EMNLP (CoSQL)",
+      "doi": "10.18653/v1/D19-1204",
+      "pmid": "",
+      "title": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases"
+    },
+    {
+      "label": "S9 Guo 2021, ACL (CHASE)",
+      "doi": "10.18653/v1/2021.acl-long.180",
+      "pmid": "",
+      "title": "Chase: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL"
+    },
+    {
+      "label": "S10 Zhang 2019, EMNLP (EditSQL)",
+      "doi": "10.18653/v1/D19-1537",
+      "pmid": "",
+      "title": "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions"
+    },
+    {
+      "label": "S11 Cai 2020, EMNLP (IGSQL)",
+      "doi": "10.18653/v1/2020.emnlp-main.560",
+      "pmid": "",
+      "title": "IGSQL: Database Schema Interaction Graph Based Neural Model for Context-Dependent Text-to-SQL Generation"
+    },
+    {
+      "label": "S12 Xiao 2022, Findings EMNLP (CQR-SQL; Scopus DOI wrong)",
+      "doi": "10.18653/v1/2022.findings-emnlp.150",
+      "pmid": "",
+      "title": "CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers"
+    },
+    {
+      "label": "S13 Zhang 2024, NAACL (CoE-SQL)",
+      "doi": "10.18653/v1/2024.naacl-long.361",
+      "pmid": "",
+      "title": "CoE-SQL: In-Context Learning for Multi-Turn Text-to-SQL with Chain-of-Editions"
+    }
+  ],
+  "languages_allowed": [
+    "English",
+    "Spanish"
+  ],
+  "models": {
+    "A": "sonnet",
+    "B": "sonnet",
+    "ADJ": "opus",
+    "QC": "opus",
+    "FTA": "sonnet",
+    "FTB": "sonnet",
+    "FTADJ": "opus"
+  },
+  "model_labels": {
+    "A": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+    "B": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+    "ADJ": "Claude Opus 5.5 (claude-opus-5-5)",
+    "QC": "Claude Opus 5.5 (claude-opus-5-5)",
+    "FTA": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+    "FTB": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+    "FTADJ": "Claude Opus 5.5 (claude-opus-5-5)"
+  },
+  "agent_type": "academic-research-skills:screening_reviewer_agent",
+  "batching": {
+    "max_records": 50,
+    "max_chars": 90000,
+    "wrap": 150
+  },
+  "dedup": {
+    "doi_title_guard": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00167@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00167",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn benchmark whose stated capabilities include table linking and cross-database planning; reports execution accuracy on public TACO-Beijing and TACO-US.",
+   "where": "p1 Abstract; p2 Introduction (TACO capabilities); p9-10 Section 5 Experiments (Exp-1 to Exp-3)"
+  }
+ ],
+ "source": "cli:FTA_R00167.json"
+}

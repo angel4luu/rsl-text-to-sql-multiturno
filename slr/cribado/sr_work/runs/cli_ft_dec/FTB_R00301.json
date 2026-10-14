@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00301@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00301",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn text-to-SQL over LLM-extracted columns; no multi-turn evaluation; linking/self-correction not a central contribution; dialog state is future work.",
+   "where": "p1 Abstract and Contributions; p3 Sections 3.1-3.2 and Experimental Results; p4 Future Work"
+  }
+ ],
+ "source": "cli:FTB_R00301.json"
+}

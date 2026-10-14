@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00283@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00283",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with question-schema linking as central contribution; evaluated quantitatively on public Spider benchmark.",
+   "where": "p1 Abstract; p2 Introduction contributions; p6-7 Section 4 Experiments, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00283.json"
+}

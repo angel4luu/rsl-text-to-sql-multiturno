@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00014@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00014",
+   "d": "include",
+   "code": "INC",
+   "why": "Agentic SQL with execution-feedback rewards and iterative refinement; evaluated on BIRD, Spider and Spider 2.0 with accuracy gains.",
+   "where": "p1 Abstract; p2-4 Sections 2.1-2.3 (method); p6-7 Section 3.2 and Table 1 (results)"
+  }
+ ],
+ "source_transcript": "agent-aa950fc8c61abdf70.jsonl"
+}

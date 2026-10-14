@@ -1,0 +1,58 @@
+{
+ "R00078": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigma_principal",
+   "paradigmas_secundarios",
+   "pilares_contenidos",
+   "codigo_disponible",
+   "pi3_escala_esquema",
+   "pi3_metricas_linking"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 14,
+   "B": 18,
+   "comunes": 5
+  },
+  "contrastes": {
+   "A": 11,
+   "B": 12
+  }
+ },
+ "R00101": {
+  "campos": 33,
+  "discrepancias": [
+   "pi1_tecnica",
+   "pi2_grafo_nodos",
+   "pi2_actualizacion"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 38,
+   "B": 37,
+   "comunes": 29
+  },
+  "contrastes": {
+   "A": 17,
+   "B": 13
+  }
+ },
+ "R01031": {
+  "campos": 33,
+  "discrepancias": [
+   "paradigmas_secundarios",
+   "modelos_base"
+  ],
+  "calidad_discrepancias": [],
+  "resultados": {
+   "A": 38,
+   "B": 39,
+   "comunes": 36
+  },
+  "contrastes": {
+   "A": 7,
+   "B": 6
+  }
+ }
+}

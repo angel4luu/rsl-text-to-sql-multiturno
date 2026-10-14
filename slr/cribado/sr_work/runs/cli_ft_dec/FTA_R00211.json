@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00211@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00211",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn system with join-path knowledge graph; evaluated only on proprietary enterprise datasets, no public benchmark.",
+   "where": "p3 Section 3 (3.1-3.2 Experimental scenarios), p4 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00211.json"
+}

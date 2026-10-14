@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00041@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00041",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational ambiguous/unanswerable Text-to-SQL benchmark with clarification turns, built on Spider, with quantitative LLM baselines (accuracy, execution accuracy).",
+   "where": "p1 Abstract and Intro; p3-4 Sec 3 (dataset construction); p6-8 Sec 4-5 (tasks, Table 5 results)"
+  }
+ ],
+ "source_transcript": "agent-a189dd77455fcd101.jsonl"
+}

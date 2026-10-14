@@ -1,0 +1,1 @@
+{"label": "FTA:R00905@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00905", "d": "unclear", "code": "UNC", "why": "The extract omits results pages, preventing confirmation of quantitative evaluation.", "where": "p10 §4 Experimental setup; pages 11–20 explicitly omitted"}], "source": "codex:gpt-6.1-sol"}

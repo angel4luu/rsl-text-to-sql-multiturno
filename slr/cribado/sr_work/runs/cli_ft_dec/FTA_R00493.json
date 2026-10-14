@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00493@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00493",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; schema selection and error-repair are central contributions; quantitative results on public Spider 2.0-Snow plus a new benchmark.",
+   "where": "p1 Abstract; p2 Contributions; p6-7 Sections 4.5, 5.1-5.2"
+  }
+ ],
+ "source": "cli:FTA_R00493.json"
+}

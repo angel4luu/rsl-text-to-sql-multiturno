@@ -1,0 +1,294 @@
+{
+ "label": "A:b013@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00601",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn visual interface application, no linking/correction contribution"
+  },
+  {
+   "id": "R00602",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain chatbot application, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00603",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM comparison for advising agent, single-turn, no linking focus"
+  },
+  {
+   "id": "R00604",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Agentic system description, no linking/correction contribution"
+  },
+  {
+   "id": "R00605",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain NL2SQL+RAG framework, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00606",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Domain agent with query rethink among several components; unclear central"
+  },
+  {
+   "id": "R00607",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generic NL2SQL web app, single-turn"
+  },
+  {
+   "id": "R00608",
+   "d": "exclude",
+   "code": "E6",
+   "why": "IoT analytics architecture, SQL only incidental, single-turn"
+  },
+  {
+   "id": "R00609",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Data science agent mentions multi-turn interactions with NL2SQL; unclear"
+  },
+  {
+   "id": "R00610",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent framework with cross-session context and SQL generation; scope unclear"
+  },
+  {
+   "id": "R00611",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cloud billing text-to-SQL application, single-turn"
+  },
+  {
+   "id": "R00612",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Envisioned personal finance chatbot roadmap, no linking/correction focus"
+  },
+  {
+   "id": "R00613",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL teaching tool, not linking/correction"
+  },
+  {
+   "id": "R00614",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Literature review of agentic AI"
+  },
+  {
+   "id": "R00615",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Sample generation pipeline for ChatBI, single-turn, no linking focus"
+  },
+  {
+   "id": "R00616",
+   "d": "include",
+   "code": "INC",
+   "why": "NLIDB centred on keyword-to-schema mapping with schema graph"
+  },
+  {
+   "id": "R00617",
+   "d": "include",
+   "code": "INC",
+   "why": "Phrase-based schema linking is central contribution"
+  },
+  {
+   "id": "R00618",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking with join connectivity and self-correction on Spider"
+  },
+  {
+   "id": "R00619",
+   "d": "include",
+   "code": "INC",
+   "why": "Graph framework for JOIN reasoning and schema linking, Spider evaluated"
+  },
+  {
+   "id": "R00620",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Turkish LLM comparison stressing schema context; linking centrality unclear"
+  },
+  {
+   "id": "R00621",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General Text-to-SQL proposal, linking only in keywords"
+  },
+  {
+   "id": "R00622",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback self-correction on BIRD and Spider"
+  },
+  {
+   "id": "R00623",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval/filtering central, evaluated on Spider"
+  },
+  {
+   "id": "R00624",
+   "d": "include",
+   "code": "INC",
+   "why": "Wiki graph framework enhancing schema linking"
+  },
+  {
+   "id": "R00625",
+   "d": "include",
+   "code": "INC",
+   "why": "Knapsack-based schema linking on Spider and BIRD"
+  },
+  {
+   "id": "R00626",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking optimization via table completion, Spider"
+  },
+  {
+   "id": "R00627",
+   "d": "include",
+   "code": "INC",
+   "why": "Empirical study of schema grounding on BIRD"
+  },
+  {
+   "id": "R00628",
+   "d": "include",
+   "code": "INC",
+   "why": "Generative schema retrieval and execution-feedback revision"
+  },
+  {
+   "id": "R00629",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking listed among several components; centrality unclear"
+  },
+  {
+   "id": "R00630",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Dataset plus two-stage schema linking framework; centrality unclear"
+  },
+  {
+   "id": "R00631",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema filtering among several components; column-selection gains reported"
+  },
+  {
+   "id": "R00632",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema pruning among several components; centrality unclear"
+  },
+  {
+   "id": "R00633",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "ICL retrieval plus post cell value linking; centrality unclear"
+  },
+  {
+   "id": "R00634",
+   "d": "include",
+   "code": "INC",
+   "why": "Proposes value retrieval technique for Text-to-SQL, evaluated"
+  },
+  {
+   "id": "R00635",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pipeline with table/column selection modules; centrality unclear"
+  },
+  {
+   "id": "R00636",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema filtering and linking among components; centrality unclear"
+  },
+  {
+   "id": "R00637",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-agent with linking and correction agents; main contribution unclear"
+  },
+  {
+   "id": "R00638",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking and verification modules among several components"
+  },
+  {
+   "id": "R00639",
+   "d": "include",
+   "code": "INC",
+   "why": "IR with join-path inference from foreign key graph, BIRD"
+  },
+  {
+   "id": "R00640",
+   "d": "include",
+   "code": "INC",
+   "why": "Bilingual schema linking central, Arabic Spider-style benchmark"
+  },
+  {
+   "id": "R00641",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic literature review"
+  },
+  {
+   "id": "R00642",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema filtering and join-path selection on Spider"
+  },
+  {
+   "id": "R00643",
+   "d": "include",
+   "code": "INC",
+   "why": "Verifier-guided correction and iterative schema retrieval, BIRD"
+  },
+  {
+   "id": "R00644",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pipeline with table/column selection subtasks; centrality unclear"
+  },
+  {
+   "id": "R00645",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-guided self-correction and schema re-ranking on BIRD"
+  },
+  {
+   "id": "R00646",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Modular pipeline with schema grounding and validation; centrality unclear"
+  },
+  {
+   "id": "R00647",
+   "d": "include",
+   "code": "INC",
+   "why": "Reranking and schema linking algorithm on Spider"
+  },
+  {
+   "id": "R00648",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  }
+ ],
+ "source_transcript": "agent-a46a9a728754c0583.jsonl"
+}

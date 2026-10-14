@@ -1,0 +1,12 @@
+{
+ "label": "ADJ:b012@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00557",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn enterprise NL2SQL; field/value disambiguation engine stated, centrality unclear"
+  }
+ ],
+ "source_transcript": "agent-a5b0db7c8cb3adabb.jsonl"
+}

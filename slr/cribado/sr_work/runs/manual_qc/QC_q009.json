@@ -1,0 +1,306 @@
+{
+ "label": "QC:q009@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00544",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Prompt-injection attack detection, not NL-to-SQL translation technique"
+  },
+  {
+   "id": "R00547",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn application system; schema discovery/validation not stated linking/correction contribution"
+  },
+  {
+   "id": "R00551",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Web analytics platform description with NL interface, single-turn"
+  },
+  {
+   "id": "R00555",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Gemini-based NL-to-SQL application description, single-turn"
+  },
+  {
+   "id": "R00558",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain NL2SQL query system for power planning, no linking/correction focus"
+  },
+  {
+   "id": "R00564",
+   "d": "exclude",
+   "code": "E5",
+   "why": "RAG chatbot over graph database, not Text-to-SQL"
+  },
+  {
+   "id": "R00567",
+   "d": "exclude",
+   "code": "E6",
+   "why": "T5 fine-tuned NL-to-SQL for industry, single-turn general method"
+  },
+  {
+   "id": "R00573",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application with security pipeline; chat UI, no dependent turns or linking"
+  },
+  {
+   "id": "R00586",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based automated data analysis"
+  },
+  {
+   "id": "R00588",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Detecting/locating data-specific question components may be schema/value linking contribution"
+  },
+  {
+   "id": "R00589",
+   "d": "exclude",
+   "code": "E6",
+   "why": "VAST challenge RAG chatbot system; text-to-SQL only a component"
+  },
+  {
+   "id": "R00593",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ChatGPT for database teaching and assessment, single-turn"
+  },
+  {
+   "id": "R00595",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise SaaS management platform with chatbot, system description"
+  },
+  {
+   "id": "R00598",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Database normalization and Gemini NL-to-SQL tool, application description"
+  },
+  {
+   "id": "R00601",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM visual interface application; no linking/correction or multi-turn stated"
+  },
+  {
+   "id": "R00602",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Network security SQL-RAG chatbot application, no linking/correction focus"
+  },
+  {
+   "id": "R00603",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Local vs cloud LLM comparison for advising SQL agent"
+  },
+  {
+   "id": "R00604",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Labor-market agentic system description; Text2SQL one component"
+  },
+  {
+   "id": "R00607",
+   "d": "exclude",
+   "code": "E6",
+   "why": "NL-to-SQL web application demo, single-turn"
+  },
+  {
+   "id": "R00612",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Development roadmap for envisioned finance chatbot, no own evaluation"
+  },
+  {
+   "id": "R00615",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Automated training sample generation (data augmentation) for ChatBI"
+  },
+  {
+   "id": "R00653",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demonstration retrieval for prompting, single-turn"
+  },
+  {
+   "id": "R00660",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Sinhala hybrid NLIDB on single-table schema, no linking/correction"
+  },
+  {
+   "id": "R00668",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Human-in-the-loop active learning fine-tuning, not query self-correction"
+  },
+  {
+   "id": "R00678",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM evaluation on normalized vs star schemas, single-turn"
+  },
+  {
+   "id": "R00681",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Compliance trace-grounding benchmark, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00687",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1986"
+  },
+  {
+   "id": "R00693",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Error detection triggering LLM fallback may be central correction contribution"
+  },
+  {
+   "id": "R00700",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00704",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based voice-to-SQL web application"
+  },
+  {
+   "id": "R00707",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLMs in database course teaching, not Text-to-SQL technique"
+  },
+  {
+   "id": "R00709",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Nuclear equipment alarm agent; not Text-to-SQL study"
+  },
+  {
+   "id": "R00710",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00711",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Comparative fine-tuning of open LLMs, single-turn"
+  },
+  {
+   "id": "R00712",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00713",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data-agnostic RoBERTa NL2SQL on WikiSQL, privacy focus"
+  },
+  {
+   "id": "R00715",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comparative review of Text-to-SQL methodologies"
+  },
+  {
+   "id": "R00717",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Vision paper on NL querying of NoSQL databases"
+  },
+  {
+   "id": "R00722",
+   "d": "exclude",
+   "code": "E6",
+   "why": "NLP inventory management system, no linking/correction focus"
+  },
+  {
+   "id": "R00723",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Comparison of LLMs for BI text-to-SQL, single-turn"
+  },
+  {
+   "id": "R00728",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema-aware attention listed; unclear if linking is main contribution"
+  },
+  {
+   "id": "R00729",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Transformer encoder seq2seq model, general single-turn method"
+  },
+  {
+   "id": "R00730",
+   "d": "exclude",
+   "code": "E6",
+   "why": "GRPO contrastive rewards for multilingual Text-to-SQL"
+  },
+  {
+   "id": "R00731",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00733",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00736",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semantic parsing of metonymic phrases, not NL-to-SQL"
+  },
+  {
+   "id": "R00739",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of NL interfaces for tabular data"
+  },
+  {
+   "id": "R00740",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Domain statement retrieval tied to schema; possibly schema/value linking contribution"
+  },
+  {
+   "id": "R00741",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00742",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Neo4j event knowledge graph platform"
+  }
+ ],
+ "source_transcript": "agent-a039026dbd3cfb829.jsonl"
+}

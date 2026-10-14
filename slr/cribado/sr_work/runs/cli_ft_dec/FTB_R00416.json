@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00416@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00416",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation of a database search platform; no schema linking or self-correction contribution, and no multi-turn evaluation (multi-turn only listed as future work).",
+   "where": "p2 Sec 2.2 Dataset Generation; p4 Sec 2.3 Answer generation (single turn); p11 Sec 5 Future Directions"
+  }
+ ],
+ "source": "cli:FTB_R00416.json"
+}

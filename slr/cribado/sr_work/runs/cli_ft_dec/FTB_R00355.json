@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00355@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00355",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose central contribution is schema linking; evaluated quantitatively on public Spider-dev benchmark; 2025 arXiv preprint.",
+   "where": "p1 Abstract; p5 Experiment 5.1 Setup and 5.2 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00355.json"
+}

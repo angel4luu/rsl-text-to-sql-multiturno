@@ -1,0 +1,50 @@
+{
+ "n1_estudios": 317,
+ "n1_ab": [
+  4131,
+  4755
+ ],
+ "n2_estudios": 78,
+ "n2_no_piloto": 75,
+ "n2_campos_ab": [
+  1824,
+  2478
+ ],
+ "n2_calidad_ab": [
+  567,
+  750
+ ],
+ "verif_C": [
+  182,
+  182
+ ],
+ "verif_D": [
+  32,
+  32
+ ],
+ "verif_B": [
+  95,
+  95
+ ],
+ "ciega_n": 5,
+ "ciega_escenario": [
+  4,
+  5
+ ],
+ "ciega_historial_eval": [
+  3,
+  5
+ ],
+ "ciega_calidad_identico": [
+  34,
+  50
+ ],
+ "ciega_calidad_medio_punto": [
+  48,
+  50
+ ],
+ "ciega_resultados": [
+  10,
+  15
+ ]
+}

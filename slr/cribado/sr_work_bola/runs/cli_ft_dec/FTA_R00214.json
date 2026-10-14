@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00214@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00214",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is value extraction/linking; evaluated quantitatively on public Spider benchmark (Execution Accuracy).",
+   "where": "p1 Abstract and Contributions; p10-11 Sec. 6 Experiments (Data Set, Metrics, Results)"
+  }
+ ],
+ "source": "cli:FTA_R00214.json"
+}

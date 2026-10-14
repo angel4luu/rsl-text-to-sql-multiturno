@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00104@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00104",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider/Criteria-to-SQL pre-training framework; schema linking or correction is not the stated central contribution.",
+   "where": "p1 Abstract; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTA_R00104.json"
+}

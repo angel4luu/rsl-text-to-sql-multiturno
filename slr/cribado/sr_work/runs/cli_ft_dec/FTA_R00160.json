@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00160@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00160",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL on CoSQL using execution-error-derived guidance; quantitative results (QEX/IEX) on a public benchmark.",
+   "where": "p2 Sec 3.1 Methods; p4 Sec 4.2 Results, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00160.json"
+}

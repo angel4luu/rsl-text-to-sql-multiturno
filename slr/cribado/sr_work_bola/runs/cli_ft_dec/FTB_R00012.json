@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00012@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00012",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema-graph encoding and graph-pruning schema selection are stated contributions; evaluated on Spider with exact-match accuracy.",
+   "where": "p1 Abstract; p2 Introduction contributions; p6-7 Sections 4.1-4.2 (Spider, Tables 2-3)"
+  }
+ ],
+ "source": "cli:FTB_R00012.json"
+}

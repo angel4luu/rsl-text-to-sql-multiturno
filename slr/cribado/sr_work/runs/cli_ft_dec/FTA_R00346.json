@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00346@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00346",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; execution-guided candidate selection is the central contribution; accuracy evaluated on public BIRD benchmark; 2025 English arXiv preprint.",
+   "where": "p1 Abstract and Introduction; p4 Text-to-SQL Experiments (BIRD)"
+  }
+ ],
+ "source": "cli:FTA_R00346.json"
+}

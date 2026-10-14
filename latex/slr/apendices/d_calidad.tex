@@ -1,0 +1,127 @@
+% Generado por analysis/src/tablas/apendices.py — no editar a mano.
+{\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}l p{7.2cm} p{2.6cm} p{2.6cm} p{2.6cm}@{}}
+\caption{Lista de verificación de calidad (adaptada de Kitchenham y Charters). La puntuación de validez es la media de CQ2 y CQ4--CQ7; los ítems de reporte y apertura se informan por separado.}\label{tab:ap-rubrica}\\
+\toprule
+Ítem & Pregunta & 1 & 0,5 & 0 \\
+\midrule
+\endfirsthead
+\multicolumn{5}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Ítem & Pregunta & 1 & 0,5 & 0 \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\multicolumn{5}{@{}l}{\textit{A. Validez (determinan el umbral)}} \\
+CQ2 & ¿Se describe la técnica (o la construcción del \textit{benchmark}) con detalle suficiente para reproducirla? (arquitectura, \textit{prompts}, modelos y versiones, hiperparámetros / proceso de anotación) & Completo & Faltan elementos importantes & Insuficiente \\
+CQ4 & ¿Se compara con líneas base competitivas del momento, \textbf{con el mismo modelo base} cuando aplica? & Sí & Solo líneas base débiles, antiguas o con otro modelo base & Sin comparación \\
+CQ5 & ¿Se reportan y definen métricas estándar (EX, EM/ESM, TS; QM/IM en multiturno) \textbf{y el tipo de historial usado en la evaluación} (gold vs. predicho)? & Ambos & Uno de los dos & Ninguno \\
+CQ6 & ¿Se analiza la contribución de cada componente (ablación) o se hace un análisis de errores? \textit{(Benchmarks: análisis de dificultad o de errores de las líneas base)} & Ablación o análisis sistemático & Análisis cualitativo breve & Ninguno \\
+CQ7 & ¿Se evalúa la robustez? (varias ejecuciones o semillas, varianza, significancia, o varios \textit{datasets}/modelos) & Sí & Parcial & Una ejecución, un \textit{dataset} \\
+\multicolumn{5}{@{}l}{\textit{B. Reporte y apertura (se reportan, no determinan el umbral)}} \\
+CQ1 & ¿Se definen claramente el objetivo, el problema y el escenario? & Explícitos & Vagos & Ausentes \\
+CQ3 & ¿Se evalúa en \textit{benchmarks} públicos reconocidos? & $\geq$ 1 público & Solo datos propios descritos & Datos propios no descritos \\
+CQ8 & ¿Están disponibles el código o los datos? & Públicos & Parcial / «bajo petición» & No \\
+CQ9 & ¿Se discuten las limitaciones o amenazas a la validez? & Explícito & Breve & No \\
+CQ10 & Foro de publicación & Revisado por pares e indexado (Scopus, DBLP o ACL Anthology) & Preprint & Foro no indexado \textbf{con indicios de prácticas depredadoras} según la lista \textit{Think. Check. Submit.} (thinkchecksubmit.org): revisión por pares no verificable, comité editorial no identificable, cobro sin servicios declarados, alcance desmesurado \\
+\end{longtable}
+}
+
+\input{tablas/calidad}
+
+{\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\begin{longtable}{@{}l l l *{5}{c} | *{5}{c} r@{}}
+\caption{Perfil de calidad por estudio del Nivel 2 (n = 77; 72 alcanzan el umbral de validez del 50 \%). 1: sí; \textonehalf: parcial; 0: no. A la izquierda de la barra, ítems de validez; a la derecha, ítems de reporte y apertura. Orden: validez descendente.}\label{tab:ap-calidad}\\
+\toprule
+Id. & Ref. & Año & CQ2 & CQ4 & CQ5 & CQ6 & CQ7 & CQ1 & CQ3 & CQ8 & CQ9 & CQ10 & Validez (\%) \\
+\midrule
+\endfirsthead
+\multicolumn{14}{@{}l}{\textit{(continuación)}} \\
+\toprule
+Id. & Ref. & Año & CQ2 & CQ4 & CQ5 & CQ6 & CQ7 & CQ1 & CQ3 & CQ8 & CQ9 & CQ10 & Validez (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+R01029 & \cite{Wang2021Tracking} & 2021 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & 1 & 100 \\
+R00101 & \cite{Qi2022RASAT} & 2022 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 100 \\
+R00131 & \cite{Zhang2019EditSQL} & 2019 & 1 & 1 & 1 & 1 & \textonehalf & 1 & 1 & 1 & 0 & 1 & 90 \\
+R00116 & \cite{Zhong2020Grounded} & 2020 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 & 90 \\
+R00117 & \cite{Cai2020IGSQL} & 2020 & 1 & 1 & 1 & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 90 \\
+R00107 & \cite{Chen2021Decoupled} & 2021 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & \textonehalf & 1 & 90 \\
+R00109 & \cite{Scholak2021PICARD} & 2021 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & 1 & 90 \\
+R00099 & \cite{Hu2022InContext} & 2022 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 90 \\
+R00288 & \cite{Huang2022SeSQL} & 2022 & 1 & 1 & \textonehalf & 1 & 1 & 1 & 1 & 0 & \textonehalf & \textonehalf & 90 \\
+R00868 & \cite{Fu2023MIGA} & 2023 & 1 & 1 & 1 & 1 & \textonehalf & 1 & 1 & 0 & \textonehalf & 1 & 90 \\
+R00311 & \cite{Chen2024Learning} & 2025 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & 1 & \textonehalf & 90 \\
+R00370 & \cite{Lee2025Conversation} & 2025 & 1 & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 1 & 1 & 90 \\
+R00373 & \cite{Huo2025BIRDINTERACT} & 2025 & 1 & 1 & 1 & 1 & \textonehalf & 1 & \textonehalf & \textonehalf & \textonehalf & 1 & 90 \\
+R00030 & \cite{Guo2026MTSQLR1} & 2026 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 90 \\
+R00482 & \cite{Liu2026PLSQLBench} & 2026 & \textonehalf & 1 & 1 & 1 & 1 & 1 & \textonehalf & \textonehalf & 1 & \textonehalf & 90 \\
+R00126 & \cite{Yu2019SParC} & 2020 & 1 & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 80 \\
+R00110 & \cite{Guo2021Chase} & 2021 & 1 & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 80 \\
+R01031 & \cite{Yu2021SCoRe} & 2021 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 0 & \textonehalf & 1 & 80 \\
+R00093 & \cite{Zheng2022HIESQL} & 2022 & 1 & \textonehalf & 1 & 1 & \textonehalf & 1 & 1 & 0 & 0 & 1 & 80 \\
+R00097 & \cite{Xiao2022CQRSQL} & 2022 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 0 & \textonehalf & 1 & 80 \\
+R00100 & \cite{Liu2022Augmenting} & 2022 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 80 \\
+R00084 & \cite{Liu2023Exploring} & 2023 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 80 \\
+R00298 & \cite{Bazaga2023SQLformer} & 2023 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 0 & \textonehalf & \textonehalf & 80 \\
+R00981 & \cite{Dou2023UniSAr} & 2023 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & \textonehalf & \textonehalf & 80 \\
+R00072 & \cite{Zhang2024CoESQL} & 2024 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 80 \\
+R00079 & \cite{Ryu2024EHRSeqSQL} & 2024 & \textonehalf & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 80 \\
+R00525 & \cite{Zhang2024SEHCL} & 2024 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & 0 & 1 & 80 \\
+R00042 & \cite{Chen2025TrackSQL} & 2025 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & \textonehalf & 1 & 80 \\
+R00374 & \cite{Lin2025Prompt} & 2025 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & 80 \\
+R00019 & \cite{Sun2026Rethinking} & 2026 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & \textonehalf & 1 & 80 \\
+R00033 & \cite{Zhou2026RoseSQL} & 2026 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & 1 & 1 & 80 \\
+R00035 & \cite{Sarwar2026CLARITY} & 2026 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 0 & \textonehalf & 1 & 80 \\
+R00435 & \cite{Tummalapenta2026Memory} & 2026 & 1 & \textonehalf & \textonehalf & 1 & 1 & 1 & \textonehalf & \textonehalf & 1 & \textonehalf & 80 \\
+R00453 & \cite{Lian2026CoeusBI} & 2026 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & 80 \\
+R00491 & \cite{Liu2026Evaluating} & 2026 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & 80 \\
+R00499 & \cite{Yang2026GitHarness} & 2026 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & \textonehalf & \textonehalf & 80 \\
+R00508 & \cite{Yang2026HarnessSQL} & 2026 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 1 & \textonehalf & 80 \\
+R00129 & \cite{Yu2019CoSQL} & 2019 & 1 & \textonehalf & 1 & \textonehalf & \textonehalf & 1 & \textonehalf & \textonehalf & \textonehalf & 1 & 70 \\
+R01034 & \cite{Liu2019FANDA} & 2019 & \textonehalf & \textonehalf & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 0 & 1 & 70 \\
+R00120 & \cite{Wang2020PGGSQL} & 2020 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 0 & 1 & 70 \\
+R00105 & \cite{Elgohary2021NLEDIT} & 2021 & 1 & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 70 \\
+R00936 & \cite{Yu2021Interactionmodeling} & 2021 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & \textonehalf & 1 & 70 \\
+R01037 & \cite{Hui2021Dynamic} & 2021 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & 0 & 1 & 70 \\
+R00096 & \cite{Cai2022STAR} & 2022 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 70 \\
+R00086 & \cite{Zhang2023ACTSQL} & 2023 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 70 \\
+R00511 & \cite{HariKrishnanParthasarathi2023Conversational} & 2023 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & \textonehalf & \textonehalf & 70 \\
+R00074 & \cite{Liu2024TPLink} & 2024 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & \textonehalf & 1 & 70 \\
+R00160 & \cite{Zhai2024Learn} & 2024 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & \textonehalf & 1 & 70 \\
+R00312 & \cite{Sun2024QDASQL} & 2024 & \textonehalf & \textonehalf & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & 1 & \textonehalf & 70 \\
+R00920 & \cite{Liu2024SUQL} & 2024 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 1 & 1 & 70 \\
+R00041 & \cite{Dong2025PRACTIQ} & 2025 & \textonehalf & \textonehalf & 1 & 1 & \textonehalf & 1 & 1 & \textonehalf & \textonehalf & 1 & 70 \\
+R00526 & \cite{Almohaimeed2025Prompt} & 2025 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 0 & \textonehalf & 70 \\
+R00438 & \cite{Wang2026Learning} & 2026 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & 1 & \textonehalf & 70 \\
+R00480 & \cite{Teixeira2026SemPlan} & 2026 & \textonehalf & \textonehalf & \textonehalf & 1 & 1 & 1 & \textonehalf & 0 & 1 & \textonehalf & 70 \\
+R00123 & \cite{Elgohary2020Speak} & 2020 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 60 \\
+R00994 & \cite{Li2022Pay} & 2022 & \textonehalf & 1 & \textonehalf & 1 & 0 & 1 & 1 & 1 & 0 & \textonehalf & 60 \\
+R00292 & \cite{Liu2023Comprehensive} & 2023 & \textonehalf & \textonehalf & \textonehalf & \textonehalf & 1 & 1 & 1 & 1 & \textonehalf & \textonehalf & 60 \\
+R00924 & \cite{Li2023DIR} & 2023 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & \textonehalf & \textonehalf & 1 & 60 \\
+R00078 & \cite{Li2024MultiSQL} & 2024 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & 60 \\
+R00950 & \cite{Chai2023QURG} & 2024 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & \textonehalf & 0 & 1 & 60 \\
+R00068 & \cite{Xu2025AbacusSQL} & 2025 & \textonehalf & \textonehalf & \textonehalf & \textonehalf & 1 & 1 & 1 & 1 & 0 & 1 & 60 \\
+R00148 & \cite{Urban2025Utilizing} & 2025 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & 1 & \textonehalf & 60 \\
+R00222 & \cite{Jiang2025SiriusBI} & 2025 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & 1 & \textonehalf & 1 & 60 \\
+R00524 & \cite{Guo2025Evaluating} & 2025 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & 1 & \textonehalf & \textonehalf & 60 \\
+R00908 & \cite{Menon2025FISQL} & 2025 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & \textonehalf & 1 & 60 \\
+R00927 & \cite{Ascoli2025Advancing} & 2025 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & \textonehalf & 1 & \textonehalf & 60 \\
+R00029 & \cite{Safarzadeh2026SPENCE} & 2026 & \textonehalf & 0 & \textonehalf & 1 & 1 & 1 & 1 & 0 & 1 & 1 & 60 \\
+R00170 & \cite{Bian2026ASTormer} & 2026 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & \textonehalf & 1 & 1 & 60 \\
+R00954 & \cite{Khadija2026Intelligent} & 2026 & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 1 & 1 & 0 & 0 & 1 & 60 \\
+R00114 & \cite{Chen2020AirConcierge} & 2020 & \textonehalf & \textonehalf & \textonehalf & \textonehalf & \textonehalf & 1 & 1 & \textonehalf & \textonehalf & 1 & 50 \\
+R00309 & \cite{Lian2024ChatBI} & 2024 & \textonehalf & \textonehalf & \textonehalf & \textonehalf & \textonehalf & 1 & \textonehalf & 0 & 1 & \textonehalf & 50 \\
+R00904 & \cite{Chen2026SQL} & 2026 & \textonehalf & \textonehalf & \textonehalf & 1 & 0 & 1 & 1 & \textonehalf & 1 & 1 & 50 \\
+R00232 & \cite{Joshi2020Natural} & 2020 & \textonehalf & \textonehalf & 0 & \textonehalf & \textonehalf & 1 & \textonehalf & 0 & \textonehalf & 1 & 40 \\
+R00450 & \cite{Parmar2026StocksTalk} & 2026 & \textonehalf & \textonehalf & 0 & 1 & 0 & 1 & \textonehalf & \textonehalf & \textonehalf & \textonehalf & 40 \\
+R00088 & \cite{Kochedykov2023Conversing} & 2023 & \textonehalf & 0 & \textonehalf & \textonehalf & 0 & 1 & \textonehalf & 0 & 1 & 1 & 30 \\
+R00238 & \cite{Lehmann2022Building} & 2022 & 0 & 0 & 0 & \textonehalf & \textonehalf & 1 & 1 & 0 & \textonehalf & 1 & 20 \\
+R00828 & \cite{ToctoInga2026CHIMLE} & 2026 & \textonehalf & 0 & 0 & \textonehalf & 0 & 1 & \textonehalf & 0 & 1 & 1 & 20 \\
+\end{longtable}
+}

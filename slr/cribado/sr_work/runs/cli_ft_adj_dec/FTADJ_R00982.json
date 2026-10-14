@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00982@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00982",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose central contribution is execution-feedback SQL refinement; quantitative EX results on public benchmarks Spider and BookSQL.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p7-8 Section 6.1.1 Datasets, Table 5"
+  }
+ ],
+ "source": "cli:FTADJ_R00982.json"
+}

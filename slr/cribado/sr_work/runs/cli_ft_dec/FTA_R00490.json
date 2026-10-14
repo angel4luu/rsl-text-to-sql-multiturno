@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00490@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00490",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn controlled evaluation of ICL Text-to-SQL modules, including schema linking and execution-feedback refinement, with quantitative results on BIRD and Spider",
+   "where": "p1 Abstract and Contributions; p3 §3.1 Dataset; p4 §4 Single-Module Analysis"
+  }
+ ],
+ "source": "cli:FTA_R00490.json"
+}

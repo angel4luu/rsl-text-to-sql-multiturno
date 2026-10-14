@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00317@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00317",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL inspection/refinement (execution feedback, self-correction) is the central contribution. Evaluated on Spider and Spider-Realistic with execution accuracy.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Experiments (setup, Tables 2-3)"
+  }
+ ],
+ "source": "cli:FTA_R00317.json"
+}

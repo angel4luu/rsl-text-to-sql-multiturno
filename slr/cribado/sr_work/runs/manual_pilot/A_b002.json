@@ -1,0 +1,306 @@
+{
+ "label": "A:b002@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00051",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Corrective self-consistency and SQL merge revision; unclear if central"
+  },
+  {
+   "id": "R00052",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema pruning and linking stated contribution, BIRD evaluation"
+  },
+  {
+   "id": "R00053",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dataset generation, not about linking or correction"
+  },
+  {
+   "id": "R00054",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking framework, Spider 2.0 evaluation"
+  },
+  {
+   "id": "R00055",
+   "d": "include",
+   "code": "INC",
+   "why": "Joint schema linking and SQL generation tuning"
+  },
+  {
+   "id": "R00056",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-linking framework evaluated on BIRD and Spider"
+  },
+  {
+   "id": "R00057",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn UPDATE generation, no linking/correction focus"
+  },
+  {
+   "id": "R00058",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluates NL narration of SQL results, not SQL generation"
+  },
+  {
+   "id": "R00059",
+   "d": "include",
+   "code": "INC",
+   "why": "Recall-oriented schema linking via question decomposition"
+  },
+  {
+   "id": "R00060",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and multiple-choice candidate selection"
+  },
+  {
+   "id": "R00061",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-grained SQL error identification and correction"
+  },
+  {
+   "id": "R00062",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General prompting method; text-to-SQL only an extension"
+  },
+  {
+   "id": "R00063",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-hop table retrieval for open-domain text-to-SQL"
+  },
+  {
+   "id": "R00064",
+   "d": "include",
+   "code": "INC",
+   "why": "Robust schema-linking model for text-to-SQL"
+  },
+  {
+   "id": "R00065",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table retrieval plus synthetic query generation; centrality unclear"
+  },
+  {
+   "id": "R00066",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correction assistant for text-to-SQL"
+  },
+  {
+   "id": "R00067",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reasoning training with verifier; correction centrality unclear"
+  },
+  {
+   "id": "R00068",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn text-to-SQL with database retrieval and self-debug"
+  },
+  {
+   "id": "R00069",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Bias mitigation in analytical questions, not linking/correction"
+  },
+  {
+   "id": "R00070",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "System with foreign key inference and feedback; centrality unclear"
+  },
+  {
+   "id": "R00071",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn T5 linearization analysis, not linking contribution"
+  },
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn text-to-SQL on SParC and CoSQL"
+  },
+  {
+   "id": "R00073",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-linking prompt and candidate selection on Spider"
+  },
+  {
+   "id": "R00074",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent parsing with linking pre-training, SParC/CoSQL"
+  },
+  {
+   "id": "R00075",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-guided refinement and question rewriting"
+  },
+  {
+   "id": "R00076",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Hallucination mitigation across linking and synthesis stages"
+  },
+  {
+   "id": "R00077",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Workflow with several modules incl. self-correction; centrality unclear"
+  },
+  {
+   "id": "R00078",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent multi-turn Text2SQL dataset"
+  },
+  {
+   "id": "R00079",
+   "d": "include",
+   "code": "INC",
+   "why": "Sequential multi-turn EHR text-to-SQL dataset"
+  },
+  {
+   "id": "R00080",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema pruning in retrieval-augmented text-to-SQL"
+  },
+  {
+   "id": "R00081",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Shared task system with SQL verifier; centrality unclear"
+  },
+  {
+   "id": "R00082",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Research statement on SQL comment generation, single-turn"
+  },
+  {
+   "id": "R00083",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title suggests cross-lingual parsing, no linking focus"
+  },
+  {
+   "id": "R00084",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL benchmarks CoSQL-CG, SParC-CG"
+  },
+  {
+   "id": "R00085",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking re-appraisal for text-to-SQL"
+  },
+  {
+   "id": "R00086",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-linking-style CoT, extended to multi-turn"
+  },
+  {
+   "id": "R00087",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive user correction of SQL; unclear if multi-turn"
+  },
+  {
+   "id": "R00088",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational DB querying system; evaluation and multi-turn unclear"
+  },
+  {
+   "id": "R00089",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title shows prompting in Italian, no linking focus"
+  },
+  {
+   "id": "R00090",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL feedback for parser error correction; setting unclear"
+  },
+  {
+   "id": "R00091",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pretraining evaluated on CoSQL; multi-turn focus unclear"
+  },
+  {
+   "id": "R00092",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL error correction models"
+  },
+  {
+   "id": "R00093",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL with schema-linking graph"
+  },
+  {
+   "id": "R00094",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Denoising plus execution-guided decoding; centrality unclear"
+  },
+  {
+   "id": "R00095",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Uniform data representation, not linking or correction"
+  },
+  {
+   "id": "R00096",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL pre-training, schema state tracking"
+  },
+  {
+   "id": "R00097",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational question reformulation for multi-turn text-to-SQL"
+  },
+  {
+   "id": "R00098",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "General generalization framework evaluated on SParC and CoSQL"
+  },
+  {
+   "id": "R00099",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Dialogue state tracking on MultiWOZ, not relational database querying"
+  },
+  {
+   "id": "R00100",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-play augmentation for multi-turn text-to-SQL"
+  }
+ ],
+ "source_transcript": "agent-a2eeadc46a933f239.jsonl"
+}

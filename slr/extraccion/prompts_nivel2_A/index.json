@@ -1,0 +1,382 @@
+[
+ {
+  "label": "EXTA:R00019",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00019.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00029",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00029.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00030",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00030.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00033",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00033.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00035",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00035.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00041",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00041.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00042",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00042.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00068",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00068.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00072",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00072.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00074",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00074.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00079",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00079.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00084",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00084.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00086",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00086.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00088",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00088.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00091",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00091.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00093",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00093.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00096",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00096.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00097",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00097.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00098",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00098.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00099",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00099.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00100",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00100.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00107",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00107.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00109",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00109.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00110",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00110.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00114",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00114.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00116",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00116.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00117",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00117.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00120",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00120.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00126",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00126.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00129",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00129.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00131",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00131.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00148",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00148.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00160",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00160.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00170",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00170.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00222",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00222.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00232",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00232.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00238",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00238.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00286",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00286.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00288",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00288.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00292",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00292.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00298",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00298.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00309",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00309.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00311",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00311.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00312",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00312.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00370",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00370.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00373",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00373.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00374",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00374.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00435",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00435.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00438",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00438.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00450",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00450.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00453",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00453.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00480",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00480.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00482",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00482.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00491",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00491.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00499",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00499.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00508",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00508.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00511",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00511.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00524",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00524.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00525",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00525.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00526",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00526.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00828",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00828.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00868",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00868.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00904",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00904.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00908",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00908.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00920",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00920.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00924",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00924.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00927",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00927.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00936",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00936.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00950",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00950.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00954",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00954.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00981",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00981.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00994",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R00994.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R01029",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R01029.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R01034",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R01034.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R01037",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_R01037.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:B00131",
+  "prompt_file": "slr/extraccion/prompts_nivel2/A_B00131.txt",
+  "model": "sonnet"
+ }
+]

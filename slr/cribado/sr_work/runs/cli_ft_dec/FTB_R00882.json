@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00882@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00882",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; evaluated only on 19 custom tourism questions, not on any public benchmark (Spider, BIRD, etc.).",
+   "where": "p13-15 Sect. 3.4 Model comparison; p11 Sect. 3.2 Data overview"
+  }
+ ],
+ "source": "cli:FTB_R00882.json"
+}

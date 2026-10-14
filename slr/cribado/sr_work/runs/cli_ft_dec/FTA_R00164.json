@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00164@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00164",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn, but schema linking (schema filtering, value retrieval) is a stated abstract contribution. Evaluated on Spider and BIRD with EX/TS.",
+   "where": "p1 Abstract; p2 Introduction, Challenge C2; p9-10 Section 9 Experiments"
+  }
+ ],
+ "source": "cli:FTA_R00164.json"
+}

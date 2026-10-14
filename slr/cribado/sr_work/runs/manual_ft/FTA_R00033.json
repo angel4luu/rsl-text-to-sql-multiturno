@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00033@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00033",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL on SParC/CoSQL; schema-linking Role-State and context tracking; quantitative results (QM/IM EX, TS).",
+   "where": "p1 Abstract; p2 Methodology; p5-6 Experiment Setup and Table 1 (Main Results)"
+  }
+ ],
+ "source_transcript": "agent-a22334be17119392b.jsonl"
+}

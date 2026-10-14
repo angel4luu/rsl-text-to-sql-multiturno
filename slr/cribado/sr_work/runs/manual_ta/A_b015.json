@@ -1,0 +1,306 @@
+{
+ "label": "A:b015@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00699",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Anti-fraud hallucination framework; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00700",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00701",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table understanding/QA, no SQL generation"
+  },
+  {
+   "id": "R00702",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Educational lab study, single-turn, no linking/correction contribution"
+  },
+  {
+   "id": "R00703",
+   "d": "include",
+   "code": "INC",
+   "why": "NL2SQL with self-driven exploration and reflexive error correction contributions"
+  },
+  {
+   "id": "R00704",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based voice interface application, single-turn"
+  },
+  {
+   "id": "R00705",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise ChatBI application system, no central linking/correction"
+  },
+  {
+   "id": "R00706",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL-to-MongoDB NoSQL only"
+  },
+  {
+   "id": "R00707",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLMs in teaching, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00708",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Unified reasoning incl. Text-to-SQL with execution feedback; centrality unclear"
+  },
+  {
+   "id": "R00709",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Equipment alarm agent, not Text-to-SQL"
+  },
+  {
+   "id": "R00710",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00711",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Benchmark comparison of fine-tuned LLMs, single-turn, no linking focus"
+  },
+  {
+   "id": "R00712",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00713",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data-agnostic single-turn model, no linking/correction contribution"
+  },
+  {
+   "id": "R00714",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Evaluated on CHASE; multi-turn nature not stated"
+  },
+  {
+   "id": "R00715",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comparative review of text-to-SQL methods"
+  },
+  {
+   "id": "R00716",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema selector and SQL corrector are central contributions"
+  },
+  {
+   "id": "R00717",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Vision paper on NoSQL, no evaluation"
+  },
+  {
+   "id": "R00718",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL attention model, no linking/correction focus"
+  },
+  {
+   "id": "R00719",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema-aware mapping of query tokens to schema; linking centrality unclear"
+  },
+  {
+   "id": "R00720",
+   "d": "include",
+   "code": "INC",
+   "why": "Question-schema graph alignment (schema linking) on Spider"
+  },
+  {
+   "id": "R00721",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Spatial database queries in SECONDO, not relational SQL"
+  },
+  {
+   "id": "R00722",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Inventory management application, single-turn"
+  },
+  {
+   "id": "R00723",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Comparison of LLM text-to-SQL for BI, no linking/correction focus"
+  },
+  {
+   "id": "R00724",
+   "d": "exclude",
+   "code": "E5",
+   "why": "WordNet construction, not Text-to-SQL"
+  },
+  {
+   "id": "R00725",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Cost-aware query routing, no linking/correction focus"
+  },
+  {
+   "id": "R00726",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Spatial semantics Text-to-SQL, single-turn, linking not main contribution"
+  },
+  {
+   "id": "R00727",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-schema graph encoding; unclear if schema linking is central"
+  },
+  {
+   "id": "R00728",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Sketch filling on WikiSQL, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00729",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Bidirectional encoder model, single-turn, no linking/correction"
+  },
+  {
+   "id": "R00730",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multilingual contrastive reward, single-turn, no linking/correction"
+  },
+  {
+   "id": "R00731",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Medical record text mining, not Text-to-SQL"
+  },
+  {
+   "id": "R00732",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1999"
+  },
+  {
+   "id": "R00733",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00734",
+   "d": "include",
+   "code": "INC",
+   "why": "Refined schema filtering (schema pruning) central, evaluated on Spider"
+  },
+  {
+   "id": "R00735",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2005"
+  },
+  {
+   "id": "R00736",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semantic parsing of metonymy for DB population, not Text-to-SQL"
+  },
+  {
+   "id": "R00737",
+   "d": "include",
+   "code": "INC",
+   "why": "Reranking candidate selection and schema prediction on Spider"
+  },
+  {
+   "id": "R00738",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Fine-tuning evaluated on CHASE; multi-turn setting not stated"
+  },
+  {
+   "id": "R00739",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00740",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain knowledge retrieval, single-turn, not linking/correction"
+  },
+  {
+   "id": "R00741",
+   "d": "exclude",
+   "code": "E5",
+   "why": "GML parser, not Text-to-SQL"
+  },
+  {
+   "id": "R00742",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Neo4j knowledge graph platform"
+  },
+  {
+   "id": "R00743",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain QA application, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00744",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Hierarchical schema representation with column candidate selection; centrality unclear"
+  },
+  {
+   "id": "R00745",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based grid query system application, single-turn"
+  },
+  {
+   "id": "R00746",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Database encryption security, not Text-to-SQL"
+  },
+  {
+   "id": "R00747",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL2Cypher graph databases"
+  },
+  {
+   "id": "R00748",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Textual QA on bAbI, not Text-to-SQL"
+  }
+ ],
+ "source_transcript": "agent-a4a156ae2cda66964.jsonl"
+}

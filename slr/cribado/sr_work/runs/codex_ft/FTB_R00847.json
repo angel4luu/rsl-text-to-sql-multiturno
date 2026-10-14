@@ -1,0 +1,1 @@
+{"label": "FTB:R00847@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00847", "d": "unclear", "code": "UNC", "why": "Public-benchmark evaluation cannot be determined because methods and dataset details on pages 3–8 are omitted.", "where": "p9 §5.2 Experimental results; pp3–8 omitted"}], "source": "codex:gpt-6.1-sol"}

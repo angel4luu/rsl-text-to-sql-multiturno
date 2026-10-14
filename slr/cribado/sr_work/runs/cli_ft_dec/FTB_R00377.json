@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00377@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00377",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn study, evaluated only on the authors' own 100 tasks over RelBench databases, not on a public Text-to-SQL benchmark.",
+   "where": "p3 Section 4 Experimental Setup (Databases, Table Question Answering Benchmark); p2 Related Work"
+  }
+ ],
+ "source": "cli:FTB_R00377.json"
+}

@@ -1,0 +1,306 @@
+{
+ "label": "B:b021@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00983",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema routing over massive databases is central contribution"
+  },
+  {
+   "id": "R00984",
+   "d": "include",
+   "code": "INC",
+   "why": "KG-based join-path reasoning for Text-to-SQL, evaluated"
+  },
+  {
+   "id": "R00985",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn tool comparison, no linking/correction focus"
+  },
+  {
+   "id": "R00986",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema filtering and correcting decoder, CSpider evaluation"
+  },
+  {
+   "id": "R00987",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Educational SQL dataset annotation, single-turn, not linking/correction"
+  },
+  {
+   "id": "R00988",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R00989",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking method evaluated on Spider"
+  },
+  {
+   "id": "R00990",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking graph and table pruning on Spider"
+  },
+  {
+   "id": "R00991",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL with dialogue-state augmentation"
+  },
+  {
+   "id": "R00992",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema pruning via foreign keys, BIRD evaluation"
+  },
+  {
+   "id": "R00993",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent with self-repair loop; unclear if SQL correction central"
+  },
+  {
+   "id": "R00994",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational text-to-SQL context modelling"
+  },
+  {
+   "id": "R00995",
+   "d": "include",
+   "code": "INC",
+   "why": "Two-stage verification and feedback loop for SQL, BIRD/Spider"
+  },
+  {
+   "id": "R00996",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-level self-correction framework on Spider/BIRD"
+  },
+  {
+   "id": "R00997",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00998",
+   "d": "include",
+   "code": "INC",
+   "why": "Session-level multi-turn Chinese text-to-SQL dataset"
+  },
+  {
+   "id": "R00999",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and post-refinement on Spider"
+  },
+  {
+   "id": "R01000",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Chatbot user experience study, not Text-to-SQL technique"
+  },
+  {
+   "id": "R01001",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Training data synthesis, single-turn, not linking/correction"
+  },
+  {
+   "id": "R01002",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General single-turn LSTM NL-to-SQL model, no linking/correction"
+  },
+  {
+   "id": "R01003",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of table agents"
+  },
+  {
+   "id": "R01004",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R01005",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Dialogue-based incremental query building; evaluation and setting unclear"
+  },
+  {
+   "id": "R01006",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General reasoning system, not Text-to-SQL"
+  },
+  {
+   "id": "R01007",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph question answering"
+  },
+  {
+   "id": "R01008",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL dialect documentation retrieval, single-turn, not linking/correction"
+  },
+  {
+   "id": "R01009",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R01010",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table filtering for database QA; unclear if SQL generation"
+  },
+  {
+   "id": "R01011",
+   "d": "include",
+   "code": "INC",
+   "why": "Database/table retrieval for Text-to-SQL, public benchmarks"
+  },
+  {
+   "id": "R01012",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of conversational Text-to-SQL"
+  },
+  {
+   "id": "R01013",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Internalizes schema knowledge; unclear if linking central"
+  },
+  {
+   "id": "R01014",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL-to-visualization with schema guidance and self-validation; SQL role unclear"
+  },
+  {
+   "id": "R01015",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Industrial multi-agent application, Text-to-SQL a minor module"
+  },
+  {
+   "id": "R01016",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Workshop proceedings front matter"
+  },
+  {
+   "id": "R01017",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema grounding/linking framework evaluated on BIRD"
+  },
+  {
+   "id": "R01018",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application system, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R01019",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational data lake interface; unclear multi-turn and SQL generation"
+  },
+  {
+   "id": "R01020",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based single-turn NL-to-SQL, no linking/correction focus"
+  },
+  {
+   "id": "R01021",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn NL2SQL on SParC with history reuse"
+  },
+  {
+   "id": "R01022",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article language stated as Chinese"
+  },
+  {
+   "id": "R01023",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn voice NLIDB application, no linking/correction"
+  },
+  {
+   "id": "R01024",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Explaining missing results, not linking/correction"
+  },
+  {
+   "id": "R01025",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Logical form generation for email assistant, not SQL"
+  },
+  {
+   "id": "R01026",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph question answering"
+  },
+  {
+   "id": "R01027",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Evaluation methodology for conversational relational DB interfaces; primary status unclear"
+  },
+  {
+   "id": "R01028",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R01029",
+   "d": "include",
+   "code": "INC",
+   "why": "Interaction state tracking for multi-turn text-to-SQL on CoSQL"
+  },
+  {
+   "id": "R01030",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Literature review"
+  },
+  {
+   "id": "R01031",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational semantic parsing pre-training on SParC/CoSQL"
+  },
+  {
+   "id": "R01032",
+   "d": "include",
+   "code": "INC",
+   "why": "Improves schema linking recall, evaluated on Spider"
+  }
+ ],
+ "source_transcript": "agent-aae40b1e1ecad838d.jsonl"
+}

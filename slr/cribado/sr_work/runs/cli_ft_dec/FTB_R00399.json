@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00399@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00399",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; entity-to-column matching and table/column pruning for multi-table NL2SQL is central; quantitative evaluation on Spider/Bird-derived and other datasets.",
+   "where": "p1 Abstract; p2 Introduction (contributions); p7-8 Sections 6.2, 7.1-7.2"
+  }
+ ],
+ "source": "cli:FTB_R00399.json"
+}

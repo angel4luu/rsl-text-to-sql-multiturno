@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-10-11",
+  "registros_identificados": {"Scopus": 563, "IEEE Xplore": 368, "ACM DL": 146, "ACL Anthology": 133, "arXiv": 386, "total": 1596},
+  "duplicados_eliminados": {
+    "versiones_del_mismo_estudio (preprint arXiv con versión publicada en el conjunto; regla de versiones / EX9)": 133,
+    "registros Scopus con DOI erróneo duplicando el registro de ACL Anthology": 6,
+    "duplicados por DOI o título+año (sr-screener prepare_records.py)": 416,
+    "total": 555
+  },
+  "registros_a_cribar": 1041,
+  "pares_ambiguos_para_EX9_en_texto_completo": 2,
+  "registros_sin_resumen": 6,
+  "registros_anteriores_a_2019 (se excluyen por E1 en el cribado)": 42,
+  "fuentes": ["busqueda/registro_busquedas.csv", "busqueda/dedup_versiones_log.csv", "cribado/sr_work/identification.json", "cribado/sr_work/duplicates.csv"]
+}

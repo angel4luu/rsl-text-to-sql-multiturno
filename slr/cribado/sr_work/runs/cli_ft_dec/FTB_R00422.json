@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00422@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00422",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn PostgreSQL Text-to-SQL with central execution-feedback self-healing loop; quantitative evaluation on public BIRD benchmark.",
+   "where": "p1 Abstract; p9-10 Section 8 Empirical Evaluation (8.3 BIRD)"
+  }
+ ],
+ "source": "cli:FTB_R00422.json"
+}

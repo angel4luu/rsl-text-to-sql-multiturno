@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00336@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00336",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL agent; self-refinement and schema linking are central; quantitative evaluation on public Spider 2.0.",
+   "where": "p1 Abstract; p2 Introduction; p6 Sec 4.1 Experimental Setup; p7 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00336.json"
+}

@@ -1,0 +1,3 @@
+﻿"kept_as","member_index","matched_on","database","file","year","doi","pmid","title"
+"R00049","48","first","OpenAlex (snowballing)","2026-10-12_snowball_candidates.ris","2022","10.18653/v1/2022.findings-acl.99","","S2SQL: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers"
+"R00049","274","title+year(+-1)","Semantic Scholar (snowballing)","2026-10-12_snowball_candidates_s2.ris","2021","","","S 2 SQL: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers"

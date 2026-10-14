@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00368@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00368",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL-to-SQL pipeline with verification and iterative refinement as a stated contribution, evaluated quantitatively on public DataBench.",
+   "where": "p1 Abstract and Introduction; p4-5 Sections 4.5 and 5 Results, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00368.json"
+}

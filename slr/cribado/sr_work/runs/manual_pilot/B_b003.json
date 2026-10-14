@@ -1,0 +1,306 @@
+{
+ "label": "B:b003@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00101",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn co-reference and schema linking; Spider, SParC, CoSQL"
+  },
+  {
+   "id": "R00102",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema expansion and pruning as central contribution; Spider/SQUALL"
+  },
+  {
+   "id": "R00103",
+   "d": "exclude",
+   "code": "E5",
+   "why": "OpenStreetMap NLMaps semantic parsing, not relational SQL"
+  },
+  {
+   "id": "R00104",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table verification with TaPas/TaBERT, no SQL generation"
+  },
+  {
+   "id": "R00105",
+   "d": "include",
+   "code": "INC",
+   "why": "Correcting text-to-SQL parses via NL feedback in interaction context"
+  },
+  {
+   "id": "R00106",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dataset construction, not linking or correction"
+  },
+  {
+   "id": "R00107",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn text-to-SQL with utterance rewrite; SParC and CoSQL"
+  },
+  {
+   "id": "R00108",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Intermediate representation easing schema linking and joins; centrality unclear"
+  },
+  {
+   "id": "R00109",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Constrained decoding evaluated on Spider and multi-turn CoSQL; scope unclear"
+  },
+  {
+   "id": "R00110",
+   "d": "include",
+   "code": "INC",
+   "why": "CHASE context-dependent multi-turn text-to-SQL dataset"
+  },
+  {
+   "id": "R00111",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Synonym robustness attacking schema linking; centrality unclear"
+  },
+  {
+   "id": "R00112",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NLDB system, no linking or correction focus"
+  },
+  {
+   "id": "R00113",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness via data augmentation for search queries"
+  },
+  {
+   "id": "R00114",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn dialogue agent using generated SQL on KB; scope unclear"
+  },
+  {
+   "id": "R00115",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Vietnamese dataset, schema linking only a finding"
+  },
+  {
+   "id": "R00116",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn data synthesis for domain adaptation"
+  },
+  {
+   "id": "R00117",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL with schema interaction graph; SParC, CoSQL"
+  },
+  {
+   "id": "R00118",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-question clarification interaction, no linking/correction focus"
+  },
+  {
+   "id": "R00119",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking study on Spider"
+  },
+  {
+   "id": "R00120",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL on SParC with column-table linking"
+  },
+  {
+   "id": "R00121",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of neural NLIDB approaches"
+  },
+  {
+   "id": "R00122",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema and structural linking central; Spider"
+  },
+  {
+   "id": "R00123",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL correction with NL feedback, SPLASH dataset"
+  },
+  {
+   "id": "R00124",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema encoding and linking central; Spider"
+  },
+  {
+   "id": "R00125",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of cross-domain text-to-SQL models"
+  },
+  {
+   "id": "R00126",
+   "d": "include",
+   "code": "INC",
+   "why": "SParC context-dependent text-to-SQL dataset"
+  },
+  {
+   "id": "R00127",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking is one phase of IRNet; centrality unclear"
+  },
+  {
+   "id": "R00128",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Context-dependent parsing over database; unclear if SQL relational"
+  },
+  {
+   "id": "R00129",
+   "d": "include",
+   "code": "INC",
+   "why": "CoSQL conversational text-to-SQL dataset with dialogue state"
+  },
+  {
+   "id": "R00130",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese Spider dataset, no linking/correction focus"
+  },
+  {
+   "id": "R00131",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent SQL editing from history; SParC"
+  },
+  {
+   "id": "R00132",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Code idiom decoding, single-turn, no linking/correction"
+  },
+  {
+   "id": "R00133",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive parsing with feedback; unclear whether successive dependent turns"
+  },
+  {
+   "id": "R00134",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn value linking study with new benchmark"
+  },
+  {
+   "id": "R00135",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL refinement and self-correction central; text-to-SQL"
+  },
+  {
+   "id": "R00136",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema and value linking central; text-to-SQL evaluation"
+  },
+  {
+   "id": "R00137",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent-database interaction loop; central correction unclear; Spider/BIRD"
+  },
+  {
+   "id": "R00138",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback iterative refinement central; Spider"
+  },
+  {
+   "id": "R00139",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking with hypothesis verification central; BIRD"
+  },
+  {
+   "id": "R00140",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-stage framework incl. linking and verification; main contribution unclear"
+  },
+  {
+   "id": "R00141",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Demo with schema-linking decisions and verification; evaluation unclear"
+  },
+  {
+   "id": "R00142",
+   "d": "include",
+   "code": "INC",
+   "why": "Verification of generated SQL central; Spider, BIRD"
+  },
+  {
+   "id": "R00143",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluation toolkit demo, not linking or correction"
+  },
+  {
+   "id": "R00144",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-question ambiguity clarification demo"
+  },
+  {
+   "id": "R00145",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification of single ambiguous question, not linking/correction"
+  },
+  {
+   "id": "R00146",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Darija dataset fine-tuning study"
+  },
+  {
+   "id": "R00147",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluation demo with counterexample databases, single-turn"
+  },
+  {
+   "id": "R00148",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversation history and user feedback for Text-to-SQL accuracy"
+  },
+  {
+   "id": "R00149",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL error detection central, improves text-to-SQL pipeline"
+  },
+  {
+   "id": "R00150",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ReAct agent pipeline, no linking/correction focus"
+  }
+ ],
+ "source_transcript": "agent-a691d2743fca30fb2.jsonl"
+}

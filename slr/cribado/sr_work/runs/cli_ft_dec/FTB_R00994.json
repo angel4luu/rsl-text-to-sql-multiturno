@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00994@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00994",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL context modelling, evaluated quantitatively on public SParC benchmark; arXiv 2022 English",
+   "where": "p1 Abstract; p4 Sections 5.1-5.4, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTB_R00994.json"
+}

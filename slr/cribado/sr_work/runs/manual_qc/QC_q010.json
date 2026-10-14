@@ -1,0 +1,306 @@
+{
+ "label": "QC:q010@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00747",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Chinese NL2Cypher for graph databases"
+  },
+  {
+   "id": "R00750",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn ambiguity testing pipeline; no linking/correction contribution"
+  },
+  {
+   "id": "R00753",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-Python code dataset for statistical analysis, not SQL"
+  },
+  {
+   "id": "R00755",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Extended abstract of a survey"
+  },
+  {
+   "id": "R00756",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Web-table NLI with query explanations for user verification; SQL target unclear"
+  },
+  {
+   "id": "R00758",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00759",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Course template recommendation, not Text-to-SQL"
+  },
+  {
+   "id": "R00761",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2015"
+  },
+  {
+   "id": "R00762",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Frame-semantic parsing, not Text-to-SQL"
+  },
+  {
+   "id": "R00763",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1990"
+  },
+  {
+   "id": "R00766",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00767",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General compositional semantic parsing; no SQL target stated"
+  },
+  {
+   "id": "R00769",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Logical representation via RL, not Text-to-SQL"
+  },
+  {
+   "id": "R00774",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00777",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Visual place recognition"
+  },
+  {
+   "id": "R00779",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Chinese entity semantic relations, not Text-to-SQL"
+  },
+  {
+   "id": "R00784",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge-graph QA with Cypher"
+  },
+  {
+   "id": "R00788",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2013"
+  },
+  {
+   "id": "R00791",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Dynamic knowledge graphs for LLM memory"
+  },
+  {
+   "id": "R00792",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Kannada word sense disambiguation"
+  },
+  {
+   "id": "R00793",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SCADA NL interface application; no linking/correction contribution"
+  },
+  {
+   "id": "R00796",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Electrical design automation with agents"
+  },
+  {
+   "id": "R00797",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1988"
+  },
+  {
+   "id": "R00802",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2008"
+  },
+  {
+   "id": "R00804",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Speech commands for warehouse system, not Text-to-SQL"
+  },
+  {
+   "id": "R00806",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Querying semantic web biomedical data"
+  },
+  {
+   "id": "R00807",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Earthquake knowledge graph in Neo4j"
+  },
+  {
+   "id": "R00813",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00821",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00829",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge-graph QA over Neo4j"
+  },
+  {
+   "id": "R00857",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-GraphQL for graph database; datasets converted from SQL"
+  },
+  {
+   "id": "R00866",
+   "d": "exclude",
+   "code": "E5",
+   "why": "RAG over personal documents, no SQL generation"
+  },
+  {
+   "id": "R00871",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Keyword-based standardized NLIDB interface; no linking/correction contribution"
+  },
+  {
+   "id": "R00875",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational query system; unclear whether successive dependent questions"
+  },
+  {
+   "id": "R00876",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00880",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn prompt formatting on Spider"
+  },
+  {
+   "id": "R00881",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demo of LLM SQL applications; no linking/correction contribution"
+  },
+  {
+   "id": "R00896",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00900",
+   "d": "exclude",
+   "code": "E6",
+   "why": "RAG humanities chatbot; text-to-SQL filtering only a component"
+  },
+  {
+   "id": "R00930",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive speech-to-SQL with user refinement loop; multi-turn unclear"
+  },
+  {
+   "id": "R00951",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Access control layer for Text-to-SQL; no linking/correction"
+  },
+  {
+   "id": "R00967",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "GeoSQL benchmark includes schema retrieval task; centrality unclear"
+  },
+  {
+   "id": "R00977",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00988",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Article written in Chinese"
+  },
+  {
+   "id": "R00997",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R01002",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General seq2seq NLIDB model; no linking/correction contribution"
+  },
+  {
+   "id": "R01006",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General probabilistic reasoning system, not Text-to-SQL"
+  },
+  {
+   "id": "R01015",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Downhole maintenance multi-agent system; Text-to-SQL only mentioned"
+  },
+  {
+   "id": "R01018",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Semantic views for non-semantic column names; linking centrality unclear"
+  },
+  {
+   "id": "R01020",
+   "d": "include",
+   "code": "INC",
+   "why": "Rule-based mapping of NLQ tokens to RDB attributes/values is core"
+  }
+ ],
+ "source_transcript": "agent-a38ab0092db5c11be.jsonl"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00483@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00483",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; join-path/route inference is central; quantitative paired evaluation on public ACME insurance benchmark (Sequeda et al., data.world).",
+   "where": "p1 Abstract; p6-7 §4.4-4.5 route enumeration; p8-9 §5.1 dataset; p11 §6.1 Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00483.json"
+}

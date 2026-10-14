@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00351@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00351",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is join-path hints and schema/document retrieval from query logs; evaluated on BIRD/Spider-derived benchmarks and FIBEN.",
+   "where": "p1 Abstract and Introduction; p8-9 Section 8.1 Experimental Setup, 8.3 End-to-End Evaluation"
+  }
+ ],
+ "source": "cli:FTA_R00351.json"
+}

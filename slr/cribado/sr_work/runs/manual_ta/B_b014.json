@@ -1,0 +1,306 @@
+{
+ "label": "B:b014@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00649",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema ranking central contribution, Spider evaluation"
+  },
+  {
+   "id": "R00650",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema linking enhancement, Spider"
+  },
+  {
+   "id": "R00651",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-agent table selection and execution refinement among components; single-turn"
+  },
+  {
+   "id": "R00652",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table QA row retrieval, no SQL generation"
+  },
+  {
+   "id": "R00653",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Demonstration retrieval for prompts, no linking/correction focus"
+  },
+  {
+   "id": "R00654",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of NL2SQL"
+  },
+  {
+   "id": "R00655",
+   "d": "include",
+   "code": "INC",
+   "why": "Join path identification via GNN views"
+  },
+  {
+   "id": "R00656",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking enhancement for EMR Text2SQL"
+  },
+  {
+   "id": "R00657",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema graph and self-correction among several components"
+  },
+  {
+   "id": "R00658",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Multi-table QA over table collections, not SQL"
+  },
+  {
+   "id": "R00659",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General complex-query SQL generation method, no stated linking/correction"
+  },
+  {
+   "id": "R00660",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Rule-based Sinhala NLIDB, single-table, no linking/correction"
+  },
+  {
+   "id": "R00661",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL error correction on Splash benchmark"
+  },
+  {
+   "id": "R00662",
+   "d": "include",
+   "code": "INC",
+   "why": "Candidate selection via fragment-level self-consistency"
+  },
+  {
+   "id": "R00663",
+   "d": "include",
+   "code": "INC",
+   "why": "Feedback-based refinement of generated SQL"
+  },
+  {
+   "id": "R00664",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback revision agent, BIRD"
+  },
+  {
+   "id": "R00665",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback self-correction loop"
+  },
+  {
+   "id": "R00666",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Result verification is one of several components"
+  },
+  {
+   "id": "R00667",
+   "d": "include",
+   "code": "INC",
+   "why": "Fine-grained execution feedback central, BIRD/Spider"
+  },
+  {
+   "id": "R00668",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Human-feedback iterative refinement; unclear if correction central"
+  },
+  {
+   "id": "R00669",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback verifiable SQL revision loop"
+  },
+  {
+   "id": "R00670",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-feedback RL and self-correction, Spider/BIRD"
+  },
+  {
+   "id": "R00671",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema-aware retrieval and execution-based validation"
+  },
+  {
+   "id": "R00672",
+   "d": "exclude",
+   "code": "E6",
+   "why": "LLM inference scheduling, no linking/correction contribution"
+  },
+  {
+   "id": "R00673",
+   "d": "include",
+   "code": "INC",
+   "why": "Consistency verification for correction, Spider/BIRD"
+  },
+  {
+   "id": "R00674",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Verification and correction in clinical criteria-to-SQL pipeline"
+  },
+  {
+   "id": "R00675",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Step validation, self-correction keyword; unclear if central"
+  },
+  {
+   "id": "R00676",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema pruning and execution feedback among several components"
+  },
+  {
+   "id": "R00677",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Logic rules for aggregation/values, not linking/correction"
+  },
+  {
+   "id": "R00678",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema design comparison for LLM SQL, no linking/correction"
+  },
+  {
+   "id": "R00679",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Skeleton prediction tree search, not linking/correction"
+  },
+  {
+   "id": "R00680",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema element attention and prompt refinement; centrality unclear"
+  },
+  {
+   "id": "R00681",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Compliance benchmark, not linking or correction"
+  },
+  {
+   "id": "R00682",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative SQL refinement with execution feedback, BIRD"
+  },
+  {
+   "id": "R00683",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain prompting method; self-correction only mentioned among strategies"
+  },
+  {
+   "id": "R00684",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-error feedback trains knowledge generator; centrality unclear"
+  },
+  {
+   "id": "R00685",
+   "d": "include",
+   "code": "INC",
+   "why": "Semantic schema linking and execution-guided refinement"
+  },
+  {
+   "id": "R00686",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Benchmark with sub-task evaluations; sub-tasks not specified"
+  },
+  {
+   "id": "R00687",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 1986"
+  },
+  {
+   "id": "R00688",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ASR transcript correction, not SQL correction or linking"
+  },
+  {
+   "id": "R00689",
+   "d": "exclude",
+   "code": "E6",
+   "why": "MCP reporting architecture patterns, no linking/correction"
+  },
+  {
+   "id": "R00690",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-aware verification and schema grounding among components"
+  },
+  {
+   "id": "R00691",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-feedback repair one of several components; geospatial SQL"
+  },
+  {
+   "id": "R00692",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Generate-validate-correct mechanism part of LMS assistant"
+  },
+  {
+   "id": "R00693",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SLM/LLM fallback cost system, no linking/correction focus"
+  },
+  {
+   "id": "R00694",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multi-database benchmark generation, not linking/correction"
+  },
+  {
+   "id": "R00695",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General NL2SQL architecture description"
+  },
+  {
+   "id": "R00696",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Agent orchestration for supply chain, no linking/correction contribution"
+  },
+  {
+   "id": "R00697",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-agent schema mapping and refinement; centrality unclear"
+  },
+  {
+   "id": "R00698",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ChatBI application system description"
+  }
+ ],
+ "source_transcript": "agent-ac139033fcba61764.jsonl"
+}

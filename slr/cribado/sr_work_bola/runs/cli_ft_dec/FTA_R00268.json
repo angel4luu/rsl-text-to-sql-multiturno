@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00268@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00268",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn BIRD benchmark about large noisy values, external knowledge and efficiency; no schema-linking or self-correction contribution.",
+   "where": "p1 Abstract and Introduction; p2 Task Formulation"
+  }
+ ],
+ "source": "cli:FTA_R00268.json"
+}

@@ -1,0 +1,306 @@
+{
+ "label": "B:b009@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00401",
+   "d": "include",
+   "code": "INC",
+   "why": "Table retrieval (schema selection) for Text-to-SQL is the central contribution"
+  },
+  {
+   "id": "R00402",
+   "d": "include",
+   "code": "INC",
+   "why": "Reflective SQL refinement loop, evaluated on Spider and BIRD"
+  },
+  {
+   "id": "R00403",
+   "d": "exclude",
+   "code": "E6",
+   "why": "KV-cache latency optimisation, single-turn, not linking or correction"
+  },
+  {
+   "id": "R00404",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational assistant generating SQL; unclear if dependent multi-turn questions"
+  },
+  {
+   "id": "R00405",
+   "d": "include",
+   "code": "INC",
+   "why": "Joinable table selection for Text-to-SQL, evaluated on Bird and Spider"
+  },
+  {
+   "id": "R00406",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-refinement and voting pipeline for Text-to-SQL on Spider and BIRD"
+  },
+  {
+   "id": "R00407",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "SQL debugging benchmark; unclear if it counts as Text-to-SQL self-correction"
+  },
+  {
+   "id": "R00408",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semi-structured table QA, not SQL over relational databases"
+  },
+  {
+   "id": "R00409",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking is one of several components; central role unclear"
+  },
+  {
+   "id": "R00410",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation tool, no linking or correction contribution"
+  },
+  {
+   "id": "R00411",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table retrieval for relational databases; unclear if SQL generation is involved"
+  },
+  {
+   "id": "R00412",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and intermediate correction central, evaluated on BIRD"
+  },
+  {
+   "id": "R00413",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Natural language to MongoDB queries, not relational SQL"
+  },
+  {
+   "id": "R00414",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General RLVR noisy-data study; no Text-to-SQL in abstract"
+  },
+  {
+   "id": "R00415",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent exploring and verifying schema in unknown-schema Text-to-SQL"
+  },
+  {
+   "id": "R00416",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL database search evaluation with conversational metrics; SQL and multi-turn unclear"
+  },
+  {
+   "id": "R00417",
+   "d": "exclude",
+   "code": "E6",
+   "why": "RL fine-tuning on verified data, no linking or correction focus"
+  },
+  {
+   "id": "R00418",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational bot with schema-internalising fine-tuning; multi-turn unclear"
+  },
+  {
+   "id": "R00419",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema filtering via agentic views plus revisor agent"
+  },
+  {
+   "id": "R00420",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Workflow model-selection manager, not linking or correction"
+  },
+  {
+   "id": "R00421",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Help-seeking benchmark for agents, not linking or correction in Text-to-SQL"
+  },
+  {
+   "id": "R00422",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-healing execution-feedback loop, evaluated on BIRD"
+  },
+  {
+   "id": "R00423",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn multilingual benchmark, not about linking or correction"
+  },
+  {
+   "id": "R00424",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Iterative user queries NL2SQL system description; evaluation and multi-turn unclear"
+  },
+  {
+   "id": "R00425",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation platform demo"
+  },
+  {
+   "id": "R00426",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn training data synthesis framework"
+  },
+  {
+   "id": "R00427",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Test database synthesis for single-turn evaluation"
+  },
+  {
+   "id": "R00428",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema renaming verified by execution feedback; central role unclear"
+  },
+  {
+   "id": "R00429",
+   "d": "include",
+   "code": "INC",
+   "why": "Agent with schema exploration, verification and two-tier repair"
+  },
+  {
+   "id": "R00430",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "RL with execution-feedback rewards; unclear if self-correction central"
+  },
+  {
+   "id": "R00431",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text2Cypher graph queries, not relational SQL"
+  },
+  {
+   "id": "R00432",
+   "d": "include",
+   "code": "INC",
+   "why": "Candidate selection for NL2SQL evaluated on BIRD-DEV"
+  },
+  {
+   "id": "R00433",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correcting multi-agent NL2SQL with schema enrichment, BIRD"
+  },
+  {
+   "id": "R00434",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of human-in-the-loop NLP methods"
+  },
+  {
+   "id": "R00435",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL benchmark with per-turn metric"
+  },
+  {
+   "id": "R00436",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Diffusion LMs for NL2SQL with interactive optimisation; central contribution unclear"
+  },
+  {
+   "id": "R00437",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking is the central contribution, BIRD and Spider2"
+  },
+  {
+   "id": "R00438",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn agent interactions on BIRD-Interact; user dialogue unclear"
+  },
+  {
+   "id": "R00439",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-grounded targeted repair and candidate selection"
+  },
+  {
+   "id": "R00440",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema design for column linking and join paths; central role unclear"
+  },
+  {
+   "id": "R00441",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Clause-level error localisation and candidate verification; central role unclear"
+  },
+  {
+   "id": "R00442",
+   "d": "include",
+   "code": "INC",
+   "why": "Live schema grounding, table selection and validation-triggered retry"
+  },
+  {
+   "id": "R00443",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reflection-based memory with schema grounding; central contribution unclear"
+  },
+  {
+   "id": "R00444",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback bootstraps value grounding for Text-to-SQL"
+  },
+  {
+   "id": "R00445",
+   "d": "include",
+   "code": "INC",
+   "why": "Joint schema retrieval and SQL generation under execution feedback"
+  },
+  {
+   "id": "R00446",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn RL for iterative SQL correction, BIRD and Spider"
+  },
+  {
+   "id": "R00447",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn cross-dialect benchmark"
+  },
+  {
+   "id": "R00448",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-guided self-correction is one of several modules"
+  },
+  {
+   "id": "R00449",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution probing for ambiguity resolution, SQL selection and repair"
+  },
+  {
+   "id": "R00450",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational voice SQL agent; multi-turn stability mentioned, dependence unclear"
+  }
+ ],
+ "source_transcript": "agent-acf092d08175b6bb3.jsonl"
+}

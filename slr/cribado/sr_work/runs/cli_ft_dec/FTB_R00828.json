@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00828@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00828",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL chatbot with multi-turn follow-ups (coreference, e.g. 'who is she?'); 13/16 correct on a custom test set.",
+   "where": "p7 Table I and p7-8 Section IV Results; p1 Abstract"
+  }
+ ],
+ "source": "cli:FTB_R00828.json"
+}

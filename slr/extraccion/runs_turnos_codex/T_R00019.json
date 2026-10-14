@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00019\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"PREDICHO\",\"nota\":\"Sin resultados numéricos por turno. Short/Long agrupan acciones doradas, no turnos; Pass^k mide ensayos. Se omiten figuras 4, 6, 11 y 12 sin valores impresos.\",\"ubic\":\"5–8, 14–17\"}}]}",
+  "_label": "TURNOS:R00019"
+}

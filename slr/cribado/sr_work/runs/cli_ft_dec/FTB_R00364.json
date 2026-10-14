@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00364@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00364",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn WikiSQL study whose stated contribution is execution-guided verification plus interpretability-based value correction, with quantitative benchmark results.",
+   "where": "p1 Abstract; p7 Section 3 example and Section 4 Tables 1-3"
+  }
+ ],
+ "source": "cli:FTB_R00364.json"
+}

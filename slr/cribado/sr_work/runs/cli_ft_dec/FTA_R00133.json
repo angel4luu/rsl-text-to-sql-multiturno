@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00133@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00133",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn interactive Text-to-SQL whose central contribution is error detection and correction via user feedback; evaluated on WikiSQL and Spider.",
+   "where": "p1 Abstract; p2 Introduction; p5-6 Section 5 Experiments, Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00133.json"
+}

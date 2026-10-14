@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00348@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00348",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn general PostgreSQL NL2SQL pipeline; schema linking is only one module, not a stated central contribution.",
+   "where": "p1 Abstract and p3 Section 3.1, Phase 1 steps"
+  }
+ ],
+ "source": "cli:FTA_R00348.json"
+}

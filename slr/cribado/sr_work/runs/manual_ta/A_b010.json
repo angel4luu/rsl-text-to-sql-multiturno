@@ -1,0 +1,306 @@
+{
+ "label": "A:b010@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00451",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution/compiler feedback hint learning is central contribution; Spider 2.0 evaluation"
+  },
+  {
+   "id": "R00452",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "RL reflection on execution feedback evaluated on text-to-SQL; centrality unclear"
+  },
+  {
+   "id": "R00453",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-round dialogue routing, hierarchical schema linking, join handling in NL2SQL BI"
+  },
+  {
+   "id": "R00454",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Execution-feedback revision is one of three innovations; centrality unclear"
+  },
+  {
+   "id": "R00455",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational BI with self-correcting NL2SQL agent; multi-turn dependence unclear"
+  },
+  {
+   "id": "R00456",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn schema representation study, not linking or correction"
+  },
+  {
+   "id": "R00457",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking heuristic search is main innovation, single-turn on benchmarks"
+  },
+  {
+   "id": "R00458",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn EHR agent benchmark, no linking or correction focus"
+  },
+  {
+   "id": "R00459",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM agent privacy"
+  },
+  {
+   "id": "R00460",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema context compression improves schema-linking recall; centrality unclear"
+  },
+  {
+   "id": "R00461",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn on-prem LLM size/technique comparison on BIRD"
+  },
+  {
+   "id": "R00462",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General agent memory reward study, text-to-SQL only as test"
+  },
+  {
+   "id": "R00463",
+   "d": "include",
+   "code": "INC",
+   "why": "Outcome reward model verification and candidate selection for Text-to-SQL"
+  },
+  {
+   "id": "R00464",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Governed semantics, join validation, retry on violations; centrality unclear"
+  },
+  {
+   "id": "R00465",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn AI-function SQL benchmark, not linking or correction"
+  },
+  {
+   "id": "R00466",
+   "d": "include",
+   "code": "INC",
+   "why": "Verification-based correctness prediction for text-to-SQL on BIRD and Spider"
+  },
+  {
+   "id": "R00467",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Grammar-constrained decoding, not linking or correction"
+  },
+  {
+   "id": "R00468",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval benchmark and embeddings, schema linking central"
+  },
+  {
+   "id": "R00469",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Context pruning and verification middleware; centrality of linking unclear"
+  },
+  {
+   "id": "R00470",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn clarification dialogues with simulated users; dependence across turns unclear"
+  },
+  {
+   "id": "R00471",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking multi-agent framework is central contribution"
+  },
+  {
+   "id": "R00472",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-grounded RL for multi-turn Text-to-SQL agents on BIRD, Spider"
+  },
+  {
+   "id": "R00473",
+   "d": "include",
+   "code": "INC",
+   "why": "Attention-based schema linking on Spider, BIRD"
+  },
+  {
+   "id": "R00474",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Database lifecycle benchmark, not linking or correction"
+  },
+  {
+   "id": "R00475",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL corrector with repair memory evaluated on BIRD"
+  },
+  {
+   "id": "R00476",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reusable verified repair memory evaluation; correction centrality unclear"
+  },
+  {
+   "id": "R00477",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Column metadata recovery, not linking or correction"
+  },
+  {
+   "id": "R00478",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General LLM reasoning reproduction, not Text-to-SQL"
+  },
+  {
+   "id": "R00479",
+   "d": "include",
+   "code": "INC",
+   "why": "Hierarchical schema linking for multi-database Text-to-SQL"
+  },
+  {
+   "id": "R00480",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Stateful clarification variant, multi-turn state consistency mentioned; unclear"
+  },
+  {
+   "id": "R00481",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL correction framework with execution-based verification on BIRD-Critic"
+  },
+  {
+   "id": "R00482",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "PL/SQL benchmark with multi-turn conversations; SQL scope uncertain"
+  },
+  {
+   "id": "R00483",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn planner grounding phrases; user-turn dependence unclear"
+  },
+  {
+   "id": "R00484",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table retrieval descriptions for NL2SQL; linking centrality unclear"
+  },
+  {
+   "id": "R00485",
+   "d": "include",
+   "code": "INC",
+   "why": "Reference-free SQL verification model evaluated on BIRD"
+  },
+  {
+   "id": "R00486",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SQL pipeline rewriting for optimization, not Text-to-SQL"
+  },
+  {
+   "id": "R00487",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative execution-feedback ReAct text-to-SQL on BIRD"
+  },
+  {
+   "id": "R00488",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn beam search and self-consistency scaling, no linking or correction"
+  },
+  {
+   "id": "R00489",
+   "d": "include",
+   "code": "INC",
+   "why": "Agentic RL repairing SQL from execution feedback on BIRD"
+  },
+  {
+   "id": "R00490",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Module cost analysis highlighting execution-feedback refinement; centrality unclear"
+  },
+  {
+   "id": "R00491",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational text-to-SQL multi-turn benchmark with intent drift"
+  },
+  {
+   "id": "R00492",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-reflection retrieval and SQL correction loops on BIRD"
+  },
+  {
+   "id": "R00493",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema selection and error-repair agent plus benchmark, Spider 2.0 evaluation"
+  },
+  {
+   "id": "R00494",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review and framework for tabular insight extraction"
+  },
+  {
+   "id": "R00495",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation mutation and metrics, not linking or correction"
+  },
+  {
+   "id": "R00496",
+   "d": "include",
+   "code": "INC",
+   "why": "Joint schema linking and SQL generation agents via RL on BIRD"
+  },
+  {
+   "id": "R00497",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Synthetic data filtering, general method"
+  },
+  {
+   "id": "R00498",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational NL2SQL audience sizing with attribute retrieval; multi-turn unclear"
+  },
+  {
+   "id": "R00499",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General agent requirement tracking, not Text-to-SQL specific"
+  },
+  {
+   "id": "R00500",
+   "d": "include",
+   "code": "INC",
+   "why": "Join-graph traversal table retrieval for Text-to-SQL on BIRD, Spider"
+  }
+ ],
+ "source_transcript": "agent-a6ca6240c1a106087.jsonl"
+}

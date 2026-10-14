@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00196@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00196",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; graph pruning (schema item relevance) is a stated contribution; evaluated quantitatively on public Spider benchmark; 2021 arXiv.",
+   "where": "p1 Abstract; p2 Introduction contributions; p6-7 Section 4 Experiments"
+  }
+ ],
+ "source": "cli:FTA_R00196.json"
+}

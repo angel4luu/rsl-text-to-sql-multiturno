@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00183@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00183",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agentic Text-to-SQL with execution-feedback self-correction as a stated contribution; quantitative EX evaluation on public BIRD dev set",
+   "where": "p1 Abstract; p2 Introduction; p3-4 Section 3.1 Execution Accuracy, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTB_R00183.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00439@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00439",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with execution-grounded repair and selection as central contributions; evaluated on BIRD dev and Spider test.",
+   "where": "p1 Abstract and Introduction contributions; p6-7 Experimental Setup, Results (Table 1)"
+  }
+ ],
+ "source": "cli:FTB_R00439.json"
+}

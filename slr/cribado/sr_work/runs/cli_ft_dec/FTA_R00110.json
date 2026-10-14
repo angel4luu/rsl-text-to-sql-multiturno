@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00110@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00110",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Chinese relational Text-to-SQL benchmark (CHASE) with context and schema-linking annotations; QM/IM results for three models on CHASE, SParC and CoSQL.",
+   "where": "p1 Abstract; p6-8 Sections 4-5, Tables 5-9"
+  }
+ ],
+ "source": "cli:FTA_R00110.json"
+}

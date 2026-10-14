@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00416@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00416",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn end-to-end answer-quality evaluation framework; schema linking and self-correction are not a stated contribution.",
+   "where": "p2 Sec 2.2 Dataset Generation; p4 Sec 2.4 Answer generation; p11 Sec 5"
+  }
+ ],
+ "source": "cli:FTA_R00416.json"
+}

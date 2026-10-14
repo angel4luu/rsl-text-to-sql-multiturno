@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00454@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00454",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with execution-feedback error-aware revision and schema linking as stated contributions; evaluated on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Introduction contributions; p4-5 Sections 4.2.2 and 4.3"
+  }
+ ],
+ "source": "cli:FTA_R00454.json"
+}

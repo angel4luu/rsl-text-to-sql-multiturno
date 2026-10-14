@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00011@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00011",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema routing/linking is the central contribution; evaluated quantitatively on BIRD and Spider; published 2026 in English, peer-reviewed.",
+   "where": "p1 Abstract; p5-7 Sections 4.1-4.3, Tables 2-4"
+  }
+ ],
+ "source": "cli:FTB_R00011.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00050@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00050",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn weakly supervised schema-linking (grounding) method, evaluated on Spider-L and SQUALL, and coupled with two text-to-SQL parsers on two benchmarks.",
+   "where": "p1 Abstract and Introduction contributions; p4-5 Section 3 Experiments, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00050.json"
+}

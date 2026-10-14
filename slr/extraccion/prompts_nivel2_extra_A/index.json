@@ -1,0 +1,12 @@
+[
+ {
+  "label": "EXTA:R00105",
+  "prompt_file": "slr/extraccion/prompts_nivel2_extra/A_R00105.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "EXTA:R00123",
+  "prompt_file": "slr/extraccion/prompts_nivel2_extra/A_R00123.txt",
+  "model": "sonnet"
+ }
+]

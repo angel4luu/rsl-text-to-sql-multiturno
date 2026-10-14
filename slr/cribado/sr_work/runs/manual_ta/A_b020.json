@@ -1,0 +1,277 @@
+{
+ "label": "A:b020@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00938",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive clarification with memorized feedback; unclear if successive dependent questions"
+  },
+  {
+   "id": "R00939",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema pruning central contribution, evaluated on Spider"
+  },
+  {
+   "id": "R00940",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-table benchmark with foreign-key selection and Text-to-SQL; linking centrality unclear"
+  },
+  {
+   "id": "R00941",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LCA application using Text2SQL prompts"
+  },
+  {
+   "id": "R00942",
+   "d": "include",
+   "code": "INC",
+   "why": "Correction method with multi-round feedback, evaluated on Spider"
+  },
+  {
+   "id": "R00943",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record states article language is Chinese"
+  },
+  {
+   "id": "R00944",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking module among several components; main contribution unclear"
+  },
+  {
+   "id": "R00945",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Iterative verification loops among domain-knowledge components; centrality unclear"
+  },
+  {
+   "id": "R00946",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise contract QA system application"
+  },
+  {
+   "id": "R00947",
+   "d": "include",
+   "code": "INC",
+   "why": "Bidirectional schema linking and multi-turn self-correction, BIRD evaluation"
+  },
+  {
+   "id": "R00948",
+   "d": "include",
+   "code": "INC",
+   "several": "",
+   "why": "Value retrieval and generation-execution-revision loop central"
+  },
+  {
+   "id": "R00949",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema linking in title and approach"
+  },
+  {
+   "id": "R00950",
+   "d": "include",
+   "code": "INC",
+   "why": "Question rewriting for multi-turn Text-to-SQL on SParC/CoSQL"
+  },
+  {
+   "id": "R00951",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Access control layer for Text-to-SQL chatbot"
+  },
+  {
+   "id": "R00952",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL question rewriting"
+  },
+  {
+   "id": "R00953",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Database instance (value) integration; unclear if linking is central"
+  },
+  {
+   "id": "R00954",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn NLIDB with dialogue state tracking, benchmark evaluation"
+  },
+  {
+   "id": "R00955",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative chain-of-feedback refinement, Spider evaluation"
+  },
+  {
+   "id": "R00956",
+   "d": "include",
+   "code": "INC",
+   "why": "Embedding models for schema linking, experimental study"
+  },
+  {
+   "id": "R00957",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00958",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and execution feedback correction on BIRD"
+  },
+  {
+   "id": "R00959",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00960",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Targets Weld IR, not SQL; compiler feedback; Spider evaluation"
+  },
+  {
+   "id": "R00961",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00962",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and SQL correction/selection framework, BIRD/Spider"
+  },
+  {
+   "id": "R00963",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema mapping central, KaggleDBQA evaluation"
+  },
+  {
+   "id": "R00964",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking enhancement on Spider"
+  },
+  {
+   "id": "R00965",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking stage with RL reward, Spider/BIRD"
+  },
+  {
+   "id": "R00966",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema decoupler and execution-guided search, Spider"
+  },
+  {
+   "id": "R00967",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn GeoSQL benchmark, not about linking or correction"
+  },
+  {
+   "id": "R00968",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Telugu single-turn application system"
+  },
+  {
+   "id": "R00969",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic survey of Text-to-SQL"
+  },
+  {
+   "id": "R00970",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00971",
+   "d": "exclude",
+   "code": "E6",
+   "why": "MES chat agent application, single requests"
+  },
+  {
+   "id": "R00972",
+   "d": "include",
+   "code": "INC",
+   "why": "Dynamic schema pruning contribution, Spider/BIRD"
+  },
+  {
+   "id": "R00973",
+   "d": "include",
+   "code": "INC",
+   "why": "MCTS multi-step refinement with feedback, Spider/BIRD"
+  },
+  {
+   "id": "R00974",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00975",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Feedback-guided planner and entity linking; centrality unclear"
+  },
+  {
+   "id": "R00976",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of context-dependent Text-to-SQL"
+  },
+  {
+   "id": "R00977",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Conference proceedings front matter"
+  },
+  {
+   "id": "R00978",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Product attribute value extraction, not Text-to-SQL"
+  },
+  {
+   "id": "R00979",
+   "d": "include",
+   "code": "INC",
+   "why": "Table selection phase central to framework"
+  },
+  {
+   "id": "R00980",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-refinement feedback loop on BIRD"
+  },
+  {
+   "id": "R00981",
+   "d": "include",
+   "code": "INC",
+   "why": "Unified parser encoding conversation context, multi-turn datasets"
+  },
+  {
+   "id": "R00982",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Financial domain syntax/semantic adaptation, no linking/correction focus"
+  }
+ ],
+ "source_transcript": "agent-ae1d30607fea7942d.jsonl"
+}

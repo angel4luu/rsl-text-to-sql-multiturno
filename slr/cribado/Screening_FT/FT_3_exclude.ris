@@ -1,0 +1,2861 @@
+﻿TY  - CPAPER
+TI  - A Conversational Agent Framework for Multimodal Knowledge Retrieval: A Case Study in FHWA InfoHighway Web Portal Queries
+AU  - Gadiraju, Sai Surya
+AU  - Liao, Duoduo
+AU  - He, Zijie
+PY  - 2025
+T2  - Proceedings of the 1st Workshop for Research on Agent Language Models (REALM 2025)
+DO  - 10.18653/v1/2025.realm-1.17
+UR  - https://aclanthology.org/2025.realm-1.17/
+SP  - 250--258
+DB  - ACL Anthology
+LB  - FT-Exclude-E6
+ID  - R00040
+N1  - sr-screener FT [R00040]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn schema-in-prompt Text-to-SQL inside a RAG assistant; no dialogue-dependent evaluation, no central linking or correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - FinStat2SQL: A Text2SQL Pipeline for Financial Statement Analysis
+AU  - Nguyen, Hung Quang
+AU  - Trinh, Anh Phuong
+AU  - Mai, Hung Phan Quoc
+AU  - Trinh, Phong Tuan
+PY  - 2025
+T2  - Proceedings of the 18th International Natural Language Generation Conference
+UR  - https://aclanthology.org/2025.inlg-main.27/
+SP  - 449--464
+DB  - ACL Anthology
+LB  - FT-Exclude-E8
+ID  - R00043
+N1  - sr-screener FT [R00043]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn self-correction pipeline evaluated only on a custom financial dataset, without a public benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Chen, C.
+AU  - Bunescu, R.
+TI  - Context-dependent semantic parsing over temporally structured data
+PY  - 2019
+T2  - NAACL HLT 2019 - 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies - Proceedings of the Conference
+VL  - 1
+SP  - 3576
+EP  - 3585
+DO  - 10.18653/v1/n19-1360
+UR  - https://www.scopus.com/pages/publications/85085583753?origin=resultslist
+AD  - School of Electrical Engineering and Computer Science, Ohio University, United States
+KW  - Computational linguistics
+KW  - Long short-term memory
+KW  - Natural language processing systems
+KW  - Query processing
+KW  - Semantics
+KW  - Context dependency
+KW  - Context dependent
+KW  - Encoder-decoder architecture
+KW  - Model contexts
+KW  - Multiple levels
+KW  - Multiple time series
+KW  - Natural language questions
+KW  - Semantic parsing
+KW  - Sequence of actions
+KW  - Structured data
+KW  - Graphical user interfaces
+PB  - Association for Computational Linguistics (ACL)
+SN  - 978-195073713-0 (ISBN)
+LA  - English
+J2  - NAACL HLT - Conf. N. Am. Chapter Assoc. Comput. Linguistics: Hum. Lang. Technol. - Proc. Conf.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85085583753
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+LB  - FT-Exclude-E5
+ID  - R00128
+N1  - sr-screener FT [R00128]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Generates custom logical forms for an inference engine over a time-series knowledge base, not SQL; no relational SQL evaluation | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Chen, K.
+AU  - Chen, Y.
+AU  - Koudas, N.
+AU  - Yu, X.
+TI  - RTS+: Reliable Text to SQL
+PY  - 2025
+T2  - Proceedings of the ACM SIGMOD International Conference on Management of Data
+SP  - 71
+EP  - 74
+DO  - 10.1145/3722212.3725129
+UR  - https://www.scopus.com/pages/publications/105010222072?origin=resultslist
+AD  - University Of Toronto, Toronto, ON, Canada
+AD  - Seattle University, Seattle, WA, United States
+AD  - York University, Toronto, ON, Canada
+KW  - AI for database
+KW  - text-to-SQL
+KW  - Arts computing
+KW  - Feedback
+KW  - Graphical user interfaces
+KW  - Human computer interaction
+KW  - Human engineering
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Search engines
+KW  - User experience
+KW  - 'current
+KW  - AI for database
+KW  - Interactive feedback
+KW  - Interactive system
+KW  - Natural language queries
+KW  - Non-technical users
+KW  - Query generation
+KW  - State-of-the-art system
+KW  - Text-to-SQL
+KW  - Users' experiences
+KW  - Query processing
+A2  - Deshpande A.
+A2  - Aboulnaga A.
+A2  - Salimi B.
+A2  - Chandramouli B.
+A2  - Howe B.
+A2  - Loo B.T.
+A2  - Glavic B.
+A2  - Curino C.
+A2  - Zhe Wang D.
+A2  - Suciu D.
+A2  - Abadi D.
+A2  - Srivastava D.
+A2  - Wu E.
+A2  - Nawab F.
+A2  - Ilyas I.
+A2  - Naughton J.
+A2  - Rogers J.
+A2  - Patel J.
+A2  - Arulraj J.
+A2  - Yang J.
+A2  - Echihabi K.
+A2  - Ross K.
+A2  - Daudjee K.
+A2  - Lakshmanan L.
+A2  - Garofalakis M.
+A2  - Riedewald M.
+A2  - Mokbel M.
+A2  - Ouzzani M.
+A2  - Kennedy O.
+A2  - Kennedy O.
+A2  - Papotti P.
+A2  - Alvaro P.
+A2  - Bailis P.
+A2  - Miller R.
+A2  - Roy S.B.
+A2  - Melnik S.
+A2  - Idreos S.
+A2  - Roy S.
+A2  - Rekatsinas T.
+A2  - Leis V.
+A2  - Zhou W.
+A2  - Gatterbauer W.
+A2  - Ives Z.
+PB  - Association for Computing Machinery
+SN  - 07308078 (ISSN); 979-840071564-8 (ISBN)
+LA  - English
+J2  - Proc. ACM SIGMOD Int. Conf. Manage. Data
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105010222072
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+LB  - FT-Exclude-E7
+ID  - R00141
+N1  - sr-screener FT [R00141]: EXCLUDE (E7 No quantitative empirical evaluation (full text only)) - Demo paper describing a system and interface. It reports no quantitative results and only cites prior studies for accuracy claims. | A: exclude/E7 | B: exclude/E7 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Efficient Ambiguity Resolution via Information-Guided Clarification for Text-to-SQL
+AU  - Luyu Qiu
+AU  - Jianing Li
+AU  - Yuanfeng Song
+AU  - Ruoxi Qi
+AU  - Janet H. Hsiao
+AU  - Lei Chen
+PY  - 2026
+T2  - Proceedings - International Workshops on Parallel Processing
+DO  - 10.1145/3816891.3837728
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3816891.3837728
+LB  - FT-Exclude-E6
+ID  - R00145
+N1  - sr-screener FT [R00145]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Clarification questions on a single ambiguous query (EIG selection); no schema-linking or self-correction contribution, no successive dependent user questions. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment
+AU  - Xiangjin Xie
+AU  - Guangwei Xu
+AU  - Lingyan Zhao
+AU  - Ruijie Guo
+PY  - 2025
+T2  - Proceedings of the ACM on Management of Data
+DO  - 10.1145/3725331
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3725331
+LB  - FT-Exclude-E6
+ID  - R00158
+N1  - sr-screener FT [R00158]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn general multi-agent Text-to-SQL; stated contributions are consistency alignment, dynamic few-shot and SQL-Like CoT, not linking or correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - The Generalization and Error Detection in LLM-based Text-to-SQL Systems
+AU  - Oleg Somov
+PY  - 2025
+DO  - 10.1145/3701551.3707416
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3701551.3707416
+LB  - FT-Exclude-E3
+ID  - R00159
+N1  - sr-screener FT [R00159]: EXCLUDE (E3 Thesis, poster, abstract-only or extended abstract, <4 pages of content, editorial, proceedings front matter, complete book) - Three-page doctoral-consortium extended abstract summarising thesis research, not a full peer-reviewed paper (below the 4-page minimum). | A: exclude/E3 | B: exclude/E3 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Bi, F.
+AU  - Cao, D.
+AU  - Wang, Z.
+AU  - Chen, Y.
+AU  - Zhao, F.
+AU  - Hu, T.
+AU  - Li, Z.
+AU  - Zhang, Y.
+AU  - Wang, W.
+TI  - RBDQ: A Reliable LLM-based Text-to-SQL System for Business Data Queries
+PY  - 2025
+T2  - WWW Companion 2025 - Companion Proceedings of the ACM Web Conference 2025
+SP  - 95
+EP  - 103
+DO  - 10.1145/3701716.3715257
+UR  - https://www.scopus.com/pages/publications/105009212650?origin=resultslist
+AD  - School of Data Science and Engineering, East China Normal University, Shanghai, China
+AD  - ByteDance Inc Shanghai, China
+AD  - Shanghai Key Lab of Intelligent Information Processing, School of Computer Science, Fudan University, Shanghai, China
+KW  - Business Data Queries
+KW  - Large Language Models
+KW  - Retrieval-Augmented Generation
+KW  - Text-to-SQL
+KW  - Information retrieval
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Search engines
+KW  - Structured Query Language
+KW  - Business data
+KW  - Business data query
+KW  - Data access
+KW  - Data query
+KW  - Language model
+KW  - Large language model
+KW  - Model-based OPC
+KW  - Natural languages
+KW  - Retrieval-augmented generation
+KW  - Text-to-SQL
+KW  - Quality assurance
+PB  - Association for Computing Machinery, Inc
+SN  - 979-840071331-6 (ISBN)
+LA  - English
+J2  - WWW Companion - Companion Proc. ACM Web Conf.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105009212650
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 3
+N1  - Correspondence Address: Y. Zhang; School of Data Science and Engineering, East China Normal University, Shanghai, China; email: ybzhang@dase.ecnu.edu.cn; W. Wang; School of Data Science and Engineering, East China Normal University, Shanghai, China; email: wwang@dase.ecnu.edu.cn
+LB  - FT-Exclude-E6
+ID  - R00161
+N1  - sr-screener FT [R00161]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn business query system; contributions are Hierarchical Metrics Query, architecture and dataset. Self-reflection is only a supporting module. | A: exclude/E6 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Graph Reasoning Enhanced Language Models for Text-to-SQL
+AU  - Zheng Gong
+AU  - Ying Qiu Sun
+PY  - 2024
+T2  - International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)
+DO  - 10.1145/3626772.3657961
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3626772.3657961
+LB  - FT-Exclude-E6
+ID  - R00163
+N1  - sr-screener FT [R00163]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Spider model; graph structure-encoding architecture, not schema linking, join inference or self-correction as the stated contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Saltan, Ü.E.
+TI  - From Data Governance to Contract-Constrained AI Systems: Architecture and Evaluation for Enterprise NL-to-SQL with AI-Ready Data Models
+PY  - 2026
+T2  - IAIT 2026 - 14th International Conference on Advances in Information Technology
+C7  - 53
+DO  - 10.1145/3816713.3819785
+UR  - https://www.scopus.com/pages/publications/105045239505?origin=resultslist
+AD  - Data & AI, Kariyer.net R&D Center, Istanbul, Turkey
+KW  - AI-ready data
+KW  - business correctness
+KW  - data contracts
+KW  - data governance
+KW  - enterprise AI
+KW  - NL-to-SQL
+KW  - semantic layer
+KW  - verification
+KW  - Artificial intelligence
+KW  - Data structures
+KW  - Information systems
+KW  - Information use
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Semantic Web
+KW  - Semantics
+KW  - Syntactics
+KW  - AI systems
+KW  - AI-ready data
+KW  - Business correctness
+KW  - Data contracts
+KW  - Data governances
+KW  - Enterprise AI
+KW  - NL-to-SQL
+KW  - Semantic layer
+KW  - System evaluation
+KW  - Systems architecture
+KW  - Verification
+PB  - Association for Computing Machinery, Inc
+SN  - 979-840072436-7 (ISBN)
+LA  - English
+J2  - IAIT - Int. Conf. Adv. in Inf. Technol.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105045239505
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: Ü.E. Saltan; Data & AI, Kariyer.net R&D Center, Istanbul, Turkey; email: erdemsaltan@gmail.com
+LB  - FT-Exclude-E8
+ID  - R00179
+N1  - sr-screener FT [R00179]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn; evaluated only on 3000 proprietary enterprise queries, no public benchmark such as Spider or BIRD | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Li, Y.
+AU  - Jobson, D.
+TI  - LLMs as an Interactive Database Interface for Designing Large Queries
+PY  - 2024
+T2  - HILDA 2024 - Workshop on Human-In-the-Loop Data Analytics Co-located with SIGMOD 2024
+DO  - 10.1145/3665939.3665969
+UR  - https://www.scopus.com/pages/publications/105001289412?origin=resultslist
+AD  - Mercari Inc., Tokyo, Japan
+KW  - human-in-the-loop
+KW  - large language models
+KW  - LLM
+KW  - Text2SQL
+KW  - Query languages
+KW  - Search engines
+KW  - Database interfaces
+KW  - Human-in-the-loop
+KW  - Interactive database
+KW  - Language model
+KW  - Large language model
+KW  - LLM
+KW  - Natural language queries
+KW  - One-shot process
+KW  - SQL query
+KW  - Text2sql
+KW  - Query processing
+PB  - Association for Computing Machinery, Inc
+SN  - 979-840070693-6 (ISBN)
+LA  - English
+J2  - HILDA - Workshop Hum.-In-the-Loop Data Anal. Co-located SIGMOD
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105001289412
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 4
+N1  - Correspondence Address: Y. Li; Mercari Inc., Tokyo, Japan; email: y-li@mercari.com
+LB  - FT-Exclude-E7
+ID  - R00209
+N1  - sr-screener FT [R00209]: EXCLUDE (E7 No quantitative empirical evaluation (full text only)) - Multi-turn human-in-the-loop system, but evaluated on one example query. Only baselines get counts; the proposed system is described qualitatively. | A: exclude/E7 | B: exclude/E7 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Mi, X.
+AU  - Zhang, W.
+AU  - Zhang, X.
+AU  - Huang, S.
+TI  - An Intelligent Data Analysis Method and System Fusing Chat BI and Headless BI
+PY  - 2026
+T2  - Proceedings of 2026 3rd International Conference on Digital Society and Artificial Intelligence, DSAI 2026
+SP  - 647
+EP  - 651
+DO  - 10.1145/3833541.3833649
+UR  - https://www.scopus.com/pages/publications/105051653832?origin=resultslist
+AD  - Nanjing NARI Information and Communication Technology Co. Ltd., Nanjing, China
+KW  - Chat BI
+KW  - Headless BI
+KW  - intelligent data analysis
+KW  - knowledge graph
+KW  - large language model
+KW  - semantic SQL
+KW  - Computer architecture
+KW  - Data accuracy
+KW  - Data reduction
+KW  - Knowledge graph
+KW  - Query languages
+KW  - Query processing
+KW  - Search engines
+KW  - Semantic Web
+KW  - Semantics
+KW  - Chat BI
+KW  - Data analysis system
+KW  - Data analysis-methods
+KW  - Headless BI
+KW  - Intelligent data analysis
+KW  - Knowledge graphs
+KW  - Language model
+KW  - Large language model
+KW  - Semantic layer
+KW  - Semantic SQL
+KW  - Human computer interaction
+KW  - Modeling languages
+PB  - Association for Computing Machinery, Inc
+SN  - 979-840072264-6 (ISBN)
+LA  - English
+J2  - Proc. Int. Conf. Digit. Soc. Artif. Intell., DSAI
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105051653832
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: S. Huang; Nanjing NARI Information and Communication Technology Co. Ltd., Nanjing, China; email: huangshanshan@sgepri.sgcc.com.cn
+LB  - FT-Exclude-E8
+ID  - R00211
+N1  - sr-screener FT [R00211]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn system with join-path knowledge graph; evaluated only on proprietary enterprise datasets, no public benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Zhou, Y.
+AU  - Shi, Q.
+AU  - Luo, Z.
+AU  - Cai, X.
+AU  - Huang, Y.
+AU  - Kim, D.H.
+AU  - Weng, D.
+AU  - Wu, Y.
+TI  - Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring
+PY  - 2026
+T2  - Conference on Human Factors in Computing Systems - Proceedings
+C7  - 923
+DO  - 10.1145/3772318.3790974
+UR  - https://www.scopus.com/pages/publications/105038698113?origin=resultslist
+AD  - State Key Lab of CAD&CG, Zhejiang University, Zhejiang, Hangzhou, China
+AD  - Department of Digital Intelligence, China Mobile, Guangdong, Shenzhen, China
+AD  - HKUST, S.A.R., Hong Kong, Hong Kong
+AD  - Department of Computer Science and Engineering, Yonsei University, Seoul, South Korea
+AD  - Graduate School of Artificial Intelligence, POSTECH, Pohang, South Korea
+AD  - School of Software Technology, Zhejiang University, Zhejiang, Ningbo, China
+KW  - Interactive SQL authoring
+KW  - LLM-driven code assistance
+KW  - Human engineering
+KW  - Query languages
+KW  - Query processing
+KW  - Code review
+KW  - Implicit knowledge
+KW  - Interactive SQL authoring
+KW  - Iterative refinement
+KW  - LLM-driven code assistance
+KW  - Source codes
+KW  - SQL query
+KW  - Tree views
+KW  - User study
+KW  - Codes (symbols)
+A2  - Oliver N.
+A2  - Shamma D.A.
+A2  - Candello H.
+A2  - Cesar P.
+A2  - Lopes P.
+A2  - Bozzon A.
+A2  - Kosch T.
+A2  - Liao V.
+A2  - Ma X.
+A2  - Artizzu V.
+A2  - Draxler F.
+A2  - Lopez G.
+A2  - Reinschluessel A.V.
+A2  - Tong X.
+A2  - Toups Dugas P.O.
+PB  - Association for Computing Machinery
+SN  - 979-840072278-3 (ISBN)
+LA  - English
+J2  - Conf Hum Fact Comput Syst Proc
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105038698113
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: D. Weng; School of Software Technology, Zhejiang University, Ningbo, Zhejiang, China; email: dweng@zju.edu.cn
+LB  - FT-Exclude-E6
+ID  - R00212
+N1  - sr-screener FT [R00212]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn tool using historical scripts as examples; contribution is implicit-knowledge alignment and user review, not schema linking or self-correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Zhang, X.
+AU  - Mi, X.
+AU  - Zhang, W.
+AU  - Qin, B.
+AU  - Huang, S.
+TI  - A Natural Language Full-Scenario Multimodal Conversion Method and System for Enterprise-Level Analysis
+PY  - 2026
+T2  - Proceedings of 2026 3rd International Conference on Digital Society and Artificial Intelligence, DSAI 2026
+SP  - 652
+EP  - 656
+DO  - 10.1145/3833541.3833650
+UR  - https://www.scopus.com/pages/publications/105051597112?origin=resultslist
+AD  - Nanjing NARI Information and Communication Technology Co. Ltd., Nanjing, China
+KW  - Context Modeling
+KW  - Cross-System Collaboration
+KW  - Enterprise-Level Data Analysis
+KW  - Multimodal Conversion
+KW  - Natural Language Processing
+KW  - Semantic Vectorization
+KW  - Data reduction
+KW  - Interactive computer systems
+KW  - Modeling languages
+KW  - Natural language processing systems
+KW  - Semantics
+KW  - Syntactics
+KW  - Terminology
+KW  - Context models
+KW  - Cross systems
+KW  - Cross-system collaboration
+KW  - Enterprise-level data analyze
+KW  - Language processing
+KW  - Multi-modal
+KW  - Multimodal conversion
+KW  - Natural language processing
+KW  - Natural languages
+KW  - Semantic vectorization
+KW  - Vectorization
+KW  - Scalability
+PB  - Association for Computing Machinery, Inc
+SN  - 979-840072264-6 (ISBN)
+LA  - English
+J2  - Proc. Int. Conf. Digit. Soc. Artif. Intell., DSAI
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105051597112
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: S. Huang; Nanjing NARI Information and Communication Technology Co. Ltd., Nanjing, China; email: huangshanshan@sgepri.sgcc.com.cn
+LB  - FT-Exclude-E5
+ID  - R00231
+N1  - sr-screener FT [R00231]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - aceptado por la revisora (2026-10-12) | A: exclude/E5 | B: include/INC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Singh, S.
+AU  - Gupta, Y.
+AU  - Chowdhury, S.R.
+TI  - MEQA - A Multi-modal Interactive Enterprise Query Answering System using Multi-Agent LLM
+PY  - 2025
+T2  - CODS-COMAD 2024 - Proceedings of the 8th Jpint International Conference on Data Science and Management of Data
+SP  - 422
+EP  - 426
+DO  - 10.1145/3703323.3704277
+UR  - https://www.scopus.com/pages/publications/105012245476?origin=resultslist
+AD  - Data Science, Asper AI Technologies PVT Limited, Karnataka, Bengaluru, India
+AD  - Data Science, Asper AI INC, San Francisco, CA, United States
+KW  - Enterprise Q&A
+KW  - Information retrieval
+KW  - LangGraph
+KW  - LLM
+KW  - Multi-Agent System
+KW  - Multi-Modal Gen-AI
+KW  - RISE
+KW  - STaR
+KW  - Computation theory
+KW  - Computational methods
+KW  - Human engineering
+KW  - Information systems
+KW  - Information use
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Search engines
+KW  - Structured Query Language
+KW  - Enterprise Q&A
+KW  - Langgraph
+KW  - LLM
+KW  - Multi agent
+KW  - Multi-modal
+KW  - Multi-modal gen-AI
+KW  - Multiagent systems (MASs)
+KW  - Reasoners
+KW  - RISE
+KW  - Self-teach reasoner
+KW  - Information retrieval
+PB  - Association for Computing Machinery, Inc
+SN  - 979-840071124-4 (ISBN)
+LA  - English
+J2  - CODS-COMAD - Proc. Jt. Int. Conf. Data Sci. Manag. Data
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105012245476
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: S. Singh; Data Science, Asper AI Technologies PVT Limited, Bengaluru, Karnataka, India; email: sonal.singh@asper.ai
+LB  - FT-Exclude-E6
+ID  - R00243
+N1  - sr-screener FT [R00243]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn multi-agent enterprise QA architecture; RISE self-correction is only one module, not the central contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Ning, Z.
+AU  - Tian, Y.
+AU  - Zhang, Z.
+AU  - Zhang, T.
+AU  - Jia-Jun Li, T.
+TI  - Insights into Natural Language Database Query Errors: from Attention Misalignment to User Handling Strategies
+PY  - 2024
+T2  - ACM Transactions on Interactive Intelligent Systems
+VL  - 14
+IS  - 4
+C7  - ART25
+DO  - 10.1145/3650114
+UR  - https://www.scopus.com/pages/publications/85203819366?origin=resultslist
+AD  - University of Notre Dame, Notre Dame, United States
+AD  - Purdue University, West Lafayette, United States
+KW  - database systems
+KW  - Empirical study
+KW  - error handling
+KW  - human-computer interaction
+KW  - Human computer interaction
+KW  - Modeling languages
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Systematic errors
+KW  - Computer interaction
+KW  - Database queries
+KW  - Empirical studies
+KW  - Error handling
+KW  - Language processing
+KW  - Machine-learning
+KW  - Natural language database
+KW  - Natural languages
+KW  - Structured database
+KW  - User handling
+KW  - Structured Query Language
+PB  - Association for Computing Machinery
+SN  - 21606455 (ISSN)
+LA  - English
+J2  - ACM Trans. Interact. Intelligent Syst.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-85203819366
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 12
+N1  - Correspondence Address: Z. Ning; University of Notre Dame, Notre Dame, United States; email: zning@nd.edu
+LB  - FT-Exclude-E6
+ID  - R00250
+N1  - sr-screener FT [R00250]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Spider error taxonomy, attention analysis and user study; no schema-linking or self-correction technique contributed. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Ning, Z.
+AU  - Zhang, Z.
+AU  - Sun, T.
+AU  - Tian, Y.
+AU  - Zhang, T.
+AU  - Li, T.J.-J.
+TI  - An Empirical Study of Model Errors and User Error Discovery and Repair Strategies in Natural Language Database Queries
+PY  - 2023
+T2  - International Conference on Intelligent User Interfaces, Proceedings IUI
+SP  - 633
+EP  - 649
+DO  - 10.1145/3581641.3584067
+UR  - https://www.scopus.com/pages/publications/85152141469?origin=resultslist
+AD  - Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, United States
+AD  - Committee on Computational and Applied Mathematics, University of Chicago, Chicago, IL, United States
+AD  - Computer Science, Purdue University, West Lafayette, IN, United States
+KW  - database systems
+KW  - Empirical study
+KW  - human-computer interaction
+KW  - Errors
+KW  - Human engineering
+KW  - Learning algorithms
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Repair
+KW  - Database queries
+KW  - Empirical studies
+KW  - Language processing
+KW  - Learning languages
+KW  - Machine-learning
+KW  - Model errors
+KW  - Natural language database
+KW  - Natural language interfaces
+KW  - Natural languages
+KW  - Repair strategy
+KW  - Human computer interaction
+PB  - Association for Computing Machinery
+SN  - 979-840070106-1 (ISBN)
+LA  - English
+J2  - Int Conf Intell User Interfaces Proc IUI
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85152141469
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 23
+LB  - FT-Exclude-E6
+ID  - R00251
+N1  - sr-screener FT [R00251]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Spider models; contribution is error taxonomy and user-study of manual repair, not schema linking or system self-correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Sun, L.
+AU  - Han, W.
+AU  - An, Y.
+AU  - Li, Z.
+AU  - Yang, R.
+AU  - Yang, Z.
+TI  - Research on Key Technologies of Customer Service Oriented Knowledge Q&A Robot
+PY  - 2021
+T2  - ACM International Conference Proceeding Series
+C7  - 3470416
+DO  - 10.1145/3469213.3470416
+UR  - https://www.scopus.com/pages/publications/85113485775?origin=resultslist
+AD  - Customer Service Center of State Grid Co., Ltd., Tianjin, 300309, China
+KW  - Key Technologies
+KW  - Knowledge
+KW  - Q&A Robot
+KW  - Electric industry
+KW  - Industrial robots
+KW  - Information systems
+KW  - Information use
+KW  - Intelligent systems
+KW  - Knowledge representation
+KW  - Sales
+KW  - Business systems
+KW  - Customer services
+KW  - Electric power
+KW  - Electric power industries
+KW  - Key technologies
+KW  - Knowledge map
+KW  - Operation and maintenance
+KW  - Service industry
+PB  - Association for Computing Machinery
+SN  - 978-145039020-0 (ISBN)
+LA  - English
+J2  - ACM Int. Conf. Proc. Ser.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85113485775
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+LB  - FT-Exclude-E6
+ID  - R00254
+N1  - sr-screener FT [R00254]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn application system description; no schema linking or self-correction contribution, and no evaluation. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing
+PY  - 2020
+DO  - 10.48550/arXiv.2009.13845
+T2  - arXiv
+AU  - Tao Yu
+AU  - Chien-Sheng Wu
+AU  - Xi Victoria Lin
+AU  - Bailin Wang
+AU  - Yi Chern Tan
+AU  - Xinyi Yang
+AU  - Dragomir Radev
+AU  - Richard Socher
+AU  - Caiming Xiong
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00276
+N1  - sr-screener FT [R00276]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn pre-training method with synthetic data; schema linking only an auxiliary objective, not a stated central contribution in the abstract. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Beyond Interestingness: Semantic and Context-Aware Natural Language Query Recommendations for Visual Data Analysis
+PY  - 2022
+DO  - 10.48550/arXiv.2201.04868
+T2  - arXiv
+AU  - Xingbo Wang
+AU  - Siyuan Li
+AU  - Furui Cheng
+AU  - Yong Wang
+AU  - Jiang Long
+AU  - Hong Lu
+AU  - Huamin Qu
+AU  - Ke Xu
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00285
+N1  - sr-screener FT [R00285]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Contribution is next-query recommendation. Its NL2SQL module is single-turn (Spider-dev) and has no central linking or correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - UniSAr: A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL
+PY  - 2022
+DO  - 10.48550/arXiv.2203.07781
+T2  - arXiv
+AU  - Longxu Dou
+AU  - Yan Gao
+AU  - Mingyang Pan
+AU  - Dingzirui Wang
+AU  - Wanxiang Che
+AU  - Dechen Zhan
+AU  - Jian-Guang Lou
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E9
+ID  - R00286
+N1  - sr-screener FT [R00286]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Secondary report of included study R00981 (UniSAr); same study | A: include/INC | B: include/INC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL (extended)
+PY  - 2023
+DO  - 10.48550/arXiv.2306.00739
+T2  - arXiv
+AU  - Ruoxi Sun
+AU  - Sercan Ö. Arik
+AU  - Alex Muzio
+AU  - Lesly Miculicich
+AU  - Satya Gundabathula
+AU  - Pengcheng Yin
+AU  - Hanjun Dai
+AU  - Hootan Nakhost
+AU  - Rajarishi Sinha
+AU  - Zifeng Wang
+AU  - Tomas Pfister
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E9
+ID  - R00296
+N1  - sr-screener FT [R00296]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Secondary report of included study R00935 (SQL-PaLM); same study | A: include/INC | B: include/INC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - Reboost Large Language Model-based Text-to-SQL, Text-to-Python, and Text-to-Function -- with Real Applications in Traffic Domain
+PY  - 2023
+DO  - 10.48550/arXiv.2310.18752
+T2  - arXiv
+AU  - Guanghu Sui
+AU  - Zhishuai Li
+AU  - Ziyue Li
+AU  - Sun Yang
+AU  - Jingqing Ruan
+AU  - Hangyu Mao
+AU  - Rui Zhao
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00300
+N1  - sr-screener FT [R00300]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn; experiments only on two proprietary business databases (CTraffic, CompanyZ); Spider appears only in a dataset statistics comparison. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - dIR -- Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models
+PY  - 2023
+DO  - 10.48550/arXiv.2312.13264
+T2  - arXiv
+AU  - Pablo M. Rodriguez Bertorello
+AU  - Jean Rodmond Junior Laguerre
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00301
+N1  - sr-screener FT [R00301]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn text-to-SQL over LLM-extracted columns; evaluation is per query, and no linking or correction contribution. Dialog state is only future work. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Semantic Parsing for Complex Data Retrieval: Targeting Query Plans vs. SQL for No-Code Access to Relational Databases
+PY  - 2023
+DO  - 10.48550/arXiv.2312.14798
+T2  - arXiv
+AU  - Ben Eyal
+AU  - Amir Bachar
+AU  - Ophir Haroche
+AU  - Michael Elhadad
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00302
+N1  - sr-screener FT [R00302]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Spider parsing into a new query-plan language (QPL) with question decomposition; no linking or correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Alparslan, A.
+TI  - The Role of Accuracy and Validation Effectiveness in Conversational Business Analytics
+PY  - 2025
+T2  - IEEE Access
+VL  - 13
+SP  - 29279
+EP  - 29291
+DO  - 10.1109/ACCESS.2025.3540975
+UR  - https://www.scopus.com/pages/publications/85217904464?origin=resultslist
+AD  - FOM University of Applied Sciences for Economics and Management, Department of Business Analytics, Essen, 45127, Germany
+KW  - accuracy
+KW  - business intelligence
+KW  - Conversational business analytics
+KW  - expected utility theory
+KW  - fine-tuning
+KW  - large language models
+KW  - retrieval augmented generation
+KW  - self-service analytics
+KW  - Text-to-SQL
+KW  - validation effectiveness
+KW  - Accuracy
+KW  - Business analytics
+KW  - Conversational business analytic
+KW  - End-users
+KW  - Human expert
+KW  - Language model
+KW  - Large language model
+KW  - Technical competencies
+KW  - Validation effectiveness
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 21693536 (ISSN)
+LA  - English
+J2  - IEEE Access
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-85217904464
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 3
+N1  - Correspondence Address: A. Alparslan; FOM University of Applied Sciences for Economics and Management, Department of Business Analytics, Essen, 45127, Germany; email: adem.alparslan@fom.de
+LB  - FT-Exclude-E7
+ID  - R00326
+N1  - sr-screener FT [R00326]: EXCLUDE (E7 No quantitative empirical evaluation (full text only)) - Purely theoretical expected-utility model; no empirical or quantitative evaluation of any Text-to-SQL system on any dataset. | A: exclude/E7 | B: exclude/E7 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Text-to-SQL Calibration: No Need to Ask -- Just Rescale Model Probabilities
+PY  - 2024
+DO  - 10.48550/arXiv.2411.16742
+T2  - arXiv
+AU  - Ashwin Ramachandran
+AU  - Sunita Sarawagi
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00328
+N1  - sr-screener FT [R00328]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn Text-to-SQL confidence calibration study; no schema linking, join inference, or execution-feedback/self-correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Text-to-SQL based on Large Language Models and Database Keyword Search
+PY  - 2025
+DO  - 10.48550/arXiv.2501.13594
+T2  - arXiv
+AU  - Eduardo R. Nascimento
+AU  - Caio Viktor S. Avila
+AU  - Yenier T. Izquierdo
+AU  - Grettel M. García
+AU  - Lucas Feijó L. Andrade
+AU  - Michelle S. P. Facina
+AU  - Melissa Lemos
+AU  - Marco A. Casanova
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00333
+N1  - sr-screener FT [R00333]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn study; evaluated only on a proprietary industrial database (100 questions), Spider and BIRD explicitly not used. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - ExCoT: Optimizing Reasoning for Text-to-SQL with Execution Feedback
+PY  - 2025
+DO  - 10.48550/arXiv.2503.19988
+T2  - arXiv
+AU  - Bohan Zhai
+AU  - Canwen Xu
+AU  - Yuxiong He
+AU  - Zhewei Yao
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E9
+ID  - R00341
+N1  - sr-screener FT [R00341]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Secondary report of included study R00045 (ExCoT); same study | A: include/INC | B: include/INC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Maamari, K.
+AU  - Landy, C.
+AU  - Mhedhbi, A.
+TI  - GenEdit: Compounding Operators and Continuous Improvement to Tackle Text-to-SQL in the Enterprise
+PY  - 2025
+T2  - CIDR 2025 - Proceedings of Conference on Innovative Data Systems Research
+UR  - https://www.scopus.com/pages/publications/105034461655?origin=resultslist
+AD  - Distyl AI, United States
+AD  - Polytechnique Montreal, Canada
+KW  - Feedback
+KW  - Knowledge based systems
+KW  - Knowledge management
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Company-specific knowledge
+KW  - Complex queries
+KW  - Continuous improvements
+KW  - Data access
+KW  - Generation systems
+KW  - Knowledge set
+KW  - Language model
+KW  - Specific knowledge
+KW  - SQL query
+KW  - User feedback
+KW  - Semantics
+PB  - Conference on Innovative Data Systems Research (CIDR)
+LA  - English
+J2  - CIDR - Proc. Conf. Innov. Data Syst. Res.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105034461655
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+LB  - FT-Exclude-E6
+ID  - R00342
+N1  - sr-screener FT [R00342]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn system; schema linking and self-correction are minor modules, contributions are compounding operators, CoT planning, decomposed examples and user-feedback knowledge edits. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Reasoning-SQL: Reinforcement Learning with SQL Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL
+PY  - 2025
+DO  - 10.48550/arXiv.2503.23157
+T2  - arXiv
+AU  - Mohammadreza Pourreza
+AU  - Shayan Talaei
+AU  - Ruoxi Sun
+AU  - Xingchen Wan
+AU  - Hailong Li
+AU  - Azalia Mirhoseini
+AU  - Amin Saberi
+AU  - Sercan "O. Arik"
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00344
+N1  - sr-screener FT [R00344]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn RL training framework for reasoning; schema-linking is only one partial reward, not the central contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Productivity in Database Management Through AI: A Three-Phase Approach for Database
+PY  - 2025
+DO  - 10.48550/arXiv.2504.09288
+T2  - arXiv
+AU  - Kushagra Parashar
+AU  - Ajay Dev
+AU  - Aditya Kumar
+AU  - Darpan Khatri
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00348
+N1  - sr-screener FT [R00348]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn general PostgreSQL NL2SQL pipeline; schema linking is only one module, not a stated central contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Interactive Text-to-SQL via Expected Information Gain for Disambiguation
+PY  - 2025
+DO  - 10.48550/arXiv.2507.06467
+T2  - arXiv
+AU  - Luyu Qiu
+AU  - Jianing Li
+AU  - Chi Su
+AU  - Lei Chen
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00359
+N1  - sr-screener FT [R00359]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn clarification of one standalone question via expected information gain; no schema linking or execution-feedback/self-correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - THOR: Transformer Heuristics for On-Demand Retrieval
+PY  - 2025
+DO  - 10.48550/arXiv.2507.09592
+T2  - arXiv
+AU  - Isaac Shi
+AU  - Zeyuan Li
+AU  - Fan Liu
+AU  - Wenli Wang
+AU  - Lewei He
+AU  - Yang Yang
+AU  - Tianyu Shi
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00360
+N1  - sr-screener FT [R00360]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn system; evaluated only on seven custom business queries (smoke tests) against anonymised baseline agents, no public benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Text-to-SQL for Enterprise Data Analytics
+PY  - 2025
+DO  - 10.48550/arXiv.2507.14372
+T2  - arXiv
+AU  - Albert Chen
+AU  - Manas Bundele
+AU  - Gaurav Ahlawat
+AU  - Patrick Stetz
+AU  - Zhitao Wang
+AU  - Qiang Fei
+AU  - Donghoon Jung
+AU  - Audrey Chu
+AU  - Bharadwaj Jayaraman
+AU  - Ayushi Panth
+AU  - Yatin Arora
+AU  - Sourav Jain
+AU  - Renjith Varma
+AU  - Alexey Ilin
+AU  - Iuliia Melnychuk
+AU  - Chelsea Chueh
+AU  - Joyan Sil
+AU  - Xiaofeng Wang
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00361
+N1  - sr-screener FT [R00361]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Evaluation is single-question on an internal 133-question benchmark only; follow-up chats are not evaluated and no public benchmark is used. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Agentic NL2SQL to Reduce Computational Costs
+PY  - 2025
+DO  - 10.48550/arXiv.2510.14808
+T2  - arXiv
+AU  - Dominik Jehle
+AU  - Lennart Purucker
+AU  - Frank Hutter
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00377
+N1  - sr-screener FT [R00377]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn; evaluated only on authors' own 100-task benchmark, not on Spider, BIRD or another public Text-to-SQL benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - ORANGE: An Online Reflection ANd GEneration framework with Domain Knowledge for Text-to-SQL
+PY  - 2025
+DO  - 10.48550/arXiv.2511.00985
+T2  - arXiv
+AU  - Yiwen Jiao
+AU  - Tonghui Ren
+AU  - Yuche Gao
+AU  - Zhenying He
+AU  - Yinan Jing
+AU  - Kai Zhang
+AU  - X. Sean Wang
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00384
+N1  - sr-screener FT [R00384]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn; contribution is log-derived domain-knowledge base for in-context learning, not schema linking or self-correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - CSR-RAG: An Efficient Retrieval System for Text-to-SQL on the Enterprise Scale
+PY  - 2026
+DO  - 10.48550/arXiv.2601.06564
+T2  - arXiv
+AU  - Rajpreet Singh
+AU  - Novak Boškov
+AU  - Lawrence Drabeck
+AU  - Aditya Gudal
+AU  - Manzoor A. Khan
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00401
+N1  - sr-screener FT [R00401]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E8 | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - SpectraQuery: A Hybrid Retrieval-Augmented Conversational Assistant for Battery Science
+PY  - 2026
+DO  - 10.48550/arXiv.2601.09036
+T2  - arXiv
+AU  - Sreya Vangara
+AU  - Jagjit Nanda
+AU  - Yan-Kai Tzeng
+AU  - Eric Darve
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00404
+N1  - sr-screener FT [R00404]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-question hybrid SQL plus literature RAG assistant; no multi-turn context handling, and no central schema-linking or self-correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Tursio Database Search: How far are we from ChatGPT?
+PY  - 2026
+DO  - 10.48550/arXiv.2603.18835
+T2  - arXiv
+AU  - Sulbha Jain
+AU  - Shivani Tripathi
+AU  - Shi Qiao
+AU  - Alekh Jindal
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00416
+N1  - sr-screener FT [R00416]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn end-to-end answer-quality evaluation framework; schema linking and self-correction are not a stated contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Soni, C.
+AU  - Chourasia, S.
+AU  - Kumar, G.
+AU  - Kapoor, H.
+TI  - Schema on the Inside: A Two-Phase Fine-Tuning Method for High-Efficiency Text-to-SQL at Scale
+PY  - 2026
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+VL  - 40
+IS  - 47
+SP  - 40110
+EP  - 40117
+DO  - 10.1609/aaai.v40i47.41446
+UR  - https://www.scopus.com/pages/publications/105034261248?origin=resultslist
+AD  - Sporta Technologies Private Limited, Maharashtra, Mumbai, India
+KW  - Artificial intelligence
+KW  - Chatbots
+KW  - Computational linguistics
+KW  - Latent semantic analysis
+KW  - Query processing
+KW  - Sports
+KW  - Tuning
+KW  - Database schemas
+KW  - Fine tuning
+KW  - Fine-tuning methods
+KW  - Higher efficiency
+KW  - Language model
+KW  - Parameter model
+KW  - Scalable production
+KW  - Semantic accuracy
+KW  - Two phase
+KW  - User query
+KW  - Semantics
+A2  - Koenig S.
+A2  - Jenkins C.
+A2  - Taylor M.E.
+PB  - Association for the Advancement of Artificial Intelligence
+SN  - 21595399 (ISSN)
+LA  - English
+J2  - Proc. AAAI Conf. Artif. Intell.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105034261248
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+LB  - FT-Exclude-E6
+ID  - R00418
+N1  - sr-screener FT [R00418]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn fine-tuning recipe for schema internalization; no multi-turn context, and linking/self-correction is not a central contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Blue Data Intelligence Layer: Streaming Data and Agents for Multi-source Multi-modal Data-Centric Applications
+PY  - 2026
+DO  - 10.48550/arXiv.2604.15233
+T2  - arXiv
+AU  - Moin Aminnaseri
+AU  - Farima Fatahi Bayat
+AU  - Nikita Bhutani
+AU  - Jean-Flavien Bussotti
+AU  - Kevin Chan
+AU  - Rafael Li Chen
+AU  - Yanlin Feng
+AU  - Jackson Hassell
+AU  - Estevam Hruschka
+AU  - Eser Kandogan
+AU  - Hannah Kim
+AU  - James Levine
+AU  - Seiji Maekawa
+AU  - Jalal Mahmud
+AU  - Kushan Mitra
+AU  - Naoki Otani
+AU  - Pouya Pezeshkpour
+AU  - Nima Shahbazi
+AU  - Chen Shen
+AU  - Dan Zhang
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00424
+N1  - sr-screener FT [R00424]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Demo of a multi-source data-planning architecture. Linking, correction and multi-turn NL2SQL context handling are not stated contributions, and no NL2SQL evaluation is reported. | A: exclude/E7 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Are Diffusion Language Models Good Database Analysts?
+PY  - 2026
+DO  - 10.48550/arXiv.2605.27791
+T2  - arXiv
+AU  - Peixian Ma
+AU  - Xialie Zhuang
+AU  - Jiantao Tan
+AU  - Changlun Li
+AU  - Ruirui Chen
+AU  - Chengwei Qin
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00436
+N1  - sr-screener FT [R00436]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn DLM evaluation framework; retrieval and verifier modules are components, not the central contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Schema-Aware Localisation (SAL): Live Schema Grounding and Hallucination Validation for Oracle NL2SQL
+PY  - 2026
+DO  - 10.48550/arXiv.2607.22572
+T2  - arXiv
+AU  - Sanjay Mishra
+AU  - Divya Chukkapalli
+AU  - Ganesh R. Naik
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00442
+N1  - sr-screener FT [R00442]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - Conversational Query Engine for Mixed-Modality Heterogeneous Enterprise Data Sources
+PY  - 2026
+DO  - 10.48550/arXiv.2606.28370
+T2  - arXiv
+AU  - Darshita Rathore
+AU  - Vineet Kumar
+AU  - Vaibhav Singal
+AU  - Ankur Vivek Singh
+AU  - Anindya Moitra
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00455
+N1  - sr-screener FT [R00455]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Self-correcting NL2SQL is a contribution, but multi-turn is only system context. Evaluation uses internal enterprise benchmarks, with no public benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - DRL: A Deterministic Relational Middleware Layer for Transaction-Safe Enterprise NL2SQL Under Schema-Graph Scaling
+PY  - 2026
+DO  - 10.48550/arXiv.2608.26172
+T2  - arXiv
+AU  - Sanjay Mishra
+AU  - Divya Chukkapalli
+AU  - Ganesh R. Naik
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00469
+N1  - sr-screener FT [R00469]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn; evaluated only on authors' own 1,000-pair enterprise suite, not Spider, BIRD or another established public benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - ABISS: Evaluating Text-to-SQL Systems Through Agent Interaction
+PY  - 2026
+DO  - 10.48550/arXiv.2607.23340
+T2  - arXiv
+AU  - Giovanni Sullutrone
+AU  - Luca Sala
+AU  - Sania Aftar
+AU  - Georgia Koutrika
+AU  - Sonia Bergamaschi
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00470
+N1  - sr-screener FT [R00470]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Each dialogue clarifies one standalone question; contribution is ambiguity/unanswerability taxonomy and benchmark, not schema linking or self-correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - SAFAARI: Schema-Aware Framework for Accelerated Advertiser Response Intelligence
+PY  - 2026
+DO  - 10.48550/arXiv.2607.25042
+T2  - arXiv
+AU  - Bhanu Teja Rangaraju
+AU  - Chandan Kumar
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00471
+N1  - sr-screener FT [R00471]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn schema-linking study evaluated only on proprietary advertiser data; no public benchmark used. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Metadata Reconstruction from Values Alone: Recovering Column Semantics in Undocumented Warehouses
+PY  - 2026
+DO  - 10.48550/arXiv.2608.07946
+T2  - arXiv
+AU  - Mike Helwig
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00477
+N1  - sr-screener FT [R00477]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn; contribution is column-metadata reconstruction and calibrated abstention, not schema linking, join inference or self-correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Polaris: Learning to Generate Table Descriptions from Retrieval Feedback
+PY  - 2026
+DO  - 10.48550/arXiv.2608.17171
+T2  - arXiv
+AU  - Ting Cai
+AU  - Tuan Minh Phan
+AU  - AnHai Doan
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E5
+ID  - R00484
+N1  - sr-screener FT [R00484]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Table-description generation for keyword table retrieval; NL2SQL only motivating context, no SQL generation or evaluation. | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - REALMS: An AI-Assistant Conversational System for Real-Time Exact Audience Sizing over High-Dimensional Nested Profiles
+PY  - 2026
+DO  - 10.48550/arXiv.2609.30547
+T2  - arXiv
+AU  - Haixu Ma
+AU  - Aditya Bansal
+AU  - Shubham Lohiya
+AU  - Sumit Ranjan
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E8
+ID  - R00498
+N1  - sr-screener FT [R00498]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn NL2SQL (schema retrieval central) evaluated only on proprietary enterprise audience data; no public benchmark used. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Conversational Task Disambiguation over Tabular Data: Leakage-Aware Formulation, Benchmark Suite, and Training
+PY  - 2026
+DO  - 10.48550/arXiv.2610.10740
+T2  - arXiv
+AU  - Nafiseh Ghoroghchian
+AU  - Luis Scoccola
+AU  - Tina Sedaghat
+AU  - Omid Vaheb
+AU  - Hannah Chen
+AU  - Dino D'Agostino
+AU  - Keyvan Golestan
+M3  - Preprint
+DB  - arXiv
+LB  - FT-Exclude-E6
+ID  - R00506
+N1  - sr-screener FT [R00506]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Clarification dialogue about one standalone request, so single-turn. Contribution is ambiguity-asking policy and leakage, not schema linking or self-correction. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Flores, N.
+AU  - Ramirez, C.
+AU  - Mauricio, D.
+TI  - Expert Multi-Agent Conversational System Using Retrieval-Augmented Generation and Dynamic Text-to-SQL for Government Transparency
+PY  - 2025
+T2  - IEEE Access
+VL  - 13
+SP  - 198178
+EP  - 198200
+DO  - 10.1109/ACCESS.2025.3635530
+UR  - https://www.scopus.com/pages/publications/105022746216?origin=resultslist
+AD  - Universidad Nacional de Ingeniería, Facultad de Ingeniería Económica, Estadística y Ciencias Sociales, Lima, 15333, Peru
+AD  - Universidad Nacional Mayor de San Marcos, Facultad de Ingeniería de Sistemas e Informática, Lima, 15081, Peru
+KW  - artificial intelligence
+KW  - data integration
+KW  - Large language models (LLM)
+KW  - multi-agent systems
+KW  - natural language processing (NLP)
+KW  - optical character recognition (OCR)
+KW  - Computational linguistics
+KW  - Computer architecture
+KW  - Government data processing
+KW  - Information retrieval
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Text processing
+KW  - Transparency
+KW  - Conversational systems
+KW  - Language model
+KW  - Language processing
+KW  - Large language model
+KW  - Multi agent
+KW  - Multiagent systems (MASs)
+KW  - Natural language processing
+KW  - Natural languages
+KW  - Optical character recognition
+KW  - Optical-
+KW  - Data integration
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 21693536 (ISSN)
+LA  - English
+J2  - IEEE Access
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105022746216
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+N1  - Correspondence Address: N. Flores; Universidad Nacional de Ingeniería, Facultad de Ingeniería Económica, Estadística y Ciencias Sociales, Lima, 15333, Peru; email: nahum.flores.g@uni.pe
+LB  - FT-Exclude-E6
+ID  - R00542
+N1  - sr-screener FT [R00542]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn government Text-to-SQL agent; schema linking and retry are minor modules, not stated contributions; no multi-turn evaluation. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Fernando, S.
+AU  - Jayarathne, I.
+AU  - Abeysekara, S.
+AU  - Sithamparanthan, S.
+AU  - Silva, T.
+AU  - Jayawardana, D.
+TI  - VizGen: Data Exploration and Visualization from Natural Language via a Multi-Agent AI Architecture
+PY  - 2025
+T2  - 9th SLAAI - International Conference on Artificial Intelligence, SLAAI-ICAI 2025
+DO  - 10.1109/SLAAI-ICAI68534.2025.11318518
+UR  - https://www.scopus.com/pages/publications/105032727296?origin=resultslist
+AD  - University of Moratuwa, Department of Computational Mathematics, Sri Lanka
+AD  - Mitra AI, Moratuwa, Sri Lanka
+KW  - AI-Assisted Analytics
+KW  - Data Visualization
+KW  - Graph Generation
+KW  - Large Language Models
+KW  - Multi-Agent Systems
+KW  - Natural Language Processing
+KW  - Text-to-SQL
+KW  - Computational linguistics
+KW  - Data visualization
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Visual analytics
+KW  - Visualization
+KW  - AI-assisted analytic
+KW  - Data exploration
+KW  - Graph generation
+KW  - Language model
+KW  - Language processing
+KW  - Large language model
+KW  - Multiagent systems (MASs)
+KW  - Natural language processing
+KW  - Natural languages
+KW  - Text-to-SQL
+KW  - Multi agent systems
+A2  - Ariyaratne M.K.A.
+A2  - Hettige B.
+A2  - Rathnayake H.U.W.
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 979-833156123-9 (ISBN)
+LA  - English
+J2  - SLAAI - Int. Conf. Artif. Intell., SLAAI-ICAI
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105032727296
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: S. Fernando; University of Moratuwa, Department of Computational Mathematics, Sri Lanka; email: fernandowsr.22@uom.lk
+LB  - FT-Exclude-E6
+ID  - R00581
+N1  - sr-screener FT [R00581]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - VizGen is a general visualization system. Schema linking and SQL validation are only modules, with no central linking or correction contribution and no context-restoration or dialogue-state work. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Vibe Coding on Trial: Operating Characteristics of Unanimous LLM Juries
+PY  - 2026
+DO  - 10.1109/ICSC67292.2026.00039
+T2  - 2026 International Conference on Semantic Computing (ICSC)
+AU  - M. A. Ullah
+AU  - A. Serwadda
+KW  - Large Language Models
+KW  - Vibe Coding
+KW  - Ollama
+KW  - Natural Language to SQL
+KW  - LLM-as-Judge
+DB  - IEEE Xplore
+LB  - FT-Exclude-E8
+ID  - R00585
+N1  - sr-screener FT [R00585]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn; evaluated only on a self-built 82-query e-commerce MySQL set, with no public benchmark. | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Shen, R.
+AU  - Sun, G.
+AU  - Shen, H.
+AU  - Li, Y.
+AU  - Jin, L.
+AU  - Jiang, H.
+TI  - SPSQL: Step-by-step Parsing Based Framework for Text-To-SQL Generation
+PY  - 2023
+T2  - Proceedings - 2023 7th International Conference on Machine Vision and Information Technology, CMVIT 2023
+SP  - 115
+EP  - 122
+DO  - 10.1109/CMVIT57620.2023.00030
+UR  - https://www.scopus.com/pages/publications/85164790387?origin=resultslist
+AD  - State Grid Zhejiang Electric, Power Co, Marketing Service Center, Ltd, Hangzhou, China
+AD  - Zhejiang University, College of Computer Science and Technology, Hangzhou, China
+KW  - dataset
+KW  - natural language processing
+KW  - pipeline
+KW  - Text2SQL
+KW  - Big data
+KW  - Classification (of information)
+KW  - Natural language processing systems
+KW  - Pipeline processing systems
+KW  - Query languages
+KW  - Text processing
+KW  - Dataset
+KW  - End to end
+KW  - Hotspots
+KW  - Language processing
+KW  - Natural language processing
+KW  - Natural languages
+KW  - Overall-model
+KW  - Structured Query Language
+KW  - Subtask
+KW  - Text2sql
+KW  - Pipelines
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 978-166546485-7 (ISBN)
+LA  - English
+J2  - Proc. - Int. Conf. Mach. Vis. Inf. Technol., CMVIT
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85164790387
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 6
+N1  - Correspondence Address: H. Jiang; Zhejiang University, College of Computer Science and Technology, Hangzhou, China; email: jianghan97@zju.edu.cn
+LB  - FT-Exclude-E8
+ID  - R00644
+N1  - sr-screener FT [R00644]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Tan, Z.
+AU  - Liu, X.
+AU  - Shu, Q.
+AU  - Wan, Q.
+AU  - Liu, D.
+AU  - Wan, C.
+TI  - LEAF-SQL: Level-Wise Exploration with Adaptive Fine-Graining for Text-to-SQL Skeleton Prediction
+PY  - 2026
+T2  - Proceedings - 2026 IEEE 42nd International Conference on Data Engineering, ICDE 2026
+SP  - 2420
+EP  - 2433
+DO  - 10.1109/ICDE65706.2026.00181
+UR  - https://www.scopus.com/pages/publications/105048927415?origin=resultslist
+AD  - School Of Computing And Artificial Intelligence, Jiangxi University Of Finance And Economics, Nanchang, China
+KW  - Large language model
+KW  - SQL skeleton
+KW  - Text-to-SQL
+KW  - Benchmarking
+KW  - Computational linguistics
+KW  - Forecasting
+KW  - Musculoskeletal system
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Structured Query Language
+KW  - Trees (mathematics)
+KW  - Complex queries
+KW  - Database access
+KW  - Executables
+KW  - Language model
+KW  - Large language model
+KW  - Natural language questions
+KW  - Performance
+KW  - SQL query
+KW  - SQL skeleton
+KW  - Text-to-SQL
+KW  - Query processing
+A2  - Daudjee K.
+A2  - Luo Q.
+A2  - Simitsis A.
+PB  - Institute of Electrical and Electronics Engineers Inc.
+SN  - 979-833158365-1 (ISBN)
+LA  - English
+J2  - Proc. - IEEE Int. Conf. Data Eng., ICDE
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105048927415
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: X. Liu; School Of Computing And Artificial Intelligence, Jiangxi University Of Finance And Economics, Nanchang, China; email: liuxiping@jxufe.edu.cn
+LB  - FT-Exclude-E6
+ID  - R00679
+N1  - sr-screener FT [R00679]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn BIRD/Spider skeleton-prediction tree search; no schema-linking or self-correction contribution, only a skeleton-pruning agent. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Y.
+AU  - He, J.
+AU  - Fu, L.
+AU  - Zhang, S.
+AU  - Jin, R.
+AU  - Dai, X.
+AU  - Li, J.
+AU  - Min, D.
+AU  - Hu, N.
+AU  - Zhang, Y.
+AU  - Qi, G.
+AU  - Huang, Y.
+AU  - Wu, T.
+TI  - PANDORA: Leveraging Code-Driven Knowledge Transfer for Unified Structured Knowledge Reasoning
+PY  - 2026
+T2  - IEEE Transactions on Knowledge and Data Engineering
+VL  - 38
+IS  - 10
+SP  - 6880
+EP  - 6896
+DO  - 10.1109/TKDE.2026.3718049
+UR  - https://www.scopus.com/pages/publications/105046334989?origin=resultslist
+AD  - School of Computer Science and Engineering, Southeast University, Nanjing, 210096, China
+AD  - Key Laboratory of New Generation Artificial Intelligence Technology and Its Interdisciplinary Applications (Southeast University), Ministry of Education, Beijing, 100816, China
+AD  - China Mobile Research, Beijing, 100033, China
+AD  - Department of Data Science & AI, Monash University, Clayton, 3800, VIC, Australia
+KW  - database interface
+KW  - knowledge graph question answering
+KW  - large language model
+KW  - Structured knowledge reasoning
+KW  - unified knowledge representation
+KW  - Application programming interfaces (API)
+KW  - Database systems
+KW  - Knowledge graph
+KW  - Knowledge management
+KW  - Knowledge transfer
+KW  - Natural language processing systems
+KW  - Question answering
+KW  - Database interfaces
+KW  - Knowledge graph question answering
+KW  - Knowledge graphs
+KW  - Knowledge reasoning
+KW  - Knowledge-representation
+KW  - Language model
+KW  - Large language model
+KW  - Question Answering
+KW  - Structured knowledge
+KW  - Structured knowledge reasoning
+KW  - Unified knowledge representation
+KW  - Codes (symbols)
+PB  - IEEE Computer Society
+SN  - 10414347 (ISSN)
+LA  - English
+J2  - IEEE Trans Knowl Data Eng
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105046334989
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: G. Qi; School of Computer Science and Engineering, Southeast University, Nanjing, 210096, China; email: gqi@seu.edu.cn
+N1  - CODEN: ITKEE
+LB  - FT-Exclude-E6
+ID  - R00708
+N1  - sr-screener FT [R00708]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: exclude/E5 | by AJE
+ER  - 
+
+TY  - JOUR
+TI  - Explaining Queries Over Web Tables to Non-experts
+PY  - 2019
+DO  - 10.1109/ICDE.2019.00144
+T2  - 2019 IEEE 35th International Conference on Data Engineering (ICDE)
+AU  - J. Berant
+AU  - D. Deutch
+AU  - A. Globerson
+AU  - T. Milo
+AU  - T. Wolfson
+KW  - NL interfaces
+KW  - semantic parsing
+KW  - provenance
+KW  - natural language processing
+KW  - NLP
+KW  - weak supervision
+KW  - annotations
+KW  - query explanations
+DB  - IEEE Xplore
+LB  - FT-Exclude-E1
+ID  - R00756
+N1  - sr-screener FT [R00756]: EXCLUDE (E1 Published before 2019) - The report was published in 2018, before the eligibility cutoff of January 2019. | A: exclude/E1 | B: exclude/E1 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, C.
+AU  - Deng, J.
+AU  - Zhang, H.
+AU  - Li, L.
+AU  - Sun, L.
+AU  - Ma, X.
+TI  - GeoIR-Compiler: A Geospatial Intermediate Representation and Compilation Framework for Chinese Urban Spatial Question Answering
+PY  - 2026
+T2  - ISPRS International Journal of Geo-Information
+VL  - 15
+IS  - 7
+C7  - 310
+DO  - 10.3390/ijgi15070310
+UR  - https://www.scopus.com/pages/publications/105045890439?origin=resultslist
+AD  - School of Geosciences and Info-Physics, Central South University, Changsha, 410083, China
+AD  - Hunan Center of Natural Resources Affairs, Changsha, 410004, China
+AD  - Observation and Research Station of Lengshuijiang Mining Ecological Environmental Monitoring, Ministry of Natural Resources, Changsha, 410004, China
+AD  - Zhaojin Mining Industry Co., Ltd., 118 Wenquan Road, Zhaoyuan, 265400, China
+AD  - Technology Innovation Center for Ecological Conservation and Restoration in Dongting Lake Basin, Ministry of Natural Resources, Changsha, 410007, China
+KW  - geospatial question answering
+KW  - intermediate representation
+KW  - large language model
+KW  - natural language interface
+KW  - PostGIS
+KW  - spatial database
+KW  - Text-to-SQL
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 22209964 (ISSN)
+LA  - English
+J2  - ISPRS Int. J. Geo-Inf.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105045890439
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: J. Deng; School of Geosciences and Info-Physics, Central South University, Changsha, 410083, China; email: csugis@csu.edu.cn
+LB  - FT-Exclude-E8
+ID  - R00819
+N1  - sr-screener FT [R00819]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Yalova, K.
+AU  - Yashyna, K.
+AU  - Salem, A.-B.M.
+TI  - Natural Language Interface to Database Approach in the Task of Relational Databases Design
+PY  - 2023
+T2  - CEUR Workshop Proceedings
+VL  - 3373
+SP  - 320
+EP  - 331
+UR  - https://www.scopus.com/pages/publications/85154030726?origin=resultslist
+AD  - Dniprovsky State Technical University, Dniprobydivska str.2, Kamianske, 51918, Ukraine
+AD  - Ain Shams University, El-Khalyfa El-Mamoun Street Abbasya, Cairo, Egypt
+KW  - Databases
+KW  - Natural Language Interface to Databases (NLIDB)
+KW  - pattern-based approach
+KW  - Structured Query Language (SQL)
+KW  - Metadata
+KW  - Natural language processing systems
+KW  - Pattern matching
+KW  - Query processing
+KW  - Data domains
+KW  - Database approaches
+KW  - Database design
+KW  - Database structures
+KW  - Natural language interface to database
+KW  - Pattern-based approach
+KW  - Relational Database
+KW  - Structured query language
+KW  - Query languages
+A2  - Hovorushchenko T.
+A2  - Savenko O.
+A2  - Popov P.T.
+A2  - Lysenko S.
+PB  - CEUR-WS
+SN  - 16130073 (ISSN)
+LA  - English
+J2  - CEUR Workshop Proc.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85154030726
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+LB  - FT-Exclude-E5
+ID  - R00822
+N1  - sr-screener FT [R00822]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Pattern-based dialogue generates CREATE/INSERT DDL for database design, not translating natural-language questions into SQL queries over existing relational databases. | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Chan, S.
+AU  - Kong, V.
+AU  - Nayyar, A.
+AU  - Kim, T.-K.
+TI  - QA-SQL: query-augmented SQL generation using few-shot prompting with data augmentation
+PY  - 2026
+T2  - PeerJ Computer Science
+VL  - 12
+C7  - e3525
+DO  - 10.7717/peerj-cs.3525
+UR  - https://www.scopus.com/pages/publications/105033763198?origin=resultslist
+AD  - Big Data Department, Chungbuk National University, Chungcheongbuk-do, Cheongju-si, South Korea
+AD  - School of Computer Science, Duy Tan University, Da Nang, Viet Nam
+AD  - Department of Management Information Systems, Chungbuk National University, Chungcheongbuk-do, Cheongju-si, South Korea
+KW  - Data augmentation
+KW  - Large language models
+KW  - Retrieval-augmented generation
+KW  - Text-to-SQL
+KW  - Benchmarking
+KW  - Computational linguistics
+KW  - Information retrieval
+KW  - Information retrieval systems
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Relational database systems
+KW  - Search engines
+KW  - Structured Query Language
+KW  - Data augmentation
+KW  - Language generation
+KW  - Language model
+KW  - Large language model
+KW  - Large-scale database
+KW  - Natural languages
+KW  - Query language model
+KW  - Retrieval-augmented generation
+KW  - Structured Query Language
+KW  - Text-to-structured query language
+KW  - Efficiency
+PB  - PeerJ Inc.
+SN  - 23765992 (ISSN)
+LA  - English
+J2  - PeerJ Comput. Sci.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105033763198
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+N1  - Correspondence Address: T.-K. Kim; Department of Management Information Systems, Chungbuk National University, Cheongju-si, Chungcheongbuk-do, South Korea; email: kimtk@chungbuk.ac.kr
+LB  - FT-Exclude-E6
+ID  - R00827
+N1  - sr-screener FT [R00827]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Bilgin, M.
+AU  - Bozdemir, M.
+TI  - A comparative evaluation of retrieval-augmented generation and retrieval-augmented fine-tuning methods for SQL query generation
+ST  - Yapılandırılmış sorgu dilinde sorgu üretimi için erişim destekli üretim ve erişim destekli uyarlama yöntemlerinin karşılaştırmalı değerlendirmesi
+PY  - 2026
+T2  - Journal of the Faculty of Engineering and Architecture of Gazi University
+VL  - 41
+IS  - 2
+SP  - 1273
+EP  - 1288
+DO  - 10.17341/gazimmfd.1796962
+UR  - https://www.scopus.com/pages/publications/105044816435?origin=resultslist
+AD  - Department of Computer Engineering, Faculty of Engineering, Bursa Uludağ University, Bursa, 16110, Turkey
+KW  - LLMs
+KW  - RAFT
+KW  - RAG
+KW  - SQL
+KW  - table selection
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Statistical tests
+KW  - Fine tuning
+KW  - Fine-tuning methods
+KW  - Language model
+KW  - Large language model
+KW  - Performance
+KW  - Query generation
+KW  - Retrieval-augmented fine-tuning
+KW  - Retrieval-augmented generation
+KW  - Table selection
+KW  - Turkishs
+KW  - Semantics
+PB  - Gazi Universitesi
+SN  - 13001884 (ISSN)
+LA  - English
+J2  - J. Fac. Eng. Archit. Gazi Uni.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105044816435
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: M. Bilgin; Department of Computer Engineering, Faculty of Engineering, Bursa Uludağ University, Bursa, 16110, Turkey; email: metinbilgin@uludag.edu.tr
+LB  - FT-Exclude-E2
+ID  - R00832
+N1  - sr-screener FT [R00832]: EXCLUDE (E2 Article written in a language other than English or Spanish) - The article body is written in Turkish; only the abstract and summary are provided in English. | A: exclude/E2 | B: exclude/E2 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Parkar, N.
+AU  - Marimuthu, M.
+AU  - Agale, A.
+AU  - Prajapati, V.
+AU  - Parekar, A.
+AU  - Bambal, A.
+AU  - Chavan, S.
+TI  - A unified RAG-based framework for intelligent exploration of Argo and BGC-Argo oceanographic data
+PY  - 2026
+T2  - Ecological Informatics
+VL  - 98
+C7  - 103990
+DO  - 10.1016/j.ecoinf.2026.103990
+UR  - https://www.scopus.com/pages/publications/105047831792?origin=resultslist
+AD  - School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Tamil Nadu, Chennai, 600127, India
+KW  - Argo floats
+KW  - Biogeochemical-Argo (BGC-Argo)
+KW  - Knowledge graph
+KW  - Model context protocol
+KW  - Retrieval-augmented generation (RAG)
+KW  - Semantic search
+KW  - Vector database
+KW  - Indian Ocean
+KW  - Argo
+KW  - artificial intelligence
+KW  - biogeochemistry
+KW  - database
+KW  - language
+KW  - oceanography
+KW  - visualization
+PB  - Elsevier B.V.
+SN  - 15749541 (ISSN)
+LA  - English
+J2  - Ecol. Informatics
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105047831792
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: M. Marimuthu; School of Computer Science and Engineering, Vellore Institute of Technology, Chennai, Chennai Campus, Tamil Nadu, 600127, India; email: marimuthu.m@vit.ac.in
+LB  - FT-Exclude-E6
+ID  - R00840
+N1  - sr-screener FT [R00840]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Domain RAG chatbot; evaluated on single-turn queries; follow-up memory mentioned only in passing; no linking or self-correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Lemos, M.
+AU  - Izquierdo, Y.T.
+AU  - García, G.M.
+AU  - Nascimento, E.R.S.
+AU  - Silva, M.O.
+AU  - Furtado, P.H.T.
+AU  - Facina, M.S.P.
+AU  - Casanova, M.A.
+TI  - The Quest for an LLM-Based Natural Language Interface for an Industrial Database
+PY  - 2025
+T2  - Frontiers in Artificial Intelligence and Applications
+VL  - 413
+SP  - 5232
+EP  - 5239
+DO  - 10.3233/FAIA251458
+UR  - https://www.scopus.com/pages/publications/105024479689?origin=resultslist
+AD  - Tecgraf Institute, PUC-Rio, RJ, Rio de Janeiro, Brazil
+AD  - Department of Informatics, PUC-Rio, RJ, Rio de Janeiro, Brazil
+AD  - Petrobras, RJ, Rio de Janeiro, Brazil
+KW  - Natural language processing systems
+KW  - Search engines
+KW  - Translation (languages)
+KW  - Energy companies
+KW  - Ground truth
+KW  - Industrial database
+KW  - Language model
+KW  - Model-based OPC
+KW  - Natural language interfaces
+KW  - Natural language questions
+KW  - Paper analysis
+KW  - Performance
+KW  - Relational schemas
+KW  - Database systems
+A2  - Lynce I.
+A2  - Murano N.
+A2  - Vallati M.
+A2  - Villata S.
+A2  - Chesani F.
+A2  - Milano M.
+A2  - Omicini A.
+A2  - Dastani M.
+PB  - IOS Press BV
+SN  - 09226389 (ISSN); 978-164368631-8 (ISBN)
+LA  - English
+J2  - Front. Artif. Intell. Appl.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105024479689
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: M.A. Casanova; Tecgraf Institute, PUC-Rio, Rio de Janeiro, RJ, Brazil; email: casanova@inf.puc-rio.br
+LB  - FT-Exclude-E8
+ID  - R00842
+N1  - sr-screener FT [R00842]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: exclude/E8 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Z.
+AU  - Zhu, M.X.
+AU  - Li, G.
+AU  - Kong, S.
+TI  - Retrieval-augmented Chinese text-to-SQL generation for conversational bibliographic search
+PY  - 2025
+T2  - PLOS ONE
+VL  - 20
+IS  - 10 October
+C7  - e0334965
+DO  - 10.1371/journal.pone.0334965
+UR  - https://www.scopus.com/pages/publications/105019931610?origin=resultslist
+AD  - School of Information Management, Nanjing University, Jiangsu, Nanjing, China
+KW  - China
+KW  - Chinese people
+KW  - Databases, Bibliographic
+KW  - East Asian People
+KW  - Humans
+KW  - Information Storage and Retrieval
+KW  - Language
+KW  - Semantics
+KW  - article
+KW  - diagnosis
+KW  - electric potential
+KW  - human
+KW  - information retrieval
+KW  - large language model
+KW  - open access publishing
+KW  - retrieval augmented generation
+KW  - zero shot prompting
+KW  - bibliographic database
+KW  - China
+KW  - East Asian
+KW  - language
+KW  - procedures
+KW  - semantics
+PB  - Public Library of Science
+SN  - 19326203 (ISSN)
+C2  - 41144528
+LA  - English
+J2  - Plos One.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105019931610
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: M.X. Zhu; School of Information Management, Nanjing University, Nanjing, Jiangsu, China; email: xfzhu@nju.edu.cn
+N1  - CODEN: POLNC
+LB  - FT-Exclude-E6
+ID  - R00843
+N1  - sr-screener FT [R00843]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn question-to-SQL; contributions are dataset, example retrieval and PoT prompting; self-correction is only an ablation module | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Truong, D.
+AU  - Nguyen, H.
+AU  - Tran, N.P.
+AU  - Vu, S.
+AU  - Nguyen, H.D.
+TI  - Intelligent Problem Solver in Database Systems based on Ontology Integration through Text-to-SQL
+PY  - 2024
+T2  - Fusion: Practice and Applications
+VL  - 15
+IS  - 2
+SP  - 121
+EP  - 131
+DO  - 10.54216/FPA.150211
+UR  - https://www.scopus.com/pages/publications/85194157600?origin=resultslist
+AD  - Faculty of Information System, University of Information Technology, Ho Chi Minh city, Viet Nam
+AD  - Vietnam National University, Ho Chi Minh city, Viet Nam
+AD  - Faculty of Information Technology, Ho Chi Minh University of Education, Ho Chi Minh City, Viet Nam
+AD  - University of Transport and Communications, Campus in Ho Chi Minh City, Viet Nam
+AD  - Faculty of Computer Science, University of Information Technology, Ho Chi Minh city, Viet Nam
+KW  - E-learning
+KW  - Ontology
+KW  - Schema linking
+KW  - T5
+KW  - Text-to-SQL
+PB  - American Scientific Publishing Group (ASPG)
+SN  - 27700070 (ISSN)
+LA  - English
+J2  - Fusion. Pract. Appl.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-85194157600
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+N1  - Correspondence Address: H. Nguyen; Faculty of Information Technology, Ho Chi Minh University of Education, Ho Chi Minh City, Viet Nam; email: hungnv@hcmue.edu.vn
+LB  - FT-Exclude-E8
+ID  - R00847
+N1  - sr-screener FT [R00847]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: exclude/E8 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Gontijo, D.
+AU  - Rolins Santana, D.
+AU  - de Assis Costa, G.
+AU  - Cabrera, V.E.
+AU  - Noronha de Andrade Freitas, E.
+TI  - Dairy GPT: Empowering dairy farmers to interact with numerical databases through natural language conversations
+PY  - 2025
+T2  - Smart Agricultural Technology
+VL  - 12
+C7  - 101097
+DO  - 10.1016/j.atech.2025.101097
+UR  - https://www.scopus.com/pages/publications/105008328060?origin=resultslist
+AD  - Department of Informatics, Federal Institute of Goiás, Goiânia, Brazil
+AD  - Department of Animal and Dairy Sciences, University of Wisconsin, Madison, United States
+KW  - ChatGPT
+KW  - Conversational models
+KW  - Dairy farms
+KW  - Text2sql
+PB  - Elsevier B.V.
+SN  - 27723755 (ISSN)
+LA  - English
+J2  - Smart Agric. Technol.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105008328060
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 12
+N1  - Correspondence Address: E. Noronha de Andrade Freitas; Department of Informatics, Federal Institute of Goiás, Goiânia, Brazil; email: noronha@ifg.edu.br
+LB  - FT-Exclude-E6
+ID  - R00848
+N1  - sr-screener FT [R00848]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: exclude/E6 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Papicchio, S.
+AU  - Rossi, S.
+AU  - Cagliero, L.
+AU  - Papotti, P.
+TI  - Think2SQL: Blueprinting Reward Density and Advantage Scaling for Effective Text-to-SQL Reasoning
+PY  - 2026
+T2  - Transactions on Machine Learning Research
+VL  - 2026-May
+UR  - https://www.scopus.com/pages/publications/105038457347?origin=resultslist
+AD  - Politecnico di Torino, Italy
+AD  - EURECOM, France
+PB  - Transactions on Machine Learning Research
+SN  - 28358856 (ISSN)
+LA  - English
+J2  - Transact. mach. learn. res.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105038457347
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+LB  - FT-Exclude-E6
+ID  - R00863
+N1  - sr-screener FT [R00863]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: exclude/E3 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Hsueh, N.-L.
+AU  - Wang, W.-T.
+TI  - Development and Evaluation of Learning Portfolio Query System Based on LangChain Framework †
+PY  - 2025
+T2  - Engineering Proceedings
+VL  - 92
+IS  - 1
+C7  - 40
+DO  - 10.3390/engproc2025092040
+UR  - https://www.scopus.com/pages/publications/105009332567?origin=resultslist
+AD  - Department of Information Engineering and Computer Science, Feng Chia University, Taichung, 407, Taiwan
+KW  - LangChain
+KW  - large language models
+KW  - natural language processing (NLP)
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 26734591 (ISSN)
+LA  - English
+J2  - Eng. Proc.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105009332567
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 4
+N1  - Correspondence Address: N.-L. Hsueh; Department of Information Engineering and Computer Science, Feng Chia University, Taichung, 407, Taiwan; email: nlhsueh@fcu.edu.tw
+LB  - FT-Exclude-E6
+ID  - R00875
+N1  - sr-screener FT [R00875]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Application LLM/LangChain query system; 42 independent questions; schema linking only an error category, not a contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Neubig, S.
+AU  - Göhl, L.
+AU  - Radhakrishnan, R.
+AU  - Weirich, M.
+AU  - Hein, A.
+AU  - Keller, R.
+AU  - Krcmar, H.
+TI  - From questions to insights: how domain-specific semantics boost LLM access to touristic real-time occupancy data
+PY  - 2026
+T2  - Information Technology and Tourism
+VL  - 28
+IS  - 1
+C7  - 37
+DO  - 10.1007/s40558-026-00363-5
+UR  - https://www.scopus.com/pages/publications/105039701540?origin=resultslist
+AD  - School of Computation, Information and Technology, Technical University of Munich, Boltzmannstraße 3, Garching, 85748, Germany
+AD  - Outdooractive AG, Missener Straße 18, Immenstadt, 87509, Germany
+AD  - University of St. Gallen, Müller-Friedberg-Strasse 6/8, St. Gallen, 9000, Switzerland
+AD  - Kempten University of Applied Sciences, Bahnhofstraße 61, Kempten (Allgäu), 87435, Germany
+KW  - Knowledge graphs
+KW  - Large Language Models
+KW  - Occupancy prediction
+KW  - Ontologies
+KW  - Smart tourism
+KW  - Visitor management
+PB  - Springer Science and Business Media Deutschland GmbH
+SN  - 10983058 (ISSN)
+LA  - English
+J2  - Inf. Technol. Tour.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105039701540
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: S. Neubig; School of Computation, Information and Technology, Technical University of Munich, Garching, Boltzmannstraße 3, 85748, Germany; email: stefan.neubig@tum.de
+LB  - FT-Exclude-E8
+ID  - R00882
+N1  - sr-screener FT [R00882]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - Single-turn study evaluated only on 19 proprietary, non-public Outdooractive questions; no public benchmark used | A: exclude/E8 | B: exclude/E8 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Chen, C.
+AU  - Bunescu, R.
+AU  - Marling, C.
+TI  - A semantic parsing pipeline for context-dependent question answering over temporally structured data
+PY  - 2023
+T2  - Natural Language Engineering
+VL  - 29
+IS  - 3
+SP  - 769
+EP  - 793
+DO  - 10.1017/S1351324921000292
+UR  - https://www.scopus.com/pages/publications/85118507000?origin=resultslist
+AD  - School of Electrical Engineering and Computer Science, Ohio University, Athens, 45701, OH, United States
+KW  - Question Answering
+KW  - Semantic Parsing
+KW  - Graphical user interfaces
+KW  - Interface states
+KW  - Natural language processing systems
+KW  - Pipelines
+KW  - Query processing
+KW  - Search engines
+KW  - Semantics
+KW  - Speech recognition
+KW  - Context dependent
+KW  - Direct interactions
+KW  - Logical forms
+KW  - Multiple time series
+KW  - Natural language interaction
+KW  - Pipeline implementation
+KW  - Question Answering
+KW  - Semantic parsing
+KW  - Sequence of actions
+KW  - Structured data
+KW  - Long short-term memory
+PB  - Cambridge University Press
+SN  - 13513249 (ISSN)
+LA  - English
+J2  - Nat Lang Eng
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-85118507000
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 4
+N1  - Correspondence Address: R. Bunescu; School of Electrical Engineering and Computer Science, Ohio University, Athens, 45701, United States; email: razvan.bunescu@uncc.edu
+N1  - CODEN: NLENF
+LB  - FT-Exclude-E5
+ID  - R00909
+N1  - sr-screener FT [R00909]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Parses questions into custom logical forms over time-series data; no SQL generated or evaluated on relational databases | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Baranitharan, K.
+AU  - Babu, D.M.
+AU  - Reddy, K.L.
+AU  - Pavani, P.
+TI  - Ask Db: Enhancing Database Accessibility Through NLP- Driven Querying
+PY  - 2025
+T2  - 16th International Conference on Advances in Computing, Control, and Telecommunication Technologies, ACT 2025
+VL  - 2
+SP  - 6582
+EP  - 6587
+UR  - https://www.scopus.com/pages/publications/105034878624?origin=resultslist
+AD  - Vignan’s Lara Institute of Technology & Science, India
+AD  - Vignan’s Lara Institute of Technology & Science, India
+KW  - AI-driven Database Interaction
+KW  - LangChain
+KW  - Large Language Models
+KW  - MySQL
+KW  - Natural Language Processing
+KW  - SQL Generation
+KW  - Computational linguistics
+KW  - Query languages
+KW  - Query processing
+KW  - Structured Query Language
+KW  - AI-driven database interaction
+KW  - Database interactions
+KW  - Langchain
+KW  - Language model
+KW  - Language processing
+KW  - Large language model
+KW  - MySQL
+KW  - Natural language processing
+KW  - Natural languages
+KW  - SQL generation
+KW  - Natural language processing systems
+PB  - Grenze Scientific Society
+LA  - English
+J2  - Int. Conf. Adv. Comput., Control, Telecommun. Technol., ACT
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105034878624
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+LB  - FT-Exclude-E7
+ID  - R00917
+N1  - sr-screener FT [R00917]: EXCLUDE (E7 No quantitative empirical evaluation (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Wen, W.
+AU  - Zhang, Y.
+AU  - Pan, S.
+AU  - Sun, Y.
+AU  - Lu, P.
+AU  - Ding, C.
+TI  - LR-SQL: A Supervised Fine-Tuning Method for Text2SQL Tasks Under Low-Resource Scenarios
+PY  - 2025
+T2  - Electronics (Switzerland)
+VL  - 14
+IS  - 17
+C7  - 3489
+DO  - 10.3390/electronics14173489
+UR  - https://www.scopus.com/pages/publications/105015742414?origin=resultslist
+AD  - School of Internet of Things, Nanjing University of Posts and Telecommunications, New Model Road, Nanjing, 210003, China
+AD  - China Telecom Co., Ltd., Jiangsu Branch, Yun Jin Road, Nanjing, 210019, China
+KW  - AI
+KW  - language models
+KW  - language processing
+KW  - Machine Learning
+KW  - Natural Language Processing
+KW  - text processing
+KW  - text-to-sql
+KW  - Computational linguistics
+KW  - Learning algorithms
+KW  - Learning systems
+KW  - Natural language processing systems
+KW  - Program processors
+KW  - Query languages
+KW  - Query processing
+KW  - Text processing
+KW  - Tuning
+KW  - Fine tuning
+KW  - Language model
+KW  - Language processing
+KW  - Linking models
+KW  - Machine-learning
+KW  - Natural language processing
+KW  - Natural languages
+KW  - Text-processing
+KW  - Text-to-sql
+KW  - Artificial intelligence
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 20799292 (ISSN)
+LA  - English
+J2  - Electronics (Switzerland)
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105015742414
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 2
+N1  - Correspondence Address: S. Pan; School of Internet of Things, Nanjing University of Posts and Telecommunications, Nanjing, New Model Road, 210003, China; email: supan@njupt.edu.cn
+LB  - FT-Exclude-E8
+ID  - R00921
+N1  - sr-screener FT [R00921]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - He, B.
+AU  - Du, Y.
+AU  - Meng, H.
+AU  - Tang, S.
+AU  - Zhang, T.
+AU  - Song, L.
+TI  - EvoAgent-SQL: An Evolutionary Multi-Agent Text2SQL Framework Integrating User Feedback and Reflective Adaptation
+PY  - 2026
+T2  - Symmetry
+VL  - 18
+IS  - 5
+C7  - 792
+DO  - 10.3390/sym18050792
+UR  - https://www.scopus.com/pages/publications/105040216483?origin=resultslist
+AD  - Faculty of Artificial Intelligence in Education, Central China Normal University, Wuhan, 430079, China
+AD  - School of Computing and Technology, University of Wollongong, Wollongong, 2522, NSW, Australia
+AD  - Education Management Information Center, Ministry of Education, Beijing, 100031, China
+KW  - human–computer interaction
+KW  - multi-agent system
+KW  - reflective learning
+KW  - symmetry and evolutionary mechanism
+KW  - Text2SQL
+KW  - user feedback
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+SN  - 20738994 (ISSN)
+LA  - English
+J2  - Symmetry
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105040216483
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: H. Meng; Faculty of Artificial Intelligence in Education, Central China Normal University, Wuhan, 430079, China; email: hm578@uowmail.edu.au
+LB  - FT-Exclude-E8
+ID  - R00931
+N1  - sr-screener FT [R00931]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: exclude/E8 | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Gao, R.
+AU  - Guo, J.
+AU  - Zhao, H.
+AU  - Diao, J.
+AU  - Lu, Q.
+AU  - Peng, Q.
+TI  - Enhanced Text-to-SQL Generation via Query Classification
+PY  - 2025
+T2  - Frontiers in Artificial Intelligence and Applications
+VL  - 407
+SP  - 255
+EP  - 261
+DO  - 10.3233/FAIA250441
+UR  - https://www.scopus.com/pages/publications/105010144049?origin=resultslist
+AD  - NANJING NARI RETURN TECHNOLOGY CO., LTD., Nanjing, 210036, China
+AD  - Hohai University, Nanjing, 210036, China
+KW  - Intermediate Representation
+KW  - Large Language Models
+KW  - Natural Language Processing
+KW  - Prompt Learning
+KW  - Text-to-SQL
+KW  - Artificial intelligence
+KW  - Computational linguistics
+KW  - Dynamic models
+KW  - Dynamics
+KW  - Efficiency
+KW  - Information systems
+KW  - Large datasets
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Structured Query Language
+KW  - Text processing
+KW  - Complex queries
+KW  - Intermediate representations
+KW  - Language model
+KW  - Language processing
+KW  - Large language model
+KW  - Natural language processing
+KW  - Natural languages
+KW  - Prompt learning
+KW  - Query classification
+KW  - Text-to-SQL
+KW  - Classification (of information)
+A2  - Tallon-Ballesteros A.J.
+PB  - IOS Press BV
+SN  - 09226389 (ISSN); 978-164368599-1 (ISBN)
+LA  - English
+J2  - Front. Artif. Intell. Appl.
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105010144049
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 1
+N1  - Correspondence Address: H. Zhao; Hohai University, Nanjing, 210036, China; email: h.r.zhao@foxmail.com
+LB  - FT-Exclude-E6
+ID  - R00944
+N1  - sr-screener FT [R00944]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn contribution centers on query classification, intermediate representation and example selection; schema linking is only a supporting module. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - CONF
+AU  - Rajan, K.
+AU  - Rastogi, A.
+AU  - Lal, A.
+AU  - Rajendra, S.
+AU  - Subramanian, K.
+AU  - Patel, K.
+TI  - Welding Natural Language Queries to Analytics IRs with LLMs
+PY  - 2024
+T2  - 14th Conference on Innovative Data Systems Research, CIDR 2024
+UR  - https://www.scopus.com/pages/publications/105029859002?origin=resultslist
+AD  - Microsoft Research, Redmond, United States
+AD  - Microsoft Research, Bangalore, India
+AD  - Microsoft Azure Data, Bangalore, India
+AD  - University of Illinois Urbana-Champaign, Urbana, IL, United States
+KW  - Big data
+KW  - Data accuracy
+KW  - Data Analytics
+KW  - Gold
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Translation (languages)
+KW  - Welding
+KW  - Analytics systems
+KW  - Commercial products
+KW  - Data analytics
+KW  - Gold standards
+KW  - Language model
+KW  - MicroSoft
+KW  - Natural language queries
+KW  - Natural languages
+KW  - Product offerings
+KW  - Query representations
+KW  - Welds
+PB  - Conference on Innovative Data Systems Research (CIDR)
+LA  - English
+J2  - Conf. Innovative Data Syst. Research, CIDR
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105029859002
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 2
+LB  - FT-Exclude-E5
+ID  - R00960
+N1  - sr-screener FT [R00960]: EXCLUDE (E5 Not Text-to-SQL over relational databases (KGQA/SPARQL, Cypher, NoSQL, table QA without SQL, general code generation)) - Translates natural language to Weld IR; SQL serves as reference queries and comparison baselines. | A: exclude/E5 | B: exclude/E5 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Hou, S.
+AU  - Jiao, H.
+AU  - Liu, Z.
+AU  - Xie, L.
+AU  - Chen, G.
+AU  - Wu, S.
+AU  - Guan, X.
+AU  - Wu, H.
+TI  - GeoSQL-Eval: first evaluation of LLMs on PostGIS-based NL2GeoSQL queries
+PY  - 2026
+T2  - Expert Systems with Applications
+VL  - 320
+C7  - 132122
+DO  - 10.1016/j.eswa.2026.132122
+UR  - https://www.scopus.com/pages/publications/105034735773?origin=resultslist
+AD  - State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing, Wuhan University, Wuhan, China
+AD  - School of Resource and Environmental Sciences, Wuhan University, Wuhan, China
+KW  - Evaluation framework
+KW  - GeoSQL
+KW  - Large language models
+KW  - NL2SQL
+KW  - PostGIS
+KW  - Abstracting
+KW  - Artificial intelligence
+KW  - Benchmarking
+KW  - Computational linguistics
+KW  - Data mining
+KW  - Function evaluation
+KW  - Natural language processing systems
+KW  - Query languages
+KW  - Query processing
+KW  - Semantics
+KW  - Datatypes
+KW  - Evaluation framework
+KW  - GeoSQL
+KW  - Language model
+KW  - Large language model
+KW  - Natural languages
+KW  - NL2SQL
+KW  - Performance
+KW  - PostGIS
+KW  - Spatial data
+KW  - Syntactics
+PB  - Elsevier Ltd
+SN  - 09574174 (ISSN)
+LA  - English
+J2  - Expert Sys Appl
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105034735773
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 5
+N1  - Correspondence Address: H. Jiao; School of Resource and Environmental Sciences, Wuhan University, Wuhan, China; email: haoyuejiao@whu.edu.cn
+N1  - CODEN: ESAPE
+LB  - FT-Exclude-E6
+ID  - R00967
+N1  - sr-screener FT [R00967]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - JOUR
+AU  - Awotunde, I.
+AU  - Chitte, D.R.
+AU  - Shan, Y.
+AU  - Sheng, W.
+AU  - Khaleghian, H.
+TI  - Domain-specific SQL generation with LLMs: A hybrid framework combining knowledge graphs and retrieval-augmentation
+PY  - 2026
+T2  - Advanced Engineering Informatics
+VL  - 73
+C7  - 104560
+DO  - 10.1016/j.aei.2026.104560
+UR  - https://www.scopus.com/pages/publications/105032183660?origin=resultslist
+AD  - School of Civil and Environmental Engineering, Oklahoma State University, Stillwater, 74078, OK, United States
+AD  - Computer Science Department, Oklahoma State University, Stillwater, 74078, OK, United States
+AD  - School of Electrical and Computer Engineering, Oklahoma State University, Stillwater, 74078, OK, United States
+AD  - InfraTie Solutions, LLC., Stillwater, 74074, OK, United States
+KW  - Domain knowledge
+KW  - Graph retrieval augmented generation
+KW  - Knowledge graph
+KW  - Large language model
+KW  - Sewer asset management
+KW  - Asset management
+KW  - Computational linguistics
+KW  - Domain Knowledge
+KW  - Graph theory
+KW  - Human resource management
+KW  - Information retrieval
+KW  - Knowledge graph
+KW  - Knowledge management
+KW  - Open systems
+KW  - Query languages
+KW  - Query processing
+KW  - Relational database systems
+KW  - Sewers
+KW  - Assets management
+KW  - Domain knowledge
+KW  - Domain specific
+KW  - Graph retrieval augmented generation
+KW  - Hybrid framework
+KW  - Knowledge graphs
+KW  - Knowledge retrieval
+KW  - Language model
+KW  - Large language model
+KW  - Sewer asset management
+KW  - Semantics
+PB  - Elsevier Ltd
+SN  - 14740346 (ISSN)
+LA  - English
+J2  - Adv. Eng. Inf.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105032183660
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 3
+N1  - Correspondence Address: Y. Shan; School of Civil and Environmental Engineering, Oklahoma State University, Stillwater, 74078, United States; email: yongwei.shan@okstate.edu
+LB  - FT-Exclude-E8
+ID  - R00984
+N1  - sr-screener FT [R00984]: EXCLUDE (E8 Single-turn study not evaluated on any public benchmark (full text only)) - aceptado por la revisora (2026-10-12) | A: unclear/UNC | B: unclear/UNC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Toteja, R.
+AU  - Sarkar, A.
+AU  - Comar, P.M.
+TI  - In-Context Reinforcement Learning based Retrieval-Augmented Generation for Text-to-SQL
+PY  - 2025
+T2  - Proceedings - International Conference on Computational Linguistics, COLING
+SP  - 10390
+EP  - 10397
+UR  - https://www.scopus.com/pages/publications/85218489103?origin=resultslist
+AD  - Amazon, United States
+KW  - Adversarial machine learning
+KW  - Computational linguistics
+KW  - Contrastive Learning
+KW  - Query languages
+KW  - Query processing
+KW  - Reinforcement learning
+KW  - ART model
+KW  - Context learning
+KW  - Database interactions
+KW  - In contexts
+KW  - Language model
+KW  - Natural language questions
+KW  - Real-world
+KW  - Reinforcement learnings
+KW  - State of the art
+KW  - Structured Query Language
+KW  - Structured Query Language
+A2  - Rambow O.
+A2  - Wanner L.
+A2  - Apidianaki M.
+A2  - Al-Khalifa H.
+A2  - Di Eugenio B.
+A2  - Schockaert S.
+PB  - Association for Computational Linguistics (ACL)
+SN  - 29512093 (ISSN); 979-889176196-4 (ISBN)
+LA  - English
+J2  - Proc. Main Conf. Int. Conf. Comput. Linguist., COLING
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85218489103
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 13
+LB  - FT-Exclude-E9
+ID  - R01011
+N1  - sr-screener FT [R01011]: EXCLUDE (E9 Secondary report of an already included study (deduplication / full text only)) - Secondary report of included study R00065 (ICRL-RAG (COLING 2025, indexado dos veces)); same study | A: include/INC | B: include/INC | by AJE
+ER  - 
+
+TY  - CONF
+AU  - Kobayashi, H.
+AU  - Lan, W.
+AU  - Shi, P.
+AU  - Chang, S.
+AU  - Guo, J.
+AU  - Zhu, H.
+AU  - Zhiguo, W.
+AU  - Patrick, N.
+TI  - You Only Read Once (YORO): Learning to Internalize Database Knowledge for Text-to-SQL
+PY  - 2025
+T2  - Proceedings of the 2025 Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies: Long Papers, NAACL-HLT 2025
+VL  - 1
+SP  - 1889
+EP  - 1901
+DO  - 10.18653/v1/2025.naacl-long.94
+UR  - https://www.scopus.com/pages/publications/105027417006?origin=resultslist
+AD  - AWS AI
+KW  - Benchmarking
+KW  - Computational linguistics
+KW  - Competitive performance
+KW  - Database schemas
+KW  - Encodings
+KW  - Excel
+KW  - Large database
+KW  - Traditional systems
+KW  - Database systems
+A2  - Chiruzzo L.
+A2  - Ritter A.
+A2  - Wang L.
+PB  - Association for Computational Linguistics (ACL)
+SN  - 979-889176189-6 (ISBN)
+LA  - English
+J2  - Proc. Conf. Nations Americas Chapter Assoc. Comput. Linguist.: Hum. Lang. Technol., NAACL-HLT
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105027417006
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 5
+LB  - FT-Exclude-E6
+ID  - R01013
+N1  - sr-screener FT [R01013]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn database-knowledge internalization via fine-tuning; schema linking, join inference, and self-correction are not stated central contributions. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+
+TY  - JOUR
+AU  - Kataria, V.
+AU  - Kumar, N.
+TI  - Democratizing cloud data lake analytics: natural language access to Apache Iceberg via LLM agents
+PY  - 2026
+T2  - Frontiers in Big Data
+VL  - 9
+C7  - 1785710
+DO  - 10.3389/fdata.2026.1785710
+UR  - https://www.scopus.com/pages/publications/105044426214?origin=resultslist
+AD  - Picarro Inc., Santa Clara, CA, United States
+AD  - Marriott International, Bethesda, MD, United States
+KW  - Apache Iceberg
+KW  - conversational data access
+KW  - data lakes
+KW  - LangChain
+KW  - large language models
+KW  - natural language processing
+KW  - semantic layer
+KW  - SQL-free querying
+PB  - Frontiers Media SA
+SN  - 2624909X (ISSN)
+LA  - English
+J2  - Frontiers. Big. Data.
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105044426214
+N1  - Export Date: 11 October 2026
+N1  - Cited By: 0
+N1  - Correspondence Address: V. Kataria; Picarro Inc., Santa Clara, United States; email: Vipink2@illinois.edu
+LB  - FT-Exclude-E6
+ID  - R01019
+N1  - sr-screener FT [R01019]: EXCLUDE (E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution) - Single-turn tool-calling system with semantic layer and security focus; no central schema-linking or self-correction contribution. | A: exclude/E6 | B: exclude/E6 | by A+B
+ER  - 
+

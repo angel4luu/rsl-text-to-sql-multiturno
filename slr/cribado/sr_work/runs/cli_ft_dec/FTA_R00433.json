@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00433@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00433",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL2SQL agent with stated self-correction and schema-enrichment contributions, evaluated quantitatively on public BIRD dev set.",
+   "where": "p1 Abstract (contributions a, b); p8-9 Results 4.1-4.3, BIRD dev accuracy"
+  }
+ ],
+ "source": "cli:FTA_R00433.json"
+}

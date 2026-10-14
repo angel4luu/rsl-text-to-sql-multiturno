@@ -1,0 +1,276 @@
+{
+ "label": "B:b017@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00799",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00800",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2012"
+  },
+  {
+   "id": "R00801",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2015"
+  },
+  {
+   "id": "R00802",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2008"
+  },
+  {
+   "id": "R00803",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge-graph/template report generation, not Text-to-SQL"
+  },
+  {
+   "id": "R00804",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Speech-driven warehouse interface, not Text-to-SQL"
+  },
+  {
+   "id": "R00805",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Computer vision design system"
+  },
+  {
+   "id": "R00806",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semantic web/RDF querying, not relational SQL"
+  },
+  {
+   "id": "R00807",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph QA on Neo4j"
+  },
+  {
+   "id": "R00808",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational recommender, not Text-to-SQL"
+  },
+  {
+   "id": "R00809",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00810",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL decoder sharing, no linking/correction"
+  },
+  {
+   "id": "R00811",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn CREATE query generation, no linking/correction focus"
+  },
+  {
+   "id": "R00812",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema retrieval and join-path graph expansion, Spider evaluation"
+  },
+  {
+   "id": "R00813",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00814",
+   "d": "include",
+   "code": "INC",
+   "why": "Uses interaction history on SParC and CoSQL"
+  },
+  {
+   "id": "R00815",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn representation learning, no linking/correction focus"
+  },
+  {
+   "id": "R00816",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pre-training with schema linking objective; central contribution uncertain"
+  },
+  {
+   "id": "R00817",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational NL2SQL BI system; multi-turn and evaluation unclear"
+  },
+  {
+   "id": "R00818",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM schema linking analysis on Spider and BIRD"
+  },
+  {
+   "id": "R00819",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Entity grounding and verification in spatial Text-to-SQL; centrality unclear"
+  },
+  {
+   "id": "R00820",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Reflection error correction among several components in BIM Text-to-SQL"
+  },
+  {
+   "id": "R00821",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00822",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Dialogue-based database design, not Text-to-SQL"
+  },
+  {
+   "id": "R00823",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record states article language is Chinese"
+  },
+  {
+   "id": "R00824",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "ReAct self-correction Text-to-SQL agent; multi-turn and centrality unclear"
+  },
+  {
+   "id": "R00825",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-consistency and self-evaluation for Text-to-SQL on Spider"
+  },
+  {
+   "id": "R00826",
+   "d": "exclude",
+   "code": "E2",
+   "why": "Record states article language is Chinese"
+  },
+  {
+   "id": "R00827",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema linking one of several components on BIRD"
+  },
+  {
+   "id": "R00828",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Chatbot claims multi-turn Text-to-SQL; little detail on evaluation"
+  },
+  {
+   "id": "R00829",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph question answering"
+  },
+  {
+   "id": "R00830",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-agent SQL error detection and repair on benchmarks"
+  },
+  {
+   "id": "R00831",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmark for conversational Text-to-SQL agents"
+  },
+  {
+   "id": "R00832",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "RAFT to enhance schema linking/table selection; centrality unclear"
+  },
+  {
+   "id": "R00833",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Targets KQL, not relational SQL"
+  },
+  {
+   "id": "R00834",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00835",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Verification model is one of three components"
+  },
+  {
+   "id": "R00836",
+   "d": "exclude",
+   "code": "E5",
+   "why": "DataFlow semantic parsing toolkit, not SQL"
+  },
+  {
+   "id": "R00837",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00838",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-based SQL refinement on Spider and BIRD"
+  },
+  {
+   "id": "R00839",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Novel schema linking strategy alongside example selection"
+  },
+  {
+   "id": "R00840",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational RAG framework over PostgreSQL; multi-turn unclear"
+  },
+  {
+   "id": "R00841",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  },
+  {
+   "id": "R00842",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking failures and join views for industrial Text-to-SQL"
+  },
+  {
+   "id": "R00843",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational Chinese Text-to-SQL with self-correction; multi-turn unclear"
+  }
+ ],
+ "source_transcript": "agent-a57a632dc69fbeba5.jsonl"
+}

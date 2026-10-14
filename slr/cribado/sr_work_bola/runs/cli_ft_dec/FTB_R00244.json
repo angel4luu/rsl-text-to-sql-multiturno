@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00244@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00244",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn NL2SQL; central contribution is a self-explanation feedback loop for verification and correction, evaluated quantitatively on Spider and four other public benchmarks.",
+   "where": "p1 Abstract; p2 Introduction, Contributions"
+  }
+ ],
+ "source": "cli:FTB_R00244.json"
+}

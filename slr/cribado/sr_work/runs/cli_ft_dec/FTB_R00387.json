@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00387@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00387",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary benchmark for SQL correction and verification over EHR relational databases; single-turn, central correction contribution; quantitative results on public SCARE benchmark.",
+   "where": "p1 Abstract; p7-8 Section 5.2-5.3, Tables 3-5"
+  }
+ ],
+ "source": "cli:FTB_R00387.json"
+}

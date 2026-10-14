@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00904@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00904",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Chinese Text-to-SQL with state tracking and schema alignment, evaluated quantitatively on the CHASE benchmark; 2026 peer-reviewed paper.",
+   "where": "p1 Abstract; p9-10 Sec 3.3 State tracking attention; p13 Sec 4.1 Dataset; p15 Sec 4.3-5 Metrics and Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00904.json"
+}

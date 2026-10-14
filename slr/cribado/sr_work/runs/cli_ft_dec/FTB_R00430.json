@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00430@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00430",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn RL framework whose central contribution is fine-grained execution feedback; reports execution accuracy on BIRD and Spider; 2026 English arXiv preprint.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p4 Section IV-B"
+  }
+ ],
+ "source": "cli:FTB_R00430.json"
+}

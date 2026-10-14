@@ -1,0 +1,294 @@
+{
+ "label": "QC:q005@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00497",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General synthetic-data filtering method; Text-to-SQL only one test task"
+  },
+  {
+   "id": "R00499",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn user requirement shifts; benchmark includes Text-to-SQL; scope unclear"
+  },
+  {
+   "id": "R00553",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM parser, syntax-constrained decoder; no linking/correction contribution"
+  },
+  {
+   "id": "R00560",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn generative NL2SQL system; no stated linking/correction contribution"
+  },
+  {
+   "id": "R00566",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Per-query energy-aware model routing; no linking/correction contribution"
+  },
+  {
+   "id": "R00568",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based NL2SQL"
+  },
+  {
+   "id": "R00570",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn XLNet encoder on WikiSQL; no stated linking contribution"
+  },
+  {
+   "id": "R00575",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review of SQL-learning chatbots"
+  },
+  {
+   "id": "R00576",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application assistant with speech; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00577",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise chatbot architecture description; no linking/correction contribution"
+  },
+  {
+   "id": "R00580",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Ambiguity candidate mapping to schema; unclear if linking is central"
+  },
+  {
+   "id": "R00581",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational visualization refinement; unclear if dependent multi-turn SQL questions"
+  },
+  {
+   "id": "R00582",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00590",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00592",
+   "d": "exclude",
+   "code": "E5",
+   "why": "BI requirements elicitation system, not NL querying of relational databases"
+  },
+  {
+   "id": "R00594",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comparative architectural analysis without own evaluation"
+  },
+  {
+   "id": "R00597",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SDN management agent; Text-to-SQL only a tool"
+  },
+  {
+   "id": "R00605",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain RAG+NL2SQL application; no linking/correction contribution"
+  },
+  {
+   "id": "R00613",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL teaching tool application; no linking/correction contribution"
+  },
+  {
+   "id": "R00614",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Literature review on agentic AI with MCP implementation"
+  },
+  {
+   "id": "R00621",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generic LLM Text-to-SQL system; linking not stated as contribution"
+  },
+  {
+   "id": "R00641",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic literature review"
+  },
+  {
+   "id": "R00648",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00652",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table QA via row retrieval, no SQL generation"
+  },
+  {
+   "id": "R00654",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of NL2SQL research"
+  },
+  {
+   "id": "R00658",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Multi-table QA over table collections, not SQL generation"
+  },
+  {
+   "id": "R00677",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Logic rule aligns predicted values with column values; possible value linking"
+  },
+  {
+   "id": "R00679",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Skeleton candidate evaluation/pruning; unclear if selection is central"
+  },
+  {
+   "id": "R00683",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Several components incl. self-correction; unclear if correction is central"
+  },
+  {
+   "id": "R00688",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Database-aware input correction for speech-to-SQL; possible value/schema linking"
+  },
+  {
+   "id": "R00689",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Design patterns for MCP reporting; no linking/correction contribution"
+  },
+  {
+   "id": "R00694",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn multi-database benchmark, not about linking or correction"
+  },
+  {
+   "id": "R00696",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent orchestration study reports self-correction effects; Text-to-SQL scope unclear"
+  },
+  {
+   "id": "R00698",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise ChatBI application description; tool-based NL2SQL"
+  },
+  {
+   "id": "R00699",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Anti-fraud hallucination architecture; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00701",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Table understanding denoising, no SQL generation"
+  },
+  {
+   "id": "R00702",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL education laboratory study; no linking/correction technique"
+  },
+  {
+   "id": "R00705",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise HR ChatBI application description"
+  },
+  {
+   "id": "R00706",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL-to-MongoDB NoSQL querying"
+  },
+  {
+   "id": "R00721",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn spatial NLIDB; no central linking/correction contribution"
+  },
+  {
+   "id": "R00724",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00746",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Database encryption security framework"
+  },
+  {
+   "id": "R00800",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2012"
+  },
+  {
+   "id": "R00801",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2015"
+  },
+  {
+   "id": "R00803",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Report generation via knowledge graphs and templates, not SQL"
+  },
+  {
+   "id": "R00805",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Computer vision industrial design system"
+  },
+  {
+   "id": "R00808",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Conversational academic recommender system"
+  },
+  {
+   "id": "R00809",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Proceedings front matter"
+  }
+ ],
+ "source_transcript": "agent-a17b9a2ba542374d7.jsonl"
+}

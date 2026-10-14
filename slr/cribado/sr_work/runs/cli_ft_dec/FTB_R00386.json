@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00386@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00386",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn error-correction study with quantitative results, but the extract omits pp3-9, so the evaluation dataset is not identified as public.",
+   "where": "p10 Section 5.4, Table 3 (execution accuracy); pp3-9 not in the extract"
+  }
+ ],
+ "source": "cli:FTB_R00386.json"
+}

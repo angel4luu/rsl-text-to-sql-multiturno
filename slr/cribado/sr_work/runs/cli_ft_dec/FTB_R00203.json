@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00203@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00203",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn keyword mapping (schema/value linking) is the central contribution; evaluated quantitatively on Spider schemas plus imdb, mas and yelp.",
+   "where": "p1 Abstract; p2 Contributions; p5-6 Sec. 3 Datasets and Results (Tables 2-4)"
+  }
+ ],
+ "source": "cli:FTB_R00203.json"
+}

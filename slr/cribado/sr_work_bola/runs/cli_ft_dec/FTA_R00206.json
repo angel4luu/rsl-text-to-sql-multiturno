@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00206@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00206",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL parsing; question-to-column alignment and column prediction are central; quantitative evaluation on public WTQ/SQUALL.",
+   "where": "p1 Abstract; p2 Introduction; p6-7 Section 5.3 and Experiments, Tables 3-7"
+  }
+ ],
+ "source": "cli:FTA_R00206.json"
+}

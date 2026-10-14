@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00844@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00844",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; central contributions are KG-based schema retrieval and verifier self-correction; evaluated on BIRD and Spider.",
+   "where": "p1 Abstract; p5-7 Sec 2.3 SQL-KG-Verifier; p13-16 Sec 3 Tables 8 and 10"
+  }
+ ],
+ "source": "cli:FTB_R00844.json"
+}

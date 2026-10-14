@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00151@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00151",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; SchemaLinker and Pareto candidate selection are central contributions; evaluated on public Spider, BIRD with EX/EM.",
+   "where": "p1 Abstract; p14 Sec 3.4; p15 Sec 4.2.1-4.2.2 Datasets and Metrics"
+  }
+ ],
+ "source": "cli:FTB_R00151.json"
+}

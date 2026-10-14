@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00337@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00337",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema linking is the central contribution; evaluated on Spider and BIRD with EX/EM/VES results.",
+   "where": "p1 Abstract; p2 Contributions; p5 Sec. 5.1 Datasets; p6 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTA_R00337.json"
+}

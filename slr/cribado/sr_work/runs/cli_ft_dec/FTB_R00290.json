@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00290@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00290",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; foreign-key/schema-knowledge encoding is a central contribution, evaluated quantitatively on Spider, Spider-DK and Spider-SYN.",
+   "where": "p1 Abstract and Introduction; p6-7 Section 5.2, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTB_R00290.json"
+}

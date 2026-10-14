@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00278@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00278",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn keyword mapping (schema/value linking) is the central contribution, evaluated quantitatively on Spider schemas plus imdb, mas and yelp.",
+   "where": "p1 Abstract; p1-2 Introduction, contributions; p5-6 Section 3.1 Datasets and 3.3 Results"
+  }
+ ],
+ "source": "cli:FTA_R00278.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00209@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00209",
+   "d": "exclude",
+   "code": "E7",
+   "why": "Only a single-example case study of the proposed system; the numbers in Table 3 cover baseline prompting variability, not the system.",
+   "where": "p3-4 Section 5 Experiments (5.1, Table 3; 5.2 qualitative analysis)"
+  }
+ ],
+ "source": "cli:FTB_R00209.json"
+}

@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00170\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"NR\",\"nota\":\"No presenta resultados desglosados por turno ni longitud de interacción. La tabla 5 distingue consultas individuales y diálogos completos; las tablas 8–9 analizan longitud de secuencia.\",\"ubic\":\"6–12\"}}]}",
+  "_label": "TURNOS:R00170"
+}

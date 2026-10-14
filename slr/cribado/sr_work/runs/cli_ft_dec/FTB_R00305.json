@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00305@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00305",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL centred on schema linking, evaluated quantitatively on public BIRD benchmark (EX 51.69).",
+   "where": "p1 Abstract and Introduction; p5-6 Sections 5.2-5.3 (EX, VES, SLAM on BIRD)"
+  }
+ ],
+ "source": "cli:FTB_R00305.json"
+}

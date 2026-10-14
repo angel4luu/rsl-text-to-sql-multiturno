@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00264",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; main contribution fuses table content into column representations for column selection/value linking; evaluated on WikiSQL.",
+   "where": "p1 Abstract; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTADJ_R00264.json"
+}

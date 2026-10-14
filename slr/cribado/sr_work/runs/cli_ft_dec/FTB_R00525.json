@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00525@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00525",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL curriculum learning with per-turn results, quantitatively evaluated on SParC and CoSQL; 2023 primary study.",
+   "where": "p1 Abstract; p7-8 Section V Experiments, Tables 3-4, Fig. 4"
+  }
+ ],
+ "source": "cli:FTB_R00525.json"
+}

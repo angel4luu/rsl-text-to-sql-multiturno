@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00382@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00382",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is execution feedback and self-correction. Quantitative evaluation on BIRD and Spider.",
+   "where": "p1 Abstract; p2 Contributions; p6-8 Sec 4 Experiments, Tables 1-4"
+  }
+ ],
+ "source": "cli:FTB_R00382.json"
+}

@@ -1,0 +1,8 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "mode": "per-turn",
+  "sandbox": "read-only",
+  "session": "ephemeral",
+  "created_utc": "2026-10-13T19:48:33.004055+00:00"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00863@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00863",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn RLVR training study; execution-based reward is a training signal, not schema linking or SQL self-correction.",
+   "where": "p2 Abstract; p7-8 Section 4.1 Experiments Setup"
+  }
+ ],
+ "source": "cli:FTADJ_R00863.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00281@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00281",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; schema dependency learning (question-schema linking) is the central contribution, with execution-guided decoding analysis; evaluated on WikiSQL.",
+   "where": "p1 Abstract and Introduction; p4-5 Sec. 5 Experiment, Tables 1-5"
+  }
+ ],
+ "source": "cli:FTA_R00281.json"
+}

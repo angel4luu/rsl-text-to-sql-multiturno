@@ -1,0 +1,306 @@
+{
+ "label": "A:b007@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00301",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational agent over text-to-SQL; unclear if dependent multi-turn questions"
+  },
+  {
+   "id": "R00302",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; alternative query language, no linking or correction focus"
+  },
+  {
+   "id": "R00303",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Spider fine-tuning study with error-correction step; unclear if central"
+  },
+  {
+   "id": "R00304",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Network packet classification position paper, not Text-to-SQL"
+  },
+  {
+   "id": "R00305",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking central, evaluated on BIRD"
+  },
+  {
+   "id": "R00306",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking discriminator central, Spider evaluation"
+  },
+  {
+   "id": "R00307",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; example selection encoder, not linking or correction"
+  },
+  {
+   "id": "R00308",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Literature survey"
+  },
+  {
+   "id": "R00309",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking via view selection is central contribution"
+  },
+  {
+   "id": "R00310",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-SPARQL over knowledge graph"
+  },
+  {
+   "id": "R00311",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn clarification with AmbigSQL; SQL focus uncertain"
+  },
+  {
+   "id": "R00312",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL data augmentation with evaluation"
+  },
+  {
+   "id": "R00313",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correction guideline generation central"
+  },
+  {
+   "id": "R00314",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Several modules incl. schema linking and critic; main contribution unclear"
+  },
+  {
+   "id": "R00315",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking revisited plus selection and correction, BIRD"
+  },
+  {
+   "id": "R00316",
+   "d": "include",
+   "code": "INC",
+   "why": "Soft schema linking and Sub-SQL refinement central"
+  },
+  {
+   "id": "R00317",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL inspection and refinement agent central"
+  },
+  {
+   "id": "R00318",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correction ensemble central, Spider evaluation"
+  },
+  {
+   "id": "R00319",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Fine-tuned model with self-refine corrector; centrality unclear"
+  },
+  {
+   "id": "R00320",
+   "d": "include",
+   "code": "INC",
+   "why": "Direct schema linking central, BIRD evaluation"
+  },
+  {
+   "id": "R00321",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM Text-to-SQL systems"
+  },
+  {
+   "id": "R00322",
+   "d": "include",
+   "code": "INC",
+   "why": "Candidate selection central, BIRD evaluation"
+  },
+  {
+   "id": "R00323",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL error correction approach central"
+  },
+  {
+   "id": "R00324",
+   "d": "include",
+   "code": "INC",
+   "why": "Robust schema linking and self-correction central"
+  },
+  {
+   "id": "R00325",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speculative decoding method; Text-to-SQL only a workload"
+  },
+  {
+   "id": "R00326",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Theoretical utility models; no linking or correction technique"
+  },
+  {
+   "id": "R00327",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Experience log with reflection tips; correction centrality unclear"
+  },
+  {
+   "id": "R00328",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Confidence calibration, not linking or correction"
+  },
+  {
+   "id": "R00329",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Carbon emissions metric across several tasks"
+  },
+  {
+   "id": "R00330",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multitask tuning incl. schema linking and noise correction; unclear if central"
+  },
+  {
+   "id": "R00331",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "View-based schema understanding; relation to linking unclear"
+  },
+  {
+   "id": "R00332",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Query rewriter with SQL correctness checker; unclear centrality"
+  },
+  {
+   "id": "R00333",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and join view synthesis central"
+  },
+  {
+   "id": "R00334",
+   "d": "include",
+   "code": "INC",
+   "why": "Extractive schema linking central"
+  },
+  {
+   "id": "R00335",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General data analytics foundation model post-training"
+  },
+  {
+   "id": "R00336",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-refinement, schema linking, execution feedback agent"
+  },
+  {
+   "id": "R00337",
+   "d": "include",
+   "code": "INC",
+   "why": "Progressive schema linking central"
+  },
+  {
+   "id": "R00338",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pipeline with schema linking and revision; centrality unclear"
+  },
+  {
+   "id": "R00339",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data lake discovery demo, not Text-to-SQL"
+  },
+  {
+   "id": "R00340",
+   "d": "include",
+   "code": "INC",
+   "why": "Clause-wise SQL critic for correction, BIRD and Spider"
+  },
+  {
+   "id": "R00341",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback optimization central"
+  },
+  {
+   "id": "R00342",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Enterprise system with feedback and regeneration; centrality unclear"
+  },
+  {
+   "id": "R00343",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data balancing for value recognition, not linking or correction"
+  },
+  {
+   "id": "R00344",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "RL with schema-linking reward among several; centrality unclear"
+  },
+  {
+   "id": "R00345",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generates database schemas from text, not Text-to-SQL"
+  },
+  {
+   "id": "R00346",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-guided candidate selection central"
+  },
+  {
+   "id": "R00347",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Demonstration selection plus error correction module; centrality unclear"
+  },
+  {
+   "id": "R00348",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Application framework description, no linking or correction focus"
+  },
+  {
+   "id": "R00349",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table retrieval benchmark for text-to-SQL; centrality unclear"
+  },
+  {
+   "id": "R00350",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Truncated abstract; consistency-based Text-to-SQL, selection role unclear"
+  }
+ ],
+ "source_transcript": "agent-a1c124a0d76eaa6d9.jsonl"
+}

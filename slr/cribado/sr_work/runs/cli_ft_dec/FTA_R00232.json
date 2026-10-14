@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00232@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00232",
+   "d": "include",
+   "code": "INC",
+   "why": "Conversational Text-to-SQL with context retention for follow-up queries; reports accuracy (89%/95%) on proprietary data, allowed for multi-turn.",
+   "where": "p1-2 Introduction (contributions); p4 §3.2.2-3.2.3 Query Context; p5-6 §4 Experiments"
+  }
+ ],
+ "source": "cli:FTA_R00232.json"
+}

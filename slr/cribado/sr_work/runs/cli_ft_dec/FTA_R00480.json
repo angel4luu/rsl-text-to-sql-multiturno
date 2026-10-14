@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00480@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00480",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmark over PostgreSQL with multi-turn PATCH/REPLACE state and clarification, quantitatively evaluated (200 multi-turn cases); English arXiv 2026",
+   "where": "p3 §4.2 Case generation and splits; p4 §5 A4; p7 §9 and p9 Table 8"
+  }
+ ],
+ "source": "cli:FTA_R00480.json"
+}

@@ -1,0 +1,36 @@
+{
+ "label": "ADJ:b003@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00108",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NatSQL IR claims easier schema linking and drops JOIN ON; centrality unclear"
+  },
+  {
+   "id": "R00112",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Novel value prediction plus user candidate selection; linking may be central"
+  },
+  {
+   "id": "R00116",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Evaluated on SParC and CoSQL; verified cycle-consistent synthesis, multi-turn relevance plausible"
+  },
+  {
+   "id": "R00118",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Human-in-loop multi-choice refinement of single questions; correction may be central"
+  },
+  {
+   "id": "R00132",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Idiom-based decoding for code generation; ATIS-SQL single-turn, no linking/correction"
+  }
+ ],
+ "source_transcript": "agent-aeafe1954f357573e.jsonl"
+}

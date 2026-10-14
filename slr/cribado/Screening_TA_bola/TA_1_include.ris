@@ -1,0 +1,430 @@
+﻿TY  - JOUR
+TI  - Staged Multi‐Strategy Framework With Open‐Source Large Language Models for Natural Language to SQL Generation
+AU  - Chuanlong Liu
+AU  - Wei Liao
+AU  - Zhen Cheng Xu
+PY  - 2025
+T2  - IEEJ Transactions on Electrical and Electronic Engineering
+DO  - 10.1002/tee.24268
+M3  - article
+UR  - https://openalex.org/W4406246727
+N1  - snowballing forward from R00086
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00024
+N1  - sr-screener TA [R00024]: INCLUDE (Include) - Key column extraction and table-content constraints, single-turn column selection central | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - SQLPrompt: In-Context Text-to-SQL with Minimal Labeled Data
+AU  - Ruoxi Sun
+AU  - Sercan Ö. Arık
+AU  - Rajarishi Sinha
+AU  - Hootan Nakhost
+AU  - Hanjun Dai
+AU  - Pengcheng Yin
+AU  - Tomas Pfister
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-emnlp.39
+M3  - conference-paper
+UR  - https://openalex.org/W4389519331
+N1  - snowballing forward from R00101, R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00072
+N1  - sr-screener TA [R00072]: INCLUDE (Include) - Execution-based consistency candidate selection is a central contribution | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - A robust natural language text-to-SQL generation framework with dynamic strategies based on LLMs
+AU  - Xiaodong Su
+AU  - Yang Gu
+AU  - Peng Wang
+AU  - Wei Gu
+AU  - Lincheng Qi
+AU  - Jingwei He
+PY  - 2026
+T2  - Scientific Reports
+DO  - 10.1038/s41598-026-39128-9
+M3  - article
+UR  - https://openalex.org/W7128445291
+N1  - snowballing forward from R00101, R00109, R00131, R00525, R00924
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00086
+N1  - sr-screener TA [R00086]: INCLUDE (Include) - Schema selector and SQL refiner stated as contributions | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Text to SQL Using Retrieval-Augmented Generation and Large Language Models
+AU  - Ionel Gabriel Zahia
+AU  - Loretta Ichim
+AU  - Dan Popescu
+PY  - 2025
+T2  - International Conference on System Theory, Control and Computing (ICSTCC)
+DO  - 10.1109/icstcc66753.2025.11240489
+M3  - conference-paper
+UR  - https://openalex.org/W4416429863
+N1  - snowballing forward from R00101
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00097
+N1  - sr-screener TA [R00097]: INCLUDE (Include) - Relevant table and column extraction via RAG is the focus | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL
+AU  - Mayank Kothyari
+AU  - Dhruva Dhingra
+AU  - Sunita Sarawagi
+AU  - Soumen Chakrabarti
+PY  - 2023
+T2  - Conference on Empirical Methods in Natural Language Processing (EMNLP)
+DO  - 10.18653/v1/2023.emnlp-main.868
+M3  - conference-paper
+UR  - https://openalex.org/W4389524074
+N1  - snowballing forward from R00109, R00292
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00116
+N1  - sr-screener TA [R00116]: INCLUDE (Include) - Schema subsetting retrieval central; Spider/BIRD-based benchmarks | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Searching for Better Database Queries in the Outputs of Semantic Parsers
+AU  - Anton Osokin
+AU  - Irina Saparina
+AU  - Ramil Yarullin
+PY  - 2023
+T2  - Findings of the Association for Computational Linguistics: EACL
+DO  - 10.18653/v1/2023.findings-eacl.168
+M3  - conference-paper
+UR  - https://openalex.org/W4386566451
+N1  - snowballing forward from R00109, R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00146
+N1  - sr-screener TA [R00146]: INCLUDE (Include) - Search using execution criterion to find correct queries | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries
+AU  - Tianze Shi
+AU  - Chen Zhao
+AU  - Jordan Lee Boyd-Graber
+AU  - Hal Daumé
+AU  - Lillian Lee
+PY  - 2020
+DO  - 10.18653/v1/2020.findings-emnlp.167
+M3  - conference-paper
+UR  - https://openalex.org/W3104196282
+N1  - snowballing forward from R00126, R00129
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00206
+N1  - sr-screener TA [R00206]: INCLUDE (Include) - Lexical alignments and column reference disambiguation central; single-turn linking | A: unclear/UNC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ValueNet: A Natural Language-to-SQL System that Learns from Database Information
+AU  - Ursin Brunner
+AU  - Kurt Stockinger
+PY  - 2021
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde51399.2021.00220
+M3  - conference-paper
+UR  - https://openalex.org/W3129918255
+N1  - snowballing backward+forward from R00126, R00238
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00207
+N1  - sr-screener TA [R00207]: INCLUDE (Include) - Value extraction and candidate linking central to Spider system | A: unclear/UNC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ValueNet: A Neural Text-to-SQL Architecture Incorporating Values
+AU  - Ursin Brunner
+AU  - Kurt Stockinger
+PY  - 2020
+T2  - arXiv (Cornell University)
+M3  - preprint
+UR  - https://openalex.org/W3032826519
+N1  - snowballing forward from R00126
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00214
+N1  - sr-screener TA [R00214]: INCLUDE (Include) - Value extraction and linking central; Spider execution accuracy | A: unclear/UNC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Metasql: A Generate-Then-Rank Framework for Natural Language to SQL Translation
+AU  - Yuankai Fan
+AU  - Zhenying He
+AU  - Tonghui Ren
+AU  - Can Huang
+AU  - Yinan Jing
+AU  - Kai Zhang
+AU  - X. Sean Wang
+PY  - 2024
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde60146.2024.00143
+M3  - conference-paper
+UR  - https://openalex.org/W4400909496
+N1  - snowballing forward from R00131, R00292, R00868
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00229
+N1  - sr-screener TA [R00229]: INCLUDE (Include) - Generate-then-rank candidate selection central; Spider evaluation | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - G3R: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-: A Graph-Guided Generate-and-Rerank Framework for Complex and Cross-domain Text-to-SQL Generation
+AU  - Yanzheng Xiang
+AU  - Qianwen Zhang
+AU  - Xu Zhang
+AU  - Zejie Liu
+AU  - Yunbo Cao
+AU  - Deyu Zhou
+PY  - 2023
+DO  - 10.18653/v1/2023.findings-acl.23
+M3  - conference-paper
+UR  - https://openalex.org/W4385569961
+N1  - snowballing forward from R00131, R01037
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00236
+N1  - sr-screener TA [R00236]: INCLUDE (Include) - Re-ranking candidate SQL central; Spider evaluation | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - JOUR
+TI  - Columns Occurrences Graph to Improve Column Prediction in Deep Learning Nlidb
+AU  - Shanza Abbas
+AU  - Muhammad Umair Khan
+AU  - Scott Uk-Jin Lee
+AU  - Asad Abbas
+PY  - 2021
+T2  - Applied Sciences
+DO  - 10.3390/app112412116
+M3  - article
+UR  - https://openalex.org/W4200152195
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00238
+N1  - sr-screener TA [R00238]: INCLUDE (Include) - Column prediction via co-occurrence is central; Spider | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Self-supervised Text-to-SQL Learning with Header Alignment Training
+AU  - Dong-Gyu Kim
+AU  - Seanie Lee
+PY  - 2021
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2103.06402
+M3  - preprint
+UR  - https://openalex.org/W3133919902
+N1  - snowballing forward from R00131
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00239
+N1  - sr-screener TA [R00239]: INCLUDE (Include) - Header-column alignment training central; single-turn linking | A: unclear/UNC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Grounding Natural Language to SQL Translation with Data-Based Self-Explanations
+AU  - Yuankai Fan
+AU  - Tonghui Ren
+AU  - Can Huang
+AU  - Zhenying He
+AU  - X. Sean Wang
+PY  - 2025
+T2  - Proceedings - International Conference on Data Engineering
+DO  - 10.1109/icde65448.2025.00010
+M3  - conference-paper
+UR  - https://openalex.org/W4413360856
+N1  - snowballing forward from R00238, R00868
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00244
+N1  - sr-screener TA [R00244]: INCLUDE (Include) - Iterative self-evaluation feedback loop; Spider benchmarks | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Hybrid Ranking Network for Text-to-SQL
+AU  - Qin Lyu
+AU  - Kaushik Chakrabarti
+AU  - Shobhit Hathi
+AU  - Souvik Kundu
+AU  - Jianwen Zhang
+AU  - Zheng Chen
+PY  - 2020
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.2008.04759
+M3  - preprint
+UR  - https://openalex.org/W3013119194
+N1  - snowballing backward from R00936
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00263
+N1  - sr-screener TA [R00263]: INCLUDE (Include) - Column-wise ranking (column selection) central, WikiSQL | A: include/INC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Global Reasoning over Database Structures for Text-to-SQL Parsing
+AU  - Ben Bogin
+AU  - Matt Gardner
+AU  - Jonathan Berant
+PY  - 2019
+T2  - arXiv (Cornell University)
+DO  - 10.48550/arxiv.1908.11214
+M3  - preprint
+UR  - https://openalex.org/W2970581545
+N1  - snowballing backward from R01029
+DB  - OpenAlex (snowballing)
+LB  - TA-Include
+ID  - R00266
+N1  - sr-screener TA [R00266]: INCLUDE (Include) - Global reasoning for selecting database constants, Spider | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL
+AU  - Yifu Liu
+AU  - Yin Zhu
+AU  - Yingqi Gao
+AU  - Zhiling Luo
+AU  - Xiaoxia Li
+AU  - Xiao-Rong Shi
+AU  - Yuntao Hong
+AU  - Jinyang Gao
+AU  - Yu Li
+AU  - Bolin Ding
+AU  - Jingren Zhou
+PY  - 2025
+T2  - IEEE Transactions on Knowledge and Data Engineering
+DO  - 10.1109/tkde.2026.3657851
+N1  - snowballing backward (Semantic Scholar supplement) from R00033, R00373, R00453
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00267
+N1  - sr-screener TA [R00267]: INCLUDE (Include) - Schema filter and candidate selection as contributions, BIRD/Spider | A: include/INC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CHESS: Contextual Harnessing for Efficient SQL Synthesis
+AU  - Shayan Talaei
+AU  - Mohammadreza Pourreza
+AU  - Yu-Chen Chang
+AU  - Azalia Mirhoseini
+AU  - Amin Saberi
+PY  - 2024
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2405.16755
+N1  - snowballing backward (Semantic Scholar supplement) from R00042, R00373, R00453, R00508
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00269
+N1  - sr-screener TA [R00269]: INCLUDE (Include) - Schema selector, iterative refinement and unit testing agents | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - Structure-Grounded Pretraining for Text-to-SQL
+AU  - Xiang Deng
+AU  - Ahmed Hassan Awadallah
+AU  - Christopher Meek
+AU  - Oleksandr Polozov
+AU  - Huan Sun
+AU  - Matthew Richardson
+PY  - 2020
+T2  - North American Chapter of the Association for Computational Linguistics
+DO  - 10.18653/v1/2021.naacl-main.105
+N1  - snowballing backward (Semantic Scholar supplement) from R00292
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00273
+N1  - sr-screener TA [R00273]: INCLUDE (Include) - Text-table alignment grounding of columns and values | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - CatSQL: Towards Real World Natural Language to SQL Applications
+AU  - Han Fu
+AU  - Chang Liu
+AU  - Bin Wu
+AU  - Feifei Li
+AU  - Jian Tan
+AU  - Jian-Ling Sun
+PY  - 2023
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3583140.3583165
+N1  - snowballing backward (Semantic Scholar supplement) from R00309
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00275
+N1  - sr-screener TA [R00275]: INCLUDE (Include) - Semantics Correction post-processing as stated contribution, Spider | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL
+AU  - Bing Wang
+AU  - Changyu Ren
+AU  - Jian Yang
+AU  - Xin-Nian Liang
+AU  - Jia-Qi Bai
+AU  - Lin-Zheng Chai
+AU  - Zhao Yan
+AU  - Qian-Wen Zhang
+AU  - Di Yin
+AU  - Xing Sun
+AU  - Zhou-Jun Li
+PY  - 2023
+T2  - International Conference on Computational Linguistics
+DO  - 10.48550/arxiv.2312.11242
+N1  - snowballing backward (Semantic Scholar supplement) from R00373, R00438, R00453
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00284
+N1  - sr-screener TA [R00284]: INCLUDE (Include) - Selector sub-database and Refiner agents for erroneous SQL | A: include/INC | B: include/INC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
+AU  - Yingqi Gao
+AU  - Yifu Liu
+AU  - Xiaoxia Li
+AU  - Xiao-Rong Shi
+AU  - Yin Zhu
+AU  - Yiming Wang
+AU  - Shiqi Li
+AU  - Wei Li
+AU  - Yuntao Hong
+AU  - Zhiling Luo
+AU  - Jinyang Gao
+AU  - Liyu Mou
+AU  - Yu Li
+PY  - 2024
+DO  - 10.48550/arxiv.2411.08599
+N1  - snowballing backward (Semantic Scholar supplement) from R00453
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00288
+N1  - sr-screener TA [R00288]: INCLUDE (Include) - Refiner correcting errors and candidate selection, BIRD/Spider | A: include/INC | B: unclear/UNC | by A+B
+ER  - 
+
+TY  - CPAPER
+TI  - ExeSQL: Self-Taught Text-to-SQL Models with Execution-Driven Bootstrapping for SQL Dialects
+AU  - Jipeng Zhang
+AU  - Haolin Yang
+AU  - Kehao Miao
+AU  - Ruiyuan Zhang
+AU  - Ren-Jie Pi
+AU  - Jia-Hui Gao
+AU  - Xiao-Fang Zhou
+PY  - 2025
+T2  - Conference on Empirical Methods in Natural Language Processing
+DO  - 10.48550/arxiv.2505.17231
+N1  - snowballing backward (Semantic Scholar supplement) from R00508
+DB  - Semantic Scholar (snowballing supplement)
+LB  - TA-Include
+ID  - R00291
+N1  - sr-screener TA [R00291]: INCLUDE (Include) - Execution-driven feedback and filtering central contribution | A: include/INC | B: unclear/UNC | by A+B
+ER  - 
+

@@ -1,0 +1,32 @@
+% Generado por analysis/src/tablas/tablas.py — no editar a mano.
+\begin{table*}[!tbp]
+\centering
+\caption{Criterios de elegibilidad del protocolo registrado (7 de inclusión y 9 de exclusión). Cada código EX$n$ corresponde al motivo de exclusión E$n$ del diagrama PRISMA.}
+\label{tab:criterios}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}l X l@{}}
+\toprule
+Código & Criterio & Fase en que se aplica \\
+\midrule
+\multicolumn{3}{@{}l}{\textit{Inclusión (se deben cumplir todos)}} \\
+IC1 & Estudio primario que propone, adapta o evalúa una técnica o un \textit{benchmark} de Text-to-SQL sobre bases de datos relacionales & --- \\
+IC2 & Multiturno: aborda al menos una de PI1--PI5. Un turno: aborda PI3 o PI4 como contribución central (D1). Los \textit{benchmarks} de un turno entran por PI3/PI4 (caso B4) & --- \\
+IC3 & Reporta una evaluación empírica cuantitativa & --- \\
+IC4 & Un turno: evalúa en al menos un \textit{benchmark} público (p. ej., Spider, BIRD, WikiSQL). Multiturno: cualquier evaluación, incluidos datos propietarios & --- \\
+IC5 & Publicado entre 2019-01-01 y la fecha de búsqueda & --- \\
+IC6 & Escrito en inglés o español. Los estudios en español se admiten si aparecen en la búsqueda (no hay cadena específica en español; ver limitaciones) & --- \\
+IC7 & Artículo completo revisado por pares (revista, conferencia, taller, incluidas las \textit{demo tracks}; $\geq$ 4 páginas de contenido) o preprint de arXiv sin versión revisada a la fecha de búsqueda & --- \\
+\addlinespace
+\multicolumn{3}{@{}l}{\textit{Exclusión (basta uno)}} \\
+EX1 & Publicado antes de 2019 & Metadatos \\
+EX2 & Escrito en un idioma distinto de inglés o español & Metadatos \\
+EX3 & Tipo no elegible: tesis, póster, solo resumen o resumen extendido, artículo de $<$ 4 páginas de contenido, editorial, prefacio/índice de actas, libro completo. \textit{(Los artículos de demo revisados por pares con evaluación cuantitativa no se excluyen aquí)} & Metadatos / texto completo \\
+EX4 & No es estudio primario: \textit{survey}, revisión, tutorial, posición & Título-resumen \\
+EX5 & No trata Text-to-SQL sobre BD relacionales: KGQA/SPARQL, Cypher, NoSQL, QA sobre tablas sin SQL, generación de código general. \textit{Excepción: se incluye si también evalúa en SQL relacional} & Título-resumen \\
+EX6 & Un solo turno y no declara PI3/PI4 como contribución central & Título-resumen (con regla de incertidumbre) \\
+EX7 & Sin evaluación empírica cuantitativa & Texto completo \\
+EX8 & Un solo turno sin evaluación en \textit{benchmark} público & Texto completo \\
+EX9 & Informe secundario de un estudio ya incluido (se vincula, no se cuenta aparte) & Deduplicación / texto completo \\
+\bottomrule
+\end{tabularx}
+\end{table*}

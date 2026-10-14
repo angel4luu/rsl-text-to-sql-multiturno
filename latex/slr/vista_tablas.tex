@@ -1,0 +1,64 @@
+% Vista previa de las tablas (Fase 11, paso 3); no forma parte del artículo.
+% =====================================================================
+% Revisión Sistemática de la Literatura (PRISMA 2020)
+% Clase IEEEtran (journal), español, biblatex estilo IEEE + biber.
+% Compilar desde la raíz del repo: make slr
+% =====================================================================
+\documentclass[journal]{IEEEtran}
+
+% --- Idioma y codificación ------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% es-noshorthands: evita conflictos de < > " con IEEEtran y tablas
+% es-tabla: "Tabla" en vez de "Cuadro"
+\usepackage[spanish,es-noshorthands,es-tabla]{babel}
+\usepackage[autostyle]{csquotes}
+
+% --- Bibliografía -----------------------------------------------------
+\PassOptionsToPackage{hyphens}{url} % URLs largas cortan en guiones (biblatex carga url)
+\usepackage[backend=biber,style=ieee,sorting=none,maxnames=6,minnames=3]{biblatex}
+\addbibresource{../../bib/referencias.bib}
+\addbibresource{../../bib/referencias_metodo.bib}   % generado: bib/scripts/construir_bib.py
+\addbibresource{../../bib/estudios_incluidos.bib}   % generado: estudios incluidos (390)
+
+% --- Figuras, tablas y matemáticas ------------------------------------
+\usepackage{graphicx}
+\graphicspath{{figuras/}}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb}
+\usepackage[detect-all,locale=DE]{siunitx} % coma decimal (convención en español)
+\usepackage{xcolor}
+\usepackage{microtype}
+
+% --- Enlaces y referencias cruzadas (cargar al final) -----------------
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish,capitalise,noabbrev]{cleveref}
+
+% --- Macros del proyecto -----------------------------------------------
+\newcommand{\en}[1]{\textit{#1}}             % término técnico en inglés
+\newcommand{\pendiente}[1]{\textcolor{red}{[PENDIENTE: #1]}}
+\input{../comun/metadatos}
+\renewcommand{\IEEEkeywordsname}{Palabras clave} % IEEEtran lo fija en inglés
+
+% =====================================================================
+\begin{document}
+\section*{Vista previa de tablas (generadas)}
+\input{tablas/relacionados}
+\clearpage
+\input{tablas/enmiendas}
+\clearpage
+\input{tablas/ia}
+\clearpage
+\input{tablas/d4}
+\input{tablas/calidad}
+\input{tablas/efectos}
+\clearpage
+\input{tablas/taxo-pi12}
+\input{tablas/contraste-pi34}
+\input{tablas/pi5}
+\clearpage
+\clearpage
+\printbibliography
+\end{document}

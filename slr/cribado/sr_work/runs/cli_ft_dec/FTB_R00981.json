@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00981@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00981",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL (SParC, CoSQL, Chase) with discourse context, schema linking and JOIN completion, evaluated quantitatively on public benchmarks, 2022 arXiv.",
+   "where": "p1 Abstract; p2 Introduction; p4-5 Methods 3.3-3.5; p5-6 Experiments, Tables 1-3, 5"
+  }
+ ],
+ "source": "cli:FTB_R00981.json"
+}

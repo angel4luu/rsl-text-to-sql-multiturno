@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00349@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00349",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn benchmark centred on table retrieval (table selection) for Text-to-SQL; evaluated on Spider and BIRD with execution accuracy.",
+   "where": "p1 Abstract; p3-4 Sec. 3 Tasks & Metrics, Text-to-SQL; Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00349.json"
+}

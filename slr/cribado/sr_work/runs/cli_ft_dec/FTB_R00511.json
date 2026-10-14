@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00511@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00511",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary multi-turn CoSQL study with multi-task training and schema-linking reranking, evaluated quantitatively (EM/EX) on the public CoSQL benchmark.",
+   "where": "p1 Abstract and Introduction; p2 Sec 2.2 Approach; p2 Sec 3.1 Datasets and Metrics"
+  }
+ ],
+ "source": "cli:FTB_R00511.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00361@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00361",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Evaluation is single-question on an internal 133-question benchmark only; follow-up chats are not evaluated and no public benchmark is used.",
+   "where": "p5 Section 3.1 Benchmark Definition; p6 Section 3.3 Results"
+  }
+ ],
+ "source": "cli:FTA_R00361.json"
+}

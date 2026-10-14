@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00644@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00644",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn table/column selection pipeline; excerpt omits pp5–8, so public-benchmark use and quantitative results cannot be verified (dataset is State Grid).",
+   "where": "p1 Abstract; p2 Contributions; experimental pages 5–8 missing from file"
+  }
+ ],
+ "source": "cli:FTB_R00644.json"
+}

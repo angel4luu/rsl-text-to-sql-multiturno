@@ -1,0 +1,16 @@
+{
+ "n": 292,
+ "both_advance": 63,
+ "both_exclude": 212,
+ "a_only_advance": 6,
+ "b_only_advance": 11,
+ "observed_agreement": 0.9418,
+ "kappa": 0.843,
+ "pabak": 0.884,
+ "conflicts": 17,
+ "resolved_by": {
+  "A+B": 260,
+  "AJE": 29,
+  "dedup": 3
+ }
+}

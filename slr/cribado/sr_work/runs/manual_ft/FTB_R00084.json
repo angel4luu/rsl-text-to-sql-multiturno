@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00084@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00084",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL; new SParC-CG/CoSQL-CG benchmarks and p-align method, with QM/IM accuracy results.",
+   "where": "p1-2 Introduction; p3-4 Benchmark construction; p5-7 Experiments (Tables 1-3)"
+  }
+ ],
+ "source_transcript": "agent-ac6a48e0506b640ed.jsonl"
+}

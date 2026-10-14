@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00294@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00294",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking and self-correction as stated contributions; evaluated on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Contributions; p6 Sec 4.4 Self-correction; p7 Sec 5.3-5.4 Datasets and Metrics"
+  }
+ ],
+ "source": "cli:FTB_R00294.json"
+}

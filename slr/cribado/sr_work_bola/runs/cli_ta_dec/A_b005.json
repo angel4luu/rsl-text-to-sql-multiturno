@@ -1,0 +1,306 @@
+{
+ "label": "A:b005@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00201",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM case study, no linking or correction focus"
+  },
+  {
+   "id": "R00202",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Column-name graph embeddings may serve schema linking; unclear if central"
+  },
+  {
+   "id": "R00203",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn question decomposition, not linking or correction"
+  },
+  {
+   "id": "R00204",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness feature augmentation"
+  },
+  {
+   "id": "R00205",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests schema mapping with SQL generation"
+  },
+  {
+   "id": "R00206",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Question-column alignment supervision; unclear if schema linking is central"
+  },
+  {
+   "id": "R00207",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Value extraction/incorporation; unclear if value linking is central"
+  },
+  {
+   "id": "R00208",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robust system; no linking or correction in title"
+  },
+  {
+   "id": "R00209",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial"
+  },
+  {
+   "id": "R00210",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn LLM comparison, no linking or correction"
+  },
+  {
+   "id": "R00211",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn case-based reasoning; no linking or correction"
+  },
+  {
+   "id": "R00212",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn answerability classification"
+  },
+  {
+   "id": "R00213",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn question rephrasing for untranslatable input"
+  },
+  {
+   "id": "R00214",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Value extraction/incorporation; unclear if value linking is central"
+  },
+  {
+   "id": "R00215",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn question intention classification benchmark"
+  },
+  {
+   "id": "R00216",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00217",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Dataset review"
+  },
+  {
+   "id": "R00218",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn architecture, no linking or correction focus"
+  },
+  {
+   "id": "R00219",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn translated dataset, not about linking"
+  },
+  {
+   "id": "R00220",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NLQ study for benchmarks"
+  },
+  {
+   "id": "R00221",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Visually grounded single-turn benchmark; no linking or correction"
+  },
+  {
+   "id": "R00222",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt design strategies, single-turn"
+  },
+  {
+   "id": "R00223",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Error feedback for data synthesis, not SQL correction"
+  },
+  {
+   "id": "R00224",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Comprehensive review"
+  },
+  {
+   "id": "R00225",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Model comparison, no linking or correction in title"
+  },
+  {
+   "id": "R00226",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn decoding method"
+  },
+  {
+   "id": "R00227",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn EMR dataset and translate-edit model"
+  },
+  {
+   "id": "R00228",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation dataset"
+  },
+  {
+   "id": "R00229",
+   "d": "include",
+   "code": "INC",
+   "why": "Generate-then-rank candidate selection central; Spider evaluation"
+  },
+  {
+   "id": "R00230",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review"
+  },
+  {
+   "id": "R00231",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Interactive user feedback learning; unclear if dependent successive questions"
+  },
+  {
+   "id": "R00232",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generalization tokenization techniques, single-turn"
+  },
+  {
+   "id": "R00233",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-driven single-turn; no linking or correction in title"
+  },
+  {
+   "id": "R00234",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00235",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Recursive nested SQL decoding, single-turn"
+  },
+  {
+   "id": "R00236",
+   "d": "include",
+   "code": "INC",
+   "why": "Re-ranking candidate SQL central; Spider evaluation"
+  },
+  {
+   "id": "R00237",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00238",
+   "d": "include",
+   "code": "INC",
+   "why": "Column prediction via co-occurrence is central; Spider"
+  },
+  {
+   "id": "R00239",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Header-column alignment pretraining; unclear if schema linking central"
+  },
+  {
+   "id": "R00240",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Vietnamese PLM comparison, single-turn"
+  },
+  {
+   "id": "R00241",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Decomposed two-stage; unclear if schema linking is the first stage"
+  },
+  {
+   "id": "R00242",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Nested query system, single-turn"
+  },
+  {
+   "id": "R00243",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn medical model, no linking or correction"
+  },
+  {
+   "id": "R00244",
+   "d": "include",
+   "code": "INC",
+   "why": "Iterative self-evaluation feedback loop; Spider benchmarks"
+  },
+  {
+   "id": "R00245",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn NLIDB system description"
+  },
+  {
+   "id": "R00246",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SPARQL knowledge graph QA benchmark"
+  },
+  {
+   "id": "R00247",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn application system description"
+  },
+  {
+   "id": "R00248",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Reinforcement-learning fine-tuning, single-turn"
+  },
+  {
+   "id": "R00249",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain fine-tuning pilot, single-turn"
+  },
+  {
+   "id": "R00250",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain fine-tuning pilot, single-turn"
+  }
+ ],
+ "source": "cli:A_b005.json"
+}

@@ -1,0 +1,2090 @@
+[
+ {
+  "label": "FTA:R00012@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00012.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00012@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00012.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00019@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00019.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00019@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00019.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00027@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00027.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00027@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00027.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00032@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00032.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00032@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00032.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00040@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00040.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00040@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00040.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00042@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00042.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00042@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00042.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00043@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00043.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00043@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00043.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00049@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00049.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00049@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00049.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00050@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00050.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00050@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00050.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00053@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00053.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00053@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00053.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00072@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00072.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00072@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00072.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00074@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00074.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00074@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00074.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00086@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00086.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00086@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00086.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00088@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00088.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00088@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00088.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00090@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00090.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00090@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00090.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00095@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00095.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00095@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00095.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00101@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00101.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00101@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00101.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00104@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00104.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00104@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00104.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00109@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00109.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00109@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00109.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00112@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00112.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00112@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00112.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00116@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00116.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00116@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00116.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00119@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00119.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00119@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00119.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00131@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00131.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00131@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00131.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00146@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00146.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00146@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00146.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00174@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00174.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00174@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00174.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00184@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00184.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00184@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00184.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00196@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00196.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00196@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00196.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00197@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00197.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00197@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00197.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00200@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00200.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00200@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00200.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00202@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00202.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00202@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00202.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00206@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00206.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00206@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00206.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00207@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00207.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00207@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00207.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00214@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00214.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00214@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00214.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00229@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00229.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00229@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00229.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00236@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00236.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00236@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00236.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00238@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00238.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00238@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00238.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00239.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00239@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00239.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00241@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00241.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00241@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00241.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00244@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00244.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00244@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00244.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00253@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00253.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00253@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00253.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00260@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00260.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00260@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00260.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00263@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00263.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00263@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00263.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00264.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00264@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00264.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00266@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00266.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00266@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00266.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00267@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00267.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00267@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00267.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00268@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00268.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00268@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00268.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00269@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00269.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00269@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00269.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00270@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00270.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00270@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00270.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00273@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00273.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00273@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00273.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00281@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00281.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00281@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00281.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00282@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00282.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00282@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00282.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00284@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00284.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00284@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00284.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00286.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00286@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00286.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00287@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00287.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00287@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00287.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00288@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00288.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00288@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00288.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00289.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00289.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00291@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00291.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00291@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00291.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTA:R00292@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTA_R00292.txt",
+  "model": "sonnet"
+ },
+ {
+  "label": "FTB:R00292@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+  "context": {
+   "review_id": "5f199c73-3e5f-4298-aeec-510c59b2b022",
+   "dataset": "6eae4a9ae8cf50be741644e9637836a57bbd202fcfa6c0ee0a5aab672aee4ab8",
+   "stage": "ft",
+   "protocol_hash": "a691f7638b741caa8d79708359aa7fdc19970663eb5e1fcd72b092256677d8ca",
+   "config_hash": "60d78dd2e64891b316012c7fe298587338a3e62435bc0a60b49b32337438b0c9",
+   "input_hash": "7ae3c6a3f5827bb652b00ac4f49a4370f0cd8562d2b394d39fe1eea654a7d730",
+   "content_id": "1e57012b0a1e71b3ad9a18c9e48917d1183554d502951891e9dbd7cd7341999f",
+   "config_scope": "stage-v1",
+   "revision": 1,
+   "protocol_path": "slr/protocolo/screening_protocol.md",
+   "context_id": "e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751"
+  },
+  "prompt_file": "slr/cribado/sr_work_bola/prompts_ft/FTB_R00292.txt",
+  "model": "sonnet"
+ }
+]

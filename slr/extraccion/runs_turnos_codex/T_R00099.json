@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00099\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"PREDICHO\",\"nota\":\"La figura 5 presenta JGA por turno en MultiWOZ 2.4, sin valores numéricos impresos; se omiten sus curvas conforme a las instrucciones.\",\"ubic\":\"páginas 1, 6–7; figura 5\"}}]}",
+  "_label": "TURNOS:R00099"
+}

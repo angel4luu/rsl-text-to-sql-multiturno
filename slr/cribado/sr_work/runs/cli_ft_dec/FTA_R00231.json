@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00231@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00231",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Intent-classification and API/app/RAG routing system; NL2SQL is only one unevaluated module, with no SQL-generation metrics.",
+   "where": "p2 Methodology §2.1 step 5; p3-4 Experimental Verification, Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00231.json"
+}

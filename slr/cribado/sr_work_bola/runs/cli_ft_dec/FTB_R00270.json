@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00270@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00270",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL dataset centred on entity/value linking; quantitative results on TableQA and WikiSQL with SQLNet/SQLova.",
+   "where": "p1 Abstract and Introduction; p6-7 Section 5 Experiments, Tables 3-4"
+  }
+ ],
+ "source": "cli:FTB_R00270.json"
+}

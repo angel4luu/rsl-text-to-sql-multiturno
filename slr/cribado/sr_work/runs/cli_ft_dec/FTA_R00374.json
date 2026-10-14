@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00374@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00374",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn sharded Spider Text-to-SQL; turn-level feedback-driven prompt refinement; quantitative functional accuracy results, multiple LLMs.",
+   "where": "p5 Sec 4.1 Text-to-SQL; p6-7 Sec 5.1, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00374.json"
+}

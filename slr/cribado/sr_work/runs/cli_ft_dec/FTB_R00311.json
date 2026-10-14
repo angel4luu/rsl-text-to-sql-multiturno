@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00311@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00311",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn clarification dialogues for text-to-SQL (AmbigSQL, derived from Spider) with turn- and trajectory-level execution-match evaluation; 2024 arXiv preprint.",
+   "where": "p7-8 Sec 4.1.3 AmbigSQL; p9 Sec 4.2; p10 Table 3"
+  }
+ ],
+ "source": "cli:FTB_R00311.json"
+}

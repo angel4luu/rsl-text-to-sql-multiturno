@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00174@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00174",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn pilot of a governed NL-to-SQL deployment; schema linking and self-correction are not stated contributions, and the exchanges are clarifications of one question.",
+   "where": "p1 Abstract; p2 Introduction, contributions paragraph"
+  }
+ ],
+ "source": "cli:FTB_R00174.json"
+}

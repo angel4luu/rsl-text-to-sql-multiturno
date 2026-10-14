@@ -1,0 +1,306 @@
+{
+ "label": "B:b006@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00251",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL2SQL error repair user study; unclear if repair is central contribution"
+  },
+  {
+   "id": "R00252",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Semi-structured table QA, not SQL"
+  },
+  {
+   "id": "R00253",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Graph query language (NL2GQL), not relational SQL"
+  },
+  {
+   "id": "R00254",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Text2SQL dialogue robot; unclear whether multi-turn or evaluated"
+  },
+  {
+   "id": "R00255",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00256",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn generalization dataset, not linking or correction"
+  },
+  {
+   "id": "R00257",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00258",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2014"
+  },
+  {
+   "id": "R00259",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn evaluation toolbox, not linking or correction"
+  },
+  {
+   "id": "R00260",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn domain instruction tuning and data generation"
+  },
+  {
+   "id": "R00261",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2012"
+  },
+  {
+   "id": "R00262",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Slot filling graph matching, not Text-to-SQL"
+  },
+  {
+   "id": "R00263",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge augmented RAG, not Text-to-SQL"
+  },
+  {
+   "id": "R00264",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Short video title text similarity, not Text-to-SQL"
+  },
+  {
+   "id": "R00265",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge base question answering, not SQL"
+  },
+  {
+   "id": "R00266",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Moving objects database interface, not relational SQL"
+  },
+  {
+   "id": "R00267",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generic DSL code generation"
+  },
+  {
+   "id": "R00268",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph financial QA, not Text-to-SQL"
+  },
+  {
+   "id": "R00269",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table QA on WikiSQL without SQL; column extraction; target unclear"
+  },
+  {
+   "id": "R00270",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00271",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Visualization question answering, not SQL"
+  },
+  {
+   "id": "R00272",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2015"
+  },
+  {
+   "id": "R00273",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00274",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2011"
+  },
+  {
+   "id": "R00275",
+   "d": "include",
+   "code": "INC",
+   "why": "Join path inference and keyword mapping for NLIDB, evaluated"
+  },
+  {
+   "id": "R00276",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Pre-training with text-schema linking objective; central role unclear"
+  },
+  {
+   "id": "R00277",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn robustness via data augmentation, not linking"
+  },
+  {
+   "id": "R00278",
+   "d": "include",
+   "code": "INC",
+   "why": "Keyword mapping to schema elements in relational NLIDBs"
+  },
+  {
+   "id": "R00279",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking annotation and analysis on Spider"
+  },
+  {
+   "id": "R00280",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Simple single-turn NL-to-SQL model, no linking focus"
+  },
+  {
+   "id": "R00281",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema dependency learning for question-schema interaction; linking centrality unclear"
+  },
+  {
+   "id": "R00282",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and column selection task on Spider"
+  },
+  {
+   "id": "R00283",
+   "d": "include",
+   "code": "INC",
+   "why": "Question-schema linking graph aggregation, evaluated on Spider"
+  },
+  {
+   "id": "R00284",
+   "d": "include",
+   "code": "INC",
+   "why": "Linking-enhanced pre-training on Spider"
+  },
+  {
+   "id": "R00285",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Next-step query recommendation over relational DB; multi-turn dependence unclear"
+  },
+  {
+   "id": "R00286",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn text-to-SQL with context encoding and JOIN completion"
+  },
+  {
+   "id": "R00287",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Task-oriented dialogue representation language, not SQL"
+  },
+  {
+   "id": "R00288",
+   "d": "include",
+   "code": "INC",
+   "why": "Session-level multi-turn Chinese text-to-SQL dataset"
+  },
+  {
+   "id": "R00289",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey"
+  },
+  {
+   "id": "R00290",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Foreign key context among components; join centrality unclear"
+  },
+  {
+   "id": "R00291",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Monograph surveying NL interfaces"
+  },
+  {
+   "id": "R00292",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "ChatGPT evaluation on 12 benchmarks; multi-turn inclusion unclear"
+  },
+  {
+   "id": "R00293",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-debugging with execution feedback, evaluated on Spider"
+  },
+  {
+   "id": "R00294",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correction in decomposed Text-to-SQL, Spider and BIRD"
+  },
+  {
+   "id": "R00295",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-dependent text-to-SQL augmentation on SParC and CoSQL"
+  },
+  {
+   "id": "R00296",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback selection and schema element selection, Spider and BIRD"
+  },
+  {
+   "id": "R00297",
+   "d": "include",
+   "code": "INC",
+   "why": "Database schema pruning for Text-to-SQL on Spider"
+  },
+  {
+   "id": "R00298",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Table and column selection guides decoder; centrality unclear"
+  },
+  {
+   "id": "R00299",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn documentation for data ambiguity, not linking"
+  },
+  {
+   "id": "R00300",
+   "d": "include",
+   "code": "INC",
+   "why": "Query rewriting and SQL boosting with execution feedback"
+  }
+ ],
+ "source_transcript": "agent-aff4ea910265ee3fd.jsonl"
+}

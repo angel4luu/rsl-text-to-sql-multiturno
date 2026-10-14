@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00491@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00491",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL benchmark (TIDE-Bench, built on BIRD) with quantitative evaluation of 12 LLMs on dialogue-state drift and clarification.",
+   "where": "p1 Abstract; p3-4 §3 Construction; p5-6 §4-5 Evaluation protocol and results (Table 3)"
+  }
+ ],
+ "source": "cli:FTB_R00491.json"
+}

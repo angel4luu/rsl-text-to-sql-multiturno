@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00072@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00072",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL (context via SQL edits), 2024 NAACL, quantitative evaluation on SParC and CoSQL",
+   "where": "p1 Abstract/Introduction; p5-7 Sec 4 Experiments, Tables 3-5"
+  }
+ ],
+ "source_transcript": "agent-aa340d8821bb0caf7.jsonl"
+}

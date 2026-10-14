@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00868@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00868",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL (question rewriting, turn switch, related schema prediction); quantitative evaluation on SparC and CoSQL; AAAI 2023 paper.",
+   "where": "p1 Abstract; p2 Introduction and Figure 2; p4 Experiments; p5 Tables 2-3"
+  }
+ ],
+ "source": "cli:FTA_R00868.json"
+}

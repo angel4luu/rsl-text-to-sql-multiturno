@@ -1,0 +1,24 @@
+{
+ "label": "ADJ:b001@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00012",
+   "d": "exclude",
+   "code": "E6",
+   "why": "No abstract; title names graph-encoder model, no multi-turn, linking or correction focus"
+  },
+  {
+   "id": "R00019",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn Spider; unclear if Consistent Output is a central candidate-selection contribution"
+  },
+  {
+   "id": "R00049",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn Spider; syntax injected into question-schema interaction graph, linking possibly central"
+  }
+ ],
+ "source": "cli:ADJ_b001.json"
+}

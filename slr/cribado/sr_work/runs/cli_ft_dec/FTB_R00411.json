@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00411@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00411",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn table retrieval/schema linking with join connectivity as central contribution; capped recall evaluated on BIRD, BEAVER and FIBEN.",
+   "where": "p1 Abstract/Introduction; p4-5 Sec. 5.2 Datasets and Metrics, Sec. 6.1 Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00411.json"
+}

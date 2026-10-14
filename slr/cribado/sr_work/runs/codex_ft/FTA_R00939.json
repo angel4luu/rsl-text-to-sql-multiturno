@@ -1,0 +1,1 @@
+{"label": "FTA:R00939@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00939", "d": "unclear", "code": "UNC", "why": "Schema pruning is central, but the incomplete extract omits experimental results needed to verify quantitative evaluation.", "where": "pp17–18, §4 Experiments; pp19–33 omitted"}], "source": "codex:gpt-6.1-sol"}

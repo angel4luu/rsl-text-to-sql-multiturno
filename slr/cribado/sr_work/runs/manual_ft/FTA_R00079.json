@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00079@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00079",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn EHR Text-to-SQL dataset with coreference/context tokens, per-turn metrics (QM/IM), quantitative experiments; 2024 ACL Findings.",
+   "where": "p1 Abstract; p3-4 Sec 3 Data Construction; p5-8 Sec 4-5 Experiments, Tables 3-5"
+  }
+ ],
+ "source_transcript": "agent-a0a345a4a80db697f.jsonl"
+}

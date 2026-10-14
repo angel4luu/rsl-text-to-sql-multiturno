@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00155@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00155",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking as central contribution; quantitative evaluation on BIRD and Spider; English, 2025 paper.",
+   "where": "p1 Abstract; p2 Introduction; p10-11 Section 4.2-4.3 Tables 2-7"
+  }
+ ],
+ "source": "cli:FTA_R00155.json"
+}

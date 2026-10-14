@@ -1,0 +1,572 @@
+[
+ {
+  "id": "Q001",
+  "brazo": "multiturno",
+  "titulo": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases",
+  "anio": 2019,
+  "venue": "",
+  "doi": "10.18653/v1/d19-1204",
+  "openalex_titulo": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q002",
+  "brazo": "multiturno",
+  "titulo": "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions",
+  "anio": 2019,
+  "venue": "",
+  "doi": "10.18653/v1/d19-1537",
+  "openalex_titulo": "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q003",
+  "brazo": "multiturno",
+  "titulo": "How Far are We from Effective Context Modeling? An Exploratory Study on Semantic Parsing in Context",
+  "anio": 2020,
+  "venue": "International Joint Conference on Artificial Intelligence",
+  "doi": "10.24963/ijcai.2020/495",
+  "openalex_titulo": "How Far are We from Effective Context Modeling? An Exploratory Study on Semantic Parsing in Context",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q004",
+  "brazo": "multiturno",
+  "titulo": "PG-GSQL: Pointer-Generator Network with Guide Decoding for Cross-Domain Context-Dependent Text-to-SQL Generation",
+  "anio": 2020,
+  "venue": "International Conference on Computational Linguistics",
+  "doi": "10.18653/v1/2020.coling-main.33",
+  "openalex_titulo": "PG-GSQL: Pointer-Generator Network with Guide Decoding for Cross-Domain Context-Dependent Text-to-SQL Generation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q005",
+  "brazo": "multiturno",
+  "titulo": "A Multiple-Integration Encoder for Multi-Turn Text-to-SQL Semantic Parsing",
+  "anio": 2021,
+  "venue": "IEEE/ACM Transactions on Audio Speech and Language Processing",
+  "doi": "10.1109/taslp.2021.3070726",
+  "openalex_titulo": "A Multiple-Integration Encoder for Multi-Turn Text-to-SQL Semantic Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q006",
+  "brazo": "multiturno",
+  "titulo": "An interaction-modeling mechanism for context-dependent Text-to-SQL translation based on heterogeneous graph aggregation",
+  "anio": 2021,
+  "venue": "Neural Networks",
+  "doi": "10.1016/j.neunet.2021.07.014",
+  "openalex_titulo": "An interaction-modeling mechanism for context-dependent Text-to-SQL translation based on heterogeneous graph aggregation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q007",
+  "brazo": "multiturno",
+  "titulo": "Capturing SQL Query Overlapping via Subtree Copy for Cross-Domain Context-Dependent SQL Generation",
+  "anio": 2021,
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-030-75765-6_53",
+  "openalex_titulo": "Capturing SQL Query Overlapping via Subtree Copy for Cross-Domain Context-Dependent SQL Generation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q008",
+  "brazo": "multiturno",
+  "titulo": "Chase: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL",
+  "anio": 2021,
+  "venue": "",
+  "doi": "10.18653/v1/2021.acl-long.180",
+  "openalex_titulo": "Chase: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q009",
+  "brazo": "multiturno",
+  "titulo": "Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL",
+  "anio": 2021,
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2106.02282",
+  "openalex_titulo": "Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q010",
+  "brazo": "multiturno",
+  "titulo": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+  "anio": 2021,
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2101.01686",
+  "openalex_titulo": "Dynamic Hybrid Relation Network for Cross-Domain Context-Dependent Semantic Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q011",
+  "brazo": "multiturno",
+  "titulo": "Memory-Based Semantic Parsing",
+  "anio": 2021,
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "doi": "10.1162/tacl_a_00422",
+  "openalex_titulo": "Memory-Based Semantic Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q012",
+  "brazo": "multiturno",
+  "titulo": "SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing",
+  "anio": 2021,
+  "venue": "International Conference on Learning Representations",
+  "doi": "",
+  "openalex_titulo": "SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q013",
+  "brazo": "multiturno",
+  "titulo": "CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers",
+  "anio": 2022,
+  "venue": "",
+  "doi": "10.18653/v1/2022.findings-emnlp.150",
+  "openalex_titulo": "CQR-SQL: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q014",
+  "brazo": "multiturno",
+  "titulo": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
+  "anio": 2022,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2022",
+  "doi": "10.18653/v1/2022.findings-acl.236",
+  "openalex_titulo": "HIE-SQL: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q015",
+  "brazo": "multiturno",
+  "titulo": "STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing",
+  "anio": 2022,
+  "venue": "",
+  "doi": "10.18653/v1/2022.findings-emnlp.89",
+  "openalex_titulo": "STAR: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q016",
+  "brazo": "multiturno",
+  "titulo": "Context-Dependent Text-to-SQL Generation with Intermediate Representation",
+  "anio": 2023,
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-981-99-7019-3_21",
+  "openalex_titulo": "Context-Dependent Text-to-SQL Generation with Intermediate Representation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q017",
+  "brazo": "multiturno",
+  "titulo": "Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead",
+  "anio": 2023,
+  "venue": "IEEE International Conference on Acoustics Speech and Signal Processing",
+  "doi": "10.1109/icassp49357.2023.10096170",
+  "openalex_titulo": "Conversational Text-to-SQL: An Odyssey into State-of-the-Art and Challenges Ahead",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q018",
+  "brazo": "multiturno",
+  "titulo": "DIR: A Large-Scale Dialogue Rewrite Dataset for Cross-Domain Conversational Text-to-SQL",
+  "anio": 2023,
+  "venue": "Applied Sciences",
+  "doi": "10.3390/app13042262",
+  "openalex_titulo": "DIR: A Large-Scale Dialogue Rewrite Dataset for Cross-Domain Conversational Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q019",
+  "brazo": "multiturno",
+  "titulo": "Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing",
+  "anio": 2023,
+  "venue": "",
+  "doi": "10.18653/v1/2023.findings-acl.43",
+  "openalex_titulo": "Exploring the Compositional Generalization in Context Dependent Text-to-SQL Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q020",
+  "brazo": "multiturno",
+  "titulo": "QURG: Question Rewriting Guided Context-Dependent Text-to-SQL Semantic Parsing",
+  "anio": 2023,
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-981-99-7022-3_24",
+  "openalex_titulo": "QURG: Question Rewriting Guided Context-Dependent Text-to-SQL Semantic Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q021",
+  "brazo": "multiturno",
+  "titulo": "SeSQL: A High-Quality Large-Scale Session-Level Chinese Text-to-SQL Dataset",
+  "anio": 2023,
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-3-031-44693-1_42",
+  "openalex_titulo": "SeSQL: A High-Quality Large-Scale Session-Level Chinese Text-to-SQL Dataset",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q022",
+  "brazo": "multiturno",
+  "titulo": "ConDA: state-based data augmentation for context-dependent text-to-SQL",
+  "anio": 2024,
+  "venue": "International Journal of Machine Learning and Cybernetics",
+  "doi": "10.1007/s13042-023-02086-z",
+  "openalex_titulo": "ConDA: state-based data augmentation for context-dependent text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q023",
+  "brazo": "multiturno",
+  "titulo": "GAT-SQL: An Advanced Prompt Engineering Approach for Effective Text-to-SQL Interactions",
+  "anio": 2024,
+  "venue": "IEEE Congress on Evolutionary Computation (CEC)",
+  "doi": "10.1109/cec60901.2024.10611969",
+  "openalex_titulo": "GAT-SQL: An Advanced Prompt Engineering Approach for Effective Text-to-SQL Interactions",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q024",
+  "brazo": "multiturno",
+  "titulo": "Learn From Mistakes: Guidance on Zero-shot Conversational Text-to-SQL",
+  "anio": 2024,
+  "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+  "doi": "10.1145/3627673.3679951",
+  "openalex_titulo": "Learn From Mistakes: Guidance on Zero-shot Conversational Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q025",
+  "brazo": "multiturno",
+  "titulo": "SE-HCL: Schema Enhanced Hybrid Curriculum Learning for Multi-Turn Text-to-SQL",
+  "anio": 2024,
+  "venue": "IEEE Access",
+  "doi": "10.1109/access.2024.3365522",
+  "openalex_titulo": "SE-HCL: Schema Enhanced Hybrid Curriculum Learning for Multi-Turn Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q026",
+  "brazo": "multiturno",
+  "titulo": "Advancing Conversational Text-to-SQL: Context Strategies and Model Integration with Large Language Models",
+  "anio": 2025,
+  "venue": "Future Internet",
+  "doi": "10.3390/fi17110527",
+  "openalex_titulo": "Advancing Conversational Text-to-SQL: Context Strategies and Model Integration with Large Language Models",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q027",
+  "brazo": "multiturno",
+  "titulo": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+  "anio": 2025,
+  "venue": "",
+  "doi": "10.1109/ijcnn64981.2025.11228279",
+  "openalex_titulo": "Evaluating and Enhancing LLMs for Multi-turn Text-to-SQL with Multiple Question Types",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q028",
+  "brazo": "multiturno",
+  "titulo": "MTSL-SQL: Multi-Turn Schema Linking for Context-dependent Text-to-SQL Paring with Open-Source LLMs",
+  "anio": 2025,
+  "venue": "Asian Conference on Artificial Intelligence Technology (ACAIT)",
+  "doi": "10.1109/acait67930.2025.11522618",
+  "openalex_titulo": "MTSL-SQL: Multi-Turn Schema Linking for Context-dependent Text-to-SQL Paring with Open-Source LLMs",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q029",
+  "brazo": "multiturno",
+  "titulo": "Prism-SQL: A Self-Judging Dual-Path Refraction Framework for Multi-Turn Text-to-SQL",
+  "anio": 2025,
+  "venue": "International Conference on Intelligent Computing and Human-Computer Interaction (ICHCI)",
+  "doi": "10.1109/ichci67614.2025.11291703",
+  "openalex_titulo": "Prism-SQL: A Self-Judging Dual-Path Refraction Framework for Multi-Turn Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q030",
+  "brazo": "multiturno",
+  "titulo": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+  "anio": 2025,
+  "venue": "",
+  "doi": "10.1109/ijcnn64981.2025.11228397",
+  "openalex_titulo": "Prompt Engineering Techniques for Context-dependent Text-to-SQL in Arabic",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q031",
+  "brazo": "multiturno",
+  "titulo": "ARE SQL for improving semantic alignment in Chinese multi round text to SQL parsing",
+  "anio": 2026,
+  "venue": "Discover Computing",
+  "doi": "10.1007/s10791-026-10106-z",
+  "openalex_titulo": "ARE SQL for improving semantic alignment in Chinese multi round text to SQL parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q032",
+  "brazo": "multiturno",
+  "titulo": "Bridge-SQL: Bridging Single- and Multi-Turn Text-to-SQL via Preference-Aligned Question Rewriting",
+  "anio": 2026,
+  "venue": "Lecture notes in computer science",
+  "doi": "10.1007/978-981-92-0372-7_8",
+  "openalex_titulo": "Bridge-SQL: Bridging Single- and Multi-Turn Text-to-SQL via Preference-Aligned Question Rewriting",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q101",
+  "brazo": "un_turno",
+  "titulo": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+  "anio": 2020,
+  "venue": "ACL",
+  "doi": "10.18653/v1/2020.acl-main.677",
+  "openalex_titulo": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q102",
+  "brazo": "un_turno",
+  "titulo": "Re-examining the Role of Schema Linking in Text-to-SQL",
+  "anio": 2020,
+  "venue": "EMNLP",
+  "doi": "10.18653/v1/2020.emnlp-main.564",
+  "openalex_titulo": "Re-examining the Role of Schema Linking in Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q103",
+  "brazo": "un_turno",
+  "titulo": "A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing",
+  "anio": 2020,
+  "venue": "COLING",
+  "doi": "10.18653/v1/2020.coling-main.260",
+  "openalex_titulo": "A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q104",
+  "brazo": "un_turno",
+  "titulo": "SADGA: Structure-Aware Dual Graph Aggregation Network for Text-to-SQL",
+  "anio": 2021,
+  "venue": "NeurIPS",
+  "doi": "10.48550/arxiv.2111.00653",
+  "openalex_titulo": "SADGA: Structure-Aware Dual Graph Aggregation Network for Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q105",
+  "brazo": "un_turno",
+  "titulo": "ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser",
+  "anio": 2021,
+  "venue": "NAACL",
+  "doi": "10.18653/v1/2021.naacl-main.441",
+  "openalex_titulo": "ShadowGNN: Graph Projection Neural Network for Text-to-SQL Parser",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q106",
+  "brazo": "un_turno",
+  "titulo": "An Investigation Between Schema Linking and Text-to-SQL Performance",
+  "anio": 2021,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2102.01847",
+  "openalex_titulo": "An Investigation Between Schema Linking and Text-to-SQL Performance",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q107",
+  "brazo": "un_turno",
+  "titulo": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+  "anio": 2019,
+  "venue": "EMNLP",
+  "doi": "10.18653/v1/d19-1378",
+  "openalex_titulo": "Global Reasoning over Database Structures for Text-to-SQL Parsing",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q108",
+  "brazo": "un_turno",
+  "titulo": "Bertrand-DR: Improving Text-to-SQL using a Discriminative Re-ranker",
+  "anio": 2020,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2002.00557",
+  "openalex_titulo": "Bertrand-DR: Improving Text-to-SQL using a Discriminative Re-ranker",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q109",
+  "brazo": "un_turno",
+  "titulo": "GuideSQL: Utilizing Tables to Guide the Prediction of Columns for Text-to-SQL Generation",
+  "anio": 2020,
+  "venue": "IJCNN",
+  "doi": "10.1109/ijcnn48605.2020.9206700",
+  "openalex_titulo": "GuideSQL: Utilizing Tables to Guide the Prediction of Columns for Text-to-SQL Generation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q110",
+  "brazo": "un_turno",
+  "titulo": "Improving Text-to-SQL with Schema Dependency Learning",
+  "anio": 2021,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2103.04399",
+  "openalex_titulo": "Improving Text-to-SQL with Schema Dependency Learning",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q111",
+  "brazo": "un_turno",
+  "titulo": "C3: Zero-shot Text-to-SQL with ChatGPT",
+  "anio": 2023,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2307.07306",
+  "openalex_titulo": "C3: Zero-shot Text-to-SQL with ChatGPT",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q112",
+  "brazo": "un_turno",
+  "titulo": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+  "anio": 2023,
+  "venue": "COLING",
+  "doi": "10.48550/arxiv.2312.11242",
+  "openalex_titulo": "MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q113",
+  "brazo": "un_turno",
+  "titulo": "CHESS: Contextual Harnessing for Efficient SQL Synthesis",
+  "anio": 2024,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2405.16755",
+  "openalex_titulo": "CHESS: Contextual Harnessing for Efficient SQL Synthesis",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q114",
+  "brazo": "un_turno",
+  "titulo": "RSL-SQL: Robust Schema Linking in Text-to-SQL Generation",
+  "anio": 2024,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2411.00073",
+  "openalex_titulo": "RSL-SQL: Robust Schema Linking in Text-to-SQL Generation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q115",
+  "brazo": "un_turno",
+  "titulo": "LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL",
+  "anio": 2025,
+  "venue": "arXiv",
+  "doi": "10.18653/v1/2025.emnlp-main.51",
+  "openalex_titulo": "LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q116",
+  "brazo": "un_turno",
+  "titulo": "TA-SQL: Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation",
+  "anio": 2024,
+  "venue": "Findings ACL",
+  "doi": "10.18653/v1/2024.findings-acl.324",
+  "openalex_titulo": "Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation",
+  "similitud": "0.97"
+ },
+ {
+  "id": "Q117",
+  "brazo": "un_turno",
+  "titulo": "The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models",
+  "anio": 2024,
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2408.07702",
+  "openalex_titulo": "The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q118",
+  "brazo": "un_turno",
+  "titulo": "E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL",
+  "anio": 2024,
+  "venue": "arXiv",
+  "doi": "10.48550/arxiv.2409.16751",
+  "openalex_titulo": "E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q119",
+  "brazo": "un_turno",
+  "titulo": "MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection for Text-to-SQL Generation",
+  "anio": 2024,
+  "venue": "COLING",
+  "doi": "10.48550/arxiv.2405.07467",
+  "openalex_titulo": "MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q120",
+  "brazo": "un_turno",
+  "titulo": "CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL",
+  "anio": 2024,
+  "venue": "ICLR",
+  "doi": "10.48550/arxiv.2410.01943",
+  "openalex_titulo": "CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q121",
+  "brazo": "un_turno",
+  "titulo": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency",
+  "anio": 2026,
+  "venue": "arXiv",
+  "doi": "10.1007/978-981-95-3830-0_13",
+  "openalex_titulo": "PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-Consistency",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q122",
+  "brazo": "un_turno",
+  "titulo": "Prompting GPT-3.5 for Text-to-SQL with De-semanticization and Skeleton Retrieval",
+  "anio": 2023,
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2304.13301",
+  "openalex_titulo": "Prompting GPT-3.5 for Text-to-SQL with De-semanticization and Skeleton Retrieval",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q123",
+  "brazo": "un_turno",
+  "titulo": "R³: \"This is My SQL, Are You With Me?\" A Consensus-Based Multi-Agent System for Text-to-SQL Tasks (v1 titulada «SQL-CRAFT: Text-to-SQL through Interactive Refinement and Enhanced Reasoning»)",
+  "anio": 2024,
+  "venue": "arXiv",
+  "doi": "10.48550/arXiv.2402.14851",
+  "openalex_titulo": "SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL (extended)",
+  "similitud": "0.33"
+ },
+ {
+  "id": "Q124",
+  "brazo": "un_turno",
+  "titulo": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration",
+  "anio": 2025,
+  "venue": "arXiv / ICLR Workshop",
+  "doi": "10.48550/arxiv.2502.00675",
+  "openalex_titulo": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration",
+  "similitud": "1.00"
+ },
+ {
+  "id": "Q125",
+  "brazo": "un_turno",
+  "titulo": "Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments",
+  "anio": 2024,
+  "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  "doi": "10.18653/v1/2024.emnlp-main.436",
+  "openalex_titulo": "Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments",
+  "similitud": "1.00"
+ }
+]

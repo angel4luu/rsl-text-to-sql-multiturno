@@ -1,0 +1,18 @@
+{
+ "label": "ADJ:b006@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00264",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn; fusing table content with schema plausibly central value/schema linking"
+  },
+  {
+   "id": "R00281",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn MCTS; reward-based candidate SQL evaluation may be a central contribution"
+  }
+ ],
+ "source": "cli:ADJ_b006.json"
+}

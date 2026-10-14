@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00433@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00433",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational NL2SQL; self-correction and schema enrichment stated as contributions; quantitative evaluation on public BIRD dev set.",
+   "where": "p1 Abstract (contributions); p8-9 Results 4.1-4.3, BIRD dev accuracy"
+  }
+ ],
+ "source": "cli:FTB_R00433.json"
+}

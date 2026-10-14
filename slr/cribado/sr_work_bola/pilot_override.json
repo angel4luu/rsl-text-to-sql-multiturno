@@ -1,0 +1,17 @@
+[
+ {
+  "reason": "Same confirmed protocol, criteria, configuration and reviewer setup as the main screening (review 3a06db41), which was piloted and validated against a 60-record blind human sample (60/60 compared, 0 human-advanced records excluded by the AI); snowball candidates (phase 8) are screened identically.",
+  "problem": "full run started without a passing pilot (no human-labelled pilot: label the pilot records yourselves (pilot_labels.csv: id,d,code,why,by), then run merge_decisions.py --pilot-labels pilot_labels.csv)",
+  "context_id": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "reason": "Same confirmed protocol, criteria, configuration and reviewer setup as the main screening (review 3a06db41), which was piloted and validated against a 60-record blind human sample (60/60 compared, 0 human-advanced records excluded by the AI); snowball candidates (phase 8) are screened identically.",
+  "problem": "full run started without a passing pilot (no human-labelled pilot: label the pilot records yourselves (pilot_labels.csv: id,d,code,why,by), then run merge_decisions.py --pilot-labels pilot_labels.csv)",
+  "context_id": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ },
+ {
+  "reason": "Same confirmed protocol, criteria, configuration and reviewer setup as the main screening (review 3a06db41), which was piloted and validated against a 60-record blind human sample (60/60 compared, 0 human-advanced records excluded by the AI); snowball candidates (phase 8) are screened identically.",
+  "problem": "full run started without a passing pilot (no human-labelled pilot: label the pilot records yourselves (pilot_labels.csv: id,d,code,why,by), then run merge_decisions.py --pilot-labels pilot_labels.csv)",
+  "context_id": "93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc"
+ }
+]

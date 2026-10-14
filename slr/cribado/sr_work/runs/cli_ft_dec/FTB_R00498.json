@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00498@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00498",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn evaluation of 600 independent requests on proprietary enterprise data only; no public benchmark such as Spider or BIRD.",
+   "where": "p5-6 Section IV.A Evaluation Dataset; Section IV.C, Tables III-VI"
+  }
+ ],
+ "source": "cli:FTB_R00498.json"
+}

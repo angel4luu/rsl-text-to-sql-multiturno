@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00128@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00128",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Generates custom logical forms for an inference engine over a time-series knowledge base, not SQL; no relational SQL evaluation",
+   "where": "p2 Section 2 Task Definition; p3-4 Section 3 Datasets and Table 2 vocabulary"
+  }
+ ],
+ "source": "cli:FTA_R00128.json"
+}

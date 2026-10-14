@@ -1,0 +1,1516 @@
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                               1
+
+
+
+
+       Anclaje al esquema en Text-to-SQL multiturno:
+       revisión sistemática PRISMA 2020 de técnicas,
+                      efectos y brechas
+                                                             Angela Lucia Jara Espinoza
+
+
+
+   Resumen—Contexto: En el Text-to-SQL conversacional cada                         ACL Anthology and arXiv) on 2026-10-11, plus snowballing.
+pregunta depende de los turnos anteriores, y no se identificó                      Empirical multi-turn studies were included, and single-turn
+una revisión sistemática que analice de forma conjunta la                          studies only if schema linking or self-correction was their central
+restauración del contexto, el estado del diálogo, la vinculación                   contribution. AI models screened studies and extracted data
+de esquemas y la autocorrección. Objetivo: Clasificar las técnicas                 under the author’s verification; quality was assessed with a 10-
+multiturno, contrastarlas con las de un turno y sintetizar su                      item Kitchenham-style checklist; synthesis was narrative (SWiM).
+efecto, su evaluación y las brechas. Método: Revisión sistemática                  Results: 390 studies were included, 77 of them multi-turn. The
+según PRISMA 2020 con protocolo registrado. Se consultaron                         multi-turn proportion (D4) was 11.3 % (95 % CI 8.2 to 15.3 %),
+5 fuentes (Scopus, IEEE Xplore, ACM Digital Library, ACL                           classified as “considerably under-researched” by the registered
+Anthology y arXiv) el 2026-10-11, más snowballing. Se incluyeron                   rule. Flat history predominates; within-study contrasts are mostly
+estudios empíricos multiturno y, de un turno, solo los que                         positive and modest; the evaluation history is often not reported.
+tenían como contribución central la vinculación de esquemas                        The number of studies meeting the pre-specified reformulation
+o la autocorrección. Modelos de IA cribaron y extrajeron datos                     criterion is 0. Limitations: Single author, AI reviewers from one
+con verificación de la autora; la calidad se evaluó con 10                         model family, unretrieved reports, possible reporting bias, and
+ítems al estilo de Kitchenham; la síntesis fue narrativa (SWiM).                   English and Spanish only. Conclusions: Subject to the eligibility
+Resultados: Se incluyeron 390 estudios, 77 de ellos multiturno. La                 framework, the multi-turn setting is less researched; coverage
+proporción multiturno (D4) fue 11,3 % (IC 95 % de 8,2 a 15,3 %),                   gaps, not needs, are observed in evaluation with predicted history
+«considerablemente menos investigado» según la regla registrada.                   and its reporting, Spanish-language data, and the combination
+Predomina el historial plano; los contrastes dentro del estudio                    of structured state with algorithmic joins or execution feedback.
+son mayormente positivos y modestos; el historial de evaluación                    Funding and registration: No specific funding; registered on OSF
+a menudo no se reporta. El número de estudios que cumplen                          (DOI 10.17605/OSF.IO/5USF3), with amendments A4–A6 pending
+el criterio pre-especificado de reformulación es 0. Limitaciones:                  update.
+Autora única, revisores de IA de una misma familia, informes no
+                                                                                      Index Terms—Conversational Text-to-SQL, systematic review,
+recuperados, sesgo de notificación posible y solo inglés y español.
+                                                                                   schema linking, dialogue state, self-correction, PRISMA 2020
+Conclusiones: Con las salvedades del marco de elegibilidad, el
+escenario multiturno está menos investigado; se observan brechas
+de cobertura, no necesidades, en la evaluación con historial                                             I.   I NTRODUCCIÓN
+predicho y su reporte, los datos en español y la combinación de                    I-A. Contexto
+estado estructurado con joins algorítmicos o retroalimentación de
+ejecución. Financiamiento y registro: Sin financiamiento específico;                  Las interfaces de lenguaje natural a bases de datos (natural
+registro en OSF (DOI 10.17605/OSF.IO/5USF3), con enmiendas                         language interfaces to databases, NLIDB) permiten consultar
+A4–A6 pendientes de actualización.                                                 datos relacionales sin conocer SQL, y la tarea de traducir una
+   Palabras clave—Text-to-SQL conversacional, revisión sistemáti-                  pregunta a una consulta SQL (Text-to-SQL) es su formulación
+ca, vinculación de esquemas, estado del diálogo, autocorrección,                   computacional más estudiada [1], [2]. Los benchmarks de
+PRISMA 2020                                                                        referencia para el escenario de un turno, como WikiSQL, Spider
+   Abstract—Schema Grounding in Multi-Turn Text-to-SQL: A                          y BIRD, evalúan preguntas aisladas sobre un esquema dado [3],
+PRISMA 2020 Systematic Review of Techniques, Effects and Gaps.                     [4], [5].
+   Background: In conversational Text-to-SQL each question                            En el uso real, sin embargo, las consultas se formulan
+depends on earlier turns, and no systematic review was identified                  en diálogo. En el escenario conversacional o multiturno,
+that jointly analyzes context restoration, dialogue state, schema                  la interpretación de cada pregunta del usuario depende de
+linking and self-correction. Objective: To classify multi-turn
+techniques, contrast them with single-turn ones, and synthesize                    los turnos anteriores. Esto introduce elipsis, correferencia y
+their effect, evaluation and gaps. Methods: Systematic review                      referencias implícitas a consultas previas, que el sistema debe
+following PRISMA 2020 with a registered protocol. The search                       resolver antes de decidir qué tablas y columnas intervienen [6].
+covered 5 sources (Scopus, IEEE Xplore, ACM Digital Library,                       SParC y CoSQL formalizaron este escenario con diálogos
+                                                                                   sobre múltiples bases de datos [7], [8], y CHASE lo extendió
+   Angela Lucia Jara Espinoza pertenece a la Escuela Profesional de Ingeniería     al chino [9]. Además, un error en un turno puede arrastrarse a
+de Software, Facultad de Ingeniería de Sistemas e Informática, Universidad Na-
+cional Mayor de San Marcos, Lima, Perú (correo: angela.jara@unmsm.edu.pe;          los siguientes cuando el contexto incluye consultas previas ge-
+ORCID: 0009-0007-8716-0988).                                                       neradas por el propio sistema [PENDIENTE: cita: propagación
+   Trabajo elaborado para el curso Desarrollo de Tesis I, Escuela Profesional      de errores entre turnos en Text-to-SQL multiturno].
+de Ingeniería de Software, Universidad Nacional Mayor de San Marcos.
+   Esta investigación no recibió financiamiento específico de agencias públicas,      La vinculación de esquemas (schema linking) y la inferencia
+comerciales ni sin fines de lucro.                                                 de rutas de join son decisivas en un turno. En multiturno
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                 2
+
+
+
+deben, además, mantenerse coherentes a lo largo del diálogo,          inteligencia artificial y su verificación humana documentados
+lo que plantea cómo se restaura el contexto, cómo se representa       por fase. Segundo, un mapeo de 390 estudios, de los cuales
+y actualiza el estado conversacional y cómo se corrigen los           77 son multiturno y 313 de un turno, con un indicador pre-
+errores a partir de la ejecución.                                     especificado, D4, de la proporción de estudios multiturno
+                                                                      entre los que abordan la vinculación de esquemas o la
+                                                                      autocorrección como contribución central: 11,3 % (intervalo
+I-B. Justificación
+                                                                      de Wilson 8,2–15,3 %), que la regla registrada clasifica como
+   Existen numerosas revisiones generales de Text-to-SQL y «considerablemente menos investigado». Tercero, taxonomías de
+NLIDB, que tratan lo multiturno como un subtema. Solo PI1–PI4 y un análisis de los contrastes dentro del estudio, con
+una revisión se centra en el Text-to-SQL conversacional [10], un nivel de confianza explícito por hallazgo. Cuarto, un análisis
+y según su resumen es narrativa y no reporta protocolo de de benchmarks, métricas y degradación por turno estratificado
+búsqueda. Las revisiones de 2026 que se declaran sistemáticas según el historial usado en la evaluación (PI5). Quinto, la
+no analizan el escenario multiturno [11], [12]. La sección II evaluación de un criterio pre-especificado de reformulación,
+detalla estas comparaciones y sobre qué texto se verificó cada que examina si la combinación de estado estructurado explícito,
+una (tabla I).                                                        inferencia algorítmica de joins o autocorrección por ejecución,
+   Con base en la búsqueda exploratoria descrita en esa sección, y evaluación con historial predicho o solo con preguntas ya
+no se identificó una revisión sistemática reproducible que se había evaluado: el número de estudios del corpus que la
+analice de forma conjunta cuatro aspectos del Text-to-SQL reúnen es 0.
+multiturno: la restauración del contexto conversacional, la repre-       El resto del artículo se organiza así. La sección II revisa los
+sentación y actualización del estado del diálogo, la vinculación trabajos relacionados. La sección III describe el método. La
+de esquemas con inferencia de joins, y la retroalimentación sección IV presenta los resultados por pregunta de investigación.
+de ejecución con autocorrección. Tampoco se identificó una La sección V los interpreta, la sección VI analiza las amenazas
+que los contraste sistemáticamente con sus equivalentes de a la validez y la sección VII concluye.
+un turno ni que examine la degradación del rendimiento por
+turno. Estos aspectos estructuran las preguntas de investigación                      II. T RABAJOS RELACIONADOS
+PI1–PI4, mientras que PI5 aborda la evaluación.
+                                                                         La búsqueda exploratoria de revisiones previas se realizó el
+                                                                      2026-10-11 en Scopus, OpenAlex, DBLP, arXiv y Consensus.
+I-C. Objetivos y contribuciones                                       Fue exploratoria y no forma parte del recuento PRISMA.
+   El objetivo de esta revisión es identificar, clasificar y analizar Identificó 10 revisiones pertinentes, que resume la tabla I. La
+críticamente las técnicas de Text-to-SQL conversacional para columna «Fuente leída» indica el texto sobre el que se verificó
+la restauración del contexto, la representación del estado del cada descriptor; cuando fue solo el resumen, la descripción
+diálogo, la vinculación de esquemas y la inferencia de joins, debe leerse con esa salvedad. Estas revisiones tienen objetivos
+y la autocorrección. Además, busca contrastarlas con las de distintos de los de la presente, por lo que la comparación es
+un turno, comparar los resultados reportados y señalar brechas. de alcance y de método, no de calidad.
+La revisión sigue las guías de Kitchenham y Charters [13], se
+reporta según PRISMA 2020 [14] y su protocolo se registró II-A. Revisiones generales de Text-to-SQL y NLIDB
+antes de la búsqueda oficial [15]. Las preguntas de investigación        Las revisiones generales abordan la tarea desde la perspectiva
+son:                                                                  de las NLIDB o de los modelos de lenguaje de gran tamaño
+   PI0 ¿Cómo se distribuyen los estudios por año, tipo de (large language models, LLM), y tratan lo multiturno, según
+          publicación, paradigma técnico y escenario (uno o sus resúmenes, como un subtema. Abbas et al. [16] se centran
+          varios turnos), y cómo evoluciona la proporción de en NLIDB con aprendizaje profundo. Deng et al. [17] y
+          estudios multiturno?                                        Katsogiannis-Meimarakis y Koutrika [18] cubren Text-to-SQL
+   PI1 ¿Qué técnicas se usan para restaurar el contexto con redes neuronales. Liu et al. [19] y Shi et al. [2] lo hacen
+          conversacional y qué resultados reportan?                   para la era de los LLM. De todas ellas solo se verificó el
+   PI2 ¿Cómo se representa y actualiza el estado del diálogo, resumen, de modo que no se afirma el grado de cobertura de
+          y cómo influye en el rendimiento a lo largo de los lo multiturno en su texto completo.
+          turnos?                                                        Varias revisiones de 2026 se presentan como sistemáticas.
+   PI3 ¿Qué técnicas de vinculación de esquemas e inferencia Liu et al. [11] revisan las NLIDB en general. Según la
+          de rutas de join se emplean en multiturno, y cómo versión arXiv v2, leída completa, no documenta un protocolo
+          se comparan con las de un turno?                            de búsqueda ni un diagrama PRISMA, no menciona SParC
+   PI4 ¿Qué mecanismos de retroalimentación de ejecución ni CoSQL y trata la vinculación de esquemas solo como
+          y autocorrección se han aplicado en multiturno, y preprocesamiento; la versión publicada podría diferir. Bui
+          cómo se comparan con los de un turno?                       et al. [12] sí documentan una búsqueda sistemática, con
+   PI5 ¿Qué benchmarks y métricas se emplean en multiturno criterios de inclusión y exclusión, sobre Text-to-SQL con
+          y qué degradación por turno se reporta?                     LLM y su seguridad. En el texto completo del manuscrito, lo
+   Las contribuciones son las siguientes. Primero, un protocolo multiturno aparece solo como categoría de datasets, y no se
+registrado y reportado según PRISMA 2020, con el uso de analizan la restauración del contexto, el estado del diálogo ni la
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                  3
+
+
+
+                                                                 Tabla I
+R EVISIONES PREVIAS SOBRE T EXT- TO -SQL Y NLIDB FRENTE AL ALCANCE DE ESTA REVISIÓN . «F UENTE LEÍDA » INDICA SOBRE QUÉ TEXTO SE VERIFICÓ
+                                                            CADA DESCRIPTOR .
+
+
+Revisión       Tipo                       Alcance                       Multiturno                        Protocolo           Fuente leída
+[6] (2020)     Narrativa                  Análisis semántico de-        Eje central                       No reportado        Resumen
+                                          pendiente del contexto
+                                          (no solo SQL)
+[10] (2025)    Narrativa                  Text-to-SQL conversa-         Eje central                       No reportado        Resumen
+                                          cional
+[16] (2022)    Narrativa                  NLIDB con aprendiza-          Subtema                           No verificado       Resumen
+                                          je profundo
+[17] (2022)    Narrativa                  Text-to-SQL general           Subtema                           No verificado       Resumen
+[18] (2023)    Narrativa                  Text-to-SQL con apren-        Subtema                           No verificado       Resumen
+                                          dizaje profundo
+[19] (2025)    Narrativa                  Text-to-SQL con LLM           Subtema                           No verificado       Resumen
+[2] (2026)     Narrativa                  Text-to-SQL con LLM           Subtema                           No verificado       Resumen
+[11] (2026)    Sistemática (declarada)    NLIDB general                 No tratado                        No documentado      Texto completo (arXiv v2)
+[12] (2026)    Sistemática                Text-to-SQL con LLM           Solo como categoría de datasets   Documentado         Texto completo (manuscrito)
+                                          y seguridad
+[20] (2026)    Sistemática                Estrategias RAG para          No tratado                        Documentado (OSF)   Resumen y registro OSF
+                                          Text-to-SQL
+
+
+
+degradación por turno. Ortiz-Delgado et al. [20] presentan una                          Estas diferencias acotan el aporte a un análisis sistemático
+revisión sistemática, con protocolo en OSF, sobre estrategias                         y conjunto del escenario multiturno. Los surveys narrativos,
+de generación aumentada por recuperación para Text-to-SQL;                            en cambio, ofrecen panoramas conceptuales y taxonomías de
+según su resumen y su registro, no trata el escenario multiturno.                     arquitecturas que esta revisión no pretende reemplazar.
+
+                                                                                          III. M ÉTODO
+II-B. Revisiones centradas en el contexto y el escenario
+conversacional                                                    III-A. Protocolo y registro
+                                                                     La revisión sigue las guías de Kitchenham y Charters [13]
+   Las revisiones más próximas se centran en la dependencia del
+                                                                  y se reporta según PRISMA 2020 [14], con la extensión para
+contexto. Li, Qu y Haffari [6] presentan una revisión narrativa,
+                                                                  búsquedas [21]. El protocolo se redactó según PRISMA-P [22]
+anterior a los LLM, del análisis semántico dependiente del
+                                                                  y se registró en OSF antes de la búsqueda oficial [15]. El
+contexto, que no se limita a SQL. Yang et al. [10] es la
+                                                                  protocolo registrado está disponible en OSF.
+revisión más cercana en alcance: según su resumen, cubre el
+                                                                     El protocolo incorpora las enmiendas A1–A6, detalladas en
+manejo del contexto (correferencia y elipsis), la evolución de
+                                                                  la tabla II. Las enmiendas A1–A3 ya constan en el registro
+las arquitecturas desde codificador-decodificador hasta LLM y
+                                                                  OSF. La actualización de las enmiendas A4–A6 en OSF queda
+agentes, y una comparación cuantitativa en SParC y CoSQL.
+                                                                  pendiente y se completará antes de la difusión del manuscrito
+Su resumen no menciona protocolo de búsqueda ni criterios
+                                                                  o de su envío a una revista.
+de selección, ni la vinculación de esquemas, la inferencia de
+joins o la retroalimentación de ejecución como ejes. No fue
+                                                                  III-B. Preguntas de investigación y marco PICOC
+posible leer su texto completo, por lo que estas observaciones
+se limitan a lo que declara el resumen y deberán contrastarse        Las preguntas PI0–PI5 (sección I-C) se formularon con el
+con el texto completo.                                            marco   PICOC (population, intervention, comparison, outco-
+                                                                  mes, context). La población son los estudios primarios sobre
+                                                                  interfaces de lenguaje natural a bases de datos relacionales. La
+II-C. Diferencias de esta revisión                                intervención abarca las técnicas de restauración del contexto,
+   Con base en lo verificado, esta revisión se distingue de las de representación del estado del diálogo, de vinculación de
+anteriores en el diseño, no en una valoración de su calidad. esquemas e inferencia de joins, y de retroalimentación de
+Primero, sigue un protocolo registrado y reportado según ejecución y autocorrección. La comparación contrasta enfoques
+PRISMA 2020, con estrategia de búsqueda reproducible sobre (un turno frente a multiturno, simbólico frente a neuronal,
+5 fuentes. Segundo, define su alcance mediante PICOC e anterior frente a posterior a los modelos de lenguaje grandes,
+integra de forma conjunta restauración del contexto, estado con frente a sin entrenamiento). Los desenlaces son la exactitud
+del diálogo, vinculación de esquemas con inferencia de joins de ejecución (EX) como métrica primaria, las métricas de
+y autocorrección. Tercero, contrasta de manera explícita el coincidencia exacta (EM/ESM), la exactitud con test suites
+escenario multiturno con el de un turno mediante un indicador (TS), las métricas por pregunta e interacción (QM/IM) en
+descriptivo pre-especificado. Cuarto, evalúa la degradación multiturno, la degradación por turno, los errores de join y el
+por turno separando los estudios según el historial usado en la coste computacional. El contexto es la investigación académica
+evaluación. Finalmente, el criterio de brecha de investigación se e industrial publicada desde 2019, en inglés o español.
+fijó antes de examinar los datos y se evalúa con independencia       El diseño es por niveles (D7). El Nivel 1 es un mapeo de
+de su resultado (sección I-C).                                    todos los estudios incluidos y responde PI0 y el indicador
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                            4
+
+
+
+                                                              Tabla II
+      E NMIENDAS AL PROTOCOLO REGISTRADO . L AS 3 MARCADAS COMO PENDIENTES SE ACTUALIZARÁN EN EL REGISTRO OSF ANTES DEL ENVÍO .
+
+N.º    Fecha          Fase                     Cambio                                                                                              Registro OSF
+A1     2026-10-11     Búsqueda                 La IA determina la elegibilidad del conjunto de referencia; este se usa solo para medir la          Actualizada
+                                               sensibilidad de la búsqueda.
+A2     2026-10-11     Búsqueda                 ACM DL se captura guardando las páginas de resultados en HTML; los metadatos se completan           Actualizada
+                                               por DOI.
+A3     2026-10-11     Cribado                  Diseño reducido de verificación humana: una muestra a ciegas (piloto y validación) y revisión       Actualizada
+                                               de los casos no evidentes.
+A4     2026-10-11     Recuperación             No se contacta a los autores; los informes no recuperados se reportan y se añade una sensibilidad   Pendiente
+                                               de D4.
+A5     2026-10-12     Cribado y extracción     Texto completo con revisores Sonnet (y Codex en parte del Nivel 1) y extractos; suplemento de       Pendiente
+                                               bola de nieve desde Semantic Scholar; extracción doble por IA con verificación por muestreo;
+                                               variable de nivel del foro.
+A6     2026-10-13     Síntesis                 Se añaden análisis bibliométricos exploratorios no pre-registrados.                                 Pendiente
+
+
+                                                             Tabla III
+C RITERIOS DE ELEGIBILIDAD DEL PROTOCOLO REGISTRADO (7 DE INCLUSIÓN Y 9 DE EXCLUSIÓN ). C ADA CÓDIGO EXn CORRESPONDE AL MOTIVO DE
+                                               EXCLUSIÓN En DEL DIAGRAMA PRISMA.
+
+
+Código     Criterio                                                                                                Fase en que se aplica
+Inclusión (se deben cumplir todos)
+IC1        Estudio primario que propone, adapta o evalúa una técnica o un benchmark de Text-to-SQL sobre           —
+           bases de datos relacionales
+IC2        Multiturno: aborda al menos una de PI1–PI5. Un turno: aborda PI3 o PI4 como contribución central        —
+           (D1). Los benchmarks de un turno entran por PI3/PI4 (caso B4)
+IC3        Reporta una evaluación empírica cuantitativa                                                            —
+IC4        Un turno: evalúa en al menos un benchmark público (p. ej., Spider, BIRD, WikiSQL). Multiturno:          —
+           cualquier evaluación, incluidos datos propietarios
+IC5        Publicado entre 2019-01-01 y la fecha de búsqueda                                                       —
+IC6        Escrito en inglés o español. Los estudios en español se admiten si aparecen en la búsqueda (no hay      —
+           cadena específica en español; ver limitaciones)
+IC7        Artículo completo revisado por pares (revista, conferencia, taller, incluidas las demo tracks; ≥ 4      —
+           páginas de contenido) o preprint de arXiv sin versión revisada a la fecha de búsqueda
+Exclusión (basta uno)
+EX1       Publicado antes de 2019                                                                                  Metadatos
+EX2       Escrito en un idioma distinto de inglés o español                                                        Metadatos
+EX3       Tipo no elegible: tesis, póster, solo resumen o resumen extendido, artículo de < 4 páginas de            Metadatos / texto completo
+          contenido, editorial, prefacio/índice de actas, libro completo. (Los artículos de demo revisados por
+          pares con evaluación cuantitativa no se excluyen aquí)
+EX4       No es estudio primario: survey, revisión, tutorial, posición                                             Título-resumen
+EX5       No trata Text-to-SQL sobre BD relacionales: KGQA/SPARQL, Cypher, NoSQL, QA sobre tablas                  Título-resumen
+          sin SQL, generación de código general. Excepción: se incluye si también evalúa en SQL relacional
+EX6       Un solo turno y no declara PI3/PI4 como contribución central                                             Título-resumen (con regla de incertidumbre)
+EX7       Sin evaluación empírica cuantitativa                                                                     Texto completo
+EX8       Un solo turno sin evaluación en benchmark público                                                        Texto completo
+EX9       Informe secundario de un estudio ya incluido (se vincula, no se cuenta aparte)                           Deduplicación / texto completo
+
+
+
+D4. El Nivel 2 es la revisión en profundidad de los estudios                      central se juzga con la misma regla en ambos escenarios, lo que
+multiturno y responde PI1–PI5; los estudios de un turno que                       define la población del indicador D4. Los casos límite B1–B6 se
+abordan la vinculación de esquemas o la autocorrección como                       resolvieron de antemano; por ejemplo, las aclaraciones dentro
+contribución central sirven de contraste en PI3 y PI4.                            de un diálogo tipo CoSQL cuentan como multiturno. Cuando
+                                                                                  varios informes corresponden a un mismo estudio se conserva
+III-C. Criterios de elegibilidad                                                  la versión revisada más completa, y un preprint cuenta solo si
+   La tabla III recoge los criterios de inclusión y exclusión                     no existe versión revisada. La unidad de análisis es el estudio.
+fijados en el protocolo. Ante la duda en título y resumen, el
+registro avanza a texto completo.                                                 III-D. Fuentes de información y estrategia de búsqueda
+   Dos definiciones operativas delimitan el corpus. Un estudio                       El 2026-10-11 se consultaron 5 fuentes: Scopus (563
+es multiturno cuando el usuario formula preguntas sucesivas                       registros), IEEE Xplore (368), ACM Digital Library (146),
+cuya interpretación depende de turnos anteriores; las rondas                      ACL Anthology (133) y arXiv (386), con un total de 1596
+internas de un sistema sobre una sola pregunta se tratan como                     registros. La figura 1 muestra, para cada fuente, los registros
+un turno (caso B6). Los estudios multiturno son elegibles si                      identificados y los estudios incluidos que recuperó, incluidos
+abordan al menos una de PI1–PI5; los de un turno, solo si                         los que solo ella recuperó. Todas las cadenas siguen la misma
+declaran la vinculación de esquemas o la autocorrección como                      estructura, que combina el bloque de la tarea con el bloque de
+contribución central en el título o el resumen. La contribución                   multiturno o el de los pilares de vinculación y autocorrección.
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                          5
+
+
+
+                       Registros identificados                                 perfiles de experto distintos), que solo leían el archivo asignado
+                                                          … solo por esta fuente
+                       Estudios incluidos recuperados                          y aplicaban los criterios del protocolo traducidos al inglés. Un
+                                                                               tercer revisor (Claude Opus) resolvió los desacuerdos entre
+                                                                      563
+        Scopus                                                                 avanzar y excluir. Como A y B comparten familia de modelo,
+                                   171 (45)
+                                                                               no se consideran revisores independientes en el sentido de
+                                                       368
+   IEEE Xplore                                                                 Kitchenham; su acuerdo es solo un diagnóstico (tabla IV), con
+                   18 (8)
+                                                                               κ de Cohen [27] y PABAK [28]. Los identificadores exactos
+                                 146                                           de los modelos, las fechas y las decisiones con su motivo se
+      ACM DL
+                    33 (9)
+                                                                               archivan en el material suplementario.
+                               133                                                La verificación humana siguió el diseño de la enmienda A3.
+ ACL Anthology
+                            101 (10)
+                                                                               La autora etiquetó a ciegas, antes de conocer la decisión de
+                                                         386                   la IA, una muestra de 60 registros que sirvió de piloto y de
+          arXiv
+                                           244 (125)                           validación. La autora avanzó 28 de ellos, la IA omitió 0 y κ
+                                                                               fue 1,00. La autora revisó además todos los casos no evidentes
+                0         100        200      300       400    500      600
+                                                                               en que la IA podía excluir un estudio: 32 conflictos entre
+                                        Registros o estudios
+                                                                               revisores y las exclusiones que la recomprobación proponía
+Figura 1. Registros identificados por fuente y estudios incluidos (brazo de    avanzar, con lo que decidió 69 registros en título y resumen.
+bases) recuperados por cada fuente; entre paréntesis, los recuperados solo por Las exclusiones conjuntas de A y B no pasan por el desempate,
+esa fuente. Un estudio recuperado por varias fuentes cuenta en cada una; a     de modo que un segundo lector cegado (Claude Opus) releyó
+cada registro conservado se le suman las fuentes de las versiones eliminadas
+antes del cribado.                                                             401  de ellas (251 cercanas a los criterios por palabras clave y
+                                                                               150 aleatorias). Esa lectura avanzó 38 registros, de los que se
+                                                                               incluyeron finalmente 14.
+Las cadenas exactas, los campos y los filtros de cada fuente se                   En texto completo, los revisores A y B fueron Claude Sonnet
+incluyen en el material suplementario, conforme a PRISMA-S. (enmienda A5a). Los informes sin decisión previa se cribaron
+   La captura difirió según la fuente. Scopus e IEEE Xplore se con un extracto (páginas iniciales y sección experimental),
+consultaron en sus interfaces web y se exportaron los resultados. calibrado frente al texto completo: Claude coincidió en 8 de 8
+ACM Digital Library no ofrece exportación a cuentas no informes y Codex en 6 de 8, en la decisión de incluir o no.
+premium, de modo que se guardaron las páginas de resultados Una parte del Nivel 1 la revisó GPT Codex, con el mismo
+en HTML sin editar y se extrajeron el DOI y el título de modelo para A y B de cada informe; Claude auditó 20 de 87
+cada ítem; los demás metadatos se completaron por DOI desde inclusiones de Codex y confirmó 19. Opus realizó una segunda
+OpenAlex y Crossref (enmienda A2). Para ACL Anthology lectura de los 27 informes dudosos y de las 15 exclusiones
+se aplicó un script sobre el volcado oficial. Para arXiv se conjuntas por el criterio E6 con señal multiturno. Se registraron
+consultó la API con el bloque de la tarea y se filtró localmente 13 conflictos, de los que el adjudicador resolvió 12, y la autora
+por categoría de informática y por la cadena completa. Los decidió 41 informes.
+registros se combinaron y deduplicaron con la herramienta                         No se contactó a los autores de los informes no recuperados
+de cribado (por DOI, y por título normalizado y año). Antes (enmienda A4). La recuperación usó rutas abiertas automáticas
+del cribado se eliminaron 133 registros que eran versiones del y la búsqueda manual de la autora; los informes no obtenidos
+mismo estudio, 6 duplicados por DOI erróneo y 416 detectados se reportan en el diagrama PRISMA, se describen por escenario
+automáticamente por DOI o por título y año.                                    y se incorporan a un análisis de sensibilidad de D4.
+   La sensibilidad de la búsqueda se midió con un conjunto de
+referencia, usado solo para esta medición (enmienda A1). La
+búsqueda recuperó 24 de 24 estudios multiturno del conjunto III-F. Extracción de datos
+(límite inferior de Wilson de 86,2 %) y 16 de 19 estudios de                      El formulario de extracción, con vocabularios controlados y
+un turno.                                                                      la ubicación de cada valor, figura en el material suplementario.
+   La búsqueda se complementó con snowballing hacia atrás y La extracción tiene dos niveles (D7). El Nivel 1 cubre todos
+hacia adelante [23], sin iterar, desde 78 estudios semilla del los estudios, se extrae de las páginas iniciales de cada informe
+Nivel 2. Se usó OpenAlex [24], que aportó 266 candidatos. e incluye la caracterización, el escenario, los pilares centrales
+Para 36 semillas sin referencias en OpenAlex se recurrió a y los códigos de técnica de PI3 y PI4. El Nivel 2 aplica
+Semantic Scholar [25], que dispuso de referencias para 19 de el formulario completo a los estudios multiturno (PI1–PI5,
+ellas y aportó 27 candidatos. Los candidatos se filtraron con el resultados por benchmark, métrica y turno, y contrastes dentro
+bloque de la tarea sobre título y resumen y siguieron el mismo del estudio).
+cribado en un espacio separado (enmienda A5b).                                    La extracción fue doble y estuvo a cargo de la IA, con
+                                                                               comparación automática y reglas de resolución preespecificadas
+                                                                               (enmienda A5c). En el Nivel 1, los revisores A y B fueron
+III-E. Proceso de selección                                                    Claude Sonnet y el desempate lo hizo Codex. En el Nivel 2, A
+   El cribado se realizó con sr-screener, de la suite Academic fue Claude Sonnet, B fue Codex y el desempate lo hizo Sonnet
+Research Skills [26]. Cada registro lo evaluaron de forma sobre las páginas citadas. La puntuación de calidad se obtuvo
+independiente y cegada los revisores A y B (Claude Sonnet, con en las mismas llamadas. La autora revisó las discrepancias no
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                   6
+
+
+
+                                                                Tabla IV
+U SO DE MODELOS DE IA Y ACUERDO ENTRE REVISORES POR FASE . E N EL CRIBADO , n SON REGISTROS O INFORMES Y EL ACUERDO ES SOBRE AVANZAR O
+ EXCLUIR ; EN LA EXTRACCIÓN Y LA CALIDAD , n SON ESTUDIOS Y EL ACUERDO ES POR CAMPO O ÍTEM . V ERIFICACIÓN DE LA AUTORA SIN CAMBIOS :
+VALORES CONCORDANTES DEL N IVEL 2, 182/182; FILAS DEL N IVEL 1, 32/32; ÍTEMS DE VALIDEZ CERCA DEL UMBRAL , 95/95. A PARTE DEL N IVEL 1 LA
+                                   REVISÓ C ODEX CON EL MISMO MODELO PARA A Y B ( ENMIENDA A5).
+
+
+                         Fase                                   n       Revisores A / B    Desempate   Acuerdo ( %)   κ (PABAK)
+                         Cribado T/R (bases)                1041        Sonnet / Sonnet    Opus                96,9   0,94 (0,94)
+                         Texto completo (bases)              431        Sonnet / Sonneta   Opus                97,0   0,92 (0,94)
+                         Cribado T/R (bola de nieve)         292        Sonnet / Sonnet    Opus                94,2   0,84 (0,88)
+                         Texto completo (bola de nieve)       58        Sonnet / Sonnet    Opus                93,1   0,84 (0,86)
+                         Extracción, Nivel 1                 317        Sonnet / Sonnet    Codex               86,9            —
+                         Extracción, Nivel 2                  78        Sonnet / Codex     Sonnet              73,6            —
+                         Calidad, Nivel 2                     78        Sonnet / Codex     Sonnet              75,6            —
+
+
+
+resueltas, una muestra aleatoria de los valores concordantes       El indicador D4 es la proporción de estudios multiturno entre
+del Nivel 2 (182/182 confirmados sin cambios), una muestra      los que abordan la vinculación de esquemas o la autocorrección
+de filas del Nivel 1 (32/32) y los ítems de validez cercanos al como contribución central, con intervalo de Wilson [31]. Según
+umbral (95/95). Además, extrajo y puntuó a ciegas 5 estudios    la regla preespecificada, se concluye que el escenario es
+del Nivel 2, antes de ver la propuesta de la IA. Se añadió la   considerablemente menos investigado solo si el límite superior
+variable foro_nivel (enmienda A5d), con el nivel CORE           es de a lo sumo 30 %; si el intervalo contiene ese valor, el
+para congresos y el cuartil SJR para revistas, solo para análisis
+                                                                resultado es no concluyente. Es una referencia descriptiva
+de sensibilidad y no como criterio de elegibilidad.             condicionada al marco de elegibilidad, no una afirmación sobre
+   El desenlace primario es EX. Los secundarios son EM/ESM      todo el campo. La tendencia anual de 2019 a 2025 se evalúa
+y TS y, en multiturno, QM/IM. También se extrajeron la          con la prueba de Cochran–Armitage [32], [33] por permutación
+degradación por turno y los contrastes dentro del estudio,      (10 000 réplicas); 2026 se reporta aparte por ser un año parcial.
+definidos como un componente activado frente a desactivado      Las curvas y pendientes de degradación se estratifican por el
+con el mismo modelo base, además de las variables de la         tipo de historial usado en la evaluación (GOLD, PREDICHO
+sección III-B.                                                  o SOLO_PREGUNTAS) y nunca se agrupan, y solo el estrato
+                                                                PREDICHO se interpreta como propagación de errores.
+III-G. Evaluación de la calidad                                    Las sensibilidades excluyen los preprints, reincorporan los
+   La calidad de los estudios del Nivel 2 se evaluó con una     estudios  bajo el umbral, usan la versión laxa de D4, restringen
+lista de 10 ítems al estilo de Kitchenham, adaptada a Text- D4 a las búsquedas en bases, consideran los foros de primer
+to-SQL; no se usaron RoB 2 ni ROBINS-I, diseñadas para nivel e incorporan los informes no recuperados. El sesgo de
+estudios de intervenciones en salud. Cada ítem se puntúa como notificación se considera en los contrastes dentro del estudio,
+completo, parcial o ausente. Solo los 5 ítems de validez (CQ2 la contaminación de benchmarks, el desfase de líneas base
+y CQ4–CQ7) determinan la puntuación de validez; un estudio y la recuperación diferencial por escenario. La confianza de
+entra a la síntesis en profundidad si alcanza al menos 50 %. cada hallazgo, inspirada en GRADE-CERQual [34], combina
+Los ítems de reporte y apertura (CQ1, CQ3, CQ8–CQ10) se las limitaciones metodológicas, la coherencia, la suficiencia
+reportan por ítem, mediante un perfil tipo semáforo, y no y la pertinencia con reglas propias, que no equivalen a una
+se suman. El ítem CQ10 considera los indicios de prácticas aplicación validada de CERQual. Por último, un análisis bi-
+depredadoras según Think. Check. Submit. [29]. La autora y la bliométrico exploratorio (enmienda A6) describe la comunidad
+IA calibraron la lista con 5 estudios. La puntuación la propuso del foro y la red de citas, y se etiqueta como tal.
+la IA con doble lectura (sección III-F), con verificación por
+muestreo.                                                                             IV. R ESULTADOS
+                                                                 IV-A. Selección de estudios
+III-H. Síntesis                                                    La figura 2 presenta el flujo de la selección. En el brazo de
+   La síntesis es narrativa y estructurada según SWiM [30], bases de datos se identificaron 1596 registros en las 5 fuentes
+sin metaanálisis. Los grupos son los niveles (D7) y las clases y se eliminaron 555 duplicados, de modo que se cribaron
+de componente de PI1–PI4. Solo se comparan valores dentro 1041 títulos y resúmenes. El cribado excluyó 446 registros
+de una misma configuración (benchmark, versión, partición, y se buscaron 595 informes, de los cuales 164 no pudieron
+métrica, tipo de historial y conocimiento externo). La evidencia recuperarse. Se evaluaron 431 informes a texto completo, se
+principal sobre el efecto de un componente son los contrastes excluyeron 82 y se incluyeron 349 estudios.
+dentro del estudio, resumidos con mediana, rango y dirección.      El brazo de otros métodos partió de 78 estudios semilla del
+La diferencia frente a la línea base de referencia, con el mismo Nivel 2 y aportó 266 registros de OpenAlex y 27 de Semantic
+modelo base, es evidencia secundaria. Las comparaciones Scholar. Tras eliminar 1 duplicado se cribaron 292 registros,
+entre estudios son descriptivas y no prueban superioridad. Las de los que se excluyeron 204. Se buscaron 85 informes, 27
+categorías abiertas se consolidaron de forma inductiva, y los no se recuperaron, 58 se evaluaron a texto completo y 17 se
+valores no reportados se mantienen como tales.                   excluyeron, con 41 estudios incluidos. El corpus final suma
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                                          7
+
+
+
+                            Identificación de estudios mediante bases de datos                                            Identificación mediante otros métodos
+
+           Registros identificados (n = 1596):
+                      Scopus: 563                                                                                     Bola de nieve desde 78
+                                                            Registros eliminados antes del cribado:
+                   IEEE Xplore: 368                                                                                    estudios multiturno:
+                                                                    duplicados y versiones
+                     ACM DL: 146                                                                                        OpenAlex n = 266
+                                                                 del mismo estudio (n = 555)
+                  ACL Anthology: 133                                                                                 Semantic Scholar n = 27
+                       arXiv: 386
+
+
+
+
+                                                                                                                                                       Excluidos (n = 204);
+                   Registros cribados                            Registros excluidos (n = 446)
+                                                                                                                       Registros cribados                 duplicados de
+                   (título y resumen)                              E1: 43 · E2: 11 · E3: 33
+                                                                                                                           (n = 292)                  registros previos (E9)
+                        (n = 1041)                                E4: 39 · E5: 108 · E6: 212
+                                                                                                                                                              (n = 3)
+
+
+
+
+                Informes buscados para                              Informes no recuperados                            Informes buscados                 No recuperados
+                 recuperación (n = 595)                                    (n = 164)                                        (n = 85)                        (n = 27)
+
+
+
+
+                                                                  Informes excluidos (n = 82)
+                  Informes evaluados                                                                                                                    Excluidos (n = 17)
+                                                                      E1: 1 · E2: 1 · E3: 1                            Informes evaluados
+                    (texto completo)                                                                                                                         E6: 15
+                                                                     E5: 6 · E6: 42 · E7: 4                                 (n = 58)
+                        (n = 431)                                                                                                                             E9: 2
+                                                                        E8: 23 · E9: 4
+
+
+
+
+                                                    Estudios incluidos en la revisión (n = 390)
+                                                         bases: 349 · otros métodos: 41
+
+
+
+
+Figura 2. Diagrama de flujo PRISMA 2020 de la selección de estudios. E1–E9: códigos de exclusión del protocolo; E9 = informe secundario de un estudio ya
+incluido (versiones preprint/publicada o doble indexación), cuyo identificador se conserva en el informe primario.
+
+
+
+390 estudios, de los cuales 77 son multiturno y 313 son de un                                       Los informes no recuperados fueron 164 en el brazo de
+turno.                                                                                            bases y 27 en el de otros métodos. Se describen por escenario
+                                                                                                  en la sección IV-B.
+   Los motivos de exclusión se registraron por código. En el
+cribado de título y resumen del brazo de bases predominó
+E6 (212 de los 446; estudio de un turno sin la vinculación                                        IV-B.   Características de los estudios
+de esquemas o la autocorrección como contribución central),                                          La figura 3 muestra los 390 estudios por año de publicación
+seguido de E5 (108; no es Text-to-SQL sobre bases de datos                                        y escenario. En 2019 se publicaron 9 estudios, 3 de ellos
+relacionales) y E1 (43; publicado antes de 2019). En texto                                        multiturno. En 2025 fueron 101, con 13 multiturno y 88 de
+completo predominaron E6 (42 informes) y E8 (23; estudio de                                       un turno. En 2026, año parcial por la fecha de la búsqueda, se
+un turno sin evaluación en un benchmark público), seguidos de                                     contabilizan 139 estudios: 18 multiturno y 121 de un turno.
+E5 (6 informes), E7 (4; sin evaluación empírica cuantitativa) y                                      Por tipo de publicación, 146 estudios son preprints, 91 son
+E9 (4; informe secundario de un estudio ya incluido). En el                                       congresos con clasificación CORE A* y 34 son artículos de
+brazo de otros métodos, E6 fue el motivo de 173 exclusiones                                       revista del primer cuartil. El foro más frecuente es arXiv (125
+en el cribado y de 15 en texto completo. La lista de exclusiones                                  estudios), seguido de Annual Meeting of the Association for
+con su motivo se incluye en el material suplementario.                                            Computational Linguistics (19), Findings of the ACL: ACL
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                                                      8
+
+
+
+                     140                                                                                          100
+                                Un turno
+                                Multiturno
+                     120
+                                                                                                                   80
+
+
+
+
+                                                                                        Estudios multiturno (%)
+Número de estudios
+                     100
+                                                                                                                   60
+                     80
+
+                     60                                                                                            40
+                                                                                                                             umbral 30 %
+                     40
+                                                                                                                   20
+                     20
+
+                       0                                                                                            0
+                             2019   2020     2021   2022   2023   2024   2025   2026*                                   2019        2020   2021     2022     2023      2024    2025   2026*
+                                                Año de publicación                                                                                Año de publicación
+
+Figura 3. Estudios incluidos por año de publicación y escenario (n = 390).              Figura 4. Indicador D4 por año: proporción de estudios multiturno entre
+*2026: año parcial (búsqueda del 11 de octubre de 2026).                                los estudios con vinculación de esquemas o autocorrección (PI3/PI4) como
+                                                                                        contribución central, con IC 95 % de Wilson. Línea discontinua: umbral pre-
+                                                                                        especificado del 30 %. *2026: año parcial, excluido de la prueba de tendencia.
+2026 (11) y Proceedings of the ACM on Management of Data
+(8).                                                                                                                     Tabla V
+                                                                                         I NDICADOR D4 ( PROPORCIÓN MULTITURNO ) Y ANÁLISIS DE SENSIBILIDAD ,
+   El paradigma técnico principal por año se detalla en el                                         CON IC DE W ILSON AL 95 %. C ONCLUSIÓN DE LA REGLA
+material suplementario. Hasta 2022 predominan el ajuste fino                               PRE - ESPECIFICADA EN TODAS LAS VARIANTES : « CONSIDERABLEMENTE
+de modelos de lenguaje preentrenados y los modelos neuronales                             MENOS INVESTIGADO ». T ENDENCIA 2019–2025 (C OCHRAN –A RMITAGE ,
+                                                                                          10 000 RÉPLICAS ): p = 0,95; 2026 ( AÑO PARCIAL ) SE INFORMA APARTE :
+anteriores a ellos; el primer estudio con prompting de modelos                                                            7/122.
+de lenguaje grandes data de 2022. En 2026 el prompting reúne
+54 estudios, los agentes 43 y el ajuste fino de modelos de                                                        Análisis                             k      n     D4 ( %)     IC 95 %
+lenguaje grandes 25. El ajuste fino de modelos preentrenados                                                      Principal (estricto)                34    302         11,3    8,2–15,3
+alcanza 19 estudios en 2023 y 3 en 2025.                                                                          Laxo                                49    317         15,5   11,9–19,9
+   Los pilares centrales difieren por escenario. Entre los estudios                                               Sin preprints                       23    177         13,0    8,8–18,7
+                                                                                                                  Solo búsqueda en bases              34    273         12,5    9,0–16,9
+multiturno, 13 tienen PI1 como contribución central y 26 tienen                                                   Foros de primer nivel (A5)          15    116         12,9    8,0–20,2
+PI2; ningún estudio de un turno cumple esos dos pilares. PI3                                                      Con no recuperados, cota (A4)       77    493         15,6   12,7–19,1
+es central en 13 estudios multiturno y 157 de un turno, y PI4
+en 22 multiturno y 140 de un turno. Entre los estudios con
+PI3 central, 34 de 60 en 2026 no requieren entrenamiento (15                            primer nivel conservan la conclusión de la regla. La cota que
+de 43 en 2025); para PI4 son 44 de 81 en 2026 (20 de 50 en                              incorpora los informes no recuperados, con el supuesto de que
+2025).                                                                                  todos cuentan en el denominador y los de señal multiturno
+   Los informes no recuperados, que corresponden a ambos                                también en el numerador, da 77 de 493 estudios (15,6 %) y
+brazos de búsqueda, se distribuyen en 148 con señal de un                               un límite superior de 19,1 %; para esta variante no hay una
+turno y 43 con señal multiturno.                                                        conclusión registrada. La regla de contingencia por volumen
+                                                                                        del Nivel 1 no se activó, porque el texto completo de un turno
+IV-C.                      Indicador D4                                                 fue inferior a 400 informes.
+   El indicador D4 estricto es 34 de 302 estudios, es decir,
+11,3 % (IC 95 % de Wilson, 8,2–15,3 %). El límite superior IV-D. Panorama bibliométrico exploratorio
+del intervalo es inferior al umbral pre-especificado del 30 %,    Este panorama bibliométrico es un análisis exploratorio y
+de modo que la regla registrada arroja la conclusión «consi- descriptivo (enmienda A6) que no modifica ninguna conclusión
+derablemente menos investigado». La versión laxa es de 49 pre-especificada. OpenAlex resolvió 384 de los 390 estudios
+de 317 estudios, 15,5 % (IC 95 % de 11,9 a 19,9 %), con la en la consulta del 2026-10-13; los 6 restantes no cuentan con
+misma conclusión.                                               datos bibliométricos.
+   La figura 4 muestra la proporción anual. La prueba de          El panel (a) de la figura 5 clasifica el foro de publicación
+Cochran–Armitage para 2019–2025 no detecta tendencia (esta- en cinco comunidades. Entre los estudios multiturno, 34 se
+dístico de −0,6; p exacta bilateral 0,95, con 10 000 réplicas). publicaron en foros de procesamiento del lenguaje natural, 4 en
+Las proporciones anuales van de 0 de 5 estudios en 2019 a 12 foros de bases de datos, 7 en foros de aprendizaje automático
+de 87 en 2025 (13,8 %), y entre 2019 y 2024 el límite superior o inteligencia artificial y 14 en otros foros, y 18 son preprints.
+del intervalo contiene el 30 %. El año 2026, parcial y fuera de Entre los estudios de un turno, las cifras son 65, 24, 19, 77 y
+la prueba, registra 7 de 122 estudios (5,7 %; IC 95 % de 2,8 a 128, respectivamente.
+11,4 %).                                                          La red de citas entre los estudios incluidos (panel (b)) reúne
+   La tabla V resume las sensibilidades. Las variantes sin 843 citas entre 185 estudios con al menos un vínculo, mientras
+preprints, solo con búsquedas en bases y solo con foros de que 205 estudios quedan aislados. Por dirección, hay 434 citas
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                                                                                                                                                                                            9
+
+
+
+                                                             (a) Un turno                                                      (b) Multiturno
+                     120
+
+                     100
+
+
+
+
+Número de estudios
+                     80
+
+                     60
+
+                     40
+
+                     20                                                                                                                                                                                                                       China
+
+                                                                                                                                                                                                                                          EE. UU.
+                       0
+                                19         20       21        22     23         24   25     26*            19      20     21     22     23       24        25     26*                                                                  Hong Kong
+                                                  Año de publicación (20xx)                                             Año de publicación (20xx)
+
+
+
+
+                                                                                                                                                                                                                 País de afiliación
+                                                                                                                                                                                                                                      Corea del Sur
+                                                                                     Comunidad del foro
+                                                                                                                                                                                                                                           Canadá
+                                          PLN                  Bases de datos             Aprendizaje automático / IA           Otra            Preprint
+                                                                                                                                                                                                                                      Reino Unido
+
+                                                                                              (a)                                                                                                                                             India
+
+                                                                                                                                                                                                                                          Singapur
+
+                                                                                                                                                                                                                                         Alemania
+                                                                                                                                                                                                                                                                                                               Un turno
+                                                                                                                                                                                                                                          Australia                                                            Multiturno
+
+                                                                                                                                                                                                                                                       0      20      40      60       80     100   120     140   160
+                             Global-GNN (29)                                                                                                 RAT-SQL (77)                                                                                                                         Número de estudios
+
+                                                                                                                                                                                                                                                                              (c)
+                                LGESQL (34)                                                                                                  PICARD (48)                                                    60
+
+
+
+
+                                                                                                                                                                         Estudios que usan la familia (%)
+                                                                                                                                                                                                            50
+
+                                                                                                                                                                                                            40                                                                                            Familia de modelo
+                                     SParC (34)                                                                                              BRIDGE (40)
+                                                                                                                                                                                                                                                                                                          GPT
+                                                                                                                                                                                                            30                                                                                            BERT/RoBERTa/ELECTRA
+                                                                                                                                                                                                                                                                                                          Qwen
+                                                                                                                                                                                                            20                                                                                            LLaMA/CodeLlama
+                                EditSQL (40)                                                                                                 IRNet (60)                                                                                                                                                   DeepSeek
+                                                                                                                                                                                                            10                                                                                            T5
+                                                                                                                                                                                                                                                                                                          Gemini/PaLM
+                                                                                                                                                                                                             0
+
+            Escenario (tamaño = citas recibidas en la red)                                                                                                                                                       20                    20      20          20      20      20      20         *
+                                                                                                                                                                                                                   19                    20      21          22      23      24      25     20
+                       Un turno                                                                                                                                                                                                                                                               26
+                       Multiturno
+                                                                                                                                                                                                                                                      Año de publicación
+
+                                                                                              (b)                                                                                                                                                                            (d)
+Figura 5. Panorama bibliométrico exploratorio (enmienda A6). (a) Comunidad de investigación del foro de publicación, por año: (a) estudios de un turno;
+(b) estudios multiturno. *2026: año parcial. (b) Red de citas entre los estudios incluidos con al menos un vínculo (185 de 390 estudios; 843 citas; fuente:
+OpenAlex, 2026-10-13). Etiquetas: los ocho estudios más citados dentro de la red, con su número de citas. (c) Los diez países con más estudios incluidos, por
+escenario. Un estudio se cuenta en cada país con al menos un autor afiliado (fuente: OpenAlex, 2026-10-13). (d) Familias de modelos base por año (porcentaje
+de los estudios del año que mencionan la familia; un estudio puede usar varias). En el Nivel 1 solo se registraron los modelos citados en las páginas 1–2, por
+lo que el uso real está subestimado. *2026: año parcial.
+
+
+
+de un turno a un turno, 137 de un turno a multiturno, 173                                                                                                       IV-E. Calidad de los estudios
+de multiturno a multiturno y 99 de multiturno a un turno. La                                                                                                       Se evaluó la calidad de los 77 estudios del Nivel 2. De ellos,
+mediana de citas por año desde la publicación es de 1,0 en                                                                                                      72 alcanzan el umbral de validez del 50 % y 5 quedan por
+los estudios multiturno y de 0,5 en los de un turno. Por tipo                                                                                                   debajo: [35], [36], [37], [38], [39]. La mediana de la puntuación
+de afiliación, 197 estudios son solo de academia, 79 combinan                                                                                                   de validez es 70,0 % (rango intercuartílico de 60,0 a 80,0 %;
+academia e industria, 28 son solo de industria y 80 carecen de                                                                                                  rango de 20,0 a 100,0 %).
+datos.                                                                                                                                                             El perfil completo por ítem figura en el material suplemen-
+  Respecto de los países (panel (c)), China registra 170 estudios                                                                                               tario. Entre los ítems de validez, CQ6 (ablación o análisis de
+(35 multiturno y 135 de un turno) y Estados Unidos 91 (24 y                                                                                                     errores) es completo en 68 estudios (88,3 %), mientras que
+67); siguen Hong Kong con 18, Corea del Sur con 12 y Canadá                                                                                                     CQ2 (reproducibilidad de la técnica) lo es en 14 (18,2 %) y
+con 12. En cuanto a las familias de modelos base (panel (d)),                                                                                                   CQ5 (métricas e historial reportados) en 19 (24,7 %). Entre
+BERT, RoBERTa y ELECTRA y T5 son las más mencionadas                                                                                                            los ítems de reporte, CQ1 es completo en los 77 estudios y
+hasta 2022; GPT lo es en 2024 y en 2026, y Qwen en 2025.                                                                                                        CQ8 (código o datos disponibles) está ausente en 24 (31,2 %).
+Claude y Qwen aparecen desde 2025, y DeepSeek desde 2024.                                                                                                   IV-F. Efectos de los componentes
+En el Nivel 1 solo se registraron los modelos citados en las
+                                                                                                                                                               La evidencia principal sobre el efecto de los componentes
+páginas 1 y 2, de modo que el uso real de cada familia está
+                                                                                                                                                            proviene de los contrastes dentro del estudio (componente
+subestimado, y las cifras por país y por comunidad dependen
+                                                                                                                                                            activado frente a desactivado, con el mismo modelo base y
+de la cobertura de OpenAlex y de la clasificación de los foros.
+                                                                                                                                                            configuración). Se analizaron los 72 estudios del Nivel 2 que
+   Los análisis de productividad y red de coautoría, y de                                                                                                   alcanzan el umbral de validez, agrupados por pilar y clase de
+frecuencia de términos en títulos y resúmenes, se presentan en                                                                                              componente (figura 6 y tabla VI). Cada pilar incluye una clase
+el material suplementario.                                                                                                                                  «otros componentes», que reúne componentes heterogéneos.
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                                              10
+
+
+
+
+                                            PI1 · Concatenación / historial (n = 3)
+
+
+                                       PI1 · Otros componentes del pilar (n = 17)
+
+
+                                           PI1 · Reescritura de la pregunta (n = 5)
+
+
+                                        PI2 · Grafo / estado estructurado (n = 11)
+
+
+                                       PI2 · Otros componentes del pilar (n = 22)
+
+
+                                            PI2 · SQL / resultados previos (n = 7)
+
+
+                                       PI3 · Otros componentes del pilar (n = 15)
+
+
+                                          PI3 · Vinculación de esquemas (n = 19)
+
+
+                              PI4 · Aclaración / interacción con el usuario (n = 3)
+
+
+                          PI4 · Autoconsistencia / selección de candidatos (n = 2)
+
+
+                    PI4 · Autocorrección / retroalimentación de ejecución (n = 11)
+
+
+                                       PI4 · Otros componentes del pilar (n = 11)
+                                                                                                                              Estudio (mediana de sus contrastes)
+                                                                                                                              Mediana entre estudios
+
+
+                                                                                        −20         −10      0       10            20        30           40
+                                                                                          Efecto del componente (pp; con − sin, mediana por estudio)
+
+Figura 6. Efecto de cada clase de componente según los contrastes dentro del estudio (activado frente a desactivado, mismo modelo base y configuración), en
+puntos porcentuales sobre métricas de exactitud. Cada punto es la mediana de los contrastes de un estudio; la barra, la mediana entre estudios. Síntesis sin
+metaanálisis (SWiM); estudios del Nivel 2 con validez ≥ 50 %.
+
+
+
+
+                                                               Tabla VI
+  E FECTO DE LOS COMPONENTES EN CONTRASTES DENTRO DEL ESTUDIO ( DIFERENCIA EN PUNTOS PORCENTUALES FRENTE A LA VARIANTE SIN EL
+COMPONENTE ), ESTUDIOS DEL N IVEL 2 QUE ALCANZAN EL UMBRAL DE VALIDEZ (n = 72). E ST.: ESTUDIOS ; C ONTR .: CONTRASTES ; M ED .: MEDIANA ;
+                    VAL .: VALIDEZ MEDIA DE LOS ESTUDIOS DE LA CLASE ; CONFIANZA INSPIRADA EN GRADE-CERQ UAL .
+
+Pilar   Clase de componente                                  Est.     Contr.          Med. (pp)       Rango (pp)    Est. +/ − /0         Contr. + ( %)          Val. ( %)   Confianza
+PI1     Concatenación / historial                              3          16                  0,6       0,2 a 2,0          3/0/0                      87,5          66,7    moderada
+PI1     Otros componentes del pilar                           17         119                  2,4     −0,2 a 25,0         16/1/0                      92,4          77,1    alta
+PI1     Reescritura de la pregunta                             5          46                  2,0     −4,8 a 19,2          4/1/0                      73,9          76,0    alta
+PI2     Grafo / estado estructurado                           11          74                  2,9      0,5 a 32,0         11/0/0                      95,9          79,1    alta
+PI2     Otros componentes del pilar                           22         124                  2,9     −0,7 a 17,8         21/1/0                      91,9          76,8    alta
+PI2     SQL / resultados previos                               7          41                  5,7     −0,1 a 10,5          6/1/0                      90,2          81,4    alta
+PI3     Otros componentes del pilar                           15         143                  2,1     −0,2 a 25,0         14/1/0                      87,4          75,3    alta
+PI3     Vinculación de esquemas                               19          92                  2,2      0,3 a 33,2         19/0/0                      81,5          76,3    alta
+PI4     Aclaración / interacción con el usuario                3           7                  8,9    −19,1 a 43,0          2/1/0                      71,4          80,0    moderada
+PI4     Autoconsistencia / selección de candidatos             2           9                  1,1       0,2 a 2,0         2/0/0                       88,9          70,0    moderada
+PI4     Autocorrección / retroalimentación de eje-            11         141                  1,5      0,0 a 13,8         11/0/0                      93,6          72,7    moderada
+        cución
+PI4     Otros componentes del pilar                           11           90                 4,1     −2,3 a 13,8         10/1/0                      86,7          77,3    alta
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                     11
+
+
+
+   En PI1, la reescritura de la pregunta se evaluó en 5 estudios                                    Tabla VII
+(4 con efecto positivo y 1 negativo) y la concatenación del              TAXONOMÍA DE PI1 Y PI2: ESTUDIOS DEL N IVEL 2 QUE ALCANZAN EL
+                                                                          UMBRAL DE VALIDEZ (n = 72). U N ESTUDIO PUEDE TENER VARIOS
+historial en 3 (todos positivos), con medianas de 2,0 y 0,6             CÓDIGOS , POR LO QUE LOS PORCENTAJES DE UN CAMPO PUEDEN SUMAR
+pp, respectivamente. Las dos clases provienen de contrastes                                        MÁS DE 100.
+distintos y no de una comparación directa dentro de un
+mismo estudio. En PI2, los 11 estudios sobre grafo o estado                     Código                                  Estudios     %
+estructurado reportan efecto positivo, con mediana de 2,9                       PI1 · Técnica de restauración del contexto
+                                                                                  Concatenación del historial                35    48,6
+pp; de los 7 estudios sobre SQL o resultados previos, 6 son                       Reescritura de la pregunta                 12    16,7
+positivos y 1 negativo. En PI3, los 19 estudios sobre vinculación                 Clasificación del discurso                  2     2,8
+de esquemas son positivos. En PI4, los 11 estudios sobre                          Resolución explícita de referencias         2     2,8
+                                                                                  No reportado                               25    34,7
+autocorrección o retroalimentación de ejecución son positivos,                  PI2 · Representación del estado
+con mediana de 1,5 pp en 141 contrastes. La aclaración con el                     Historial plano                            38    52,8
+usuario tiene la mediana más alta de la tabla VI (8,9 pp) con                     SQL previo (edición)                       11    15,3
+                                                                                  Estructura explícita                       10    13,9
+solo 3 estudios y 7 contrastes, y un rango de −19,05 a 43,0                       Grafo                                       9    12,5
+pp. La autoconsistencia se evaluó en 2 estudios y 9 contrastes.                   Memoria externa                             7     9,7
+Ninguna clase registra estudios con efecto nulo.                                  Ventana deslizante                          5     6,9
+                                                                                  Resumen                                     1     1,4
+   La confianza en el hallazgo es alta para las clases «otros                     No reportado                               11    15,3
+componentes» de los cuatro pilares, la reescritura de la pregunta,              PI2 · Actualización del estado
+el grafo o estado estructurado, el SQL o resultados previos y la                  Implícita (neuronal)                       34    47,2
+                                                                                  Reglas deterministas                       16    22,2
+vinculación de esquemas. Es moderada para la concatenación                        Generativa (LLM)                           12    16,7
+del historial (limitaciones metodológicas y suficiencia leves),                   No reportado                               16    22,2
+la aclaración con el usuario (suficiencia leve y pertinencia                    PI2 · Coste del contexto
+                                                                                  Crece con los turnos                       36    50,0
+importante), la autoconsistencia (limitaciones metodológicas                      Acotado                                    14    19,4
+leves y suficiencia importante) y la autocorrección por ejecución                 No reportado                               22    30,6
+(limitaciones metodológicas y pertinencia leves). La tabla VI
+incluye la validez media de cada clase.
+   En la sensibilidad, las medianas de la mayoría de las                   Respecto de la pregunta específica, los contrastes dentro del
+clases no cambian al reincorporar los estudios bajo el umbral           estudio se agrupan en clases distintas para la reescritura y para
+ni al excluir los preprints. Las excepciones son, al excluir            la concatenación, de modo que la comparación entre ambas es
+preprints, SQL o resultados previos (3,3 pp), vinculación de            descriptiva y no procede de un mismo estudio. La mediana de
+esquemas (1,3 pp) y «otros componentes» de PI4 (3,0 pp); y, al          la reescritura es de 2,0 pp (5 estudios) y la de la concatenación
+reincorporar los estudios bajo el umbral, «otros componentes»           de 0,6 pp (3 estudios); en ambas clases la dirección es positiva
+de PI4 (3,1 pp) y de PI3 (2,6 pp).                                      en la mayoría de los estudios. El detalle, con la confianza de
+   La diferencia frente a la línea base propia es evidencia             cada hallazgo, figura en la sección IV-F (figura 6 y tabla VI).
+secundaria. Para el conjunto de pilares se registran 229                Las diferencias frente a la línea base propia de los estudios
+configuraciones de 43 estudios, con mediana de ∆ de 2,8 pp;             con reescritura se reportan cada una en su benchmark, métrica
+los archivos no la desagregan por pilar. Los valores individuales,      e historial, y no se comparan entre sí; por ejemplo, ACT-SQL
+cada uno en su benchmark, métrica e historial, se presentan             reporta +18,3 pp en CoSQL con la métrica QM y el historial
+en el material suplementario y no se comparan entre estudios.           SOLO_PREGUNTAS.
+
+IV-G.    PI1: restauración del contexto                                 IV-H.   PI2: representación y actualización del estado
+   La taxonomía de PI1 se basa en los 72 estudios multiturno        La base de PI2 son los mismos 72 estudios del Nivel 2
+del Nivel 2 que alcanzan el umbral de validez (tabla VII). La (tabla VII). La representación más frecuente es el historial
+técnica más frecuente es la concatenación del historial (35 plano (38 estudios, 52,8 %). Le siguen el SQL previo como
+estudios, 48,6 %), seguida de la reescritura de la pregunta (12 base de edición (11 estudios, 15,3 %), la estructura explícita
+estudios, 16,7 %). La clasificación del discurso y la resolución (10, 13,9 %), el grafo (9, 12,5 %), la memoria externa (7,
+explícita de referencias aparecen en 2 estudios cada una (2,8 %), 9,7 %), la ventana deslizante (5, 6,9 %) y el resumen (1,
+y 25 estudios (34,7 %) no reportan la técnica. Un estudio puede 1,4 %); 11 estudios (15,3 %) no reportan la representación. La
+tener más de un código. Entre los insumos del historial, las actualización del estado es implícita y neuronal en 34 estudios
+preguntas previas están presentes en 59 estudios (81,9 %), el (47,2 %), se basa en reglas deterministas en 16 (22,2 %) y es
+SQL previo en 32 (44,4 %), las respuestas del sistema en 13 generativa con un LLM en 12 (16,7 %); otros 16 (22,2 %) no
+(18,1 %) y los resultados de ejecución en 3 (4,2 %); 11 estudios la reportan.
+(15,3 %) no reportan el insumo.                                     En cuanto al coste del contexto, 36 estudios (50,0 %) crecen
+   Entre los estudios que reescriben la pregunta figuran con el número de turnos, 14 (19,4 %) lo acotan y 22 (30,6 %)
+Rose-SQL [40], ACT-SQL [41], CQR-SQL [42], DIR [43], no lo reportan. Los trabajos con estructura explícita incluyen
+QURG [44] y FANDA [45]. CoE-SQL [46] y el trabajo de a Rose-SQL [40], el seguimiento de estados con aprendizaje
+self-play [47] concatenan el historial sin reescritura.           en contexto [48], SemPlan [49] y el modelado de estados
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                       12
+
+
+
+de interacción [50]. Los de grafo son IGSQL [51], un grafo                                            Tabla VIII
+heterogéneo de interacción [52] y una red de relaciones híbrida           T ÉCNICAS DE PI3 Y PI4 POR ESCENARIO : ESTUDIOS ( Y PORCENTAJE )
+                                                                           SOBRE TODOS LOS ESTUDIOS DEL N IVEL 2 (n = 77) Y DEL N IVEL 1
+dinámica [53]. CoE-SQL [46] y EditSQL [54] editan el SQL                 (n = 313), SIN APLICAR EL UMBRAL DE VALIDEZ . U N ESTUDIO PUEDE
+previo.                                                                  TENER VARIOS CÓDIGOS . B T ÉCNICA DE UN TURNO NO TRASLADADA AL
+                                                                                                     MULTITURNO .
+   Los campos descriptivos del grafo no se reportan en 64 de
+los 72 estudios. Entre los 8 que sí los reportan, los nodos son                 Código                             Multiturno   Un turno
+elementos del esquema en 8 estudios, tokens de la pregunta en
+                                                                                PI3 · Vinculación de esquemas
+4 y valores de la base de datos en 2, y el grafo es dinámico en                   LLM con prompting                 12 (15,6)   75 (24,0)
+7 y estático en 1. Los archivos no incluyen el cruce entre tipo                   Poda del esquema                    7 (9,1)   53 (16,9)
+de representación y coste del contexto, solo las frecuencias                      Clasificador entrenado            11 (14,3)   45 (14,4)
+                                                                                  Recuperación por embeddings         6 (7,8)   47 (15,0)
+marginales. Los contrastes dentro del estudio de las clases de                    Ninguna explícita                 12 (15,6)   38 (12,1)
+grafo o estado estructurado (11 estudios; mediana de 2,9 pp)                      Grafo del esquema                 13 (16,9)    28 (8,9)
+y de SQL o resultados previos (7 estudios; mediana de 5,7 pp)                     Coincidencia de cadenas           17 (22,1)    17 (5,4)
+                                                                                PI3 · Inferencia de joins
+se presentan en la sección IV-F.                                                  Implícita en el modelo            55 (71,4)   71 (22,7)
+                                                                                  Grafo de claves foráneas            1 (1,3)    14 (4,5)
+                                                                                  Algorítmica (caminos)               1 (1,3)     8 (2,6)
+                                                                                PI4 · Mecanismo
+                                                                                  Retroalimentación de ejecución    10 (13,0)   99 (31,6)
+IV-I.   PI3: vinculación de esquemas e inferencia de joins                        Verificador o crítico               2 (2,6)   64 (20,4)
+                                                                                  Autodepuración con LLM              4 (5,2)   46 (14,7)
+   Entre los 72 estudios del Nivel 2, la técnica de vinculación                   Autoconsistencia (votación)b        0 (0,0)   42 (13,4)
+no se reporta en 22 (30,6 %). Entre las reportadas predominan                     Aclaración con el usuario         22 (28,6)     7 (2,2)
+                                                                                  Abstención                          5 (6,5)     8 (2,6)
+la coincidencia de cadenas (15 estudios, 20,8 %), la ausencia                     Reparación simbólica                1 (1,3)     6 (1,9)
+de vinculación explícita (12, 16,7 %) y el grafo del esquema                    PI4 · Señal
+(12, 16,7 %); siguen el prompting de un LLM (10, 13,9 %),                         Resultado de la ejecución          9 (11,7) 100 (31,9)
+                                                                                  Error del SGBD                     9 (11,7)  63 (20,1)
+el clasificador entrenado (9, 12,5 %), la poda del esquema                        Juicio de un LLM                    3 (3,9)  55 (17,6)
+(7, 9,7 %) y la recuperación por embeddings (6, 8,3 %). La                        Usuario                           20 (26,0)    9 (2,9)
+inferencia de joins es implícita en el modelo en 54 estudios                      Resultado vacío                     2 (2,6)    8 (2,6)
+(75,0 %) y no se reporta en 16 (22,2 %). Solo 2 estudios
+usan una inferencia no implícita: UniSAr [55], con caminos
+algorítmicos, y PG-GSQL [56], con un grafo de claves foráneas           IV-J.   PI4: retroalimentación de ejecución y autocorrección
+y restricciones. Un total de 10 estudios (13,9 %) reportan errores         En los 72 estudios del Nivel 2, el mecanismo de autocorrec-
+de join.                                                                ción no se reporta en 46 (63,9 %) y la señal en 47 (65,3 %).
+   La tabla VIII contrasta las frecuencias de cada código entre         Entre los reportados, la aclaración con el usuario aparece
+los estudios multiturno y los de un turno. Su base son todos            en 18 estudios (25,0 %), la retroalimentación de ejecución
+los estudios del Nivel 2 (77) y del Nivel 1 de un turno (313),          y errores en 10 (13,9 %), la abstención y la autodepuración
+sin aplicar el umbral de validez, por lo que los recuentos              con un LLM en 4 cada una (5,6 %), el verificador o crítico
+multiturno difieren de los de la taxonomía anterior (p. ej., 12         en 2 (2,8 %) y la reparación simbólica en 1 (1,4 %). Las
+frente a 10 estudios con prompting de un LLM). Todos los                señales son el usuario (16 estudios, 22,2 %), el resultado de
+códigos de PI3 aparecen al menos una vez en multiturno. La              la ejecución (9, 12,5 %), el error del SGBD (9, 12,5 %), el
+coincidencia de cadenas representa el 22,1 % de los estudios            juicio de un LLM (3, 4,2 %) y el resultado vacío (2, 2,8 %).
+multiturno y el 5,4 % de los de un turno, y el grafo del esquema        El mecanismo se aplica al escenario multiturno en 30 estudios
+el 16,9 % frente al 8,9 %. El prompting de un LLM, la poda              (41,7 %) y no en 42 (58,3 %). Ejemplos son la aclaración en un
+y la recuperación por embeddings son menos frecuentes en                analizador interactivo [57], la retroalimentación de ejecución
+multiturno (15,6 %, 9,1 % y 7,8 %) que en un turno (24,0 %,             con aprendizaje a partir de errores [58], HarnessSQL [59],
+16,9 % y 15,0 %). La inferencia implícita de joins alcanza el           la reparación simbólica de PICARD [60] y un verificador
+71,4 % en multiturno y el 22,7 % en un turno. La comparación            conversacional [61].
+es de frecuencias, no de resultados.                                       El contraste con un turno aparece en la tabla VIII, con la
+   Como análisis exploratorio (enmienda A6), el material                misma base que en PI3. La retroalimentación de ejecución está
+suplementario muestra las combinaciones de técnicas de PI3              en el 13,0 % de los estudios multiturno y el 31,6 % de los de
+y PI4 en un mismo estudio. En multiturno, la aclaración con             un turno; el verificador o crítico, en el 2,6 % frente al 20,4 %,
+el usuario se combina con la retroalimentación de ejecución,            y la autodepuración con un LLM, en el 5,2 % frente al 14,7 %.
+con el prompting de un LLM y con la coincidencia de cadenas             La aclaración con el usuario ocurre en el 28,6 % de los estudios
+en 6 estudios cada una. En un turno, la retroalimentación               multiturno y el 2,2 % de los de un turno, y la señal de usuario
+de ejecución coincide con el prompting de un LLM en 31                  en el 26,0 % frente al 2,9 %. La autoconsistencia por votación
+estudios y este con la autoconsistencia en 19. La mediana               es la única técnica de un turno no trasladada al multiturno:
+de los contrastes dentro del estudio de la vinculación de               no figura en ningún estudio multiturno y aparece en 42 de
+esquemas es de 2,2 pp (19 estudios); su detalle se presenta en          un turno (13,4 %). Las medianas de los contrastes dentro del
+la sección IV-F.                                                        estudio son de 1,5 pp para la autocorrección por ejecución (11
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                                                               13
+
+
+
+                                                              Tabla IX
+PI5: HISTORIAL USADO EN LA EVALUACIÓN Y DEGRADACIÓN POR TURNO , ESTUDIOS DEL N IVEL 2 QUE ALCANZAN EL UMBRAL DE VALIDEZ (n = 72). L A
+                                 PENDIENTE ES LA MEDIANA POR ESTRATO ; LOS ESTRATOS NO SE COMBINAN .
+
+
+                           Estrato o práctica                                               Estudios ( %)           Est. con curva       Curvas    Pendiente (pp/turno)
+                           Historial usado en la evaluación
+                             Predicho                               31 (43,1)                                                   5            6                          −7,0
+                             Solo preguntas                         19 (26,4)                                                   6            8                         −11,0
+                             De referencia (gold)                      5 (6,9)                                                 —            —                             —
+                             No reportado                           20 (27,8)                                                  —            —                             —
+                           Prácticas de reporte (estudios que sí las reportan)
+                             Degradación por turno                  38 (52,8)
+                             Errores de join                        10 (13,9)
+                             Contaminación del benchmark               7 (9,7)
+
+
+                                                                               (a) Historial predicho                         (b) Solo preguntas previas
+                                                                     140
+                                                                                                       5 estudios                                         6 estudios
+                                                                                            mediana -7.0 pp/turno                             mediana -11.0 pp/turno
+
+
+
+
+                                 Exactitud relativa al turno 1 (%)
+                                                                     120
+
+                                                                     100
+
+                                                                     80
+
+                                                                     60
+
+                                                                     40
+
+                                                                     20
+
+                                                                      0
+                                                                           1       2            3             4+        1            2             3             4+
+                                                                                       Turno                                              Turno
+
+Figura 7. Degradación de la exactitud a lo largo de los turnos (sistema propuesto, normalizada al turno 1; turnos ≥ 4 agrupados en «4+»), separada por el tipo
+de historial usado en la evaluación: (a) historial predicho; (b) solo preguntas previas. Valores por turno extraídos de las tablas de cada estudio y verificados
+en la página citada. Sin curvas con al menos tres turnos para: historial gold, no reportado. Los grupos de turno contienen preguntas distintas, por lo que la
+pendiente mezcla profundidad y dificultad; las pendientes no se agrupan entre estratos.
+
+
+
+estudios) y de 8,9 pp para la aclaración (3 estudios), con los                                                      las discrepancias correspondieron a SUQL [62] y DIR [43], y
+detalles y la confianza en la sección IV-F.                                                                         la primera se corrigió a SOLO_PREGUNTAS.
+                                                                                                                       La figura 7 presenta la degradación por turno, con los estratos
+                                                                                                                    separados y sin agruparlos. En el estrato predicho hay 6 curvas
+IV-K.    PI5: benchmarks, métricas y degradación por turno                                                          de 5 estudios, con una pendiente mediana de −7,0 pp por turno.
+   Los 72 estudios del Nivel 2 con validez suficiente usan sobre                                                    En el estrato de solo preguntas hay 8 curvas de 6 estudios, con
+todo benchmarks multiturno conversacionales (50 estudios),                                                          una mediana de −11,0 pp por turno. Ninguna curva con al
+seguidos de benchmarks estándar de un turno (18), interactivos                                                      menos tres turnos corresponde al historial de referencia ni al
+o de aclaración (11), variantes de un turno (7), de diálogo                                                         no reportado. Todas las pendientes individuales son negativas
+orientado a tareas (5), de datos propios o industriales (3) y de                                                    en ambos estratos; por ejemplo, la de IGSQL [51] en SParC es
+QA conversacional o tabular híbrida (3). Entre ellos se cuentan                                                     de −16,95 pp por turno (historial predicho) y la de QURG [44]
+SParC [7], CoSQL [8] y CHASE [9], además de Spider [4] y                                                            en SParC de −10,62 pp (solo preguntas). Los grupos de turno
+BIRD [5] en su uso de un turno. Las métricas más empleadas                                                          contienen preguntas distintas, por lo que la pendiente mezcla
+son la ejecución por pregunta (34 estudios), la coincidencia por                                                    la profundidad del turno con la dificultad de las preguntas, y
+interacción (31) y la coincidencia por pregunta (30), seguidas                                                      las comparaciones entre filas son descriptivas.
+de la coincidencia exacta o lógica (21) y la ejecución por
+interacción (9). Un estudio puede aparecer en varias familias.
+Las categorías OTRA se consolidaron en las familias anteriores.                                                     IV-L. Sesgos de notificación y análisis de sensibilidad com-
+                                                                                                                    plementarios
+   El tipo de historial usado en la evaluación (tabla IX) es
+predicho en 31 estudios (43,1 %), solo preguntas en 19 (26,4 %),                                                       Varios campos de la extracción no se reportan en una parte
+de referencia (gold) en 5 (6,9 %) y no reportado en 20 (27,8 %).                                                    amplia de los estudios del Nivel 2: la técnica de restauración del
+Un total de 38 estudios (52,8 %) reportan degradación por                                                           contexto en 25 de 72 (34,7 %), el mecanismo de autocorrección
+turno, 10 (13,9 %) errores de join y 7 (9,7 %) discuten la                                                          en 46 de 72, el historial de la evaluación en 20 de 72 y los
+contaminación del benchmark. En la muestra independiente de                                                         campos descriptivos del grafo en 64 de 72. Los contrastes con
+la autora, el historial coincidió en 3 de 5 estudios (60,0 %);                                                      dirección negativa son escasos: se registra un estudio en la
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                             14
+
+
+
+reescritura de la pregunta, uno en SQL o resultados previos y     conservan la clasificación. La cota que incorpora los informes
+uno en la aclaración, entre otros.                                no recuperados también queda por debajo del umbral, con un
+   La reincorporación de los 5 estudios bajo el umbral de         límite superior de 19,1 %, aunque para esa variante no se fijó
+validez no modificó las medianas de PI1 ni de PI2. En PI3         una regla de antemano. La ausencia de tendencia detectada (p
+la mediana de otros componentes pasó de 2,1 a 2,6 pp y en         = 0,95) coexiste con intervalos anuales amplios: entre 2019
+PI4 la de otros componentes de 4,1 a 3,1 pp, y la clase de        y 2024 el límite superior contiene el 30 %, de modo que la
+autocorrección por ejecución pasó de 11 a 12 estudios con la      potencia de la prueba en los primeros años es baja. Los datos
+misma mediana de 1,5 pp. Al excluir los preprints, la mediana     no respaldan, por tanto, la afirmación de que la diferencia entre
+de SQL o resultados previos pasó de 5,7 a 3,3 pp (6 estudios),    escenarios se esté reduciendo, pero tampoco permiten descartar
+la de vinculación de esquemas de 2,2 a 1,3 pp (16 estudios) y     cambios moderados. El año 2026 es parcial, quedó fuera de la
+la de otros componentes de PI4 de 4,1 a 3,0 pp (6 estudios); las  prueba y no se interpreta.
+demás medianas variaron poco o nada. La clase de aclaración          Las técnicas de un turno aparecen en multiturno con frecuen-
+no figura en el análisis sin preprints. Las sensibilidades de D4  cias relativas distintas (tabla VIII). La aclaración con el usuario
+se presentan en la sección IV-C.                                  y la señal de usuario son proporcionalmente más frecuentes en
+   Los informes no recuperados corresponden a 148 de señal de     multiturno, mientras que la retroalimentación de ejecución y
+un turno y 43 de señal multiturno. Con el supuesto conservador    la verificación lo son menos; por ejemplo, la retroalimentación
+de que todos cuentan en el denominador y los de señal             de ejecución figura en el 13,0 % de los estudios multiturno
+multiturno también en el numerador, D4 es de 77/493 (15,6 %;      y en el 31,6 % de los de un turno. La autoconsistencia por
+IC 95 % de 12,7 a 19,1 %).                                        votación es el único código de un turno que no figura en
+                                                                  ningún estudio multiturno, si bien 2 estudios multiturno evalúan
+                        V. D ISCUSIÓN                             componentes de selección de candidatos (tabla VI). Este patrón
+V-A. Hallazgos principales                                        sugiere que en el escenario conversacional la ambigüedad se
+                                                                  aborda más mediante la interacción que mediante la ejecución.
+   Los resultados de la sección IV se resumen en siete hallazgos.
+                                                                  Una explicación posible, no evaluada en esta revisión, es que
+Primero, entre los estudios que abordan la vinculación de
+                                                                  algunos benchmarks conversacionales incorporan turnos de
+esquemas o la autocorrección como contribución central,
+                                                                  aclaración [8]. En cualquier caso, se trata de frecuencias de
+los multiturno constituyen una fracción minoritaria: D4 es
+                                                                  uso y no de resultados, y la base del contraste (todos los
+11,3 % (IC 95 % de Wilson, 8,2–15,3 %), y la regla registrada
+                                                                  estudios multiturno) difiere de la base con umbral de validez
+lo clasifica como «considerablemente menos investigado»
+                                                                  de las taxonomías. En cuanto a la inferencia algorítmica de
+(sección IV-C). Segundo, la prueba de tendencia para 2019–
+                                                                  joins, es casi inexistente en multiturno: solo 2 estudios usan
+2025 no detectó cambios en esa proporción. Tercero, el historial
+                                                                  una inferencia no implícita [55], [56]. Con 2 estudios no es
+plano es la representación del estado más frecuente, mientras
+                                                                  posible contrastar, dentro de un mismo estudio, la inferencia
+que las estructuras explícitas y los grafos son minoritarios
+                                                                  implícita con la algorítmica, y los archivos no incluyen un
+(sección IV-H). Cuarto, los contrastes dentro del estudio tienen
+                                                                  análisis por tamaño del esquema. Por consiguiente, la evidencia
+dirección positiva en la gran mayoría de los estudios, con
+                                                                  no permite valorar si la inferencia implícita es suficiente en
+medianas de pocos puntos porcentuales (sección IV-F). Quinto,
+                                                                  esquemas grandes.
+la inferencia de joins es implícita en el modelo en la mayoría
+                                                                     Los componentes de grafo o estado estructurado muestran
+de los estudios multiturno (sección IV-I). Sexto, el tipo de
+                                                                  dirección positiva en los 11 estudios que los evalúan, con
+historial usado en la evaluación varía entre estudios y con
+                                                                  confianza alta según el procedimiento propio de la revisión
+frecuencia no se reporta; solo el estrato con historial predicho
+                                                                  (tabla VI). Esta evidencia se acota con tres salvedades. La
+permite observar la propagación de errores (sección IV-K).
+                                                                  primera es el sesgo de notificación: las ablaciones suelen
+Séptimo, el número de estudios del corpus que cumplen el
+                                                                  reportarse para justificar el componente propuesto, de modo
+criterio pre-especificado de reformulación es 0; este resultado
+                                                                  que los contrastes negativos son escasos y no se registran nulos
+nulo refleja sobre todo que el estado estructurado explícito
+                                                                  (sección IV-L). La segunda es que algunas medianas cambian
+casi no se combina con la inferencia algorítmica de joins o la
+                                                                  al excluir los preprints; la de SQL o resultados previos, por
+autocorrección por ejecución (1 de 77 estudios multiturno), no
+                                                                  ejemplo, pasa de 5,7 a 3,3 pp. La tercera es que la clase «otros
+que los componentes estén ausentes (sección V-D).
+                                                                  componentes» es heterogénea. Lo que la evidencia muestra es
+                                                                  que, cuando los autores reportan una ablación, el componente
+V-B. Interpretación                                               estructurado mejora el resultado frente a su propia variante
+   La conclusión de que el escenario multiturno está «con- sin él. No muestra que el estado estructurado sea la causa
+siderablemente menos investigado» procede de la aplicación de la mejora en general, ni que supere al historial plano
+de una regla registrada a un intervalo de confianza, no de en comparaciones entre estudios. Además, la magnitud de
+una prueba de hipótesis. Se trata, además, de una referencia estos efectos, de pocos puntos porcentuales, resulta pequeña al
+condicionada al marco de elegibilidad: los estudios de un yuxtaponerla con las pendientes medianas de degradación, de
+turno debían cumplir más requisitos que los multiturno, lo −7,0 y −11,0 pp por turno en los estratos predicho y de solo
+que tiende a aumentar la proporción multiturno. Por ello, preguntas. Esta yuxtaposición es descriptiva: las métricas, los
+el indicador no se generaliza a todo el campo del Text-to- benchmarks y los historiales difieren, y la pendiente mezcla la
+SQL. Las variantes de sensibilidad con conclusión registrada profundidad del turno con la dificultad de las preguntas.
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                 15
+
+
+
+   Una parte considerable de la información relevante no se             conceptuales cumplen otra función. La contribución de las
+reporta: la técnica de restauración del contexto, el mecanismo          fuentes de búsqueda también aporta información de método
+de autocorrección, el historial de la evaluación y los campos           (figura 1). IEEE Xplore aportó 18 estudios incluidos a partir
+descriptivos del grafo (sección IV-L). Esta ausencia limita las         de 368 registros, lo que es compatible con el sesgo de
+taxonomías y la comparabilidad. Sin embargo, una fracción               disponibilidad declarado en la enmienda A4: los informes
+de los valores no reportados podría deberse a la extracción             de editoriales de pago están infrarrepresentados entre los textos
+asistida por IA y no a los informes. El acuerdo entre extractores       completos recuperados. Con los datos disponibles, sin embargo,
+en los campos codificados del Nivel 2 fue del 73,6 %, y en              ese efecto no puede separarse de una menor pertinencia de los
+la muestra independiente de la autora el historial coincidió            registros. arXiv, en cambio, aportó 244 estudios incluidos, 125
+en 3 de 5 estudios. Respecto de la evaluación, el historial             de ellos recuperados solo por esa fuente, lo que respalda la
+de referencia no expone la propagación de errores, porque               decisión de incluir preprints. Bui et al. [12] también reportan
+el sistema nunca recibe sus propias consultas erróneas. Es              arXiv como la fuente con más estudios. El alcance de estos
+plausible, por tanto, que la evaluación con historial gold              sesgos se analiza en la sección VI.
+sobreestime la robustez. El corpus, no obstante, no permite
+verificarlo directamente: ninguna curva de degradación con
+al menos tres turnos corresponde a ese estrato, y el estrato            V-D.   Criterio de reformulación y brechas de cobertura
+predicho reúne solo 6 curvas de 5 estudios.                            El criterio pre-especificado de reformulación evaluaba la
+   Por último, el análisis bibliométrico exploratorio indica que    novedad de una conjunción. Se registró en el protocolo
+los estudios multiturno se publican sobre todo en foros de          como aquello que contaría en contra de la brecha planteada
+procesamiento del lenguaje natural (34) y en mucha menor            de antemano y se reporta con independencia del resultado.
+medida en foros de bases de datos (4), con 18 preprints (figura 5,  Combina tres elementos: (a) un estado estructurado explícito,
+panel (a)). Este reparto es coherente con que el problema           (b) la inferencia algorítmica de joins o la autocorrección por
+se formule principalmente como un problema de lenguaje, y           ejecución, y (c) la evaluación con historial predicho o solo
+coexiste con la escasa inferencia algorítmica de joins observada    con preguntas. El criterio se habría activado con al menos 2
+en multiturno, sin que se haya evaluado relación alguna entre       estudios que reunieran los tres elementos. Entre los 77 estudios
+ambos hechos. El análisis es exploratorio (enmienda A6) y           multiturno del Nivel 2, 14 presentan (a), 13 presentan (b) y
+depende de la clasificación de los foros y de la cobertura de       46 presentan (c); 8 combinan (a) y (c), y 7 combinan (b) y
+OpenAlex.                                                           (c), mientras que el número de estudios que combinan (a) y
+                                                                    (b) es 1. El número de estudios que reúnen los tres elementos
+                                                                    es 0, y la sensibilidad prevista con grafos neuronales tampoco
+V-C. Comparación con revisiones previas                             identificó ninguno. Cada componente existe, por tanto, en
+   La comparación con las revisiones de la tabla I es de el corpus, y también la mayoría de los pares; lo que casi
+alcance y de método, ya que sus objetivos difieren de los no aparece es el estado estructurado junto con la inferencia
+de esta revisión. Según su resumen, Yang et al. [10] cubren el algorítmica de joins o la autocorrección por ejecución. Los
+manejo del contexto, la evolución de las arquitecturas y una componentes figuran asimismo por separado en la literatura:
+comparación cuantitativa en SParC y CoSQL, sin mencionar representaciones de la interacción en forma de grafo [51], que
+protocolo de búsqueda ni tratar como ejes la vinculación de como codificador neuronal no cuentan para (a); inferencia no
+esquemas, la inferencia de joins o la retroalimentación de implícita de joins en multiturno [55], [56]; y rutas de join
+ejecución. Frente a esa comparación de resultados, la presente algorítmicas en un turno [63]. Un resultado nulo sobre una
+revisión aporta recuentos sistemáticos y contrastes dentro del conjunción es evidencia débil: cuanto más específica es la
+estudio, y evita comparar resultados entre estudios. No se puede combinación de rasgos exigida, menos probable es que un
+afirmar qué cubre su texto completo, que no fue posible leer. estudio la reúna, con independencia de su valor. El resultado
+Li, Qu y Haffari [6] ofrecen una visión narrativa anterior a los indica que la combinación no se encontró en el corpus; no
+LLM y más amplia que SQL, mientras que el corpus actual indica que sea necesaria ni que vaya a resultar eficaz. Es,
+abarca la transición hacia el prompting y los agentes (material además, condicional por tres razones. En primer lugar, depende
+suplementario). Entre las revisiones sistemáticas de 2026, la de la codificación de la extracción: un estudio que combine
+versión arXiv v2 de Liu et al. [11] no documenta protocolo ni los elementos sin reportarlos con claridad, o cuyos campos se
+menciona SParC ni CoSQL. Bui et al. [12] documentan una codificaran como no reportados, no se detectaría. En segundo
+búsqueda sistemática, pero en el manuscrito leído el escenario lugar, los informes no recuperados no se evaluaron, y 43 de
+multiturno aparece solo como categoría de datasets. Ortiz- ellos tenían señal multiturno. En tercer lugar, el acuerdo entre
+Delgado et al. [20] no tratan el escenario multiturno, según su extractores en el Nivel 2 fue moderado. Es, por tanto, una
+resumen y su registro.                                              afirmación sobre el corpus de esta revisión y no sobre toda la
+   Los aportes diferenciales son, por tanto, el registro previo del literatura.
+protocolo, el alcance definido con PICOC, el contraste explícito       A partir de la evidencia se identifican las siguientes brechas
+entre un turno y multiturno, la degradación estratificada por de cobertura observadas, ordenadas de mayor a menor solidez
+historial y los contrastes dentro del estudio con un nivel de de la evidencia que las sustenta. Se presentan como ausencias
+confianza por hallazgo. Ello no implica superioridad sobre o escaseces en el corpus, no como necesidades ni como
+los surveys, cuyas taxonomías de arquitecturas y panoramas soluciones cuya eficacia esta revisión haya establecido, y para
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                           16
+
+
+
+cada una se indica qué muestra la evidencia y qué no permite de historial usado en la evaluación y reportar los resultados por
+mostrar:                                                           turno, preferentemente con historial predicho, que es el único
+  1. Evaluación con historial predicho y reporte por turno. que refleja la propagación de errores. Junto con la exactitud de
+      El historial de la evaluación no se declara en 20 de 72 ejecución, conviene reportar las métricas por pregunta y por
+      estudios, y el estrato predicho reúne solo 6 curvas de interacción, que capturan la coherencia a lo largo del diálogo.
+      degradación de 5 estudios (sección IV-K). La evidencia También deberían describirse la técnica de restauración del
+      procede directamente de lo que los informes declaran; contexto, la representación del estado y su actualización, el
+      no permite estimar cuánto sobreestima la robustez la coste del contexto en función del número de turnos, y el
+      evaluación con historial de referencia.                      mecanismo y la señal de autocorrección; su omisión contribuye
+  2. Reporte de la técnica y de la evaluación. Solo 14 de a los valores no reportados de esta revisión.
+      los estudios del Nivel 2 (18,2 %) describen la técnica          En cuanto a la reproducibilidad, entre los estudios del Nivel
+      con detalle suficiente para reproducirla (CQ2), y solo 2 la técnica se describe con detalle suficiente para reproducirla
+      19 (24,7 %) reportan a la vez métricas estándar y el en solo 14 (18,2 %), y el código o los datos no están disponibles
+      tipo de historial (CQ5); varios campos de la extracción en 24 (31,2 %) (sección IV-E). Reportar las ablaciones con el
+      quedan como no reportados (sección IV-L). La evidencia mismo modelo base, incluidas las de efecto nulo o negativo,
+      muestra limitaciones de reporte; no permite separar del atenuaría el sesgo de notificación señalado en la sección V-B.
+      todo las omisiones de los informes de las atribuibles a Solo 7 de los estudios que alcanzan el umbral de validez
+      la extracción asistida por IA.                               (9,7 %) discuten la contaminación del benchmark, lo que impide
+  3. Contaminación de los benchmarks. Solo 7 de los estudios valorar su influencia en los resultados reportados. Por último,
+      que alcanzan el umbral de validez (9,7 %) la discuten. para quienes diseñan benchmarks y protocolos de evaluación,
+      La evidencia muestra que el riesgo rara vez se examina; agrupar los turnos con una dificultad controlada permitiría
+      no permite estimar cuánto infla los resultados reportados separar el efecto de la profundidad del turno del de la dificultad
+      (sección VI-C).                                              de las preguntas, una distinción que las pendientes actuales no
+  4. Datos en español y multilingües. Solo 3 de los 390 permiten hacer.
+      estudios incluidos evalúan con datos en español, frente
+      a 350 con datos en inglés y 20 en chino. La evidencia                       VI. A MENAZAS A LA VALIDEZ
+      muestra una cobertura lingüística desigual, en un corpus
+      que además excluye publicaciones en otros idiomas; no VI-A. Identificación y selección de estudios
+      muestra si el rendimiento o la dificultad del diálogo           La búsqueda abarcó 5 fuentes, con ACM sin filtro de
+      difieren entre idiomas.                                      fecha y arXiv consultado por API con filtro local, por lo
+  5. La aclaración con el usuario como ruta alternativa. Figura que la cobertura puede ser incompleta. La sensibilidad fue
+      en el 28,6 % de los estudios multiturno frente al 2,2 % menor para los estudios de un turno (16 de 19) que para los
+      de los de un turno, y la señal de usuario en el 26,0 % multiturno (24 de 24). Si se omitieron más estudios de un
+      frente al 2,9 % (tabla VIII). La evidencia muestra que turno, el denominador de D4 se subestima y la proporción
+      la interacción es una vía frecuente para resolver la multiturno se sobreestima, de modo que el sesgo iría en
+      ambigüedad en multiturno; no muestra su eficacia relativa, contra de la conclusión registrada. Además, la IA determinó la
+      porque los contrastes dentro del estudio comparan cada elegibilidad del conjunto de referencia (enmienda A1), lo que
+      componente con su ausencia y no con otras rutas, como puede sobreestimar la sensibilidad por circularidad; el conjunto
+      la autocorrección por ejecución o el estado estructurado. se usó solo para medirla. La contribución central se juzgó por
+  6. Estado estructurado combinado con inferencia algorítmi- título y resumen, con una clasificación en parte subjetiva; se
+      ca de joins o retroalimentación de ejecución. El número aplicó la misma regla en ambos escenarios y la duda avanzó a
+      de estudios multiturno del Nivel 2 que combinan (a) y texto completo.
+      (b) es 1; por separado, la inferencia no implícita de joins     El cribado lo hicieron revisores de IA de la misma familia,
+      aparece en 2 estudios multiturno y la retroalimentación con una única revisora humana. Sus errores pueden estar
+      de ejecución en el 13,0 % de ellos, frente al 31,6 % de los correlacionados, y su acuerdo no equivale a una revisión
+      de un turno. Se trata de una rareza, no de una necesidad independiente. La relectura ciega de las exclusiones conjuntas
+      establecida: la revisión no permite valorar si la inferencia avanzó 38 registros, de los que se incluyeron 14: los revisores
+      implícita de joins es insuficiente ni si la combinación A y B juntos omitieron estudios elegibles. Como esa relectura
+      mejora los resultados (sección V-B).                         cubrió solo una muestra (401 registros), pueden persistir
+  7. Trabajo sin entrenamiento. Su presencia aumenta entre los omisiones no detectadas. La verificación humana siguió un
+      estudios con vinculación de esquemas o autocorrección diseño reducido (enmienda A3), con 60 registros y sin muestra
+      central (sección IV-B), pero los archivos no la desagregan reservada, por lo que las estimaciones de sensibilidad son
+      por escenario, de modo que su alcance en multiturno no imprecisas. La crítica del protocolo la hizo un agente de
+      está caracterizado.                                          la misma familia y no sustituye una revisión por pares
+                                                                   independiente.
+V-E. Implicaciones para el reporte y la evaluación                    En texto completo se usaron extractos y modelos distintos
+  De los resultados se derivan recomendaciones de reporte (enmienda A5a). Codex coincidió con el texto completo en
+para los estudios primarios. Conviene declarar siempre el tipo 6 de 8 informes de calibración, frente a 8 de 8 de Claude,
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                17
+
+
+
+por lo que la parte del Nivel 1 que revisó puede diferir en             generalización. La búsqueda se realizó el 2026-10-11 y no
+sensibilidad. La auditoría confirmó 19 de 20 inclusiones de             se repitió, de modo que los estudios posteriores no están
+Codex, pero no examinó sus exclusiones.                                 incluidos y el año 2026 es parcial, con tendencia truncada.
+   IEEE Xplore aportó pocos estudios incluidos en proporción            La contaminación de benchmarks y el desfase de las líneas
+a sus registros (figura 1), y 164 informes del brazo de bases           base pueden inflar los resultados reportados, y no se pudieron
+no se recuperaron, sin contactar a los autores (enmienda A4).           valorar. El análisis bibliométrico es exploratorio, y algunos
+Si la disponibilidad depende de la editorial, los estudios de           estudios no se resolvieron en OpenAlex, por lo que depende
+acceso restringido quedan infrarrepresentados. Una sensibilidad         de su cobertura.
+acota el efecto sobre D4, pero no lo elimina. Por último,
+las enmiendas A4–A6 están pendientes de actualización en                                   VII.   C ONCLUSIONES
+OSF, una desviación documentada que se resolverá antes de
+                                                                  Esta revisión sistemática incluyó 390 estudios, de los
+la difusión o el envío del manuscrito.
+                                                               cuales 77 son multiturno. Las respuestas a las preguntas de
+   En cuanto a la validez de constructo, las preguntas PI1–PI4 y
+                                                               investigación se limitan a lo que permiten las amenazas de la
+la taxonomía derivan de la propuesta de tesis de la autora, por
+                                                               sección VI.
+lo que pueden privilegiar los componentes que esa propuesta
+                                                                  Respecto de PI0, el escenario multiturno es una fracción
+considera relevantes; la crítica del protocolo ya señaló este
+                                                               minoritaria de los estudios con vinculación de esquemas o
+riesgo de sesgo de confirmación. Se aplicaron varias mitigacio-
+                                                               autocorrección como contribución central: D4 es 11,3 % (IC
+nes. El brazo multiturno no se restringió a esos componentes:
+                                                               95 % de 8,2 a 15,3 %), clasificado como «considerablemente
+era elegible cualquier estudio que abordara al menos una de
+                                                               menos investigado» por la regla registrada, sin tendencia
+PI1–PI5. Las clases inductivas «otros componentes» y las
+                                                               detectable (p = 0,95). En PI1, la concatenación del historial es
+categorías OTRA se consolidaron y se reportan. El criterio de
+                                                               la técnica de restauración del contexto más frecuente, seguida
+reformulación (M8) se registró antes de examinar los datos
+                                                               de la reescritura de la pregunta. En PI2, predomina el historial
+como regla que obligaría a replantear la brecha de partida, y se
+                                                               plano, y las estructuras explícitas y los grafos son minoritarios;
+reporta con independencia del resultado. El conflicto de interés
+                                                               los contrastes dentro del estudio tienen dirección mayormente
+se declara de forma explícita. Persiste un riesgo residual: las
+                                                               positiva y magnitud modesta, con sesgo de notificación posible.
+categorías de análisis y la agenda de investigación pueden
+                                                               En PI3, la inferencia de joins es casi siempre implícita en el
+seguir enmarcadas por la propuesta.
+                                                               modelo. En PI4, el mecanismo de autocorrección a menudo no
+                                                               se reporta; la aclaración con el usuario es proporcionalmente
+VI-B. Extracción, calidad y síntesis                           más frecuente en multiturno y la autoconsistencia por votación
+   La doble extracción por IA alcanzó un acuerdo de 73,6 % no figura en ninguno. En PI5, el historial de evaluación varía y
+en los campos codificados del Nivel 2, de modo que persiste con frecuencia no se reporta, y las pendientes de degradación
+error de extracción, que afecta sobre todo a los valores no por turno reportadas son negativas en los estratos analizados,
+reportados. Las verificaciones de la autora confirmaron todos con pocas curvas.
+los valores revisados (182/182, 32/32 y 95/95), lo que es         El número de estudios del corpus que cumplen el criterio
+compatible con una extracción correcta, pero también con sesgo pre-especificado de reformulación es 0. El resultado refleja
+de automatización o de confirmación. La muestra extraída a sobre todo la casi ausencia de estudios que combinen estado
+ciegas, de 5 estudios, es demasiado pequeña para estimar el estructurado explícito con inferencia algorítmica de joins o
+acuerdo con precisión. El Nivel 1 se extrajo de las páginas autocorrección por ejecución (1 de 77), mientras que cada com-
+iniciales, por lo que modelos y detalles se subestiman.        ponente aparece por separado; no indica que esa combinación
+   La IA propuso la puntuación de calidad (acuerdo de 75,6 %), sea necesaria ni eficaz. Esta afirmación es condicional a la
+lo que puede clasificar mal los estudios cercanos al umbral codificación de la extracción y a los informes no recuperados
+de validez. Se mitigó con la revisión de los ítems de validez (sección V-D). El trabajo futuro derivado atiende a brechas
+próximos al umbral y con la sensibilidad que reincorpora los de cobertura, ordenadas según la solidez de la evidencia: la
+estudios bajo el umbral.                                       evaluación con historial predicho y reporte por turno, un reporte
+   Los contrastes dentro del estudio están sujetos a sesgo de más completo de la técnica y de la evaluación, la discusión de
+notificación, que tiende a sobreestimar los efectos. Algunas la contaminación de los benchmarks, los datos en español y
+clases reúnen pocos estudios, y las clases «otros componentes» multilingües, la comparación de la aclaración con el usuario
+son heterogéneas. La confianza por hallazgo sigue reglas frente a otras rutas, la combinación de estado estructurado
+propias, no validadas, inspiradas en GRADE-CERQual, y con inferencia algorítmica de joins o retroalimentación de
+las comparaciones entre estudios son solo descriptivas. Estas ejecución, y la caracterización del trabajo sin entrenamiento
+amenazas se mitigaron separando las clases, reportando la en este escenario.
+confianza y repitiendo el análisis sin preprints.
+                                                                                  R EGISTRO Y PROTOCOLO
+VI-C. Validez externa y de conclusión                             El protocolo se registró en OSF (https://osf.io/5usf3/; DOI
+  Solo se incluyeron estudios en inglés y español, y no se              10.17605/OSF.IO/5USF3) [15] antes de la búsqueda oficial, y
+consultaron bases de datos en chino ni hispanas. La literatura          está disponible en el registro. Las enmiendas A1–A6 posteriores
+publicada en otros idiomas queda fuera, lo que limita la                al registro se describen en la tabla II. Las enmiendas A1–A3
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                    18
+
+
+
+ya constan en OSF; las enmiendas A4–A6 se actualizarán en                [5]   J. Li, B. Hui, G. Qu et al., «Can LLM Already Serve
+el registro antes de la difusión del manuscrito o de su envío a                as A Database Interface? A BIg Bench for Large-Scale
+una revista.                                                                   Database Grounded Text-to-SQLs,» neural information
+                                                                               processing systems, 2023, Metadatos de OpenAlex
+                           F INANCIAMIENTO                                     W7133239790. DOI: 10.52202/075280-1835
+  Esta investigación no recibió financiamiento específico de             [6]   Z. Li, L. Qu y G. Haffari, «Context Dependent Se-
+agencias públicas, comerciales ni sin fines de lucro.                          mantic Parsing: A Survey,» en Proceedings of the 28th
+                                                                               International Conference on Computational Linguistics,
+                                                                               International Committee on Computational Linguistics,
+                      C ONFLICTOS DE INTERÉS
+                                                                               2020, págs. 2509-2521. DOI: 10.18653/v1/2020.coling-
+  La autora desarrolla su proyecto de tesis de pregrado, para                  main.226 dirección: http://dx.doi.org/10.18653/v1/2020.
+optar el título profesional, sobre un tema relacionado, por lo que             coling-main.226
+puede tener interés en que exista una brecha de investigación.           [7]   T. Yu, R. Zhang, M. Yasunaga et al., «SParC: Cross-
+Para limitar ese sesgo, el criterio de brecha y la regla del                   Domain Semantic Parsing in Context,» en Proceedings
+indicador D4 se registraron antes de examinar los datos.                       of the 57th Conference of the Association for Compu-
+                                                                               tational Linguistics, ACL 2019, Florence, Italy, July 28-
+             D ISPONIBILIDAD DE DATOS Y CÓDIGO                                 August 2, 2019, Volume 1: Long Papers, A. Korhonen,
+  El repositorio del proyecto contiene las exportaciones de la                 D. R. Traum y L. Màrquez, eds., Association for
+búsqueda, los registros de cribado, los archivos de extracción y               Computational Linguistics, 2019, págs. 4511-4523. DOI:
+de calidad, los scripts de síntesis y las figuras. Los textos                  10.18653/V1/P19- 1443 dirección: https://doi.org/10.
+completos de los estudios no se comparten por razones                          18653/v1/p19-1443
+de derechos de autor. [PENDIENTE: enlace público del                     [8]   T. Yu, R. Zhang, H. Er et al., «CoSQL: A Conversational
+repositorio]                                                                   Text-to-SQL Challenge Towards Cross-Domain Natural
+                                                                               Language Interfaces to Databases,» en Proceedings of
+                   D ECLARACIÓN DE USO DE IA                                   the 2019 Conference on Empirical Methods in Natural
+                                                                               Language Processing and the 9th International Joint
+   Se emplearon modelos de inteligencia artificial para el criba-
+                                                                               Conference on Natural Language Processing, EMNLP-
+do, la extracción de datos y la redacción, bajo la verificación de
+                                                                               IJCNLP 2019, Hong Kong, China, November 3-7, 2019,
+la autora, según se describe en la sección III-E. [PENDIENTE:
+                                                                               K. Inui, J. Jiang, V. Ng y X. Wan, eds., Association for
+declaración completa con /ars-disclosure (fase 13)]
+                                                                               Computational Linguistics, 2019, págs. 1962-1979. DOI:
+                                                                               10.18653/V1/D19-1204 dirección: https://doi.org/10.
+                             R EFERENCIAS                                      18653/v1/D19-1204
+ [1] A. Quamar, V. Efthymiou, C. Lei y F. Özcan, «Natural                [9]   J. Guo, Z. Si, Y. Wang et al., «Chase: A Large-Scale and
+     Language Interfaces to Data,» Found. Trends Databases,                    Pragmatic Chinese Dataset for Cross-Database Context-
+     vol. 11, n.o 4, págs. 319-414, 2022. DOI: 10 . 1561 /                     Dependent Text-to-SQL,» en Proceedings of the 59th
+     1900000078 dirección: https : / / doi . org / 10 . 1561 /                 Annual Meeting of the Association for Computational
+     1900000078                                                                Linguistics and the 11th International Joint Confe-
+ [2] L. Shi, Z. Tang, N. Zhang, X. Zhang y Z. Yang, «A                         rence on Natural Language Processing, ACL/IJCNLP
+     Survey on Employing Large Language Models for Text-                       2021, (Volume 1: Long Papers), Virtual Event, August
+     to-SQL Tasks,» ACM Comput. Surv., vol. 58, n.o 2,                         1-6, 2021, C. Zong, F. Xia, W. Li y R. Navigli,
+     54:1-54:37, 2026. DOI: 10 . 1145 / 3737873 dirección:                     eds., Association for Computational Linguistics, 2021,
+     https://doi.org/10.1145/3737873                                           págs. 2316-2331. DOI: 10.18653/V1/2021.ACL-LONG.
+ [3] V. Zhong, C. Xiong y R. Socher, «Seq2SQL: Genera-                         180 dirección: https://doi.org/10.18653/v1/2021.acl-
+     ting Structured Queries from Natural Language using                       long.180
+     Reinforcement Learning,» arXiv (Cornell University),               [10]   Y. Yang, Z. Peng, F. Zhou, X. Yao e Y. Zhang,
+     2017, Metadatos de OpenAlex W2751448157. DOI: 10.                         «Conversational Text-to-SQL: A Comprehensive Survey
+     48550/arxiv.1709.00103                                                    of Paradigms, Challenges, and Future Directions,» en
+ [4] T. Yu, R. Zhang, K. Yang et al., «Spider: A Large-                        Agents and Robots for reliable Engineered Autonomy
+     Scale Human-Labeled Dataset for Complex and Cross-                        - 5th Workshop, AREA 2025, Bologna, Italy, October
+     Domain Semantic Parsing and Text-to-SQL Task,» en                         25, 2025, Proceedings, A. Ferrando y R. C. Cardoso,
+     Proceedings of the 2018 Conference on Empirical                           eds., ép. Communications in Computer and Information
+     Methods in Natural Language Processing, Association                       Science, vol. 2700, Springer, 2025, págs. 1-19. DOI:
+     for Computational Linguistics, 2018, págs. 3911-3921.                     10 . 1007 / 978 - 3 - 032 - 08049 - 3 \ _1 dirección: https :
+     DOI: 10.18653/v1/d18-1425 dirección: http://dx.doi.org/                   //doi.org/10.1007/978-3-032-08049-3%5C_1
+     10.18653/v1/D18-1425                                               [11]   M. Liu, X. Wang, J. Xu, W. Yi y O. Wolfson, «A
+                                                                               systematic review of natural language interfaces for
+                                                                               databases,» Frontiers of Computer Science, vol. 20,
+                                                                               n.o 11, mar. de 2026, ISSN: 2095-2236. DOI: 10.1007/
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                 19
+
+
+
+       s11704-025-50592-w dirección: http://dx.doi.org/10.                 [22] D. and Moher, L. Shamseer, M. Clarke et al., «Preferred
+       1007/s11704-025-50592-w                                                  reporting items for systematic review and meta-analysis
+[12]   C. D. Bui, H. H. Nguyen, T. Q. Ngo et al., «A systema-                   protocols (PRISMA-P) 2015 statement,» Systematic
+       tic survey of LLM-based text-to-SQL: methodologies,                      Reviews, vol. 4, n.o 1, ene. de 2015, ISSN: 2046-4053.
+       security vulnerabilities, and future challenges,» PeerJ                  DOI : 10.1186/2046-4053-4-1 dirección: http://dx.doi.
+       Computer Science, vol. 12, e3773, abr. de 2026, ISSN:                    org/10.1186/2046-4053-4-1
+       2376-5992. DOI: 10.7717/peerj-cs.3773 dirección: http:              [23] C. Wohlin, «Guidelines for snowballing in systematic
+       //dx.doi.org/10.7717/peerj-cs.3773                                       literature studies and a replication in software engi-
+[13]   B. Kitchenham y S. Charters, «Guidelines for performing                  neering,» en Proceedings of the 18th International
+       Systematic Literature Reviews in Software Engineering,»                  Conference on Evaluation and Assessment in Software
+       Keele University y Durham University, Informe técnico                    Engineering, ép. EASE ’14, ACM, mayo de 2014,
+       EBSE-2007-01, 2007, Versión 2.3. Sin DOI; verificada                     págs. 1-10. DOI: 10.1145/2601248.2601268 dirección:
+       por la autora (C1).                                                      http://dx.doi.org/10.1145/2601248.2601268
+[14]   M. J. Page, J. E. McKenzie, P. M. Bossuyt et al.,                   [24] J. Priem, H. Piwowar y R. Orr, OpenAlex: A fully-open
+       «The PRISMA 2020 statement: an updated guideline                         index of scholarly works, authors, venues, institutions,
+       for reporting systematic reviews,» BMJ, n71, mar. de                     and concepts, 2022. DOI: 10.48550/ARXIV.2205.01833
+       2021, ISSN: 1756-1833. DOI: 10.1136/bmj.n71 dirección:                   dirección: https://arxiv.org/abs/2205.01833
+       http://dx.doi.org/10.1136/bmj.n71                                   [25] R. Kinney, C. Anastasiades, R. Authur et al., The
+[15]   Angela Lucia Jara Espinoza, Text-to-SQL conversacional:                  Semantic Scholar Open Data Platform, 2023. DOI: 10.
+       restauración del contexto, estado del diálogo, vincu-                    48550/ARXIV.2301.10140 dirección: https://arxiv.org/
+       lación de esquemas y autocorrección — una revisión                       abs/2301.10140
+       sistemática de la literatura, 2026. DOI: 10.17605/OSF.              [26] Imbad0202, Academic Research Skills (sr-screener),
+       IO/5USF3 dirección: https://osf.io/5usf3/                                ver. 3.23.0, Versión usada según el protocolo registrado;
+[16]   S. Abbas, M. U. Khan, S. U.-J. Lee, A. Abbas y A. K.                     URL verificada (HTTP 200) el 2026-10-13. visitado
+       Bashir, «A Review of NLIDB With Deep Learning:                           13 de oct. de 2026. dirección: https : / / github . com /
+       Findings, Challenges and Open Issues,» IEEE Access,                      Imbad0202/academic-research-skills
+       vol. 10, págs. 14 927-14 945, 2022, ISSN: 2169-3536.                [27] J. Cohen, «A Coefficient of Agreement for Nominal
+       DOI : 10 . 1109 / access . 2022 . 3147586 dirección: http :              Scales,» Educational and Psychological Measurement,
+       //dx.doi.org/10.1109/ACCESS.2022.3147586                                 vol. 20, n.o 1, págs. 37-46, abr. de 1960, ISSN: 1552-
+[17]   N. Deng, Y. Chen e Y. Zhang, «Recent Advances in                         3888. DOI: 10.1177/001316446002000104 dirección:
+       Text-to-SQL: A Survey of What We Have and What We                        http://dx.doi.org/10.1177/001316446002000104
+       Expect,» arXiv (Cornell University), 2022, Metadatos                [28] T. Byrt, J. Bishop y J. B. Carlin, «Bias, prevalence
+       de OpenAlex W4292949568. DOI: 10.48550/arxiv.2208.                       and kappa,» Journal of Clinical Epidemiology, vol. 46,
+       10099                                                                    n.o 5, págs. 423-429, mayo de 1993, ISSN: 0895-4356.
+[18]   G. Katsogiannis-Meimarakis y G. Koutrika, «A sur-                        DOI : 10.1016/0895-4356(93)90018-v dirección: http:
+       vey on deep learning approaches for text-to-SQL,»                        //dx.doi.org/10.1016/0895-4356(93)90018-v
+       The VLDB Journal, 2023, Metadatos de OpenAlex                       [29] Think. Check. Submit. «Think. Check. Submit.» Verifi-
+       W4317716303. DOI: 10.1007/s00778-022-00776-8                             cada por HTTP 200 el 2026-10-13 (C4), visitado 13 de
+[19]   X. Liu, S. Shen, B. Li et al., «A Survey of Text-to-                     oct. de 2026. dirección: https://thinkchecksubmit.org/
+       SQL in the Era of LLMs: Where Are We, and Where                     [30] M. Campbell, J. E. McKenzie, A. Sowden et al.,
+       Are We Going?» IEEE Transactions on Knowledge and                        «Synthesis without meta-analysis (SWiM) in systematic
+       Data Engineering, vol. 37, n.o 10, págs. 5735-5754,                      reviews: reporting guideline,» BMJ, pág. l6890, ene. de
+       oct. de 2025, ISSN: 2326-3865. DOI: 10.1109/tkde.2025.                   2020, ISSN: 1756-1833. DOI: 10 . 1136 / bmj . l6890
+       3592032 dirección: http://dx.doi.org/10.1109/TKDE.                       dirección: http://dx.doi.org/10.1136/bmj.l6890
+       2025.3592032                                                        [31] E. B. Wilson, «Probable Inference, the Law of Succes-
+[20]   Luis Armando Ortiz Delgado, Eduardo Benavides,                           sion, and Statistical Inference,» Journal of the American
+       Daniel Núñez-Agurto y Verónica Martínez, Retrieval-                      Statistical Association, vol. 22, n.o 158, págs. 209-212,
+       Augmented Strategies for LLM-Based Text-to-SQL Sys-                      jun. de 1927, ISSN: 1537-274X. DOI: 10.1080/01621459.
+       tems: A Systematic Literature Review, en, 2026. DOI: 10.                 1927.10502953 dirección: http://dx.doi.org/10.1080/
+       17605/OSF.IO/QGR2X dirección: https://osf.io/qgr2x/                      01621459.1927.10502953
+[21]   M. L. Rethlefsen, S. Kirtley, S. Waffenschmidt et al.,              [32] W. G. Cochran, «Some Methods for Strengthening the
+       «PRISMA-S: an extension to the PRISMA Statement for                      Common χ2 Tests,» Biometrics, vol. 10, n.o 4, pág. 417,
+       Reporting Literature Searches in Systematic Reviews,»                    dic. de 1954, ISSN: 0006-341X. DOI: 10.2307/3001616
+       Systematic Reviews, vol. 10, n.o 1, ene. de 2021, ISSN:                  dirección: http://dx.doi.org/10.2307/3001616
+       2046-4053. DOI: 10 . 1186 / s13643 - 020 - 01542 - z                [33] P. Armitage, «Tests for Linear Trends in Proportions
+       dirección: http : / / dx . doi . org / 10 . 1186 / s13643 - 020 -        and Frequencies,» Biometrics, vol. 11, n.o 3, pág. 375,
+       01542-z                                                                  sep. de 1955, ISSN: 0006-341X. DOI: 10.2307/3001775
+                                                                                dirección: http://dx.doi.org/10.2307/3001775
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                         20
+
+
+
+[34] S. Lewin, A. Booth, C. Glenton et al., «Applying                          findings - emnlp . 227 dirección: http : / / dx . doi . org / 10 .
+     GRADE-CERQual to qualitative evidence synthesis                           18653/v1/2023.findings-emnlp.227
+     findings: introduction to the series,» Implementation              [42]   D. Xiao, L. Chai, Q. Zhang, Z. Yan, Z. Li e Y. Cao,
+     Science, vol. 13, n.o S1, ene. de 2018, ISSN: 1748-5908.                  «CQR-SQL: Conversational Question Reformulation
+     DOI : 10 . 1186 / s13012 - 017 - 0688 - 3 dirección: http :               Enhanced Context-Dependent Text-to-SQL Parsers,» en
+     //dx.doi.org/10.1186/s13012-017-0688-3                                    Findings of the Association for Computational Linguis-
+[35] D. Kochedykov, F. Yin y S. Khatravath, «Conversing                        tics: EMNLP 2022, Abu Dhabi, United Arab Emira-
+     with databases: Practical Natural Language Querying,»                     tes, December 7-11, 2022, Y. Goldberg, Z. Kozareva
+     en Proceedings of the 2023 Conference on Empirical                        e Y. Zhang, eds., ép. Findings of ACL, vol. EMNLP
+     Methods in Natural Language Processing: Industry                          2022, Association for Computational Linguistics, 2022,
+     Track, Association for Computational Linguistics, 2023,                   págs. 2055-2068. DOI: 10.18653/V1/2022.FINDINGS-
+     págs. 372-379. DOI: 10.18653/v1/2023.emnlp-industry.                      EMNLP.150 dirección: https://doi.org/10.18653/v1/2022.
+     36 dirección: http://dx.doi.org/10.18653/v1/2023.emnlp-                   findings-emnlp.150
+     industry.36                                                        [43]   J. Li, Z. Chen, L. Chen et al., «DIR: A Large-Scale
+[36] S. R. Joshi, B. Venkatesh, D. Thomas, Y. Jiao y S.                        Dialogue Rewrite Dataset for Cross-Domain Conversa-
+     Roy, «A Natural Language and Interactive End-to-End                       tional Text-to-SQL,» Applied Sciences, vol. 13, n.o 4,
+     Querying and Reporting System,» en Proceedings of the                     pág. 2262, feb. de 2023, ISSN: 2076-3417. DOI: 10 .
+     7th ACM IKDD CoDS and 25th COMAD, ép. CoDS                                3390/app13042262 dirección: http://dx.doi.org/10.3390/
+     COMAD 2020, ACM, ene. de 2020, págs. 261-267. DOI:                        app13042262
+     10.1145/3371158.3371198 dirección: http://dx.doi.org/              [44]   L. Chai, D. Xiao, Z. Yan et al., «QURG: Question
+     10.1145/3371158.3371198                                                   Rewriting Guided Context-Dependent Text-to-SQL Se-
+[37] C. Lehmann, D. Gehrig, S. Holdener, C. Saladin, J. P.                     mantic Parsing,» en PRICAI 2023: Trends in Artificial
+     Monteiro y K. Stockinger, «Building Natural Language                      Intelligence. Springer Nature Singapore, nov. de 2023,
+     Interfaces for Databases in Practice,» en 34th Interna-                   págs. 275-286, ISBN: 9789819970223. DOI: 10.1007/978-
+     tional Conference on Scientific and Statistical Database                  981-99-7022-3_24 dirección: http://dx.doi.org/10.1007/
+     Management, ép. SSDBM 2022, ACM, jul. de 2022,                            978-981-99-7022-3_24
+     págs. 1-4. DOI: 10.1145/3538712.3538744 dirección:                 [45]   Q. Liu, B. Chen, J.-G. Lou, G. Jin y D. Zhang, «FANDA:
+     http://dx.doi.org/10.1145/3538712.3538744                                 A Novel Approach to Perform Follow-Up Query Analy-
+[38] A. Parmar, V. Udandarao, A. Shakya et al., StocksTalk:                    sis,» Proceedings of the AAAI Conference on Artificial
+     A Voice-Enabled Conversational Agent for Structured                       Intelligence, vol. 33, n.o 01, págs. 6770-6777, jul. de
+     Query Generation over Web Data, 2026. DOI: 10.48550/                      2019, ISSN: 2159-5399. DOI: 10 . 1609 / aaai . v33i01 .
+     ARXIV.2608.18105 dirección: https://arxiv.org/abs/2608.                   33016770 dirección: http://dx.doi.org/10.1609/aaai.
+     18105                                                                     v33i01.33016770
+[39] P. M. Tocto Inga, G. T. Huamaní Huamaní, A. G. Aranda              [46]   H. Zhang, R. Cao, H. Xu, L. Chen y K. Yu, «CoE-
+     Nuñez y D. F. Abregú Gonzales, «CHIMLE: An LLM-                           SQL: In-Context Learning for Multi-Turn Text-to-SQL
+     based chatbot for managing student academic databases,»                   with Chain-of-Editions,» en Proceedings of the 2024
+     en Proceedings of the 24th LACCEI International Multi-                    Conference of the North American Chapter of the
+     Conference for Engineering, Education and Technology                      Association for Computational Linguistics: Human Lan-
+     (LACCEI): “Engineering without Borders: Artificial                        guage Technologies (Volume 1: Long Papers), NAACL
+     Intelligence, Knowledge, Innovation, and Alliances for a                  2024, Mexico City, Mexico, June 16-21, 2024, K. Duh,
+     Future from the Americas”, ép. LACCEI2026, Latin                          H. Gómez-Adorno y S. Bethard, eds., Association for
+     American y Caribbean Consortium of Engineering                            Computational Linguistics, 2024, págs. 6487-6508. DOI:
+     Institutions, 2026. DOI: 10.18687/laccei2026.1.1.800                      10 . 18653 / V1 / 2024 . NAACL - LONG . 361 dirección:
+     dirección: http://dx.doi.org/10.18687/laccei2026.1.1.800                  https://doi.org/10.18653/v1/2024.naacl-long.361
+[40] L. Zhou, F. Yao, F. Qiao, B. Xu, F. Wang y B. Xu, «Rose-           [47]   Q. Liu, Z. Ye, T. Yu, L. Song y P. Blunsom, «Augmen-
+     SQL: Role-State Evolution Guided Structured Reasoning                     ting Multi-Turn Text-to-SQL Datasets with Self-Play,»
+     for Multi-Turn Text-to-SQL,» en Proceedings of the 64th                   en Findings of the Association for Computational Lin-
+     Annual Meeting of the Association for Computational                       guistics: EMNLP 2022, Association for Computational
+     Linguistics (Volume 1: Long Papers), Association for                      Linguistics, 2022, págs. 5608-5620. DOI: 10.18653/v1/
+     Computational Linguistics, 2026, págs. 45 442-45 459.                     2022.findings-emnlp.411 dirección: http://dx.doi.org/10.
+     DOI : 10.18653/v1/2026.acl-long.2107 dirección: http:                     18653/v1/2022.findings-emnlp.411
+     //dx.doi.org/10.18653/v1/2026.acl-long.2107                        [48]   Y. Hu, C.-H. Lee, T. Xie, T. Yu, N. A. Smith y M.
+[41] H. Zhang, R. Cao, L. Chen, H. Xu y K. Yu,                                 Ostendorf, «In-Context Learning for Few-Shot Dialogue
+     «ACT-SQL: In-Context Learning for Text-to-SQL with                        State Tracking,» en Findings of the Association for
+     Automatically-Generated Chain-of-Thought,» en Fin-                        Computational Linguistics: EMNLP 2022, Association
+     dings of the Association for Computational Linguistics:                   for Computational Linguistics, 2022, págs. 2627-2643.
+     EMNLP 2023, Association for Computational Linguis-                        DOI : 10.18653/v1/2022.findings-emnlp.193 dirección:
+     tics, 2023, págs. 3501-3532. DOI: 10.18653/v1/2023.                       http://dx.doi.org/10.18653/v1/2022.findings-emnlp.193
+Manuscrito académico — Universidad Nacional Mayor de San Marcos, 2026                                                                            21
+
+
+
+[49] B. S. Teixeira, SemPlan: Benchmarking Structured Se-                      Computational Linguistics, 2020, págs. 370-380. DOI:
+     mantic Planning for LLM-Based Queries over Enterprise                     10 . 18653 / v1 / 2020 . coling - main . 33 dirección: http :
+     Data, 2026. DOI: 10 . 48550 / ARXIV . 2608 . 13612                        //dx.doi.org/10.18653/v1/2020.coling-main.33
+     dirección: https://arxiv.org/abs/2608.13612                        [57]   A. Elgohary, s. Hosseini y A. Hassan Awadallah, «Speak
+[50] R.-Z. Wang, Z.-H. Ling, J. Zhou e Y. Hu, «Tracking                        to your Parser: Interactive Text-to-SQL with Natural
+     Interaction States for Multi-Turn Text-to-SQL Semantic                    Language Feedback,» en Proceedings of the 58th Annual
+     Parsing,» Proceedings of the AAAI Conference on Arti-                     Meeting of the Association for Computational Linguis-
+     ficial Intelligence, vol. 35, n.o 16, págs. 13 979-13 987,                tics, Association for Computational Linguistics, 2020,
+     mayo de 2021, ISSN: 2159-5399. DOI: 10.1609/aaai.                         págs. 2065-2077. DOI: 10.18653/v1/2020.acl-main.187
+     v35i16.17646 dirección: http://dx.doi.org/10.1609/aaai.                   dirección: http : / / dx . doi . org / 10 . 18653 / v1 / 2020 . acl -
+     v35i16.17646                                                              main.187
+[51] Y. Cai y X. Wan, «IGSQL: Database Schema Interaction               [58]   W. Zhai, X. Zhao, J. Liao y Z. Chen, «Learn From
+     Graph Based Neural Model for Context-Dependent                            Mistakes: Guidance on Zero-shot Conversational Text-
+     Text-to-SQL Generation,» en Proceedings of the 2020                       to-SQL,» en Proceedings of the 33rd ACM International
+     Conference on Empirical Methods in Natural Lan-                           Conference on Information and Knowledge Management,
+     guage Processing, EMNLP 2020, Online, November                            ép. CIKM ’24, ACM, oct. de 2024, págs. 4243-4247.
+     16-20, 2020, B. Webber, T. Cohn, Y. He e Y. Liu,                          DOI : 10.1145/3627673.3679951 dirección: http://dx.doi.
+     eds., Association for Computational Linguistics, 2020,                    org/10.1145/3627673.3679951
+     págs. 6903-6912. DOI: 10 . 18653 / V1 / 2020 . EMNLP -             [59]   H. Yang, J. Zhang, J. Xie, S. Gong, S. Han e Y. Guo,
+     MAIN.560 dirección: https://doi.org/10.18653/v1/2020.                     HarnessSQL: Harness-Native Training for SQL Agents in
+     emnlp-main.560                                                            Realistic Database Environments, 2026. DOI: 10.48550/
+[52] W. Yu, T. Chang, X. Guo, M. Wang y X. Wang, «An                           ARXIV.2610.12274 dirección: https://arxiv.org/abs/2610.
+     interaction-modeling mechanism for context-dependent                      12274
+     Text-to-SQL translation based on heterogeneous graph               [60]   T. Scholak, N. Schucher y D. Bahdanau, «PICARD:
+     aggregation,» Neural Networks, vol. 142, págs. 573-582,                   Parsing Incrementally for Constrained Auto-Regressive
+     oct. de 2021, ISSN: 0893-6080. DOI: 10.1016/j.neunet.                     Decoding from Language Models,» en Proceedings of
+     2021.07.014 dirección: http://dx.doi.org/10.1016/j.                       the 2021 Conference on Empirical Methods in Natural
+     neunet.2021.07.014                                                        Language Processing, Association for Computational
+[53] B. Hui, R. Geng, Q. Ren et al., «Dynamic Hybrid Re-                       Linguistics, 2021, págs. 9895-9901. DOI: 10.18653/v1/
+     lation Exploration Network for Cross-Domain Context-                      2021.emnlp-main.779 dirección: http://dx.doi.org/10.
+     Dependent Semantic Parsing,» Proceedings of the AAAI                      18653/v1/2021.emnlp-main.779
+     Conference on Artificial Intelligence, vol. 35, n.o 14,            [61]   S. Hari Krishnan Parthasarathi, L. Zeng y D. Hakkani-
+     págs. 13 116-13 124, mayo de 2021, ISSN: 2159-5399.                       Tür, «Conversational Text-to-SQL: An Odyssey into
+     DOI: 10.1609/aaai.v35i14.17550 dirección: http://dx.doi.                  State-of-the-Art and Challenges Ahead,» en ICASSP
+     org/10.1609/aaai.v35i14.17550                                             2023 - 2023 IEEE International Conference on Acoustics,
+[54] R. Zhang, T. Yu, H. Er et al., «Editing-Based SQL                         Speech and Signal Processing (ICASSP), IEEE, jun. de
+     Query Generation for Cross-Domain Context-Dependent                       2023, págs. 1-5. DOI: 10 . 1109 / icassp49357 . 2023 .
+     Questions,» en Proceedings of the 2019 Conference                         10096170 dirección: http : / / dx . doi . org / 10 . 1109 /
+     on Empirical Methods in Natural Language Processing                       icassp49357.2023.10096170
+     and the 9th International Joint Conference on Natural              [62]   S. Liu, J. Xu, W. Tjangnaka, S. Semnani, C. Yu y M.
+     Language Processing, EMNLP-IJCNLP 2019, Hong                              Lam, «SUQL: Conversational Search over Structured and
+     Kong, China, November 3-7, 2019, K. Inui, J. Jiang,                       Unstructured Data with Large Language Models,» en Fin-
+     V. Ng y X. Wan, eds., Association for Computational                       dings of the Association for Computational Linguistics:
+     Linguistics, 2019, págs. 5337-5348. DOI: 10.18653/V1/                     NAACL 2024, Association for Computational Linguistics,
+     D19-1537 dirección: https://doi.org/10.18653/v1/D19-                      2024, págs. 4535-4555. DOI: 10.18653/v1/2024.findings-
+     1537                                                                      naacl.283 dirección: http://dx.doi.org/10.18653/v1/2024.
+[55] L. Dou, Y. Gao, M. Pan et al., «UniSAr: a unified                         findings-naacl.283
+     structure-aware autoregressive language model for text-            [63]   A. Safdarian, M. Mohammadi, E. Jahanbakhsh, M. S.
+     to-SQL semantic parsing,» International Journal of                        Naderi y H. Faili, «SchemaGraphSQL: Efficient Schema
+     Machine Learning and Cybernetics, vol. 14, n.o 12,                        Linking with Pathfinding Graph Algorithms for Text-
+     págs. 4361-4376, jul. de 2023, ISSN: 1868-808X. DOI:                      to-SQL on Large-Scale Databases,» en Findings of
+     10.1007/s13042-023-01898-3 dirección: http://dx.doi.                      the Association for Computational Linguistics: EACL
+     org/10.1007/s13042-023-01898-3                                            2026, Rabat, Morocco, March 24-29, 2026, V. Dem-
+[56] H. Wang, M. Li y L. Chen, «PG-GSQL: Pointer-                              berg, K. Inui y L. Marquez, eds., ép. Findings of
+     Generator Network with Guide Decoding for Cross-                          ACL, Association for Computational Linguistics, 2026,
+     Domain Context-Dependent Text-to-SQL Generation,»                         págs. 2585-2599. DOI: 10.18653/V1/2026.FINDINGS-
+     en Proceedings of the 28th International Conference on                    EACL.134 dirección: https://doi.org/10.18653/v1/2026.
+     Computational Linguistics, International Committee on                     findings-eacl.134
+

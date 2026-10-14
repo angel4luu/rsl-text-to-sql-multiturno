@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00269@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00269",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL; schema pruning and iterative refinement/unit-test selection are central; evaluated on BIRD and Spider (71.10% BIRD test).",
+   "where": "p1 Abstract and Introduction; p28 Appendix F error analysis"
+  }
+ ],
+ "source": "cli:FTB_R00269.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00035@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00035",
+   "d": "include",
+   "code": "INC",
+   "why": "Benchmark for schema-linking ambiguity in single/multi-turn clarification dialogues; relational NL2SQL, quantitative evaluation on Spider/BIRD-derived data.",
+   "where": "p1 Abstract; p3-4 Section 2.2; p5-7 Sections 4-5, Tables 4-7"
+  }
+ ],
+ "source_transcript": "agent-a8cfac8b3535a597d.jsonl"
+}

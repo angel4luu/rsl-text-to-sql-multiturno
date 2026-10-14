@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00159@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00159",
+   "d": "exclude",
+   "code": "E3",
+   "why": "Three-page doctoral-consortium extended abstract summarising thesis research, not a full peer-reviewed paper (below the 4-page minimum).",
+   "where": "p1 header and abstract (ACM reference: 3 pages, WSDM '25); pp1-3 overall"
+  }
+ ],
+ "source": "cli:FTA_R00159.json"
+}

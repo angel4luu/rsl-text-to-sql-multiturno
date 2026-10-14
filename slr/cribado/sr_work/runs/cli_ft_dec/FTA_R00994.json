@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00994@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00994",
+   "d": "include",
+   "code": "INC",
+   "why": "Primary multi-turn Text-to-SQL study; auxiliary context-modelling tasks; quantitative evaluation on SParC with per-turn results.",
+   "where": "p1 Abstract/Introduction; p4 Sections 5.1-5.4, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00994.json"
+}

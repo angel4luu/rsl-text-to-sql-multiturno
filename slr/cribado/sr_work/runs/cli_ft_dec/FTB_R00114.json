@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00114@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00114",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn dialogue-to-SQL over flight KB with dialogue state tracker; reports SQL logical-form and execution accuracy on AirDialogue.",
+   "where": "p1 Abstract; p3-4 Sections 3.1-3.4; p6-8 Sections 4.3-4.4, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTB_R00114.json"
+}

@@ -1,0 +1,480 @@
+{
+ "nivel2": 77,
+ "nivel2_umbral": 72,
+ "deltas_linea_base": {
+  "configuraciones": 229,
+  "estudios": 43,
+  "mediana_pp": 2.8
+ },
+ "efectos": [
+  {
+   "pilar": "PI1",
+   "clase": "Concatenación / historial",
+   "n_estudios": 3,
+   "n_contrastes": 16,
+   "mediana_pp": 0.6,
+   "min_pp": 0.15,
+   "max_pp": 1.99,
+   "estudios_positivos": 3,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 87.5
+  },
+  {
+   "pilar": "PI1",
+   "clase": "Otros componentes del pilar",
+   "n_estudios": 17,
+   "n_contrastes": 119,
+   "mediana_pp": 2.35,
+   "min_pp": -0.2,
+   "max_pp": 25.0,
+   "estudios_positivos": 16,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 92.4
+  },
+  {
+   "pilar": "PI1",
+   "clase": "Reescritura de la pregunta",
+   "n_estudios": 5,
+   "n_contrastes": 46,
+   "mediana_pp": 1.95,
+   "min_pp": -4.75,
+   "max_pp": 19.15,
+   "estudios_positivos": 4,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 73.9
+  },
+  {
+   "pilar": "PI2",
+   "clase": "Grafo / estado estructurado",
+   "n_estudios": 11,
+   "n_contrastes": 74,
+   "mediana_pp": 2.9,
+   "min_pp": 0.5,
+   "max_pp": 32.0,
+   "estudios_positivos": 11,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 95.9
+  },
+  {
+   "pilar": "PI2",
+   "clase": "Otros componentes del pilar",
+   "n_estudios": 22,
+   "n_contrastes": 124,
+   "mediana_pp": 2.85,
+   "min_pp": -0.7,
+   "max_pp": 17.8,
+   "estudios_positivos": 21,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 91.9
+  },
+  {
+   "pilar": "PI2",
+   "clase": "SQL / resultados previos",
+   "n_estudios": 7,
+   "n_contrastes": 41,
+   "mediana_pp": 5.65,
+   "min_pp": -0.1,
+   "max_pp": 10.45,
+   "estudios_positivos": 6,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 90.2
+  },
+  {
+   "pilar": "PI3",
+   "clase": "Otros componentes del pilar",
+   "n_estudios": 15,
+   "n_contrastes": 143,
+   "mediana_pp": 2.05,
+   "min_pp": -0.2,
+   "max_pp": 24.99,
+   "estudios_positivos": 14,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 87.4
+  },
+  {
+   "pilar": "PI3",
+   "clase": "Vinculación de esquemas",
+   "n_estudios": 19,
+   "n_contrastes": 92,
+   "mediana_pp": 2.15,
+   "min_pp": 0.25,
+   "max_pp": 33.2,
+   "estudios_positivos": 19,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 81.5
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Aclaración / interacción con el usuario",
+   "n_estudios": 3,
+   "n_contrastes": 7,
+   "mediana_pp": 8.9,
+   "min_pp": -19.05,
+   "max_pp": 43.0,
+   "estudios_positivos": 2,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 71.4
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Autoconsistencia / selección de candidatos",
+   "n_estudios": 2,
+   "n_contrastes": 9,
+   "mediana_pp": 1.1,
+   "min_pp": 0.2,
+   "max_pp": 2.0,
+   "estudios_positivos": 2,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 88.9
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Autocorrección / retroalimentación de ejecución",
+   "n_estudios": 11,
+   "n_contrastes": 141,
+   "mediana_pp": 1.5,
+   "min_pp": 0.01,
+   "max_pp": 13.76,
+   "estudios_positivos": 11,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 93.6
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Otros componentes del pilar",
+   "n_estudios": 11,
+   "n_contrastes": 90,
+   "mediana_pp": 4.1,
+   "min_pp": -2.3,
+   "max_pp": 13.75,
+   "estudios_positivos": 10,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 86.7
+  }
+ ],
+ "degradacion": {
+  "PREDICHO": {
+   "curvas": 6,
+   "estudios": 5,
+   "pendiente_mediana_pp": -7.0
+  },
+  "SOLO_PREGUNTAS": {
+   "curvas": 8,
+   "estudios": 6,
+   "pendiente_mediana_pp": -10.96
+  }
+ },
+ "brecha_M8": {
+  "estudios_que_combinan_a_b_c": [],
+  "n": 0,
+  "reformular_tesis": false,
+  "sensibilidad_grafos_neuronales": {
+   "estudios": [],
+   "n": 0
+  },
+  "sin_entrenamiento_entre_ellos": [],
+  "componentes": {
+   "a": 14,
+   "b": 13,
+   "c": 46,
+   "ab": 1,
+   "ac": 8,
+   "bc": 7,
+   "base": 77
+  }
+ },
+ "confianza": [
+  {
+   "hallazgo": "PI1 · Concatenación / historial: mediana +0.6 pp (3/3 estudios positivos)",
+   "limitaciones_metodologicas": "leves",
+   "validez_media": 66.7,
+   "coherencia": "sin",
+   "suficiencia": "leves",
+   "pertinencia": "sin",
+   "confianza": "moderada"
+  },
+  {
+   "hallazgo": "PI1 · Otros componentes del pilar: mediana +2.4 pp (16/17 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 77.1,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI1 · Reescritura de la pregunta: mediana +1.9 pp (4/5 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 76.0,
+   "coherencia": "leves",
+   "suficiencia": "sin",
+   "pertinencia": "sin",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI2 · Grafo / estado estructurado: mediana +2.9 pp (11/11 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 79.1,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI2 · Otros componentes del pilar: mediana +2.9 pp (21/22 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 76.8,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI2 · SQL / resultados previos: mediana +5.7 pp (6/7 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 81.4,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI3 · Otros componentes del pilar: mediana +2.0 pp (14/15 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 75.3,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI3 · Vinculación de esquemas: mediana +2.1 pp (19/19 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 76.3,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  },
+  {
+   "hallazgo": "PI4 · Aclaración / interacción con el usuario: mediana +8.9 pp (2/3 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 80.0,
+   "coherencia": "leves",
+   "suficiencia": "leves",
+   "pertinencia": "importantes",
+   "confianza": "moderada"
+  },
+  {
+   "hallazgo": "PI4 · Autoconsistencia / selección de candidatos: mediana +1.1 pp (2/2 estudios positivos)",
+   "limitaciones_metodologicas": "leves",
+   "validez_media": 70.0,
+   "coherencia": "sin",
+   "suficiencia": "importantes",
+   "pertinencia": "sin",
+   "confianza": "moderada"
+  },
+  {
+   "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución: mediana +1.5 pp (11/11 estudios positivos)",
+   "limitaciones_metodologicas": "leves",
+   "validez_media": 72.7,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "moderada"
+  },
+  {
+   "hallazgo": "PI4 · Otros componentes del pilar: mediana +4.1 pp (10/11 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 77.3,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "alta"
+  }
+ ],
+ "sensibilidad": {
+  "1_reincorporar_bajo_umbral": [
+   {
+    "hallazgo": "PI1 · Concatenación / historial",
+    "mediana_pp": 0.6,
+    "n_estudios": 3
+   },
+   {
+    "hallazgo": "PI1 · Otros componentes del pilar",
+    "mediana_pp": 2.35,
+    "n_estudios": 17
+   },
+   {
+    "hallazgo": "PI1 · Reescritura de la pregunta",
+    "mediana_pp": 1.95,
+    "n_estudios": 5
+   },
+   {
+    "hallazgo": "PI2 · Grafo / estado estructurado",
+    "mediana_pp": 2.9,
+    "n_estudios": 11
+   },
+   {
+    "hallazgo": "PI2 · Otros componentes del pilar",
+    "mediana_pp": 2.85,
+    "n_estudios": 22
+   },
+   {
+    "hallazgo": "PI2 · SQL / resultados previos",
+    "mediana_pp": 5.65,
+    "n_estudios": 7
+   },
+   {
+    "hallazgo": "PI3 · Otros componentes del pilar",
+    "mediana_pp": 2.58,
+    "n_estudios": 16
+   },
+   {
+    "hallazgo": "PI3 · Vinculación de esquemas",
+    "mediana_pp": 2.15,
+    "n_estudios": 19
+   },
+   {
+    "hallazgo": "PI4 · Aclaración / interacción con el usuario",
+    "mediana_pp": 8.9,
+    "n_estudios": 3
+   },
+   {
+    "hallazgo": "PI4 · Autoconsistencia / selección de candidatos",
+    "mediana_pp": 1.1,
+    "n_estudios": 2
+   },
+   {
+    "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución",
+    "mediana_pp": 1.5,
+    "n_estudios": 12
+   },
+   {
+    "hallazgo": "PI4 · Otros componentes del pilar",
+    "mediana_pp": 3.1,
+    "n_estudios": 12
+   }
+  ],
+  "2_sin_preprints_efectos": [
+   {
+    "hallazgo": "PI1 · Concatenación / historial",
+    "mediana_pp": 0.6,
+    "n_estudios": 3
+   },
+   {
+    "hallazgo": "PI1 · Otros componentes del pilar",
+    "mediana_pp": 2.35,
+    "n_estudios": 17
+   },
+   {
+    "hallazgo": "PI1 · Reescritura de la pregunta",
+    "mediana_pp": 1.95,
+    "n_estudios": 5
+   },
+   {
+    "hallazgo": "PI2 · Grafo / estado estructurado",
+    "mediana_pp": 2.9,
+    "n_estudios": 7
+   },
+   {
+    "hallazgo": "PI2 · Otros componentes del pilar",
+    "mediana_pp": 2.65,
+    "n_estudios": 17
+   },
+   {
+    "hallazgo": "PI2 · SQL / resultados previos",
+    "mediana_pp": 3.33,
+    "n_estudios": 6
+   },
+   {
+    "hallazgo": "PI3 · Otros componentes del pilar",
+    "mediana_pp": 2.05,
+    "n_estudios": 13
+   },
+   {
+    "hallazgo": "PI3 · Vinculación de esquemas",
+    "mediana_pp": 1.3,
+    "n_estudios": 16
+   },
+   {
+    "hallazgo": "PI4 · Autoconsistencia / selección de candidatos",
+    "mediana_pp": 1.1,
+    "n_estudios": 2
+   },
+   {
+    "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución",
+    "mediana_pp": 1.5,
+    "n_estudios": 7
+   },
+   {
+    "hallazgo": "PI4 · Otros componentes del pilar",
+    "mediana_pp": 2.98,
+    "n_estudios": 6
+   }
+  ],
+  "2_sin_preprints_D4": {
+   "k": 23,
+   "n": 177,
+   "p": 0.1299,
+   "ic95": [
+    0.0882,
+    0.1874
+   ],
+   "conclusion": "considerablemente menos investigado"
+  },
+  "3_D4_laxo": {
+   "k": 49,
+   "n": 317,
+   "p": 0.1546,
+   "ic95": [
+    0.1189,
+    0.1985
+   ],
+   "conclusion": "considerablemente menos investigado"
+  },
+  "4_D4_solo_busqueda_en_bases": {
+   "k": 34,
+   "n": 273,
+   "p": 0.1245,
+   "ic95": [
+    0.0905,
+    0.169
+   ],
+   "conclusion": "considerablemente menos investigado"
+  },
+  "5_contingencia_nivel1": "No aplica: la regla de contingencia por volumen no se activó (texto completo de un turno < 400).",
+  "A5_D4_foros_de_primer_nivel": {
+   "k": 15,
+   "n": 116,
+   "p": 0.1293,
+   "ic95": [
+    0.08,
+    0.2024
+   ],
+   "conclusion": "considerablemente menos investigado"
+  },
+  "A4_D4_con_no_recuperados_segun_senal": {
+   "k": 77,
+   "n": 493,
+   "p": 0.1562,
+   "ic95": [
+    0.1268,
+    0.1909
+   ],
+   "supuesto": "todos los no recuperados cuentan en el denominador; los de señal multiturno, también en el numerador (cota conservadora)"
+  }
+ }
+}

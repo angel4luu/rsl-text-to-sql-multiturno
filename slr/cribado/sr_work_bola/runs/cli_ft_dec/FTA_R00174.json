@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00174@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00174",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn governed pilot; clarification and reformulation concern one question; schema linking and self-correction are not central contributions.",
+   "where": "p1 Abstract; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTA_R00174.json"
+}

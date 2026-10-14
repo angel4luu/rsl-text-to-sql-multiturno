@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00404@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00404",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn hybrid SQL+RAG assistant; evaluated on independent questions; no central schema linking or self-correction contribution.",
+   "where": "p2 Contributions; p3 System Overview; p5-6 Experimental Results"
+  }
+ ],
+ "source": "cli:FTB_R00404.json"
+}

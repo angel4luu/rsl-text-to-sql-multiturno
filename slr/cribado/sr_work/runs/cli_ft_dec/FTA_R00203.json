@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00203@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00203",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; keyword mapping (schema/value linking) is the central contribution, with quantitative evaluation on Spider schemas and public NLIDB datasets.",
+   "where": "p1 Abstract and Introduction contributions; p5-6 Section 3 Datasets and Results, Tables 2-4"
+  }
+ ],
+ "source": "cli:FTA_R00203.json"
+}

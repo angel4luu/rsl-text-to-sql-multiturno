@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00407@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00407",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL debugging/self-correction benchmark over relational schemas with NL intent; central contribution is correction; quantitative evaluation of ~30 LLMs.",
+   "where": "p1 Abstract and Introduction; p2 Sec 2.1 Task Definition; p6-7 Sec 5.1 Main Results, Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00407.json"
+}

@@ -1,0 +1,306 @@
+{
+ "label": "B:b008@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00351",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Workload-derived join paths; unclear if linking is central"
+  },
+  {
+   "id": "R00352",
+   "d": "include",
+   "code": "INC",
+   "why": "Unified schema linking and iterative refinement; BIRD"
+  },
+  {
+   "id": "R00353",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General hypergraph ranking framework, simulations only"
+  },
+  {
+   "id": "R00354",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General table reasoning RL, no linking/correction focus"
+  },
+  {
+   "id": "R00355",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking model central contribution"
+  },
+  {
+   "id": "R00356",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise QA/RAG system, Text-to-SQL incidental"
+  },
+  {
+   "id": "R00357",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "SQL issue debugging benchmark; fit to correction unclear"
+  },
+  {
+   "id": "R00358",
+   "d": "include",
+   "code": "INC",
+   "why": "Self-correcting text-to-SQL training with retry data"
+  },
+  {
+   "id": "R00359",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification of single question, not linking/correction"
+  },
+  {
+   "id": "R00360",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "System with self-correction loop; only smoke tests"
+  },
+  {
+   "id": "R00361",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Enterprise chatbot with follow-up chats and error correction"
+  },
+  {
+   "id": "R00362",
+   "d": "include",
+   "code": "INC",
+   "why": "Retrieval-augmented schema linking central"
+  },
+  {
+   "id": "R00363",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Lightweight model comparison on Spider, no linking focus"
+  },
+  {
+   "id": "R00364",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution-guided strategy on WikiSQL central"
+  },
+  {
+   "id": "R00365",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking and guided error correction loop"
+  },
+  {
+   "id": "R00366",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General agentic RL framework, SQL one of six tasks"
+  },
+  {
+   "id": "R00367",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema linking expert central contribution"
+  },
+  {
+   "id": "R00368",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "NL-to-SQL with verification/refinement; central role unclear"
+  },
+  {
+   "id": "R00369",
+   "d": "include",
+   "code": "INC",
+   "why": "Steiner-tree schema navigation and validation"
+  },
+  {
+   "id": "R00370",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn interactive EHR database benchmark"
+  },
+  {
+   "id": "R00371",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Privacy masking, not linking or correction"
+  },
+  {
+   "id": "R00372",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Test-time scaling with refinement and selection among components"
+  },
+  {
+   "id": "R00373",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn interaction benchmark with follow-ups"
+  },
+  {
+   "id": "R00374",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-turn prompt optimisation incl. text-to-SQL; scope unclear"
+  },
+  {
+   "id": "R00375",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Benchmark annotation tool, not linking or correction"
+  },
+  {
+   "id": "R00376",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-expert pipeline with column-selection refinement step"
+  },
+  {
+   "id": "R00377",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agent selectively requests schema info; unclear if linking central"
+  },
+  {
+   "id": "R00378",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL candidate selection central contribution"
+  },
+  {
+   "id": "R00379",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General deep research agent, NL2SQL only a tool"
+  },
+  {
+   "id": "R00380",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Chinese benchmark, not about linking"
+  },
+  {
+   "id": "R00381",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data-centric training pipeline"
+  },
+  {
+   "id": "R00382",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback multi-turn RL for text-to-SQL"
+  },
+  {
+   "id": "R00383",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluation via formal verification, not linking/correction"
+  },
+  {
+   "id": "R00384",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Knowledge accumulation from logs, not linking/correction"
+  },
+  {
+   "id": "R00385",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema grounding and execution-feedback self-correction"
+  },
+  {
+   "id": "R00386",
+   "d": "include",
+   "code": "INC",
+   "why": "Error correction framework for NL-to-SQL"
+  },
+  {
+   "id": "R00387",
+   "d": "include",
+   "code": "INC",
+   "why": "SQL correction benchmark"
+  },
+  {
+   "id": "R00388",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data augmentation framework"
+  },
+  {
+   "id": "R00389",
+   "d": "include",
+   "code": "INC",
+   "why": "Join-aware multi-table retrieval on NL2SQL benchmarks"
+  },
+  {
+   "id": "R00390",
+   "d": "exclude",
+   "code": "E6",
+   "why": "User study of NLIDB, not linking/correction"
+  },
+  {
+   "id": "R00391",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Overview of enterprise approaches, no own evaluation"
+  },
+  {
+   "id": "R00392",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema refinement and feedback-guided self-correction"
+  },
+  {
+   "id": "R00393",
+   "d": "include",
+   "code": "INC",
+   "why": "Schema filtering framework central"
+  },
+  {
+   "id": "R00394",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General data preparation framework"
+  },
+  {
+   "id": "R00395",
+   "d": "include",
+   "code": "INC",
+   "why": "Execution feedback multi-agent Text2SQL"
+  },
+  {
+   "id": "R00396",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Hallucination detection incl. schema-linking stage; fit unclear"
+  },
+  {
+   "id": "R00397",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis and RL training, not linking/correction"
+  },
+  {
+   "id": "R00398",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Agent evolution framework, not linking/correction"
+  },
+  {
+   "id": "R00399",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Multi-table discovery with joins feeding NL2SQL; relational fit unclear"
+  },
+  {
+   "id": "R00400",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data synthesis framework"
+  }
+ ],
+ "source_transcript": "agent-a2d80aec386f98ceb.jsonl"
+}

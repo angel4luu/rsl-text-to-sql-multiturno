@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00377@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00377",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; evaluated only on authors' own 100-task benchmark, not on Spider, BIRD or another public Text-to-SQL benchmark.",
+   "where": "p3 Section 4 Experimental Setup, Table Question Answering Benchmark; p2 Contributions"
+  }
+ ],
+ "source": "cli:FTA_R00377.json"
+}

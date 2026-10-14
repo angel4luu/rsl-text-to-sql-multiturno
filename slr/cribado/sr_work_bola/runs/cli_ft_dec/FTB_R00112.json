@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00112@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00112",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn; contribution is an ambiguity benchmark and diverse top-k decoding, not schema linking or self-correction.",
+   "where": "p1 Abstract and Introduction; p2 Contributions; p5 Sections 5.1-5.2"
+  }
+ ],
+ "source": "cli:FTB_R00112.json"
+}

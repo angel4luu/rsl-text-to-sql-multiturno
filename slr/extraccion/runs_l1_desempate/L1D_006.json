@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00168\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00275\",\"extraccion\":{\"requiere_entrenamiento\":\"NR\"}},{\"id_estudio\":\"R00284\",\"extraccion\":{\"codigo_disponible\":\"NO\"}},{\"id_estudio\":\"R00294\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00303\",\"extraccion\":{\"pi3_inferencia_joins\":\"IMPLICITA_MODELO\"}},{\"id_estudio\":\"R00305\",\"extraccion\":{\"pi3_inferencia_joins\":\"IMPLICITA_MODELO\"}},{\"id_estudio\":\"R00314\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}},{\"id_estudio\":\"R00316\",\"extraccion\":{\"pi3_inferencia_joins\":\"NR\"}}]}",
+  "_label": "EXTD:L1D_006"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00686@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00686",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn relational Text-to-SQL benchmark with dedicated schema linking and SQL self-debugging tasks, evaluated quantitatively on Spider/BIRD-based data.",
+   "where": "p1 Abstract and Introduction; p2 Fig. 1; p5 §5.1 Table 3; p6 §4.1 and §5.2 SQL Debugging"
+  }
+ ],
+ "source": "cli:FTB_R00686.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00526@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00526",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Arabic SParC dataset with GAT Corrector self-correction; quantitative EX/IX results reported.",
+   "where": "p1 Abstract; p5-8 Sections IV.C and V (Tables II-V)"
+  }
+ ],
+ "source": "cli:FTB_R00526.json"
+}

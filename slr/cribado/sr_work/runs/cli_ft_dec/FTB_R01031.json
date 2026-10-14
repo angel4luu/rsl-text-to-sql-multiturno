@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R01031@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R01031",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn text-to-SQL pre-training, with context-switch and column-alignment objectives. Evaluated quantitatively on SParC and CoSQL.",
+   "where": "p1 Abstract; p3 §2.2 Pre-training objectives; p4 §3 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R01031.json"
+}

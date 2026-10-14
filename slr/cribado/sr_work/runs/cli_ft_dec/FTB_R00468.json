@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00468@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00468",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn schema retrieval (schema linking) is the central contribution, evaluated quantitatively on Spider, BIRD and other public benchmarks.",
+   "where": "p1 Abstract and Introduction; p2-3 Sections 2 and 5, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00468.json"
+}

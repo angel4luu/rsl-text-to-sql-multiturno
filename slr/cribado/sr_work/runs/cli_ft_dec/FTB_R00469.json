@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00469@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00469",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn schema-pruning middleware evaluated only on the authors' own 1,000-pair suite; Spider/BIRD are cited, not used.",
+   "where": "p11 Sec 5.1-5.2 (suite construction, setup); p2 Introduction"
+  }
+ ],
+ "source": "cli:FTB_R00469.json"
+}

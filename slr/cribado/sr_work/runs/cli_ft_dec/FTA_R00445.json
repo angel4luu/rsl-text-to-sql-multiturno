@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00445@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00445",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema retrieval and execution-feedback RL are central; quantitative evaluation on BIRD and Spider; 2026 arXiv preprint.",
+   "where": "p1 Abstract; p2 Contributions; p6-7 Section 4 Experiments, Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00445.json"
+}

@@ -1,0 +1,1 @@
+{"label": "FTA:R00719@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00719", "d": "unclear", "code": "UNC", "why": "Incomplete extract omits experimental sections, preventing verification of evaluation methods and public benchmark use.", "where": "p4 Methodology; pp5–13 omitted from extract"}], "source": "codex:gpt-6.1-sol"}

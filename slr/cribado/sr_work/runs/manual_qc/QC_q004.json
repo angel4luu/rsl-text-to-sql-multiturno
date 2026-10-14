@@ -1,0 +1,306 @@
+{
+ "label": "QC:q004@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00202",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain Chinese NL2SQL classification model; no central linking/correction"
+  },
+  {
+   "id": "R00204",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2003"
+  },
+  {
+   "id": "R00206",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Long-context contextual information study; no central linking/correction"
+  },
+  {
+   "id": "R00207",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial on natural language data interfaces"
+  },
+  {
+   "id": "R00213",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-Cypher dataset for graph database"
+  },
+  {
+   "id": "R00214",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Prompt refinement and SFT for Chinese NL2SQL; single-turn"
+  },
+  {
+   "id": "R00216",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ERP encryption scheme; NL2SQL only as application"
+  },
+  {
+   "id": "R00220",
+   "d": "exclude",
+   "code": "E6",
+   "why": "DB-GPT system demo description; no linking/correction contribution"
+  },
+  {
+   "id": "R00226",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Visualization intent prediction, not SQL generation"
+  },
+  {
+   "id": "R00228",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph entity alignment"
+  },
+  {
+   "id": "R00229",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Spatial NLQ corpus verification/generation; not SQL linking or correction"
+  },
+  {
+   "id": "R00230",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SQL equivalence test database generation for evaluation"
+  },
+  {
+   "id": "R00234",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Tutorial on NLIDBs with deep learning"
+  },
+  {
+   "id": "R00236",
+   "d": "exclude",
+   "code": "E5",
+   "why": "NL-to-visualization benchmark synthesis"
+  },
+  {
+   "id": "R00242",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Quantitative backtesting benchmark, not Text-to-SQL"
+  },
+  {
+   "id": "R00247",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00249",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2018"
+  },
+  {
+   "id": "R00307",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Example selection encoder for in-context learning"
+  },
+  {
+   "id": "R00308",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Literature survey on compositional generalization"
+  },
+  {
+   "id": "R00310",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-SPARQL over knowledge graph"
+  },
+  {
+   "id": "R00321",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Review of LLM-based Text-to-SQL systems"
+  },
+  {
+   "id": "R00325",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Speculative decoding for LLM inference generally"
+  },
+  {
+   "id": "R00328",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Confidence calibration of generated SQL; verification relevance unclear"
+  },
+  {
+   "id": "R00329",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Carbon emission metric for small models across tasks"
+  },
+  {
+   "id": "R00335",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data analytics foundation model post-training; no central linking"
+  },
+  {
+   "id": "R00339",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Data lake table discovery demo, not Text-to-SQL"
+  },
+  {
+   "id": "R00353",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Hypergraph ranking framework for resource allocation"
+  },
+  {
+   "id": "R00354",
+   "d": "exclude",
+   "code": "E6",
+   "why": "RL for table reasoning; no linking/correction contribution"
+  },
+  {
+   "id": "R00356",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise RAG QA system evaluated on RAGTruth"
+  },
+  {
+   "id": "R00363",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Lightweight transformer evaluation on Spider; no linking contribution"
+  },
+  {
+   "id": "R00366",
+   "d": "exclude",
+   "code": "E5",
+   "why": "General agentic RL tool-use framework"
+  },
+  {
+   "id": "R00375",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Benchmark annotation tool; single-turn"
+  },
+  {
+   "id": "R00380",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn Chinese benchmark, not about linking method"
+  },
+  {
+   "id": "R00381",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data-centric training pipeline and model ensemble"
+  },
+  {
+   "id": "R00383",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Formal verification of Text-to-SQL evaluation, not system correction"
+  },
+  {
+   "id": "R00388",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Data augmentation framework"
+  },
+  {
+   "id": "R00390",
+   "d": "exclude",
+   "code": "E6",
+   "why": "User study of NLIDB vs SQL platform"
+  },
+  {
+   "id": "R00391",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Overview of enterprise LLM data analysis use cases"
+  },
+  {
+   "id": "R00394",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General LLM data preparation framework"
+  },
+  {
+   "id": "R00397",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Agentic RL refining via environmental feedback; execution feedback centrality unclear"
+  },
+  {
+   "id": "R00398",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Autonomous agent evolution via performance feedback, not execution correction"
+  },
+  {
+   "id": "R00400",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Text-to-SQL data synthesis framework"
+  },
+  {
+   "id": "R00456",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Schema representation factorial analysis; no linking contribution"
+  },
+  {
+   "id": "R00462",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Memory reward inflation in general self-improving agents"
+  },
+  {
+   "id": "R00465",
+   "d": "exclude",
+   "code": "E6",
+   "why": "New single-turn AI-native SQL benchmark"
+  },
+  {
+   "id": "R00467",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Grammar-constrained decoding engine; repair only secondary"
+  },
+  {
+   "id": "R00477",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Column semantics recovery for schema grounding; linking centrality unclear"
+  },
+  {
+   "id": "R00486",
+   "d": "exclude",
+   "code": "E5",
+   "why": "SQL pipeline rewriting optimization, no natural language input"
+  },
+  {
+   "id": "R00488",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Self-consistency candidate selection in title; abstract truncated"
+  },
+  {
+   "id": "R00495",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Evaluation framework via query mutation and metrics"
+  }
+ ],
+ "source_transcript": "agent-a1b916aa68273640f.jsonl"
+}

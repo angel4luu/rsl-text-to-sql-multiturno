@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00461@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00461",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose main findings ablate schema linking and self-correction, evaluated quantitatively (EX) on public BIRD dev.",
+   "where": "p1 Abstract; p2 Contributions; p3-4 Results 4.2-4.3, Tables 1-2"
+  }
+ ],
+ "source": "cli:FTB_R00461.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00098@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00098",
+   "d": "include",
+   "code": "INC",
+   "why": "Text-to-SQL method that takes interaction-history context; evaluated on multi-turn SParC and CoSQL with question and interaction match.",
+   "where": "p3 §2 Problem Definition; p5 §4.1 Datasets, Table 2"
+  }
+ ],
+ "source": "cli:FTADJ_R00098.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00463@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00463",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; central contribution is ORM-based candidate verification/selection; evaluated quantitatively on Spider and BIRD.",
+   "where": "p1 Abstract and p2 Introduction contributions; p4 Experimental Setup; p5 Table 2"
+  }
+ ],
+ "source": "cli:FTA_R00463.json"
+}

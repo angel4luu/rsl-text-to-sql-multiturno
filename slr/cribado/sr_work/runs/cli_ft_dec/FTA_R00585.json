@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00585@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00585",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn; evaluated only on a self-built 82-query e-commerce MySQL set, with no public benchmark.",
+   "where": "p4 Section III-B.2 Query Dataset; p1 Abstract"
+  }
+ ],
+ "source": "cli:FTA_R00585.json"
+}

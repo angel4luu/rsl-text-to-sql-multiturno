@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00126@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00126",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL dataset (SParC) with quantitative per-turn baseline evaluation; 2019 ACL paper in English, over relational databases.",
+   "where": "p1 Abstract; p7-9 Sections 5-6 (Methods, Experiments, Tables 6-9)"
+  }
+ ],
+ "source": "cli:FTB_R00126.json"
+}

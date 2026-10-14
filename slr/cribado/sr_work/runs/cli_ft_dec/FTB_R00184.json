@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00184@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00184",
+   "d": "include",
+   "code": "INC",
+   "why": "Relational Text-to-SQL with execution-based self-correction as a stated contribution; evaluated on public BIRD Mini Dev (61.6% EX).",
+   "where": "p1 Abstract; p2 Contributions (1); p5-6 §6.5 and §8.1 Evaluation, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00184.json"
+}

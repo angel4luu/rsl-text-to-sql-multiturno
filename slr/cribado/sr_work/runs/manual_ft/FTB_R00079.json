@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00079@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00079",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL dataset on MIMIC-III with coreference and context; quantitative per-turn evaluation (QM, IM); ACL Findings 2024.",
+   "where": "p1 Abstract; p2 Contributions; p3-4 Data Construction; p5-9 Sections 4-5 Experiments, Tables 3-6"
+  }
+ ],
+ "source_transcript": "agent-ae309b7e4769cc258.jsonl"
+}

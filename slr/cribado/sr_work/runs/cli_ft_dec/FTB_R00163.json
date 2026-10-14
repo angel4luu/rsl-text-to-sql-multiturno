@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00163@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00163",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Spider parser; contribution is graph structure-encoding architecture, not schema linking/join inference or self-correction as such.",
+   "where": "p1 Abstract and Introduction; p2-3 Sec. 2.2 Model Architecture; p3 Sec. 3.1 Dataset"
+  }
+ ],
+ "source": "cli:FTB_R00163.json"
+}

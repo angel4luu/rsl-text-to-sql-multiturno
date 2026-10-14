@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00288@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00288",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn session-level Text-to-SQL dataset with context-dependency annotation; benchmarked with EditSQL, IGSQL and EX-RATSQL (QM/IM metrics)",
+   "where": "p1 Abstract/Introduction; p5-6 Sec. 3.6, 4; p6-8 Sec. 5 Tables 5-7"
+  }
+ ],
+ "source": "cli:FTA_R00288.json"
+}

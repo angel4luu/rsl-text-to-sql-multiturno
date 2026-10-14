@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00393@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00393",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text2SQL with schema filtering and join-connectivity as central contribution; quantitative evaluation on Spider, BIRD, Spider 2.0-lite.",
+   "where": "p1 Abstract; p5-6 Section 5 Experiments, Tables 2-3"
+  }
+ ],
+ "source": "cli:FTB_R00393.json"
+}

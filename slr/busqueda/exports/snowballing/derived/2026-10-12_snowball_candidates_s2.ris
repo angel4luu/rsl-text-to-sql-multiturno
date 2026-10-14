@@ -1,0 +1,411 @@
+TY  - CPAPER
+TI  - XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL
+AU  - Yifu Liu
+AU  - Yin Zhu
+AU  - Yingqi Gao
+AU  - Zhiling Luo
+AU  - Xiaoxia Li
+AU  - Xiao-Rong Shi
+AU  - Yuntao Hong
+AU  - Jinyang Gao
+AU  - Yu Li
+AU  - Bolin Ding
+AU  - Jingren Zhou
+PY  - 2025
+T2  - IEEE Transactions on Knowledge and Data Engineering
+DO  - 10.1109/tkde.2026.3657851
+N1  - snowballing backward (Semantic Scholar supplement) from R00033, R00373, R00453
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
+AU  - Jinyang Li
+AU  - Binyuan Hui
+AU  - Ge Qu
+AU  - Bin-Hua Li
+AU  - Jiaxi Yang
+AU  - Bo-Wen Li
+AU  - Bailin Wang
+AU  - Bowen Qin
+AU  - Rongyu Cao
+AU  - Ruiying Geng
+AU  - Nan Huo
+AU  - Xuan-He Zhou
+AU  - Chenhao Ma
+AU  - Guo-Liang Li
+AU  - K. Chang
+AU  - Fei Huang
+AU  - Reynold Cheng
+AU  - Yong-Bin Li
+PY  - 2023
+T2  - Neural Information Processing Systems
+DO  - 10.48550/arxiv.2305.03111
+N1  - snowballing backward (Semantic Scholar supplement) from R00033, R00042, R00309, R00312, R00373, R00453, R00480, R00482, R00508
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - CHESS: Contextual Harnessing for Efficient SQL Synthesis
+AU  - Shayan Talaei
+AU  - Mohammadreza Pourreza
+AU  - Yu-Chen Chang
+AU  - Azalia Mirhoseini
+AU  - Amin Saberi
+PY  - 2024
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2405.16755
+N1  - snowballing backward (Semantic Scholar supplement) from R00042, R00373, R00453, R00508
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - TableQA: a Large-Scale Chinese Text-to-SQL Dataset for Table-Aware SQL Generation
+AU  - Ningyuan Sun
+AU  - Xuefeng Yang
+AU  - Yunfeng Liu
+PY  - 2020
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2006.06434
+N1  - snowballing backward (Semantic Scholar supplement) from R00286
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - DuSQL: a large-scale and pragmatic Chinese text-toSQL dataset. Association for Computational Linguistics, Online. https:// aclan tholo gy
+PY  - 2020
+N1  - snowballing backward (Semantic Scholar supplement) from R00286
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - We conduct benchmark session-level experiments on SeSQL, employing three competitive text-to-SQL models, i.e., EditSQL (Zhang et al., 2019), IGSQL (Cai and Wan, 2020), and EX-RATSQL
+PY  - 2021
+T2  - EX-RATSQL
+N1  - snowballing backward (Semantic Scholar supplement) from R00288
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Structure-Grounded Pretraining for Text-to-SQL
+AU  - Xiang Deng
+AU  - Ahmed Hassan Awadallah
+AU  - Christopher Meek
+AU  - Oleksandr Polozov
+AU  - Huan Sun
+AU  - Matthew Richardson
+PY  - 2020
+T2  - North American Chapter of the Association for Computational Linguistics
+DO  - 10.18653/v1/2021.naacl-main.105
+N1  - snowballing backward (Semantic Scholar supplement) from R00292
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Decoupling the Skeleton Parsing and Schema Linking for Text-to-SQL
+AU  - Haoyang Li
+AU  - Jing Zhang
+AU  - Cui-Ping Li
+AU  - Hong Chen
+PY  - 2023
+N1  - snowballing backward (Semantic Scholar supplement) from R00292
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - S 2 SQL: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
+AU  - A. Paszke
+AU  - A. Massa
+AU  - James Bradbury
+AU  - G. Chanan
+AU  - T. Killeen
+AU  - A. Desmaison
+AU  - S. Chilamkurthy
+PY  - 2021
+N1  - snowballing backward (Semantic Scholar supplement) from R00298
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - CatSQL: Towards Real World Natural Language to SQL Applications
+AU  - Han Fu
+AU  - Chang Liu
+AU  - Bin Wu
+AU  - Feifei Li
+AU  - Jian Tan
+AU  - Jian-Ling Sun
+PY  - 2023
+T2  - Proceedings of the VLDB Endowment
+DO  - 10.14778/3583140.3583165
+N1  - snowballing backward (Semantic Scholar supplement) from R00309
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - NL2SQL is a solved problem... Not!
+AU  - Avrilia Floratou
+AU  - Fotis Psallidas
+AU  - Fuheng Zhao
+AU  - Shaleen Deep
+AU  - Gunther Hagleither
+AU  - Wangda Tan
+AU  - Joyce Cahoon
+AU  - Rana Alotaibi
+AU  - Jordan Henkel
+AU  - Abhik Singla
+AU  - Alex Van Grootel
+AU  - Brandon Chow
+AU  - Kai Deng
+AU  - Katherine Lin
+AU  - Marcos Campos
+AU  - K. V. Emani
+AU  - Vivek Pandit
+AU  - V. Shnayder
+AU  - Wenjing Wang
+AU  - Carlo Curino
+PY  - 2024
+T2  - Conference on Innovative Data Systems Research
+N1  - snowballing backward (Semantic Scholar supplement) from R00309
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - AMBROSIA: A Benchmark for Parsing Ambiguous Questions into Database Queries
+AU  - Irina Saparina
+AU  - Mirella Lapata
+PY  - 2024
+T2  - Neural Information Processing Systems
+DO  - 10.48550/arxiv.2406.19073
+N1  - snowballing backward (Semantic Scholar supplement) from R00312, R00373
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring
+AU  - Gyubok Lee
+AU  - Woosog Chay
+AU  - Seonhee Cho
+AU  - Edward Choi
+PY  - 2024
+DO  - 10.48550/arxiv.2403.15879
+N1  - snowballing backward (Semantic Scholar supplement) from R00312
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - TrustSQL: A Reliability Benchmark for Text-to-SQL Models with Diverse Unanswerable Questions
+AU  - Gyubok Lee
+AU  - Woosog Chay
+AU  - Seonhee Cho
+AU  - Edward Choi
+PY  - 2024
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2403.15879
+N1  - snowballing backward (Semantic Scholar supplement) from R00312
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - “Nstext2sql: An open source text-to-sql dataset for foundation model training,”
+PY  - 2023
+N1  - snowballing backward (Semantic Scholar supplement) from R00312
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Alpha-SQL: Zero-Shot Text-to-SQL using Monte Carlo Tree Search
+AU  - Bo-Yan Li
+AU  - Jiayi Zhang
+AU  - Ju Fan
+AU  - Yanwei Xu
+AU  - Chong Chen
+AU  - Nan Tang
+AU  - Yu-Yu Luo
+PY  - 2025
+T2  - International Conference on Machine Learning
+DO  - 10.48550/arxiv.2502.17248
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows
+AU  - Fangyu Lei
+AU  - Fangyu Lei
+AU  - Ji-Xuan Chen
+AU  - Yuxiao Ye
+AU  - Ruisheng Cao
+AU  - Dongchan Shin
+AU  - Hongjin Su
+AU  - Zhaoqing Suo
+AU  - Hongcheng Gao
+AU  - Hongcheng Gao
+AU  - Pengcheng Yin
+AU  - Victor Zhong
+AU  - Caiming Xiong
+AU  - Ruoxi Sun
+AU  - Qian Liu
+AU  - Sida Wang
+AU  - Tao Yu
+PY  - 2024
+T2  - International Conference on Learning Representations
+DO  - 10.48550/arxiv.2411.07763
+N1  - snowballing backward (Semantic Scholar supplement) from R00373, R00438, R00453, R00508
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - A Survey on Employing Large Language Models for Text-to-SQL Tasks
+AU  - Liang Shi
+AU  - Zheng-Ju Tang
+AU  - Nan Zhang
+AU  - Xiaotong Zhang
+AU  - Zhi Yang
+PY  - 2024
+T2  - ACM Computing Surveys
+DO  - 10.1145/3737873
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL
+AU  - Bing Wang
+AU  - Changyu Ren
+AU  - Jian Yang
+AU  - Xin-Nian Liang
+AU  - Jia-Qi Bai
+AU  - Lin-Zheng Chai
+AU  - Zhao Yan
+AU  - Qian-Wen Zhang
+AU  - Di Yin
+AU  - Xing Sun
+AU  - Zhou-Jun Li
+PY  - 2023
+T2  - International Conference on Computational Linguistics
+DO  - 10.48550/arxiv.2312.11242
+N1  - snowballing backward (Semantic Scholar supplement) from R00373, R00438, R00453
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data
+AU  - Moshe Hazoom
+AU  - Vibhor Malik
+AU  - Ben Bogin
+PY  - 2021
+T2  - NLP4PROG
+DO  - 10.18653/v1/2021.nlp4prog-1.9
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Beyond Read-Only: Crafting a Comprehensive Chinese Text-to-SQL Dataset for Database Manipulation and Query
+AU  - Xi Chen
+AU  - Jinguo You
+AU  - Likun Likun
+AU  - Xiang Li
+PY  - 2024
+T2  - NAACL-HLT
+DO  - 10.18653/v1/2024.findings-naacl.214
+N1  - snowballing backward (Semantic Scholar supplement) from R00373
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Automatic Metadata Extraction for Text-to-SQL
+AU  - Vladislav Shkapenyuk
+AU  - Divesh Srivastava
+AU  - T. Johnson
+AU  - Parisa Ghane
+PY  - 2025
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2505.19988
+N1  - snowballing backward (Semantic Scholar supplement) from R00453
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL
+AU  - Yingqi Gao
+AU  - Yifu Liu
+AU  - Xiaoxia Li
+AU  - Xiao-Rong Shi
+AU  - Yin Zhu
+AU  - Yiming Wang
+AU  - Shiqi Li
+AU  - Wei Li
+AU  - Yuntao Hong
+AU  - Zhiling Luo
+AU  - Jinyang Gao
+AU  - Liyu Mou
+AU  - Yu Li
+PY  - 2024
+DO  - 10.48550/arxiv.2411.08599
+N1  - snowballing backward (Semantic Scholar supplement) from R00453
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - A Text-to-SQL strategy based on large language models and knowledge graphs for real-world databases
+AU  - Eduardo R. S. Nascimento
+AU  - Caio Viktor S. Avila
+AU  - Y. Izquierdo
+AU  - Grettel M. García
+AU  - Lucas Feijó L. Andrade
+AU  - Matheus O. Silva
+AU  - M. Facina
+AU  - Melissa Lemos
+AU  - Marco A. Casanova
+PY  - 2026
+T2  - Data & Knowledge Engineering
+DO  - 10.1016/j.datak.2026.102580
+N1  - snowballing backward (Semantic Scholar supplement) from R00453
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - BEAVER: An Enterprise Benchmark for Text-to-SQL
+AU  - Peter Baile Chen
+AU  - Weiyue Li
+AU  - Fabian Wenz
+AU  - Yi Zhang
+AU  - Yi Zhang
+AU  - N. Tatbul
+AU  - Michael J. Cafarella
+AU  - cCaugatay Demiralp
+AU  - Michael Stonebraker
+PY  - 2024
+T2  - arXiv.org
+DO  - 10.48550/arxiv.2409.02038
+N1  - snowballing backward (Semantic Scholar supplement) from R00482
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - ExeSQL: Self-Taught Text-to-SQL Models with Execution-Driven Bootstrapping for SQL Dialects
+AU  - Jipeng Zhang
+AU  - Haolin Yang
+AU  - Kehao Miao
+AU  - Ruiyuan Zhang
+AU  - Ren-Jie Pi
+AU  - Jia-Hui Gao
+AU  - Xiao-Fang Zhou
+PY  - 2025
+T2  - Conference on Empirical Methods in Natural Language Processing
+DO  - 10.48550/arxiv.2505.17231
+N1  - snowballing backward (Semantic Scholar supplement) from R00508
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 
+
+TY  - CPAPER
+TI  - Content Enhanced BERT-based Text-to-SQL Generation
+AU  - Tong Guo
+AU  - Huilin Gao
+PY  - 2019
+T2  - arXiv.org
+DO  - 10.48550/arxiv.1910.07179
+N1  - snowballing backward (Semantic Scholar supplement) from R00994
+DB  - Semantic Scholar (snowballing supplement)
+ER  - 

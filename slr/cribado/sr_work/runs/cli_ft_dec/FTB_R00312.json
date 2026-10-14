@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00312@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00312",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL augmentation with verify/correction; quantitative evaluation on SParC and CoSQL; arXiv preprint, English, 2024.",
+   "where": "p1 Abstract; p4-6 Methods (Verify and Refine, StateFlow); p8-10 Experiment, Tables IV-VI"
+  }
+ ],
+ "source": "cli:FTB_R00312.json"
+}

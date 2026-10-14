@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00396@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00396",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL; schema-linking hallucination detection and SQL verification are central; F1 evaluated on Spider and BIRD",
+   "where": "p1 Abstract; p10-11 Sec 4.1-4.2, Table 1"
+  }
+ ],
+ "source": "cli:FTB_R00396.json"
+}

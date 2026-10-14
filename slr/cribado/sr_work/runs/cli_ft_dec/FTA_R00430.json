@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00430@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00430",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is fine-grained execution feedback (RL rewards), evaluated on BIRD and Spider (execution accuracy 67.73%/85%).",
+   "where": "p1 Abstract; p2 Introduction, contributions"
+  }
+ ],
+ "source": "cli:FTA_R00430.json"
+}

@@ -1,0 +1,18 @@
+{
+ "label": "ADJ:b002@93ca5bb83250e593021e5ad1b038b3c33174711fd4a7a1fa398a17ac2a989dcc",
+ "decisions": [
+  {
+   "id": "R00092",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "No abstract; title suggests graph-based question-schema relation modelling, possibly linking or multi-hop joins"
+  },
+  {
+   "id": "R00095",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn; log-derived hints target multi-table joins, unclear if join inference is central"
+  }
+ ],
+ "source": "cli:ADJ_b002.json"
+}

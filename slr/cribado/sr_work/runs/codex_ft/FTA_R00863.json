@@ -1,0 +1,1 @@
+{"label": "FTA:R00863@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00863", "d": "exclude", "code": "E3", "why": "Report is a HAL preprint, rather than a peer-reviewed paper or an arXiv preprint.", "where": "p1 HAL cover, publication and submission information"}], "source": "codex:gpt-6.1-sol"}

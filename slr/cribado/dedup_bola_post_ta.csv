@@ -1,0 +1,4 @@
+id_bola,id_principal,estudio,detectado_por
+R00272,R00288,SeSQL (registro de OpenAlex con título mal extraído),Codex (auditoría) + Claude (verificación difusa)
+R00274,R00911,RESDSQL (título de la versión arXiv),Codex (auditoría) + Claude (verificación difusa)
+R00062,R00816,SDCUP (versión preprint vs. revista),Codex (auditoría) + Claude (verificación difusa)

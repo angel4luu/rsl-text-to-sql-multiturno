@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00444@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00444",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL whose central contribution is execution-feedback grounding; quantitative results on public EHRSQL and LiveSQLBench-derived LS-Hard.",
+   "where": "p1 Abstract and Introduction; p5-6 Section 4.1 Experimental Settings, Main Results"
+  }
+ ],
+ "source": "cli:FTB_R00444.json"
+}

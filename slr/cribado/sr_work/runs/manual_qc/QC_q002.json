@@ -1,0 +1,180 @@
+{
+ "label": "QC:q002@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00417",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn RL fine-tuning and data curation; no linking/correction contribution"
+  },
+  {
+   "id": "R00420",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generic agentic workflow model routing; NL2SQL only an evaluation domain"
+  },
+  {
+   "id": "R00421",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Help-seeking benchmark for agents on single tasks; no linking/correction focus"
+  },
+  {
+   "id": "R00423",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn multilingual benchmark; linking only an analysis finding"
+  },
+  {
+   "id": "R00426",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Training data synthesis framework; verification applies to synthetic data"
+  },
+  {
+   "id": "R00427",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Synthetic test-database generation for evaluation robustness, single-turn"
+  },
+  {
+   "id": "R00431",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text2Cypher over graph databases only"
+  },
+  {
+   "id": "R00434",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of human-in-the-loop NLP methods"
+  },
+  {
+   "id": "R00447",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn cross-dialect benchmark, not about linking or correction"
+  },
+  {
+   "id": "R00501",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Text-to-MQL benchmark for MongoDB document databases"
+  },
+  {
+   "id": "R00503",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Dashboard-generation application architecture; no linking/correction contribution"
+  },
+  {
+   "id": "R00505",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-question ambiguity benchmark; explicitly not multi-turn dialogue"
+  },
+  {
+   "id": "R00507",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Generic self-improving agent verifiers; text-to-SQL only one domain"
+  },
+  {
+   "id": "R00527",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based text-to-SQL"
+  },
+  {
+   "id": "R00530",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise Graph-RAG SQL and visualization system; no stated linking/correction contribution"
+  },
+  {
+   "id": "R00534",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Schema alignment, feedback mechanism, conversational patterns listed; centrality unclear"
+  },
+  {
+   "id": "R00545",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Voice/Ukrainian desktop NL-to-SQL application; conversation only future work"
+  },
+  {
+   "id": "R00548",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Verbalizes SQL query results; not NL-to-SQL generation"
+  },
+  {
+   "id": "R00549",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Speech-to-SQL system with schema dumped into prompt; no linking contribution"
+  },
+  {
+   "id": "R00550",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn Filipino corpus, not about linking or correction"
+  },
+  {
+   "id": "R00764",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Intent-slot semantic parsing for power dispatch; no SQL generation"
+  },
+  {
+   "id": "R00765",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Graph-RAG QA over IFC knowledge graph"
+  },
+  {
+   "id": "R00768",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Multimodal consistency verification for digital human; not Text-to-SQL"
+  },
+  {
+   "id": "R00770",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Knowledge graph construction and KBQA on Neo4j"
+  },
+  {
+   "id": "R00771",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2013"
+  },
+  {
+   "id": "R00775",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Customer-service knowledge graph query matching"
+  },
+  {
+   "id": "R00787",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2017"
+  },
+  {
+   "id": "R00789",
+   "d": "exclude",
+   "code": "E5",
+   "why": "IIoT log threat detection; not Text-to-SQL"
+  },
+  {
+   "id": "R00795",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Cypher queries over museum knowledge graph"
+  }
+ ],
+ "source_transcript": "agent-ab96c50e0a2d25e2d.jsonl"
+}

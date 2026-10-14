@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00029@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00029",
+   "d": "include",
+   "code": "INC",
+   "why": "Contamination probe quantitatively evaluated on multi-turn benchmarks SParC and CoSQL (final-turn paraphrasing) plus Spider and BIRD; relational NL2SQL.",
+   "where": "p4 Methods 2.1 Data Selection; p5-7 Results 3.2-3.3 and Section 4"
+  }
+ ],
+ "source_transcript": "agent-a5a48549d7b8f123d.jsonl"
+}

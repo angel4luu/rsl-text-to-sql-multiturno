@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00334@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00334",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose central contribution is schema linking, evaluated quantitatively on Spider and BIRD (public benchmarks), 2025 arXiv preprint in English.",
+   "where": "p1 Abstract and Contributions; p6-7 Sections 4-5, Datasets and Evaluation, Tables 2-6"
+  }
+ ],
+ "source": "cli:FTA_R00334.json"
+}

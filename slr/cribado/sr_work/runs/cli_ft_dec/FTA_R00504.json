@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00504@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00504",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL self-correction as central contribution, with execution-feedback candidate selection, evaluated quantitatively on NL2SQL-BUGs (BIRD-derived, public).",
+   "where": "p1 Abstract and Introduction; p6 Section 4.1 Setup and Table 1"
+  }
+ ],
+ "source": "cli:FTA_R00504.json"
+}

@@ -1,0 +1,341 @@
+TY  - CPAPER
+TI  - Measuring Text-to-SQL Semantic Parsing Model on the Question Generalizability
+AU  - Thanakrit Julavanich
+AU  - Akiko Aizawa
+PY  - 2022
+T2  - International Conference on Natural Language Processing and Information Retrieval (NLPIR)
+DO  - 10.1145/3582768.3582782
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3582768.3582782
+ER  - 
+
+TY  - CPAPER
+TI  - SpCQL: A Semantic Parsing Dataset for Converting Natural Language into Cypher
+AU  - Aibo Guo
+AU  - Xinyi Li
+AU  - Guanchen Xiao
+AU  - Zhen Tan
+AU  - Xiang Hui Zhao
+PY  - 2022
+T2  - Proceedings of the ... ACM International Conference on Information & Knowledge Management
+DO  - 10.1145/3511808.3557703
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3511808.3557703
+ER  - 
+
+TY  - JOUR
+TI  - Learning an executable neural semantic parser
+AU  - Jianpeng Cheng
+AU  - Siva Reddy
+AU  - Vijay Saraswat
+AU  - Mirella Lapata
+PY  - 2018
+T2  - Computational Linguistics
+DO  - 10.1162/coli_a_00342
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1162/coli_a_00342
+ER  - 
+
+TY  - JOUR
+TI  - A Multiple-Integration Encoder for Multi-Turn Text-to-SQL Semantic Parsing
+AU  - Run-Ze Wang
+AU  - Zhen-Hua Ling
+AU  - Jingbo Zhou
+AU  - Yu Hui Hu
+PY  - 2021
+T2  - IEEE/ACM Transactions on Audio Speech and Language Processing
+DO  - 10.1109/TASLP.2021.3070726
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1109/TASLP.2021.3070726
+ER  - 
+
+TY  - CPAPER
+TI  - Ar-Spider: Text-to-SQL in Arabic
+AU  - Saleh Almohaimeed
+AU  - Saad Almohaimeed
+AU  - Mansour Al Ghanim
+AU  - Liqiang Wang
+PY  - 2024
+T2  - ACM/SIGAPP Symposium on Applied Computing (SAC)
+DO  - 10.1145/3605098.3636065
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3605098.3636065
+ER  - 
+
+TY  - CPAPER
+TI  - Shallow semantic parsing of product offering titles (for better automatic hyperlink insertion)
+AU  - Gabor Melli
+PY  - 2014
+T2  - ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)
+DO  - 10.1145/2623330.2623343
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/2623330.2623343
+ER  - 
+
+TY  - JOUR
+TI  - QATCH: Automatic Evaluation of SQL-Centric Tasks on Proprietary Data
+AU  - Simone Papicchio
+AU  - Paolo Papotti
+AU  - Luca Cagliero
+PY  - 2025
+T2  - ACM Transactions on Intelligent Systems and Technology
+DO  - 10.1145/3712704
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3712704
+ER  - 
+
+TY  - CPAPER
+TI  - Instruction Tuning Text-to-SQL with Large Language Models in the Power Grid Domain
+AU  - Sun Gang
+AU  - Ran Shen
+AU  - Liangfeng Jin
+AU  - Y.H. Wang
+AU  - Shiyu Xu
+AU  - Jinpeng Chen
+AU  - Weihao Jiang
+PY  - 2023
+T2  - International Conference on Control, Robotics and Intelligent System (CCRIS)
+DO  - 10.1145/3622896.3622906
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3622896.3622906
+ER  - 
+
+TY  - JOUR
+TI  - Learning dependency-based compositional semantics
+AU  - Percy Liang
+AU  - Michael I. Jordan
+AU  - Dan Klein
+PY  - 2012
+T2  - Computational Linguistics
+DO  - 10.1162/COLI_a_00127
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1162/COLI_a_00127
+ER  - 
+
+TY  - CPAPER
+TI  - Graph Based Pattern Classification for NLU and Slot Filling: Approach and Analysis
+AU  - Julian P. Eggert
+AU  - Johane Takeuchi
+PY  - 2022
+T2  - International Conference on Natural Language Processing and Information Retrieval (NLPIR)
+DO  - 10.1145/3582768.3582770
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3582768.3582770
+ER  - 
+
+TY  - CPAPER
+TI  - KAG: Boosting LLMs in Professional Domains via Knowledge Augmented Generation
+AU  - Lei Liang
+AU  - Zhongpu Bo
+AU  - Zhengke Gui
+AU  - Zhongshu Zhu
+AU  - Ling Zhong
+AU  - Peilong Zhao
+AU  - Mengshu Sun
+AU  - Zhiqiang Zhang
+AU  - Jun Zhou
+AU  - Wenguang Chen
+AU  - Wen Zhang
+AU  - Huajun Chen
+PY  - 2025
+DO  - 10.1145/3701716.3715240
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3701716.3715240
+ER  - 
+
+TY  - JOUR
+TI  - TSHR-Net: Text Semantic Homogenization Recognition Network for Short Video Title Overlays
+AU  - Yufei Feng
+AU  - Jing Zhang
+AU  - Shuying Zhang
+AU  - Li Zhuo
+PY  - 2026
+T2  - ACM Transactions on Asian and Low-Resource Language Information Processing
+DO  - 10.1145/3805801
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3805801
+ER  - 
+
+TY  - CPAPER
+TI  - Research on NL2SQL in the logistics field based on large language models under resource
+                     constraints
+AU  - Hailong Jiang
+AU  - Mengyuan Zhu
+AU  - Qian Zhang
+AU  - Guangpei Zhong
+AU  - Guoqing Li
+PY  - 2025
+T2  - International Conference on Big Data, Artificial Intelligence and Risk Management (ICBAR)
+DO  - 10.1145/3800227.3800276
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3800227.3800276
+ER  - 
+
+TY  - CPAPER
+TI  - DiaKoP: Dialogue-based Knowledge-oriented Programming for Neural-symbolic Knowledge
+                     Base Question Answering
+AU  - Zhicheng Lee
+AU  - Zhidian Huang
+AU  - Zijun Yao
+AU  - Jinxin Liu
+AU  - Amy Xin
+AU  - Lei Hou
+AU  - Juanzi Li
+PY  - 2024
+T2  - ACM International Conference on Information and Knowledge Management (CIKM)
+DO  - 10.1145/3627673.3679229
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3627673.3679229
+ER  - 
+
+TY  - CPAPER
+TI  - NALMO: A Natural Language Interface for Moving Objects Databases
+AU  - Xieyang Wang
+AU  - Jianqiu Xu
+AU  - Hua Cai Lu
+PY  - 2021
+DO  - 10.1145/3469830.3470894
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3469830.3470894
+ER  - 
+
+TY  - CPAPER
+TI  - DSL-Xpert: LLM-driven Generic DSL Code Generation
+AU  - Victor Lamas
+AU  - Miguel R. Luaces
+AU  - Daniel Garcia-Gonzalez
+PY  - 2024
+T2  - ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)
+DO  - 10.1145/3652620.3687782
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3652620.3687782
+ER  - 
+
+TY  - CPAPER
+TI  - Retrieval Augmented via Execution Guidance in Open-domain Table QA
+AU  - Siqin Chen
+AU  - Yubo Liu
+AU  - Jie Wu
+AU  - Mengshu Hou
+PY  - 2022
+T2  - International Conference on Algorithms, Computing and Artificial Intelligence (ACAI)
+DO  - 10.1145/3579654.3579656
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3579654.3579656
+ER  - 
+
+TY  - CPAPER
+TI  - A Tree-Enhanced Multi-Agent Question Answering System for Enterprise-Specific Financial
+                     Knowledge Based on Dynamic Search
+AU  - Mingxi Xie
+AU  - Yuefeng Lin
+AU  - Yike Wang
+PY  - 2025
+DO  - 10.1145/3747912.3747952
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3747912.3747952
+ER  - 
+
+TY  - CPAPER
+TI  - Answering questions over tables based on TAPAS and graph attention model
+AU  - Tingyi Zhang
+AU  - Yubo Liu
+AU  - Jie Wu
+AU  - Jianming Liao
+PY  - 2022
+T2  - International Conference on Machine Learning and Natural Language Processing (MLNLP)
+DO  - 10.1145/3578741.3578744
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3578741.3578744
+ER  - 
+
+TY  - JOUR
+TI  - SQLizer: query synthesis from natural language
+AU  - Navid Yaghmazadeh
+AU  - Yuepeng Wang
+AU  - Işıl Dillig
+AU  - Thomas Dillig
+PY  - 2017
+T2  - Proceedings of the ACM on Programming Languages
+DO  - 10.1145/3133887
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3133887
+ER  - 
+
+TY  - CPAPER
+TI  - Visualization question answering using introspective program synthesis
+AU  - Yanju Chen
+AU  - Xifeng Yan
+AU  - Yu Feng
+PY  - 2022
+DO  - 10.1145/3519939.3523709
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/3519939.3523709
+ER  - 
+
+TY  - CPAPER
+TI  - Knowlywood
+AU  - Niket Tandon
+AU  - Gerard de Melo
+AU  - Abir De
+AU  - Gerhard Weikum
+PY  - 2015
+DO  - 10.1145/2806416.2806583
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/2806416.2806583
+ER  - 
+
+TY  - CPAPER
+TI  - Semantic video search using natural language queries
+AU  - Asaad Hakeem
+AU  - Mun Wai Lee
+AU  - Omar Javed
+AU  - Niels Haering
+PY  - 2009
+T2  - ACM International Conference on Multimedia (ACM MM)
+DO  - 10.1145/1631272.1631367
+M3  - conference-paper
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/1631272.1631367
+ER  - 
+
+TY  - JOUR
+TI  - My science tutor
+AU  - Wayne Ward
+AU  - Ronald A. Cole
+AU  - Daniel Bolaños
+AU  - Cindy Buchenroth-Martin
+AU  - Edward Svirsky
+AU  - Sarel van Vuuren
+AU  - Timothy J. Weston
+AU  - Jing Zheng
+AU  - Lee Alan Becker
+PY  - 2011
+T2  - ACM Transactions on Speech and Language Processing
+DO  - 10.1145/1998384.1998392
+M3  - article
+DB  - ACM Digital Library
+UR  - https://dl.acm.org/doi/10.1145/1998384.1998392
+ER  - 

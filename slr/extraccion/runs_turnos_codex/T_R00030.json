@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00030\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"GOLD\",\"nota\":\"La figura 9 presenta resultados por turno en CoSQL sin valores numéricos impresos en el texto; se omiten para evitar estimaciones.\",\"ubic\":\"p. 16, figura 9; p. 8, historial de referencia\"}}]}",
+  "_label": "TURNOS:R00030"
+}

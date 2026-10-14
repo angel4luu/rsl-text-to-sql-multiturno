@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00084@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00084",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL (SParC/CoSQL) compositional generalization benchmarks plus p-align method, quantitatively evaluated; 2023, English, peer-reviewed.",
+   "where": "p1-2 Introduction; p3-4 Benchmark construction; p5-6 Experiments (Tables 1-4)"
+  }
+ ],
+ "source_transcript": "agent-a7fdf76f57bddff10.jsonl"
+}

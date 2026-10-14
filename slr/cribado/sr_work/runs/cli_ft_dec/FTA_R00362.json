@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00362@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00362",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn retrieval-augmented schema linking is the central contribution. It is evaluated quantitatively (Recall@N) on Spider, BIRD and Fiben, using relational SQL.",
+   "where": "p1 Abstract and Contributions; p3-4 Sec 5.1 Datasets; p4 Table 2, Sec 5.3"
+  }
+ ],
+ "source": "cli:FTA_R00362.json"
+}

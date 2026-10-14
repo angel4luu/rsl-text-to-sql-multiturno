@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00314@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00314",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn Text-to-SQL with schema linking, execution-feedback correction and critic as stated contributions; evaluated quantitatively on Spider.",
+   "where": "p1 Abstract and Introduction (contributions); p8-9 Section 4 Experiments, 4.3 Spider results and 4.4 Ablation"
+  }
+ ],
+ "source": "cli:FTA_R00314.json"
+}

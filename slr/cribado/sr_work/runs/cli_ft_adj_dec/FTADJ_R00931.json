@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00931@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00931",
+   "d": "exclude",
+   "code": "E8",
+   "why": "Single-turn schema grounding/reflection study evaluated only on proprietary education dataset; Spider/BIRD experiments only planned.",
+   "where": "p8 Section 4.1.1 Dataset and 4.1.2 Baselines; p1 Abstract"
+  }
+ ],
+ "source": "cli:FTADJ_R00931.json"
+}

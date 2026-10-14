@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00352@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00352",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agent unifying schema linking and iterative refinement; EX evaluated on public BIRD dev sample.",
+   "where": "p1 Abstract; p2 Introduction contributions; p7-8 Section 4 Experimental Setup"
+  }
+ ],
+ "source": "cli:FTB_R00352.json"
+}

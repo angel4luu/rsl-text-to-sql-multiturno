@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00030@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00030",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn Text-to-SQL with execution feedback and self-correction, evaluated quantitatively (EX/EM) on CoSQL and SParC; ACL 2026 paper.",
+   "where": "p1 Abstract and Introduction; p6-8 Section 4 Experiments, Tables 2-6"
+  }
+ ],
+ "source_transcript": "agent-a5ce6b9abe8e90297.jsonl"
+}

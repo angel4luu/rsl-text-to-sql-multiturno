@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00332@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00332",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is a checker that verifies SQL by execution, plus DB-grounded rewriting using values and foreign keys. Evaluated on Spider and BIRD.",
+   "where": "p1 Abstract and Introduction; p4-5 Experiments (Settings, Tables 1-2)"
+  }
+ ],
+ "source": "cli:FTB_R00332.json"
+}

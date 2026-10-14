@@ -1,0 +1,1 @@
+{"label": "FTA:R00845@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00845", "d": "include", "code": "INC", "why": "Q-value guidance verifies intermediate SQL decisions; quantitative evaluation uses public Spider and Bird benchmarks.", "where": "p1 Abstract; p2 Introduction; pp7–8 Sections 5.1–5.2"}], "source": "codex:gpt-6.1-sol"}

@@ -1,0 +1,1 @@
+{"label": "FTA:R00887@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00887", "d": "unclear", "code": "UNC", "why": "Extract omits pages 5–31, including methods and experimental sections needed to verify full-text eligibility.", "where": "p4, paper outline and omitted-pages notice"}], "source": "codex:gpt-6.1-sol"}

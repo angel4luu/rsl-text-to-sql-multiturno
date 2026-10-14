@@ -1,0 +1,306 @@
+{
+ "label": "B:b012@88f960006bb97c3887ae7d6a7e16ed7ac10d89d96b591a15126d920fb6fa6f42",
+ "decisions": [
+  {
+   "id": "R00551",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Analytics system with NL interface; single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00552",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational chatbot with Text-to-SQL; unclear if successive dependent turns"
+  },
+  {
+   "id": "R00553",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General single-turn LLM parser; linking not central"
+  },
+  {
+   "id": "R00554",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Platform system design, single-turn stepwise Text-to-SQL"
+  },
+  {
+   "id": "R00555",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Gemini-based application, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00556",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Meter monitoring multi-agent framework; Text-to-SQL only a component"
+  },
+  {
+   "id": "R00557",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Enterprise DSPy NL2SQL system; single-turn, linking not central"
+  },
+  {
+   "id": "R00558",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Domain query system, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00559",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Single-turn pipeline with table selection and self-repair; centrality unclear"
+  },
+  {
+   "id": "R00560",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General generative NL2SQL framework; schema linking only contrasted"
+  },
+  {
+   "id": "R00561",
+   "d": "include",
+   "code": "INC",
+   "why": "NL2SQL system with context memory for follow-up queries"
+  },
+  {
+   "id": "R00562",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Persistent conversational state architecture, Spider evaluation; multi-turn unclear"
+  },
+  {
+   "id": "R00563",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational agentic SQL system with query decomposition; multi-turn unclear"
+  },
+  {
+   "id": "R00564",
+   "d": "exclude",
+   "code": "E5",
+   "why": "Graph database RAG chatbot, not Text-to-SQL"
+  },
+  {
+   "id": "R00565",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Streamlit Gemini application, single-turn, no linking/correction focus"
+  },
+  {
+   "id": "R00566",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Energy-aware model routing; no linking/correction contribution"
+  },
+  {
+   "id": "R00567",
+   "d": "exclude",
+   "code": "E6",
+   "why": "General T5 fine-tuning NL2SQL, single-turn"
+  },
+  {
+   "id": "R00568",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM-based NL2SQL"
+  },
+  {
+   "id": "R00569",
+   "d": "include",
+   "code": "INC",
+   "why": "Context-aware SQL generation maintaining continuity across user queries"
+  },
+  {
+   "id": "R00570",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL XLNet model, no linking/correction focus"
+  },
+  {
+   "id": "R00571",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Chatbot with feedback loops for query refinement and conversational amendments"
+  },
+  {
+   "id": "R00572",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Multimodal NL-to-SQL system, single-turn"
+  },
+  {
+   "id": "R00573",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Secure chat system; single-turn, injection validation focus"
+  },
+  {
+   "id": "R00574",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Spider framework with schema-aware embeddings; linking centrality unclear"
+  },
+  {
+   "id": "R00575",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Systematic review"
+  },
+  {
+   "id": "R00576",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Assistant with speech focus; Text-to-SQL a component"
+  },
+  {
+   "id": "R00577",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Chatbot architecture with intents, not Text-to-SQL research"
+  },
+  {
+   "id": "R00578",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Title cites conversational context and feedback; abstract vague"
+  },
+  {
+   "id": "R00579",
+   "d": "include",
+   "code": "INC",
+   "why": "Table identification stage plus iterative error correction as contributions"
+  },
+  {
+   "id": "R00580",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Clarification of single ambiguous question; single-turn"
+  },
+  {
+   "id": "R00581",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Visualization multi-agent system, no linking/correction focus"
+  },
+  {
+   "id": "R00582",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2009"
+  },
+  {
+   "id": "R00583",
+   "d": "exclude",
+   "code": "E6",
+   "why": "RAG and LoRA domain NL2SQL, single-turn"
+  },
+  {
+   "id": "R00584",
+   "d": "exclude",
+   "code": "E6",
+   "why": "MCP server performance study, not Text-to-SQL technique"
+  },
+  {
+   "id": "R00585",
+   "d": "include",
+   "code": "INC",
+   "why": "LLM jury verifying candidate SQL on text-to-SQL tasks"
+  },
+  {
+   "id": "R00586",
+   "d": "exclude",
+   "code": "E4",
+   "why": "Survey of LLM data analysis"
+  },
+  {
+   "id": "R00587",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Enterprise NL2SQL with agent feedback and multi-round dialog accuracy"
+  },
+  {
+   "id": "R00588",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn WikiSQL transfer-learnable NLI, linking not stated"
+  },
+  {
+   "id": "R00589",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Knowledge graph RAG chatbot; Text-to-SQL incidental"
+  },
+  {
+   "id": "R00590",
+   "d": "exclude",
+   "code": "E1",
+   "why": "Published 2007"
+  },
+  {
+   "id": "R00591",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Food delivery platform; single-turn NL-to-SQL component"
+  },
+  {
+   "id": "R00592",
+   "d": "exclude",
+   "code": "E6",
+   "why": "BI requirements automation, not Text-to-SQL technique"
+  },
+  {
+   "id": "R00593",
+   "d": "exclude",
+   "code": "E6",
+   "why": "ChatGPT for teaching SQL, single-turn"
+  },
+  {
+   "id": "R00594",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Architectural comparison of Oracle tools, no linking/correction"
+  },
+  {
+   "id": "R00595",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SaaS management system; chatbot SQL generation incidental"
+  },
+  {
+   "id": "R00596",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational BI with context-aware responses; multi-turn unclear"
+  },
+  {
+   "id": "R00597",
+   "d": "exclude",
+   "code": "E6",
+   "why": "SDN agent; Text-to-SQL only a tool"
+  },
+  {
+   "id": "R00598",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Database automation tool, single-turn Gemini NL-to-SQL"
+  },
+  {
+   "id": "R00599",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "5G query engine reporting multi-round query intent accuracy"
+  },
+  {
+   "id": "R00600",
+   "d": "unclear",
+   "code": "UNC",
+   "why": "Conversational Select AI NL2SQL with joins; multi-turn and evaluation unclear"
+  }
+ ],
+ "source_transcript": "agent-ae37c0e197910b34c.jsonl"
+}

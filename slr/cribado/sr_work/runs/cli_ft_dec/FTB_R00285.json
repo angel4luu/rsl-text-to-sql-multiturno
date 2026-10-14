@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00285@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00285",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Contribution is next-step query recommendation; NL2SQL module is standalone single-turn, with no linking or correction contribution.",
+   "where": "p18 Sec 5.1 (NL2SQL on Spider-dev); p1 Abstract; p17 Sec 5 Evaluation"
+  }
+ ],
+ "source": "cli:FTB_R00285.json"
+}

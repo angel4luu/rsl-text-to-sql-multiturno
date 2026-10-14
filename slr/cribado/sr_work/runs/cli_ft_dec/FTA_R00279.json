@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00279@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00279",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose central contribution is schema-linking annotation on Spider, with quantitative EM and F1 evaluation of IRNet and RAT-SQL.",
+   "where": "p1 Abstract/Introduction; p2-3 Sections 3-4; p4 Section 5 Results (Tables 3-5)"
+  }
+ ],
+ "source": "cli:FTA_R00279.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00364@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00364",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn; central contribution is execution-guided plus interpretability-based verification of WHERE values, evaluated quantitatively on WikiSQL",
+   "where": "p1 Abstract; p7 Section 3 example; p7-8 Section 4, Tables 1-3"
+  }
+ ],
+ "source": "cli:FTA_R00364.json"
+}

@@ -1,0 +1,11 @@
+id_estudio,anio,citas,citas_por_anio,percentil_en_anio,titulo
+R00109,2021,321,53.5,100,PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+R00129,2019,158,19.8,91,CoSQL: A conversational text-to-SQL challenge towards cross-domain natural language interfaces to da
+R00126,2019,141,17.6,82,SPARC: Cross-domain semantic parsing in context
+R00101,2022,80,16.0,100,RASAT: Integrating Relational Structures into Pretrained Seq2Seq Model for Text-to-SQL
+R00292,2023,61,15.2,91,A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability
+R00131,2019,115,14.4,73,Editing-based SQL query generation for cross-domain context-dependent questions
+R00086,2023,50,12.5,88,ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought
+R00116,2020,85,12.1,88,Grounded adaptation for zero-shot executable semantic parsing
+R00099,2022,56,11.2,95,In-Context Learning for Few-Shot Dialogue State Tracking
+R00123,2020,55,7.9,75,Speak to your parser: Interactive text-to-SQL with natural language feedback

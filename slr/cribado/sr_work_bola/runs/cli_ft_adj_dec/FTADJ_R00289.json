@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00289@e1063fd1e7c534848ad4345841f34f5e2f0609cb07106f34f6ecefdfd9e8e751",
+ "decisions": [
+  {
+   "id": "R00289",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn work whose central contribution is schema linking and KG view join synthesis, evaluated on proprietary data and the public Mondial database.",
+   "where": "p1 Abstract; p2 Introduction, contributions; p13-14 Sections 6.3-6.4, Table 2"
+  }
+ ],
+ "source": "cli:FTADJ_R00289.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTB:R00904@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00904",
+   "d": "include",
+   "code": "INC",
+   "why": "Peer-reviewed 2026 English multi-turn Text-to-SQL paper on state tracking and schema alignment, evaluated quantitatively on CHASE.",
+   "where": "p1 Abstract; p2 Contributions; p13 Sect. 4.1 Dataset; p15 Sect. 4.3 Metrics and Sect. 5 Results"
+  }
+ ],
+ "source": "cli:FTB_R00904.json"
+}

@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00443@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00443",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn study whose stated contributions are error reflection on execution and schema mismatches, plus schema-grounded alignment; evaluated on BIRD/Spider.",
+   "where": "p1 Abstract & Introduction; p2 Contributions; p5-6 Experiment, Datasets, Table 1"
+  }
+ ],
+ "source": "cli:FTADJ_R00443.json"
+}

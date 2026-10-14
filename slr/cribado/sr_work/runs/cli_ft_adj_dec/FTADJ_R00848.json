@@ -1,0 +1,13 @@
+{
+ "label": "FTADJ:R00848@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00848",
+   "d": "exclude",
+   "code": "E6",
+   "why": "Single-turn dairy application comparing zero-shot, RAG and NL2SQL pipelines on 10 standalone questions; no linking/correction contribution",
+   "where": "p1 Abstract; p2 Introduction and 2.2.3-2.2.4; p6-7 Results, Tables 4 and 7"
+  }
+ ],
+ "source": "cli:FTADJ_R00848.json"
+}

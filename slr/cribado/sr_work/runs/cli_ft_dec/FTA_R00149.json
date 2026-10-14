@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00149@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00149",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn SQL error detection (verification/self-correction) is the central contribution; evaluated quantitatively on Spider, BIRD and NL2SQL-BUGs.",
+   "where": "p1 Abstract and Introduction contributions; p6-7 Section 6 Experiments, Tables 5-7"
+  }
+ ],
+ "source": "cli:FTA_R00149.json"
+}

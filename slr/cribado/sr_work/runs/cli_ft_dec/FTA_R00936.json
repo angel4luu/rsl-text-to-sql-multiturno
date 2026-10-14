@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00936@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00936",
+   "d": "include",
+   "code": "INC",
+   "why": "Multi-turn context-dependent Text-to-SQL (SParC/CoSQL), graph-based history and schema modeling, with quantitative per-turn evaluation; 2021 journal paper in English.",
+   "where": "p1 Abstract; p6-7 Section 5 Experiments, Table 1, Fig. 6"
+  }
+ ],
+ "source": "cli:FTA_R00936.json"
+}

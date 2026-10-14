@@ -1,0 +1,1 @@
+{"label": "FTA:R00085@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141", "decisions": [{"id": "R00085", "d": "include", "code": "INC", "why": "Central schema-linking contributions for relational Text-to-SQL, quantitatively evaluated on public Spider benchmarks.", "where": "p1 Abstract; p6 §5.2 Experimental Setup; p7 Tables 3–5"}], "source": "codex:gpt-6.1-sol"}

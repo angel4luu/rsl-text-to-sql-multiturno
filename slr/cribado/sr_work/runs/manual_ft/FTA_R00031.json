@@ -1,0 +1,13 @@
+{
+ "label": "FTA:R00031@2624190e91b0ba9dc1dccfd03734abc73202a4d813c290246bfecf7dc9782141",
+ "decisions": [
+  {
+   "id": "R00031",
+   "d": "include",
+   "code": "INC",
+   "why": "Single-turn agent loop with execution feedback and self-correction as central contribution; evaluated on Spider and BIRD.",
+   "where": "p1 Abstract; p2 Introduction contributions; p3 Sec 3.1; p5-6 Sec 4.3 and 5.1, Table 1"
+  }
+ ],
+ "source_transcript": "agent-a2f7433702b5b9761.jsonl"
+}

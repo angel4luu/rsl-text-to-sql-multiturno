@@ -1,0 +1,4 @@
+{
+  "result": "{\"decisions\":[{\"id_estudio\":\"R00450\",\"extraccion\":{\"resultados_turno\":[],\"historial_eval_turnos\":\"NR\",\"nota\":\"No presenta resultados desglosados por turno ni longitud de interacción. MTS agrega diálogos de tres turnos; la persistencia de errores entre turnos tampoco constituye un desglose.\",\"ubic\":\"pp. 4–6\"}}]}",
+  "_label": "TURNOS:R00450"
+}
