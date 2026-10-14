@@ -1,0 +1,21 @@
+{
+ "clave": "Deng2022Recent",
+ "juicios": [
+  {
+   "id": "Deng2022Recent#1",
+   "uso": "Identify a survey covering neural Text-to-SQL approaches",
+   "veredicto": "supported",
+   "motivo": "The survey covers neural Text-to-SQL approaches, relying on knowledge of its contents beyond the abstract.",
+   "conocimiento_externo": true
+  },
+  {
+   "id": "Deng2022Recent#2",
+   "uso": "Classify the survey’s type, scope, multiturn coverage, and verification basis",
+   "veredicto": "partial",
+   "motivo": "The abstract establishes general Text-to-SQL coverage but does not establish the narrative or multiturn-subtopic classifications, instead describing the survey as systematic.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

@@ -1,0 +1,35 @@
+{
+ "clave": "Li2020ContextSurvey",
+ "juicios": [
+  {
+   "id": "Li2020ContextSurvey#1",
+   "uso": "Fundamentar fenómenos contextuales y su resolución previa a seleccionar tablas y columnas",
+   "veredicto": "partial",
+   "motivo": "The abstract supports contextual dependence, but does not establish the listed phenomena or require resolving them before selecting SQL tables and columns.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Li2020ContextSurvey#2",
+   "uso": "Caracterizar la revisión como narrativa, anterior a los LLM y no limitada a SQL",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the broader semantic-parsing scope, but does not establish a narrative methodology, and general historical knowledge shows that LLMs already existed in 2020.",
+   "conocimiento_externo": true
+  },
+  {
+   "id": "Li2020ContextSurvey#3",
+   "uso": "Contrastar su alcance y época con los de la revisión actual",
+   "veredicto": "partial",
+   "motivo": "The abstract supports its broader semantic-parsing scope, but not the narrative classification, while general historical knowledge makes the unqualified claim that it predates LLMs inaccurate.",
+   "conocimiento_externo": true
+  },
+  {
+   "id": "Li2020ContextSurvey#4",
+   "uso": "Clasificar tipo, alcance, centralidad del multiturno y reporte del protocolo",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the broad scope and contextual focus and reports no review protocol, but does not establish the narrative classification or equate contextual dependence exclusively with multiturn interaction.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

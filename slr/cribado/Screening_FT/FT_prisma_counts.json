@@ -11,7 +11,7 @@
  "reports_not_retrieved": 164,
  "reports_assessed": 431,
  "reports_to_assess": 431,
- "reports_excluded": 82,
+ "reports_excluded": 83,
  "excluded_by_reason": {
   "E1 Published before 2019": 1,
   "E2 Article written in a language other than English or Spanish": 1,
@@ -20,10 +20,10 @@
   "E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution": 42,
   "E7 No quantitative empirical evaluation (full text only)": 4,
   "E8 Single-turn study not evaluated on any public benchmark (full text only)": 23,
-  "E9 Secondary report of an already included study (deduplication / full text only)": 4
+  "E9 Secondary report of an already included study (deduplication / full text only)": 5
  },
  "reports_unclear_awaiting_classification": 0,
- "studies_included_reports": 349,
+ "studies_included_reports": 348,
  "ta": {
   "stage": "ta",
   "tool": "sr-screener 1.0.0",
@@ -66,8 +66,8 @@
   "pabak": 0.94
  },
  "decided_by": {
-  "A+B": 378,
-  "AJE": 41,
+  "A+B": 377,
+  "AJE": 42,
   "ADJ": 12
  }
 }

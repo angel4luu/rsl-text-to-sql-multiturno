@@ -97,7 +97,6 @@ def main():
     rv = jl(SIN / "revision_4f.json")
     a5, a8, a9, a7 = rv["A5_omisiones"], rv["A8_sensibilidad"], rv["A9_degradacion"], rv["A7_cota_probabilistica"]
     m.update({
-        "nReclasificados": ac["n1_estudios"] + ac["n2_estudios"] - p0["n_estudios"],  # studies extracted at both levels
         "umbralNulo": num(rv["A4_nulos"]["umbral_pp"]),
         "nCentralMT": rv["A1_contraste_central"]["n_multiturno"], "nCentralUT": rv["A1_contraste_central"]["n_un_turno"],
         "espMochoAB": num(rv["A2_M8_esperados"]["ab"]), "espMochoAC": num(rv["A2_M8_esperados"]["ac"]),
@@ -117,6 +116,65 @@ def main():
         "degPredMin": num(a9["PREDICHO"]["min"]), "degPredMax": num(a9["PREDICHO"]["max"]),
         "degSoloMin": num(a9["SOLO_PREGUNTAS"]["min"]), "degSoloMax": num(a9["SOLO_PREGUNTAS"]["max"]),
     })
+    # extraction runs vs studies: \nExtrNivelUno + \nExtrNivelDos - secondary reports - studies in both + L2->L1 = \nEstudios
+    ext = SLR / "extraccion"
+    run1 = set(jl(ext / "runs_nivel1" / "_ab.json")["A"])
+    run2 = set(jl(ext / "l2_final.json"))
+    incl = {r["id_estudio"] for r in csv.DictReader(open(ext / "extraccion.csv", encoding="utf-8"))}
+    sec, ambos, l2_l1 = (run1 | run2) - incl, run1 & run2 & incl, incl - run1 - run2
+    assert len(run1) + len(run2) - len(sec) - len(ambos) + len(l2_l1) == p0["n_estudios"]
+    e9 = list(csv.DictReader(open(SLR / "cribado" / "e9_duplicados_post_ft.csv", encoding="utf-8")))
+    m.update({"nSecundariosExtraidos": len(sec), "nAmbosNiveles": len(ambos), "nNivelDosAUno": len(l2_l1),
+              "nDupVerifCitas": sum(r["detectado"] == "verificacion_citas" for r in e9)})
+    # PI3/PI4 contrast restricted to central studies (pi34_tecnicas_central.csv): \ct<field><code><MT|UT> (%), \nct... (n)
+    corto = {"pi3_tecnica_linking": "Link", "pi3_inferencia_joins": "Joins", "pi4_mecanismo": "Mec", "pi4_senal": "Senal"}
+    for r in csv.DictReader(open(SIN / "tablas" / "pi34_tecnicas_central.csv", encoding="utf-8")):
+        c_ = corto[r["campo"]] + "".join(x.capitalize() for x in r["codigo"].split("_"))
+        m.update({f"ct{c_}MT": num(r["pct_multiturno"]), f"ct{c_}UT": num(r["pct_un_turno"]),
+                  f"nct{c_}MT": int(r["multiturno"]), f"nct{c_}UT": int(r["un_turno"])})
+    # central pillars by scenario (pi0_pilares_escenario.csv): \nPilar<Uno..Cuatro><MT|UT>
+    ordinal = {"PI1": "Uno", "PI2": "Dos", "PI3": "Tres", "PI4": "Cuatro"}
+    for r in csv.DictReader(open(SIN / "tablas" / "pi0_pilares_escenario.csv", encoding="utf-8")):
+        m.update({f"nPilar{ordinal[r['pilar']]}MT": int(r["multiturno"]), f"nPilar{ordinal[r['pilar']]}UT": int(r["un_turno"])})
+    # exclusions by code and arm (prisma_conteos.json): \nExcl<TR|TC><Bases|Otros>E<Uno..Nueve>
+    palabra = dict(zip("123456789", ["Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis", "Siete", "Ocho", "Nueve"]))
+    for brazo, nombre in ((b, "Bases"), (o, "Otros")):
+        for codigo, n_ in brazo["excluidos_cribado_por_codigo"].items():
+            m[f"nExclTR{nombre}E{palabra[codigo[1]]}"] = n_
+        for motivo, n_ in brazo["excluidos_texto_completo_por_motivo"].items():
+            m[f"nExclTC{nombre}E{palabra[motivo[1]]}"] = n_
+    # D4 sensitivity variants quoted in the text (sensibilidad.json): lax version and extreme bound with non-retrieved
+    sens = jl(SIN / "sensibilidad.json")
+    for nombre, clave in (("Laxo", "3_D4_laxo"), ("Cota", "A4_D4_con_no_recuperados_segun_senal")):
+        v = sens[clave]
+        m.update({f"Dcuatro{nombre}K": v["k"], f"Dcuatro{nombre}N": v["n"], f"Dcuatro{nombre}Pct": num(100 * v["k"] / v["n"]),
+                  f"Dcuatro{nombre}ICinf": num(100 * v["ic95"][0]), f"Dcuatro{nombre}ICsup": num(100 * v["ic95"][1])})
+    # publication type and venue (pi0_foros.csv, pi0_venues_top.csv) and venue community (bib_comunidad.csv)
+    nivel = {"A*": "Aestrella", "A": "A", "B": "B", "C": "C", "Q1": "QUno", "Q2": "QDos", "Q3": "QTres", "Q4": "QCuatro",
+             "SIN_RANKING": "SinRanking", "SIN_DATOS": "", "PREPRINT": ""}
+    for r in csv.DictReader(open(SIN / "tablas" / "pi0_foros.csv", encoding="utf-8")):
+        m["nForo" + r["foro_tipo"].capitalize() + nivel[r["foro_nivel"]]] = int(r["estudios"])
+    for n, r in enumerate(csv.DictReader(open(SIN / "tablas" / "pi0_venues_top.csv", encoding="utf-8"))):
+        if n < 4:
+            m["nVenue" + ["Uno", "Dos", "Tres", "Cuatro"][n]] = int(r["estudios"])
+    comunidad = {"PLN": "Pln", "Bases de datos": "BasesDatos", "Aprendizaje automático / IA": "Aprendizaje",
+                 "Otra": "Otra", "Preprint": "Preprint"}
+    for r in csv.DictReader(open(SIN / "tablas" / "bib_comunidad.csv", encoding="utf-8")):
+        m.update({f"nComunidad{comunidad[r['comunidad']]}MT": int(r["multiturno"]),
+                  f"nComunidad{comunidad[r['comunidad']]}UT": int(r["un_turno"])})
+    # bibliometric overview (bibliometria_resultados.json) and contribution of each source (busqueda_fuentes.csv)
+    bm = jl(SIN / "bibliometria_resultados.json")
+    red, dir_, af = bm["red"], bm["red"]["citas_por_direccion"], bm["tipo_afiliacion"]
+    m.update({"fechaOpenalex": bm["fecha_openalex"], "nResueltosOA": bm["resueltos_openalex"],
+              "nNoResueltosOA": len(bm["no_resueltos"]), "nCitasRed": red["aristas"],
+              "nConVinculo": red["nodos"] - red["aislados"], "nAislados": red["aislados"],
+              "nCitasUTUT": dir_["UT→UT"], "nCitasUTMT": dir_["UT→MT"], "nCitasMTMT": dir_["MT→MT"], "nCitasMTUT": dir_["MT→UT"],
+              "citasMedMT": num(bm["citas_mediana_por_anio"]["MULTITURNO"]), "citasMedUT": num(bm["citas_mediana_por_anio"]["UN_TURNO"]),
+              "nAfilAcademia": af["solo academia"], "nAfilMixta": af["academia + industria"],
+              "nAfilIndustria": af["solo industria"], "nAfilSinDatos": af["sin datos"]})
+    bf = {r["fuente"]: r for r in csv.DictReader(open(SIN / "tablas" / "busqueda_fuentes.csv", encoding="utf-8"))}
+    m.update({"nInclIEEE": int(bf["IEEE Xplore"]["incluidos"]), "nInclArxiv": int(bf["arXiv"]["incluidos"]),
+              "nSoloArxiv": int(bf["arXiv"]["solo_esta_fuente"])})
     nombres = {"pilares_centrales": "PilaresCentrales", "pi1_tecnica": "TecnicaContexto", "pi2_representacion": "Representacion",
                "pi3_inferencia_joins": "InferenciaJoins", "pi4_mecanismo": "Mecanismo", "historial_eval": "Historial"}
     for c_, v in rv["A5_acuerdo_campo_nivel2"].items():  # LaTeX macro names cannot contain digits

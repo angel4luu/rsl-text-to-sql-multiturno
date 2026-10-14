@@ -1,0 +1,28 @@
+{
+ "clave": "Shi2026SurveyLLM",
+ "juicios": [
+  {
+   "id": "Shi2026SurveyLLM#1",
+   "uso": "Definir NLIDB y presentar Text-to-SQL como su formulación computacional más estudiada",
+   "veredicto": "partial",
+   "motivo": "The abstract establishes the relevance of LLM-based Text-to-SQL but does not define NLIDB or establish that Text-to-SQL is its most studied computational formulation.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Shi2026SurveyLLM#2",
+   "uso": "Identificar una revisión de Text-to-SQL en la era de los LLM",
+   "veredicto": "supported",
+   "motivo": "The abstract explicitly describes a comprehensive review of LLM-based Text-to-SQL studies.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Shi2026SurveyLLM#3",
+   "uso": "Clasificar la revisión como narrativa, centrada en LLM y con multiturno como subtema",
+   "veredicto": "partial",
+   "motivo": "The abstract confirms the LLM-based Text-to-SQL scope but does not establish a narrative methodology or identify multiturn interaction as a subtopic.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

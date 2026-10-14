@@ -2,7 +2,7 @@
 
 Pregunta: ¿qué técnicas de vinculación de esquemas e inferencia de rutas de *join* se emplean en multiturno y cómo se comparan con las de un solo turno?
 
-Base de la taxonomía multiturno: 72 estudios del Nivel 2 con validez ≥ 50 % [pi15_resultados.json, `nivel2_umbral`; pi3_joins.csv]. Estudios con PI3 como pilar central: 13 multiturno y 157 de un turno [pi0_pilares_escenario.csv].
+Base de la taxonomía multiturno: 72 estudios del Nivel 2 con validez ≥ 50 % [pi15_resultados.json, `nivel2_umbral`; pi3_joins.csv]. Estudios con PI3 como pilar central: 13 multiturno y 156 de un turno [pi0_pilares_escenario.csv].
 
 ## Taxonomía (multiturno)
 

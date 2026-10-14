@@ -1,0 +1,14 @@
+{
+ "clave": "Campbell2020SWiM",
+ "juicios": [
+  {
+   "id": "Campbell2020SWiM#1",
+   "uso": "Fuente de la guía SWiM para estructurar la presentación de una síntesis sin metaanálisis",
+   "veredicto": "supported",
+   "motivo": "The abstract identifies SWiM as a reporting guideline for systematic reviews using synthesis methods other than meta-analysis.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

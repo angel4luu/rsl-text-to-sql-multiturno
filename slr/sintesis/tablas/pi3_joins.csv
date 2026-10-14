@@ -1,8 +1,8 @@
 campo,codigo,estudios,pct
 pi3_tecnica_linking,NR,22,30.6
 pi3_tecnica_linking,COINCIDENCIA_CADENAS,15,20.8
-pi3_tecnica_linking,NINGUNA_EXPLICITA,12,16.7
 pi3_tecnica_linking,GRAFO_ESQUEMA,12,16.7
+pi3_tecnica_linking,NINGUNA_EXPLICITA,12,16.7
 pi3_tecnica_linking,LLM_PROMPTING,10,13.9
 pi3_tecnica_linking,CLASIFICADOR_ENTRENADO,9,12.5
 pi3_tecnica_linking,PODA_ESQUEMA,7,9.7

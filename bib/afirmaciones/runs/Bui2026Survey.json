@@ -1,0 +1,42 @@
+{
+ "clave": "Bui2026Survey",
+ "juicios": [
+  {
+   "id": "Bui2026Survey#1",
+   "uso": "Establecer que la revisión sistemática no analiza el escenario multiturno",
+   "veredicto": "cannot_judge",
+   "motivo": "The abstract identifies a systematic review but does not establish whether multi-turn scenarios are analyzed.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Bui2026Survey#2",
+   "uso": "Afirmar una búsqueda sistemática documentada con criterios de inclusión y exclusión",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the systematic review designation and its focus on LLM-based Text-to-SQL security, but does not describe a search protocol or eligibility criteria.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Bui2026Survey#3",
+   "uso": "Afirmar búsqueda sistemática y tratamiento del escenario multiturno solo como categoría de datasets",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the systematic review designation, but does not establish a documented search or that multi-turn scenarios appear only as a dataset category.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Bui2026Survey#4",
+   "uso": "Identificar arXiv como la fuente con más estudios",
+   "veredicto": "cannot_judge",
+   "motivo": "The supplied record provides no study counts or comparisons among literature sources.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Bui2026Survey#5",
+   "uso": "Clasificar tipo, alcance, tratamiento multiturno, documentación del protocolo y fuente leída",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the systematic review designation and stated scope, but cannot verify the multi-turn classification, protocol documentation, or which text was read.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

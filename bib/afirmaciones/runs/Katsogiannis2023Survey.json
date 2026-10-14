@@ -1,0 +1,21 @@
+{
+ "clave": "Katsogiannis2023Survey",
+ "juicios": [
+  {
+   "id": "Katsogiannis2023Survey#1",
+   "uso": "Caracterizar la revisión como cobertura de Text-to-SQL con redes neuronales.",
+   "veredicto": "supported",
+   "motivo": "The abstract explicitly describes a survey and taxonomy of neural text-to-SQL systems.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Katsogiannis2023Survey#2",
+   "uso": "Clasificar tipo de revisión, alcance y tratamiento del multiturno.",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the deep-learning text-to-SQL scope but does not establish a narrative methodology or the treatment of multi-turn interaction as a subtopic.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

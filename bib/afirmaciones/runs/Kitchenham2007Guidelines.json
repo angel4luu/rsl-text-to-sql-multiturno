@@ -1,0 +1,21 @@
+{
+ "clave": "Kitchenham2007Guidelines",
+ "juicios": [
+  {
+   "id": "Kitchenham2007Guidelines#1",
+   "uso": "Fuente de las guías metodológicas adoptadas para realizar la revisión sistemática.",
+   "veredicto": "supported",
+   "motivo": "Based on general knowledge beyond the supplied record, Kitchenham and Charters provide systematic literature review guidelines for software engineering, matching the methodological attribution.",
+   "conocimiento_externo": true
+  },
+  {
+   "id": "Kitchenham2007Guidelines#2",
+   "uso": "Fuente de las guías metodológicas adoptadas para realizar la revisión sistemática.",
+   "veredicto": "supported",
+   "motivo": "Based on general knowledge beyond the supplied record, this report establishes the cited review methodology; PRISMA reporting and its search extension are attributed to separate references.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

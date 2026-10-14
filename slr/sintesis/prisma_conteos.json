@@ -22,7 +22,7 @@
   "buscados": 595,
   "no_recuperados": 164,
   "evaluados": 431,
-  "excluidos_texto_completo": 82,
+  "excluidos_texto_completo": 83,
   "excluidos_texto_completo_por_motivo": {
    "E1 Published before 2019": 1,
    "E2 Article written in a language other than English or Spanish": 1,
@@ -31,9 +31,9 @@
    "E6 Single-turn and schema linking / join inference / execution feedback / self-correction is not a stated central contribution": 42,
    "E7 No quantitative empirical evaluation (full text only)": 4,
    "E8 Single-turn study not evaluated on any public benchmark (full text only)": 23,
-   "E9 Secondary report of an already included study (deduplication / full text only)": 4
+   "E9 Secondary report of an already included study (deduplication / full text only)": 5
   },
-  "incluidos": 349
+  "incluidos": 348
  },
  "otros_metodos": {
   "estudios_de_inicio": 78,

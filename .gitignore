@@ -48,3 +48,8 @@ slr/extraccion/fuentes/sjr_*.csv
 
 # Pre-tesis: datos personales (DNI, código, firmas) nunca al repositorio
 plan-tesis/privado/
+
+# Claim-support check (phase 13): prompts and OpenAlex cache hold reference abstracts; regenerable with
+# bib/scripts/extraer_afirmaciones.py
+bib/afirmaciones/prompts/
+bib/afirmaciones/openalex_cache.json

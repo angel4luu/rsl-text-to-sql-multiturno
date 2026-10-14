@@ -140,7 +140,7 @@ def main():
     for sid, b in sorted(base.items()):
         nivel = 2 if sid in L2 else 1
         row = {h: "" for h in header}
-        row.update(id_estudio=sid, informes="; ".join(x for x in [b["doi"]] + sec.get(sid, []) if x), titulo=b["titulo"], autores=b["autores"], anio=b["anio"],
+        row.update(id_estudio=sid, informes="; ".join(dict.fromkeys(x for x in [b["doi"]] + sec.get(sid, []) if x)), titulo=b["titulo"], autores=b["autores"], anio=b["anio"],
                    venue=b["venue"], foro_tipo=b["foro_tipo"], foro_nivel=b["foro_nivel"], tipo_pub=b["foro_tipo"],
                    origen="BOLA_NIEVE" if b["origen"] == "bola_de_nieve" else "BUSQUEDA", nivel=nivel,
                    extraccion_independiente="SI" if sid in sample else "NO")

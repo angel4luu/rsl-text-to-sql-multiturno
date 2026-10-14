@@ -1,0 +1,14 @@
+{
+ "clave": "Moher2015PRISMAP",
+ "juicios": [
+  {
+   "id": "Moher2015PRISMAP#1",
+   "uso": "Fuente de la guía PRISMA-P para redactar el protocolo de revisión sistemática.",
+   "veredicto": "supported",
+   "motivo": "The abstract explicitly presents PRISMA-P as a 17-item guideline for preparing and reporting systematic review protocols.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

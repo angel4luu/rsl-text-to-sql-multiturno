@@ -1,0 +1,14 @@
+{
+ "clave": "Cohen1960Coefficient",
+ "juicios": [
+  {
+   "id": "Cohen1960Coefficient#1",
+   "uso": "Source of Cohen’s kappa for measuring agreement between reviewers.",
+   "veredicto": "supported",
+   "motivo": "Although no abstract is provided, established knowledge of this paper confirms that it introduces Cohen’s kappa for chance-corrected agreement on nominal classifications.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

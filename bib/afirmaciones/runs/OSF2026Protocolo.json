@@ -1,0 +1,28 @@
+{
+ "clave": "OSF2026Protocolo",
+ "juicios": [
+  {
+   "id": "OSF2026Protocolo#1",
+   "uso": "Documentar el registro del protocolo antes de la búsqueda oficial",
+   "veredicto": "partial",
+   "motivo": "The record identifies an OSF-registered protocol but does not establish that registration preceded the official search.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "OSF2026Protocolo#2",
+   "uso": "Documentar el registro en OSF antes de las búsquedas oficiales",
+   "veredicto": "partial",
+   "motivo": "The record supports registration in OSF but provides no registration and search dates establishing the claimed chronology.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "OSF2026Protocolo#3",
+   "uso": "Identificar el protocolo registrado, su disponibilidad y su registro anterior a la búsqueda oficial",
+   "veredicto": "partial",
+   "motivo": "The record supports the OSF registry location and DOI but does not establish registration before the official search or verify access to the protocol.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

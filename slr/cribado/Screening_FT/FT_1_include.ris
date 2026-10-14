@@ -4971,52 +4971,6 @@ N1  - sr-screener FT [R00275]: INCLUDE (Include) - aceptado por la revisora (202
 ER  - 
 
 TY  - JOUR
-AU  - Usta, A.
-AU  - Karakayali, A.
-AU  - Ulusoy, O.
-TI  - DBTagger: Multi-task learning for keyword mapping in NLIDBs using bi-directional recurrent neural networks
-PY  - 2021
-T2  - Proceedings of the VLDB Endowment
-VL  - 14
-IS  - 5
-SP  - 813
-EP  - 821
-DO  - 10.14778/3446095.3446103
-UR  - https://www.scopus.com/pages/publications/85101410964?origin=resultslist
-AD  - Bilkent University, Ankara, Turkey
-KW  - Filtration
-KW  - Mapping
-KW  - Multi-task learning
-KW  - Natural language processing systems
-KW  - Pipelines
-KW  - Query languages
-KW  - Query processing
-KW  - Relational database systems
-KW  - Translation (languages)
-KW  - Bi-directional
-KW  - Database community
-KW  - Mapping problem
-KW  - Natural language queries
-KW  - Relational Database
-KW  - State of the art
-KW  - Structured query languages
-KW  - Tagging problem
-KW  - Recurrent neural networks
-PB  - VLDB Endowment
-SN  - 21508097 (ISSN)
-LA  - English
-J2  - Proc. VLDB Endow.
-M3  - Article
-DB  - Scopus
-N1  - EID: 2-s2.0-85101410964
-N1  - Export Date: 11 October 2026
-N1  - Cited By: 10
-LB  - FT-Include
-ID  - R00278
-N1  - sr-screener FT [R00278]: INCLUDE (Include) - Single-turn keyword mapping (schema/value linking) is the central contribution, evaluated quantitatively on Spider schemas plus imdb, mas and yelp. | A: include/INC | B: include/INC | by A+B
-ER  - 
-
-TY  - JOUR
 TI  - An Investigation Between Schema Linking and Text-to-SQL Performance
 PY  - 2021
 DO  - 10.48550/arXiv.2102.01847

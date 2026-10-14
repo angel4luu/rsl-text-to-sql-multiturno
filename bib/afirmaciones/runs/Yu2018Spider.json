@@ -1,0 +1,21 @@
+{
+ "clave": "Yu2018Spider",
+ "juicios": [
+  {
+   "id": "Yu2018Spider#1",
+   "uso": "Identificar Spider como benchmark de Text-to-SQL de un turno sobre esquemas dados.",
+   "veredicto": "supported",
+   "motivo": "Beyond the supplied bibliographic abstract, established knowledge of Spider confirms that it evaluates independent questions translated into SQL over provided database schemas.",
+   "conocimiento_externo": true
+  },
+  {
+   "id": "Yu2018Spider#2",
+   "uso": "Citar la fuente de Spider y caracterizar su uso de un turno.",
+   "veredicto": "supported",
+   "motivo": "Beyond the supplied bibliographic abstract, established knowledge identifies this paper as the source of Spider, a single-turn Text-to-SQL benchmark.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

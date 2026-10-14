@@ -1,0 +1,14 @@
+{
+ "clave": "Armitage1955Tests",
+ "juicios": [
+  {
+   "id": "Armitage1955Tests#1",
+   "uso": "Fuente metodológica de la prueba de Cochran–Armitage para tendencias en proporciones ordenadas.",
+   "veredicto": "supported",
+   "motivo": "The abstract supports testing trends in ordered proportions, and general knowledge beyond it identifies this paper as a foundational source of the Cochran–Armitage test; permutation calibration and year selection are the review’s implementation choices.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

@@ -1,0 +1,14 @@
+{
+ "clave": "Quamar2022NLI",
+ "juicios": [
+  {
+   "id": "Quamar2022NLI#1",
+   "uso": "Accesibilidad de las NLIDB sin SQL y predominio de Text-to-SQL como formulación computacional",
+   "veredicto": "partial",
+   "motivo": "The abstract supports natural-language data access for nontechnical users and translation into SQL, but does not establish Text-to-SQL as the most studied computational formulation.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

@@ -19,7 +19,7 @@ Se incluyeron 390 estudios, de los cuales 77 son multiturno [pi0_resultados.json
 | 2025 | 13 | 88 | 101 |
 | 2026* | 18 | 121 | 139 |
 
-**Tipo de publicación y *venue*** [pi0_foros.csv]: preprint 146; congreso A\* 91, A 8, B 16, C 1 y sin ranking 51; revista Q1 34, Q2 17, Q3 1, Q4 3 y sin ranking 1; taller 9; desconocido 12. Los *venues* más frecuentes son arXiv (125), *Annual Meeting of the Association for Computational Linguistics* (19), *Findings of the ACL: ACL 2026* (11) y *Proceedings of the ACM on Management of Data* (8) [pi0_venues_top.csv].
+**Tipo de publicación y *venue*** [pi0_foros.csv]: preprint 146; congreso A\* 90, A 8, B 16, C 1 y sin ranking 51; revista Q1 34, Q2 17, Q3 1, Q4 3 y sin ranking 1; taller 9; desconocido 12. Los *venues* más frecuentes son arXiv (125), *Annual Meeting of the Association for Computational Linguistics* (19), *Findings of the ACL: ACL 2026* (11) y *Proceedings of the ACM on Management of Data* (8) [pi0_venues_top.csv].
 
 **Paradigma técnico principal por año** (Figura `pi0_paradigma_anio`) [pi0_paradigma_anio.csv]:
 
@@ -33,7 +33,7 @@ Se incluyeron 390 estudios, de los cuales 77 son multiturno [pi0_resultados.json
 | NEURONAL_PRE_PLM | 4 | 3 | 5 | 1 | 1 | 0 | 0 | 0 |
 | REGLAS_SIMBOLICO | 1 | 1 | 0 | 2 | 0 | 0 | 1 | 0 |
 
-**Pilares centrales por escenario** [pi0_pilares_escenario.csv]: PI1 13 multiturno y 0 de un turno; PI2 26 y 0; PI3 13 y 157; PI4 22 y 140.
+**Pilares centrales por escenario** [pi0_pilares_escenario.csv]: PI1 13 multiturno y 0 de un turno; PI2 26 y 0; PI3 13 y 156; PI4 22 y 140.
 
 **Entrenamiento** [pi0_training_free.csv]: estudios con PI3 central y de ellos sin entrenamiento, por año: 2022, 9 y 1; 2023, 15 y 3; 2024, 21 y 10; 2025, 43 y 15; 2026, 60 y 34 (2019–2021: 0 sin entrenamiento). Para PI4: 2023, 11 y 6; 2024, 14 y 7; 2025, 50 y 20; 2026, 81 y 44 (2019–2022: 0 sin entrenamiento).
 
@@ -70,13 +70,13 @@ Un único código aparece en un turno y no en multiturno: `pi4_mecanismo: AUTOCO
 
 ## Bibliometría exploratoria (exploratorio, no pre-registrado (A6))
 
-- OpenAlex (2026-10-13) resolvió 384 de 390 estudios; no se resolvieron R00005, R00039, R00061, R00065, R00935 y R00953 [bibliometria_resultados.json].
-- Red de citas (Figura `bib_red_citas`): 390 nodos, 843 aristas, 205 aislados; citas por dirección: UT→UT 434, UT→MT 137, MT→MT 173, MT→UT 99 [bibliometria_resultados.json]. Mediana de citas por año: multiturno 1,0; un turno 0,5 [bibliometria_resultados.json].
-- Afiliación: solo academia 197, academia + industria 79, solo industria 28, sin datos 80 [bibliometria_resultados.json].
+- OpenAlex (2026-10-13) resolvió 383 de 389 estudios; no se resolvieron R00005, R00039, R00061, R00065, R00935 y R00953 [bibliometria_resultados.json].
+- Red de citas (Figura `bib_red_citas`): 389 nodos, 841 aristas, 205 aislados; citas por dirección: UT→UT 432, UT→MT 137, MT→MT 173, MT→UT 99 [bibliometria_resultados.json]. Mediana de citas por año: multiturno 1,0; un turno 0,5 [bibliometria_resultados.json].
+- Afiliación: solo academia 196, academia + industria 79, solo industria 28, sin datos 80 [bibliometria_resultados.json].
 - Países (Figura `bib_paises`): CN 170 estudios (35 multiturno, 135 un turno), US 91 (24; 67), HK 18, KR 12, CA 12 [bib_paises.csv].
-- Comunidad del foro (Figura `bib_comunidad`), multiturno / un turno: PLN 34 / 65; Bases de datos 4 / 24; Aprendizaje automático / IA 7 / 19; Otra 14 / 77; Preprint 18 / 128 [bib_comunidad.csv].
+- Comunidad del foro (Figura `bib_comunidad`), multiturno / un turno: PLN 34 / 65; Bases de datos 4 / 23; Aprendizaje automático / IA 7 / 19; Otra 14 / 77; Preprint 18 / 128 [bib_comunidad.csv].
 - Estudios multiturno más citados por año de publicación: R00109 (PICARD), 321 citas; R00129 (CoSQL), 158; R00126 (SPARC), 141 [bib_mas_citados_multiturno.csv].
-- Términos más frecuentes en títulos y resúmenes: *schema* (207 estudios; 30 multiturno), *execution* (178; 20), *spider* (155; 12), *user* (117; 37) [bib_terminos.csv].
+- Términos más frecuentes en títulos y resúmenes: *schema* (206 estudios; 30 multiturno), *execution* (178; 20), *spider* (155; 12), *user* (117; 37) [bib_terminos.csv].
 
 ## Sensibilidad
 

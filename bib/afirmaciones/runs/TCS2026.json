@@ -1,0 +1,14 @@
+{
+ "clave": "TCS2026",
+ "juicios": [
+  {
+   "id": "TCS2026#1",
+   "uso": "Identifying the Think. Check. Submit. resource",
+   "veredicto": "supported",
+   "motivo": "The visible text completes the resource name, which matches the reference title and URL.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

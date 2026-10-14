@@ -1,0 +1,408 @@
+[
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "El cribado se realizó con sr-screener, de la suite Academic Research Skills~\\cite{ARS2026}.",
+  "id": "ARS2026#1",
+  "clave": "ARS2026"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Las revisiones generales abordan la tarea desde la perspectiva de las NLIDB o de los modelos de lenguaje de gran tamaño (\\en{large language models}, LLM), y tratan lo multiturno, según sus resúmenes, como un subtema.",
+  "oracion": "Abbas et al.~\\cite{Abbas2022NLIDB} se centran en NLIDB con aprendizaje profundo.",
+  "id": "Abbas2022NLIDB#1",
+  "clave": "Abbas2022NLIDB"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Abbas2022NLIDB} (2022) & Narrativa & NLIDB con aprendizaje profundo & Subtema & No verificado & Resumen",
+  "id": "Abbas2022NLIDB#2",
+  "clave": "Abbas2022NLIDB"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "El intervalo de Wilson cubre solo el error muestral, no el de clasificación ni el de selección; por ello se reporta además el acuerdo en el campo que define D4 (pilares PI3/PI4 centrales, Nivel 1).",
+  "oracion": "La tendencia anual de 2019 a 2025 se evalúa con la prueba de Cochran--Armitage~\\cite{Cochran1954Methods,Armitage1955Tests} por permutación (\\replicasTendencia{} réplicas); 2026 se reporta aparte por ser un año parcial, y como sensibilidad se repite la prueba incluyéndolo, sin sustituir a la prueba registrada.",
+  "id": "Armitage1955Tests#1",
+  "clave": "Armitage1955Tests"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Solo una revisión se centra en el Text-to-SQL conversacional~\\cite{Yang2025Conversational}, y según su resumen es narrativa y no reporta protocolo de búsqueda.",
+  "oracion": "Las revisiones de 2026 que se declaran sistemáticas no analizan el escenario multiturno~\\cite{Liu2026NLIDBReview,Bui2026Survey}.",
+  "id": "Bui2026Survey#1",
+  "clave": "Bui2026Survey"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Según la versión arXiv v2, leída completa, no documenta un protocolo de búsqueda ni un diagrama PRISMA, no menciona SParC ni CoSQL y trata la vinculación de esquemas solo como preprocesamiento; la versión publicada podría diferir.",
+  "oracion": "Bui et al.~\\cite{Bui2026Survey} sí documentan una búsqueda sistemática, con criterios de inclusión y exclusión, sobre Text-to-SQL con LLM y su seguridad.",
+  "id": "Bui2026Survey#2",
+  "clave": "Bui2026Survey"
+ },
+ {
+  "archivo": "secciones/05-discusion.tex",
+  "contexto": "Entre las revisiones sistemáticas de 2026, la versión arXiv v2 de Liu et al.~\\cite{Liu2026NLIDBReview} no documenta protocolo ni menciona SParC ni CoSQL.",
+  "oracion": "Bui et al.~\\cite{Bui2026Survey} documentan una búsqueda sistemática, pero en el manuscrito leído el escenario multiturno aparece solo como categoría de \\en{datasets}.",
+  "id": "Bui2026Survey#3",
+  "clave": "Bui2026Survey"
+ },
+ {
+  "archivo": "secciones/05-discusion.tex",
+  "contexto": "Con los datos disponibles, sin embargo, ese efecto no puede separarse de una menor pertinencia de los registros. arXiv, en cambio, aportó \\nInclArxiv{} estudios incluidos, \\nSoloArxiv{} de ellos recuperados solo por esa fuente, lo que respalda la decisión de incluir \\en{preprints}.",
+  "oracion": "Bui et al.~\\cite{Bui2026Survey} también reportan arXiv como la fuente con más estudios.",
+  "id": "Bui2026Survey#4",
+  "clave": "Bui2026Survey"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Bui2026Survey} (2026) & Sistemática & Text-to-SQL con LLM y seguridad & Solo como categoría de \\en{datasets} & Documentado & Texto completo (manuscrito)",
+  "id": "Bui2026Survey#5",
+  "clave": "Bui2026Survey"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "Un tercer revisor (Claude Opus) resolvió los desacuerdos entre avanzar y excluir.",
+  "oracion": "Como A y B comparten familia de modelo, no se consideran revisores independientes en el sentido de Kitchenham; su acuerdo es solo un diagnóstico (\\cref{tab:ia}), con $\\kappa$ de Cohen~\\cite{Cohen1960Coefficient} y PABAK~\\cite{Byrt1993Bias}.",
+  "id": "Byrt1993Bias#1",
+  "clave": "Byrt1993Bias"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "La síntesis es narrativa y estructurada según SWiM~\\cite{Campbell2020SWiM}, sin metaanálisis.",
+  "id": "Campbell2020SWiM#1",
+  "clave": "Campbell2020SWiM"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "El intervalo de Wilson cubre solo el error muestral, no el de clasificación ni el de selección; por ello se reporta además el acuerdo en el campo que define D4 (pilares PI3/PI4 centrales, Nivel 1).",
+  "oracion": "La tendencia anual de 2019 a 2025 se evalúa con la prueba de Cochran--Armitage~\\cite{Cochran1954Methods,Armitage1955Tests} por permutación (\\replicasTendencia{} réplicas); 2026 se reporta aparte por ser un año parcial, y como sensibilidad se repite la prueba incluyéndolo, sin sustituir a la prueba registrada.",
+  "id": "Cochran1954Methods#1",
+  "clave": "Cochran1954Methods"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "Un tercer revisor (Claude Opus) resolvió los desacuerdos entre avanzar y excluir.",
+  "oracion": "Como A y B comparten familia de modelo, no se consideran revisores independientes en el sentido de Kitchenham; su acuerdo es solo un diagnóstico (\\cref{tab:ia}), con $\\kappa$ de Cohen~\\cite{Cohen1960Coefficient} y PABAK~\\cite{Byrt1993Bias}.",
+  "id": "Cohen1960Coefficient#1",
+  "clave": "Cohen1960Coefficient"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Abbas et al.~\\cite{Abbas2022NLIDB} se centran en NLIDB con aprendizaje profundo.",
+  "oracion": "Deng et al.~\\cite{Deng2022Recent} y Katsogiannis-Meimarakis y Koutrika~\\cite{Katsogiannis2023Survey} cubren Text-to-SQL con redes neuronales.",
+  "id": "Deng2022Recent#1",
+  "clave": "Deng2022Recent"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Deng2022Recent} (2022) & Narrativa & Text-to-SQL general & Subtema & No verificado & Resumen",
+  "id": "Deng2022Recent#2",
+  "clave": "Deng2022Recent"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Abbas et al.~\\cite{Abbas2022NLIDB} se centran en NLIDB con aprendizaje profundo.",
+  "oracion": "Deng et al.~\\cite{Deng2022Recent} y Katsogiannis-Meimarakis y Koutrika~\\cite{Katsogiannis2023Survey} cubren Text-to-SQL con redes neuronales.",
+  "id": "Katsogiannis2023Survey#1",
+  "clave": "Katsogiannis2023Survey"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Katsogiannis2023Survey} (2023) & Narrativa & Text-to-SQL con aprendizaje profundo & Subtema & No verificado & Resumen",
+  "id": "Katsogiannis2023Survey#2",
+  "clave": "Katsogiannis2023Survey"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "Se usó OpenAlex~\\cite{Priem2022OpenAlex}, que aportó \\nBolaCandOA{} candidatos.",
+  "oracion": "Para \\nBolaSemillasSS{} semillas sin referencias en OpenAlex se recurrió a Semantic Scholar~\\cite{Kinney2023SemanticScholar}, que dispuso de referencias para \\nBolaSemillasSSrefs{} de ellas y aportó \\nBolaCandSS{} candidatos.",
+  "id": "Kinney2023SemanticScholar#1",
+  "clave": "Kinney2023SemanticScholar"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Además, busca contrastarlas con las de un turno, comparar los resultados reportados y señalar brechas.",
+  "oracion": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines}, se reporta según PRISMA 2020~\\cite{Page2021PRISMA} y su protocolo se registró antes de la búsqueda oficial~\\cite{OSF2026Protocolo}.",
+  "id": "Kitchenham2007Guidelines#1",
+  "clave": "Kitchenham2007Guidelines"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines} y se reporta según PRISMA 2020~\\cite{Page2021PRISMA}, con la extensión para búsquedas~\\cite{Rethlefsen2021PRISMAS}.",
+  "id": "Kitchenham2007Guidelines#2",
+  "clave": "Kitchenham2007Guidelines"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "En los contrastes se cuentan además los nulos con un umbral de $|\\Delta| <$ \\umbralNulo{}~pp, y se añade una lectura que rebaja un nivel la confianza por sesgo de notificación; esta lectura penalizada es una sensibilidad añadida y la regla registrada no cambia.",
+  "oracion": "La confianza de cada hallazgo, inspirada en GRADE-CERQual~\\cite{Lewin2018CERQual}, combina las limitaciones metodológicas, la coherencia, la suficiencia y la pertinencia con reglas propias, que no equivalen a una aplicación validada de CERQual.",
+  "id": "Lewin2018CERQual#1",
+  "clave": "Lewin2018CERQual"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "En el escenario conversacional o multiturno, la interpretación de cada pregunta del usuario depende de los turnos anteriores.",
+  "oracion": "Esto introduce elipsis, correferencia y referencias implícitas a consultas previas, que el sistema debe resolver antes de decidir qué tablas y columnas intervienen~\\cite{Li2020ContextSurvey}.",
+  "id": "Li2020ContextSurvey#1",
+  "clave": "Li2020ContextSurvey"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Las revisiones más próximas se centran en la dependencia del contexto.",
+  "oracion": "Li, Qu y Haffari~\\cite{Li2020ContextSurvey} presentan una revisión narrativa, anterior a los LLM, del análisis semántico dependiente del contexto, que no se limita a SQL.",
+  "id": "Li2020ContextSurvey#2",
+  "clave": "Li2020ContextSurvey"
+ },
+ {
+  "archivo": "secciones/05-discusion.tex",
+  "contexto": "No se puede afirmar qué cubre su texto completo, que no fue posible leer.",
+  "oracion": "Li, Qu y Haffari~\\cite{Li2020ContextSurvey} ofrecen una visión narrativa anterior a los LLM y más amplia que SQL, mientras que el corpus actual abarca la transición hacia el \\en{prompting} y los agentes (\\cref{fig:pi0_paradigma_anio}).",
+  "id": "Li2020ContextSurvey#3",
+  "clave": "Li2020ContextSurvey"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\midrule \\cite{Li2020ContextSurvey} (2020) & Narrativa & Análisis semántico dependiente del contexto (no solo SQL) & Eje central & No reportado & Resumen",
+  "id": "Li2020ContextSurvey#4",
+  "clave": "Li2020ContextSurvey"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Las interfaces de lenguaje natural a bases de datos (\\en{natural language interfaces to databases}, NLIDB) permiten consultar datos relacionales sin conocer SQL, y la tarea de traducir una pregunta a una consulta SQL (\\en{Text-to-SQL}) es su formulación computacional más estudiada~\\cite{Quamar2022NLI,Shi2026SurveyLLM}.",
+  "oracion": "Los \\en{benchmarks} de referencia para el escenario de un turno, como WikiSQL, Spider y BIRD, evalúan preguntas aisladas sobre un esquema dado~\\cite{Zhong2017Seq2SQL,Yu2018Spider,Li2023BIRD}.",
+  "id": "Li2023BIRD#1",
+  "clave": "Li2023BIRD"
+ },
+ {
+  "archivo": "secciones/04b-resultados.tex",
+  "contexto": "Los \\nUmbral{} estudios del Nivel 2 con validez suficiente usan sobre todo \\en{benchmarks} multiturno conversacionales (50 estudios), seguidos de \\en{benchmarks} estándar de un turno (18), interactivos o de aclaración (11), variantes de un turno (7), de diálogo orientado a tareas (5), de datos propios o industriales (3) y de QA conversacional o tabular híbrida (3).",
+  "oracion": "Entre ellos se cuentan SParC~\\cite{Yu2019SParC}, CoSQL~\\cite{Yu2019CoSQL} y CHASE~\\cite{Guo2021Chase}, además de Spider~\\cite{Yu2018Spider} y BIRD~\\cite{Li2023BIRD} en su uso de un turno.",
+  "id": "Li2023BIRD#2",
+  "clave": "Li2023BIRD"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Deng et al.~\\cite{Deng2022Recent} y Katsogiannis-Meimarakis y Koutrika~\\cite{Katsogiannis2023Survey} cubren Text-to-SQL con redes neuronales.",
+  "oracion": "Liu et al.~\\cite{Liu2025SurveyLLMs} y Shi et al.~\\cite{Shi2026SurveyLLM} lo hacen para la era de los LLM.",
+  "id": "Liu2025SurveyLLMs#1",
+  "clave": "Liu2025SurveyLLMs"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Liu2025SurveyLLMs} (2025) & Narrativa & Text-to-SQL con LLM & Subtema & No verificado & Resumen",
+  "id": "Liu2025SurveyLLMs#2",
+  "clave": "Liu2025SurveyLLMs"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Solo una revisión se centra en el Text-to-SQL conversacional~\\cite{Yang2025Conversational}, y según su resumen es narrativa y no reporta protocolo de búsqueda.",
+  "oracion": "Las revisiones de 2026 que se declaran sistemáticas no analizan el escenario multiturno~\\cite{Liu2026NLIDBReview,Bui2026Survey}.",
+  "id": "Liu2026NLIDBReview#1",
+  "clave": "Liu2026NLIDBReview"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Varias revisiones de 2026 se presentan como sistemáticas.",
+  "oracion": "Liu et al.~\\cite{Liu2026NLIDBReview} revisan las NLIDB en general.",
+  "id": "Liu2026NLIDBReview#2",
+  "clave": "Liu2026NLIDBReview"
+ },
+ {
+  "archivo": "secciones/05-discusion.tex",
+  "contexto": "Li, Qu y Haffari~\\cite{Li2020ContextSurvey} ofrecen una visión narrativa anterior a los LLM y más amplia que SQL, mientras que el corpus actual abarca la transición hacia el \\en{prompting} y los agentes (\\cref{fig:pi0_paradigma_anio}).",
+  "oracion": "Entre las revisiones sistemáticas de 2026, la versión arXiv v2 de Liu et al.~\\cite{Liu2026NLIDBReview} no documenta protocolo ni menciona SParC ni CoSQL.",
+  "id": "Liu2026NLIDBReview#3",
+  "clave": "Liu2026NLIDBReview"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Liu2026NLIDBReview} (2026) & Sistemática (declarada) & NLIDB general & No tratado & No documentado & Texto completo (arXiv v2)",
+  "id": "Liu2026NLIDBReview#4",
+  "clave": "Liu2026NLIDBReview"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines} y se reporta según PRISMA 2020~\\cite{Page2021PRISMA}, con la extensión para búsquedas~\\cite{Rethlefsen2021PRISMAS}.",
+  "oracion": "El protocolo se redactó según PRISMA-P~\\cite{Moher2015PRISMAP} y se registró en OSF antes de las búsquedas oficiales~\\cite{OSF2026Protocolo}; los recuentos de las pruebas de cadenas previas al registro constan como tales en el registro de búsquedas del repositorio del proyecto.",
+  "id": "Moher2015PRISMAP#1",
+  "clave": "Moher2015PRISMAP"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Además, busca contrastarlas con las de un turno, comparar los resultados reportados y señalar brechas.",
+  "oracion": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines}, se reporta según PRISMA 2020~\\cite{Page2021PRISMA} y su protocolo se registró antes de la búsqueda oficial~\\cite{OSF2026Protocolo}.",
+  "id": "OSF2026Protocolo#1",
+  "clave": "OSF2026Protocolo"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines} y se reporta según PRISMA 2020~\\cite{Page2021PRISMA}, con la extensión para búsquedas~\\cite{Rethlefsen2021PRISMAS}.",
+  "oracion": "El protocolo se redactó según PRISMA-P~\\cite{Moher2015PRISMAP} y se registró en OSF antes de las búsquedas oficiales~\\cite{OSF2026Protocolo}; los recuentos de las pruebas de cadenas previas al registro constan como tales en el registro de búsquedas del repositorio del proyecto.",
+  "id": "OSF2026Protocolo#2",
+  "clave": "OSF2026Protocolo"
+ },
+ {
+  "archivo": "secciones/08-declaraciones.tex",
+  "contexto": "",
+  "oracion": "El protocolo se registró en OSF (\\url{https://osf.io/5usf3/}; DOI 10.17605/OSF.IO/5USF3)~\\cite{OSF2026Protocolo} antes de la búsqueda oficial, y está disponible en el registro.",
+  "id": "OSF2026Protocolo#3",
+  "clave": "OSF2026Protocolo"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "En el texto completo del manuscrito, lo multiturno aparece solo como categoría de \\en{datasets}, y no se analizan la restauración del contexto, el estado del diálogo ni la degradación por turno.",
+  "oracion": "Ortiz-Delgado et al.~\\cite{OrtizDelgado2026RAG} presentan una revisión sistemática, con protocolo en OSF, sobre estrategias de generación aumentada por recuperación para Text-to-SQL; según su resumen y su registro, no trata el escenario multiturno.",
+  "id": "OrtizDelgado2026RAG#1",
+  "clave": "OrtizDelgado2026RAG"
+ },
+ {
+  "archivo": "secciones/05-discusion.tex",
+  "contexto": "Bui et al.~\\cite{Bui2026Survey} documentan una búsqueda sistemática, pero en el manuscrito leído el escenario multiturno aparece solo como categoría de \\en{datasets}.",
+  "oracion": "Ortiz-Delgado et al.~\\cite{OrtizDelgado2026RAG} no tratan el escenario multiturno, según su resumen y su registro.",
+  "id": "OrtizDelgado2026RAG#2",
+  "clave": "OrtizDelgado2026RAG"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{OrtizDelgado2026RAG} (2026) & Sistemática & Estrategias RAG para Text-to-SQL & No tratado & Documentado (OSF) & Resumen y registro OSF",
+  "id": "OrtizDelgado2026RAG#3",
+  "clave": "OrtizDelgado2026RAG"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Además, busca contrastarlas con las de un turno, comparar los resultados reportados y señalar brechas.",
+  "oracion": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines}, se reporta según PRISMA 2020~\\cite{Page2021PRISMA} y su protocolo se registró antes de la búsqueda oficial~\\cite{OSF2026Protocolo}.",
+  "id": "Page2021PRISMA#1",
+  "clave": "Page2021PRISMA"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines} y se reporta según PRISMA 2020~\\cite{Page2021PRISMA}, con la extensión para búsquedas~\\cite{Rethlefsen2021PRISMAS}.",
+  "id": "Page2021PRISMA#2",
+  "clave": "Page2021PRISMA"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "La búsqueda se complementó con \\en{snowballing} hacia atrás y hacia adelante~\\cite{Wohlin2014Snowballing}, sin iterar, desde \\nBolaSemillas{} estudios semilla del Nivel 2.",
+  "oracion": "Se usó OpenAlex~\\cite{Priem2022OpenAlex}, que aportó \\nBolaCandOA{} candidatos.",
+  "id": "Priem2022OpenAlex#1",
+  "clave": "Priem2022OpenAlex"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "",
+  "oracion": "Las interfaces de lenguaje natural a bases de datos (\\en{natural language interfaces to databases}, NLIDB) permiten consultar datos relacionales sin conocer SQL, y la tarea de traducir una pregunta a una consulta SQL (\\en{Text-to-SQL}) es su formulación computacional más estudiada~\\cite{Quamar2022NLI,Shi2026SurveyLLM}.",
+  "id": "Quamar2022NLI#1",
+  "clave": "Quamar2022NLI"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "La revisión sigue las guías de Kitchenham y Charters~\\cite{Kitchenham2007Guidelines} y se reporta según PRISMA 2020~\\cite{Page2021PRISMA}, con la extensión para búsquedas~\\cite{Rethlefsen2021PRISMAS}.",
+  "id": "Rethlefsen2021PRISMAS#1",
+  "clave": "Rethlefsen2021PRISMAS"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "",
+  "oracion": "Las interfaces de lenguaje natural a bases de datos (\\en{natural language interfaces to databases}, NLIDB) permiten consultar datos relacionales sin conocer SQL, y la tarea de traducir una pregunta a una consulta SQL (\\en{Text-to-SQL}) es su formulación computacional más estudiada~\\cite{Quamar2022NLI,Shi2026SurveyLLM}.",
+  "id": "Shi2026SurveyLLM#1",
+  "clave": "Shi2026SurveyLLM"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Deng et al.~\\cite{Deng2022Recent} y Katsogiannis-Meimarakis y Koutrika~\\cite{Katsogiannis2023Survey} cubren Text-to-SQL con redes neuronales.",
+  "oracion": "Liu et al.~\\cite{Liu2025SurveyLLMs} y Shi et al.~\\cite{Shi2026SurveyLLM} lo hacen para la era de los LLM.",
+  "id": "Shi2026SurveyLLM#2",
+  "clave": "Shi2026SurveyLLM"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Shi2026SurveyLLM} (2026) & Narrativa & Text-to-SQL con LLM & Subtema & No verificado & Resumen",
+  "id": "Shi2026SurveyLLM#3",
+  "clave": "Shi2026SurveyLLM"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "Check.",
+  "oracion": "Submit.}~\\cite{TCS2026}.",
+  "id": "TCS2026#1",
+  "clave": "TCS2026"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "El indicador D4 es la proporción de estudios multiturno entre los que abordan la vinculación de esquemas o la autocorrección como contribución central, con intervalo de Wilson~\\cite{Wilson1927Probable}.",
+  "id": "Wilson1927Probable#1",
+  "clave": "Wilson1927Probable"
+ },
+ {
+  "archivo": "secciones/03-metodo.tex",
+  "contexto": "",
+  "oracion": "La búsqueda se complementó con \\en{snowballing} hacia atrás y hacia adelante~\\cite{Wohlin2014Snowballing}, sin iterar, desde \\nBolaSemillas{} estudios semilla del Nivel 2.",
+  "id": "Wohlin2014Snowballing#1",
+  "clave": "Wohlin2014Snowballing"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Existen numerosas revisiones generales de Text-to-SQL y NLIDB, que tratan lo multiturno como un subtema.",
+  "oracion": "Solo una revisión se centra en el Text-to-SQL conversacional~\\cite{Yang2025Conversational}, y según su resumen es narrativa y no reporta protocolo de búsqueda.",
+  "id": "Yang2025Conversational#1",
+  "clave": "Yang2025Conversational"
+ },
+ {
+  "archivo": "secciones/02-trabajos-relacionados.tex",
+  "contexto": "Li, Qu y Haffari~\\cite{Li2020ContextSurvey} presentan una revisión narrativa, anterior a los LLM, del análisis semántico dependiente del contexto, que no se limita a SQL.",
+  "oracion": "Yang et al.~\\cite{Yang2025Conversational} es la revisión más cercana en alcance: según su resumen, cubre el manejo del contexto (correferencia y elipsis), la evolución de las arquitecturas desde codificador-decodificador hasta LLM y agentes, y una comparación cuantitativa en SParC y CoSQL.",
+  "id": "Yang2025Conversational#2",
+  "clave": "Yang2025Conversational"
+ },
+ {
+  "archivo": "secciones/05-discusion.tex",
+  "contexto": "La comparación con las revisiones de la \\cref{tab:relacionados} es de alcance y de método, ya que sus objetivos difieren de los de esta revisión.",
+  "oracion": "Según su resumen, Yang et al.~\\cite{Yang2025Conversational} cubren el manejo del contexto, la evolución de las arquitecturas y una comparación cuantitativa en SParC y CoSQL, sin mencionar protocolo de búsqueda ni tratar como ejes la vinculación de esquemas, la inferencia de \\en{joins} o la retroalimentación de ejecución.",
+  "id": "Yang2025Conversational#3",
+  "clave": "Yang2025Conversational"
+ },
+ {
+  "archivo": "tablas/relacionados.tex",
+  "contexto": "Table caption: Revisiones previas sobre Text-to-SQL y NLIDB frente al alcance de esta revisión. «Fuente leída» indica sobre qué texto se verificó cada descriptor. Header: Revisión & Tipo & Alcance & Multiturno & Protocolo & Fuente leída",
+  "oracion": "\\cite{Yang2025Conversational} (2025) & Narrativa & Text-to-SQL conversacional & Eje central & No reportado & Resumen",
+  "id": "Yang2025Conversational#4",
+  "clave": "Yang2025Conversational"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Las interfaces de lenguaje natural a bases de datos (\\en{natural language interfaces to databases}, NLIDB) permiten consultar datos relacionales sin conocer SQL, y la tarea de traducir una pregunta a una consulta SQL (\\en{Text-to-SQL}) es su formulación computacional más estudiada~\\cite{Quamar2022NLI,Shi2026SurveyLLM}.",
+  "oracion": "Los \\en{benchmarks} de referencia para el escenario de un turno, como WikiSQL, Spider y BIRD, evalúan preguntas aisladas sobre un esquema dado~\\cite{Zhong2017Seq2SQL,Yu2018Spider,Li2023BIRD}.",
+  "id": "Yu2018Spider#1",
+  "clave": "Yu2018Spider"
+ },
+ {
+  "archivo": "secciones/04b-resultados.tex",
+  "contexto": "Los \\nUmbral{} estudios del Nivel 2 con validez suficiente usan sobre todo \\en{benchmarks} multiturno conversacionales (50 estudios), seguidos de \\en{benchmarks} estándar de un turno (18), interactivos o de aclaración (11), variantes de un turno (7), de diálogo orientado a tareas (5), de datos propios o industriales (3) y de QA conversacional o tabular híbrida (3).",
+  "oracion": "Entre ellos se cuentan SParC~\\cite{Yu2019SParC}, CoSQL~\\cite{Yu2019CoSQL} y CHASE~\\cite{Guo2021Chase}, además de Spider~\\cite{Yu2018Spider} y BIRD~\\cite{Li2023BIRD} en su uso de un turno.",
+  "id": "Yu2018Spider#2",
+  "clave": "Yu2018Spider"
+ },
+ {
+  "archivo": "secciones/01-introduccion.tex",
+  "contexto": "Las interfaces de lenguaje natural a bases de datos (\\en{natural language interfaces to databases}, NLIDB) permiten consultar datos relacionales sin conocer SQL, y la tarea de traducir una pregunta a una consulta SQL (\\en{Text-to-SQL}) es su formulación computacional más estudiada~\\cite{Quamar2022NLI,Shi2026SurveyLLM}.",
+  "oracion": "Los \\en{benchmarks} de referencia para el escenario de un turno, como WikiSQL, Spider y BIRD, evalúan preguntas aisladas sobre un esquema dado~\\cite{Zhong2017Seq2SQL,Yu2018Spider,Li2023BIRD}.",
+  "id": "Zhong2017Seq2SQL#1",
+  "clave": "Zhong2017Seq2SQL"
+ }
+]

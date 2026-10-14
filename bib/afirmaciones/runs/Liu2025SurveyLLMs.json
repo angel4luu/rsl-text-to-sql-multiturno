@@ -1,0 +1,21 @@
+{
+ "clave": "Liu2025SurveyLLMs",
+ "juicios": [
+  {
+   "id": "Liu2025SurveyLLMs#1",
+   "uso": "Identificar una revisión de Text-to-SQL en la era de los LLM.",
+   "veredicto": "supported",
+   "motivo": "The title and abstract explicitly describe a survey of Text-to-SQL techniques powered by LLMs.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Liu2025SurveyLLMs#2",
+   "uso": "Clasificar la revisión como narrativa, centrada en LLM y con multiturno como subtema.",
+   "veredicto": "partial",
+   "motivo": "The abstract supports the LLM Text-to-SQL scope but does not establish a narrative methodology or coverage of multi-turn interaction as a subtopic.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

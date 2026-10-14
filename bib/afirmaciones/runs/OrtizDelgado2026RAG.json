@@ -1,0 +1,28 @@
+{
+ "clave": "OrtizDelgado2026RAG",
+ "juicios": [
+  {
+   "id": "OrtizDelgado2026RAG#1",
+   "uso": "Caracterizar la revisión sistemática sobre RAG para Text-to-SQL y afirmar que no trata multiturno.",
+   "veredicto": "partial",
+   "motivo": "The abstract establishes the systematic review, its RAG Text-to-SQL scope, and its OSF protocol, but silence about multi-turn scenarios does not establish their exclusion.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "OrtizDelgado2026RAG#2",
+   "uso": "Afirmar que la revisión no trata el escenario multiturno.",
+   "veredicto": "cannot_judge",
+   "motivo": "The supplied record does not mention multi-turn scenarios, but this omission is insufficient to determine whether the review addresses them.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "OrtizDelgado2026RAG#3",
+   "uso": "Clasificar tipo, alcance, tratamiento multiturno y documentación del protocolo de la revisión.",
+   "veredicto": "partial",
+   "motivo": "The record supports the year, systematic-review classification, RAG Text-to-SQL scope, and documented OSF protocol, but does not establish that multi-turn scenarios are untreated.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

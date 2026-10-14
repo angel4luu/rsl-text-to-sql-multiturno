@@ -1,0 +1,21 @@
+{
+ "clave": "Li2023BIRD",
+ "juicios": [
+  {
+   "id": "Li2023BIRD#1",
+   "uso": "Identificar BIRD como benchmark de un turno con preguntas independientes sobre bases de datos dadas.",
+   "veredicto": "supported",
+   "motivo": "The abstract establishes BIRD as a Text-to-SQL benchmark, and knowledge beyond the abstract confirms its independent, single-turn questions over supplied database schemas.",
+   "conocimiento_externo": true
+  },
+  {
+   "id": "Li2023BIRD#2",
+   "uso": "Identificar BIRD como benchmark utilizado en el escenario de un turno.",
+   "veredicto": "supported",
+   "motivo": "BIRD is a single-turn Text-to-SQL benchmark, a characterization supported by knowledge of the dataset beyond the supplied abstract.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

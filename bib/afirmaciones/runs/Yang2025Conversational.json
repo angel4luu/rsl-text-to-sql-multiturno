@@ -1,0 +1,35 @@
+{
+ "clave": "Yang2025Conversational",
+ "juicios": [
+  {
+   "id": "Yang2025Conversational#1",
+   "uso": "Establish conversational focus, narrative methodology, and absence of a reported search protocol",
+   "veredicto": "partial",
+   "motivo": "The title establishes a conversational Text-to-SQL focus, but the unavailable abstract prevents verification of narrative methodology or search-protocol reporting.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Yang2025Conversational#2",
+   "uso": "Describe scope, context handling, architectural evolution, and quantitative benchmark comparisons",
+   "veredicto": "partial",
+   "motivo": "The title supports the broad conversational Text-to-SQL scope, but the record cannot verify the specific topics or quantitative comparisons attributed to its abstract.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Yang2025Conversational#3",
+   "uso": "Identify covered topics, benchmark comparisons, and methodological or thematic omissions",
+   "veredicto": "cannot_judge",
+   "motivo": "No abstract or substantive content is provided to verify either the claimed coverage or the claimed omissions.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Yang2025Conversational#4",
+   "uso": "Classify review methodology, conversational scope, multiturn centrality, search protocol, and source consulted",
+   "veredicto": "partial",
+   "motivo": "The title supports conversational scope and multiturn centrality, but the record cannot verify narrative methodology, protocol reporting, or descriptors supposedly checked against an abstract.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

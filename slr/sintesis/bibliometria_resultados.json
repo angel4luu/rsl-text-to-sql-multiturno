@@ -1,6 +1,6 @@
 {
  "fecha_openalex": "2026-10-13",
- "resueltos_openalex": 384,
+ "resueltos_openalex": 383,
  "no_resueltos": [
   "R00005",
   "R00039",
@@ -9,13 +9,13 @@
   "R00935",
   "R00953"
  ],
- "n_estudios": 390,
+ "n_estudios": 389,
  "red": {
-  "nodos": 390,
-  "aristas": 843,
+  "nodos": 389,
+  "aristas": 841,
   "aislados": 205,
   "citas_por_direccion": {
-   "UT→UT": 434,
+   "UT→UT": 432,
    "UT→MT": 137,
    "MT→MT": 173,
    "MT→UT": 99
@@ -26,7 +26,7 @@
   "UN_TURNO": 0.5
  },
  "tipo_afiliacion": {
-  "solo academia": 197,
+  "solo academia": 196,
   "sin datos": 80,
   "academia + industria": 79,
   "solo industria": 28

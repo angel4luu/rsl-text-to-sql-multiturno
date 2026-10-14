@@ -1,0 +1,14 @@
+{
+ "clave": "Cochran1954Methods",
+ "juicios": [
+  {
+   "id": "Cochran1954Methods#1",
+   "uso": "Fuente metodológica de la prueba de tendencia de Cochran–Armitage.",
+   "veredicto": "supported",
+   "motivo": "Beyond the abstract, this well-known paper establishes Cochran’s contribution to the Cochran–Armitage trend test; permutation calibration and year selection describe the review’s implementation.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

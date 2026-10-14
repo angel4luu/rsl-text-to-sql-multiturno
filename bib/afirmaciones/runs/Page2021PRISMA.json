@@ -1,0 +1,21 @@
+{
+ "clave": "Page2021PRISMA",
+ "juicios": [
+  {
+   "id": "Page2021PRISMA#1",
+   "uso": "Source of the PRISMA 2020 guideline used to report the review.",
+   "veredicto": "supported",
+   "motivo": "The abstract establishes this reference as the PRISMA 2020 reporting guideline for systematic reviews.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Page2021PRISMA#2",
+   "uso": "Source of the PRISMA 2020 guideline used to report the review.",
+   "veredicto": "supported",
+   "motivo": "The abstract establishes this reference as the PRISMA 2020 reporting guideline; the search extension is attributed separately.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

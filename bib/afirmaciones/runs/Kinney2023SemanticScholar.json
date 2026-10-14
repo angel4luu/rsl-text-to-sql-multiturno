@@ -1,0 +1,14 @@
+{
+ "clave": "Kinney2023SemanticScholar",
+ "juicios": [
+  {
+   "id": "Kinney2023SemanticScholar#1",
+   "uso": "Fuente de Semantic Scholar como plataforma para recuperar referencias y candidatos bibliográficos.",
+   "veredicto": "supported",
+   "motivo": "The abstract establishes Semantic Scholar as a literature platform with citation edges and APIs, supporting its use to retrieve references, while the counts are the review's own findings.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

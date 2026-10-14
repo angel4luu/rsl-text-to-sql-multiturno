@@ -427,52 +427,52 @@
   ],
   "2_sin_preprints_D4": {
    "k": 23,
-   "n": 177,
-   "p": 0.1299,
+   "n": 176,
+   "p": 0.1307,
    "ic95": [
-    0.0882,
-    0.1874
+    0.0887,
+    0.1885
    ],
    "conclusion": "considerablemente menos investigado"
   },
   "3_D4_laxo": {
    "k": 49,
-   "n": 317,
-   "p": 0.1546,
+   "n": 316,
+   "p": 0.1551,
    "ic95": [
-    0.1189,
-    0.1985
+    0.1193,
+    0.1991
    ],
    "conclusion": "considerablemente menos investigado"
   },
   "4_D4_solo_busqueda_en_bases": {
    "k": 34,
-   "n": 273,
-   "p": 0.1245,
+   "n": 272,
+   "p": 0.125,
    "ic95": [
-    0.0905,
-    0.169
+    0.0908,
+    0.1696
    ],
    "conclusion": "considerablemente menos investigado"
   },
   "5_contingencia_nivel1": "No aplica: la regla de contingencia por volumen no se activó (texto completo de un turno < 400).",
   "A5_D4_foros_de_primer_nivel": {
    "k": 15,
-   "n": 116,
-   "p": 0.1293,
+   "n": 115,
+   "p": 0.1304,
    "ic95": [
-    0.08,
-    0.2024
+    0.0807,
+    0.2041
    ],
    "conclusion": "considerablemente menos investigado"
   },
   "A4_D4_con_no_recuperados_segun_senal": {
    "k": 77,
-   "n": 493,
-   "p": 0.1562,
+   "n": 492,
+   "p": 0.1565,
    "ic95": [
-    0.1268,
-    0.1909
+    0.1271,
+    0.1913
    ],
    "supuesto": "todos los no recuperados cuentan en el denominador; los de señal multiturno, también en el numerador (cota conservadora)"
   }

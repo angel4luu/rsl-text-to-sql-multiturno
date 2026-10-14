@@ -1,0 +1,14 @@
+{
+ "clave": "Byrt1993Bias",
+ "juicios": [
+  {
+   "id": "Byrt1993Bias#1",
+   "uso": "Fuente metodológica de PABAK como medida de acuerdo ajustada por prevalencia y sesgo.",
+   "veredicto": "supported",
+   "motivo": "Based on general knowledge of the paper beyond the supplied record, which has no abstract, it establishes prevalence-adjusted bias-adjusted kappa (PABAK).",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

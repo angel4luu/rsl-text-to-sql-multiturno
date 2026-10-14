@@ -1,0 +1,14 @@
+{
+ "clave": "Zhong2017Seq2SQL",
+ "juicios": [
+  {
+   "id": "Zhong2017Seq2SQL#1",
+   "uso": "WikiSQL como benchmark de un turno con preguntas aisladas sobre un esquema dado",
+   "veredicto": "supported",
+   "motivo": "The abstract introduces WikiSQL, and knowledge of the paper beyond the abstract confirms that its examples pair independent questions with SQL queries over a given table schema.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

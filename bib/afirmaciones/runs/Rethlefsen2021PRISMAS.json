@@ -1,0 +1,14 @@
+{
+ "clave": "Rethlefsen2021PRISMAS",
+ "juicios": [
+  {
+   "id": "Rethlefsen2021PRISMAS#1",
+   "uso": "Fuente de la extensión PRISMA-S para reportar las búsquedas de la revisión.",
+   "veredicto": "supported",
+   "motivo": "The abstract explicitly presents PRISMA-S as an extension for reporting literature searches that complements the PRISMA Statement and its extensions.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

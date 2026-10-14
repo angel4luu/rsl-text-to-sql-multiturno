@@ -1,0 +1,14 @@
+{
+ "clave": "ARS2026",
+ "juicios": [
+  {
+   "id": "ARS2026#1",
+   "uso": "Identificar y citar sr-screener como herramienta de la suite Academic Research Skills.",
+   "veredicto": "supported",
+   "motivo": "The software record explicitly identifies Academic Research Skills (sr-screener), supporting its citation as the source of the screening tool.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

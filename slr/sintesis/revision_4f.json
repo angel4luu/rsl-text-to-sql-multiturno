@@ -1,7 +1,7 @@
 {
  "A1_contraste_central": {
   "n_multiturno": 34,
-  "n_un_turno": 268
+  "n_un_turno": 267
  },
  "A2_M8_esperados": {
   "ab": 2.4,
@@ -10,8 +10,8 @@
   "abc": 1.41
  },
  "A3_tendencia_2019_2026": {
-  "estadistico": -16.166,
-  "p_exacta_bilateral": 0.0922,
+  "estadistico": -16.575,
+  "p_exacta_bilateral": 0.0753,
   "replicas": 10000
  },
  "A4_nulos": {
@@ -183,8 +183,8 @@
  },
  "A7_cota_probabilistica": {
   "k_esperado": 48.0,
-  "n_esperado": 424.5,
-  "p": 0.1132,
+  "n_esperado": 423.0,
+  "p": 0.1136,
   "tasas_recuperados": {
    "multiturno": [
     0.2523,
@@ -193,7 +193,7 @@
    ],
    "un_turno": [
     0.0216,
-    0.716,
+    0.713,
     324
    ]
   }

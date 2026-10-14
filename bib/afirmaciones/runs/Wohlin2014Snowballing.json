@@ -1,0 +1,14 @@
+{
+ "clave": "Wohlin2014Snowballing",
+ "juicios": [
+  {
+   "id": "Wohlin2014Snowballing#1",
+   "uso": "Fuente metodológica del snowballing hacia atrás y hacia adelante",
+   "veredicto": "supported",
+   "motivo": "Beyond the supplied abstract, the reference is known to provide backward and forward snowballing guidelines; the non-iterative execution and seed selection describe this review's implementation.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

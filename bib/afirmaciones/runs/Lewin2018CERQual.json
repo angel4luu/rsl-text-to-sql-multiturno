@@ -1,0 +1,14 @@
+{
+ "clave": "Lewin2018CERQual",
+ "juicios": [
+  {
+   "id": "Lewin2018CERQual#1",
+   "uso": "Fundamentar los cuatro componentes de confianza que inspiran una adaptación propia de GRADE-CERQual.",
+   "veredicto": "supported",
+   "motivo": "The abstract explicitly identifies methodological limitations, coherence, adequacy of data, and relevance as CERQual's four components for assessing confidence in individual review findings.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

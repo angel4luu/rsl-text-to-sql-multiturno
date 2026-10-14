@@ -1,0 +1,14 @@
+{
+ "clave": "Priem2022OpenAlex",
+ "juicios": [
+  {
+   "id": "Priem2022OpenAlex#1",
+   "uso": "Identificar OpenAlex como fuente de candidatos para la búsqueda complementaria.",
+   "veredicto": "supported",
+   "motivo": "The abstract establishes OpenAlex as a scholarly index, while the candidate count is the review's own result.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

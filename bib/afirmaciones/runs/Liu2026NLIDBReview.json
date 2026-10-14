@@ -1,0 +1,35 @@
+{
+ "clave": "Liu2026NLIDBReview",
+ "juicios": [
+  {
+   "id": "Liu2026NLIDBReview#1",
+   "uso": "Establecer que la revisión sistemática no analiza el escenario multiturno",
+   "veredicto": "cannot_judge",
+   "motivo": "The title identifies a systematic review, but the abstract cannot establish whether the full paper analyzes multi-turn scenarios.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Liu2026NLIDBReview#2",
+   "uso": "Caracterizar el alcance como NLIDB en general",
+   "veredicto": "partial",
+   "motivo": "The title refers broadly to natural language interfaces for databases, but the abstract describes a review specifically focused on Text-to-SQL.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Liu2026NLIDBReview#3",
+   "uso": "Afirmar ausencia de protocolo y de menciones a SParC y CoSQL en arXiv v2",
+   "veredicto": "cannot_judge",
+   "motivo": "The supplied record does not include arXiv v2, so omissions of a protocol or dataset mentions cannot be verified.",
+   "conocimiento_externo": false
+  },
+  {
+   "id": "Liu2026NLIDBReview#4",
+   "uso": "Clasificar tipo, alcance, cobertura multiturno, protocolo y versión consultada",
+   "veredicto": "partial",
+   "motivo": "The title supports the declared systematic classification, but the abstract focuses on Text-to-SQL and cannot verify the multi-turn, protocol, or consulted-version descriptors.",
+   "conocimiento_externo": false
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

@@ -83,7 +83,7 @@ Todas las pendientes individuales son negativas en ambos estratos. Las comparaci
 
 ## Sensibilidad
 
-Los archivos de sensibilidad no contienen análisis específicos de PI5 (sin efectos ni curvas recalculados) [sensibilidad.json]. Sí registran el D4 sin preprints (23/177; 12,99 %) y la contingencia del Nivel 1 («No aplica») [sensibilidad.json].
+Los archivos de sensibilidad no contienen análisis específicos de PI5 (sin efectos ni curvas recalculados) [sensibilidad.json]. Sí registran el D4 sin preprints (23/176; 13,07 %) y la contingencia del Nivel 1 («No aplica») [sensibilidad.json].
 
 ## Limitaciones
 

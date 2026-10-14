@@ -1,0 +1,14 @@
+{
+ "clave": "Wilson1927Probable",
+ "juicios": [
+  {
+   "id": "Wilson1927Probable#1",
+   "uso": "Fuente del método de intervalo de Wilson para una proporción",
+   "veredicto": "supported",
+   "motivo": "Beyond the abstract's bibliographic metadata, general knowledge identifies this paper as the source of the Wilson score interval for a binomial proportion.",
+   "conocimiento_externo": true
+  }
+ ],
+ "modelo": "codex:gpt-6.1-sol",
+ "razonamiento": "medium"
+}

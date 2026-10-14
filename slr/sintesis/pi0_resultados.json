@@ -1,5 +1,5 @@
 {
- "n_estudios": 390,
+ "n_estudios": 389,
  "n_multiturno": 77,
  "no_recuperados_por_senal": {
   "un_turno": 148,
@@ -8,27 +8,27 @@
  "D4": {
   "estricto": {
    "k": 34,
-   "n": 302,
-   "p": 0.1126,
+   "n": 301,
+   "p": 0.113,
    "ic95": [
-    0.0817,
-    0.1532
+    0.082,
+    0.1537
    ],
    "conclusion": "considerablemente menos investigado"
   },
   "laxo": {
    "k": 49,
-   "n": 317,
-   "p": 0.1546,
+   "n": 316,
+   "p": 0.1551,
    "ic95": [
-    0.1189,
-    0.1985
+    0.1193,
+    0.1991
    ],
    "conclusion": "considerablemente menos investigado"
   },
   "tendencia_2019_2025": {
-   "estadistico": -0.6,
-   "p_exacta_bilateral": 0.9499,
+   "estadistico": -1.006,
+   "p_exacta_bilateral": 0.9044,
    "replicas": 10000
   },
   "anio_2026_parcial": {
