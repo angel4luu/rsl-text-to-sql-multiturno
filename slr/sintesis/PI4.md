@@ -1,5 +1,8 @@
 # PI4 — Retroalimentación de ejecución y autocorrección (Nivel 2 + contraste Nivel 1)
 
+> **Nota (revisión posterior al cierre, 2026-10-19):** las cifras de efectos por clase de este archivo están superadas. Tras reasignar componentes de «Otros» (`otros_subclases.csv`, `revision_otros.md`), los valores vigentes están en `tablas/pi_efectos_componentes.csv`, `confianza_hallazgos.csv` y `sensibilidad.json`.
+
+
 Pregunta: ¿qué mecanismos de retroalimentación de ejecución y autocorrección se han aplicado al escenario multiturno y cómo se comparan con los de un solo turno?
 
 Base de la taxonomía multiturno: 72 estudios del Nivel 2 con validez ≥ 50 % [pi15_resultados.json, `nivel2_umbral`; pi4_mecanismos.csv]. Estudios con PI4 como pilar central: 22 multiturno y 140 de un turno [pi0_pilares_escenario.csv].

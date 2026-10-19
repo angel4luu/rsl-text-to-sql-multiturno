@@ -26,7 +26,12 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 PLANTILLAS = RAIZ / "scripts" / "publico"
 
-FUERA_DE_ALCANCE = ("00-contexto/", "plan-tesis/", "latex/plan-tesis/", "latex/tesis/", "CLAUDE.md", "README.md",
+# Registered-protocol documents, amendments and OSF texts are no longer part of the article (author's decision,
+# 2026-10-19: no amendments or registration reported); 00_analisis_brecha.md and 03_criterios_elegibilidad.md stay
+# because the table scripts read them.
+SIN_REGISTRO = ("slr/protocolo/protocolo_es.md", "slr/protocolo/01_preguntas_picoc.md", "slr/protocolo/enmiendas.md",
+                "slr/protocolo/enmiendas_resumen.csv", "slr/protocolo/04_critica_abogado_diablo_cp1.md", "slr/registro/")
+FUERA_DE_ALCANCE = SIN_REGISTRO + ("00-contexto/", "plan-tesis/", "latex/plan-tesis/", "latex/tesis/", "CLAUDE.md", "README.md",
                     "PLAN_FASES.md")
 TRABAJO = re.compile(r"(^|/)HANDOFF[^/]*\.md$")
 RESTRINGIDOS = {  # path pattern -> reason (provider terms)

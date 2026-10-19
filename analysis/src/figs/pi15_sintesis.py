@@ -38,15 +38,40 @@ def num(v):
     return float(m.group(0).replace(",", ".")) if m else None
 
 
-def clase(pilar, comp):
+OTROS = "Otros componentes del pilar"
+
+
+def clase_regex(pilar, comp):
     for c, rx in CLASES.get(pilar, []):
         if re.search(rx, comp, re.I):
             return c
-    return "Otros componentes del pilar"
+    return OTROS
 
 
-def efectos(contrastes, ids):
-    """per finding (pillar, class): per-study median Δ, then median/range/direction across studies."""
+def _otros():
+    """Author-accepted decisions on «Otros» (slr/sintesis/otros_subclases.csv, revision_otros.md, 2026-10-19):
+    reassignments of regex misses to a named class, and sub-classes of what stays in «Otros»."""
+    f = SLR / "sintesis" / "otros_subclases.csv"
+    filas = [r for r in leer_csv(f) if r["decision"].startswith("aceptad")] if f.exists() else []
+    return ({(r["pilar"], r["componente"]): r["reasignar_a"] for r in filas if r["reasignar_a"]},
+            {(r["pilar"], r["componente"]): r["subclase"] for r in filas if r["subclase"]})
+
+
+REASIG, SUBCLASE = _otros()
+
+
+def clase(pilar, comp):
+    return REASIG.get((pilar, comp)) or clase_regex(pilar, comp)
+
+
+def subclase_otros(pilar, comp):
+    return SUBCLASE.get((pilar, comp)) if clase(pilar, comp) == OTROS else None
+
+
+def efectos(contrastes, ids, clasif=None):
+    """per finding (pillar, class): per-study median Δ, then median/range/direction across studies.
+    clasif(pillar, component) -> class name or None (skip); default: clase()."""
+    clasif = clasif or clase
     porest = collections.defaultdict(lambda: collections.defaultdict(list))
     for r in contrastes:
         if r["id_estudio"] not in ids or r["metrica_familia"] not in ACC:
@@ -55,7 +80,9 @@ def efectos(contrastes, ids):
         if a is None or b is None:
             continue
         for p in [x for x in lista(r["pilar"]) if x in CLASES]:
-            porest[(p, clase(p, r["componente"]))][r["id_estudio"]].append(a - b)
+            c = clasif(p, r["componente"])
+            if c:
+                porest[(p, c)][r["id_estudio"]].append(a - b)
     out = []
     for (p, c), d in sorted(porest.items()):
         meds = {s: st.median(v) for s, v in d.items()}
@@ -147,6 +174,10 @@ def main():
             "Cada punto es la mediana de los contrastes de un estudio; la barra, la mediana entre estudios. Síntesis sin metaanálisis "
             "(SWiM); estudios del Nivel 2 con validez ≥ 50 %.")
     res["efectos"] = [{k: v for k, v in e.items() if not k.startswith("_")} for e in ef]
+    # sub-classes of «Otros» (post-close-out revision 2026-10-19; exploratory, appendix)
+    efo = efectos(C, ok, subclase_otros)
+    escribir_tabla("pi_efectos_otros_subclases", efo, [k for k in efo[0] if not k.startswith("_")])
+    res["efectos_otros_subclases"] = [{k: v for k, v in e.items() if not k.startswith("_")} for e in efo]
 
     # --- PI5: benchmarks, metrics, history, degradation per turn ---
     bf = collections.Counter((r["benchmark_familia"], r["id_estudio"]) for r in R if r["id_estudio"] in ok)
@@ -248,6 +279,8 @@ def main():
         per = "sin" if share == 1 else ("leves" if share >= 0.5 else "importantes")
         comps = [lim_m, coh, suf, per]
         nivel = "alta" if comps.count("importantes") == 0 and comps.count("leves") <= 1 else ("moderada" if comps.count("importantes") <= 1 else "baja")
+        if e["clase"] == OTROS:  # heterogeneous bucket: no confidence rating (revision 2026-10-19)
+            nivel = "no evaluada"
         conf.append({"hallazgo": f"{e['pilar']} · {e['clase']}: mediana {e['mediana_pp']:+.1f} pp ({e['estudios_positivos']}/{e['n_estudios']} estudios positivos)",
                      "limitaciones_metodologicas": lim_m, "validez_media": round(mv, 1), "coherencia": coh, "suficiencia": suf,
                      "pertinencia": per, "confianza": nivel})
@@ -269,7 +302,7 @@ def main():
         k = sum(1 for r in pob if mt(r))
         lo, hi = wilson(k, len(pob))
         return {"k": k, "n": len(pob), "p": round(k / len(pob), 4) if pob else None, "ic95": [round(lo, 4), round(hi, 4)],
-                "conclusion": "considerablemente menos investigado" if hi <= 0.30 else ("no concluyente" if lo <= 0.30 else "no menos investigado")}
+                "conclusion": "minoritario" if hi < 0.50 else ("no concluyente" if lo <= 0.50 else "mayoritario")}
     todos = list(E.values())
     sens["2_sin_preprints_D4"] = d4([r for r in todos if central(r) and r["foro_tipo"] != "PREPRINT"])
     sens["3_D4_laxo"] = d4([r for r in todos if central(r) or (mt(r) and contiene(r))])

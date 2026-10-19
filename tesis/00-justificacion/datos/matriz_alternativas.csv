@@ -1,0 +1,21 @@
+decision,alternativa,candidato,base_E0_iguales,alt_E0_iguales,base_rango_E0_iguales,alt_rango_E0_iguales,base_rango_E1_factibilidad,alt_rango_E1_factibilidad,base_rango_E2_evidencia,alt_rango_E2_evidencia,base_rango_E3_iguales_C2_NA,alt_rango_E3_iguales_C2_NA
+D14,OE1: novedad por clasificación de actos de discurso,OE1,60.0,73.3,5,1,6,1,3,2,10,8
+D15,OE4: novedad por reparación simbólica,OE4,60.0,66.7,5,2,11,6,3,2,10,9
+D16,DE: problema cualitativo (1),DE,60.0,66.7,5,2,2,1,3,2,10,9
+D16,DE: problema cualitativo (1),DE+DF+DG,62.2,64.5,4,4,10,10,8,4,3,3
+D17,DG: problema por errores de join (déficit),DG,53.3,60.0,12,5,12,11,15,9,9,4
+D17,DG: problema por errores de join (déficit),DE+DF+DG,62.2,64.5,4,3,10,10,8,3,3,3
+D18a,OE5 sin SUSTITUTO (solo SParC/CoSQL),OE5,60.0,66.7,5,2,6,1,3,2,4,1
+D18b,OE3 con MULTICOMPONENTE,OE3,53.3,46.7,12,15,15,15,13,14,14,15
+D19,Combinaciones: evidencia = máximo de componentes,DA+DC,53.3,66.7,12,3,12,7,9,3,10,9
+D19,Combinaciones: evidencia = máximo de componentes,DB+DD,63.3,66.7,3,3,5,3,9,5,2,2
+D19,Combinaciones: evidencia = máximo de componentes,DE+DF+DG,62.2,86.7,4,1,10,1,8,1,3,1
+D20,Riesgo nulo de candidatos de evaluación = 2,OE5,60.0,53.3,5,7,6,8,3,5,4,5
+D20,Riesgo nulo de candidatos de evaluación = 2,DB,60.0,53.3,5,7,6,8,13,14,4,5
+D20,Riesgo nulo de candidatos de evaluación = 2,DC,66.7,60.0,2,2,1,2,2,2,1,1
+D20,Riesgo nulo de candidatos de evaluación = 2,DD,60.0,53.3,5,7,6,8,9,11,4,5
+D20,Riesgo nulo de candidatos de evaluación = 2,DE,60.0,53.3,5,7,2,4,3,5,10,13
+D20,Riesgo nulo de candidatos de evaluación = 2,DF,60.0,53.3,5,7,2,4,3,5,4,5
+D20,Riesgo nulo de candidatos de evaluación = 2,DG,53.3,46.7,12,15,12,15,15,15,9,12
+D20,Riesgo nulo de candidatos de evaluación = 2,DB+DD,63.3,56.7,3,5,5,7,9,11,2,3
+D20,Riesgo nulo de candidatos de evaluación = 2,DE+DF+DG,62.2,55.5,4,6,10,13,8,10,3,4

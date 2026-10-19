@@ -1,13 +1,13 @@
 campo,codigo,estudios,pct
 pi3_tecnica_linking,NR,22,30.6
 pi3_tecnica_linking,COINCIDENCIA_CADENAS,15,20.8
-pi3_tecnica_linking,GRAFO_ESQUEMA,12,16.7
 pi3_tecnica_linking,NINGUNA_EXPLICITA,12,16.7
+pi3_tecnica_linking,GRAFO_ESQUEMA,12,16.7
 pi3_tecnica_linking,LLM_PROMPTING,10,13.9
 pi3_tecnica_linking,CLASIFICADOR_ENTRENADO,9,12.5
 pi3_tecnica_linking,PODA_ESQUEMA,7,9.7
 pi3_tecnica_linking,EMBEDDINGS_RECUPERACION,6,8.3
 pi3_inferencia_joins,IMPLICITA_MODELO,54,75.0
 pi3_inferencia_joins,NR,16,22.2
-pi3_inferencia_joins,GRAFO_FK_RESTRICCIONES,1,1.4
 pi3_inferencia_joins,ALGORITMICA_CAMINOS,1,1.4
+pi3_inferencia_joins,GRAFO_FK_RESTRICCIONES,1,1.4

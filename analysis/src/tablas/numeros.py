@@ -44,6 +44,13 @@ def main():
         "validezMediana": num(cal["validez_mediana"]),
         # D4 (primary indicator of PI0)
         "DcuatroK": d4["k"], "DcuatroN": d4["n"], "DcuatroPct": num(100 * d4["k"] / d4["n"]),
+        "umbralMayoria": 50,  # majority reading of D4 (minority if CI upper < 50 %; pi0_mapeo.py regla)
+        "DcompK": p0["D4"]["complemento_multiturno"]["k"], "DcompN": p0["D4"]["complemento_multiturno"]["n"],
+        "DcompPct": num(100 * p0["D4"]["complemento_multiturno"]["p"]),
+        "DcompICinf": num(100 * p0["D4"]["complemento_multiturno"]["ic95"][0]),
+        "DcompICsup": num(100 * p0["D4"]["complemento_multiturno"]["ic95"][1]),
+        "DcompRestoPIdos": p0["D4"]["complemento_multiturno"]["resto_pi12"],
+        "DcompRestoSinPilar": p0["D4"]["complemento_multiturno"]["resto_sin_pilar"],
         "DcuatroICinf": num(100 * d4["ic95"][0]), "DcuatroICsup": num(100 * d4["ic95"][1]),
         "DcuatroConclusion": d4["conclusion"],
         "DcuatroTendenciaP": num(p0["D4"]["tendencia_2019_2025"]["p_exacta_bilateral"], 2),
@@ -77,7 +84,7 @@ def main():
         "nBolaSemillasSS": cm["bola_s2_semillas"], "nBolaSemillasSSrefs": cm["bola_s2_con_refs"],
         "nBolaCandSS": cm["bola_cand_s2"],
         "nItemsCalidad": cm["cal_items"], "nItemsValidez": cm["cal_items_validez"], "umbralValidez": cm["cal_umbral"],
-        "nCalibCalidad": cm["cal_calibracion_n"], "umbralDcuatro": cm["d4_umbral"],
+        "nCalibCalidad": cm["cal_calibracion_n"],
         "replicasTendencia": num(p0["D4"]["tendencia_2019_2025"]["replicas"], 0),
         "nExtrNivelUno": ac["n1_estudios"], "nExtrNivelDos": ac["n2_estudios"],
         "acuerdoNivelUno": num(100 * ac["n1_ab"][0] / ac["n1_ab"][1]),
@@ -86,8 +93,40 @@ def main():
         "verifC": f"{ac['verif_C'][0]}/{ac['verif_C'][1]}", "verifD": f"{ac['verif_D'][0]}/{ac['verif_D'][1]}",
         "verifB": f"{ac['verif_B'][0]}/{ac['verif_B'][1]}", "nMuestraCiega": ac["ciega_n"],
         "ciegaCalidad": f"{ac['ciega_calidad_identico'][0]}/{ac['ciega_calidad_identico'][1]}",
+    })
+    # screening agreement across the four stages (bases/snowballing x T/R/full text), replaces the former Tabla IV
+    acs = [jl(SLR / "cribado" / c / f"{p}_prisma_counts.json")["agreement"] for c, p in
+           (("Screening_TA", "TA"), ("Screening_FT", "FT"), ("Screening_TA_bola", "TA"), ("Screening_FT_bola", "FT"))]
+    m.update({
+        "nEtapasCribado": len(acs),
+        "acuerdoCribMin": num(100 * min(a["observed_agreement"] for a in acs)),
+        "acuerdoCribMax": num(100 * max(a["observed_agreement"] for a in acs)),
+        "kappaCribMin": num(min(a["kappa"] for a in acs), 2), "kappaCribMax": num(max(a["kappa"] for a in acs), 2),
+        "pabakCribMin": num(min(a["pabak"] for a in acs), 2), "pabakCribMax": num(max(a["pabak"] for a in acs), 2),
         "ciegaCalidadMedio": f"{ac['ciega_calidad_medio_punto'][0]}/{ac['ciega_calidad_medio_punto'][1]}",
     })
+    # within-study effect per class (pi_efectos_componentes.csv) + sensitivities (sensibilidad.json): \ef<Clase><Campo>
+    # (post-close-out revision 2026-10-19: «Otros» reassignments changed several classes; prose uses only these macros)
+    CLAVE = {"PI1 · Concatenación / historial": "Concat", "PI1 · Reescritura de la pregunta": "Reesc",
+             "PI1 · Otros componentes del pilar": "PIunoOtros", "PI2 · Grafo / estado estructurado": "Grafo",
+             "PI2 · SQL / resultados previos": "SQLPrev", "PI2 · Otros componentes del pilar": "PIdosOtros",
+             "PI3 · Vinculación de esquemas": "Vinc", "PI3 · Otros componentes del pilar": "PItresOtros",
+             "PI4 · Aclaración / interacción con el usuario": "Aclar",
+             "PI4 · Autoconsistencia / selección de candidatos": "Autocons",
+             "PI4 · Autocorrección / retroalimentación de ejecución": "Autocorr", "PI4 · Otros componentes del pilar": "PIcuatroOtros"}
+    sens = jl(SIN / "sensibilidad.json")
+    sp = {x["hallazgo"]: x for x in sens["2_sin_preprints_efectos"]}
+    bu = {x["hallazgo"]: x for x in sens["1_reincorporar_bajo_umbral"]}
+    for r in csv.DictReader(open(SIN / "tablas" / "pi_efectos_componentes.csv", encoding="utf-8")):
+        h = f"{r['pilar']} · {r['clase']}"
+        k = "ef" + CLAVE[h]
+        m.update({k + "N": r["n_estudios"], k + "Contr": r["n_contrastes"], k + "Med": num(float(r["mediana_pp"])),
+                  k + "Min": num(float(r["min_pp"])), k + "Max": num(float(r["max_pp"])),
+                  k + "Pos": r["estudios_positivos"], k + "Neg": r["estudios_negativos"]})
+        if h in sp:
+            m.update({k + "MedSinPre": num(sp[h]["mediana_pp"]), k + "NSinPre": sp[h]["n_estudios"]})
+        if h in bu:
+            m.update({k + "MedTodos": num(bu[h]["mediana_pp"]), k + "NTodos": bu[h]["n_estudios"]})
     # plan de tesis: dataset language of the included studies (extraccion.csv, field idioma_dataset)
     idiomas = [set(t.strip() for t in r["idioma_dataset"].upper().split(";"))
                for r in csv.DictReader(open(SLR / "extraccion" / "extraccion.csv", encoding="utf-8"))]

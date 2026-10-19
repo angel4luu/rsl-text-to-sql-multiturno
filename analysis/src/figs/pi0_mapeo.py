@@ -142,7 +142,8 @@ def main():
     pob_l = [r for r in E if central(r) or (r["_mt"] and contenido(r))]
     kl = sum(r["_mt"] for r in pob_l)
     lol, hil = wilson(kl, len(pob_l))
-    regla = lambda h, l: "considerablemente menos investigado" if h <= 0.30 else ("no concluyente" if l <= 0.30 else "no menos investigado (IC sobre 30 %)")
+    # majority reading (post-close-out revision 2026-10-19; replaces the former 30 % threshold)
+    regla = lambda h, l: "minoritario" if h < 0.50 else ("no concluyente" if l <= 0.50 else "mayoritario")
     res["D4"] = {"estricto": {"k": k, "n": len(pob), "p": round(k / len(pob), 4), "ic95": [round(lo, 4), round(hi, 4)], "conclusion": regla(hi, lo)},
                  "laxo": {"k": kl, "n": len(pob_l), "p": round(kl / len(pob_l), 4), "ic95": [round(lol, 4), round(hil, 4)], "conclusion": regla(hil, lol)}}
     tend = []
@@ -155,20 +156,25 @@ def main():
     t0, pval = cochran_armitage_exacta([(r["_anio"], r["_mt"]) for r in pob if r["_anio"] and 2019 <= r["_anio"] <= 2025])
     res["D4"]["tendencia_2019_2025"] = {"estadistico": round(t0, 3), "p_exacta_bilateral": round(pval, 4), "replicas": 10000}
     res["D4"]["anio_2026_parcial"] = next(t for t in tend if t["anio"] == 2026)
+    # post hoc complement (2026-10-19): share of multi-turn studies whose central contribution is PI3/PI4
+    mts = [r for r in E if r["_mt"]]
+    kc = sum(central(r) for r in mts)
+    loc, hic = wilson(kc, len(mts))
+    res["D4"]["complemento_multiturno"] = {"k": kc, "n": len(mts), "p": round(kc / len(mts), 4), "ic95": [round(loc, 4), round(hic, 4)],
+                                         "resto_pi12": sum(1 for r in mts if not central(r) and central(r, ("PI1", "PI2"))),
+                                         "resto_sin_pilar": sum(1 for r in mts if not central(r) and not central(r, ("PI1", "PI2", "PI5")))}
     fig, ax = plt.subplots(figsize=(ANCHO_COLUMNA, 2.2))
     tt = [t for t in tend if t["n"]]
     xs = [t["anio"] for t in tt]
     ax.errorbar(xs, [t["p"] * 100 for t in tt], yerr=[[100 * (t["p"] - t["ic_inf"]) for t in tt], [100 * (t["ic_sup"] - t["p"]) for t in tt]],
                 fmt="o-", color=PALETA[1], capsize=2, lw=0.8, ms=3)
-    ax.axhline(30, ls="--", lw=0.6, color="grey")
-    ax.text(xs[0], 31.5, "umbral 30 %", fontsize=6, color="grey")
     ax.set_ylabel("Estudios multiturno (%)")
     ax.set_xlabel("Año de publicación")
     ax.set_xticks(xs, [str(a) if a < 2026 else "2026*" for a in xs])
     ax.set_ylim(0, 100)
     guardar(fig, "d4_tendencia", leyenda="Indicador D4 por año: proporción de estudios multiturno entre los estudios con "
             "vinculación de esquemas o autocorrección (PI3/PI4) como contribución central, con IC 95 % de Wilson. "
-            "Línea discontinua: umbral pre-especificado del 30 %. *2026: año parcial, excluido de la prueba de tendencia.")
+            "*2026: año parcial, excluido de la prueba de tendencia.")
 
     # 7. step 3: technique codes by scenario (single-turn vs multi-turn)
     tec = []

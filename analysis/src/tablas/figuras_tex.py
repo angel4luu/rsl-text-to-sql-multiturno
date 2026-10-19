@@ -40,8 +40,8 @@ def main():
     # composite (decisions 2026-10-14): IV-D bibliometrics as ONE float with four panels, to keep floats near their
     # mention; community (a), citation network (b), countries (c), base-model families (d)
     def sin_a6(c):
-        return c.replace(" Análisis exploratorio (A6).", "").rstrip(".")
-    cap = ("Panorama bibliométrico exploratorio (enmienda A6). (a) " + sin_a6(ley["bib_comunidad"]) + ". (b) "
+        return c.replace(" Análisis exploratorio.", "").rstrip(".")
+    cap = ("Panorama bibliométrico exploratorio. (a) " + sin_a6(ley["bib_comunidad"]) + ". (b) "
            + sin_a6(ley["bib_red_citas"]) + ". (c) " + sin_a6(ley["bib_paises"]) + ". (d) " + sin_a6(ley["bib_modelos"]) + ".")
     for a, b in TEX.items():
         cap = cap.replace(a, b)

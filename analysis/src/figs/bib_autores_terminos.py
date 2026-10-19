@@ -74,7 +74,7 @@ def main():
     ax.grid(axis="y", visible=False)
     ax.legend(loc="lower right")
     guardar(fig, "bib_autores", leyenda="Los quince autores con más estudios incluidos, por escenario (fuente: OpenAlex, "
-            f"{fecha}; autores identificados por su identificador de OpenAlex). Análisis exploratorio (A6).")
+            f"{fecha}; autores identificados por su identificador de OpenAlex). Análisis exploratorio.")
 
     # 2 co-authorship network (authors with >= 3 studies)
     fuertes = {k for k, d in autores.items() if d["MT"] + d["UT"] >= 3}
@@ -107,7 +107,7 @@ def main():
             f"autores, {G.number_of_edges()} vínculos, {len(comps)} grupos; el mayor reúne {len(comps[0]) if comps else 0} autores). "
             "El grosor de la arista indica el número de estudios en coautoría; se rotula el autor más productivo de cada grupo de tres o más "
             "autores (lista completa en la tabla bib_autores). "
-            f"Fuente: OpenAlex, {fecha}. Análisis exploratorio (A6).")
+            f"Fuente: OpenAlex, {fecha}. Análisis exploratorio.")
 
     # 3 terms (unigrams + bigrams) in titles and abstracts
     recs = {}
@@ -142,7 +142,7 @@ def main():
     ax.axis("off")
     guardar(fig, "bib_terminos_nube", leyenda="Nube de los 80 términos (palabras y bigramas) más frecuentes en títulos y resúmenes de los "
             "390 estudios incluidos; el tamaño es proporcional al número de estudios que los mencionan. Figura ilustrativa: "
-            "las frecuencias exactas están en la figura de barras y en la tabla bib_terminos. Análisis exploratorio (A6).")
+            "las frecuencias exactas están en la figura de barras y en la tabla bib_terminos. Análisis exploratorio.")
     fig, ax = plt.subplots(figsize=(ANCHO_COLUMNA, 3.6))
     t20 = top_t[:20][::-1]
     ax.barh(t20, [frec_esc[False][t] for t in t20], color=PALETA[0], label="Un turno", edgecolor="white", linewidth=0.5)

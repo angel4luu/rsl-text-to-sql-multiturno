@@ -15,8 +15,8 @@ pi2_grafo_dinamico,NR,64,88.9
 pi2_grafo_dinamico,SI,7,9.7
 pi2_grafo_dinamico,NO,1,1.4
 pi2_actualizacion,IMPLICITA_NEURONAL,34,47.2
-pi2_actualizacion,REGLAS_DETERMINISTAS,16,22.2
 pi2_actualizacion,NR,16,22.2
+pi2_actualizacion,REGLAS_DETERMINISTAS,16,22.2
 pi2_actualizacion,LLM_GENERATIVA,12,16.7
 pi2_coste_contexto,CRECE_CON_TURNOS,36,50.0
 pi2_coste_contexto,NR,22,30.6

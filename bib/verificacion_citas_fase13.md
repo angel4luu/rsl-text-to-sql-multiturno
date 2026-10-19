@@ -2,8 +2,8 @@
 
 Generado por `bib/scripts/verificar_citas.py` sobre `latex/slr/main.aux` (artículo y apéndices).
 
-- Claves citadas: 109 (estudios incluidos: 78 de 389; otras referencias: 31).
-- Verificación: OpenAlex por DOI: 13; decisión de la autora: 3; registro previo: 93.
+- Claves citadas: 107 (estudios incluidos: 78 de 389; otras referencias: 29).
+- Verificación: OpenAlex por DOI: 13; decisión de la autora: 3; registro previo: 91.
 - Avisos de biber: 0; citas indefinidas en LaTeX: 0.
 - Entradas de los archivos .bib: 428; duplicados por DOI o título: 0.
 

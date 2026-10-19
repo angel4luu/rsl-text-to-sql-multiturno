@@ -151,6 +151,9 @@ def main():
                 row[k] = v.get("valor") if v.get("valor") is not None else "PENDIENTE"
                 reglas.add(v.get("regla"))
         row["verificado_por"] = "IA doble (" + ", ".join(sorted(x for x in reglas if x)) + ")"
+        # scenario follows the author's Level 2 confirmation (confirmacion_nivel2), not the extractor's code
+        # (post-close-out fix 2026-10-19: 7 studies had a stale extractor value)
+        row["escenario"] = "MULTITURNO" if nivel == 2 else "UN_TURNO"
         rows.append(row)
     with open(os.path.join(E, "extraccion.csv"), "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=header, extrasaction="ignore")

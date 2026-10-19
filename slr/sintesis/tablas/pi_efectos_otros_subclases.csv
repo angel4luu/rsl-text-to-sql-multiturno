@@ -1,0 +1,16 @@
+pilar,clase,n_estudios,n_contrastes,mediana_pp,min_pp,max_pp,estudios_positivos,estudios_negativos,estudios_nulos,pct_contrastes_positivos
+PI1,"Análisis del discurso, la intención y la correferencia",4,12,7.25,-0.2,25.0,3,1,0,75.0
+PI1,"Entrenamiento, objetivos auxiliares y datos",7,42,1.95,0.5,7.7,7,0,0,95.2
+PI1,Otros (sin agrupar),1,4,8.63,8.63,8.63,1,0,0,100.0
+PI1,"Selección, alineación y codificación del historial",8,61,3.54,0.4,23.5,8,0,0,93.4
+PI2,"Entrenamiento, objetivos auxiliares y datos",8,55,2.3,0.5,13.0,8,0,0,92.7
+PI2,Gestión del historial y la memoria,12,41,4.16,-0.7,17.8,11,1,0,90.2
+PI2,Otros (sin agrupar),2,13,4.8,1.0,8.6,2,0,0,84.6
+PI3,Decodificación y razonamiento guiados,4,30,1.65,-0.2,6.11,3,1,0,73.3
+PI3,Enriquecimiento del esquema y del contenido,11,77,2.53,0.3,24.99,11,0,0,87.0
+PI3,"Entrenamiento, objetivos auxiliares y datos",1,12,2.05,2.05,2.05,1,0,0,100.0
+PI3,Vistas generadas,1,11,3.17,3.17,3.17,1,0,0,100.0
+PI4,Agentes con herramientas,2,23,8.84,7.9,9.78,2,0,0,95.7
+PI4,Decodificación restringida,1,14,4.1,4.1,4.1,1,0,0,100.0
+PI4,Detección de ambigüedad y consulta de la intención,3,8,13.75,1.85,16.2,3,0,0,100.0
+PI4,"Entrenamiento, objetivos auxiliares y datos",6,35,2.18,-3.3,8.4,5,1,0,77.1

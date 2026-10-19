@@ -96,14 +96,12 @@ def main():
     tab = jl(C / "Screening_TA_bola" / "TA_prisma_counts.json")
     c["bola_ta_kappa"] = tab["agreement"]["kappa"]
 
-    # quality checklist and D4 rule (protocol constants)
+    # quality checklist (protocol constants)
     chk = (SLR / "calidad" / "checklist_calidad.md").read_text(encoding="utf-8")
     c["cal_items"] = len(set(re.findall(r"\|\s*(CQ\d+)\s*\|", chk)))
     c["cal_items_validez"] = len(re.search(r"\(CQ2 \+ CQ4 \+ CQ5 \+ CQ6 \+ CQ7\)", chk).group(0).split("+"))
     c["cal_umbral"] = int(re.search(r"validez ≥ \*\*(\d+) %\*\*", chk).group(1))
     c["cal_calibracion_n"] = int(re.search(r"puntúan por separado \*\*(\d+) estudios\*\*", chk).group(1))
-    prot = (SLR / "protocolo" / "protocolo_es.md").read_text(encoding="utf-8")
-    c["d4_umbral"] = int(re.search(r"límite superior del IC ≤ (\d+) %", prot).group(1))
 
     json.dump(c, open(SLR / "sintesis" / "cifras_metodo.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(json.dumps(c, ensure_ascii=False))

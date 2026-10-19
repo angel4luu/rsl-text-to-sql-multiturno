@@ -16,7 +16,7 @@
  },
  "A4_nulos": {
   "umbral_pp": 0.5,
-  "total_estudios_clase": 126,
+  "total_estudios_clase": 127,
   "total_nulos": 14,
   "por_clase": [
    {
@@ -46,41 +46,41 @@
    {
     "pilar": "PI2",
     "clase": "Grafo / estado estructurado",
-    "n": 11,
+    "n": 12,
     "nulos_umbral": 0,
-    "positivos_umbral": 11,
+    "positivos_umbral": 12,
     "negativos_umbral": 0
    },
    {
     "pilar": "PI2",
     "clase": "Otros componentes del pilar",
-    "n": 22,
+    "n": 21,
     "nulos_umbral": 0,
-    "positivos_umbral": 21,
+    "positivos_umbral": 20,
     "negativos_umbral": 1
    },
    {
     "pilar": "PI2",
     "clase": "SQL / resultados previos",
-    "n": 7,
+    "n": 8,
     "nulos_umbral": 1,
-    "positivos_umbral": 6,
+    "positivos_umbral": 7,
     "negativos_umbral": 0
    },
    {
     "pilar": "PI3",
     "clase": "Otros componentes del pilar",
-    "n": 15,
+    "n": 14,
     "nulos_umbral": 2,
-    "positivos_umbral": 13,
+    "positivos_umbral": 12,
     "negativos_umbral": 0
    },
    {
     "pilar": "PI3",
     "clase": "Vinculación de esquemas",
-    "n": 19,
+    "n": 20,
     "nulos_umbral": 2,
-    "positivos_umbral": 17,
+    "positivos_umbral": 18,
     "negativos_umbral": 0
    },
    {
@@ -102,36 +102,36 @@
    {
     "pilar": "PI4",
     "clase": "Autocorrección / retroalimentación de ejecución",
-    "n": 11,
+    "n": 12,
     "nulos_umbral": 3,
-    "positivos_umbral": 8,
+    "positivos_umbral": 9,
     "negativos_umbral": 0
    },
    {
     "pilar": "PI4",
     "clase": "Otros componentes del pilar",
-    "n": 11,
+    "n": 10,
     "nulos_umbral": 2,
-    "positivos_umbral": 8,
+    "positivos_umbral": 7,
     "negativos_umbral": 1
    }
   ]
  },
  "A4_confianza_penalizada": {
   "PI1 · Concatenación / historial": "baja",
-  "PI1 · Otros componentes del pilar": "moderada",
+  "PI1 · Otros componentes del pilar": "no evaluada",
   "PI1 · Reescritura de la pregunta": "moderada",
   "PI2 · Grafo / estado estructurado": "moderada",
-  "PI2 · Otros componentes del pilar": "moderada",
+  "PI2 · Otros componentes del pilar": "no evaluada",
   "PI2 · SQL / resultados previos": "moderada",
-  "PI3 · Otros componentes del pilar": "moderada",
+  "PI3 · Otros componentes del pilar": "no evaluada",
   "PI3 · Vinculación de esquemas": "moderada",
   "PI4 · Aclaración / interacción con el usuario": "baja",
   "PI4 · Autoconsistencia / selección de candidatos": "baja",
   "PI4 · Autocorrección / retroalimentación de ejecución": "baja",
-  "PI4 · Otros componentes del pilar": "moderada"
+  "PI4 · Otros componentes del pilar": "no evaluada"
  },
- "A4_confianza_alta_registrada": 8,
+ "A4_confianza_alta_registrada": 4,
  "A5_omisiones": {
   "exclusiones_conjuntas": 477,
   "releidas": 397,

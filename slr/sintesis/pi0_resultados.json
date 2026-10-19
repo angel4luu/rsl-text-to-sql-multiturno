@@ -14,7 +14,7 @@
     0.082,
     0.1537
    ],
-   "conclusion": "considerablemente menos investigado"
+   "conclusion": "minoritario"
   },
   "laxo": {
    "k": 49,
@@ -24,7 +24,7 @@
     0.1193,
     0.1991
    ],
-   "conclusion": "considerablemente menos investigado"
+   "conclusion": "minoritario"
   },
   "tendencia_2019_2025": {
    "estadistico": -1.006,
@@ -38,6 +38,17 @@
    "p": 0.0574,
    "ic_inf": 0.0281,
    "ic_sup": 0.1137
+  },
+  "complemento_multiturno": {
+   "k": 34,
+   "n": 77,
+   "p": 0.4416,
+   "ic95": [
+    0.3361,
+    0.5526
+   ],
+   "resto_pi12": 25,
+   "resto_sin_pilar": 18
   }
  },
  "tecnicas_un_turno_no_trasladadas": [

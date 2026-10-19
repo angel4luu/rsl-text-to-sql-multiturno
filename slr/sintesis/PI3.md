@@ -1,5 +1,8 @@
 # PI3 — Vinculación de esquemas e inferencia de *joins* (Nivel 2 + contraste Nivel 1)
 
+> **Nota (revisión posterior al cierre, 2026-10-19):** las cifras de efectos por clase de este archivo están superadas. Tras reasignar componentes de «Otros» (`otros_subclases.csv`, `revision_otros.md`), los valores vigentes están en `tablas/pi_efectos_componentes.csv`, `confianza_hallazgos.csv` y `sensibilidad.json`.
+
+
 Pregunta: ¿qué técnicas de vinculación de esquemas e inferencia de rutas de *join* se emplean en multiturno y cómo se comparan con las de un solo turno?
 
 Base de la taxonomía multiturno: 72 estudios del Nivel 2 con validez ≥ 50 % [pi15_resultados.json, `nivel2_umbral`; pi3_joins.csv]. Estudios con PI3 como pilar central: 13 multiturno y 156 de un turno [pi0_pilares_escenario.csv].

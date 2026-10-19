@@ -120,7 +120,7 @@ def main():
     ax.axis("off")
     guardar(fig, "bib_red_citas", leyenda="Red de citas entre los estudios incluidos con al menos un vínculo "
             f"({H.number_of_nodes()} de {G.number_of_nodes()} estudios; {G.number_of_edges()} citas; fuente: OpenAlex, {fecha}). "
-            "Etiquetas: los ocho estudios más citados dentro de la red, con su número de citas. Análisis exploratorio (A6).")
+            "Etiquetas: los ocho estudios más citados dentro de la red, con su número de citas. Análisis exploratorio.")
 
     # 2 citations per year since publication + percentile within year
     filas = []
@@ -173,7 +173,7 @@ def main():
     ax.grid(axis="y", visible=False)
     ax.legend(loc="lower right")
     guardar(fig, "bib_paises", leyenda="Los diez países con más estudios incluidos, por escenario. Un estudio se cuenta en cada país "
-            f"con al menos un autor afiliado (fuente: OpenAlex, {fecha}). Análisis exploratorio (A6).")
+            f"con al menos un autor afiliado (fuente: OpenAlex, {fecha}). Análisis exploratorio.")
 
     # 4 research community by year and scenario
     com = collections.Counter((comunidad(r), "MULTITURNO" if r["_mt"] else "UN_TURNO") for r in E.values())
@@ -194,7 +194,7 @@ def main():
     axs[0].set_ylabel("Número de estudios")
     fig.legend(*axs[0].get_legend_handles_labels(), loc="outside lower center", ncol=5, title="Comunidad del foro")
     guardar(fig, "bib_comunidad", leyenda="Comunidad de investigación del foro de publicación, por año: (a) estudios de un turno; "
-            "(b) estudios multiturno. *2026: año parcial. Análisis exploratorio (A6).")
+            "(b) estudios multiturno. *2026: año parcial. Análisis exploratorio.")
 
     # 5 base-model families over time
     fam_anio = collections.defaultdict(collections.Counter)
@@ -216,7 +216,7 @@ def main():
     fig.legend(*ax.get_legend_handles_labels(), loc="outside right center", title="Familia de modelo")
     guardar(fig, "bib_modelos", leyenda="Familias de modelos base por año (porcentaje de los estudios del año que mencionan la familia; "
             "un estudio puede usar varias). En el Nivel 1 solo se registraron los modelos citados en las páginas 1–2, por lo que el uso real "
-            "está subestimado. *2026: año parcial. Análisis exploratorio (A6).")
+            "está subestimado. *2026: año parcial. Análisis exploratorio.")
 
     # 6 co-occurrence of technique codes (PI3 linking + PI4 mechanism), per scenario
     codes = [c for c, _ in collections.Counter(c for r in E.values() for c in lista(r["pi3_tecnica_linking"]) + lista(r["pi4_mecanismo"])).most_common(12)]
@@ -248,7 +248,7 @@ def main():
                        ["codigo"] + codes)
     guardar(fig, "bib_coocurrencia_tecnicas", leyenda="Coocurrencia de técnicas de vinculación de esquemas (PI3) y de "
             "autocorrección (PI4) en un mismo estudio: (a) un turno; (b) multiturno. Diagonal: estudios que usan la técnica; "
-            "celdas bajo la diagonal: estudios que combinan ambas. Las doce técnicas más frecuentes. Análisis exploratorio (A6).")
+            "celdas bajo la diagonal: estudios que combinan ambas. Las doce técnicas más frecuentes. Análisis exploratorio.")
     json.dump(res, open(SLR / "sintesis" / "bibliometria_resultados.json", "w"), indent=1, ensure_ascii=False)
     print(json.dumps(res, indent=1, ensure_ascii=False))
 

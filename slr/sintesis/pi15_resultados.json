@@ -49,67 +49,67 @@
   {
    "pilar": "PI2",
    "clase": "Grafo / estado estructurado",
-   "n_estudios": 11,
-   "n_contrastes": 74,
-   "mediana_pp": 2.9,
+   "n_estudios": 12,
+   "n_contrastes": 85,
+   "mediana_pp": 2.45,
    "min_pp": 0.5,
    "max_pp": 32.0,
-   "estudios_positivos": 11,
+   "estudios_positivos": 12,
    "estudios_negativos": 0,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 95.9
+   "pct_contrastes_positivos": 96.5
   },
   {
    "pilar": "PI2",
    "clase": "Otros componentes del pilar",
-   "n_estudios": 22,
-   "n_contrastes": 124,
-   "mediana_pp": 2.85,
+   "n_estudios": 21,
+   "n_contrastes": 109,
+   "mediana_pp": 3.05,
    "min_pp": -0.7,
    "max_pp": 17.8,
-   "estudios_positivos": 21,
+   "estudios_positivos": 20,
    "estudios_negativos": 1,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 91.9
+   "pct_contrastes_positivos": 90.8
   },
   {
    "pilar": "PI2",
    "clase": "SQL / resultados previos",
-   "n_estudios": 7,
-   "n_contrastes": 41,
-   "mediana_pp": 5.65,
+   "n_estudios": 8,
+   "n_contrastes": 45,
+   "mediana_pp": 6.67,
    "min_pp": -0.1,
    "max_pp": 10.45,
-   "estudios_positivos": 6,
+   "estudios_positivos": 7,
    "estudios_negativos": 1,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 90.2
+   "pct_contrastes_positivos": 91.1
   },
   {
    "pilar": "PI3",
    "clase": "Otros componentes del pilar",
-   "n_estudios": 15,
-   "n_contrastes": 143,
-   "mediana_pp": 2.05,
+   "n_estudios": 14,
+   "n_contrastes": 130,
+   "mediana_pp": 2.42,
    "min_pp": -0.2,
    "max_pp": 24.99,
-   "estudios_positivos": 14,
+   "estudios_positivos": 13,
    "estudios_negativos": 1,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 87.4
+   "pct_contrastes_positivos": 86.2
   },
   {
    "pilar": "PI3",
    "clase": "Vinculación de esquemas",
-   "n_estudios": 19,
-   "n_contrastes": 92,
-   "mediana_pp": 2.15,
+   "n_estudios": 20,
+   "n_contrastes": 105,
+   "mediana_pp": 2.62,
    "min_pp": 0.25,
-   "max_pp": 33.2,
-   "estudios_positivos": 19,
+   "max_pp": 15.32,
+   "estudios_positivos": 20,
    "estudios_negativos": 0,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 81.5
+   "pct_contrastes_positivos": 83.8
   },
   {
    "pilar": "PI4",
@@ -140,28 +140,225 @@
   {
    "pilar": "PI4",
    "clase": "Autocorrección / retroalimentación de ejecución",
-   "n_estudios": 11,
-   "n_contrastes": 141,
-   "mediana_pp": 1.5,
+   "n_estudios": 12,
+   "n_contrastes": 151,
+   "mediana_pp": 1.23,
    "min_pp": 0.01,
    "max_pp": 13.76,
-   "estudios_positivos": 11,
+   "estudios_positivos": 12,
    "estudios_negativos": 0,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 93.6
+   "pct_contrastes_positivos": 92.1
   },
   {
    "pilar": "PI4",
    "clase": "Otros componentes del pilar",
-   "n_estudios": 11,
-   "n_contrastes": 90,
-   "mediana_pp": 4.1,
+   "n_estudios": 10,
+   "n_contrastes": 80,
+   "mediana_pp": 4.2,
    "min_pp": -2.3,
    "max_pp": 13.75,
-   "estudios_positivos": 10,
+   "estudios_positivos": 9,
    "estudios_negativos": 1,
    "estudios_nulos": 0,
-   "pct_contrastes_positivos": 86.7
+   "pct_contrastes_positivos": 88.8
+  }
+ ],
+ "efectos_otros_subclases": [
+  {
+   "pilar": "PI1",
+   "clase": "Análisis del discurso, la intención y la correferencia",
+   "n_estudios": 4,
+   "n_contrastes": 12,
+   "mediana_pp": 7.25,
+   "min_pp": -0.2,
+   "max_pp": 25.0,
+   "estudios_positivos": 3,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 75.0
+  },
+  {
+   "pilar": "PI1",
+   "clase": "Entrenamiento, objetivos auxiliares y datos",
+   "n_estudios": 7,
+   "n_contrastes": 42,
+   "mediana_pp": 1.95,
+   "min_pp": 0.5,
+   "max_pp": 7.7,
+   "estudios_positivos": 7,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 95.2
+  },
+  {
+   "pilar": "PI1",
+   "clase": "Otros (sin agrupar)",
+   "n_estudios": 1,
+   "n_contrastes": 4,
+   "mediana_pp": 8.63,
+   "min_pp": 8.63,
+   "max_pp": 8.63,
+   "estudios_positivos": 1,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 100.0
+  },
+  {
+   "pilar": "PI1",
+   "clase": "Selección, alineación y codificación del historial",
+   "n_estudios": 8,
+   "n_contrastes": 61,
+   "mediana_pp": 3.54,
+   "min_pp": 0.4,
+   "max_pp": 23.5,
+   "estudios_positivos": 8,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 93.4
+  },
+  {
+   "pilar": "PI2",
+   "clase": "Entrenamiento, objetivos auxiliares y datos",
+   "n_estudios": 8,
+   "n_contrastes": 55,
+   "mediana_pp": 2.3,
+   "min_pp": 0.5,
+   "max_pp": 13.0,
+   "estudios_positivos": 8,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 92.7
+  },
+  {
+   "pilar": "PI2",
+   "clase": "Gestión del historial y la memoria",
+   "n_estudios": 12,
+   "n_contrastes": 41,
+   "mediana_pp": 4.16,
+   "min_pp": -0.7,
+   "max_pp": 17.8,
+   "estudios_positivos": 11,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 90.2
+  },
+  {
+   "pilar": "PI2",
+   "clase": "Otros (sin agrupar)",
+   "n_estudios": 2,
+   "n_contrastes": 13,
+   "mediana_pp": 4.8,
+   "min_pp": 1.0,
+   "max_pp": 8.6,
+   "estudios_positivos": 2,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 84.6
+  },
+  {
+   "pilar": "PI3",
+   "clase": "Decodificación y razonamiento guiados",
+   "n_estudios": 4,
+   "n_contrastes": 30,
+   "mediana_pp": 1.65,
+   "min_pp": -0.2,
+   "max_pp": 6.11,
+   "estudios_positivos": 3,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 73.3
+  },
+  {
+   "pilar": "PI3",
+   "clase": "Enriquecimiento del esquema y del contenido",
+   "n_estudios": 11,
+   "n_contrastes": 77,
+   "mediana_pp": 2.53,
+   "min_pp": 0.3,
+   "max_pp": 24.99,
+   "estudios_positivos": 11,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 87.0
+  },
+  {
+   "pilar": "PI3",
+   "clase": "Entrenamiento, objetivos auxiliares y datos",
+   "n_estudios": 1,
+   "n_contrastes": 12,
+   "mediana_pp": 2.05,
+   "min_pp": 2.05,
+   "max_pp": 2.05,
+   "estudios_positivos": 1,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 100.0
+  },
+  {
+   "pilar": "PI3",
+   "clase": "Vistas generadas",
+   "n_estudios": 1,
+   "n_contrastes": 11,
+   "mediana_pp": 3.17,
+   "min_pp": 3.17,
+   "max_pp": 3.17,
+   "estudios_positivos": 1,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 100.0
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Agentes con herramientas",
+   "n_estudios": 2,
+   "n_contrastes": 23,
+   "mediana_pp": 8.84,
+   "min_pp": 7.9,
+   "max_pp": 9.78,
+   "estudios_positivos": 2,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 95.7
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Decodificación restringida",
+   "n_estudios": 1,
+   "n_contrastes": 14,
+   "mediana_pp": 4.1,
+   "min_pp": 4.1,
+   "max_pp": 4.1,
+   "estudios_positivos": 1,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 100.0
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Detección de ambigüedad y consulta de la intención",
+   "n_estudios": 3,
+   "n_contrastes": 8,
+   "mediana_pp": 13.75,
+   "min_pp": 1.85,
+   "max_pp": 16.2,
+   "estudios_positivos": 3,
+   "estudios_negativos": 0,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 100.0
+  },
+  {
+   "pilar": "PI4",
+   "clase": "Entrenamiento, objetivos auxiliares y datos",
+   "n_estudios": 6,
+   "n_contrastes": 35,
+   "mediana_pp": 2.18,
+   "min_pp": -3.3,
+   "max_pp": 8.4,
+   "estudios_positivos": 5,
+   "estudios_negativos": 1,
+   "estudios_nulos": 0,
+   "pct_contrastes_positivos": 77.1
   }
  ],
  "degradacion": {
@@ -212,7 +409,7 @@
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
-   "confianza": "alta"
+   "confianza": "no evaluada"
   },
   {
    "hallazgo": "PI1 · Reescritura de la pregunta: mediana +1.9 pp (4/5 estudios positivos)",
@@ -224,45 +421,45 @@
    "confianza": "alta"
   },
   {
-   "hallazgo": "PI2 · Grafo / estado estructurado: mediana +2.9 pp (11/11 estudios positivos)",
+   "hallazgo": "PI2 · Grafo / estado estructurado: mediana +2.5 pp (12/12 estudios positivos)",
    "limitaciones_metodologicas": "sin",
-   "validez_media": 79.1,
+   "validez_media": 78.3,
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
    "confianza": "alta"
   },
   {
-   "hallazgo": "PI2 · Otros componentes del pilar: mediana +2.9 pp (21/22 estudios positivos)",
+   "hallazgo": "PI2 · Otros componentes del pilar: mediana +3.0 pp (20/21 estudios positivos)",
    "limitaciones_metodologicas": "sin",
-   "validez_media": 76.8,
+   "validez_media": 77.1,
+   "coherencia": "sin",
+   "suficiencia": "sin",
+   "pertinencia": "leves",
+   "confianza": "no evaluada"
+  },
+  {
+   "hallazgo": "PI2 · SQL / resultados previos: mediana +6.7 pp (7/8 estudios positivos)",
+   "limitaciones_metodologicas": "sin",
+   "validez_media": 81.2,
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
    "confianza": "alta"
   },
   {
-   "hallazgo": "PI2 · SQL / resultados previos: mediana +5.7 pp (6/7 estudios positivos)",
+   "hallazgo": "PI3 · Otros componentes del pilar: mediana +2.4 pp (13/14 estudios positivos)",
    "limitaciones_metodologicas": "sin",
-   "validez_media": 81.4,
+   "validez_media": 75.7,
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
-   "confianza": "alta"
+   "confianza": "no evaluada"
   },
   {
-   "hallazgo": "PI3 · Otros componentes del pilar: mediana +2.0 pp (14/15 estudios positivos)",
+   "hallazgo": "PI3 · Vinculación de esquemas: mediana +2.6 pp (20/20 estudios positivos)",
    "limitaciones_metodologicas": "sin",
-   "validez_media": 75.3,
-   "coherencia": "sin",
-   "suficiencia": "sin",
-   "pertinencia": "leves",
-   "confianza": "alta"
-  },
-  {
-   "hallazgo": "PI3 · Vinculación de esquemas: mediana +2.1 pp (19/19 estudios positivos)",
-   "limitaciones_metodologicas": "sin",
-   "validez_media": 76.3,
+   "validez_media": 76.0,
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
@@ -287,22 +484,22 @@
    "confianza": "moderada"
   },
   {
-   "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución: mediana +1.5 pp (11/11 estudios positivos)",
+   "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución: mediana +1.2 pp (12/12 estudios positivos)",
    "limitaciones_metodologicas": "leves",
-   "validez_media": 72.7,
+   "validez_media": 72.5,
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
    "confianza": "moderada"
   },
   {
-   "hallazgo": "PI4 · Otros componentes del pilar: mediana +4.1 pp (10/11 estudios positivos)",
+   "hallazgo": "PI4 · Otros componentes del pilar: mediana +4.2 pp (9/10 estudios positivos)",
    "limitaciones_metodologicas": "sin",
-   "validez_media": 77.3,
+   "validez_media": 78.0,
    "coherencia": "sin",
    "suficiencia": "sin",
    "pertinencia": "leves",
-   "confianza": "alta"
+   "confianza": "no evaluada"
   }
  ],
  "sensibilidad": {
@@ -324,28 +521,28 @@
    },
    {
     "hallazgo": "PI2 · Grafo / estado estructurado",
-    "mediana_pp": 2.9,
-    "n_estudios": 11
+    "mediana_pp": 2.45,
+    "n_estudios": 12
    },
    {
     "hallazgo": "PI2 · Otros componentes del pilar",
-    "mediana_pp": 2.85,
-    "n_estudios": 22
+    "mediana_pp": 3.05,
+    "n_estudios": 21
    },
    {
     "hallazgo": "PI2 · SQL / resultados previos",
-    "mediana_pp": 5.65,
-    "n_estudios": 7
+    "mediana_pp": 6.67,
+    "n_estudios": 8
    },
    {
     "hallazgo": "PI3 · Otros componentes del pilar",
-    "mediana_pp": 2.58,
-    "n_estudios": 16
+    "mediana_pp": 2.8,
+    "n_estudios": 15
    },
    {
     "hallazgo": "PI3 · Vinculación de esquemas",
-    "mediana_pp": 2.15,
-    "n_estudios": 19
+    "mediana_pp": 2.62,
+    "n_estudios": 20
    },
    {
     "hallazgo": "PI4 · Aclaración / interacción con el usuario",
@@ -360,12 +557,12 @@
    {
     "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución",
     "mediana_pp": 1.5,
-    "n_estudios": 12
+    "n_estudios": 13
    },
    {
     "hallazgo": "PI4 · Otros componentes del pilar",
-    "mediana_pp": 3.1,
-    "n_estudios": 12
+    "mediana_pp": 4.1,
+    "n_estudios": 11
    }
   ],
   "2_sin_preprints_efectos": [
@@ -386,13 +583,13 @@
    },
    {
     "hallazgo": "PI2 · Grafo / estado estructurado",
-    "mediana_pp": 2.9,
-    "n_estudios": 7
+    "mediana_pp": 2.4,
+    "n_estudios": 8
    },
    {
     "hallazgo": "PI2 · Otros componentes del pilar",
-    "mediana_pp": 2.65,
-    "n_estudios": 17
+    "mediana_pp": 2.85,
+    "n_estudios": 16
    },
    {
     "hallazgo": "PI2 · SQL / resultados previos",
@@ -401,13 +598,13 @@
    },
    {
     "hallazgo": "PI3 · Otros componentes del pilar",
-    "mediana_pp": 2.05,
-    "n_estudios": 13
+    "mediana_pp": 2.42,
+    "n_estudios": 12
    },
    {
     "hallazgo": "PI3 · Vinculación de esquemas",
     "mediana_pp": 1.3,
-    "n_estudios": 16
+    "n_estudios": 17
    },
    {
     "hallazgo": "PI4 · Autoconsistencia / selección de candidatos",
@@ -416,13 +613,13 @@
    },
    {
     "hallazgo": "PI4 · Autocorrección / retroalimentación de ejecución",
-    "mediana_pp": 1.5,
-    "n_estudios": 7
+    "mediana_pp": 1.05,
+    "n_estudios": 8
    },
    {
     "hallazgo": "PI4 · Otros componentes del pilar",
-    "mediana_pp": 2.98,
-    "n_estudios": 6
+    "mediana_pp": 4.1,
+    "n_estudios": 5
    }
   ],
   "2_sin_preprints_D4": {
@@ -433,7 +630,7 @@
     0.0887,
     0.1885
    ],
-   "conclusion": "considerablemente menos investigado"
+   "conclusion": "minoritario"
   },
   "3_D4_laxo": {
    "k": 49,
@@ -443,7 +640,7 @@
     0.1193,
     0.1991
    ],
-   "conclusion": "considerablemente menos investigado"
+   "conclusion": "minoritario"
   },
   "4_D4_solo_busqueda_en_bases": {
    "k": 34,
@@ -453,7 +650,7 @@
     0.0908,
     0.1696
    ],
-   "conclusion": "considerablemente menos investigado"
+   "conclusion": "minoritario"
   },
   "5_contingencia_nivel1": "No aplica: la regla de contingencia por volumen no se activó (texto completo de un turno < 400).",
   "A5_D4_foros_de_primer_nivel": {
@@ -464,7 +661,7 @@
     0.0807,
     0.2041
    ],
-   "conclusion": "considerablemente menos investigado"
+   "conclusion": "minoritario"
   },
   "A4_D4_con_no_recuperados_segun_senal": {
    "k": 77,

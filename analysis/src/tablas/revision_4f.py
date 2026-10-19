@@ -95,7 +95,7 @@ def main():
     conf = leer_csv(TAB / "confianza_hallazgos.csv")
     out["A4_nulos"] = {"umbral_pp": 0.5, "total_estudios_clase": sum(x["n"] for x in nulos),
                        "total_nulos": sum(x["nulos_umbral"] for x in nulos), "por_clase": nulos}
-    out["A4_confianza_penalizada"] = {r["hallazgo"].split(":")[0]: baja[r["confianza"]] for r in conf}
+    out["A4_confianza_penalizada"] = {r["hallazgo"].split(":")[0]: baja.get(r["confianza"], r["confianza"]) for r in conf}
     out["A4_confianza_alta_registrada"] = sum(r["confianza"] == "alta" for r in conf)
 
     # A5 — joint exclusions not re-read; rescue rate in the random QC stratum extrapolated to them

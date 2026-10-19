@@ -1,13 +1,13 @@
 hallazgo,limitaciones_metodologicas,validez_media,coherencia,suficiencia,pertinencia,confianza
 PI1 · Concatenación / historial: mediana +0.6 pp (3/3 estudios positivos),leves,66.7,sin,leves,sin,moderada
-PI1 · Otros componentes del pilar: mediana +2.4 pp (16/17 estudios positivos),sin,77.1,sin,sin,leves,alta
+PI1 · Otros componentes del pilar: mediana +2.4 pp (16/17 estudios positivos),sin,77.1,sin,sin,leves,no evaluada
 PI1 · Reescritura de la pregunta: mediana +1.9 pp (4/5 estudios positivos),sin,76.0,leves,sin,sin,alta
-PI2 · Grafo / estado estructurado: mediana +2.9 pp (11/11 estudios positivos),sin,79.1,sin,sin,leves,alta
-PI2 · Otros componentes del pilar: mediana +2.9 pp (21/22 estudios positivos),sin,76.8,sin,sin,leves,alta
-PI2 · SQL / resultados previos: mediana +5.7 pp (6/7 estudios positivos),sin,81.4,sin,sin,leves,alta
-PI3 · Otros componentes del pilar: mediana +2.0 pp (14/15 estudios positivos),sin,75.3,sin,sin,leves,alta
-PI3 · Vinculación de esquemas: mediana +2.1 pp (19/19 estudios positivos),sin,76.3,sin,sin,leves,alta
+PI2 · Grafo / estado estructurado: mediana +2.5 pp (12/12 estudios positivos),sin,78.3,sin,sin,leves,alta
+PI2 · Otros componentes del pilar: mediana +3.0 pp (20/21 estudios positivos),sin,77.1,sin,sin,leves,no evaluada
+PI2 · SQL / resultados previos: mediana +6.7 pp (7/8 estudios positivos),sin,81.2,sin,sin,leves,alta
+PI3 · Otros componentes del pilar: mediana +2.4 pp (13/14 estudios positivos),sin,75.7,sin,sin,leves,no evaluada
+PI3 · Vinculación de esquemas: mediana +2.6 pp (20/20 estudios positivos),sin,76.0,sin,sin,leves,alta
 PI4 · Aclaración / interacción con el usuario: mediana +8.9 pp (2/3 estudios positivos),sin,80.0,leves,leves,importantes,moderada
 PI4 · Autoconsistencia / selección de candidatos: mediana +1.1 pp (2/2 estudios positivos),leves,70.0,sin,importantes,sin,moderada
-PI4 · Autocorrección / retroalimentación de ejecución: mediana +1.5 pp (11/11 estudios positivos),leves,72.7,sin,sin,leves,moderada
-PI4 · Otros componentes del pilar: mediana +4.1 pp (10/11 estudios positivos),sin,77.3,sin,sin,leves,alta
+PI4 · Autocorrección / retroalimentación de ejecución: mediana +1.2 pp (12/12 estudios positivos),leves,72.5,sin,sin,leves,moderada
+PI4 · Otros componentes del pilar: mediana +4.2 pp (9/10 estudios positivos),sin,78.0,sin,sin,leves,no evaluada

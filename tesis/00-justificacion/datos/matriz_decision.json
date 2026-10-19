@@ -1,0 +1,710 @@
+{
+ "criterios": [
+  "C1_problema",
+  "C2_beneficio",
+  "C3_novedad",
+  "C4_factibilidad",
+  "C5_riesgo_nulo"
+ ],
+ "escenarios": {
+  "E0_iguales": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "E1_factibilidad": [
+   1,
+   1,
+   1,
+   2,
+   2
+  ],
+  "E2_evidencia": [
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "E3_iguales_C2_NA": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "penalizaciones": {
+  "SUSTITUTO": "requiere simular usuarios o sustituir datos empresariales por datos públicos",
+  "ANOTACION": "requiere construir o anotar un conjunto de datos",
+  "MULTICOMPONENTE": "requiere implementar varios componentes nuevos que interactúan",
+  "COSTE_API_ALTO": "muchas llamadas por turno o contextos largos (coste de API alto)",
+  "INFO_NO_OBSERVABLE": "depende de información no observable (p. ej., datos de entrenamiento de modelos cerrados)",
+  "INVIABLE": "requiere GPU, usuarios reales o datos empresariales sin sustituto"
+ },
+ "candidatos": {
+  "OE1": {
+   "candidato": "OE1",
+   "nombre": "Preprocesamiento lingüístico y restauración del contexto",
+   "tipo": "tecnica",
+   "p": [
+    1,
+    2,
+    1,
+    3,
+    2
+   ],
+   "c2_E3": 2,
+   "evidencia": {
+    "C1": "cualitativo",
+    "C2": [
+     {
+      "clase": "Reescritura / reformulación / discurso",
+      "alcance": "amplio",
+      "n_estudios": "11",
+      "positivos": "10",
+      "confianza": "alta"
+     }
+    ],
+    "C3": {
+     "indicador": "Reescritura de la pregunta",
+     "cobertura_pct": 16.7,
+     "complemento": false
+    },
+    "C4": []
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 66.7,
+   "rango_E1_factibilidad": 6,
+   "E2_evidencia": 57.1,
+   "rango_E2_evidencia": 3,
+   "E3_iguales_C2_NA": 60.0,
+   "rango_E3_iguales_C2_NA": 10,
+   "rango_min": 3,
+   "rango_max": 10,
+   "dominado_por": []
+  },
+  "OE2": {
+   "candidato": "OE2",
+   "nombre": "Grafo semántico de estado de dos capas",
+   "tipo": "tecnica",
+   "p": [
+    3,
+    2,
+    2,
+    2,
+    2
+   ],
+   "c2_E3": 2,
+   "evidencia": {
+    "C1": [
+     [
+      "deficit",
+      "Coste de contexto que crece con los turnos",
+      50.0,
+      3
+     ]
+    ],
+    "C2": [
+     {
+      "clase": "Grafo / estado / memoria estructurada",
+      "alcance": "amplio",
+      "n_estudios": "11",
+      "positivos": "10",
+      "confianza": "alta"
+     }
+    ],
+    "C3": {
+     "indicador": "Grafo dinámico entre turnos",
+     "cobertura_pct": 9.7,
+     "complemento": false
+    },
+    "C4": [
+     "MULTICOMPONENTE"
+    ]
+   },
+   "E0_iguales": 73.3,
+   "rango_E0_iguales": 1,
+   "E1_factibilidad": 71.4,
+   "rango_E1_factibilidad": 2,
+   "E2_evidencia": 76.2,
+   "rango_E2_evidencia": 1,
+   "E3_iguales_C2_NA": 73.3,
+   "rango_E3_iguales_C2_NA": 8,
+   "rango_min": 1,
+   "rango_max": 8,
+   "dominado_por": []
+  },
+  "OE3": {
+   "candidato": "OE3",
+   "nombre": "Enrutamiento relacional simbólico",
+   "tipo": "tecnica",
+   "p": [
+    2,
+    0,
+    3,
+    3,
+    0
+   ],
+   "c2_E3": 0,
+   "evidencia": {
+    "C1": [
+     [
+      "deficit",
+      "Errores de join reportados",
+      13.9,
+      2
+     ]
+    ],
+    "C2": [
+     {
+      "clase": "Joins / FK / caminos",
+      "alcance": "exacto",
+      "n_estudios": "0",
+      "positivos": "",
+      "confianza": ""
+     }
+    ],
+    "C3": {
+     "indicador": "Joins por algoritmo de caminos",
+     "cobertura_pct": 1.4,
+     "complemento": false
+    },
+    "C4": []
+   },
+   "E0_iguales": 53.3,
+   "rango_E0_iguales": 12,
+   "E1_factibilidad": 52.4,
+   "rango_E1_factibilidad": 15,
+   "E2_evidencia": 47.6,
+   "rango_E2_evidencia": 13,
+   "E3_iguales_C2_NA": 53.3,
+   "rango_E3_iguales_C2_NA": 14,
+   "rango_min": 12,
+   "rango_max": 15,
+   "dominado_por": []
+  },
+  "OE4": {
+   "candidato": "OE4",
+   "nombre": "Verificación por ejecución y autocorrección",
+   "tipo": "tecnica",
+   "p": [
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "c2_E3": 2,
+   "evidencia": {
+    "C1": "cualitativo",
+    "C2": [
+     {
+      "clase": "Autocorrección / ejecución / verificación",
+      "alcance": "amplio",
+      "n_estudios": "10",
+      "positivos": "10",
+      "confianza": "moderada"
+     }
+    ],
+    "C3": {
+     "indicador": "Retroalimentación de errores de ejecución",
+     "cobertura_pct": 13.9,
+     "complemento": false
+    },
+    "C4": [
+     "COSTE_API_ALTO"
+    ]
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 61.9,
+   "rango_E1_factibilidad": 11,
+   "E2_evidencia": 57.1,
+   "rango_E2_evidencia": 3,
+   "E3_iguales_C2_NA": 60.0,
+   "rango_E3_iguales_C2_NA": 10,
+   "rango_min": 3,
+   "rango_max": 11,
+   "dominado_por": [
+    "OE2"
+   ]
+  },
+  "OE5": {
+   "candidato": "OE5",
+   "nombre": "Evaluación multiturno y degradación por turno",
+   "tipo": "evaluacion",
+   "p": [
+    3,
+    0,
+    1,
+    2,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "C1": [
+     [
+      "deficit",
+      "Degradación por turno reportada",
+      52.8,
+      3
+     ]
+    ],
+    "C2": "sin contrastes",
+    "C3": {
+     "indicador": "Resultados desagregados por turno",
+     "cobertura_pct": 19.4,
+     "complemento": false
+    },
+    "C4": [
+     "SUSTITUTO"
+    ]
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 66.7,
+   "rango_E1_factibilidad": 6,
+   "E2_evidencia": 57.1,
+   "rango_E2_evidencia": 3,
+   "E3_iguales_C2_NA": 75.0,
+   "rango_E3_iguales_C2_NA": 4,
+   "rango_min": 3,
+   "rango_max": 6,
+   "dominado_por": [
+    "DC"
+   ]
+  },
+  "DA": {
+   "candidato": "DA",
+   "nombre": "Aclaración con el usuario e interacción (incl. abstención)",
+   "tipo": "tecnica",
+   "p": [
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "c2_E3": 2,
+   "evidencia": {
+    "C1": "cualitativo",
+    "C2": [
+     {
+      "clase": "Aclaración / interacción con el usuario (alternativa)",
+      "alcance": "exacto",
+      "n_estudios": "5",
+      "positivos": "4",
+      "confianza": "moderada"
+     }
+    ],
+    "C3": {
+     "indicador": "Mecanismo: aclaración con el usuario",
+     "cobertura_pct": 25.0,
+     "complemento": false
+    },
+    "C4": [
+     "SUSTITUTO"
+    ]
+   },
+   "E0_iguales": 53.3,
+   "rango_E0_iguales": 12,
+   "E1_factibilidad": 57.1,
+   "rango_E1_factibilidad": 12,
+   "E2_evidencia": 52.4,
+   "rango_E2_evidencia": 9,
+   "E3_iguales_C2_NA": 53.3,
+   "rango_E3_iguales_C2_NA": 14,
+   "rango_min": 9,
+   "rango_max": 14,
+   "dominado_por": [
+    "OE1",
+    "OE2",
+    "OE4"
+   ]
+  },
+  "DB": {
+   "candidato": "DB",
+   "nombre": "Datos en español y multilingües",
+   "tipo": "evaluacion",
+   "p": [
+    1,
+    0,
+    3,
+    2,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "C1": [
+     [
+      "cobertura",
+      "Datos en español",
+      0.0,
+      1
+     ]
+    ],
+    "C2": "sin contrastes",
+    "C3": {
+     "indicador": "Datos en español",
+     "cobertura_pct": 0.0,
+     "complemento": false
+    },
+    "C4": [
+     "ANOTACION"
+    ]
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 66.7,
+   "rango_E1_factibilidad": 6,
+   "E2_evidencia": 47.6,
+   "rango_E2_evidencia": 13,
+   "E3_iguales_C2_NA": 75.0,
+   "rango_E3_iguales_C2_NA": 4,
+   "rango_min": 4,
+   "rango_max": 13,
+   "dominado_por": [
+    "DB+DD"
+   ]
+  },
+  "DC": {
+   "candidato": "DC",
+   "nombre": "Metodología de evaluación multiturno",
+   "tipo": "evaluacion",
+   "p": [
+    3,
+    0,
+    1,
+    3,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "C1": [
+     [
+      "deficit",
+      "Degradación por turno reportada",
+      52.8,
+      3
+     ],
+     [
+      "reporte",
+      "Resultados desagregados por turno",
+      80.6,
+      2
+     ]
+    ],
+    "C2": "sin contrastes",
+    "C3": {
+     "indicador": "Resultados desagregados por turno",
+     "cobertura_pct": 19.4,
+     "complemento": false
+    },
+    "C4": []
+   },
+   "E0_iguales": 66.7,
+   "rango_E0_iguales": 2,
+   "E1_factibilidad": 76.2,
+   "rango_E1_factibilidad": 1,
+   "E2_evidencia": 61.9,
+   "rango_E2_evidencia": 2,
+   "E3_iguales_C2_NA": 83.3,
+   "rango_E3_iguales_C2_NA": 1,
+   "rango_min": 1,
+   "rango_max": 2,
+   "dominado_por": []
+  },
+  "DD": {
+   "candidato": "DD",
+   "nombre": "Contaminación de benchmarks y fecha de los modelos",
+   "tipo": "evaluacion",
+   "p": [
+    2,
+    0,
+    2,
+    2,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "C1": [
+     [
+      "reporte",
+      "Contaminación discutida",
+      90.3,
+      2
+     ],
+     [
+      "reporte",
+      "Fecha / versión del modelo reportada",
+      80.6,
+      2
+     ]
+    ],
+    "C2": "sin contrastes",
+    "C3": {
+     "indicador": "Contaminación discutida",
+     "cobertura_pct": 9.7,
+     "complemento": false
+    },
+    "C4": [
+     "INFO_NO_OBSERVABLE"
+    ]
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 66.7,
+   "rango_E1_factibilidad": 6,
+   "E2_evidencia": 52.4,
+   "rango_E2_evidencia": 9,
+   "E3_iguales_C2_NA": 75.0,
+   "rango_E3_iguales_C2_NA": 4,
+   "rango_min": 4,
+   "rango_max": 9,
+   "dominado_por": []
+  },
+  "DE": {
+   "candidato": "DE",
+   "nombre": "Líneas base simples fuertes",
+   "tipo": "evaluacion",
+   "p": [
+    0,
+    3,
+    0,
+    3,
+    3
+   ],
+   "c2_E3": 3,
+   "evidencia": {
+    "C1": "sin indicador",
+    "C2": [
+     {
+      "clase": "SQL previo / edición / ventana (alternativa)",
+      "alcance": "exacto",
+      "n_estudios": "12",
+      "positivos": "11",
+      "confianza": "alta"
+     },
+     {
+      "clase": "Concatenación / historial (alternativa)",
+      "alcance": "exacto",
+      "n_estudios": "3",
+      "positivos": "3",
+      "confianza": "moderada"
+     }
+    ],
+    "C3": {
+     "indicador": "Representación: historial plano",
+     "cobertura_pct": 52.8,
+     "complemento": false
+    },
+    "C4": []
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 71.4,
+   "rango_E1_factibilidad": 2,
+   "E2_evidencia": 57.1,
+   "rango_E2_evidencia": 3,
+   "E3_iguales_C2_NA": 60.0,
+   "rango_E3_iguales_C2_NA": 10,
+   "rango_min": 2,
+   "rango_max": 10,
+   "dominado_por": []
+  },
+  "DF": {
+   "candidato": "DF",
+   "nombre": "Coste y eficiencia",
+   "tipo": "evaluacion",
+   "p": [
+    3,
+    0,
+    0,
+    3,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "C1": [
+     [
+      "deficit",
+      "Coste de contexto que crece con los turnos",
+      50.0,
+      3
+     ],
+     [
+      "reporte_inv",
+      "Coste reportado: ninguno",
+      62.5,
+      2
+     ]
+    ],
+    "C2": "sin contrastes",
+    "C3": {
+     "indicador": "Coste reportado: ninguno",
+     "cobertura_pct": 37.5,
+     "complemento": true
+    },
+    "C4": []
+   },
+   "E0_iguales": 60.0,
+   "rango_E0_iguales": 5,
+   "E1_factibilidad": 71.4,
+   "rango_E1_factibilidad": 2,
+   "E2_evidencia": 57.1,
+   "rango_E2_evidencia": 3,
+   "E3_iguales_C2_NA": 75.0,
+   "rango_E3_iguales_C2_NA": 4,
+   "rango_min": 2,
+   "rango_max": 5,
+   "dominado_por": [
+    "DC"
+   ]
+  },
+  "DG": {
+   "candidato": "DG",
+   "nombre": "Esquemas grandes / empresariales",
+   "tipo": "evaluacion",
+   "p": [
+    1,
+    0,
+    3,
+    1,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "C1": [
+     [
+      "cobertura",
+      "Resultados en datos propios / industriales",
+      4.2,
+      1
+     ]
+    ],
+    "C2": "sin contrastes",
+    "C3": {
+     "indicador": "Resultados en datos propios / industriales",
+     "cobertura_pct": 4.2,
+     "complemento": false
+    },
+    "C4": [
+     "SUSTITUTO",
+     "COSTE_API_ALTO"
+    ]
+   },
+   "E0_iguales": 53.3,
+   "rango_E0_iguales": 12,
+   "E1_factibilidad": 57.1,
+   "rango_E1_factibilidad": 12,
+   "E2_evidencia": 42.9,
+   "rango_E2_evidencia": 15,
+   "E3_iguales_C2_NA": 66.7,
+   "rango_E3_iguales_C2_NA": 9,
+   "rango_min": 9,
+   "rango_max": 15,
+   "dominado_por": [
+    "DB",
+    "DB+DD",
+    "DE+DF+DG"
+   ]
+  },
+  "DA+DC": {
+   "candidato": "DA+DC",
+   "nombre": "Aclaración con el usuario e interacción (incl. abstención) + Metodología de evaluación multiturno",
+   "tipo": "combinacion",
+   "p": [
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "c2_E3": 2,
+   "evidencia": {
+    "componentes": [
+     "DA",
+     "DC"
+    ]
+   },
+   "E0_iguales": 53.3,
+   "rango_E0_iguales": 12,
+   "E1_factibilidad": 57.1,
+   "rango_E1_factibilidad": 12,
+   "E2_evidencia": 52.4,
+   "rango_E2_evidencia": 9,
+   "E3_iguales_C2_NA": 60.0,
+   "rango_E3_iguales_C2_NA": 10,
+   "rango_min": 9,
+   "rango_max": 12,
+   "dominado_por": [
+    "OE2"
+   ]
+  },
+  "DB+DD": {
+   "candidato": "DB+DD",
+   "nombre": "Datos en español y multilingües + Contaminación de benchmarks y fecha de los modelos",
+   "tipo": "combinacion",
+   "p": [
+    1.5,
+    0,
+    3,
+    2,
+    3
+   ],
+   "c2_E3": null,
+   "evidencia": {
+    "componentes": [
+     "DB",
+     "DD"
+    ]
+   },
+   "E0_iguales": 63.3,
+   "rango_E0_iguales": 3,
+   "E1_factibilidad": 69.0,
+   "rango_E1_factibilidad": 5,
+   "E2_evidencia": 52.4,
+   "rango_E2_evidencia": 9,
+   "E3_iguales_C2_NA": 79.2,
+   "rango_E3_iguales_C2_NA": 2,
+   "rango_min": 2,
+   "rango_max": 9,
+   "dominado_por": []
+  },
+  "DE+DF+DG": {
+   "candidato": "DE+DF+DG",
+   "nombre": "Líneas base simples fuertes + Coste y eficiencia + Esquemas grandes / empresariales",
+   "tipo": "combinacion",
+   "p": [
+    1.33,
+    1,
+    3,
+    1,
+    3
+   ],
+   "c2_E3": 3,
+   "evidencia": {
+    "componentes": [
+     "DE",
+     "DF",
+     "DG"
+    ]
+   },
+   "E0_iguales": 62.2,
+   "rango_E0_iguales": 4,
+   "E1_factibilidad": 63.5,
+   "rango_E1_factibilidad": 10,
+   "E2_evidencia": 55.5,
+   "rango_E2_evidencia": 8,
+   "E3_iguales_C2_NA": 75.5,
+   "rango_E3_iguales_C2_NA": 3,
+   "rango_min": 3,
+   "rango_max": 10,
+   "dominado_por": []
+  }
+ }
+}

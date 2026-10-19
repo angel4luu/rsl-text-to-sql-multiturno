@@ -1,5 +1,8 @@
 # PI1 — Restauración del contexto conversacional (Nivel 2)
 
+> **Nota (revisión posterior al cierre, 2026-10-19):** las cifras de efectos por clase de este archivo están superadas. Tras reasignar componentes de «Otros» (`otros_subclases.csv`, `revision_otros.md`), los valores vigentes están en `tablas/pi_efectos_componentes.csv`, `confianza_hallazgos.csv` y `sensibilidad.json`.
+
+
 Pregunta: ¿qué técnicas se usan para restaurar el contexto (elipsis, correferencia, reescritura con historial) y qué resultados reportan?
 
 Base: 72 estudios multiturno del Nivel 2 con validez ≥ 50 % (denominador de los porcentajes de la taxonomía) [pi15_resultados.json, `nivel2_umbral`; pi1_tecnicas.csv]. Los estudios con PI1 como pilar central son 13 [pi0_pilares_escenario.csv].

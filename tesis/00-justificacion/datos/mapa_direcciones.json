@@ -1,0 +1,513 @@
+{
+ "poblaciones": {
+  "todos": 389,
+  "nivel2": 77,
+  "nivel2_umbral": 72
+ },
+ "direcciones": {
+  "DA": {
+   "nombre": "Aclaración con el usuario e interacción (incl. abstención)",
+   "indicadores": [
+    {
+     "direccion": "DA",
+     "indicador": "Mecanismo: aclaración con el usuario",
+     "definicion": "campo:pi4_mecanismo:['ACLARACION_USUARIO']",
+     "solo_nivel2": false,
+     "n_todos": 29,
+     "pct_todos": 7.5,
+     "n_nivel2": 22,
+     "pct_nivel2": 28.6,
+     "n_nivel2_umbral": 18,
+     "pct_nivel2_umbral": 25.0,
+     "estudios_nivel2": "R00019;R00035;R00041;R00088;R00105;R00123;R00148;R00222;R00232;R00238;R00311;R00312;R00370;R00373;R00438;R00450;R00480;R00491;R00508;R00524;R00908;R00954"
+    },
+    {
+     "direccion": "DA",
+     "indicador": "Mecanismo: abstención",
+     "definicion": "campo:pi4_mecanismo:['ABSTENCION']",
+     "solo_nivel2": false,
+     "n_todos": 13,
+     "pct_todos": 3.3,
+     "n_nivel2": 5,
+     "pct_nivel2": 6.5,
+     "n_nivel2_umbral": 4,
+     "pct_nivel2_umbral": 5.6,
+     "estudios_nivel2": "R00035;R00041;R00088;R00312;R00480"
+    },
+    {
+     "direccion": "DA",
+     "indicador": "Señal de corrección: usuario",
+     "definicion": "campo:pi4_senal:['USUARIO']",
+     "solo_nivel2": false,
+     "n_todos": 29,
+     "pct_todos": 7.5,
+     "n_nivel2": 20,
+     "pct_nivel2": 26.0,
+     "n_nivel2_umbral": 16,
+     "pct_nivel2_umbral": 22.2,
+     "estudios_nivel2": "R00019;R00035;R00041;R00088;R00105;R00123;R00148;R00222;R00232;R00238;R00311;R00370;R00373;R00438;R00450;R00453;R00491;R00508;R00908;R00954"
+    },
+    {
+     "direccion": "DA",
+     "indicador": "Etiqueta: interactivo",
+     "definicion": "campo:etiquetas:['INTERACTIVO']",
+     "solo_nivel2": false,
+     "n_todos": 28,
+     "pct_todos": 7.2,
+     "n_nivel2": 21,
+     "pct_nivel2": 27.3,
+     "n_nivel2_umbral": 16,
+     "pct_nivel2_umbral": 22.2,
+     "estudios_nivel2": "R00019;R00041;R00088;R00105;R00114;R00123;R00222;R00232;R00238;R00311;R00370;R00373;R00374;R00438;R00450;R00453;R00491;R00508;R00828;R00908;R00954"
+    },
+    {
+     "direccion": "DA",
+     "indicador": "Resultados en benchmarks interactivos / de aclaración",
+     "definicion": "familia:Interactivo / aclaración",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 11,
+     "pct_nivel2": 14.3,
+     "n_nivel2_umbral": 11,
+     "pct_nivel2_umbral": 15.3,
+     "estudios_nivel2": "R00035;R00041;R00105;R00123;R00311;R00370;R00373;R00435;R00438;R00491;R00508"
+    }
+   ],
+   "contrastes_paso1": [
+    {
+     "origen": "mapa_oe.json: OE4/principal_nivel2_umbral/Aclaración / interacción con el usuario (alternativa)",
+     "clase": "Aclaración / interacción con el usuario (alternativa)",
+     "n_estudios": 5,
+     "n_contrastes": 9,
+     "mediana_pp": 16.2,
+     "min_pp": -19.05,
+     "max_pp": 43.0,
+     "estudios_positivos": 4,
+     "estudios_negativos": 1,
+     "estudios_nulos": 0,
+     "pct_contrastes_positivos": 77.8,
+     "validez_media": 70.0,
+     "limitaciones": "leves",
+     "coherencia": "leves",
+     "suficiencia": "sin",
+     "pertinencia": "importantes",
+     "confianza": "moderada"
+    }
+   ]
+  },
+  "DB": {
+   "nombre": "Datos en español y multilingües",
+   "indicadores": [
+    {
+     "direccion": "DB",
+     "indicador": "Datos en español",
+     "definicion": "campo:idioma_dataset:['ES']",
+     "solo_nivel2": false,
+     "n_todos": 3,
+     "pct_todos": 0.8,
+     "n_nivel2": 1,
+     "pct_nivel2": 1.3,
+     "n_nivel2_umbral": 0,
+     "pct_nivel2_umbral": 0.0,
+     "estudios_nivel2": "R00828"
+    },
+    {
+     "direccion": "DB",
+     "indicador": "Datos en chino",
+     "definicion": "campo:idioma_dataset:['ZH']",
+     "solo_nivel2": false,
+     "n_todos": 20,
+     "pct_todos": 5.1,
+     "n_nivel2": 10,
+     "pct_nivel2": 13.0,
+     "n_nivel2_umbral": 10,
+     "pct_nivel2_umbral": 13.9,
+     "estudios_nivel2": "R00068;R00110;R00170;R00288;R00292;R00309;R00374;R00453;R00904;R00981"
+    },
+    {
+     "direccion": "DB",
+     "indicador": "Datos en otros idiomas",
+     "definicion": "campo:idioma_dataset:['OTRO']",
+     "solo_nivel2": false,
+     "n_todos": 8,
+     "pct_todos": 2.1,
+     "n_nivel2": 2,
+     "pct_nivel2": 2.6,
+     "n_nivel2_umbral": 2,
+     "pct_nivel2_umbral": 2.8,
+     "estudios_nivel2": "R00480;R00526"
+    },
+    {
+     "direccion": "DB",
+     "indicador": "Datos en inglés",
+     "definicion": "campo:idioma_dataset:['EN']",
+     "solo_nivel2": false,
+     "n_todos": 349,
+     "pct_todos": 89.7,
+     "n_nivel2": 57,
+     "pct_nivel2": 74.0,
+     "n_nivel2_umbral": 54,
+     "pct_nivel2_umbral": 75.0,
+     "estudios_nivel2": "R00019;R00029;R00030;R00035;R00041;R00068;R00072;R00078;R00079;R00084;R00086;R00088;R00096;R00097;R00099;R00100;R00101;R00105;R00107;R00109;R00114;R00116;R00117;R00120;R00123;R00126;R00129;R00131;R00232;R00238;R00292;R00298;R00311;R00312;R00370;R00373;R00374;R00435;R00438;R00453;R00480;R00482;R00491;R00499;R00524;R00525;R00868;R00908;R00920;R00924;R00927;R00936;R00981;R01029;R01031;R01034;R01037"
+    },
+    {
+     "direccion": "DB",
+     "indicador": "Resultados en variantes de un turno (robustez, dominio, idioma)",
+     "definicion": "familia:Variantes de un turno (robustez, dominio, idioma)",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 8,
+     "pct_nivel2": 10.4,
+     "n_nivel2_umbral": 7,
+     "pct_nivel2_umbral": 9.7,
+     "estudios_nivel2": "R00079;R00148;R00170;R00292;R00438;R00450;R00482;R00508"
+    }
+   ],
+   "contrastes_paso1": []
+  },
+  "DC": {
+   "nombre": "Metodología de evaluación multiturno (historial predicho, reporte por turno, reproducibilidad)",
+   "indicadores": [
+    {
+     "direccion": "DC",
+     "indicador": "Historial de evaluación: predicho",
+     "definicion": "campo:historial_eval:['PREDICHO']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 31,
+     "pct_nivel2": 40.3,
+     "n_nivel2_umbral": 31,
+     "pct_nivel2_umbral": 43.1,
+     "estudios_nivel2": "R00019;R00030;R00042;R00072;R00079;R00093;R00099;R00105;R00114;R00116;R00117;R00120;R00123;R00129;R00131;R00148;R00292;R00309;R00311;R00370;R00373;R00435;R00438;R00482;R00491;R00499;R00508;R00868;R00908;R00981;R01029"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Historial de evaluación: solo preguntas",
+     "definicion": "campo:historial_eval:['SOLO_PREGUNTAS']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 19,
+     "pct_nivel2": 24.7,
+     "n_nivel2_umbral": 19,
+     "pct_nivel2_umbral": 26.4,
+     "estudios_nivel2": "R00074;R00079;R00084;R00086;R00096;R00097;R00100;R00101;R00107;R00109;R00126;R00222;R00511;R00920;R00924;R00950;R00994;R01031;R01034"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Historial de evaluación: gold",
+     "definicion": "campo:historial_eval:['GOLD']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 5,
+     "pct_nivel2": 6.5,
+     "n_nivel2_umbral": 5,
+     "pct_nivel2_umbral": 6.9,
+     "estudios_nivel2": "R00030;R00035;R00041;R00131;R00453"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Historial de evaluación: no reportado",
+     "definicion": "campo_nr:historial_eval",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 25,
+     "pct_nivel2": 32.5,
+     "n_nivel2_umbral": 20,
+     "pct_nivel2_umbral": 27.8,
+     "estudios_nivel2": "R00029;R00033;R00068;R00078;R00088;R00110;R00160;R00170;R00232;R00238;R00288;R00298;R00312;R00374;R00450;R00480;R00524;R00525;R00526;R00828;R00904;R00927;R00936;R00954;R01037"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Resultados desagregados por turno",
+     "definicion": "por_turno",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 14,
+     "pct_nivel2": 18.2,
+     "n_nivel2_umbral": 14,
+     "pct_nivel2_umbral": 19.4,
+     "estudios_nivel2": "R00035;R00041;R00105;R00123;R00126;R00170;R00373;R00374;R00482;R00499;R00908;R00920;R01031;R01034"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Degradación por turno reportada",
+     "definicion": "campo:degradacion_reportada:['SI']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 39,
+     "pct_nivel2": 50.6,
+     "n_nivel2_umbral": 38,
+     "pct_nivel2_umbral": 52.8,
+     "estudios_nivel2": "R00019;R00030;R00035;R00042;R00074;R00079;R00084;R00093;R00096;R00097;R00099;R00100;R00107;R00110;R00117;R00120;R00126;R00131;R00170;R00288;R00309;R00370;R00373;R00374;R00435;R00450;R00482;R00491;R00499;R00511;R00524;R00525;R00868;R00936;R00950;R00994;R01029;R01031;R01037"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Técnica reproducible (CQ2 = sí)",
+     "definicion": "cq:CQ2:1.0",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 14,
+     "pct_nivel2": 18.2,
+     "n_nivel2_umbral": 14,
+     "pct_nivel2_umbral": 19.4,
+     "estudios_nivel2": "R00093;R00101;R00105;R00110;R00117;R00126;R00129;R00131;R00288;R00370;R00373;R00435;R00868;R01029"
+    },
+    {
+     "direccion": "DC",
+     "indicador": "Código disponible",
+     "definicion": "campo:codigo_disponible:['SI']",
+     "solo_nivel2": false,
+     "n_todos": 158,
+     "pct_todos": 40.6,
+     "n_nivel2": 29,
+     "pct_nivel2": 37.7,
+     "n_nivel2_umbral": 29,
+     "pct_nivel2_umbral": 40.3,
+     "estudios_nivel2": "R00019;R00030;R00068;R00072;R00084;R00086;R00096;R00099;R00100;R00101;R00105;R00109;R00110;R00117;R00120;R00126;R00131;R00222;R00370;R00374;R00453;R00482;R00491;R00508;R00524;R00920;R00981;R00994;R01029"
+    }
+   ],
+   "contrastes_paso1": []
+  },
+  "DD": {
+   "nombre": "Contaminación de benchmarks y fecha de los modelos",
+   "indicadores": [
+    {
+     "direccion": "DD",
+     "indicador": "Contaminación discutida",
+     "definicion": "campo:contaminacion_discutida:['SI']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 7,
+     "pct_nivel2": 9.1,
+     "n_nivel2_umbral": 7,
+     "pct_nivel2_umbral": 9.7,
+     "estudios_nivel2": "R00029;R00370;R00438;R00499;R00508;R00908;R00927"
+    },
+    {
+     "direccion": "DD",
+     "indicador": "Fecha / versión del modelo reportada",
+     "definicion": "reportado:fecha_modelo",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 15,
+     "pct_nivel2": 19.5,
+     "n_nivel2_umbral": 14,
+     "pct_nivel2_umbral": 19.4,
+     "estudios_nivel2": "R00019;R00042;R00099;R00160;R00309;R00311;R00373;R00374;R00435;R00438;R00453;R00491;R00828;R00908;R00920"
+    }
+   ],
+   "contrastes_paso1": []
+  },
+  "DE": {
+   "nombre": "Líneas base simples fuertes (historial plano, concatenación, edición del SQL previo)",
+   "indicadores": [
+    {
+     "direccion": "DE",
+     "indicador": "Representación: historial plano",
+     "definicion": "campo:pi2_representacion:['HISTORIAL_PLANO']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 38,
+     "pct_nivel2": 49.4,
+     "n_nivel2_umbral": 38,
+     "pct_nivel2_umbral": 52.8,
+     "estudios_nivel2": "R00019;R00030;R00035;R00041;R00068;R00074;R00078;R00079;R00084;R00093;R00096;R00097;R00100;R00101;R00109;R00110;R00129;R00288;R00292;R00311;R00312;R00370;R00373;R00438;R00482;R00491;R00508;R00511;R00524;R00868;R00920;R00924;R00927;R00950;R00954;R00981;R00994;R01031"
+    },
+    {
+     "direccion": "DE",
+     "indicador": "Representación: edición del SQL previo",
+     "definicion": "campo:pi2_representacion:['SQL_PREVIO_EDICION']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 11,
+     "pct_nivel2": 14.3,
+     "n_nivel2_umbral": 11,
+     "pct_nivel2_umbral": 15.3,
+     "estudios_nivel2": "R00072;R00105;R00110;R00117;R00120;R00123;R00129;R00131;R00288;R00908;R01037"
+    },
+    {
+     "direccion": "DE",
+     "indicador": "Técnica: concatenación",
+     "definicion": "campo:pi1_tecnica:['CONCATENACION']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 35,
+     "pct_nivel2": 45.5,
+     "n_nivel2_umbral": 35,
+     "pct_nivel2_umbral": 48.6,
+     "estudios_nivel2": "R00030;R00035;R00042;R00068;R00072;R00074;R00078;R00079;R00084;R00093;R00096;R00100;R00101;R00105;R00109;R00110;R00116;R00123;R00288;R00292;R00311;R00312;R00370;R00373;R00482;R00491;R00511;R00868;R00924;R00927;R00954;R00981;R00994;R01031;R01037"
+    }
+   ],
+   "contrastes_paso1": [
+    {
+     "origen": "mapa_oe.json: OE2/principal_nivel2_umbral/SQL previo / edición / ventana (alternativa)",
+     "clase": "SQL previo / edición / ventana (alternativa)",
+     "n_estudios": 12,
+     "n_contrastes": 59,
+     "mediana_pp": 5.08,
+     "min_pp": -0.1,
+     "max_pp": 29.95,
+     "estudios_positivos": 11,
+     "estudios_negativos": 1,
+     "estudios_nulos": 0,
+     "pct_contrastes_positivos": 88.1,
+     "validez_media": 79.2,
+     "limitaciones": "sin",
+     "coherencia": "sin",
+     "suficiencia": "sin",
+     "pertinencia": "leves",
+     "confianza": "alta"
+    },
+    {
+     "origen": "mapa_oe.json: OE1/principal_nivel2_umbral/Concatenación / historial (alternativa)",
+     "clase": "Concatenación / historial (alternativa)",
+     "n_estudios": 3,
+     "n_contrastes": 20,
+     "mediana_pp": 0.6,
+     "min_pp": 0.15,
+     "max_pp": 7.7,
+     "estudios_positivos": 3,
+     "estudios_negativos": 0,
+     "estudios_nulos": 0,
+     "pct_contrastes_positivos": 90.0,
+     "validez_media": 66.7,
+     "limitaciones": "leves",
+     "coherencia": "sin",
+     "suficiencia": "leves",
+     "pertinencia": "sin",
+     "confianza": "moderada"
+    }
+   ]
+  },
+  "DF": {
+   "nombre": "Coste y eficiencia (latencia, tokens, coste monetario, crecimiento del contexto)",
+   "indicadores": [
+    {
+     "direccion": "DF",
+     "indicador": "Coste reportado: latencia",
+     "definicion": "campo:coste_reportado:['LATENCIA']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 13,
+     "pct_nivel2": 16.9,
+     "n_nivel2_umbral": 11,
+     "pct_nivel2_umbral": 15.3,
+     "estudios_nivel2": "R00030;R00042;R00079;R00088;R00097;R00109;R00114;R00170;R00222;R00374;R00450;R00453;R00936"
+    },
+    {
+     "direccion": "DF",
+     "indicador": "Coste reportado: tokens",
+     "definicion": "campo:coste_reportado:['TOKENS']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 10,
+     "pct_nivel2": 13.0,
+     "n_nivel2_umbral": 10,
+     "pct_nivel2_umbral": 13.9,
+     "estudios_nivel2": "R00019;R00030;R00086;R00309;R00374;R00438;R00453;R00480;R00499;R00508"
+    },
+    {
+     "direccion": "DF",
+     "indicador": "Coste reportado: monetario",
+     "definicion": "campo:coste_reportado:['MONETARIO']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 5,
+     "pct_nivel2": 6.5,
+     "n_nivel2_umbral": 5,
+     "pct_nivel2_umbral": 6.9,
+     "estudios_nivel2": "R00370;R00373;R00453;R00480;R00499"
+    },
+    {
+     "direccion": "DF",
+     "indicador": "Coste reportado: ninguno",
+     "definicion": "campo:coste_reportado:['NINGUNO']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 47,
+     "pct_nivel2": 61.0,
+     "n_nivel2_umbral": 45,
+     "pct_nivel2_umbral": 62.5,
+     "estudios_nivel2": "R00033;R00035;R00041;R00068;R00072;R00074;R00078;R00084;R00093;R00096;R00100;R00101;R00105;R00107;R00110;R00116;R00117;R00120;R00123;R00126;R00129;R00131;R00160;R00232;R00238;R00288;R00292;R00312;R00435;R00482;R00491;R00511;R00525;R00868;R00904;R00908;R00920;R00924;R00927;R00950;R00954;R00981;R00994;R01029;R01031;R01034;R01037"
+    },
+    {
+     "direccion": "DF",
+     "indicador": "Coste de contexto que crece con los turnos",
+     "definicion": "campo:pi2_coste_contexto:['CRECE_CON_TURNOS']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 36,
+     "pct_nivel2": 46.8,
+     "n_nivel2_umbral": 36,
+     "pct_nivel2_umbral": 50.0,
+     "estudios_nivel2": "R00019;R00030;R00072;R00074;R00079;R00084;R00093;R00096;R00097;R00100;R00107;R00110;R00114;R00117;R00129;R00131;R00288;R00292;R00311;R00373;R00438;R00482;R00491;R00508;R00511;R00525;R00868;R00904;R00920;R00924;R00927;R00950;R00981;R00994;R01029;R01037"
+    }
+   ],
+   "contrastes_paso1": []
+  },
+  "DG": {
+   "nombre": "Esquemas grandes / empresariales",
+   "indicadores": [
+    {
+     "direccion": "DG",
+     "indicador": "Resultados en datos propios / industriales",
+     "definicion": "familia:Datos propios / industriales",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 4,
+     "pct_nivel2": 5.2,
+     "n_nivel2_umbral": 3,
+     "pct_nivel2_umbral": 4.2,
+     "estudios_nivel2": "R00088;R00309;R00453;R00920"
+    },
+    {
+     "direccion": "DG",
+     "indicador": "Escala del esquema reportada",
+     "definicion": "reportado:pi3_escala_esquema",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 15,
+     "pct_nivel2": 19.5,
+     "n_nivel2_umbral": 13,
+     "pct_nivel2_umbral": 18.1,
+     "estudios_nivel2": "R00078;R00079;R00114;R00148;R00222;R00309;R00370;R00435;R00450;R00453;R00828;R00908;R00920;R00927;R01034"
+    },
+    {
+     "direccion": "DG",
+     "indicador": "Errores de join reportados",
+     "definicion": "campo:errores_join_reportados:['SI']",
+     "solo_nivel2": true,
+     "n_todos": "",
+     "pct_todos": "",
+     "n_nivel2": 10,
+     "pct_nivel2": 13.0,
+     "n_nivel2_umbral": 10,
+     "pct_nivel2_umbral": 13.9,
+     "estudios_nivel2": "R00030;R00041;R00110;R00123;R00170;R00292;R00482;R00511;R00868;R00981"
+    }
+   ],
+   "contrastes_paso1": []
+  }
+ }
+}

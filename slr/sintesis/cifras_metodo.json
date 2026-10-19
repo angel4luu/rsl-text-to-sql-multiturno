@@ -46,6 +46,5 @@
  "cal_items": 10,
  "cal_items_validez": 5,
  "cal_umbral": 50,
- "cal_calibracion_n": 5,
- "d4_umbral": 30
+ "cal_calibracion_n": 5
 }

@@ -93,6 +93,7 @@
 % --- Apéndices (una columna; tablas y figuras numeradas por apéndice: A1, B1, …) ---
 \onecolumn
 \appendices
+\crefalias{section}{appendix}   % cleveref: «apéndice X», no «sección X»
 \counterwithin*{table}{section}\counterwithin*{figure}{section}
 \renewcommand{\thetable}{\thesection\arabic{table}}\renewcommand{\thefigure}{\thesection\arabic{figure}}
 \input{secciones/09-apendices}

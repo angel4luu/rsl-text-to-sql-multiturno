@@ -1,5 +1,8 @@
 # PI2 — Representación y actualización del estado del diálogo (Nivel 2)
 
+> **Nota (revisión posterior al cierre, 2026-10-19):** las cifras de efectos por clase de este archivo están superadas. Tras reasignar componentes de «Otros» (`otros_subclases.csv`, `revision_otros.md`), los valores vigentes están en `tablas/pi_efectos_componentes.csv`, `confianza_hallazgos.csv` y `sensibilidad.json`.
+
+
 Pregunta: ¿cómo se representa y actualiza el estado del diálogo y cómo influye en el rendimiento a lo largo de los turnos?
 
 Base: 72 estudios del Nivel 2 con validez ≥ 50 % [pi15_resultados.json, `nivel2_umbral`; pi2_representacion.csv]. Estudios con PI2 como pilar central: 26 [pi0_pilares_escenario.csv].
